@@ -20,6 +20,8 @@
 | Market and competition | ReportMiner already has AI templates; print capture exists; small-lab thesis weak | 03, 04 |
 | Decision | **MODIFY** (new thesis, Kiro-built app, free-text confirmation, scope cut) | 22 |
 | Kiro application plan + MVP acceptance criteria | stack B (Python engine + FastAPI + React), new repository, schedule | 24, 25 |
+| Design research + design system | GetDesign.md inspected (free catalogue ≈ 90 marketing-site analyses, MIT repository); 18 references preserved; original "Greenbar" system (IBM structure, OpenCode document surface, Warp dark warmth), contrast-checked | 26, 27 |
+| Kiro bootstrap kit | spec briefs, steering inputs, prior-work template, first-session steps (inputs for Kiro, not Kiro output) | kiro-bootstrap/ |
 | GitHub checkpoint | pushed `poc/spoolgeist-validation`: `53cd236`, `40696d5`, `650f47f` (remote verified) | 23 |
 
 ## In progress
@@ -37,4 +39,4 @@ None. Everything is committed (see 23).
 | — | Is `Sidd927/kiroween-2026` public or private? (I did not change visibility) | the archive may be linked from the submission | any time |
 
 ## Not started (intentionally, until C1–C3)
-Kiro specs and implementation, design research (GetDesign.md, report 26/27), the application, deployment, video and submission text.
+Kiro specs and implementation, the application, deployment, video and submission text. **The MODIFY plan was accepted by the user on 22 Nov.** The build starts as soon as Kiro is installed and the application repository exists.
