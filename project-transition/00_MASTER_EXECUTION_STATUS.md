@@ -22,6 +22,7 @@
 | Kiro application plan + MVP acceptance criteria | stack B (Python engine + FastAPI + React), new repository, schedule | 24, 25 |
 | Design research + design system | GetDesign.md inspected (free catalogue ≈ 90 marketing-site analyses, MIT repository); 18 references preserved; original "Greenbar" system (IBM structure, OpenCode document surface, Warp dark warmth), contrast-checked | 26, 27 |
 | Kiro bootstrap kit | spec briefs, steering inputs, prior-work template, first-session steps (inputs for Kiro, not Kiro output) | kiro-bootstrap/ |
+| Application repository | **created**: https://github.com/Sidd927/spoolgeist (public, MIT detected by GitHub, `main` at `257961a`): README stub, PRIOR_WORK.md and `.gitignore` only (Claude Code, disclosed). **No app code and no `/.kiro` yet: both must come from Kiro.** Local clone: `~/Projects/spoolgeist` | — |
 | GitHub checkpoint | pushed `poc/spoolgeist-validation`: `53cd236`, `40696d5`, `650f47f` (remote verified) | 23 |
 
 ## In progress
@@ -32,7 +33,7 @@ None. Everything is committed (see 23).
 |---|---|---|---|
 | C1 | Install Kiro (https://kiro.dev), sign in, and **submit the Kiroween credit request form** with your Kiro user ID | Kiro is mandatory; credits close 1 Dec 12:00 PT and need about 48 business hours | as soon as possible (aim for 24 Nov) |
 | C2 | Tell me team size (max 3) and daily hours | sets scope | now |
-| C3 | Create a new public GitHub repository for the application (e.g. `spoolgeist`), or authorise me to create it with `gh` | the rules require a public repository with `/.kiro` at the root | before building |
+| C3 | ~~Create the application repository~~ **done 22 Nov** (`Sidd927/spoolgeist`) | — | — |
 | C7 | Approve or edit and send the organiser clarification (report 21) | eligibility certainty | now |
 | C4 | Schedule up to 5 interviews (guide in report 04), or accept hypothesis framing | Impact score | 28 Nov |
 | C5 | Review and approve the demo rules as a human | no human has approved any rule | before recording |
