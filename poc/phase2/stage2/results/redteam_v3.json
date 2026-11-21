@@ -1,0 +1,173 @@
+{
+ "text_probes": {
+  "R1_result_on_field_line": {
+   "v2.1": {
+    "A:ACCEPT": 10,
+    "B:ACCEPT": 10,
+    "C:ACCEPT": 10,
+    "D:ACCEPT": 10,
+    "E:REJECT": 10,
+    "F:ACCEPT": 10
+   },
+   "v3": {
+    "A:ACCEPT": 10,
+    "B:ACCEPT": 10,
+    "C:ACCEPT": 10,
+    "D:ACCEPT": 10,
+    "E:REJECT": 10,
+    "F:REJECT": 10
+   },
+   "examples": [
+    {
+     "layout": "A",
+     "dropped": "SODIUM 138 mmol/L",
+     "results_extracted": 9,
+     "printed_results": 10
+    },
+    {
+     "layout": "A",
+     "dropped": "SODIUM 138 mmol/L",
+     "results_extracted": 10,
+     "printed_results": 11
+    },
+    {
+     "layout": "E",
+     "v3_reason": "missing_field: patient_id"
+    },
+    {
+     "layout": "F",
+     "v3_reason": "missing_field: patient_sex"
+    }
+   ]
+  },
+  "R2_result_on_skip_or_anchor_line_outside_table": {
+   "v2.1": {
+    "A:ACCEPT": 10,
+    "B:ACCEPT": 10,
+    "C:ACCEPT": 10,
+    "E:ACCEPT": 10,
+    "n/a": 20
+   },
+   "v3": {
+    "A:ACCEPT": 10,
+    "B:ACCEPT": 10,
+    "C:ACCEPT": 10,
+    "E:ACCEPT": 10,
+    "n/a": 20
+   },
+   "examples": [
+    {
+     "layout": "A",
+     "dropped": "SODIUM 138 mmol/L",
+     "results_extracted": 9,
+     "printed_results": 10
+    },
+    {
+     "layout": "A",
+     "dropped": "SODIUM 138 mmol/L",
+     "results_extracted": 10,
+     "printed_results": 11
+    }
+   ]
+  },
+  "R3_result_on_skip_line_inside_table": {
+   "v2.1": {
+    "A:ACCEPT": 10,
+    "B:ACCEPT": 10,
+    "C:ACCEPT": 10,
+    "n/a": 30
+   },
+   "v3": {
+    "A:ACCEPT": 10,
+    "B:ACCEPT": 10,
+    "C:ACCEPT": 10,
+    "n/a": 30
+   },
+   "examples": [
+    {
+     "layout": "A",
+     "dropped": "SODIUM 138 mmol/L",
+     "results_extracted": 9,
+     "printed_results": 10
+    },
+    {
+     "layout": "A",
+     "dropped": "SODIUM 138 mmol/L",
+     "results_extracted": 10,
+     "printed_results": 11
+    }
+   ]
+  },
+  "R4_duplicated_field_line_with_result": {
+   "v2.1": {
+    "A:ACCEPT": 10,
+    "B:ACCEPT": 10,
+    "C:ACCEPT": 10,
+    "D:ACCEPT": 10,
+    "E:ACCEPT": 10,
+    "F:ACCEPT": 10
+   },
+   "v3": {
+    "A:REJECT": 10,
+    "B:REJECT": 10,
+    "C:REJECT": 10,
+    "D:REJECT": 10,
+    "E:REJECT": 10,
+    "F:REJECT": 10
+   },
+   "examples": [
+    {
+     "layout": "A",
+     "v3_reason": "unknown_layout"
+    },
+    {
+     "layout": "B",
+     "v3_reason": "unknown_layout"
+    },
+    {
+     "layout": "C",
+     "v3_reason": "unknown_layout"
+    },
+    {
+     "layout": "D",
+     "v3_reason": "unknown_layout"
+    },
+    {
+     "layout": "E",
+     "v3_reason": "unknown_layout"
+    },
+    {
+     "layout": "F",
+     "v3_reason": "unknown_layout"
+    }
+   ]
+  }
+ },
+ "R5_forged_gate_report": {
+  "approve_accepted_forged_gate_report": true,
+  "loaded": [
+   "lab-a"
+  ],
+  "clean_doc_outcome_with_forged_binding": "REJECT",
+  "reasons": [
+   "skip_hides_row: HAEMOGLOBIN                   15.7        gm/dL         13.0"
+  ]
+ },
+ "R6_revoke_fallback": {
+  "active_after_revoking_v4": [
+   [
+    "lab-a",
+    3
+   ]
+  ]
+ },
+ "R7_processing_exception": {
+  "job_persisted": 1,
+  "review_queue_entries": 0,
+  "out_entries": 0,
+  "event_log_mentions_failure": false,
+  "unhandled_exceptions": [
+   "simulated: approvals.jsonl chain broken"
+  ]
+ }
+}

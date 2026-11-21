@@ -1,0 +1,26 @@
+{
+ "A": {
+  "plain:REJECT": 40,
+  "damaged:REJECT": 40
+ },
+ "B": {
+  "plain:REJECT": 40,
+  "damaged:REJECT": 40
+ },
+ "C": {
+  "plain:REJECT": 40,
+  "damaged:REJECT": 40
+ },
+ "D": {
+  "plain:REJECT": 40,
+  "damaged:REJECT": 40
+ },
+ "E": {
+  "plain:REJECT": 40,
+  "damaged:REJECT": 40
+ },
+ "F": {
+  "plain:REJECT": 40,
+  "damaged:REJECT": 40
+ }
+}

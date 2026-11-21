@@ -1,0 +1,105 @@
+{
+ "doc_id": "F-65448027-page_break",
+ "layout": "F",
+ "cls": "page_break",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "TUVESUxJTksgUkVGRVJFTkNFIExBQiAgLSAgQUNDRVNTSU9OIDQ0NTczNTUKUFQ6IEJIT1NBTEUgUE9PSkEgICAgICAgICAgTVJOIDQ5MzU1OTg0ICAgIEFHRTogMzdZICBTRVg6IE0KQ09MTEVDVEVEIDA4LzE4LzIwMjYgMDkyMCAgIFJFQ0VJVkVEIDA4LzE5LzIwMjYgMDg1NQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KVEVTVCBOQU1FIChVTklUUykgICAgICAgICAgICAgICAgICAgUkVTVUxUICAgIEZMQUcgICBSRUYKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCkhFTU9HTE9CSU4gKGcvZEwpICAgICAgICAgICAgICAgICAgIDE1LjEgICAgICAgICAgICAgMTMuMC0xNy4wCkhFTUFUT0NSSVQgKCUpICAgICAgICAgICAgICAgICAgICAgIDQ4LjIgICAgICAgICAgICAgNDAuMC01MC4wCgpNRURJTElOSyBSRUZFUkVOQ0UgTEFCICAtICBBQ0NFU1NJT04gNDQ1NzM1NQpQVDogQkhPU0FMRSBQT09KQSAgICAgICAgICBNUk4gNDkzNTU5ODQgICAgQUdFOiAzN1kgIFNFWDogTQpDT0xMRUNURUQgMDgvMTgvMjAyNiAwOTIwICAgUkVDRUlWRUQgMDgvMTkvMjAyNiAwODU1Cj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpURVNUIE5BTUUgKFVOSVRTKSAgICAgICAgICAgICAgICAgICBSRVNVTFQgICAgRkxBRyAgIFJFRgotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KV0JDIChLL3VMKSAgICAgICAgICAgICAgICAgICAgICAgICAgOC41ICAgICAgICAgICAgICA0LjAtMTEuMApSQkMgKE0vdUwpICAgICAgICAgICAgICAgICAgICAgICAgICA1LjE4ICAgICAgICAgICAgIDQuNTAtNS45MApQTEFURUxFVFMgKEsvdUwpICAgICAgICAgICAgICAgICAgICAzNTEgICAgICAgICAgICAgIDE1MC00MDAKTUNWIChmTCkgICAgICAgICAgICAgICAgICAgICAgICAgICAgOTIuOSAgICAgICAgICAgICA4MC4wLTEwMC4wCkdMVUNPU0UsIEZBU1RJTkcgKG1nL2RMKSAgICAgICAgICAgIDkwICAgICAgICAgICAgICAgNzAtOTkKQ1JFQVRJTklORSAobWcvZEwpICAgICAgICAgICAgICAgICAgMS45OSAgICAgIEggICAgICAwLjUwLTEuMTAKQVNUIChVL0wpICAgICAgICAgICAgICAgICAgICAgICAgICAgMjYgICAgICAgICAgICAgICAxMC00MAotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KRU5EIE9GIFJFUE9SVApTWU5USEVUSUMgU0FNUExFIC0gTk9UIEEgUkVBTCBQQVRJRU5UCg==",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "49355984",
+  "patient_name": "BHOSALE POOJA",
+  "patient_age": 37,
+  "patient_sex": "male",
+  "collected": "2026-08-18",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "15.1",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN",
+    "flag": "",
+    "ref_low": "13.0",
+    "ref_high": "17.0"
+   },
+   {
+    "code": "HCT",
+    "value": "48.2",
+    "unit": "%",
+    "label": "HEMATOCRIT",
+    "flag": "",
+    "ref_low": "40.0",
+    "ref_high": "50.0"
+   },
+   {
+    "code": "WBC",
+    "value": "8.5",
+    "unit": "K/uL",
+    "label": "WBC",
+    "flag": "",
+    "ref_low": "4.0",
+    "ref_high": "11.0"
+   },
+   {
+    "code": "RBC",
+    "value": "5.18",
+    "unit": "M/uL",
+    "label": "RBC",
+    "flag": "",
+    "ref_low": "4.50",
+    "ref_high": "5.90"
+   },
+   {
+    "code": "PLT",
+    "value": "351",
+    "unit": "K/uL",
+    "label": "PLATELETS",
+    "flag": "",
+    "ref_low": "150",
+    "ref_high": "400"
+   },
+   {
+    "code": "MCV",
+    "value": "92.9",
+    "unit": "fL",
+    "label": "MCV",
+    "flag": "",
+    "ref_low": "80.0",
+    "ref_high": "100.0"
+   },
+   {
+    "code": "GLU",
+    "value": "90",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING",
+    "flag": "",
+    "ref_low": "70",
+    "ref_high": "99"
+   },
+   {
+    "code": "CREA",
+    "value": "1.99",
+    "unit": "mg/dL",
+    "label": "CREATININE",
+    "flag": "H",
+    "ref_low": "0.50",
+    "ref_high": "1.10"
+   },
+   {
+    "code": "AST",
+    "value": "26",
+    "unit": "U/L",
+    "label": "AST",
+    "flag": "",
+    "ref_low": "10",
+    "ref_high": "40"
+   }
+  ],
+  "collected_time": "09:20",
+  "reported": null,
+  "notes": [],
+  "flag_semantics": "direction"
+ },
+ "note": "",
+ "split": "test"
+}

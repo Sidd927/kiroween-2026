@@ -1,0 +1,645 @@
+{
+ "binding_id": "lab-f",
+ "description": "Medilink Reference Lab report: PT/MRN header, COLLECTED line, TEST NAME (UNITS) RESULT FLAG REF table.",
+ "layout": {
+  "anchors": [
+   "^MEDILINK REFERENCE LAB\\s+-\\s+ACCESSION",
+   "^TEST NAME \\(UNITS\\)\\s+RESULT\\s+FLAG\\s+REF$",
+   "^END OF REPORT$"
+  ]
+ },
+ "fields": {
+  "patient_id": {
+   "regex": "^PT:\\s.*?\\sMRN\\s+(?P<v>\\d{6,10})\\b",
+   "type": "string",
+   "required": true,
+   "pattern": "\\d{6,10}"
+  },
+  "patient_name": {
+   "regex": "^PT:\\s+(?P<v>\\S.*?)\\s+MRN\\s+\\d",
+   "type": "string",
+   "required": true
+  },
+  "patient_age": {
+   "regex": "\\bAGE:\\s*(?P<v>\\d{1,3})Y\\b",
+   "type": "integer",
+   "required": true
+  },
+  "patient_sex": {
+   "regex": "\\bSEX:\\s*(?P<v>[MF])$",
+   "type": "enum",
+   "enum_map": {
+    "M": "male",
+    "F": "female"
+   },
+   "required": true
+  },
+  "collected": {
+   "regex": "^COLLECTED\\s+(?P<v>\\d{2}/\\d{2}/\\d{4} \\d{4})\\b",
+   "type": "date",
+   "format": "%m/%d/%Y %H%M",
+   "required": true
+  }
+ },
+ "results": {
+  "start": "^TEST NAME \\(UNITS\\)\\s+RESULT\\s+FLAG\\s+REF$",
+  "end": "^END OF REPORT$",
+  "skip_lines": [
+   "^\\s*$",
+   "^=+$",
+   "^-+$",
+   "^TEST NAME \\(UNITS\\)\\s+RESULT\\s+FLAG\\s+REF$",
+   "^MEDILINK REFERENCE LAB\\s+-\\s+ACCESSION \\d+$",
+   "^PT:\\s.*\\sMRN\\s+\\d+\\s+AGE:.*$",
+   "^COLLECTED\\s+\\d{2}/\\d{2}/\\d{4} \\d{4}\\s+RECEIVED\\s+\\d{2}/\\d{2}/\\d{4} \\d{4}$"
+  ],
+  "row": "^(?P<label>[A-Z][A-Z ,]*?) \\((?P<unit>[^()\\s]+)\\)[ ]+(?P<value>\\d+(?:\\.\\d+)?)(?:[ ]+(?P<flag>[HL])(?=[ ]))?[ ]+(?P<ref_low>\\d+(?:\\.\\d+)?)-(?P<ref_high>\\d+(?:\\.\\d+)?)$",
+  "labels": {
+   "HEMOGLOBIN": "HGB",
+   "HEMATOCRIT": "HCT",
+   "WBC": "WBC",
+   "RBC": "RBC",
+   "PLATELETS": "PLT",
+   "MCV": "MCV",
+   "GLUCOSE, FASTING": "GLU",
+   "CREATININE": "CREA",
+   "ALT": "ALT",
+   "AST": "AST"
+  },
+  "flags": {
+   "H": "H",
+   "L": "L"
+  },
+  "min_rows": 1,
+  "max_rows": 30
+ },
+ "version": 11,
+ "compiled": {
+  "compiler": "spoolgeist_h.compile/5",
+  "header": [
+   {
+    "regex": "^MEDILINK REFERENCE LAB\\s+-\\s+ACCESSION",
+    "source": "anchor"
+   },
+   {
+    "regex": "^PT:\\s.*\\sMRN\\s+\\d+\\s+AGE:.*$",
+    "source": "skip"
+   },
+   {
+    "regex": "^COLLECTED\\s+\\d{2}/\\d{2}/\\d{4} \\d{4}\\s+RECEIVED\\s+\\d{2}/\\d{2}/\\d{4} \\d{4}$",
+    "source": "skip"
+   },
+   {
+    "exact": "========================================================================"
+   }
+  ],
+  "identity_index": 0,
+  "template_lines": [
+   "------------------------------------------------------------------------",
+   "========================================================================",
+   "END OF REPORT",
+   "SYNTHETIC SAMPLE - NOT A REAL PATIENT",
+   "TEST NAME (UNITS) RESULT FLAG REF"
+  ],
+  "continuation_len": 4,
+  "llm_binding": {
+   "binding_id": "lab-f",
+   "description": "Medilink Reference Lab report: PT/MRN header, COLLECTED line, TEST NAME (UNITS) RESULT FLAG REF table.",
+   "layout": {
+    "anchors": [
+     "^MEDILINK REFERENCE LAB\\s+-\\s+ACCESSION",
+     "^TEST NAME \\(UNITS\\)\\s+RESULT\\s+FLAG\\s+REF$",
+     "^END OF REPORT$"
+    ]
+   },
+   "fields": {
+    "patient_id": {
+     "regex": "^PT:\\s.*?\\sMRN\\s+(?P<v>\\d{6,10})\\b",
+     "type": "string",
+     "required": true,
+     "pattern": "\\d{6,10}"
+    },
+    "patient_name": {
+     "regex": "^PT:\\s+(?P<v>\\S.*?)\\s+MRN\\s+\\d",
+     "type": "string",
+     "required": true
+    },
+    "patient_age": {
+     "regex": "\\bAGE:\\s*(?P<v>\\d{1,3})Y\\b",
+     "type": "integer",
+     "required": false
+    },
+    "patient_sex": {
+     "regex": "\\bSEX:\\s*(?P<v>[MF])$",
+     "type": "enum",
+     "enum_map": {
+      "M": "male",
+      "F": "female"
+     },
+     "required": false
+    },
+    "collected": {
+     "regex": "^COLLECTED\\s+(?P<v>\\d{2}/\\d{2}/\\d{4} \\d{4})\\b",
+     "type": "date",
+     "format": "%m/%d/%Y %H%M",
+     "required": true
+    }
+   },
+   "results": {
+    "start": "^TEST NAME \\(UNITS\\)\\s+RESULT\\s+FLAG\\s+REF$",
+    "end": "^END OF REPORT$",
+    "skip_lines": [
+     "^\\s*$",
+     "^=+$",
+     "^-+$",
+     "^TEST NAME \\(UNITS\\)\\s+RESULT\\s+FLAG\\s+REF$",
+     "^MEDILINK REFERENCE LAB\\s+-\\s+ACCESSION \\d+$",
+     "^PT:\\s.*\\sMRN\\s+\\d+\\s+AGE:.*$",
+     "^COLLECTED\\s+\\d{2}/\\d{2}/\\d{4} \\d{4}\\s+RECEIVED\\s+\\d{2}/\\d{2}/\\d{4} \\d{4}$"
+    ],
+    "row": "^(?P<label>[A-Z][A-Z ,]*?) \\((?P<unit>[^()\\s]+)\\)[ ]+(?P<value>\\d+(?:\\.\\d+)?)(?:[ ]+(?P<flag>[HL])(?=[ ]))?[ ]+(?P<ref_low>\\d+(?:\\.\\d+)?)-(?P<ref_high>\\d+(?:\\.\\d+)?)$",
+    "labels": {
+     "HEMOGLOBIN": "HGB",
+     "HEMATOCRIT": "HCT",
+     "WBC": "WBC",
+     "RBC": "RBC",
+     "PLATELETS": "PLT",
+     "MCV": "MCV",
+     "GLUCOSE, FASTING": "GLU",
+     "CREATININE": "CREA",
+     "ALT": "ALT",
+     "AST": "AST"
+    },
+    "flags": {
+     "H": "H",
+     "L": "L"
+    },
+    "min_rows": 1,
+    "max_rows": 30
+   }
+  },
+  "sample_refs": [
+   {
+    "path": "data/corpus2/gen/F/F-2500000-clean.json",
+    "sha256": "0a1e43314302a4a7d501f7fd039f4ee1d87ff60ac5edd7ae318b51314887a40f"
+   },
+   {
+    "path": "data/corpus2/gen/F/F-2500001-clean.json",
+    "sha256": "a672dce7d75917040641f8bd1baf897743bf47b02fe872b541811728115e0e5c"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500000-clean.json",
+    "sha256": "d55656f3b5a5fbc71ce5ae25f5433931fd6f4900d1c464d427c229d33a6e56c2"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500001-clean.json",
+    "sha256": "217ff77f0a7e0f1e32a3fbc93c900b5cddbd91e8e56c2ef0a9eee6fb5aeca2a0"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500002-clean.json",
+    "sha256": "416903484aa2fafd13f3f69c0842caacd6c7e622bf0e070694604472785fd5db"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500003-clean.json",
+    "sha256": "d466dc96daeb9a9ec60d57fec95d8ec5c7853ca88db2e7ea89a904d66539ff75"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500004-clean.json",
+    "sha256": "740285695b710ae4312872a51d0a58d27381c9196d2d608833c1874dcf0a0fd4"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500005-clean.json",
+    "sha256": "f35b664e8255febc24d6ef0e030b4f5e5b7e1cb9c4e65e71f3f49b9d2c575fd7"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500006-clean.json",
+    "sha256": "3bed5f4963f186ed8ac2e971dc676abc7962767c19569871e2cc6d2c00c01a18"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500007-clean.json",
+    "sha256": "89acc17c13abe45291093b8680877d70d0e17e004c67131a29a1e35faaa419a7"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500008-clean.json",
+    "sha256": "bd41c007ab8daf86542662047664d542b0fec3d3ef5e59c55915f7424b92af8a"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500009-clean.json",
+    "sha256": "d83aaed00d52d9fb44d522fa8e4555fd972585196841dd9edae706510c05702b"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500010-clean.json",
+    "sha256": "902b56ff19154810358276b0dc4832becfe823002691b4313be62cded18aff81"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500011-clean.json",
+    "sha256": "cd03062fafacfdca406623963a012f032f2ae6ea12af5028eece7a277fbb2c35"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3501000-col_shift.json",
+    "sha256": "01942867abb6f2dfe45a9daf0bf79fb5d441df8614db2ad7652af3adf52a579d"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3501001-col_shift.json",
+    "sha256": "82726c5643fa137fce2cd38864163cf1cf1582511e29326abbacec02794a4b19"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3502000-crlf_trailing.json",
+    "sha256": "79783a5a7e6c5dd0d61750f080ac1a52e51a4a868eddf34e620cb5093fe3804c"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3502001-crlf_trailing.json",
+    "sha256": "ff75f44e4e718f03ccaec405f313fe8e00d218f09e60ae63b9c2d1e2a884e2f6"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3503000-drop_optional.json",
+    "sha256": "c63caddbde8edcc60d3b3ba1b1839f60efc2499670c37b9917bf7354c137f569"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3503001-drop_optional.json",
+    "sha256": "f692ea24fd4926d04c4d195d731a9567d36f3d4167c1a4347c9a01219af93fba"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3504000-page_break.json",
+    "sha256": "76593c564458281f9e98303ac34ca424fae87c7b5968795180c5cb0d8673bcc7"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3504001-page_break.json",
+    "sha256": "5ba3c321083d4d8b3fd7e8c185986ddce69ff96fb286b39d2500c7fff85d4c4f"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3505000-long_name_overflow.json",
+    "sha256": "c0419a9e1f62c2ec08be4db8c67c66823a6302d3bbddb1f170539bd4ad789942"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3505001-long_name_overflow.json",
+    "sha256": "f9eb6a5977f6c08df8ef76651cdb46f159de8c87dbd42248f7fa94709995870c"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3506000-referrer_variation.json",
+    "sha256": "cf0de367ffbf0f958d9f8fad1997e6b6e7bd7edf7fb92f6ca8cb29ac4b9cb229"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3506001-referrer_variation.json",
+    "sha256": "2a948ce3c45159a0d03b2fa07f669eca797dffa48a11497b36d2277a96f1605b"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3507000-approved_note.json",
+    "sha256": "2d4d0bd4edbfd8646e50536416de104e84273ad9ff78e05ccce1b7187d400a32"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3507001-approved_note.json",
+    "sha256": "7a9726c1743858fd8f83f6bca14c51a46e38e51674d6bf0f5c9cbcf15aa53579"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3508000-interpretive_note.json",
+    "sha256": "a7ee7d07f05a5b2246727e013b14821e4467db41d5eecf77b6be2e5138dd1051"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3508001-interpretive_note.json",
+    "sha256": "266a2fd31209bbeac6d0a6c3594bbdcfcce4f28cfe791f570ae0e63cd6b7399f"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3509000-section_subheading.json",
+    "sha256": "a715c462fdc85504a5af7020ffbfdb45bc8e8bfc8d6e4995b17bf39f659a9146"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3509001-section_subheading.json",
+    "sha256": "b97036f13e600238acaef247406e4baf805b38d385c672f67b0c16b07b942249"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3511000-sex_specific_ranges.json",
+    "sha256": "832973ddd3c9880fc4a32de4762f417e83291926b4c3ff12e0b765bf06e869d1"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3511001-sex_specific_ranges.json",
+    "sha256": "18ba389dc814dcd770617353c3c04f2e2ae4edb954e606c212727e007d11deaa"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3512000-abnormal_values.json",
+    "sha256": "5f3717c0f1d8e23d21954a6152891629f37b2237cf06186dce73af28f137a944"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3512001-abnormal_values.json",
+    "sha256": "c014208ea63256e6772642c0e4f02c53aec42c42b67c7614b5ee339a91e27f3f"
+   }
+  ],
+  "regression_refs": [
+   {
+    "path": "data/corpus2/gen/F/F-2500000-clean.json",
+    "sha256": "0a1e43314302a4a7d501f7fd039f4ee1d87ff60ac5edd7ae318b51314887a40f"
+   },
+   {
+    "path": "data/corpus2/gen/F/F-2500001-clean.json",
+    "sha256": "a672dce7d75917040641f8bd1baf897743bf47b02fe872b541811728115e0e5c"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500000-clean.json",
+    "sha256": "d55656f3b5a5fbc71ce5ae25f5433931fd6f4900d1c464d427c229d33a6e56c2"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500001-clean.json",
+    "sha256": "217ff77f0a7e0f1e32a3fbc93c900b5cddbd91e8e56c2ef0a9eee6fb5aeca2a0"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500002-clean.json",
+    "sha256": "416903484aa2fafd13f3f69c0842caacd6c7e622bf0e070694604472785fd5db"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500003-clean.json",
+    "sha256": "d466dc96daeb9a9ec60d57fec95d8ec5c7853ca88db2e7ea89a904d66539ff75"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500004-clean.json",
+    "sha256": "740285695b710ae4312872a51d0a58d27381c9196d2d608833c1874dcf0a0fd4"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500005-clean.json",
+    "sha256": "f35b664e8255febc24d6ef0e030b4f5e5b7e1cb9c4e65e71f3f49b9d2c575fd7"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500006-clean.json",
+    "sha256": "3bed5f4963f186ed8ac2e971dc676abc7962767c19569871e2cc6d2c00c01a18"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500007-clean.json",
+    "sha256": "89acc17c13abe45291093b8680877d70d0e17e004c67131a29a1e35faaa419a7"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500008-clean.json",
+    "sha256": "bd41c007ab8daf86542662047664d542b0fec3d3ef5e59c55915f7424b92af8a"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500009-clean.json",
+    "sha256": "d83aaed00d52d9fb44d522fa8e4555fd972585196841dd9edae706510c05702b"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500010-clean.json",
+    "sha256": "902b56ff19154810358276b0dc4832becfe823002691b4313be62cded18aff81"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3500011-clean.json",
+    "sha256": "cd03062fafacfdca406623963a012f032f2ae6ea12af5028eece7a277fbb2c35"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3501000-col_shift.json",
+    "sha256": "01942867abb6f2dfe45a9daf0bf79fb5d441df8614db2ad7652af3adf52a579d"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3501001-col_shift.json",
+    "sha256": "82726c5643fa137fce2cd38864163cf1cf1582511e29326abbacec02794a4b19"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3502000-crlf_trailing.json",
+    "sha256": "79783a5a7e6c5dd0d61750f080ac1a52e51a4a868eddf34e620cb5093fe3804c"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3502001-crlf_trailing.json",
+    "sha256": "ff75f44e4e718f03ccaec405f313fe8e00d218f09e60ae63b9c2d1e2a884e2f6"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3503000-drop_optional.json",
+    "sha256": "c63caddbde8edcc60d3b3ba1b1839f60efc2499670c37b9917bf7354c137f569"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3503001-drop_optional.json",
+    "sha256": "f692ea24fd4926d04c4d195d731a9567d36f3d4167c1a4347c9a01219af93fba"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3504000-page_break.json",
+    "sha256": "76593c564458281f9e98303ac34ca424fae87c7b5968795180c5cb0d8673bcc7"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3504001-page_break.json",
+    "sha256": "5ba3c321083d4d8b3fd7e8c185986ddce69ff96fb286b39d2500c7fff85d4c4f"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3505000-long_name_overflow.json",
+    "sha256": "c0419a9e1f62c2ec08be4db8c67c66823a6302d3bbddb1f170539bd4ad789942"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3505001-long_name_overflow.json",
+    "sha256": "f9eb6a5977f6c08df8ef76651cdb46f159de8c87dbd42248f7fa94709995870c"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3506000-referrer_variation.json",
+    "sha256": "cf0de367ffbf0f958d9f8fad1997e6b6e7bd7edf7fb92f6ca8cb29ac4b9cb229"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3506001-referrer_variation.json",
+    "sha256": "2a948ce3c45159a0d03b2fa07f669eca797dffa48a11497b36d2277a96f1605b"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3507000-approved_note.json",
+    "sha256": "2d4d0bd4edbfd8646e50536416de104e84273ad9ff78e05ccce1b7187d400a32"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3507001-approved_note.json",
+    "sha256": "7a9726c1743858fd8f83f6bca14c51a46e38e51674d6bf0f5c9cbcf15aa53579"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3508000-interpretive_note.json",
+    "sha256": "a7ee7d07f05a5b2246727e013b14821e4467db41d5eecf77b6be2e5138dd1051"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3508001-interpretive_note.json",
+    "sha256": "266a2fd31209bbeac6d0a6c3594bbdcfcce4f28cfe791f570ae0e63cd6b7399f"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3509000-section_subheading.json",
+    "sha256": "a715c462fdc85504a5af7020ffbfdb45bc8e8bfc8d6e4995b17bf39f659a9146"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3509001-section_subheading.json",
+    "sha256": "b97036f13e600238acaef247406e4baf805b38d385c672f67b0c16b07b942249"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3511000-sex_specific_ranges.json",
+    "sha256": "832973ddd3c9880fc4a32de4762f417e83291926b4c3ff12e0b765bf06e869d1"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3511001-sex_specific_ranges.json",
+    "sha256": "18ba389dc814dcd770617353c3c04f2e2ae4edb954e606c212727e007d11deaa"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3512000-abnormal_values.json",
+    "sha256": "5f3717c0f1d8e23d21954a6152891629f37b2237cf06186dce73af28f137a944"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3512001-abnormal_values.json",
+    "sha256": "c014208ea63256e6772642c0e4f02c53aec42c42b67c7614b5ee339a91e27f3f"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3516000-note_with_number.json",
+    "sha256": "0a5255d2413534314c6faf140c0addb8c65398daa58f1c16aaa77bcc16d19efd"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3517000-unapproved_note_style.json",
+    "sha256": "771a5b31ee5bfcdaf07df1c490e8272a5ebdc94075a995e3ad9ed11a7942f616"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3518000-static_text_damage.json",
+    "sha256": "337ee3bf70ff89a8ae824c1504e7c352e7048ea07a52f628836ff0249319c58c"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3520000-long_name_wrapped.json",
+    "sha256": "9b5100ac88f21aa7cde51c73a94fef7b3309961538cf3d3d971517e63d72e111"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3521000-unit_incompatible.json",
+    "sha256": "7994da4480066837baf0a79e69975583f7511ebe14525d3d36d0657b4ad2b6c3"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3522000-unit_missing.json",
+    "sha256": "409cf771ba0c50207f1e4c8315a1f91b7e522b7525a6255f1d4abb401b02d225"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3523000-value_corrupt.json",
+    "sha256": "55baaeb4b8dbc02af81772cc02786f2d82373f4917afe776283817fc8881073a"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3524000-value_implausible.json",
+    "sha256": "7228ede3271d601b1cb38da8acb0051cdce728801ebc149b06cb3d4e36800492"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3525000-patient_id_missing.json",
+    "sha256": "f1eb954caee8147eb3f200c0e28e4eb757f4c53b90a05ef1607f8c613ee45606"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3526000-date_invalid.json",
+    "sha256": "6cc3d6bd1e278464dda80bce9b35d019a3a661a5b861fa0baa2ba86992990b7b"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3527000-duplicate_conflict.json",
+    "sha256": "60982bea5aba7dbb6ba0f3a5429ef4348b61ac59022ceaef3157cf91852343d2"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3528000-unknown_test.json",
+    "sha256": "e771ed2780be163af1c6758b100d930c42c72bd847d187e2473be58e69029188"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3529000-truncated.json",
+    "sha256": "8e2fd699d53237b7d0457f14b05f6092dfdd82039e4effcf49e36f0424d1f6ed"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3530000-layout_drift.json",
+    "sha256": "30b0010d388078146088b3bc87d8e7aa7b85a4b829ba7e1c1350887890a57c2c"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3531000-header_changed.json",
+    "sha256": "08b628bc67baaa2708037bee5780df483c5932c7604f3418c9383d2993d9e907"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3532000-flag_inconsistent.json",
+    "sha256": "15a114aeb37461e33939debd0e4ca5d8d3c857fff4215299321482e902019c10"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3534000-header_changed_paged.json",
+    "sha256": "9bd075e17fa9c59b3f48a20507b8b313ee15470a325ffce282d6b606e96c425a"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3535000-extra_section_unknown_tests.json",
+    "sha256": "bb593165b9969bee4d3127189ddfe7bae6c929c4693e2673c66ad41c5fd7b6b5"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3536000-two_patients_one_job.json",
+    "sha256": "38a391f8f5a656fedbb8d90af54f15a4bfc53b8148eb4a9090eb185d6c28f505"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3538000-text_between_rows_with_number.json",
+    "sha256": "d007547f0cafc9501cd6e56519844fa09b5dcfc8b3dfefa3ad6835c4962ab9b8"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3540000-index_inconsistent.json",
+    "sha256": "eee0c30226907110a962469b22ed660e746a017b4de2bbae9dc792e08f547308"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3544001-hidden_numeric_result.json",
+    "sha256": "4e9d4184d99bf13d187a5a12bff0ffc3be996ebbbafcdfbc6a88275dcf946372"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3545000-hidden_qualitative_result.json",
+    "sha256": "70e97e1cbf4e323454f1445bd7ddebb0c0a97412b9425e16ff36ba21101fb2a1"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3547000-comma_decimal.json",
+    "sha256": "f7d272383a0e964d9ef1b85d7542416a6942ef6da787d9ef2748fe4149e1a4a7"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3900005-foreign_layout_G.json",
+    "sha256": "6e23914ac112f1855bad9f7302c89225054a287ed488d30df1de69635d2b77b5"
+   },
+   {
+    "path": "data/corpus2/dev/F/F-3910005-drifted_new_format.json",
+    "sha256": "63002d389ce7ed5121a601934341fd1b3a5198481378cd3ac8ca59f4bceed1d1"
+   }
+  ],
+  "promoted_required": [
+   "patient_age",
+   "patient_sex"
+  ],
+  "date_formats": {
+   "collected": {
+    "format": "%m/%d/%Y %H%M",
+    "day_month_order_ambiguous_format": true,
+    "samples_disambiguate": true,
+    "n_strings": 38
+   }
+  },
+  "note_markers": [
+   "COMMENT:",
+   "Interpretation:"
+  ],
+  "note_continuation_indent": 2,
+  "table_static_lines": [
+   "CHEMISTRY"
+  ],
+  "numeric_skeletons": [
+   "COLLECTED <V> RECEIVED #/#/# #",
+   "MEDILINK REFERENCE LAB - ACCESSION #"
+  ],
+  "text_skeletons": {
+   "h0|MEDILINK": {
+    "prefix": [
+     "MEDILINK",
+     "REFERENCE",
+     "LAB",
+     "-",
+     "ACCESSION"
+    ],
+    "suffix": [],
+    "min": 1,
+    "max": 1,
+    "n": 38
+   },
+   "h1|PT:": {
+    "prefix": [
+     "PT:",
+     "<V>",
+     "MRN",
+     "<V>",
+     "AGE:",
+     "<V>Y",
+     "SEX:",
+     "<V>"
+    ],
+    "suffix": [],
+    "min": 0,
+    "max": 0,
+    "n": 38
+   },
+   "h2|COLLECTED": {
+    "prefix": [
+     "COLLECTED",
+     "<V>",
+     "RECEIVED"
+    ],
+    "suffix": [],
+    "min": 2,
+    "max": 2,
+    "n": 38
+   }
+  },
+  "abnormal_marker": null
+ }
+}

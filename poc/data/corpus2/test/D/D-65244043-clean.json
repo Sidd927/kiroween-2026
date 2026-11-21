@@ -1,0 +1,69 @@
+{
+ "doc_id": "D-65244043-clean",
+ "layout": "D",
+ "cls": "clean",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "Ky0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rCnwgICAgICAgICAgICAgICAgICAgICBTSFJFRSBTQUkgRElBR05PU1RJQ1MgICAgICAgICAgICAgICAgICAgICAgfAp8ICAgICAgICAgICAgIE5lYXIgQnVzIFN0YW5kLCBTaGlyZGkgUm9hZCwgS29wYXJnYW9uICAgICAgICAgICAgIHwKKy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rCnwgVUhJRCA6IDI2LTE4MzY5MjUgICAgICAgICAgICB8IENvbGwuIER0IDogMjUuMDguMjYgICAgICAgICAgICB8CnwgTmFtZSA6IEtVTS4gQU5BTllBIElZRVIgICAgICB8IEFnZS9TZXggOiAzNC9GICAgICAgICAgICAgICAgICB8CistLS0tLS0tLS0tLS0tLS0tLS0tLS0rLS0tLS0tLS0tKy0tLS0tLS0tLS0tLSstLS0tLS0tLS0tLS0rLS0tLS0tKwp8IFBBUkFNRVRFUiAgICAgICAgICAgfCBWQUxVRSAgIHwgVU5JVCAgICAgICB8IFJBTkdFICAgICAgfCBGTEFHIHwKKy0tLS0tLS0tLS0tLS0tLS0tLS0tLSstLS0tLS0tLS0rLS0tLS0tLS0tLS0tKy0tLS0tLS0tLS0tLSstLS0tLS0rCnwgR2x1Y29zZSAoRmFzdGluZykgICB8IDIyMSAgICAgfCBtZy9kTCAgICAgIHwgNzAtMTAwICAgICB8IEggICAgfAp8IFNlcnVtIENyZWF0aW5pbmUgICAgfCAxLjAzICAgIHwgbWcvZEwgICAgICB8IDAuNjAtMS4yMCAgfCAgICAgIHwKfCBCbG9vZCBVcmVhICAgICAgICAgIHwgMjMgICAgICB8IG1nL2RMICAgICAgfCAxNS00MCAgICAgIHwgICAgICB8CnwgSGFlbW9nbG9iaW4gICAgICAgICB8IDkuMyAgICAgfCBnL2RsICAgICAgIHwgMTIuMC0xNS41ICB8IEwgICAgfAp8IFRvdGFsIENvdW50IChXQkMpICAgfCAzMzM4ICAgIHwgL2N1bW0gICAgICB8IDQwMDAtMTEwMDAgfCBMICAgIHwKKy0tLS0tLS0tLS0tLS0tLS0tLS0tLSstLS0tLS0tLS0rLS0tLS0tLS0tLS0tKy0tLS0tLS0tLS0tLSstLS0tLS0rCnwgICAgICAgICAgICAgICAgICAgICAgKiogRW5kIG9mIFJlcG9ydCAqKiAgICAgICAgICAgICAgICAgICAgICAgfAorLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSsKU1lOVEhFVElDIFNBTVBMRSAtIE5PVCBBIFJFQUwgUEFUSUVOVAo=",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "26-1836925",
+  "patient_name": "ANANYA IYER",
+  "patient_age": 34,
+  "patient_sex": "female",
+  "collected": "2026-08-25",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "221",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)",
+    "flag": "H",
+    "ref_low": "70",
+    "ref_high": "100"
+   },
+   {
+    "code": "CREA",
+    "value": "1.03",
+    "unit": "mg/dL",
+    "label": "Serum Creatinine",
+    "flag": "",
+    "ref_low": "0.60",
+    "ref_high": "1.20"
+   },
+   {
+    "code": "UREA",
+    "value": "23",
+    "unit": "mg/dL",
+    "label": "Blood Urea",
+    "flag": "",
+    "ref_low": "15",
+    "ref_high": "40"
+   },
+   {
+    "code": "HGB",
+    "value": "9.3",
+    "unit": "g/dl",
+    "label": "Haemoglobin",
+    "flag": "L",
+    "ref_low": "12.0",
+    "ref_high": "15.5"
+   },
+   {
+    "code": "WBC",
+    "value": "3338",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)",
+    "flag": "L",
+    "ref_low": "4000",
+    "ref_high": "11000"
+   }
+  ],
+  "collected_time": null,
+  "reported": null,
+  "notes": [],
+  "flag_semantics": "direction"
+ },
+ "note": "",
+ "split": "test"
+}

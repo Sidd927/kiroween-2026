@@ -1,0 +1,107 @@
+{
+ "doc_id": "F-65451028-approved_note",
+ "layout": "F",
+ "cls": "approved_note",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "TUVESUxJTksgUkVGRVJFTkNFIExBQiAgLSAgQUNDRVNTSU9OIDQ0NzY2NjUKUFQ6IE1PUkUgUkFIVUwgICAgICAgICAgICAgTVJOIDQ0MzE4OTc2ICAgIEFHRTogNzBZICBTRVg6IE0KQ09MTEVDVEVEIDA4LzE2LzIwMjYgMTEwMCAgIFJFQ0VJVkVEIDA4LzE3LzIwMjYgMTUxMAo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KVEVTVCBOQU1FIChVTklUUykgICAgICAgICAgICAgICAgICAgUkVTVUxUICAgIEZMQUcgICBSRUYKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCkhFTU9HTE9CSU4gKGcvZEwpICAgICAgICAgICAgICAgICAgIDEyLjMgICAgICBMICAgICAgMTMuMC0xNy4wCkhFTUFUT0NSSVQgKCUpICAgICAgICAgICAgICAgICAgICAgIDQ3LjQgICAgICAgICAgICAgNDAuMC01MC4wCldCQyAoSy91TCkgICAgICAgICAgICAgICAgICAgICAgICAgIDcuMyAgICAgICAgICAgICAgNC4wLTExLjAKUkJDIChNL3VMKSAgICAgICAgICAgICAgICAgICAgICAgICAgNC45OCAgICAgICAgICAgICA0LjUwLTUuOTAKUExBVEVMRVRTIChLL3VMKSAgICAgICAgICAgICAgICAgICAgMzE5ICAgICAgICAgICAgICAxNTAtNDAwCk1DViAoZkwpICAgICAgICAgICAgICAgICAgICAgICAgICAgIDk1LjEgICAgICAgICAgICAgODAuMC0xMDAuMApHTFVDT1NFLCBGQVNUSU5HIChtZy9kTCkgICAgICAgICAgICA4MCAgICAgICAgICAgICAgIDcwLTk5CkNPTU1FTlQ6IFZFUklGSUVEIFRXSUNFLgpDUkVBVElOSU5FIChtZy9kTCkgICAgICAgICAgICAgICAgICAxLjA3ICAgICAgICAgICAgIDAuNTAtMS4xMApBTFQgKFUvTCkgICAgICAgICAgICAgICAgICAgICAgICAgICAxNCAgICAgICAgICAgICAgIDctNTYKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCkVORCBPRiBSRVBPUlQKU1lOVEhFVElDIFNBTVBMRSAtIE5PVCBBIFJFQUwgUEFUSUVOVAo=",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "44318976",
+  "patient_name": "MORE RAHUL",
+  "patient_age": 70,
+  "patient_sex": "male",
+  "collected": "2026-08-16",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "12.3",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN",
+    "flag": "L",
+    "ref_low": "13.0",
+    "ref_high": "17.0"
+   },
+   {
+    "code": "HCT",
+    "value": "47.4",
+    "unit": "%",
+    "label": "HEMATOCRIT",
+    "flag": "",
+    "ref_low": "40.0",
+    "ref_high": "50.0"
+   },
+   {
+    "code": "WBC",
+    "value": "7.3",
+    "unit": "K/uL",
+    "label": "WBC",
+    "flag": "",
+    "ref_low": "4.0",
+    "ref_high": "11.0"
+   },
+   {
+    "code": "RBC",
+    "value": "4.98",
+    "unit": "M/uL",
+    "label": "RBC",
+    "flag": "",
+    "ref_low": "4.50",
+    "ref_high": "5.90"
+   },
+   {
+    "code": "PLT",
+    "value": "319",
+    "unit": "K/uL",
+    "label": "PLATELETS",
+    "flag": "",
+    "ref_low": "150",
+    "ref_high": "400"
+   },
+   {
+    "code": "MCV",
+    "value": "95.1",
+    "unit": "fL",
+    "label": "MCV",
+    "flag": "",
+    "ref_low": "80.0",
+    "ref_high": "100.0"
+   },
+   {
+    "code": "GLU",
+    "value": "80",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING",
+    "flag": "",
+    "ref_low": "70",
+    "ref_high": "99"
+   },
+   {
+    "code": "CREA",
+    "value": "1.07",
+    "unit": "mg/dL",
+    "label": "CREATININE",
+    "flag": "",
+    "ref_low": "0.50",
+    "ref_high": "1.10"
+   },
+   {
+    "code": "ALT",
+    "value": "14",
+    "unit": "U/L",
+    "label": "ALT",
+    "flag": "",
+    "ref_low": "7",
+    "ref_high": "56"
+   }
+  ],
+  "collected_time": "11:00",
+  "reported": null,
+  "notes": [
+   "COMMENT: VERIFIED TWICE."
+  ],
+  "flag_semantics": "direction"
+ },
+ "note": "",
+ "split": "test"
+}

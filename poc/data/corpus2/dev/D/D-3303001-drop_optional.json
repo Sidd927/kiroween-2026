@@ -1,0 +1,69 @@
+{
+ "doc_id": "D-3303001-drop_optional",
+ "layout": "D",
+ "cls": "drop_optional",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "Ky0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rCnwgICAgICAgICAgICAgICAgICAgICBTSFJFRSBTQUkgRElBR05PU1RJQ1MgICAgICAgICAgICAgICAgICAgICAgfAp8ICAgICAgICAgICAgIE5lYXIgQnVzIFN0YW5kLCBTaGlyZGkgUm9hZCwgS29wYXJnYW9uICAgICAgICAgICAgIHwKKy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rCnwgVUhJRCA6IDI2LTAwMDc4NzcgICAgICAgICAgICB8IENvbGwuIER0IDogMTIuMDIuMjYgICAgICAgICAgICB8CnwgTmFtZSA6IFNIUkkgUk9IQU4gRkVSTkFOREVTICB8IEFnZS9TZXggOiAzMC9NICAgICAgICAgICAgICAgICB8CistLS0tLS0tLS0tLS0tLS0tLS0tLS0rLS0tLS0tLS0tKy0tLS0tLS0tLS0tLSstLS0tLS0tLS0tLS0rLS0tLS0tKwp8IFBBUkFNRVRFUiAgICAgICAgICAgfCBWQUxVRSAgIHwgVU5JVCAgICAgICB8IFJBTkdFICAgICAgfCBGTEFHIHwKKy0tLS0tLS0tLS0tLS0tLS0tLS0tLSstLS0tLS0tLS0rLS0tLS0tLS0tLS0tKy0tLS0tLS0tLS0tLSstLS0tLS0rCnwgR2x1Y29zZSAoRmFzdGluZykgICB8IDg0ICAgICAgfCBtZy9kTCAgICAgIHwgNzAtMTAwICAgICB8ICAgICAgfAp8IFNlcnVtIENyZWF0aW5pbmUgICAgfCAwLjkyICAgIHwgbWcvZEwgICAgICB8IDAuNjAtMS4yMCAgfCAgICAgIHwKfCBCbG9vZCBVcmVhICAgICAgICAgIHwgNzIgICAgICB8IG1nL2RMICAgICAgfCAxNS00MCAgICAgIHwgSCAgICB8CnwgSGFlbW9nbG9iaW4gICAgICAgICB8IDE0LjAgICAgfCBnL2RsICAgICAgIHwgMTMuMC0xNy4wICB8ICAgICAgfAp8IFRvdGFsIENvdW50IChXQkMpICAgfCA5NDEyICAgIHwgL2N1bW0gICAgICB8IDQwMDAtMTEwMDAgfCAgICAgIHwKKy0tLS0tLS0tLS0tLS0tLS0tLS0tLSstLS0tLS0tLS0rLS0tLS0tLS0tLS0tKy0tLS0tLS0tLS0tLSstLS0tLS0rCnwgICAgICAgICAgICAgICAgICAgICAgKiogRW5kIG9mIFJlcG9ydCAqKiAgICAgICAgICAgICAgICAgICAgICAgfAorLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSsKU1lOVEhFVElDIFNBTVBMRSAtIE5PVCBBIFJFQUwgUEFUSUVOVAo=",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "26-0007877",
+  "patient_name": "ROHAN FERNANDES",
+  "patient_age": 30,
+  "patient_sex": "male",
+  "collected": "2026-02-12",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "84",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)",
+    "flag": "",
+    "ref_low": "70",
+    "ref_high": "100"
+   },
+   {
+    "code": "CREA",
+    "value": "0.92",
+    "unit": "mg/dL",
+    "label": "Serum Creatinine",
+    "flag": "",
+    "ref_low": "0.60",
+    "ref_high": "1.20"
+   },
+   {
+    "code": "UREA",
+    "value": "72",
+    "unit": "mg/dL",
+    "label": "Blood Urea",
+    "flag": "H",
+    "ref_low": "15",
+    "ref_high": "40"
+   },
+   {
+    "code": "HGB",
+    "value": "14.0",
+    "unit": "g/dl",
+    "label": "Haemoglobin",
+    "flag": "",
+    "ref_low": "13.0",
+    "ref_high": "17.0"
+   },
+   {
+    "code": "WBC",
+    "value": "9412",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)",
+    "flag": "",
+    "ref_low": "4000",
+    "ref_high": "11000"
+   }
+  ],
+  "collected_time": null,
+  "reported": null,
+  "notes": [],
+  "flag_semantics": "direction"
+ },
+ "note": "",
+ "split": "dev"
+}

@@ -1,0 +1,20 @@
+{
+ "A": {
+  "ACCEPT age=None sex=None": 30
+ },
+ "B": {
+  "ACCEPT age=set sex=set": 30
+ },
+ "C": {
+  "REJECT": 30
+ },
+ "D": {
+  "REJECT": 30
+ },
+ "E": {
+  "REJECT": 30
+ },
+ "F": {
+  "ACCEPT age=None sex=set": 30
+ }
+}

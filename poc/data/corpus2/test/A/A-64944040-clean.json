@@ -1,0 +1,114 @@
+{
+ "doc_id": "A-64944040-clean",
+ "layout": "A",
+ "cls": "clean",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "ICAgICAgICAgICAgICAgICAgICAgICAgICBTVU5SSVNFIFBBVEhPTE9HWSBMQUJPUkFUT1JZCiAgICAgICAgICAgICAgMTIsIFN0YXRpb24gUm9hZCwgTmFzaGlrIC0gNDIyMDAxICBQaDogMDI1My0yMzQ1Njc4Ci0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tClBhdGllbnQgTmFtZSA6IE1SLiBTTkVIQSBDSEFWQU4gICAgICAgICAgICAgICAgIExhYiBOby4gICA6IFNQLzI2LzYyMzA0NgpBZ2UgLyBTZXggICAgOiA3OSBZcnMgLyBNICAgICAgICAgICAgICAgICAgICAgICBDb2xsZWN0ZWQgOiAxNi8wNS8yMDI2IDEwOjQwClJlZi4gQnkgICAgICA6IERSLiBNLiBLVUxLQVJOSSAgICAgICAgICAgICAgICAgIFJlcG9ydGVkICA6IDE2LzA1LzIwMjYgMTg6NDAKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICAgICAgICAgICAgICAgICAgICAgICBIQUVNQVRPTE9HWSAtIENPTVBMRVRFIEJMT09EIENPVU5UCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tClRFU1QgICAgICAgICAgICAgICAgICAgICAgICAgIFJFU1VMVCAgICAgIFVOSVQgICAgICAgICAgUkVGRVJFTkNFIFJBTkdFCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCkhBRU1PR0xPQklOICAgICAgICAgICAgICAgICAgIDEyLjAgTCAgICAgIGdtL2RMICAgICAgICAgMTMuMCAtIDE3LjAKUi5CLkMuIENPVU5UICAgICAgICAgICAgICAgICAgNC42MiAgICAgICAgbWlsbC9jdW1tICAgICA0LjUwIC0gNS45MApQLkMuVi4gICAgICAgICAgICAgICAgICAgICAgICA0My4wICAgICAgICAlICAgICAgICAgICAgIDQwLjAgLSA1MC4wCk0uQy5WLiAgICAgICAgICAgICAgICAgICAgICAgIDkzLjIgICAgICAgIGZMICAgICAgICAgICAgODMuMCAtIDEwMS4wCk0uQy5ILiAgICAgICAgICAgICAgICAgICAgICAgIDI2LjAgTCAgICAgIHBnICAgICAgICAgICAgMjcuMCAtIDMyLjAKTS5DLkguQy4gICAgICAgICAgICAgICAgICAgICAgMjcuOSBMICAgICAgZy9kTCAgICAgICAgICAzMS41IC0gMzQuNQpUT1RBTCBMRVVDT0NZVEUgQ09VTlQgICAgICAgICA4MjExICAgICAgICAvY3VtbSAgICAgICAgIDQwMDAgLSAxMTAwMApORVVUUk9QSElMUyAgICAgICAgICAgICAgICAgICA3MSAgICAgICAgICAlICAgICAgICAgICAgIDQwIC0gODAKTFlNUEhPQ1lURVMgICAgICAgICAgICAgICAgICAgMjIgICAgICAgICAgJSAgICAgICAgICAgICAyMCAtIDQwClBMQVRFTEVUIENPVU5UICAgICAgICAgICAgICAgIDMuMDkgICAgICAgIGxha2gvY3VtbSAgICAgMS41MCAtIDQuMTAKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAqKiogRU5EIE9GIFJFUE9SVCAqKioKICAgICAgICAgICAgICAgICAgICAgU1lOVEhFVElDIFNBTVBMRSAtIE5PVCBBIFJFQUwgUEFUSUVOVAo=",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "SP/26/623046",
+  "patient_name": "SNEHA CHAVAN",
+  "patient_age": 79,
+  "patient_sex": "male",
+  "collected": "2026-05-16",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "12.0",
+    "unit": "gm/dL",
+    "label": "HAEMOGLOBIN",
+    "flag": "L",
+    "ref_low": "13.0",
+    "ref_high": "17.0"
+   },
+   {
+    "code": "RBC",
+    "value": "4.62",
+    "unit": "mill/cumm",
+    "label": "R.B.C. COUNT",
+    "flag": "",
+    "ref_low": "4.50",
+    "ref_high": "5.90"
+   },
+   {
+    "code": "HCT",
+    "value": "43.0",
+    "unit": "%",
+    "label": "P.C.V.",
+    "flag": "",
+    "ref_low": "40.0",
+    "ref_high": "50.0"
+   },
+   {
+    "code": "MCV",
+    "value": "93.2",
+    "unit": "fL",
+    "label": "M.C.V.",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCH",
+    "value": "26.0",
+    "unit": "pg",
+    "label": "M.C.H.",
+    "flag": "L",
+    "ref_low": "27.0",
+    "ref_high": "32.0"
+   },
+   {
+    "code": "MCHC",
+    "value": "27.9",
+    "unit": "g/dL",
+    "label": "M.C.H.C.",
+    "flag": "L",
+    "ref_low": "31.5",
+    "ref_high": "34.5"
+   },
+   {
+    "code": "WBC",
+    "value": "8211",
+    "unit": "/cumm",
+    "label": "TOTAL LEUCOCYTE COUNT",
+    "flag": "",
+    "ref_low": "4000",
+    "ref_high": "11000"
+   },
+   {
+    "code": "NEUT%",
+    "value": "71",
+    "unit": "%",
+    "label": "NEUTROPHILS",
+    "flag": "",
+    "ref_low": "40",
+    "ref_high": "80"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "22",
+    "unit": "%",
+    "label": "LYMPHOCYTES",
+    "flag": "",
+    "ref_low": "20",
+    "ref_high": "40"
+   },
+   {
+    "code": "PLT",
+    "value": "3.09",
+    "unit": "lakh/cumm",
+    "label": "PLATELET COUNT",
+    "flag": "",
+    "ref_low": "1.50",
+    "ref_high": "4.10"
+   }
+  ],
+  "collected_time": "10:40",
+  "reported": "2026-05-16",
+  "notes": [],
+  "flag_semantics": "direction"
+ },
+ "note": "",
+ "split": "test"
+}

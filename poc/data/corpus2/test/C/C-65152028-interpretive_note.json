@@ -1,0 +1,90 @@
+{
+ "doc_id": "C-65152028-interpretive_note",
+ "layout": "C",
+ "cls": "interpretive_note",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "RFIuIE1FSFRBJ1MgQ0xJTklDQUwgTEFCT1JBVE9SWSAgICAgICAgICAgICBSZXBvcnQgRGF0ZTogMjAyNi0wMi0xOApQYXRpZW50IDogUGF3YXIsIFJvaGFuIChGLzI3KQpQYXRpZW50IElEIDogNjUwODM1MSAgICAgICBTYW1wbGUgOiBTLTgyMDM3CkNvbGxlY3RlZCAgOiAyMDI2LTAyLTE3IDEwOjIwCkNvbnN1bHRhbnQgOiBEci4gTS4gS3Vsa2FybmkKCkJJT0NIRU1JU1RSWQogIFRlc3QgLyBNZXRob2QKICAgICAgUmVzdWx0ICAgICBVbml0cyAgICAgTm9ybWFsIFJhbmdlCiAgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogIEJJTElSVUJJTiBUT1RBTAogICAgICAoRGlhem8gbWV0aG9kKQogICAgICAwLjY4ICAgICAgIG1nL2RsICAgICAwLjIwIC0gMS4yMAogIEJJTElSVUJJTiBESVJFQ1QKICAgICAgKERpYXpvIG1ldGhvZCkKICAgICAgMC4yMiAgICAgICBtZy9kbCAgICAgMC4wMCAtIDAuMzAKICBTR1BUIChBTFQpCiAgICAgIChJRkNDKQogICAgICAzMCAgICAgICAgIFUvTCAgICAgICAwIC0gNDAKICBTR09UIChBU1QpCiAgICAgIChJRkNDKQogICAgICAxNiAgICAgICAgIFUvTCAgICAgICAwIC0gNDAKICBBTEtBTElORSBQSE9TUEhBVEFTRQogICAgICAoUE5QUC1BTVApCiAgICAgIDUwICAgICAgICAgSVUvTCAgICAgIDQwIC0gMTMwCiAgVE9UQUwgUFJPVEVJTlMKICAgICAgKEJpdXJldCkKICAgICAgNi44ICAgICAgICBnL2RsICAgICAgNi4wIC0gOC4zCiAgQUxCVU1JTgogICAgICAoQkNHKQogICAgICAzLjggICAgICAgIGcvZGwgICAgICAzLjUgLSA1LjIKICAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgKiBWYWx1ZSBvdXRzaWRlIG5vcm1hbCByYW5nZQoKQ2hlY2tlZCBieTogTGFiIFRlY2hub2xvZ2lzdAogICAgICAgICAgICAgICAgICAgICAgICAgICAtLSBFTkQgLS0KSW50ZXJwcmV0YXRpb246IHZhbHVlcyBzaG91bGQgYmUgY29ycmVsYXRlZCB3aXRoIHRoZSBjbGluaWNhbCBwaWN0dXJlCiAgYW5kIHByZXZpb3VzIHJlcG9ydHMuIEtpbmRseSBjb25zdWx0IHlvdXIgcGh5c2ljaWFuLgpTWU5USEVUSUMgU0FNUExFIC0gTk9UIEEgUkVBTCBQQVRJRU5UCg==",
+ "queue_codepage": "cp1252",
+ "truth": {
+  "patient_id": "6508351",
+  "patient_name": "Pawar, Rohan",
+  "patient_age": 27,
+  "patient_sex": "female",
+  "collected": "2026-02-17",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "0.68",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL",
+    "flag": "",
+    "ref_low": "0.20",
+    "ref_high": "1.20"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.22",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT",
+    "flag": "",
+    "ref_low": "0.00",
+    "ref_high": "0.30"
+   },
+   {
+    "code": "ALT",
+    "value": "30",
+    "unit": "U/L",
+    "label": "SGPT (ALT)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "AST",
+    "value": "16",
+    "unit": "U/L",
+    "label": "SGOT (AST)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "ALP",
+    "value": "50",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE",
+    "flag": "",
+    "ref_low": "40",
+    "ref_high": "130"
+   },
+   {
+    "code": "TP",
+    "value": "6.8",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS",
+    "flag": "",
+    "ref_low": "6.0",
+    "ref_high": "8.3"
+   },
+   {
+    "code": "ALB",
+    "value": "3.8",
+    "unit": "g/dl",
+    "label": "ALBUMIN",
+    "flag": "",
+    "ref_low": "3.5",
+    "ref_high": "5.2"
+   }
+  ],
+  "collected_time": "10:20",
+  "reported": "2026-02-18",
+  "notes": [
+   "Interpretation: values should be correlated with the clinical picture",
+   "and previous reports. Kindly consult your physician."
+  ],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

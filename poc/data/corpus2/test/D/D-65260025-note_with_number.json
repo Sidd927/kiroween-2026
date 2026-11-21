@@ -1,0 +1,80 @@
+{
+ "doc_id": "D-65260025-note_with_number",
+ "layout": "D",
+ "cls": "note_with_number",
+ "group": "policy",
+ "expected": "reject",
+ "raw_b64": "Ky0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rCnwgICAgICAgICAgICAgICAgICAgICBTSFJFRSBTQUkgRElBR05PU1RJQ1MgICAgICAgICAgICAgICAgICAgICAgfAp8ICAgICAgICAgICAgIE5lYXIgQnVzIFN0YW5kLCBTaGlyZGkgUm9hZCwgS29wYXJnYW9uICAgICAgICAgICAgIHwKKy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rCnwgVUhJRCA6IDI2LTk2NDg5ODQgICAgICAgICAgICB8IENvbGwuIER0IDogMTEuMDcuMjYgICAgICAgICAgICB8CnwgTmFtZSA6IEtVTS4gU0FNRUVSIFBBVElMICAgICB8IEFnZS9TZXggOiA3MS9GICAgICAgICAgICAgICAgICB8CistLS0tLS0tLS0tLS0tLS0tLS0tLS0rLS0tLS0tLS0tKy0tLS0tLS0tLS0tLSstLS0tLS0tLS0tLS0rLS0tLS0tKwp8IFBBUkFNRVRFUiAgICAgICAgICAgfCBWQUxVRSAgIHwgVU5JVCAgICAgICB8IFJBTkdFICAgICAgfCBGTEFHIHwKKy0tLS0tLS0tLS0tLS0tLS0tLS0tLSstLS0tLS0tLS0rLS0tLS0tLS0tLS0tKy0tLS0tLS0tLS0tLSstLS0tLS0rCnwgR2x1Y29zZSAoRmFzdGluZykgICB8IDgyICAgICAgfCBtZy9kTCAgICAgIHwgNzAtMTAwICAgICB8ICAgICAgfAp8IFNlcnVtIENyZWF0aW5pbmUgICAgfCAxLjA5ICAgIHwgbWcvZEwgICAgICB8IDAuNjAtMS4yMCAgfCAgICAgIHwKfCBCbG9vZCBVcmVhICAgICAgICAgIHwgNTcgICAgICB8IG1nL2RMICAgICAgfCAxNS00MCAgICAgIHwgSCAgICB8CnwgSGFlbW9nbG9iaW4gICAgICAgICB8IDEwLjIgICAgfCBnL2RsICAgICAgIHwgMTIuMC0xNS41ICB8IEwgICAgfAp8IFRvdGFsIENvdW50IChXQkMpICAgfCA1NTE5ICAgIHwgL2N1bW0gICAgICB8IDQwMDAtMTEwMDAgfCAgICAgIHwKfCBQbGF0ZWxldHMgICAgICAgICAgIHwgMi4wNCAgICB8IGxha2hzL2N1bW0gfCAxLjUwLTQuNTAgIHwgICAgICB8CistLS0tLS0tLS0tLS0tLS0tLS0tLS0rLS0tLS0tLS0tKy0tLS0tLS0tLS0tLSstLS0tLS0tLS0tLS0rLS0tLS0tKwp8ICAgICAgICAgICAgICAgICAgICAgICoqIEVuZCBvZiBSZXBvcnQgKiogICAgICAgICAgICAgICAgICAgICAgIHwKfCBOb3RlOiBSZXRlc3QgYWR2aXNlZCBpbiAzIG1vbnRocy4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CistLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tKwpTWU5USEVUSUMgU0FNUExFIC0gTk9UIEEgUkVBTCBQQVRJRU5UCg==",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "26-9648984",
+  "patient_name": "SAMEER PATIL",
+  "patient_age": 71,
+  "patient_sex": "female",
+  "collected": "2026-07-11",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "82",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)",
+    "flag": "",
+    "ref_low": "70",
+    "ref_high": "100"
+   },
+   {
+    "code": "CREA",
+    "value": "1.09",
+    "unit": "mg/dL",
+    "label": "Serum Creatinine",
+    "flag": "",
+    "ref_low": "0.60",
+    "ref_high": "1.20"
+   },
+   {
+    "code": "UREA",
+    "value": "57",
+    "unit": "mg/dL",
+    "label": "Blood Urea",
+    "flag": "H",
+    "ref_low": "15",
+    "ref_high": "40"
+   },
+   {
+    "code": "HGB",
+    "value": "10.2",
+    "unit": "g/dl",
+    "label": "Haemoglobin",
+    "flag": "L",
+    "ref_low": "12.0",
+    "ref_high": "15.5"
+   },
+   {
+    "code": "WBC",
+    "value": "5519",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)",
+    "flag": "",
+    "ref_low": "4000",
+    "ref_high": "11000"
+   },
+   {
+    "code": "PLT",
+    "value": "2.04",
+    "unit": "lakhs/cumm",
+    "label": "Platelets",
+    "flag": "",
+    "ref_low": "1.50",
+    "ref_high": "4.50"
+   }
+  ],
+  "collected_time": null,
+  "reported": null,
+  "notes": [
+   "| Note: Retest advised in 3 months. |"
+  ],
+  "flag_semantics": "direction"
+ },
+ "note": "",
+ "split": "test"
+}

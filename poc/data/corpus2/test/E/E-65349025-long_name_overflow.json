@@ -1,0 +1,87 @@
+{
+ "doc_id": "E-65349025-long_name_overflow",
+ "layout": "E",
+ "cls": "long_name_overflow",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "TElGRUxJTkUgUEFUSE9MT0dZICYgSU1BR0lORyAgICAgICAgICAgICAgICAgICAgICAgIExhYiBJRDogTEwtMjAyNi0zMjI5OApQYXRpZW50OiBBbmFudGhhcmFtYW4gS3Jpc2huYXN3YW15U2V4L0FnZTogTS82MiAgICAgICAgRHJhd246IEF1Z3VzdCAxNSwgMjAyNgpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18KSEFFTU9HUkFNCkhiICAgICAgICAgMTUuMSBnL2RMICAgICBbMTMuMC0xNy4wXSAgIFJCQyAgICAgICAgNS41MCB4MTBeNi91TCBbNC41MC01LjkwXQpXQkMgICAgICAgICA1LjYgeDEwXjMvdUwgWzQuMC0xMS4wXSAgICBQTFQgICAgICAgICAxODUgeDEwXjMvdUwgWzE1MC00MTBdCkhDVCAgICAgICAgNDYuNSAlICAgICAgICBbNDAuMC01MC4wXSAgIE1DViAgICAgICAgODQuNCBmTCAgICAgICBbODMuMC0xMDEuMF0KTUNIICAgICAgICAyNy40IHBnICAgICAgIFsyNy4wLTMyLjBdCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXwohID0gb3V0c2lkZSByZWZlcmVuY2UgaW50ZXJ2YWwgICAgICAgIFJlcG9ydCBnZW5lcmF0ZWQgYnkgTGFiU3lzIDMuMQpTWU5USEVUSUMgU0FNUExFIC0gTk9UIEEgUkVBTCBQQVRJRU5UCg==",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "LL-2026-32298",
+  "patient_name": "Anantharaman Krishnaswamy",
+  "patient_age": 62,
+  "patient_sex": "male",
+  "collected": "2026-08-15",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "15.1",
+    "unit": "g/dL",
+    "label": "Hb",
+    "flag": "",
+    "ref_low": "13.0",
+    "ref_high": "17.0"
+   },
+   {
+    "code": "RBC",
+    "value": "5.50",
+    "unit": "x10^6/uL",
+    "label": "RBC",
+    "flag": "",
+    "ref_low": "4.50",
+    "ref_high": "5.90"
+   },
+   {
+    "code": "WBC",
+    "value": "5.6",
+    "unit": "x10^3/uL",
+    "label": "WBC",
+    "flag": "",
+    "ref_low": "4.0",
+    "ref_high": "11.0"
+   },
+   {
+    "code": "PLT",
+    "value": "185",
+    "unit": "x10^3/uL",
+    "label": "PLT",
+    "flag": "",
+    "ref_low": "150",
+    "ref_high": "410"
+   },
+   {
+    "code": "HCT",
+    "value": "46.5",
+    "unit": "%",
+    "label": "HCT",
+    "flag": "",
+    "ref_low": "40.0",
+    "ref_high": "50.0"
+   },
+   {
+    "code": "MCV",
+    "value": "84.4",
+    "unit": "fL",
+    "label": "MCV",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCH",
+    "value": "27.4",
+    "unit": "pg",
+    "label": "MCH",
+    "flag": "",
+    "ref_low": "27.0",
+    "ref_high": "32.0"
+   }
+  ],
+  "collected_time": null,
+  "reported": null,
+  "notes": [],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

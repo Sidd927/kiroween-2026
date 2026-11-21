@@ -1,0 +1,173 @@
+{
+ "binding_id": "lab-d",
+ "version": 4,
+ "binding_sha256": "5812f4eb51d1d74df538be6fa8d0884d93376022e5a0c2ffd1b8495707f747d7",
+ "conditions": {
+  "G1_static": {
+   "passed": true,
+   "errors": []
+  },
+  "G2_compiled": {
+   "passed": true,
+   "errors": [],
+   "approved_clean_samples": 10
+  },
+  "G3_regression": {
+   "passed": true,
+   "counts": {
+    "correct_accept": 12,
+    "false_reject": 1,
+    "correct_reject": 12
+   },
+   "failures": [],
+   "n_docs": 25
+  },
+  "G4_clean_acceptance": {
+   "passed": true,
+   "accepted": 8,
+   "of": 8,
+   "required": 8
+  },
+  "G5_variations": {
+   "passed": true,
+   "per_class": {
+    "col_shift": {
+     "ACCEPT": 1
+    },
+    "drop_optional": {
+     "ACCEPT": 1
+    },
+    "page_break": {
+     "ACCEPT": 1
+    },
+    "crlf_trailing": {
+     "ACCEPT": 1
+    },
+    "long_name": {
+     "REJECT": 1
+    }
+   },
+   "unsupported": [
+    "long_name"
+   ],
+   "note": "rejections are safe but must be acknowledged"
+  },
+  "G6_self_adversarial": {
+   "passed": true,
+   "results": {
+    "identity_line_replaced:REJECT": 4,
+    "header_line_dropped:REJECT": 4,
+    "unknown_line_after_end:REJECT": 4,
+    "unknown_line_before_start:REJECT": 4,
+    "unknown_line_in_table:REJECT": 4,
+    "column_header_truncated:REJECT": 4,
+    "unit_deleted:REJECT": 4,
+    "result_on_trusted_line_after_end:0:REJECT": 4,
+    "result_on_trusted_line_in_table:0:REJECT": 4,
+    "result_on_trusted_line_after_end:1:REJECT": 4,
+    "result_on_trusted_line_in_table:1:REJECT": 4,
+    "result_on_trusted_line_after_end:2:REJECT": 4,
+    "result_on_trusted_line_in_table:2:REJECT": 4,
+    "result_on_trusted_line_after_end:3:REJECT": 4,
+    "result_on_trusted_line_in_table:3:REJECT": 4,
+    "result_on_trusted_line_after_end:4:REJECT": 4,
+    "result_on_trusted_line_in_table:4:REJECT": 4,
+    "result_on_trusted_line_after_end:5:REJECT": 4,
+    "result_on_trusted_line_in_table:5:REJECT": 4,
+    "result_on_trusted_line_after_end:6:REJECT": 4,
+    "result_on_trusted_line_in_table:6:REJECT": 4,
+    "result_on_trusted_line_after_end:7:REJECT": 4,
+    "result_on_trusted_line_in_table:7:REJECT": 4,
+    "result_on_trusted_line_after_end:8:REJECT": 4,
+    "result_on_trusted_line_in_table:8:REJECT": 4,
+    "result_on_field_line:REJECT": 4,
+    "two_reports_one_job:REJECT": 4
+   },
+   "accepted_mutations": []
+  },
+  "G7_collision": {
+   "passed": true,
+   "collisions": []
+  },
+  "G8_dates": {
+   "passed": true,
+   "ambiguous_fields": [],
+   "formats": {
+    "collected": {
+     "format": "%d.%m.%y",
+     "day_month_order_ambiguous_format": true,
+     "samples_disambiguate": true,
+     "n_strings": 16
+    }
+   },
+   "note": "approval requires --confirm-date-format when ambiguous_fields is non-empty"
+  },
+  "G9_coverage": {
+   "passed": true,
+   "invalid_docs": 12,
+   "defect_classes": [
+    "date_invalid",
+    "duplicate_conflict",
+    "flag_inconsistent",
+    "header_changed",
+    "layout_drift",
+    "patient_id_missing",
+    "truncated",
+    "unit_incompatible",
+    "unit_missing",
+    "unknown_test",
+    "value_corrupt",
+    "value_implausible"
+   ]
+  }
+ },
+ "warnings_requiring_ack": [
+  "unsupported_variation:long_name"
+ ],
+ "date_format_confirmation_required": false,
+ "passed": true,
+ "compile_report": {
+  "binding_id": "lab-d",
+  "version": 4,
+  "samples": [
+   "D-40001-clean",
+   "D-40002-clean",
+   "D-40100-clean",
+   "D-40101-clean",
+   "D-40102-clean",
+   "D-40103-clean",
+   "D-40104-clean",
+   "D-40105-clean",
+   "D-40106-clean",
+   "D-40107-clean",
+   "D-40200-col_shift",
+   "D-40201-drop_optional",
+   "D-40202-page_break",
+   "D-40203-crlf_trailing",
+   "D-40204-long_name"
+  ],
+  "n_samples": 15,
+  "n_clean": 10,
+  "warnings": [],
+  "errors": [],
+  "n_continuation_pages": 1,
+  "compiled_summary": {
+   "header_patterns": 7,
+   "identity_index": 1,
+   "continuation_len": 7,
+   "template_lines": 7,
+   "promoted_required": [
+    "patient_age",
+    "patient_sex"
+   ],
+   "date_formats": {
+    "collected": {
+     "format": "%d.%m.%y",
+     "day_month_order_ambiguous_format": true,
+     "samples_disambiguate": true,
+     "n_strings": 16
+    }
+   }
+  }
+ }
+}

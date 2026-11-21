@@ -1,0 +1,99 @@
+{
+ "doc_id": "E-3408000-interpretive_note",
+ "layout": "E",
+ "cls": "interpretive_note",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "TElGRUxJTkUgUEFUSE9MT0dZICYgSU1BR0lORyAgICAgICAgICAgICAgICAgICAgICAgIExhYiBJRDogTEwtMjAyNi02MzUwOQpQYXRpZW50OiBSYWh1bCBJeWVyICAgICAgICAgICAgU2V4L0FnZTogRi80MSAgICAgICAgRHJhd246IEphbnVhcnkgMjgsIDIwMjYKX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fCkhBRU1PR1JBTQpIYiAgICAgICAgOS4wICEgZy9kTCAgICAgWzEyLjAtMTUuNV0gICBSQkMgICAgICAzLjY3ICEgeDEwXjYvdUwgWzQuMDAtNS4yMF0KV0JDICAgICAgICAgOC44IHgxMF4zL3VMIFs0LjAtMTEuMF0gICAgUExUICAgICAgICAgMzMyIHgxMF4zL3VMIFsxNTAtNDEwXQpIQ1QgICAgICAzNC43ICEgJSAgICAgICAgWzM2LjAtNDYuMF0gICBNQ1YgICAgICAgIDk0LjUgZkwgICAgICAgWzgzLjAtMTAxLjBdCk1DSCAgICAgIDI0LjYgISBwZyAgICAgICBbMjcuMC0zMi4wXSAgIE1DSEMgICAgIDI2LjAgISBnL2RMICAgICBbMzEuNS0zNC41XQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18KISA9IG91dHNpZGUgcmVmZXJlbmNlIGludGVydmFsICAgICAgICBSZXBvcnQgZ2VuZXJhdGVkIGJ5IExhYlN5cyAzLjEKSW50ZXJwcmV0YXRpb246IHZhbHVlcyBzaG91bGQgYmUgY29ycmVsYXRlZCB3aXRoIHRoZSBjbGluaWNhbCBwaWN0dXJlCiAgYW5kIHByZXZpb3VzIHJlcG9ydHMuIEtpbmRseSBjb25zdWx0IHlvdXIgcGh5c2ljaWFuLgpTWU5USEVUSUMgU0FNUExFIC0gTk9UIEEgUkVBTCBQQVRJRU5UCg==",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "LL-2026-63509",
+  "patient_name": "Rahul Iyer",
+  "patient_age": 41,
+  "patient_sex": "female",
+  "collected": "2026-01-28",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "9.0",
+    "unit": "g/dL",
+    "label": "Hb",
+    "flag": "L",
+    "ref_low": "12.0",
+    "ref_high": "15.5"
+   },
+   {
+    "code": "RBC",
+    "value": "3.67",
+    "unit": "x10^6/uL",
+    "label": "RBC",
+    "flag": "L",
+    "ref_low": "4.00",
+    "ref_high": "5.20"
+   },
+   {
+    "code": "WBC",
+    "value": "8.8",
+    "unit": "x10^3/uL",
+    "label": "WBC",
+    "flag": "",
+    "ref_low": "4.0",
+    "ref_high": "11.0"
+   },
+   {
+    "code": "PLT",
+    "value": "332",
+    "unit": "x10^3/uL",
+    "label": "PLT",
+    "flag": "",
+    "ref_low": "150",
+    "ref_high": "410"
+   },
+   {
+    "code": "HCT",
+    "value": "34.7",
+    "unit": "%",
+    "label": "HCT",
+    "flag": "L",
+    "ref_low": "36.0",
+    "ref_high": "46.0"
+   },
+   {
+    "code": "MCV",
+    "value": "94.5",
+    "unit": "fL",
+    "label": "MCV",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCH",
+    "value": "24.6",
+    "unit": "pg",
+    "label": "MCH",
+    "flag": "L",
+    "ref_low": "27.0",
+    "ref_high": "32.0"
+   },
+   {
+    "code": "MCHC",
+    "value": "26.0",
+    "unit": "g/dL",
+    "label": "MCHC",
+    "flag": "L",
+    "ref_low": "31.5",
+    "ref_high": "34.5"
+   }
+  ],
+  "collected_time": null,
+  "reported": null,
+  "notes": [
+   "Interpretation: values should be correlated with the clinical picture",
+   "and previous reports. Kindly consult your physician."
+  ],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "dev"
+}

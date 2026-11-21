@@ -1,0 +1,98 @@
+{
+ "doc_id": "A-64951025-approved_note",
+ "layout": "A",
+ "cls": "approved_note",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "ICAgICAgICAgICAgICAgICAgICAgICAgICBTVU5SSVNFIFBBVEhPTE9HWSBMQUJPUkFUT1JZCiAgICAgICAgICAgICAgMTIsIFN0YXRpb24gUm9hZCwgTmFzaGlrIC0gNDIyMDAxICBQaDogMDI1My0yMzQ1Njc4Ci0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tClBhdGllbnQgTmFtZSA6IE1SLiBNRUVSQSBCSE9TQUxFICAgICAgICAgICAgICAgIExhYiBOby4gICA6IFNQLzI2Lzk2NDk0NQpBZ2UgLyBTZXggICAgOiA2MSBZcnMgLyBNICAgICAgICAgICAgICAgICAgICAgICBDb2xsZWN0ZWQgOiAxOC8wMy8yMDI2IDA5OjUwClJlZi4gQnkgICAgICA6IERSLiBBTkpBTEkgUi4gREVTSFBBTkRFICAgICAgICAgIFJlcG9ydGVkICA6IDE5LzAzLzIwMjYgMDg6MjUKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICAgICAgICAgICAgICAgICAgICAgICBIQUVNQVRPTE9HWSAtIENPTVBMRVRFIEJMT09EIENPVU5UCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tClRFU1QgICAgICAgICAgICAgICAgICAgICAgICAgIFJFU1VMVCAgICAgIFVOSVQgICAgICAgICAgUkVGRVJFTkNFIFJBTkdFCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCkhBRU1PR0xPQklOICAgICAgICAgICAgICAgICAgIDEzLjIgICAgICAgIGdtL2RMICAgICAgICAgMTMuMCAtIDE3LjAKUi5CLkMuIENPVU5UICAgICAgICAgICAgICAgICAgNS4yOSAgICAgICAgbWlsbC9jdW1tICAgICA0LjUwIC0gNS45MApQLkMuVi4gICAgICAgICAgICAgICAgICAgICAgICA1MC45IEggICAgICAlICAgICAgICAgICAgIDQwLjAgLSA1MC4wCk0uQy5WLiAgICAgICAgICAgICAgICAgICAgICAgIDk2LjMgICAgICAgIGZMICAgICAgICAgICAgODMuMCAtIDEwMS4wCk0uQy5ILiAgICAgICAgICAgICAgICAgICAgICAgIDI1LjAgTCAgICAgIHBnICAgICAgICAgICAgMjcuMCAtIDMyLjAKTS5DLkguQy4gICAgICAgICAgICAgICAgICAgICAgMjYuMCBMICAgICAgZy9kTCAgICAgICAgICAzMS41IC0gMzQuNQpUT1RBTCBMRVVDT0NZVEUgQ09VTlQgICAgICAgICAxMDY0NyAgICAgICAvY3VtbSAgICAgICAgIDQwMDAgLSAxMTAwMApQTEFURUxFVCBDT1VOVCAgICAgICAgICAgICAgICAyLjk3ICAgICAgICBsYWtoL2N1bW0gICAgIDEuNTAgLSA0LjEwCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKioqIEVORCBPRiBSRVBPUlQgKioqCk5vdGU6IENsaW5pY2FsIGNvcnJlbGF0aW9uIGFkdmlzZWQuCiAgICAgICAgICAgICAgICAgICAgIFNZTlRIRVRJQyBTQU1QTEUgLSBOT1QgQSBSRUFMIFBBVElFTlQK",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "SP/26/964945",
+  "patient_name": "MEERA BHOSALE",
+  "patient_age": 61,
+  "patient_sex": "male",
+  "collected": "2026-03-18",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "13.2",
+    "unit": "gm/dL",
+    "label": "HAEMOGLOBIN",
+    "flag": "",
+    "ref_low": "13.0",
+    "ref_high": "17.0"
+   },
+   {
+    "code": "RBC",
+    "value": "5.29",
+    "unit": "mill/cumm",
+    "label": "R.B.C. COUNT",
+    "flag": "",
+    "ref_low": "4.50",
+    "ref_high": "5.90"
+   },
+   {
+    "code": "HCT",
+    "value": "50.9",
+    "unit": "%",
+    "label": "P.C.V.",
+    "flag": "H",
+    "ref_low": "40.0",
+    "ref_high": "50.0"
+   },
+   {
+    "code": "MCV",
+    "value": "96.3",
+    "unit": "fL",
+    "label": "M.C.V.",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCH",
+    "value": "25.0",
+    "unit": "pg",
+    "label": "M.C.H.",
+    "flag": "L",
+    "ref_low": "27.0",
+    "ref_high": "32.0"
+   },
+   {
+    "code": "MCHC",
+    "value": "26.0",
+    "unit": "g/dL",
+    "label": "M.C.H.C.",
+    "flag": "L",
+    "ref_low": "31.5",
+    "ref_high": "34.5"
+   },
+   {
+    "code": "WBC",
+    "value": "10647",
+    "unit": "/cumm",
+    "label": "TOTAL LEUCOCYTE COUNT",
+    "flag": "",
+    "ref_low": "4000",
+    "ref_high": "11000"
+   },
+   {
+    "code": "PLT",
+    "value": "2.97",
+    "unit": "lakh/cumm",
+    "label": "PLATELET COUNT",
+    "flag": "",
+    "ref_low": "1.50",
+    "ref_high": "4.10"
+   }
+  ],
+  "collected_time": "09:50",
+  "reported": "2026-03-19",
+  "notes": [
+   "Note: Clinical correlation advised."
+  ],
+  "flag_semantics": "direction"
+ },
+ "note": "",
+ "split": "test"
+}

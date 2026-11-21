@@ -1,0 +1,105 @@
+{
+ "doc_id": "F-3504001-page_break",
+ "layout": "F",
+ "cls": "page_break",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "TUVESUxJTksgUkVGRVJFTkNFIExBQiAgLSAgQUNDRVNTSU9OIDQ0MTE2ODcKUFQ6IFJFRERZIE5FSEEgICAgICAgICAgICAgTVJOIDQ5ODEzNTcwICAgIEFHRTogODdZICBTRVg6IEYKQ09MTEVDVEVEIDA4LzA1LzIwMjYgMTE0NSAgIFJFQ0VJVkVEIDA4LzA1LzIwMjYgMTgyMAo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KVEVTVCBOQU1FIChVTklUUykgICAgICAgICAgICAgICAgICAgUkVTVUxUICAgIEZMQUcgICBSRUYKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCkhFTU9HTE9CSU4gKGcvZEwpICAgICAgICAgICAgICAgICAgIDEyLjQgICAgICAgICAgICAgMTIuMC0xNS41CkhFTUFUT0NSSVQgKCUpICAgICAgICAgICAgICAgICAgICAgIDM4LjQgICAgICAgICAgICAgMzYuMC00Ni4wCldCQyAoSy91TCkgICAgICAgICAgICAgICAgICAgICAgICAgIDcuMyAgICAgICAgICAgICAgNC4wLTExLjAKUkJDIChNL3VMKSAgICAgICAgICAgICAgICAgICAgICAgICAgNC4yMiAgICAgICAgICAgICA0LjAwLTUuMjAKUExBVEVMRVRTIChLL3VMKSAgICAgICAgICAgICAgICAgICAgMTg3ICAgICAgICAgICAgICAxNTAtNDAwCk1DViAoZkwpICAgICAgICAgICAgICAgICAgICAgICAgICAgIDkwLjkgICAgICAgICAgICAgODAuMC0xMDAuMApHTFVDT1NFLCBGQVNUSU5HIChtZy9kTCkgICAgICAgICAgICAxNDYgICAgICAgSCAgICAgIDcwLTk5CgpNRURJTElOSyBSRUZFUkVOQ0UgTEFCICAtICBBQ0NFU1NJT04gNDQxMTY4NwpQVDogUkVERFkgTkVIQSAgICAgICAgICAgICBNUk4gNDk4MTM1NzAgICAgQUdFOiA4N1kgIFNFWDogRgpDT0xMRUNURUQgMDgvMDUvMjAyNiAxMTQ1ICAgUkVDRUlWRUQgMDgvMDUvMjAyNiAxODIwCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpURVNUIE5BTUUgKFVOSVRTKSAgICAgICAgICAgICAgICAgICBSRVNVTFQgICAgRkxBRyAgIFJFRgotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KQ1JFQVRJTklORSAobWcvZEwpICAgICAgICAgICAgICAgICAgMC45NiAgICAgICAgICAgICAwLjUwLTEuMTAKQUxUIChVL0wpICAgICAgICAgICAgICAgICAgICAgICAgICAgMzMgICAgICAgICAgICAgICA3LTU2Ci0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpFTkQgT0YgUkVQT1JUClNZTlRIRVRJQyBTQU1QTEUgLSBOT1QgQSBSRUFMIFBBVElFTlQK",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "49813570",
+  "patient_name": "REDDY NEHA",
+  "patient_age": 87,
+  "patient_sex": "female",
+  "collected": "2026-08-05",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "12.4",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN",
+    "flag": "",
+    "ref_low": "12.0",
+    "ref_high": "15.5"
+   },
+   {
+    "code": "HCT",
+    "value": "38.4",
+    "unit": "%",
+    "label": "HEMATOCRIT",
+    "flag": "",
+    "ref_low": "36.0",
+    "ref_high": "46.0"
+   },
+   {
+    "code": "WBC",
+    "value": "7.3",
+    "unit": "K/uL",
+    "label": "WBC",
+    "flag": "",
+    "ref_low": "4.0",
+    "ref_high": "11.0"
+   },
+   {
+    "code": "RBC",
+    "value": "4.22",
+    "unit": "M/uL",
+    "label": "RBC",
+    "flag": "",
+    "ref_low": "4.00",
+    "ref_high": "5.20"
+   },
+   {
+    "code": "PLT",
+    "value": "187",
+    "unit": "K/uL",
+    "label": "PLATELETS",
+    "flag": "",
+    "ref_low": "150",
+    "ref_high": "400"
+   },
+   {
+    "code": "MCV",
+    "value": "90.9",
+    "unit": "fL",
+    "label": "MCV",
+    "flag": "",
+    "ref_low": "80.0",
+    "ref_high": "100.0"
+   },
+   {
+    "code": "GLU",
+    "value": "146",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING",
+    "flag": "H",
+    "ref_low": "70",
+    "ref_high": "99"
+   },
+   {
+    "code": "CREA",
+    "value": "0.96",
+    "unit": "mg/dL",
+    "label": "CREATININE",
+    "flag": "",
+    "ref_low": "0.50",
+    "ref_high": "1.10"
+   },
+   {
+    "code": "ALT",
+    "value": "33",
+    "unit": "U/L",
+    "label": "ALT",
+    "flag": "",
+    "ref_low": "7",
+    "ref_high": "56"
+   }
+  ],
+  "collected_time": "11:45",
+  "reported": null,
+  "notes": [],
+  "flag_semantics": "direction"
+ },
+ "note": "",
+ "split": "dev"
+}

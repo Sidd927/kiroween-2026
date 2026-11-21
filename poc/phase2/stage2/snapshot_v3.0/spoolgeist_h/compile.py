@@ -1,0 +1,139 @@
+"""Deterministic binding compiler (v3). NO LLM.
+
+Takes an LLM-written Binding (v2 schema) plus operator-verified approved samples and derives, without any
+model call, the structural facts the v3 interpreter enforces:
+
+  header            ordered line patterns that must open page 1 (exact static text where the line never varies,
+                    otherwise one of the binding's own anchor / skip regexes that matches that line in EVERY sample)
+  identity_index    position of the lab-identity line inside the header (used to find continuation pages
+                    when there is no form feed)
+  continuation_len  how many header lines every continuation page repeats (None = no approved multi-page sample:
+                    multi-page documents will be rejected)
+  template_lines    static lines present in every approved clean sample (footers, section titles, notes)
+  promoted_required optional fields present in 100% of approved samples become required (F-06)
+  date_formats      per date field: format, the sample strings, and whether the samples disambiguate DD/MM vs MM/DD
+
+The compiler only uses documents an operator verified (gen + dev with expected=accept). It never sees the
+held-out test split or the adversarial suite.
+"""
+from __future__ import annotations
+
+import copy
+from datetime import datetime
+from typing import Dict, List, Optional, Tuple
+
+import regex
+
+from .grid import normalize
+from .interpreter import Reject, _c, _field, nonblank, line_matches, ws, page_starts
+
+MAX_HEADER = 12
+
+
+def _page1_header_lines(b: dict, lines: List[str]) -> List[int]:
+    start_re = _c(b["results"]["start"])
+    s = next((i for i, ln in enumerate(lines) if start_re.search(ln)), len(lines))
+    return nonblank(lines, 0, s)[:MAX_HEADER]
+
+
+def _alpha(s: str) -> int:
+    return sum(ch.isalpha() for ch in s)
+
+
+def derive_header(b: dict, docs: List[List[str]]) -> Tuple[List[dict], Optional[int]]:
+    heads = [[ln[i] for i in _page1_header_lines(b, ln)] for ln in docs]
+    regexes = [("anchor", p) for p in b["layout"]["anchors"]] + [("skip", p) for p in b["results"]["skip_lines"]]
+    regexes = [(k, p) for k, p in regexes if not _c(p).search("")]
+    pats = []
+    for k in range(min(len(h) for h in heads)):
+        col = [h[k] for h in heads]
+        if len({ws(x) for x in col}) == 1:
+            pats.append({"exact": ws(col[0])})
+            continue
+        hit = next(((kind, p) for kind, p in regexes if all(_c(p).search(x) for x in col)), None)
+        if hit is None:
+            break
+        pats.append({"regex": hit[1], "source": hit[0]})
+    ident = next((i for i, p in enumerate(pats)
+                  if ("exact" in p and _alpha(p["exact"]) >= 6) or p.get("source") == "anchor"), None)
+    return pats, ident
+
+
+def compile_binding(b: dict, approved: List[dict], version: int) -> Tuple[dict, dict]:
+    """approved: list of corpus docs (dicts with text, perturbation, doc_id, truth). Returns (binding, report)."""
+    out = copy.deepcopy(b)
+    out["version"] = version
+    norms = [normalize(d["text"].encode()) for d in approved]
+    lines = [n.lines for n in norms]
+    clean_idx = [i for i, d in enumerate(approved) if d["perturbation"] == "clean"]
+    report = {"binding_id": b["binding_id"], "version": version, "samples": [d["doc_id"] for d in approved],
+              "n_samples": len(approved), "n_clean": len(clean_idx), "warnings": [], "errors": []}
+
+    header, ident = derive_header(b, lines)
+    if ident is None or len(header) < 2:
+        report["errors"].append(f"no usable page-1 header template (patterns={len(header)}, identity={ident})")
+    tmpl = set.intersection(*[{ws(x) for x in lines[i] if x.strip()} for i in clean_idx]) if clean_idx else set()
+    out["compiled"] = {"compiler": "spoolgeist_h.compile/1", "header": header, "identity_index": ident,
+                       "template_lines": sorted(tmpl), "continuation_len": None}
+    # continuation pages
+    cont = []
+    if ident is not None:
+        for n in norms:
+            st = page_starts(out, n.lines, n.ff_page_starts)
+            for s in st[1:]:
+                nb = nonblank(n.lines, s)
+                m = 0
+                while m < len(header) and m < len(nb) and line_matches(header[m], n.lines[nb[m]]):
+                    m += 1
+                cont.append(m)
+    report["n_continuation_pages"] = len(cont)
+    if cont:
+        m = min(cont)
+        if m >= (ident or 0) + 1:
+            out["compiled"]["continuation_len"] = m
+        else:
+            report["warnings"].append(f"continuation pages repeat only {m} header lines (< identity line): multi-page documents will be rejected")
+    else:
+        report["warnings"].append("no approved multi-page sample: multi-page documents will be rejected")
+    # optional-field promotion (F-06)
+    promoted = []
+    for name, spec in b["fields"].items():
+        if spec.get("required"):
+            continue
+        present = 0
+        for n in norms:
+            try:
+                present += _field(b, name, n.text) is not None
+            except Reject:
+                pass
+        if present == len(norms) and norms:
+            out["fields"][name]["required"] = True
+            promoted.append(name)
+    out["compiled"]["promoted_required"] = promoted
+    # date formats (F-08 g / Phase D)
+    dates = {}
+    for name, spec in b["fields"].items():
+        if spec["type"] != "date":
+            continue
+        fmt = spec["format"]
+        swapped = fmt.replace("%d", "\0").replace("%m", "%d").replace("\0", "%m") if ("%d" in fmt and "%m" in fmt) else None
+        strings = []
+        for n in norms:
+            for m in _c(spec["regex"]).finditer(n.text):
+                strings.append(ws(m.group("v")))
+        disamb = None
+        if swapped:
+            def ok(s, f):
+                try:
+                    datetime.strptime(s, f)
+                    return True
+                except ValueError:
+                    return False
+            disamb = any(ok(s, fmt) and not ok(s, swapped) for s in strings)
+        dates[name] = {"format": fmt, "day_month_order_ambiguous_format": bool(swapped),
+                       "samples_disambiguate": disamb, "n_strings": len(strings)}
+    out["compiled"]["date_formats"] = dates
+    report["compiled_summary"] = {"header_patterns": len(header), "identity_index": ident,
+                                  "continuation_len": out["compiled"]["continuation_len"],
+                                  "template_lines": len(tmpl), "promoted_required": promoted, "date_formats": dates}
+    return out, report

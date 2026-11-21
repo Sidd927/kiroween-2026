@@ -1,0 +1,173 @@
+{
+ "system": "v3.1 (active bindings: lab-a v4, lab-b v4, lab-c v4, lab-d v4, lab-e v4, lab-f v4)",
+ "text_probes": {
+  "R1_result_on_field_line": {
+   "v2.1": {
+    "A:ACCEPT": 10,
+    "B:ACCEPT": 10,
+    "C:ACCEPT": 10,
+    "D:ACCEPT": 10,
+    "E:REJECT": 10,
+    "F:ACCEPT": 10
+   },
+   "v3": {
+    "A:REJECT": 10,
+    "B:REJECT": 10,
+    "C:REJECT": 10,
+    "D:REJECT": 10,
+    "E:REJECT": 10,
+    "F:REJECT": 10
+   },
+   "examples": [
+    {
+     "layout": "A",
+     "v3_reason": "result_like_text_unparsed: R-A value+unit '138 mmol/L'"
+    },
+    {
+     "layout": "B",
+     "v3_reason": "result_like_text_unparsed: R-A value+unit '138 mmol/L'"
+    },
+    {
+     "layout": "C",
+     "v3_reason": "result_like_text_unparsed: R-A value+unit '138 mmol/L'"
+    },
+    {
+     "layout": "D",
+     "v3_reason": "result_like_text_unparsed: R-A value+unit '138 mmol/L'"
+    },
+    {
+     "layout": "E",
+     "v3_reason": "missing_field: patient_id"
+    },
+    {
+     "layout": "F",
+     "v3_reason": "missing_field: patient_sex"
+    }
+   ]
+  },
+  "R2_result_on_skip_or_anchor_line_outside_table": {
+   "v2.1": {
+    "A:ACCEPT": 10,
+    "B:ACCEPT": 10,
+    "C:ACCEPT": 10,
+    "E:ACCEPT": 10,
+    "n/a": 20
+   },
+   "v3": {
+    "A:REJECT": 10,
+    "B:REJECT": 10,
+    "C:REJECT": 10,
+    "E:REJECT": 10,
+    "n/a": 20
+   },
+   "examples": [
+    {
+     "layout": "A",
+     "v3_reason": "result_like_text_unparsed: R-A value+unit '138 mmol/L'"
+    },
+    {
+     "layout": "B",
+     "v3_reason": "result_like_text_unparsed: R-A value+unit '138 mmol/L'"
+    },
+    {
+     "layout": "C",
+     "v3_reason": "result_like_text_unparsed: R-A value+unit '138 mmol/L'"
+    },
+    {
+     "layout": "E",
+     "v3_reason": "result_like_text_unparsed: R-A value+unit '138 mmol/L'"
+    }
+   ]
+  },
+  "R3_result_on_skip_line_inside_table": {
+   "v2.1": {
+    "A:ACCEPT": 10,
+    "B:ACCEPT": 10,
+    "C:ACCEPT": 10,
+    "n/a": 30
+   },
+   "v3": {
+    "A:REJECT": 10,
+    "B:REJECT": 10,
+    "C:REJECT": 10,
+    "n/a": 30
+   },
+   "examples": [
+    {
+     "layout": "A",
+     "v3_reason": "result_like_text_unparsed: R-A value+unit '138 mmol/L'"
+    },
+    {
+     "layout": "B",
+     "v3_reason": "result_like_text_unparsed: R-A value+unit '138 mmol/L'"
+    },
+    {
+     "layout": "C",
+     "v3_reason": "result_like_text_unparsed: R-A value+unit '138 mmol/L'"
+    }
+   ]
+  },
+  "R4_duplicated_field_line_with_result": {
+   "v2.1": {
+    "A:ACCEPT": 10,
+    "B:ACCEPT": 10,
+    "C:ACCEPT": 10,
+    "D:ACCEPT": 10,
+    "E:ACCEPT": 10,
+    "F:ACCEPT": 10
+   },
+   "v3": {
+    "A:REJECT": 10,
+    "B:REJECT": 10,
+    "C:REJECT": 10,
+    "D:REJECT": 10,
+    "E:REJECT": 10,
+    "F:REJECT": 10
+   },
+   "examples": [
+    {
+     "layout": "A",
+     "v3_reason": "unknown_layout"
+    },
+    {
+     "layout": "B",
+     "v3_reason": "unknown_layout"
+    },
+    {
+     "layout": "C",
+     "v3_reason": "unknown_layout"
+    },
+    {
+     "layout": "D",
+     "v3_reason": "unknown_layout"
+    },
+    {
+     "layout": "E",
+     "v3_reason": "unknown_layout"
+    },
+    {
+     "layout": "F",
+     "v3_reason": "unknown_layout"
+    }
+   ]
+  }
+ },
+ "R5_forgery": {
+  "a_hand_edited_unsafe_binding_approved": false,
+  "a_reason": "re-compilation does not reproduce this binding: the compiled block was edited or the compiler change",
+  "b_compiled_unsafe_binding_approved": false,
+  "b_reason": "gate (re-run at approval) failed: ['G1_static', 'G4_clean_acceptance']",
+  "registry_entries": 0
+ },
+ "R6_revoke_fallback": {
+  "active_after_revoking_v5": []
+ },
+ "R7_processing_exception": {
+  "job_persisted": 1,
+  "review_queue_entries": 1,
+  "review_status": [
+   "PROCESSING_ERROR"
+  ],
+  "event_logged": true
+ }
+}

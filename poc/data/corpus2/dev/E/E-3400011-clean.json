@@ -1,0 +1,78 @@
+{
+ "doc_id": "E-3400011-clean",
+ "layout": "E",
+ "cls": "clean",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "TElGRUxJTkUgUEFUSE9MT0dZICYgSU1BR0lORyAgICAgICAgICAgICAgICAgICAgICAgIExhYiBJRDogTEwtMjAyNi01MjI3MwpQYXRpZW50OiBPbWthciBDaGF2YW4gICAgICAgICAgU2V4L0FnZTogRi8zMiAgICAgICAgRHJhd246IEFwcmlsIDIwLCAyMDI2Cl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXwpIQUVNT0dSQU0KSGIgICAgICAgMTEuOCAhIGcvZEwgICAgIFsxMi4wLTE1LjVdICAgUkJDICAgICAgICA1LjA5IHgxMF42L3VMIFs0LjAwLTUuMjBdCldCQyAgICAgICAgIDkuMSB4MTBeMy91TCBbNC4wLTExLjBdICAgIFBMVCAgICAgICAgIDI4MSB4MTBeMy91TCBbMTUwLTQxMF0KSENUICAgICAgICA0NS4yICUgICAgICAgIFszNi4wLTQ2LjBdICAgTUNWICAgICAgICA4OC45IGZMICAgICAgIFs4My4wLTEwMS4wXQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18KISA9IG91dHNpZGUgcmVmZXJlbmNlIGludGVydmFsICAgICAgICBSZXBvcnQgZ2VuZXJhdGVkIGJ5IExhYlN5cyAzLjEKU1lOVEhFVElDIFNBTVBMRSAtIE5PVCBBIFJFQUwgUEFUSUVOVAo=",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "LL-2026-52273",
+  "patient_name": "Omkar Chavan",
+  "patient_age": 32,
+  "patient_sex": "female",
+  "collected": "2026-04-20",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "11.8",
+    "unit": "g/dL",
+    "label": "Hb",
+    "flag": "L",
+    "ref_low": "12.0",
+    "ref_high": "15.5"
+   },
+   {
+    "code": "RBC",
+    "value": "5.09",
+    "unit": "x10^6/uL",
+    "label": "RBC",
+    "flag": "",
+    "ref_low": "4.00",
+    "ref_high": "5.20"
+   },
+   {
+    "code": "WBC",
+    "value": "9.1",
+    "unit": "x10^3/uL",
+    "label": "WBC",
+    "flag": "",
+    "ref_low": "4.0",
+    "ref_high": "11.0"
+   },
+   {
+    "code": "PLT",
+    "value": "281",
+    "unit": "x10^3/uL",
+    "label": "PLT",
+    "flag": "",
+    "ref_low": "150",
+    "ref_high": "410"
+   },
+   {
+    "code": "HCT",
+    "value": "45.2",
+    "unit": "%",
+    "label": "HCT",
+    "flag": "",
+    "ref_low": "36.0",
+    "ref_high": "46.0"
+   },
+   {
+    "code": "MCV",
+    "value": "88.9",
+    "unit": "fL",
+    "label": "MCV",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   }
+  ],
+  "collected_time": null,
+  "reported": null,
+  "notes": [],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "dev"
+}

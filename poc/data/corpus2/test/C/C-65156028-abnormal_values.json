@@ -1,0 +1,96 @@
+{
+ "doc_id": "C-65156028-abnormal_values",
+ "layout": "C",
+ "cls": "abnormal_values",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "RFIuIE1FSFRBJ1MgQ0xJTklDQUwgTEFCT1JBVE9SWSAgICAgICAgICAgICBSZXBvcnQgRGF0ZTogMjAyNi0wNS0yMgpQYXRpZW50IDogS2hhbiwgUHJpeWEgKE0vNTEpClBhdGllbnQgSUQgOiA4NTIzMTkxICAgICAgIFNhbXBsZSA6IFMtMzI3NzIKQ29sbGVjdGVkICA6IDIwMjYtMDUtMjEgMTA6MDUKQ29uc3VsdGFudCA6IERyLiBQcmFrYXNoIFNoaW5kZQoKQklPQ0hFTUlTVFJZCiAgVGVzdCAvIE1ldGhvZAogICAgICBSZXN1bHQgICAgIFVuaXRzICAgICBOb3JtYWwgUmFuZ2UKICAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgQklMSVJVQklOIFRPVEFMCiAgICAgIChEaWF6byBtZXRob2QpCiAgICAgIDAuODcgICAgICAgbWcvZGwgICAgIDAuMjAgLSAxLjIwCiAgQklMSVJVQklOIERJUkVDVAogICAgICAoRGlhem8gbWV0aG9kKQogICAgICAwLjIyICAgICAgIG1nL2RsICAgICAwLjAwIC0gMC4zMAogIFNHUFQgKEFMVCkKICAgICAgKElGQ0MpCiAgICAgIDI3ICAgICAgICAgVS9MICAgICAgIDAgLSA0MAogIFNHT1QgKEFTVCkKICAgICAgKElGQ0MpCiAgICAgIDEwICAgICAgICAgVS9MICAgICAgIDAgLSA0MAogIEFMS0FMSU5FIFBIT1NQSEFUQVNFCiAgICAgIChQTlBQLUFNUCkKICAgICAgMTk5ICogICAgICBJVS9MICAgICAgNDAgLSAxMzAKICBUT1RBTCBQUk9URUlOUwogICAgICAoQml1cmV0KQogICAgICA3LjAgICAgICAgIGcvZGwgICAgICA2LjAgLSA4LjMKICBBTEJVTUlOCiAgICAgIChCQ0cpCiAgICAgIDMuNiAgICAgICAgZy9kbCAgICAgIDMuNSAtIDUuMgogIFNFUlVNIENSRUFUSU5JTkUKICAgICAgKEphZmZlIGtpbmV0aWMpCiAgICAgIDIuNTQgKiAgICAgbWcvZGwgICAgIDAuNjAgLSAxLjMwCiAgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogICogVmFsdWUgb3V0c2lkZSBub3JtYWwgcmFuZ2UKCkNoZWNrZWQgYnk6IExhYiBUZWNobm9sb2dpc3QKICAgICAgICAgICAgICAgICAgICAgICAgICAgLS0gRU5EIC0tClNZTlRIRVRJQyBTQU1QTEUgLSBOT1QgQSBSRUFMIFBBVElFTlQK",
+ "queue_codepage": "cp1252",
+ "truth": {
+  "patient_id": "8523191",
+  "patient_name": "Khan, Priya",
+  "patient_age": 51,
+  "patient_sex": "male",
+  "collected": "2026-05-21",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "0.87",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL",
+    "flag": "",
+    "ref_low": "0.20",
+    "ref_high": "1.20"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.22",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT",
+    "flag": "",
+    "ref_low": "0.00",
+    "ref_high": "0.30"
+   },
+   {
+    "code": "ALT",
+    "value": "27",
+    "unit": "U/L",
+    "label": "SGPT (ALT)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "AST",
+    "value": "10",
+    "unit": "U/L",
+    "label": "SGOT (AST)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "ALP",
+    "value": "199",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE",
+    "flag": "H",
+    "ref_low": "40",
+    "ref_high": "130"
+   },
+   {
+    "code": "TP",
+    "value": "7.0",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS",
+    "flag": "",
+    "ref_low": "6.0",
+    "ref_high": "8.3"
+   },
+   {
+    "code": "ALB",
+    "value": "3.6",
+    "unit": "g/dl",
+    "label": "ALBUMIN",
+    "flag": "",
+    "ref_low": "3.5",
+    "ref_high": "5.2"
+   },
+   {
+    "code": "CREA",
+    "value": "2.54",
+    "unit": "mg/dl",
+    "label": "SERUM CREATININE",
+    "flag": "H",
+    "ref_low": "0.60",
+    "ref_high": "1.30"
+   }
+  ],
+  "collected_time": "10:05",
+  "reported": "2026-05-22",
+  "notes": [],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

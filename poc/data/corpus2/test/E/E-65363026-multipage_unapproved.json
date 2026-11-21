@@ -1,0 +1,96 @@
+{
+ "doc_id": "E-65363026-multipage_unapproved",
+ "layout": "E",
+ "cls": "multipage_unapproved",
+ "group": "policy",
+ "expected": "reject",
+ "raw_b64": "TElGRUxJTkUgUEFUSE9MT0dZICYgSU1BR0lORyAgICAgICAgICAgICAgICAgICAgICAgIExhYiBJRDogTEwtMjAyNi0yNjUzNgpQYXRpZW50OiBBcmp1biBSYW8gICAgICAgICAgICAgU2V4L0FnZTogTS81OCAgICAgICAgRHJhd246IEp1bHkgMjQsIDIwMjYKX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fCkhBRU1PR1JBTQpIYiAgICAgICAgIDEzLjkgZy9kTCAgICAgWzEzLjAtMTcuMF0gICBSQkMgICAgICA0LjQyICEgeDEwXjYvdUwgWzQuNTAtNS45MF0KV0JDICAgICAgICAgNS45IHgxMF4zL3VMIFs0LjAtMTEuMF0gICAgUExUICAgICAgICAgMjIwIHgxMF4zL3VMIFsxNTAtNDEwXQpIQ1QgICAgICAgIDQyLjYgJSAgICAgICAgWzQwLjAtNTAuMF0gICBNQ1YgICAgICAgIDk2LjMgZkwgICAgICAgWzgzLjAtMTAxLjBdCk1DSCAgICAgICAgMzEuNSBwZyAgICAgICBbMjcuMC0zMi4wXSAgIE1DSEMgICAgICAgMzIuNyBnL2RMICAgICBbMzEuNS0zNC41XQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18KISA9IG91dHNpZGUgcmVmZXJlbmNlIGludGVydmFsICAgICAgICBSZXBvcnQgZ2VuZXJhdGVkIGJ5IExhYlN5cyAzLjEKU1lOVEhFVElDIFNBTVBMRSAtIE5PVCBBIFJFQUwgUEFUSUVOVAoMTElGRUxJTkUgUEFUSE9MT0dZICYgSU1BR0lORyAgICAgICAgICAgICAgICAgICAgICAgIExhYiBJRDogTEwtMjAyNi0yNjUzNgpQYXRpZW50OiBBcmp1biBSYW8gICAgICAgICAgICAgU2V4L0FnZTogTS81OCAgICAgICAgRHJhd246IEp1bHkgMjQsIDIwMjYKX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fCkhBRU1PR1JBTQpIYiAgICAgICAgIDEzLjkgZy9kTCAgICAgWzEzLjAtMTcuMF0gICBSQkMgICAgICA0LjQyICEgeDEwXjYvdUwgWzQuNTAtNS45MF0KV0JDICAgICAgICAgNS45IHgxMF4zL3VMIFs0LjAtMTEuMF0gICAgUExUICAgICAgICAgMjIwIHgxMF4zL3VMIFsxNTAtNDEwXQpIQ1QgICAgICAgIDQyLjYgJSAgICAgICAgWzQwLjAtNTAuMF0gICBNQ1YgICAgICAgIDk2LjMgZkwgICAgICAgWzgzLjAtMTAxLjBdCk1DSCAgICAgICAgMzEuNSBwZyAgICAgICBbMjcuMC0zMi4wXSAgIE1DSEMgICAgICAgMzIuNyBnL2RMICAgICBbMzEuNS0zNC41XQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18KISA9IG91dHNpZGUgcmVmZXJlbmNlIGludGVydmFsICAgICAgICBSZXBvcnQgZ2VuZXJhdGVkIGJ5IExhYlN5cyAzLjEKU1lOVEhFVElDIFNBTVBMRSAtIE5PVCBBIFJFQUwgUEFUSUVOVAo=",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "LL-2026-26536",
+  "patient_name": "Arjun Rao",
+  "patient_age": 58,
+  "patient_sex": "male",
+  "collected": "2026-07-24",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "13.9",
+    "unit": "g/dL",
+    "label": "Hb",
+    "flag": "",
+    "ref_low": "13.0",
+    "ref_high": "17.0"
+   },
+   {
+    "code": "RBC",
+    "value": "4.42",
+    "unit": "x10^6/uL",
+    "label": "RBC",
+    "flag": "L",
+    "ref_low": "4.50",
+    "ref_high": "5.90"
+   },
+   {
+    "code": "WBC",
+    "value": "5.9",
+    "unit": "x10^3/uL",
+    "label": "WBC",
+    "flag": "",
+    "ref_low": "4.0",
+    "ref_high": "11.0"
+   },
+   {
+    "code": "PLT",
+    "value": "220",
+    "unit": "x10^3/uL",
+    "label": "PLT",
+    "flag": "",
+    "ref_low": "150",
+    "ref_high": "410"
+   },
+   {
+    "code": "HCT",
+    "value": "42.6",
+    "unit": "%",
+    "label": "HCT",
+    "flag": "",
+    "ref_low": "40.0",
+    "ref_high": "50.0"
+   },
+   {
+    "code": "MCV",
+    "value": "96.3",
+    "unit": "fL",
+    "label": "MCV",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCH",
+    "value": "31.5",
+    "unit": "pg",
+    "label": "MCH",
+    "flag": "",
+    "ref_low": "27.0",
+    "ref_high": "32.0"
+   },
+   {
+    "code": "MCHC",
+    "value": "32.7",
+    "unit": "g/dL",
+    "label": "MCHC",
+    "flag": "",
+    "ref_low": "31.5",
+    "ref_high": "34.5"
+   }
+  ],
+  "collected_time": null,
+  "reported": null,
+  "notes": [],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

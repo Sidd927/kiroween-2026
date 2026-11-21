@@ -1,0 +1,114 @@
+{
+ "doc_id": "B-3100003-clean",
+ "layout": "B",
+ "cls": "clean",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "G0AbRSAgICAgICAgICAgICAgICAgICAgIENJVFkgRElBR05PU1RJQyBDRU5UUkUgICAgICAgICAgICAgICAgICAgICAbRgogICAgICAgICAgICAgUGxvdCA3LCBNSURDIEFyZWEsIEF1cmFuZ2FiYWQgLSA0MzEwMDEKUmVnLiBObyA6IENEQy04MzY3MTkgICAgICAgICAgICBEYXRlIDogMTItTWFyLTIwMjYKTmFtZSAgICA6IFJvaGFuIFBhd2FyICAgICAgICAgICBBZ2UgIDogNDYgWSAgIFNleCA6IEZlbWFsZQpTYW1wbGUgY29sbGVjdGVkIG9uIDogMTItTWFyLTIwMjYgMDc6MTUgQU0KUmVmZXJyZWQgYnkgOiBEci4gUHJha2FzaCBTaGluZGUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBQYWdlIDEgb2YgMgo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CkludmVzdGlnYXRpb24gICAgICAgICAgICAgVmFsdWUgICAgVW5pdHMgICAgICAgICBCaW9sb2dpY2FsIFJlZi4KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpIYWVtb2dsb2JpbiAuLi4uLi4uLi4uLi4uIDEzLjQgICAgIGcvZEwgICAgICAgICAgMTIuMC0xNS41ClJCQyBDb3VudCAuLi4uLi4uLi4uLi4uLi4gNC40NCAgICAgbWlsbGlvbi9jdW1tICA0LjAwLTUuMjAKUENWIC8gSGFlbWF0b2NyaXQgLi4uLi4uLiA0MC45ICAgICAlICAgICAgICAgICAgIDM2LjAtNDYuMApNQ1YgLi4uLi4uLi4uLi4uLi4uLi4uLi4uIDkyLjIgICAgIGZsICAgICAgICAgICAgODMuMC0xMDEuMApNQ0ggLi4uLi4uLi4uLi4uLi4uLi4uLi4uIDMwLjEgICAgIHBnICAgICAgICAgICAgMjcuMC0zMi4wCk1DSEMgLi4uLi4uLi4uLi4uLi4uLi4uLi4gMzIuNyAgICAgZy9kbCAgICAgICAgICAzMS41LTM0LjUKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIChjb250aW51ZWQpCgobQBtFICAgICAgICAgICAgICAgICAgICAgQ0lUWSBESUFHTk9TVElDIENFTlRSRSAgICAgICAgICAgICAgICAgICAgIBtGCiAgICAgICAgICAgICBQbG90IDcsIE1JREMgQXJlYSwgQXVyYW5nYWJhZCAtIDQzMTAwMQpSZWcuIE5vIDogQ0RDLTgzNjcxOSAgICAgICAgICAgIERhdGUgOiAxMi1NYXItMjAyNgpOYW1lICAgIDogUm9oYW4gUGF3YXIgICAgICAgICAgIEFnZSAgOiA0NiBZICAgU2V4IDogRmVtYWxlClNhbXBsZSBjb2xsZWN0ZWQgb24gOiAxMi1NYXItMjAyNiAwNzoxNSBBTQpSZWZlcnJlZCBieSA6IERyLiBQcmFrYXNoIFNoaW5kZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFBhZ2UgMiBvZiAyCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KSW52ZXN0aWdhdGlvbiAgICAgICAgICAgICBWYWx1ZSAgICBVbml0cyAgICAgICAgIEJpb2xvZ2ljYWwgUmVmLgotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tClRvdGFsIFdCQyBDb3VudCAuLi4uLi4uLi4gG0UzNzA2ICAgICAbRmNlbGxzL2N1bW0gICAgNDAwMC0xMTAwMApOZXV0cm9waGlscyAuLi4uLi4uLi4uLi4uIDUwICAgICAgICUgICAgICAgICAgICAgNDAtODAKTHltcGhvY3l0ZXMgLi4uLi4uLi4uLi4uLiAbRTQyICAgICAgIBtGJSAgICAgICAgICAgICAyMC00MApQbGF0ZWxldCBDb3VudCAuLi4uLi4uLi4uIBtFOTggICAgICAgG0YxMF4zL3VMICAgICAgIDE1MC00MTAKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpWYWx1ZXMgaW4gYm9sZCBhcmUgb3V0c2lkZSB0aGUgYmlvbG9naWNhbCByZWZlcmVuY2UgaW50ZXJ2YWwuCiAgICAgICAgICAgICAgICAgICAgIC0tLSBFbmQgb2YgUmVwb3J0IC0tLQpTWU5USEVUSUMgU0FNUExFIC0gTk9UIEEgUkVBTCBQQVRJRU5UCg==",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "CDC-836719",
+  "patient_name": "Rohan Pawar",
+  "patient_age": 46,
+  "patient_sex": "female",
+  "collected": "2026-03-12",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "13.4",
+    "unit": "g/dL",
+    "label": "Haemoglobin",
+    "flag": "",
+    "ref_low": "12.0",
+    "ref_high": "15.5"
+   },
+   {
+    "code": "RBC",
+    "value": "4.44",
+    "unit": "million/cumm",
+    "label": "RBC Count",
+    "flag": "",
+    "ref_low": "4.00",
+    "ref_high": "5.20"
+   },
+   {
+    "code": "HCT",
+    "value": "40.9",
+    "unit": "%",
+    "label": "PCV / Haematocrit",
+    "flag": "",
+    "ref_low": "36.0",
+    "ref_high": "46.0"
+   },
+   {
+    "code": "MCV",
+    "value": "92.2",
+    "unit": "fl",
+    "label": "MCV",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCH",
+    "value": "30.1",
+    "unit": "pg",
+    "label": "MCH",
+    "flag": "",
+    "ref_low": "27.0",
+    "ref_high": "32.0"
+   },
+   {
+    "code": "MCHC",
+    "value": "32.7",
+    "unit": "g/dl",
+    "label": "MCHC",
+    "flag": "",
+    "ref_low": "31.5",
+    "ref_high": "34.5"
+   },
+   {
+    "code": "WBC",
+    "value": "3706",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count",
+    "flag": "L",
+    "ref_low": "4000",
+    "ref_high": "11000"
+   },
+   {
+    "code": "NEUT%",
+    "value": "50",
+    "unit": "%",
+    "label": "Neutrophils",
+    "flag": "",
+    "ref_low": "40",
+    "ref_high": "80"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "42",
+    "unit": "%",
+    "label": "Lymphocytes",
+    "flag": "H",
+    "ref_low": "20",
+    "ref_high": "40"
+   },
+   {
+    "code": "PLT",
+    "value": "98",
+    "unit": "10^3/uL",
+    "label": "Platelet Count",
+    "flag": "L",
+    "ref_low": "150",
+    "ref_high": "410"
+   }
+  ],
+  "collected_time": "07:15",
+  "reported": "2026-03-12",
+  "notes": [],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "dev"
+}

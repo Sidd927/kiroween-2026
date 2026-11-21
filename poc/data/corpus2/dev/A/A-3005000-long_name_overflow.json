@@ -1,0 +1,105 @@
+{
+ "doc_id": "A-3005000-long_name_overflow",
+ "layout": "A",
+ "cls": "long_name_overflow",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "ICAgICAgICAgICAgICAgICAgICAgICAgICBTVU5SSVNFIFBBVEhPTE9HWSBMQUJPUkFUT1JZCiAgICAgICAgICAgICAgMTIsIFN0YXRpb24gUm9hZCwgTmFzaGlrIC0gNDIyMDAxICBQaDogMDI1My0yMzQ1Njc4Ci0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tClBhdGllbnQgTmFtZSA6IE1SUy4gUkFKQUxBS1NITUkgQ0hBTkRSQVNFS0FSQU4gIExhYiBOby4gICA6IFNQLzI2LzI4ODMyMgpBZ2UgLyBTZXggICAgOiA0IFlycyAvIEYgICAgICAgICAgICAgICAgICAgICAgICBDb2xsZWN0ZWQgOiAyMy8wMy8yMDI2IDA3OjA1ClJlZi4gQnkgICAgICA6IERSLiBQUkFLQVNIIFNISU5ERSAgICAgICAgICAgICAgIFJlcG9ydGVkICA6IDIzLzAzLzIwMjYgMjA6NTUKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICAgICAgICAgICAgICAgICAgICAgICBIQUVNQVRPTE9HWSAtIENPTVBMRVRFIEJMT09EIENPVU5UCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tClRFU1QgICAgICAgICAgICAgICAgICAgICAgICAgIFJFU1VMVCAgICAgIFVOSVQgICAgICAgICAgUkVGRVJFTkNFIFJBTkdFCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCkhBRU1PR0xPQklOICAgICAgICAgICAgICAgICAgIDEyLjEgICAgICAgIGdtL2RMICAgICAgICAgMTIuMCAtIDE1LjUKUi5CLkMuIENPVU5UICAgICAgICAgICAgICAgICAgNC4zNiAgICAgICAgbWlsbC9jdW1tICAgICA0LjAwIC0gNS4yMApQLkMuVi4gICAgICAgICAgICAgICAgICAgICAgICA0MC4xICAgICAgICAlICAgICAgICAgICAgIDM2LjAgLSA0Ni4wCk0uQy5WLiAgICAgICAgICAgICAgICAgICAgICAgIDkxLjkgICAgICAgIGZMICAgICAgICAgICAgODMuMCAtIDEwMS4wCk0uQy5ILiAgICAgICAgICAgICAgICAgICAgICAgIDI3LjYgICAgICAgIHBnICAgICAgICAgICAgMjcuMCAtIDMyLjAKTS5DLkguQy4gICAgICAgICAgICAgICAgICAgICAgMzAuMSBMICAgICAgZy9kTCAgICAgICAgICAzMS41IC0gMzQuNQpUT1RBTCBMRVVDT0NZVEUgQ09VTlQgICAgICAgICAxMTkyNSBIICAgICAvY3VtbSAgICAgICAgIDQwMDAgLSAxMTAwMApMWU1QSE9DWVRFUyAgICAgICAgICAgICAgICAgICAyNyAgICAgICAgICAlICAgICAgICAgICAgIDIwIC0gNDAKUExBVEVMRVQgQ09VTlQgICAgICAgICAgICAgICAgMS4yOSBMICAgICAgbGFraC9jdW1tICAgICAxLjUwIC0gNC4xMAotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICoqKiBFTkQgT0YgUkVQT1JUICoqKgogICAgICAgICAgICAgICAgICAgICBTWU5USEVUSUMgU0FNUExFIC0gTk9UIEEgUkVBTCBQQVRJRU5UCg==",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "SP/26/288322",
+  "patient_name": "RAJALAKSHMI CHANDRASEKARAN",
+  "patient_age": 4,
+  "patient_sex": "female",
+  "collected": "2026-03-23",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "12.1",
+    "unit": "gm/dL",
+    "label": "HAEMOGLOBIN",
+    "flag": "",
+    "ref_low": "12.0",
+    "ref_high": "15.5"
+   },
+   {
+    "code": "RBC",
+    "value": "4.36",
+    "unit": "mill/cumm",
+    "label": "R.B.C. COUNT",
+    "flag": "",
+    "ref_low": "4.00",
+    "ref_high": "5.20"
+   },
+   {
+    "code": "HCT",
+    "value": "40.1",
+    "unit": "%",
+    "label": "P.C.V.",
+    "flag": "",
+    "ref_low": "36.0",
+    "ref_high": "46.0"
+   },
+   {
+    "code": "MCV",
+    "value": "91.9",
+    "unit": "fL",
+    "label": "M.C.V.",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCH",
+    "value": "27.6",
+    "unit": "pg",
+    "label": "M.C.H.",
+    "flag": "",
+    "ref_low": "27.0",
+    "ref_high": "32.0"
+   },
+   {
+    "code": "MCHC",
+    "value": "30.1",
+    "unit": "g/dL",
+    "label": "M.C.H.C.",
+    "flag": "L",
+    "ref_low": "31.5",
+    "ref_high": "34.5"
+   },
+   {
+    "code": "WBC",
+    "value": "11925",
+    "unit": "/cumm",
+    "label": "TOTAL LEUCOCYTE COUNT",
+    "flag": "H",
+    "ref_low": "4000",
+    "ref_high": "11000"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "27",
+    "unit": "%",
+    "label": "LYMPHOCYTES",
+    "flag": "",
+    "ref_low": "20",
+    "ref_high": "40"
+   },
+   {
+    "code": "PLT",
+    "value": "1.29",
+    "unit": "lakh/cumm",
+    "label": "PLATELET COUNT",
+    "flag": "L",
+    "ref_low": "1.50",
+    "ref_high": "4.10"
+   }
+  ],
+  "collected_time": "07:05",
+  "reported": "2026-03-23",
+  "notes": [],
+  "flag_semantics": "direction"
+ },
+ "note": "",
+ "split": "dev"
+}

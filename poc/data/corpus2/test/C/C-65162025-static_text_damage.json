@@ -1,0 +1,105 @@
+{
+ "doc_id": "C-65162025-static_text_damage",
+ "layout": "C",
+ "cls": "static_text_damage",
+ "group": "policy",
+ "expected": "reject",
+ "raw_b64": "RFIuIE1FSFRBJ1MgQ0xJTklDQUwgTEFCT1JBVE9SWSAgICAgICAgICAgICBSZXBvcnQgRGF0ZTogMjAyNi0wNy0yMQpQYXRpZW50IDogR2Fpa3dhZCwgSXNoYSAoTS82NCkKUGF0aWVudCBJRCA6IDMyNzQxMzUgICAgICAgU2FtcGxlIDogUy05NTg1MApDb2xsZWN0ZWQgIDogMjAyNi0wNy0yMSAwODoxNQpDb25zdWx0YW50IDogRHIuIFYuIEsuIEd1cHRhCgpCSU9DSEVNSVNUUlkKICBUZXN0IC8gTWV0aG9kCiAgICAgIFJlc3VsdCAgICAgVW5pdHMgICAgIE5vcm1hbCBSYW5nZQogIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICBCSUxJUlVCSU4gVE9UQUwKICAgICAgKERpYXpvIG1ldGhvZCkKICAgICAgMC41NiAgICAgICBtZy9kbCAgICAgMC4yMCAtIDEuMjAKICBCSUxJUlVCSU4gRElSRUNUCiAgICAgIChEaWF6byBtZXRob2QpCiAgICAgIDAuMTkgICAgICAgbWcvZGwgICAgIDAuMDAgLSAwLjMwCiAgU0dQVCAoQUxUKQogICAgICAoSUZDQykKICAgICAgMzQgICAgICAgICBVL0wgICAgICAgMCAtIDQwCiAgU0dPVCAoQVNUKQogICAgICAoSUZDQykKICAgICAgMzQgICAgICAgICBVL0wgICAgICAgMCAtIDQwCiAgQUxLQUxJTkUgUEhPU1BIQVRBU0UKICAgICAgKFBOUFAtQU1QKQogICAgICAxMDYgICAgICAgIElVL0wgICAgICA0MCAtIDEzMAogIFRPVEFMIFBST1RFSU5TCiAgICAgIChCaXVyZXQpCiAgICAgIDYuNSAgICAgICAgZy9kbCAgICAgIDYuMCAtIDguMwogIEFMQlVNSU4KICAgICAgKEJDRykKICAgICAgNC4xICAgICAgICBnL2RsICAgICAgMy41IC0gNS4yCiAgU0VSVU0gQ1JFQVRJTklORQogICAgICAoSmFmZmUga2luZXRpYykKICAgICAgMC42NyAgICAgICBtZy9kbCAgICAgMC42MCAtIDEuMzAKICBCTE9PRCBVUkVBCiAgICAgIChVcmVhc2UtR0xESCkKICAgICAgMzkgICAgICAgICBtZy9kbCAgICAgMTUgLSA0NQogIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICAqIFZhbHVlIG91dHNpZGUgbm9ybWFsIHJRbmdlCgpDaGVja2VkIGJ5OiBMYWIgVGVjaG5vbG9naXN0CiAgICAgICAgICAgICAgICAgICAgICAgICAgIC0tIEVORCAtLQpTWU5USEVUSUMgU0FNUExFIC0gTk9UIEEgUkVBTCBQQVRJRU5UCg==",
+ "queue_codepage": "cp1252",
+ "truth": {
+  "patient_id": "3274135",
+  "patient_name": "Gaikwad, Isha",
+  "patient_age": 64,
+  "patient_sex": "male",
+  "collected": "2026-07-21",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "0.56",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL",
+    "flag": "",
+    "ref_low": "0.20",
+    "ref_high": "1.20"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.19",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT",
+    "flag": "",
+    "ref_low": "0.00",
+    "ref_high": "0.30"
+   },
+   {
+    "code": "ALT",
+    "value": "34",
+    "unit": "U/L",
+    "label": "SGPT (ALT)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "AST",
+    "value": "34",
+    "unit": "U/L",
+    "label": "SGOT (AST)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "ALP",
+    "value": "106",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE",
+    "flag": "",
+    "ref_low": "40",
+    "ref_high": "130"
+   },
+   {
+    "code": "TP",
+    "value": "6.5",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS",
+    "flag": "",
+    "ref_low": "6.0",
+    "ref_high": "8.3"
+   },
+   {
+    "code": "ALB",
+    "value": "4.1",
+    "unit": "g/dl",
+    "label": "ALBUMIN",
+    "flag": "",
+    "ref_low": "3.5",
+    "ref_high": "5.2"
+   },
+   {
+    "code": "CREA",
+    "value": "0.67",
+    "unit": "mg/dl",
+    "label": "SERUM CREATININE",
+    "flag": "",
+    "ref_low": "0.60",
+    "ref_high": "1.30"
+   },
+   {
+    "code": "UREA",
+    "value": "39",
+    "unit": "mg/dl",
+    "label": "BLOOD UREA",
+    "flag": "",
+    "ref_low": "15",
+    "ref_high": "45"
+   }
+  ],
+  "collected_time": "08:15",
+  "reported": "2026-07-21",
+  "notes": [],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

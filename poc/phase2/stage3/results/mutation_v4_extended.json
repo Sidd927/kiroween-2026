@@ -1,0 +1,1407 @@
+{
+ "oracle_docs": 1745,
+ "checked": 95,
+ "killed": 5,
+ "still_surviving": [
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "bool",
+   "line": 41,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.16s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "bool",
+   "line": 94,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.11s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "bool",
+   "line": 62,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.08s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "bool",
+   "line": 49,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.13s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 66,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.17s",
+    "93 passed in 8.07s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 66,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.04s",
+    "93 passed in 8.15s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 57,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.01s",
+    "93 passed in 8.12s",
+    "93 passed in 8.20s",
+    "93 passed in 8.51s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 57,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.11s",
+    "93 passed in 8.11s",
+    "93 passed in 8.18s",
+    "93 passed in 8.11s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 57,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.07s",
+    "93 passed in 8.13s",
+    "93 passed in 8.12s",
+    "93 passed in 8.12s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 62,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.17s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 99,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.15s",
+    "93 passed in 8.05s",
+    "93 passed in 8.08s",
+    "93 passed in 8.00s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 57,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.01s",
+    "93 passed in 8.14s",
+    "93 passed in 8.17s",
+    "93 passed in 7.98s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 99,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.03s",
+    "93 passed in 8.05s",
+    "93 passed in 8.19s",
+    "93 passed in 8.25s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 99,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.79s",
+    "93 passed in 8.67s",
+    "93 passed in 8.23s",
+    "93 passed in 8.32s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 99,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.30s",
+    "93 passed in 8.21s",
+    "93 passed in 8.18s",
+    "93 passed in 8.19s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "validators.py",
+   "function": "_interval",
+   "op": "const",
+   "line": 116,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.23s",
+    "93 passed in 8.40s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "validators.py",
+   "function": "_interval",
+   "op": "const",
+   "line": 116,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.79s",
+    "93 passed in 8.47s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "bool",
+   "line": 127,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.79s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 147,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.64s",
+    "93 passed in 8.84s",
+    "93 passed in 8.69s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 147,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.51s",
+    "93 passed in 8.25s",
+    "93 passed in 8.15s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 147,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.56s",
+    "93 passed in 8.02s",
+    "93 passed in 8.18s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "sentinel.py",
+   "function": "_analyte_re",
+   "op": "cmp",
+   "line": 47,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.23s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "sentinel.py",
+   "function": "_analyte_re",
+   "op": "const",
+   "line": 47,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.03s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "sentinel.py",
+   "function": "unconsumed_text",
+   "op": "const",
+   "line": 56,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.08s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "sentinel.py",
+   "function": "scan",
+   "op": "const",
+   "line": 65,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.25s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "sentinel.py",
+   "function": "scan",
+   "op": "const",
+   "line": 69,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.15s",
+    "93 passed in 8.03s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "sentinel.py",
+   "function": "scan",
+   "op": "const",
+   "line": 69,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.17s",
+    "93 passed in 8.12s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "raise",
+   "line": 154,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.05s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "bool",
+   "line": 143,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.02s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "raise",
+   "line": 159,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.52s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "raise",
+   "line": 165,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.11s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "const",
+   "line": 140,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.14s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 192,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.14s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 253,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.20s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 202,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.13s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 203,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.14s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 206,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.09s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 235,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.31s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 239,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.29s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "bool",
+   "line": 259,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.56s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 270,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.26s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 273,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.19s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "bool",
+   "line": 216,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.16s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 217,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.20s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 230,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.15s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 281,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.16s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "bool",
+   "line": 202,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.23s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 259,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.15s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 290,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.17s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 204,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 7.92s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 190,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.42s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 203,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.05s",
+    "93 passed in 8.19s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 205,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.20s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 206,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.08s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 216,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.14s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 229,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.06s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 251,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.02s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 203,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.11s",
+    "93 passed in 8.09s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 217,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.04s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 230,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.09s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 243,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.36s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "op": "not",
+   "line": 379,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.55s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "op": "raise",
+   "line": 382,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.49s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "op": "raise",
+   "line": 384,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.30s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "op": "const",
+   "line": 375,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.38s",
+    "93 passed in 8.23s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "op": "const",
+   "line": 375,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.01s",
+    "93 passed in 7.95s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "op": "const",
+   "line": 384,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.13s",
+    "93 passed in 8.14s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "op": "const",
+   "line": 384,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.19s",
+    "93 passed in 8.13s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "cmp",
+   "line": 472,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.03s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "bool",
+   "line": 479,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.34s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "cmp",
+   "line": 487,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.30s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "not",
+   "line": 479,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.21s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "const",
+   "line": 489,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.14s",
+    "93 passed in 8.17s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "const",
+   "line": 496,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 7.99s",
+    "93 passed in 8.17s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "const",
+   "line": 500,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.36s",
+    "93 passed in 8.36s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "const",
+   "line": 502,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.37s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "const",
+   "line": 489,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.76s",
+    "93 passed in 8.69s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "const",
+   "line": 496,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.89s",
+    "93 passed in 8.55s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "const",
+   "line": 500,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.45s",
+    "93 passed in 8.19s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "numeric_text_check",
+   "op": "const",
+   "line": 578,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.35s",
+    "93 passed in 8.13s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "numeric_text_check",
+   "op": "const",
+   "line": 578,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.13s",
+    "93 passed in 8.68s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "raise",
+   "line": 592,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.71s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "const",
+   "line": 597,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.74s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "cmp",
+   "line": 602,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.63s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "raise",
+   "line": 620,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.65s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "bool",
+   "line": 603,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.33s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "const",
+   "line": 620,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.09s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "const",
+   "line": 609,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.10s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "const",
+   "line": 612,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.30s"
+   ],
+   "killed_by_extended_oracle": false
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "const",
+   "line": 614,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": [],
+   "killed_by_tests": false,
+   "tests_detail": [
+    "93 passed in 8.43s"
+   ],
+   "killed_by_extended_oracle": false
+  }
+ ]
+}

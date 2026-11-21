@@ -1,0 +1,108 @@
+{
+ "doc_id": "A-64952026-interpretive_note",
+ "layout": "A",
+ "cls": "interpretive_note",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "ICAgICAgICAgICAgICAgICAgICAgICAgICBTVU5SSVNFIFBBVEhPTE9HWSBMQUJPUkFUT1JZCiAgICAgICAgICAgICAgMTIsIFN0YXRpb24gUm9hZCwgTmFzaGlrIC0gNDIyMDAxICBQaDogMDI1My0yMzQ1Njc4Ci0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tClBhdGllbnQgTmFtZSA6IE1SLiBQUklZQSBDSEFWQU4gICAgICAgICAgICAgICAgIExhYiBOby4gICA6IFNQLzI2LzA1NDczOApBZ2UgLyBTZXggICAgOiA1IFlycyAvIE0gICAgICAgICAgICAgICAgICAgICAgICBDb2xsZWN0ZWQgOiAwNy8wNC8yMDI2IDExOjAwClJlZi4gQnkgICAgICA6IERSLiBBLiBSQU8gICAgICAgICAgICAgICAgICAgICAgIFJlcG9ydGVkICA6IDA3LzA0LzIwMjYgMTg6NTAKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICAgICAgICAgICAgICAgICAgICAgICBIQUVNQVRPTE9HWSAtIENPTVBMRVRFIEJMT09EIENPVU5UCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tClRFU1QgICAgICAgICAgICAgICAgICAgICAgICAgIFJFU1VMVCAgICAgIFVOSVQgICAgICAgICAgUkVGRVJFTkNFIFJBTkdFCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCkhBRU1PR0xPQklOICAgICAgICAgICAgICAgICAgIDE0LjYgICAgICAgIGdtL2RMICAgICAgICAgMTMuMCAtIDE3LjAKUi5CLkMuIENPVU5UICAgICAgICAgICAgICAgICAgNC43NCAgICAgICAgbWlsbC9jdW1tICAgICA0LjUwIC0gNS45MApQLkMuVi4gICAgICAgICAgICAgICAgICAgICAgICA0Mi45ICAgICAgICAlICAgICAgICAgICAgIDQwLjAgLSA1MC4wCk0uQy5WLiAgICAgICAgICAgICAgICAgICAgICAgIDkwLjUgICAgICAgIGZMICAgICAgICAgICAgODMuMCAtIDEwMS4wCk0uQy5ILiAgICAgICAgICAgICAgICAgICAgICAgIDMwLjggICAgICAgIHBnICAgICAgICAgICAgMjcuMCAtIDMyLjAKTS5DLkguQy4gICAgICAgICAgICAgICAgICAgICAgMzQuMCAgICAgICAgZy9kTCAgICAgICAgICAzMS41IC0gMzQuNQpUT1RBTCBMRVVDT0NZVEUgQ09VTlQgICAgICAgICA2NTMyICAgICAgICAvY3VtbSAgICAgICAgIDQwMDAgLSAxMTAwMApORVVUUk9QSElMUyAgICAgICAgICAgICAgICAgICA1OCAgICAgICAgICAlICAgICAgICAgICAgIDQwIC0gODAKUExBVEVMRVQgQ09VTlQgICAgICAgICAgICAgICAgMi4xNiAgICAgICAgbGFraC9jdW1tICAgICAxLjUwIC0gNC4xMAotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICoqKiBFTkQgT0YgUkVQT1JUICoqKgpJbnRlcnByZXRhdGlvbjogdmFsdWVzIHNob3VsZCBiZSBjb3JyZWxhdGVkIHdpdGggdGhlIGNsaW5pY2FsIHBpY3R1cmUKICBhbmQgcHJldmlvdXMgcmVwb3J0cy4gS2luZGx5IGNvbnN1bHQgeW91ciBwaHlzaWNpYW4uCiAgICAgICAgICAgICAgICAgICAgIFNZTlRIRVRJQyBTQU1QTEUgLSBOT1QgQSBSRUFMIFBBVElFTlQK",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "SP/26/054738",
+  "patient_name": "PRIYA CHAVAN",
+  "patient_age": 5,
+  "patient_sex": "male",
+  "collected": "2026-04-07",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "14.6",
+    "unit": "gm/dL",
+    "label": "HAEMOGLOBIN",
+    "flag": "",
+    "ref_low": "13.0",
+    "ref_high": "17.0"
+   },
+   {
+    "code": "RBC",
+    "value": "4.74",
+    "unit": "mill/cumm",
+    "label": "R.B.C. COUNT",
+    "flag": "",
+    "ref_low": "4.50",
+    "ref_high": "5.90"
+   },
+   {
+    "code": "HCT",
+    "value": "42.9",
+    "unit": "%",
+    "label": "P.C.V.",
+    "flag": "",
+    "ref_low": "40.0",
+    "ref_high": "50.0"
+   },
+   {
+    "code": "MCV",
+    "value": "90.5",
+    "unit": "fL",
+    "label": "M.C.V.",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCH",
+    "value": "30.8",
+    "unit": "pg",
+    "label": "M.C.H.",
+    "flag": "",
+    "ref_low": "27.0",
+    "ref_high": "32.0"
+   },
+   {
+    "code": "MCHC",
+    "value": "34.0",
+    "unit": "g/dL",
+    "label": "M.C.H.C.",
+    "flag": "",
+    "ref_low": "31.5",
+    "ref_high": "34.5"
+   },
+   {
+    "code": "WBC",
+    "value": "6532",
+    "unit": "/cumm",
+    "label": "TOTAL LEUCOCYTE COUNT",
+    "flag": "",
+    "ref_low": "4000",
+    "ref_high": "11000"
+   },
+   {
+    "code": "NEUT%",
+    "value": "58",
+    "unit": "%",
+    "label": "NEUTROPHILS",
+    "flag": "",
+    "ref_low": "40",
+    "ref_high": "80"
+   },
+   {
+    "code": "PLT",
+    "value": "2.16",
+    "unit": "lakh/cumm",
+    "label": "PLATELET COUNT",
+    "flag": "",
+    "ref_low": "1.50",
+    "ref_high": "4.10"
+   }
+  ],
+  "collected_time": "11:00",
+  "reported": "2026-04-07",
+  "notes": [
+   "Interpretation: values should be correlated with the clinical picture",
+   "and previous reports. Kindly consult your physician."
+  ],
+  "flag_semantics": "direction"
+ },
+ "note": "",
+ "split": "test"
+}

@@ -1,0 +1,90 @@
+{
+ "doc_id": "E-65352027-interpretive_note",
+ "layout": "E",
+ "cls": "interpretive_note",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "TElGRUxJTkUgUEFUSE9MT0dZICYgSU1BR0lORyAgICAgICAgICAgICAgICAgICAgICAgIExhYiBJRDogTEwtMjAyNi04MTc5MwpQYXRpZW50OiBWaWtyYW0gUGF3YXIgICAgICAgICAgU2V4L0FnZTogRi83NSAgICAgICAgRHJhd246IEF1Z3VzdCAxOSwgMjAyNgpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18KSEFFTU9HUkFNCkhiICAgICAgICAgMTMuOCBnL2RMICAgICBbMTIuMC0xNS41XSAgIFJCQyAgICAgICAgNC4yMCB4MTBeNi91TCBbNC4wMC01LjIwXQpXQkMgICAgICAgICA3LjIgeDEwXjMvdUwgWzQuMC0xMS4wXSAgICBQTFQgICAgICAgICAyODMgeDEwXjMvdUwgWzE1MC00MTBdCkhDVCAgICAgICAgNDAuNyAlICAgICAgICBbMzYuMC00Ni4wXSAgIE1DViAgICAgICAgOTYuOSBmTCAgICAgICBbODMuMC0xMDEuMF0KTUNIICAgICAgMzIuOCAhIHBnICAgICAgIFsyNy4wLTMyLjBdCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXwohID0gb3V0c2lkZSByZWZlcmVuY2UgaW50ZXJ2YWwgICAgICAgIFJlcG9ydCBnZW5lcmF0ZWQgYnkgTGFiU3lzIDMuMQpJbnRlcnByZXRhdGlvbjogdmFsdWVzIHNob3VsZCBiZSBjb3JyZWxhdGVkIHdpdGggdGhlIGNsaW5pY2FsIHBpY3R1cmUKICBhbmQgcHJldmlvdXMgcmVwb3J0cy4gS2luZGx5IGNvbnN1bHQgeW91ciBwaHlzaWNpYW4uClNZTlRIRVRJQyBTQU1QTEUgLSBOT1QgQSBSRUFMIFBBVElFTlQK",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "LL-2026-81793",
+  "patient_name": "Vikram Pawar",
+  "patient_age": 75,
+  "patient_sex": "female",
+  "collected": "2026-08-19",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "13.8",
+    "unit": "g/dL",
+    "label": "Hb",
+    "flag": "",
+    "ref_low": "12.0",
+    "ref_high": "15.5"
+   },
+   {
+    "code": "RBC",
+    "value": "4.20",
+    "unit": "x10^6/uL",
+    "label": "RBC",
+    "flag": "",
+    "ref_low": "4.00",
+    "ref_high": "5.20"
+   },
+   {
+    "code": "WBC",
+    "value": "7.2",
+    "unit": "x10^3/uL",
+    "label": "WBC",
+    "flag": "",
+    "ref_low": "4.0",
+    "ref_high": "11.0"
+   },
+   {
+    "code": "PLT",
+    "value": "283",
+    "unit": "x10^3/uL",
+    "label": "PLT",
+    "flag": "",
+    "ref_low": "150",
+    "ref_high": "410"
+   },
+   {
+    "code": "HCT",
+    "value": "40.7",
+    "unit": "%",
+    "label": "HCT",
+    "flag": "",
+    "ref_low": "36.0",
+    "ref_high": "46.0"
+   },
+   {
+    "code": "MCV",
+    "value": "96.9",
+    "unit": "fL",
+    "label": "MCV",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCH",
+    "value": "32.8",
+    "unit": "pg",
+    "label": "MCH",
+    "flag": "H",
+    "ref_low": "27.0",
+    "ref_high": "32.0"
+   }
+  ],
+  "collected_time": null,
+  "reported": null,
+  "notes": [
+   "Interpretation: values should be correlated with the clinical picture",
+   "and previous reports. Kindly consult your physician."
+  ],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

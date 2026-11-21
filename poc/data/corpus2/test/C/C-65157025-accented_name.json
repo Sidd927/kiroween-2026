@@ -1,0 +1,96 @@
+{
+ "doc_id": "C-65157025-accented_name",
+ "layout": "C",
+ "cls": "accented_name",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "RFIuIE1FSFRBJ1MgQ0xJTklDQUwgTEFCT1JBVE9SWSAgICAgICAgICAgICBSZXBvcnQgRGF0ZTogMjAyNi0wNy0yOQpQYXRpZW50IDogRCdTb3V6YSwgUmVu6WUgKEYvMjEpClBhdGllbnQgSUQgOiAzNjc5MDMzICAgICAgIFNhbXBsZSA6IFMtMjE4MzAKQ29sbGVjdGVkICA6IDIwMjYtMDctMjggMDc6NDAKQ29uc3VsdGFudCA6IERyLiBSLiBTaGFoCgpCSU9DSEVNSVNUUlkKICBUZXN0IC8gTWV0aG9kCiAgICAgIFJlc3VsdCAgICAgVW5pdHMgICAgIE5vcm1hbCBSYW5nZQogIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICBCSUxJUlVCSU4gVE9UQUwKICAgICAgKERpYXpvIG1ldGhvZCkKICAgICAgMC4zNiAgICAgICBtZy9kbCAgICAgMC4yMCAtIDEuMjAKICBCSUxJUlVCSU4gRElSRUNUCiAgICAgIChEaWF6byBtZXRob2QpCiAgICAgIDAuMDcgICAgICAgbWcvZGwgICAgIDAuMDAgLSAwLjMwCiAgU0dQVCAoQUxUKQogICAgICAoSUZDQykKICAgICAgMzUgICAgICAgICBVL0wgICAgICAgMCAtIDQwCiAgU0dPVCAoQVNUKQogICAgICAoSUZDQykKICAgICAgMzQgICAgICAgICBVL0wgICAgICAgMCAtIDQwCiAgQUxLQUxJTkUgUEhPU1BIQVRBU0UKICAgICAgKFBOUFAtQU1QKQogICAgICA2MyAgICAgICAgIElVL0wgICAgICA0MCAtIDEzMAogIFRPVEFMIFBST1RFSU5TCiAgICAgIChCaXVyZXQpCiAgICAgIDYuNyAgICAgICAgZy9kbCAgICAgIDYuMCAtIDguMwogIEFMQlVNSU4KICAgICAgKEJDRykKICAgICAgMy42ICAgICAgICBnL2RsICAgICAgMy41IC0gNS4yCiAgQkxPT0QgVVJFQQogICAgICAoVXJlYXNlLUdMREgpCiAgICAgIDE4ICAgICAgICAgbWcvZGwgICAgIDE1IC0gNDUKICAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgKiBWYWx1ZSBvdXRzaWRlIG5vcm1hbCByYW5nZQoKQ2hlY2tlZCBieTogTGFiIFRlY2hub2xvZ2lzdAogICAgICAgICAgICAgICAgICAgICAgICAgICAtLSBFTkQgLS0KU1lOVEhFVElDIFNBTVBMRSAtIE5PVCBBIFJFQUwgUEFUSUVOVAo=",
+ "queue_codepage": "cp1252",
+ "truth": {
+  "patient_id": "3679033",
+  "patient_name": "D'Souza, Renée",
+  "patient_age": 21,
+  "patient_sex": "female",
+  "collected": "2026-07-28",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "0.36",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL",
+    "flag": "",
+    "ref_low": "0.20",
+    "ref_high": "1.20"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.07",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT",
+    "flag": "",
+    "ref_low": "0.00",
+    "ref_high": "0.30"
+   },
+   {
+    "code": "ALT",
+    "value": "35",
+    "unit": "U/L",
+    "label": "SGPT (ALT)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "AST",
+    "value": "34",
+    "unit": "U/L",
+    "label": "SGOT (AST)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "ALP",
+    "value": "63",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE",
+    "flag": "",
+    "ref_low": "40",
+    "ref_high": "130"
+   },
+   {
+    "code": "TP",
+    "value": "6.7",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS",
+    "flag": "",
+    "ref_low": "6.0",
+    "ref_high": "8.3"
+   },
+   {
+    "code": "ALB",
+    "value": "3.6",
+    "unit": "g/dl",
+    "label": "ALBUMIN",
+    "flag": "",
+    "ref_low": "3.5",
+    "ref_high": "5.2"
+   },
+   {
+    "code": "UREA",
+    "value": "18",
+    "unit": "mg/dl",
+    "label": "BLOOD UREA",
+    "flag": "",
+    "ref_low": "15",
+    "ref_high": "45"
+   }
+  ],
+  "collected_time": "07:40",
+  "reported": "2026-07-29",
+  "notes": [],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

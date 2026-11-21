@@ -1,0 +1,721 @@
+{
+ "binding_id": "lab-c",
+ "description": "Dr. Mehta's Clinical Laboratory biochemistry report: label line, method line in parentheses, then value/unit/range line; '*' marks abnormal.",
+ "layout": {
+  "anchors": [
+   "^DR\\. MEHTA'S CLINICAL LABORATORY",
+   "^\\s*Result\\s+Units\\s+Normal Range\\s*$",
+   "^Patient ID\\s*:"
+  ]
+ },
+ "fields": {
+  "patient_id": {
+   "regex": "^Patient ID\\s*:\\s*(?P<v>\\d{7})\\b",
+   "type": "string",
+   "required": true,
+   "pattern": "\\d{7}"
+  },
+  "patient_name": {
+   "regex": "^Patient\\s*:\\s*(?P<v>[^()\\n]+?)\\s*\\([MF]/\\d+\\)\\s*$",
+   "type": "string",
+   "required": true
+  },
+  "patient_age": {
+   "regex": "^Patient\\s*:[^\\n]*\\([MF]/(?P<v>\\d+)\\)\\s*$",
+   "type": "integer",
+   "required": true
+  },
+  "patient_sex": {
+   "regex": "^Patient\\s*:[^\\n]*\\((?P<v>[MF])/\\d+\\)\\s*$",
+   "type": "enum",
+   "enum_map": {
+    "M": "male",
+    "F": "female"
+   },
+   "required": true
+  },
+  "collected": {
+   "regex": "^Collected\\s*:\\s*(?P<v>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2})\\s*$",
+   "type": "date",
+   "format": "%Y-%m-%d %H:%M",
+   "required": true
+  },
+  "reported": {
+   "regex": "Report Date:\\s*(?P<v>\\d{4}-\\d{2}-\\d{2})\\s*$",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "required": true
+  }
+ },
+ "results": {
+  "start": "^\\s*-{10,}\\s*$",
+  "end": "^\\s*\\* Value outside normal range\\s*$",
+  "skip_lines": [
+   "^\\s*$",
+   "^\\s*-{10,}\\s*$",
+   "^\\s*BIOCHEMISTRY\\s*$",
+   "^\\s*Test / Method\\s*$",
+   "^\\s*Result\\s+Units\\s+Normal Range\\s*$",
+   "^DR\\. MEHTA'S CLINICAL LABORATORY",
+   "^Patient\\s*:",
+   "^Patient ID\\s*:",
+   "^Collected\\s*:",
+   "^Consultant\\s*:"
+  ],
+  "row": "^[ ]*(?P<label>[A-Z][A-Za-z ()]*?)[ ]*\\n[ ]*\\([^)\\n]*\\)[ ]*\\n[ ]*(?P<value>\\d+(?:\\.\\d+)?)(?:[ ]+(?P<flag>\\*))?[ ]+(?P<unit>[^\\s\\d-][^\\s]*)[ ]+(?P<ref_low>\\d+(?:\\.\\d+)?)[ ]*-[ ]*(?P<ref_high>\\d+(?:\\.\\d+)?)[ ]*$",
+  "labels": {
+   "BILIRUBIN TOTAL": "TBIL",
+   "BILIRUBIN DIRECT": "DBIL",
+   "SGPT (ALT)": "ALT",
+   "SGOT (AST)": "AST",
+   "ALKALINE PHOSPHATASE": "ALP",
+   "TOTAL PROTEINS": "TP",
+   "ALBUMIN": "ALB",
+   "SERUM CREATININE": "CREA",
+   "BLOOD UREA": "UREA"
+  },
+  "flags": {
+   "*": "A"
+  },
+  "min_rows": 1,
+  "max_rows": 18
+ },
+ "version": 11,
+ "compiled": {
+  "compiler": "spoolgeist_h.compile/5",
+  "header": [
+   {
+    "regex": "^DR\\. MEHTA'S CLINICAL LABORATORY",
+    "source": "anchor"
+   },
+   {
+    "regex": "^Patient\\s*:",
+    "source": "skip"
+   },
+   {
+    "regex": "^Patient ID\\s*:",
+    "source": "anchor"
+   },
+   {
+    "regex": "^Collected\\s*:",
+    "source": "skip"
+   },
+   {
+    "regex": "^Consultant\\s*:",
+    "source": "skip"
+   },
+   {
+    "exact": "BIOCHEMISTRY"
+   },
+   {
+    "exact": "Test / Method"
+   },
+   {
+    "exact": "Result Units Normal Range"
+   }
+  ],
+  "identity_index": 0,
+  "template_lines": [
+   "(BCG)",
+   "(Biuret)",
+   "(Diazo method)",
+   "(IFCC)",
+   "(PNPP-AMP)",
+   "* Value outside normal range",
+   "-- END --",
+   "----------------------------------------",
+   "ALBUMIN",
+   "ALKALINE PHOSPHATASE",
+   "BILIRUBIN DIRECT",
+   "BILIRUBIN TOTAL",
+   "BIOCHEMISTRY",
+   "Checked by: Lab Technologist",
+   "Result Units Normal Range",
+   "SGOT (AST)",
+   "SGPT (ALT)",
+   "SYNTHETIC SAMPLE - NOT A REAL PATIENT",
+   "TOTAL PROTEINS",
+   "Test / Method"
+  ],
+  "continuation_len": null,
+  "llm_binding": {
+   "binding_id": "lab-c",
+   "description": "Dr. Mehta's Clinical Laboratory biochemistry report: label line, method line in parentheses, then value/unit/range line; '*' marks abnormal.",
+   "layout": {
+    "anchors": [
+     "^DR\\. MEHTA'S CLINICAL LABORATORY",
+     "^\\s*Result\\s+Units\\s+Normal Range\\s*$",
+     "^Patient ID\\s*:"
+    ]
+   },
+   "fields": {
+    "patient_id": {
+     "regex": "^Patient ID\\s*:\\s*(?P<v>\\d{7})\\b",
+     "type": "string",
+     "required": true,
+     "pattern": "\\d{7}"
+    },
+    "patient_name": {
+     "regex": "^Patient\\s*:\\s*(?P<v>[^()\\n]+?)\\s*\\([MF]/\\d+\\)\\s*$",
+     "type": "string",
+     "required": true
+    },
+    "patient_age": {
+     "regex": "^Patient\\s*:[^\\n]*\\([MF]/(?P<v>\\d+)\\)\\s*$",
+     "type": "integer",
+     "required": false
+    },
+    "patient_sex": {
+     "regex": "^Patient\\s*:[^\\n]*\\((?P<v>[MF])/\\d+\\)\\s*$",
+     "type": "enum",
+     "enum_map": {
+      "M": "male",
+      "F": "female"
+     },
+     "required": false
+    },
+    "collected": {
+     "regex": "^Collected\\s*:\\s*(?P<v>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2})\\s*$",
+     "type": "date",
+     "format": "%Y-%m-%d %H:%M",
+     "required": true
+    },
+    "reported": {
+     "regex": "Report Date:\\s*(?P<v>\\d{4}-\\d{2}-\\d{2})\\s*$",
+     "type": "date",
+     "format": "%Y-%m-%d",
+     "required": false
+    }
+   },
+   "results": {
+    "start": "^\\s*-{10,}\\s*$",
+    "end": "^\\s*\\* Value outside normal range\\s*$",
+    "skip_lines": [
+     "^\\s*$",
+     "^\\s*-{10,}\\s*$",
+     "^\\s*BIOCHEMISTRY\\s*$",
+     "^\\s*Test / Method\\s*$",
+     "^\\s*Result\\s+Units\\s+Normal Range\\s*$",
+     "^DR\\. MEHTA'S CLINICAL LABORATORY",
+     "^Patient\\s*:",
+     "^Patient ID\\s*:",
+     "^Collected\\s*:",
+     "^Consultant\\s*:"
+    ],
+    "row": "^[ ]*(?P<label>[A-Z][A-Za-z ()]*?)[ ]*\\n[ ]*\\([^)\\n]*\\)[ ]*\\n[ ]*(?P<value>\\d+(?:\\.\\d+)?)(?:[ ]+(?P<flag>\\*))?[ ]+(?P<unit>[^\\s\\d-][^\\s]*)[ ]+(?P<ref_low>\\d+(?:\\.\\d+)?)[ ]*-[ ]*(?P<ref_high>\\d+(?:\\.\\d+)?)[ ]*$",
+    "labels": {
+     "BILIRUBIN TOTAL": "TBIL",
+     "BILIRUBIN DIRECT": "DBIL",
+     "SGPT (ALT)": "ALT",
+     "SGOT (AST)": "AST",
+     "ALKALINE PHOSPHATASE": "ALP",
+     "TOTAL PROTEINS": "TP",
+     "ALBUMIN": "ALB",
+     "SERUM CREATININE": "CREA",
+     "BLOOD UREA": "UREA"
+    },
+    "flags": {
+     "*": "A"
+    },
+    "min_rows": 1,
+    "max_rows": 18
+   }
+  },
+  "sample_refs": [
+   {
+    "path": "data/corpus2/gen/C/C-2200000-clean.json",
+    "sha256": "9a8758c1a34b8268dd650af5659580fe97d1a55e19f598d56b05e1b68a730567"
+   },
+   {
+    "path": "data/corpus2/gen/C/C-2200001-clean.json",
+    "sha256": "999f7fcf92136a5288e601326991fea09590bfcca2645b90ed56e82012b1d403"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200000-clean.json",
+    "sha256": "beb67cfbd1c9b4aa0a25c4f9411dcb3f439b80386c667e8b1f974371e759d1d1"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200001-clean.json",
+    "sha256": "3f361acd997b058bc9540e0da48f38e6a2d8215bd6d29f68bbb00430cd8bc75c"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200002-clean.json",
+    "sha256": "1b7f41aff41068aadf6dd846f26fa6144648e108f96504f98b702bc55c2d5859"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200003-clean.json",
+    "sha256": "a9fabd4f4e7bcc5c02d8e8dd3c6c2e3994968259fdfee100ffd94114c6adc494"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200004-clean.json",
+    "sha256": "4f1a14143bf03c7a156ef591c145007abea5bad4b9c6ea7b5ad27de5001b1b5a"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200005-clean.json",
+    "sha256": "65672258de2cd44654c223b26f7a46d624cf53a969cc788e41c18719ff93ab64"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200006-clean.json",
+    "sha256": "da6336539901063657e18ce1b6face16f2b11b14878a80570abf9b061276b831"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200007-clean.json",
+    "sha256": "1ca6e5d5add6f531960f0ac282977dac217775d0c790c98db5851c6481c6b8b8"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200008-clean.json",
+    "sha256": "c274ee19c47719e95a2b0c97b5aa0891a080d23b675f680df0d82ec244cc453a"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200009-clean.json",
+    "sha256": "f9da1bd1861a869608a8dbb1bf44107942ec70253a3a6f2f070fd32f7a3a9040"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200010-clean.json",
+    "sha256": "ca641ee1f23438e32858a9d698bc357296ba5961a9e441e44ae958333db86862"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200011-clean.json",
+    "sha256": "100e70ea355df5c2c48b33b7f7b33c5a9c2491d1c0cad2bfd2dc725af55262ca"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3201000-col_shift.json",
+    "sha256": "22260a43e857ac4019381832af94bfe3eb1826dd7c7201ec0f54d5152ba15e6e"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3201001-col_shift.json",
+    "sha256": "c93c8df832d69c869f09d627547cbcc35c8814abbcf35244ef95344d6efd4288"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3202000-crlf_trailing.json",
+    "sha256": "bef5ce97f2d608ef6b1afe24fc1fae41fb5e0db025f60b749302de25c28da7e4"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3202001-crlf_trailing.json",
+    "sha256": "fe92bc3e97e97eb88bcf38bee577cc6d6d2a8cf9e722ee1068ac3c9558f91069"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3203000-drop_optional.json",
+    "sha256": "ceaf6129d581e1548f78377570f857d61099fa745dff2f66ebfae5577c26c35d"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3203001-drop_optional.json",
+    "sha256": "df54aaf2af215d433129e148dc6e51c5c470a4eabf2ebbd81746c06ac2c3c03b"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3205000-long_name_overflow.json",
+    "sha256": "0ebdce47f63d94655a1818db26506e0050e6cda2444a1923c55ff910d6e79740"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3205001-long_name_overflow.json",
+    "sha256": "ec2493409e98791359d6bc72c034e5f7163c0e941b0cd28d4d5e4caa5b94c15c"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3206000-referrer_variation.json",
+    "sha256": "f0c50be38fcf70bedc36ac686c6e0b56267d28f2435caa73df68a17d445d2e41"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3206001-referrer_variation.json",
+    "sha256": "65b5ae346de916e1ca0c2a1e8d75409eab2bf18e0be4cb1f478c0343a5174756"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3207000-approved_note.json",
+    "sha256": "7b8c5be5d77caaa8f2935bbc5fed7b9c027991d2984501af61da861b8e322910"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3207001-approved_note.json",
+    "sha256": "35712e502c94c315f215187915ba019598c14fe7873c6f57af73459661c630f1"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3208000-interpretive_note.json",
+    "sha256": "09fb5fd8355aae1333e07eb7b6aa52a5da2e35b252d6baf60c58b5eead392940"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3208001-interpretive_note.json",
+    "sha256": "b29604e6d1694c5d572e29b79ea2c97d9472c1fd842eef89a0fdb07bfc92e120"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3209000-section_subheading.json",
+    "sha256": "93890515337e34529ca456523b4b3ece1b9f0cd4f1a5c428214e18033d2cfb5f"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3209001-section_subheading.json",
+    "sha256": "fad17b4d9d1958dbec97549edc7aebfc08bc4d60e5698c231cf8dabdcb1e608a"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3212000-abnormal_values.json",
+    "sha256": "9135724bb1a98be58b6684e341a421c3cc10a59065c4819b53aaa7c522aa58a7"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3212001-abnormal_values.json",
+    "sha256": "2ca50b59ac02c943675816e972cd62e8e6197c32804f662e1a0a4275ad256d64"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3213000-accented_name.json",
+    "sha256": "51b7b08710267d5d8d7b5051e35e30319567fa29a6b5261f055489405d957e57"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3213001-accented_name.json",
+    "sha256": "d58d10337eb3983060b210e40139157376a1de83551a126af7d69fcc80642971"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3215000-low_direct_bilirubin.json",
+    "sha256": "2e05e2c46fb1383da97c90db00b73babef48655ac62012f4cb660ffdfe895dd6"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3215001-low_direct_bilirubin.json",
+    "sha256": "3c997a0105ebc48a7ab06916a1d33900c57ea8f13023f137527742556b9339a6"
+   }
+  ],
+  "regression_refs": [
+   {
+    "path": "data/corpus2/gen/C/C-2200000-clean.json",
+    "sha256": "9a8758c1a34b8268dd650af5659580fe97d1a55e19f598d56b05e1b68a730567"
+   },
+   {
+    "path": "data/corpus2/gen/C/C-2200001-clean.json",
+    "sha256": "999f7fcf92136a5288e601326991fea09590bfcca2645b90ed56e82012b1d403"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200000-clean.json",
+    "sha256": "beb67cfbd1c9b4aa0a25c4f9411dcb3f439b80386c667e8b1f974371e759d1d1"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200001-clean.json",
+    "sha256": "3f361acd997b058bc9540e0da48f38e6a2d8215bd6d29f68bbb00430cd8bc75c"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200002-clean.json",
+    "sha256": "1b7f41aff41068aadf6dd846f26fa6144648e108f96504f98b702bc55c2d5859"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200003-clean.json",
+    "sha256": "a9fabd4f4e7bcc5c02d8e8dd3c6c2e3994968259fdfee100ffd94114c6adc494"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200004-clean.json",
+    "sha256": "4f1a14143bf03c7a156ef591c145007abea5bad4b9c6ea7b5ad27de5001b1b5a"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200005-clean.json",
+    "sha256": "65672258de2cd44654c223b26f7a46d624cf53a969cc788e41c18719ff93ab64"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200006-clean.json",
+    "sha256": "da6336539901063657e18ce1b6face16f2b11b14878a80570abf9b061276b831"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200007-clean.json",
+    "sha256": "1ca6e5d5add6f531960f0ac282977dac217775d0c790c98db5851c6481c6b8b8"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200008-clean.json",
+    "sha256": "c274ee19c47719e95a2b0c97b5aa0891a080d23b675f680df0d82ec244cc453a"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200009-clean.json",
+    "sha256": "f9da1bd1861a869608a8dbb1bf44107942ec70253a3a6f2f070fd32f7a3a9040"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200010-clean.json",
+    "sha256": "ca641ee1f23438e32858a9d698bc357296ba5961a9e441e44ae958333db86862"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3200011-clean.json",
+    "sha256": "100e70ea355df5c2c48b33b7f7b33c5a9c2491d1c0cad2bfd2dc725af55262ca"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3201000-col_shift.json",
+    "sha256": "22260a43e857ac4019381832af94bfe3eb1826dd7c7201ec0f54d5152ba15e6e"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3201001-col_shift.json",
+    "sha256": "c93c8df832d69c869f09d627547cbcc35c8814abbcf35244ef95344d6efd4288"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3202000-crlf_trailing.json",
+    "sha256": "bef5ce97f2d608ef6b1afe24fc1fae41fb5e0db025f60b749302de25c28da7e4"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3202001-crlf_trailing.json",
+    "sha256": "fe92bc3e97e97eb88bcf38bee577cc6d6d2a8cf9e722ee1068ac3c9558f91069"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3203000-drop_optional.json",
+    "sha256": "ceaf6129d581e1548f78377570f857d61099fa745dff2f66ebfae5577c26c35d"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3203001-drop_optional.json",
+    "sha256": "df54aaf2af215d433129e148dc6e51c5c470a4eabf2ebbd81746c06ac2c3c03b"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3205000-long_name_overflow.json",
+    "sha256": "0ebdce47f63d94655a1818db26506e0050e6cda2444a1923c55ff910d6e79740"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3205001-long_name_overflow.json",
+    "sha256": "ec2493409e98791359d6bc72c034e5f7163c0e941b0cd28d4d5e4caa5b94c15c"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3206000-referrer_variation.json",
+    "sha256": "f0c50be38fcf70bedc36ac686c6e0b56267d28f2435caa73df68a17d445d2e41"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3206001-referrer_variation.json",
+    "sha256": "65b5ae346de916e1ca0c2a1e8d75409eab2bf18e0be4cb1f478c0343a5174756"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3207000-approved_note.json",
+    "sha256": "7b8c5be5d77caaa8f2935bbc5fed7b9c027991d2984501af61da861b8e322910"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3207001-approved_note.json",
+    "sha256": "35712e502c94c315f215187915ba019598c14fe7873c6f57af73459661c630f1"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3208000-interpretive_note.json",
+    "sha256": "09fb5fd8355aae1333e07eb7b6aa52a5da2e35b252d6baf60c58b5eead392940"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3208001-interpretive_note.json",
+    "sha256": "b29604e6d1694c5d572e29b79ea2c97d9472c1fd842eef89a0fdb07bfc92e120"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3209000-section_subheading.json",
+    "sha256": "93890515337e34529ca456523b4b3ece1b9f0cd4f1a5c428214e18033d2cfb5f"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3209001-section_subheading.json",
+    "sha256": "fad17b4d9d1958dbec97549edc7aebfc08bc4d60e5698c231cf8dabdcb1e608a"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3212000-abnormal_values.json",
+    "sha256": "9135724bb1a98be58b6684e341a421c3cc10a59065c4819b53aaa7c522aa58a7"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3212001-abnormal_values.json",
+    "sha256": "2ca50b59ac02c943675816e972cd62e8e6197c32804f662e1a0a4275ad256d64"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3213000-accented_name.json",
+    "sha256": "51b7b08710267d5d8d7b5051e35e30319567fa29a6b5261f055489405d957e57"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3213001-accented_name.json",
+    "sha256": "d58d10337eb3983060b210e40139157376a1de83551a126af7d69fcc80642971"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3215000-low_direct_bilirubin.json",
+    "sha256": "2e05e2c46fb1383da97c90db00b73babef48655ac62012f4cb660ffdfe895dd6"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3215001-low_direct_bilirubin.json",
+    "sha256": "3c997a0105ebc48a7ab06916a1d33900c57ea8f13023f137527742556b9339a6"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3216000-note_with_number.json",
+    "sha256": "5e8f35e0f59d079811d7160123b0da137355c1d9ce6579730a97b7a2f51735f6"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3217000-unapproved_note_style.json",
+    "sha256": "8e52bf4daccf8bc07fc01cb195eba6f448dce331e23895e0af0471155d116460"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3218000-static_text_damage.json",
+    "sha256": "08ec17883250958811e26e3391e48434ad333ed90e204917176fd0e0f135cade"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3219000-multipage_unapproved.json",
+    "sha256": "b4b9573b84fa9f668e2cb78f18d3e1612d51ef3fdd0e424cb70d0bca1255f837"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3220000-long_name_wrapped.json",
+    "sha256": "ace5ba77d322ca0af0cef452a10766d2cdf5075a9370865bd73d938576829dcd"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3221000-unit_incompatible.json",
+    "sha256": "fd65ad1d282c1af3dcc933f82bfb4e89cb68f6c6ab2d178337c317077d2100a5"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3222000-unit_missing.json",
+    "sha256": "86c8fb034dfb04a68fa2911873bf57abd3ebfc0215a3bc9f43c85d76f6dab398"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3223000-value_corrupt.json",
+    "sha256": "fc9ac6c7223c4d7ad4f605599c2ac3e13359d75fa408ccb816d57b4f9ec1354a"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3224000-value_implausible.json",
+    "sha256": "2b13f410da8721ce30744452351e8fd29b2a1d759108d9873f189fc9737a625b"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3225000-patient_id_missing.json",
+    "sha256": "38b83a386ce5195420033836267b83fba196615be623c53a54ca7fc10ade9d7f"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3226000-date_invalid.json",
+    "sha256": "5d71aca5e5ae796e030e43953df7783c4769c88c5d50e9c699e1b222d70f6315"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3227000-duplicate_conflict.json",
+    "sha256": "a67a6ddc169e7f19fa4697788f62ee49b3dc14aa6e64d1c0eed4c035b7c14d71"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3228000-unknown_test.json",
+    "sha256": "5ecf99389291a42ea6d2d932f99d752af0c72dc5d0786c269088fed2e77e2cff"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3229000-truncated.json",
+    "sha256": "d5156d135e9e081343fb710d1b14d5a637c597a9256be052d0bad4c43e8b9109"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3230000-layout_drift.json",
+    "sha256": "8533b4eff262756286871307bba3e7a29fc8a3407417bd740ab85a3c769a5a52"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3231000-header_changed.json",
+    "sha256": "19a7d6c3a124a9bd8694e4b580325a0ffe2524e4c7956e2ee1010a790b0fc003"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3235000-extra_section_unknown_tests.json",
+    "sha256": "358921c11981ba7924d9bb2a860b8971c099584a097a55b80d48ececd02f809a"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3236000-two_patients_one_job.json",
+    "sha256": "1172ba1f9240c821b1ba99db21dda78b441580b32cd6bee6e676a95c021aea2e"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3238000-text_between_rows_with_number.json",
+    "sha256": "f5cc6b8c013807bd3dc64691b90e9993bda310af69ab63bd9aab09310c59aeeb"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3241000-bilirubin_inverted.json",
+    "sha256": "fecc569cebbbd942fe20b97d37f203c7a82f14c13f5987cac5f57f9d5cf6cfa6"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3242000-protein_inverted.json",
+    "sha256": "7701c4019cbfb2b4609b2d88054624eecda450c951bf5ced143225a9c93eff2d"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3244000-hidden_numeric_result.json",
+    "sha256": "c9ca7388c0e379ed7d7868171f36666bc101c392bc6cd36227c24380ede18548"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3245000-hidden_qualitative_result.json",
+    "sha256": "5dfe76a9602de5b4171fa8bf5da259ba68bdefae47f8830dbf4b341931eff319"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3246000-wrong_code_page.json",
+    "sha256": "45c3578f0ce91f74534a371f557b5bc2ae60c6ca796b392feb11a1c19dfc0030"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3247000-comma_decimal.json",
+    "sha256": "42149cb897ff5e4d74d30008972e1fd4524869068f84ca80a8fcb6fee4f9b104"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3900002-foreign_layout_G.json",
+    "sha256": "381b52b0ac15973e39059c67e63157f6a185146beebcee64c6dd645f119d03c2"
+   },
+   {
+    "path": "data/corpus2/dev/C/C-3910002-drifted_new_format.json",
+    "sha256": "3fc2e323ada07100b3aecbf3e1d9015e4baebb364e9cdc4a4d1df412087c81bf"
+   }
+  ],
+  "promoted_required": [
+   "patient_age",
+   "patient_sex",
+   "reported"
+  ],
+  "date_formats": {
+   "collected": {
+    "format": "%Y-%m-%d %H:%M",
+    "day_month_order_ambiguous_format": true,
+    "samples_disambiguate": true,
+    "n_strings": 36
+   },
+   "reported": {
+    "format": "%Y-%m-%d",
+    "day_month_order_ambiguous_format": true,
+    "samples_disambiguate": true,
+    "n_strings": 36
+   }
+  },
+  "note_markers": [
+   "Comment:",
+   "Interpretation:"
+  ],
+  "note_continuation_indent": 2,
+  "table_static_lines": [
+   "PROTEINS"
+  ],
+  "numeric_skeletons": [
+   "Patient ID : <V> Sample : S-#"
+  ],
+  "text_skeletons": {
+   "h0|DR.": {
+    "prefix": [
+     "DR.",
+     "MEHTA'S",
+     "CLINICAL",
+     "LABORATORY",
+     "Report",
+     "Date:",
+     "<V>"
+    ],
+    "suffix": [],
+    "min": 0,
+    "max": 0,
+    "n": 36
+   },
+   "h1|Patient": {
+    "prefix": [
+     "Patient",
+     ":",
+     "<V>",
+     "(<V>/<V>)"
+    ],
+    "suffix": [],
+    "min": 0,
+    "max": 0,
+    "n": 36
+   },
+   "h2|Patient": {
+    "prefix": [
+     "Patient",
+     "ID",
+     ":",
+     "<V>",
+     "Sample",
+     ":"
+    ],
+    "suffix": [],
+    "min": 1,
+    "max": 1,
+    "n": 36
+   },
+   "h3|Collected": {
+    "prefix": [
+     "Collected",
+     ":",
+     "<V>"
+    ],
+    "suffix": [],
+    "min": 0,
+    "max": 0,
+    "n": 36
+   },
+   "h4|Consultant": {
+    "prefix": [
+     "Consultant",
+     ":",
+     "Dr."
+    ],
+    "suffix": [],
+    "min": 1,
+    "max": 3,
+    "n": 36
+   }
+  },
+  "abnormal_marker": null
+ }
+}

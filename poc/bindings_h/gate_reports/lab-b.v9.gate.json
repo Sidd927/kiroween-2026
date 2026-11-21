@@ -1,0 +1,309 @@
+{
+ "binding_id": "lab-b",
+ "version": 9,
+ "binding_sha256": "8998f8158c75e89d5dcfeaf875bcf7c53c9d8a74aea43ffedfc2513bc9ec46c2",
+ "conditions": {
+  "G1_static": {
+   "passed": true,
+   "errors": []
+  },
+  "G2_compiled": {
+   "passed": true,
+   "errors": [],
+   "approved_clean_samples": 14
+  },
+  "G3_regression": {
+   "passed": true,
+   "counts": {
+    "correct_accept": 34,
+    "false_reject": 2,
+    "correct_reject": 28
+   },
+   "failures": [],
+   "n_docs": 64
+  },
+  "G4_clean_acceptance": {
+   "passed": true,
+   "accepted": 12,
+   "of": 12,
+   "required": 11
+  },
+  "G5_variations": {
+   "passed": true,
+   "per_class": {
+    "col_shift": {
+     "ACCEPT": 2
+    },
+    "crlf_trailing": {
+     "ACCEPT": 2
+    },
+    "drop_optional": {
+     "ACCEPT": 2
+    },
+    "page_break": {
+     "ACCEPT": 2
+    },
+    "long_name_overflow": {
+     "REJECT": 2
+    },
+    "referrer_variation": {
+     "ACCEPT": 2
+    },
+    "approved_note": {
+     "ACCEPT": 2
+    },
+    "interpretive_note": {
+     "ACCEPT": 2
+    },
+    "section_subheading": {
+     "ACCEPT": 2
+    },
+    "sex_specific_ranges": {
+     "ACCEPT": 2
+    },
+    "abnormal_values": {
+     "ACCEPT": 2
+    },
+    "bold_flag": {
+     "ACCEPT": 2
+    }
+   },
+   "unsupported": [
+    "long_name_overflow"
+   ],
+   "note": "rejections are safe but must be acknowledged"
+  },
+  "G6_self_adversarial": {
+   "passed": true,
+   "results": {
+    "identity_line_replaced:REJECT": 4,
+    "header_line_dropped:REJECT": 4,
+    "unknown_line_after_end:REJECT": 4,
+    "unknown_text_line_after_end:REJECT": 4,
+    "unknown_text_line_in_table:REJECT": 4,
+    "unknown_line_before_start:REJECT": 4,
+    "unknown_line_in_table:REJECT": 4,
+    "column_header_truncated:REJECT": 4,
+    "unit_deleted:REJECT": 4,
+    "result_on_trusted_line_after_end:0:REJECT": 4,
+    "result_on_trusted_line_in_table:0:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:0:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:0:REJECT": 4,
+    "result_on_trusted_line_after_end:1:REJECT": 4,
+    "result_on_trusted_line_in_table:1:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:1:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:1:REJECT": 4,
+    "result_on_trusted_line_after_end:2:REJECT": 4,
+    "result_on_trusted_line_in_table:2:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:2:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:2:REJECT": 4,
+    "result_on_trusted_line_after_end:3:REJECT": 4,
+    "result_on_trusted_line_in_table:3:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:3:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:3:REJECT": 4,
+    "result_on_trusted_line_after_end:4:REJECT": 4,
+    "result_on_trusted_line_in_table:4:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:4:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:4:REJECT": 4,
+    "result_on_trusted_line_after_end:5:REJECT": 4,
+    "result_on_trusted_line_in_table:5:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:5:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:5:REJECT": 4,
+    "result_on_trusted_line_after_end:6:REJECT": 4,
+    "result_on_trusted_line_in_table:6:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:6:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:6:REJECT": 4,
+    "result_on_trusted_line_after_end:7:REJECT": 4,
+    "result_on_trusted_line_in_table:7:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:7:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:7:REJECT": 4,
+    "result_on_trusted_line_after_end:8:REJECT": 4,
+    "result_on_trusted_line_in_table:8:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:8:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:8:REJECT": 4,
+    "result_on_trusted_line_after_end:9:REJECT": 4,
+    "result_on_trusted_line_in_table:9:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:9:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:9:REJECT": 4,
+    "result_on_trusted_line_after_end:10:REJECT": 4,
+    "result_on_trusted_line_in_table:10:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:10:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:10:REJECT": 4,
+    "result_on_trusted_line_after_end:11:REJECT": 4,
+    "result_on_trusted_line_in_table:11:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:11:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:11:REJECT": 4,
+    "result_on_trusted_line_after_end:12:REJECT": 4,
+    "result_on_trusted_line_in_table:12:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:12:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:12:REJECT": 4,
+    "result_on_trusted_line_after_end:13:REJECT": 4,
+    "result_on_trusted_line_in_table:13:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:13:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:13:REJECT": 4,
+    "result_on_trusted_line_after_end:14:REJECT": 4,
+    "result_on_trusted_line_in_table:14:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:14:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:14:REJECT": 4,
+    "result_on_field_line:REJECT": 4,
+    "bare_number_on_field_line:REJECT": 4,
+    "two_reports_one_job:REJECT": 4,
+    "pages_swapped:REJECT": 4
+   },
+   "accepted_mutations": []
+  },
+  "G7_collision": {
+   "passed": true,
+   "collisions": []
+  },
+  "G8_dates": {
+   "passed": true,
+   "ambiguous_fields": [],
+   "formats": {
+    "collected": {
+     "format": "%d-%b-%Y %I:%M %p",
+     "day_month_order_ambiguous_format": false,
+     "samples_disambiguate": null,
+     "n_strings": 76
+    },
+    "reported": {
+     "format": "%d-%b-%Y",
+     "day_month_order_ambiguous_format": false,
+     "samples_disambiguate": null,
+     "n_strings": 76
+    }
+   },
+   "note": "approval requires --confirm-date-format when ambiguous_fields is non-empty"
+  },
+  "G9_coverage": {
+   "passed": true,
+   "invalid_docs": 28,
+   "defect_classes": [
+    "comma_decimal",
+    "conflicting_patient_id",
+    "date_invalid",
+    "differential_over_100",
+    "drifted_new_format",
+    "duplicate_conflict",
+    "extra_section_unknown_tests",
+    "foreign_layout_G",
+    "header_changed",
+    "header_changed_paged",
+    "hidden_numeric_result",
+    "hidden_qualitative_result",
+    "index_inconsistent",
+    "layout_drift",
+    "long_name_wrapped",
+    "note_with_number",
+    "patient_id_missing",
+    "row_value_swap",
+    "static_text_damage",
+    "text_between_rows_with_number",
+    "truncated",
+    "two_patients_one_job",
+    "unapproved_note_style",
+    "unit_incompatible",
+    "unit_missing",
+    "unknown_test",
+    "value_corrupt",
+    "value_implausible"
+   ]
+  }
+ },
+ "warnings_requiring_ack": [
+  "unsupported_variation:long_name_overflow"
+ ],
+ "date_format_confirmation_required": false,
+ "passed": true,
+ "compile_report": {
+  "binding_id": "lab-b",
+  "version": 9,
+  "samples": [
+   "B-2100000-clean",
+   "B-2100001-clean",
+   "B-3100000-clean",
+   "B-3100001-clean",
+   "B-3100002-clean",
+   "B-3100003-clean",
+   "B-3100004-clean",
+   "B-3100005-clean",
+   "B-3100006-clean",
+   "B-3100007-clean",
+   "B-3100008-clean",
+   "B-3100009-clean",
+   "B-3100010-clean",
+   "B-3100011-clean",
+   "B-3101000-col_shift",
+   "B-3101001-col_shift",
+   "B-3102000-crlf_trailing",
+   "B-3102001-crlf_trailing",
+   "B-3103000-drop_optional",
+   "B-3103001-drop_optional",
+   "B-3104000-page_break",
+   "B-3104001-page_break",
+   "B-3105000-long_name_overflow",
+   "B-3105001-long_name_overflow",
+   "B-3106000-referrer_variation",
+   "B-3106001-referrer_variation",
+   "B-3107000-approved_note",
+   "B-3107001-approved_note",
+   "B-3108000-interpretive_note",
+   "B-3108001-interpretive_note",
+   "B-3109000-section_subheading",
+   "B-3109001-section_subheading",
+   "B-3111000-sex_specific_ranges",
+   "B-3111001-sex_specific_ranges",
+   "B-3112000-abnormal_values",
+   "B-3112001-abnormal_values",
+   "B-3114000-bold_flag",
+   "B-3114001-bold_flag"
+  ],
+  "n_samples": 38,
+  "n_clean": 14,
+  "warnings": [],
+  "errors": [],
+  "n_continuation_pages": 38,
+  "numeric_skeleton_skipped_samples": [
+   "missing_field",
+   "missing_field"
+  ],
+  "compiled_summary": {
+   "header_patterns": 8,
+   "identity_index": 0,
+   "continuation_len": 6,
+   "template_lines": 11,
+   "promoted_required": [
+    "patient_age",
+    "patient_sex",
+    "reported"
+   ],
+   "date_formats": {
+    "collected": {
+     "format": "%d-%b-%Y %I:%M %p",
+     "day_month_order_ambiguous_format": false,
+     "samples_disambiguate": null,
+     "n_strings": 76
+    },
+    "reported": {
+     "format": "%d-%b-%Y",
+     "day_month_order_ambiguous_format": false,
+     "samples_disambiguate": null,
+     "n_strings": 76
+    }
+   },
+   "numeric_skeletons": [
+    "Page # of #",
+    "Plot #, MIDC Area, Aurangabad - #"
+   ],
+   "note_markers": [
+    "Interpretation:",
+    "Remark -"
+   ],
+   "table_static_lines": [
+    "Differential Leucocyte Count"
+   ],
+   "text_skeleton_keys": 4,
+   "abnormal_marker": "bold"
+  }
+ }
+}

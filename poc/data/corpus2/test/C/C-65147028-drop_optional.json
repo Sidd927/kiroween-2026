@@ -1,0 +1,87 @@
+{
+ "doc_id": "C-65147028-drop_optional",
+ "layout": "C",
+ "cls": "drop_optional",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "RFIuIE1FSFRBJ1MgQ0xJTklDQUwgTEFCT1JBVE9SWSAgICAgICAgICAgICBSZXBvcnQgRGF0ZTogMjAyNi0wOS0xMApQYXRpZW50IDogU2hpbmRlLCBLYXZ5YSAoTS80MykKUGF0aWVudCBJRCA6IDU0NjU5OTMgICAgICAgU2FtcGxlIDogUy00Nzc3OApDb2xsZWN0ZWQgIDogMjAyNi0wOS0wOSAxMDo0NQpDb25zdWx0YW50IDogRHIuIEFuamFsaSBSLiBEZXNocGFuZGUKCkJJT0NIRU1JU1RSWQogIFRlc3QgLyBNZXRob2QKICAgICAgUmVzdWx0ICAgICBVbml0cyAgICAgTm9ybWFsIFJhbmdlCiAgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogIEJJTElSVUJJTiBUT1RBTAogICAgICAoRGlhem8gbWV0aG9kKQogICAgICAxLjA5ICAgICAgIG1nL2RsICAgICAwLjIwIC0gMS4yMAogIEJJTElSVUJJTiBESVJFQ1QKICAgICAgKERpYXpvIG1ldGhvZCkKICAgICAgMC4xNiAgICAgICBtZy9kbCAgICAgMC4wMCAtIDAuMzAKICBTR1BUIChBTFQpCiAgICAgIChJRkNDKQogICAgICAyNyAgICAgICAgIFUvTCAgICAgICAwIC0gNDAKICBTR09UIChBU1QpCiAgICAgIChJRkNDKQogICAgICAxMzAgKiAgICAgIFUvTCAgICAgICAwIC0gNDAKICBUT1RBTCBQUk9URUlOUwogICAgICAoQml1cmV0KQogICAgICA3LjcgICAgICAgIGcvZGwgICAgICA2LjAgLSA4LjMKICBBTEJVTUlOCiAgICAgIChCQ0cpCiAgICAgIDQuMCAgICAgICAgZy9kbCAgICAgIDMuNSAtIDUuMgogIFNFUlVNIENSRUFUSU5JTkUKICAgICAgKEphZmZlIGtpbmV0aWMpCiAgICAgIDEuMDkgICAgICAgbWcvZGwgICAgIDAuNjAgLSAxLjMwCiAgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogICogVmFsdWUgb3V0c2lkZSBub3JtYWwgcmFuZ2UKCkNoZWNrZWQgYnk6IExhYiBUZWNobm9sb2dpc3QKICAgICAgICAgICAgICAgICAgICAgICAgICAgLS0gRU5EIC0tClNZTlRIRVRJQyBTQU1QTEUgLSBOT1QgQSBSRUFMIFBBVElFTlQK",
+ "queue_codepage": "cp1252",
+ "truth": {
+  "patient_id": "5465993",
+  "patient_name": "Shinde, Kavya",
+  "patient_age": 43,
+  "patient_sex": "male",
+  "collected": "2026-09-09",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "1.09",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL",
+    "flag": "",
+    "ref_low": "0.20",
+    "ref_high": "1.20"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.16",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT",
+    "flag": "",
+    "ref_low": "0.00",
+    "ref_high": "0.30"
+   },
+   {
+    "code": "ALT",
+    "value": "27",
+    "unit": "U/L",
+    "label": "SGPT (ALT)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "AST",
+    "value": "130",
+    "unit": "U/L",
+    "label": "SGOT (AST)",
+    "flag": "H",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "TP",
+    "value": "7.7",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS",
+    "flag": "",
+    "ref_low": "6.0",
+    "ref_high": "8.3"
+   },
+   {
+    "code": "ALB",
+    "value": "4.0",
+    "unit": "g/dl",
+    "label": "ALBUMIN",
+    "flag": "",
+    "ref_low": "3.5",
+    "ref_high": "5.2"
+   },
+   {
+    "code": "CREA",
+    "value": "1.09",
+    "unit": "mg/dl",
+    "label": "SERUM CREATININE",
+    "flag": "",
+    "ref_low": "0.60",
+    "ref_high": "1.30"
+   }
+  ],
+  "collected_time": "10:45",
+  "reported": "2026-09-10",
+  "notes": [],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

@@ -1,0 +1,12 @@
+{
+ "doc_id": "E-65373026-truncated",
+ "layout": "E",
+ "cls": "truncated",
+ "group": "defect",
+ "expected": "reject",
+ "raw_b64": "TElGRUxJTkUgUEFUSE9MT0dZICYgSU1BR0lORyAgICAgICAgICAgICAgICAgICAgICAgIExhYiBJRDogTEwtMjAyNi02ODMxNQpQYXRpZW50OiBSYWh1bCBTaGluZGUgICAgICAgICAgU2V4L0FnZTogTS8xOSAgICAgICAgRHJhd246IEp1bmUgMTQsIDIwMjYKX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fCkhBRU1PR1JBTQpIYiAgICAgICAgIDE0LjMgZy9kTCAgICAgWzEzLjAtMTcuMF0gICBSQkMgICAgICAgIDUuNTAgeDEwXjYvdUwgWzQuNTAtNS45MF0=",
+ "queue_codepage": "ascii",
+ "truth": null,
+ "note": "",
+ "split": "test"
+}

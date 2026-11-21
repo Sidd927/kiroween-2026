@@ -1,0 +1,96 @@
+{
+ "doc_id": "C-65146028-crlf_trailing",
+ "layout": "C",
+ "cls": "crlf_trailing",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "RFIuIE1FSFRBJ1MgQ0xJTklDQUwgTEFCT1JBVE9SWSAgICAgICAgICAgICBSZXBvcnQgRGF0ZTogMjAyNi0wMi0yMiAgIA0KUGF0aWVudCA6IEpvc2hpLCBOZWhhIChGLzQ0KSAgIA0KUGF0aWVudCBJRCA6IDAyNDc1NTkgICAgICAgU2FtcGxlIDogUy0xOTI0NCAgDQpDb2xsZWN0ZWQgIDogMjAyNi0wMi0yMiAxMToxMCAgDQpDb25zdWx0YW50IDogRHIuIE0uIEt1bGthcm5pICANCiANCkJJT0NIRU1JU1RSWQ0KICBUZXN0IC8gTWV0aG9kICANCiAgICAgIFJlc3VsdCAgICAgVW5pdHMgICAgIE5vcm1hbCBSYW5nZQ0KICAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tICAgDQogIEJJTElSVUJJTiBUT1RBTCANCiAgICAgIChEaWF6byBtZXRob2QpIA0KICAgICAgMC40NiAgICAgICBtZy9kbCAgICAgMC4yMCAtIDEuMjAgDQogIEJJTElSVUJJTiBESVJFQ1QgICANCiAgICAgIChEaWF6byBtZXRob2QpIA0KICAgICAgMC4xNSAgICAgICBtZy9kbCAgICAgMC4wMCAtIDAuMzANCiAgU0dQVCAoQUxUKSAgIA0KICAgICAgKElGQ0MpICAgDQogICAgICA4OCAqICAgICAgIFUvTCAgICAgICAwIC0gNDAgDQogIFNHT1QgKEFTVCkgDQogICAgICAoSUZDQykgDQogICAgICAyMyAgICAgICAgIFUvTCAgICAgICAwIC0gNDAgIA0KICBBTEtBTElORSBQSE9TUEhBVEFTRSANCiAgICAgIChQTlBQLUFNUCkgIA0KICAgICAgMjgyICogICAgICBJVS9MICAgICAgNDAgLSAxMzAgIA0KICBUT1RBTCBQUk9URUlOUw0KICAgICAgKEJpdXJldCkgDQogICAgICA2LjcgICAgICAgIGcvZGwgICAgICA2LjAgLSA4LjMNCiAgQUxCVU1JTg0KICAgICAgKEJDRykgIA0KICAgICAgNC41ICAgICAgICBnL2RsICAgICAgMy41IC0gNS4yICANCiAgU0VSVU0gQ1JFQVRJTklORQ0KICAgICAgKEphZmZlIGtpbmV0aWMpICAgDQogICAgICAwLjc2ICAgICAgIG1nL2RsICAgICAwLjYwIC0gMS4zMCAgIA0KICAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQogICogVmFsdWUgb3V0c2lkZSBub3JtYWwgcmFuZ2UgICANCg0KQ2hlY2tlZCBieTogTGFiIFRlY2hub2xvZ2lzdCANCiAgICAgICAgICAgICAgICAgICAgICAgICAgIC0tIEVORCAtLQ0KU1lOVEhFVElDIFNBTVBMRSAtIE5PVCBBIFJFQUwgUEFUSUVOVCAgDQogICA=",
+ "queue_codepage": "cp1252",
+ "truth": {
+  "patient_id": "0247559",
+  "patient_name": "Joshi, Neha",
+  "patient_age": 44,
+  "patient_sex": "female",
+  "collected": "2026-02-22",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "0.46",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL",
+    "flag": "",
+    "ref_low": "0.20",
+    "ref_high": "1.20"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.15",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT",
+    "flag": "",
+    "ref_low": "0.00",
+    "ref_high": "0.30"
+   },
+   {
+    "code": "ALT",
+    "value": "88",
+    "unit": "U/L",
+    "label": "SGPT (ALT)",
+    "flag": "H",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "AST",
+    "value": "23",
+    "unit": "U/L",
+    "label": "SGOT (AST)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "ALP",
+    "value": "282",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE",
+    "flag": "H",
+    "ref_low": "40",
+    "ref_high": "130"
+   },
+   {
+    "code": "TP",
+    "value": "6.7",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS",
+    "flag": "",
+    "ref_low": "6.0",
+    "ref_high": "8.3"
+   },
+   {
+    "code": "ALB",
+    "value": "4.5",
+    "unit": "g/dl",
+    "label": "ALBUMIN",
+    "flag": "",
+    "ref_low": "3.5",
+    "ref_high": "5.2"
+   },
+   {
+    "code": "CREA",
+    "value": "0.76",
+    "unit": "mg/dl",
+    "label": "SERUM CREATININE",
+    "flag": "",
+    "ref_low": "0.60",
+    "ref_high": "1.30"
+   }
+  ],
+  "collected_time": "11:10",
+  "reported": "2026-02-22",
+  "notes": [],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

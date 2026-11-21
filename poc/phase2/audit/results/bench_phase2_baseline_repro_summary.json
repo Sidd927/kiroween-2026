@@ -1,0 +1,388 @@
+{
+ "ALL": {
+  "documents": 326,
+  "outcomes": {
+   "correct_accept": 167,
+   "correct_reject": 150,
+   "false_reject": 9
+  },
+  "layout_recognition_accuracy": "198/198",
+  "field_extraction_accuracy_on_accepted": "2221/2221",
+  "critical_field_accuracy_on_accepted": "1887/1887",
+  "silent_errors": 0,
+  "silent_error_rate_of_accepted": "0/167",
+  "silent_error_95pct_upper_bound_of_accepted": 0.0178,
+  "unsafe_accepts_of_invalid_docs": "0/150",
+  "false_rejection_rate_valid_docs": "9/176",
+  "refusal_rate_clean_supported_docs": "11/130",
+  "refusal_rate_all_docs": "159/326",
+  "accepted_without_ai": "167/326",
+  "latency_ms_median": 0.45,
+  "latency_ms_p95": 0.82,
+  "ABLATION_silent_errors_without_validators": 30,
+  "ABLATION_outcomes_without_validators": {
+   "correct_accept": 168,
+   "correct_reject": 120,
+   "unsafe_accept": 30,
+   "false_reject": 8
+  }
+ },
+ "dev_layouts_ABC": {
+  "documents": 158,
+  "outcomes": {
+   "correct_accept": 85,
+   "correct_reject": 70,
+   "false_reject": 3
+  },
+  "layout_recognition_accuracy": "94/94",
+  "field_extraction_accuracy_on_accepted": "1202/1202",
+  "critical_field_accuracy_on_accepted": "1032/1032",
+  "silent_errors": 0,
+  "silent_error_rate_of_accepted": "0/85",
+  "silent_error_95pct_upper_bound_of_accepted": 0.0346,
+  "unsafe_accepts_of_invalid_docs": "0/70",
+  "false_rejection_rate_valid_docs": "3/88",
+  "refusal_rate_clean_supported_docs": "1/60",
+  "refusal_rate_all_docs": "73/158",
+  "accepted_without_ai": "85/158",
+  "latency_ms_median": 0.72,
+  "latency_ms_p95": 0.83,
+  "ABLATION_silent_errors_without_validators": 14,
+  "ABLATION_outcomes_without_validators": {
+   "correct_accept": 86,
+   "correct_reject": 56,
+   "unsafe_accept": 14,
+   "false_reject": 2
+  }
+ },
+ "unseen_layouts_DEF": {
+  "documents": 158,
+  "outcomes": {
+   "correct_accept": 82,
+   "false_reject": 6,
+   "correct_reject": 70
+  },
+  "layout_recognition_accuracy": "94/94",
+  "field_extraction_accuracy_on_accepted": "1019/1019",
+  "critical_field_accuracy_on_accepted": "855/855",
+  "silent_errors": 0,
+  "silent_error_rate_of_accepted": "0/82",
+  "silent_error_95pct_upper_bound_of_accepted": 0.0359,
+  "unsafe_accepts_of_invalid_docs": "0/70",
+  "false_rejection_rate_valid_docs": "6/88",
+  "refusal_rate_clean_supported_docs": "0/60",
+  "refusal_rate_all_docs": "76/158",
+  "accepted_without_ai": "82/158",
+  "latency_ms_median": 0.4,
+  "latency_ms_p95": 0.49,
+  "ABLATION_silent_errors_without_validators": 16,
+  "ABLATION_outcomes_without_validators": {
+   "correct_accept": 82,
+   "false_reject": 6,
+   "correct_reject": 54,
+   "unsafe_accept": 16
+  }
+ },
+ "unregistered_G": {
+  "documents": 10,
+  "outcomes": {
+   "correct_reject": 10
+  },
+  "layout_recognition_accuracy": "10/10",
+  "field_extraction_accuracy_on_accepted": "0/0",
+  "critical_field_accuracy_on_accepted": "0/0",
+  "silent_errors": 0,
+  "silent_error_rate_of_accepted": "0/0",
+  "silent_error_95pct_upper_bound_of_accepted": null,
+  "unsafe_accepts_of_invalid_docs": "0/10",
+  "false_rejection_rate_valid_docs": "0/0",
+  "refusal_rate_clean_supported_docs": "10/10",
+  "refusal_rate_all_docs": "10/10",
+  "accepted_without_ai": "0/10",
+  "latency_ms_median": 0.03,
+  "latency_ms_p95": 0.04,
+  "ABLATION_silent_errors_without_validators": 0,
+  "ABLATION_outcomes_without_validators": {
+   "correct_reject": 10
+  }
+ },
+ "layout_A": {
+  "documents": 54,
+  "outcomes": {
+   "correct_accept": 30,
+   "correct_reject": 24
+  },
+  "layout_recognition_accuracy": "32/32",
+  "field_extraction_accuracy_on_accepted": "438/438",
+  "critical_field_accuracy_on_accepted": "378/378",
+  "silent_errors": 0,
+  "silent_error_rate_of_accepted": "0/30",
+  "silent_error_95pct_upper_bound_of_accepted": 0.095,
+  "unsafe_accepts_of_invalid_docs": "0/24",
+  "false_rejection_rate_valid_docs": "0/30",
+  "refusal_rate_clean_supported_docs": "0/20",
+  "refusal_rate_all_docs": "24/54",
+  "accepted_without_ai": "30/54",
+  "latency_ms_median": 0.69,
+  "latency_ms_p95": 0.75,
+  "ABLATION_silent_errors_without_validators": 6,
+  "ABLATION_outcomes_without_validators": {
+   "correct_accept": 30,
+   "correct_reject": 18,
+   "unsafe_accept": 6
+  }
+ },
+ "layout_B": {
+  "documents": 54,
+  "outcomes": {
+   "correct_accept": 28,
+   "false_reject": 2,
+   "correct_reject": 24
+  },
+  "layout_recognition_accuracy": "32/32",
+  "field_extraction_accuracy_on_accepted": "399/399",
+  "critical_field_accuracy_on_accepted": "343/343",
+  "silent_errors": 0,
+  "silent_error_rate_of_accepted": "0/28",
+  "silent_error_95pct_upper_bound_of_accepted": 0.1015,
+  "unsafe_accepts_of_invalid_docs": "0/24",
+  "false_rejection_rate_valid_docs": "2/30",
+  "refusal_rate_clean_supported_docs": "0/20",
+  "refusal_rate_all_docs": "26/54",
+  "accepted_without_ai": "28/54",
+  "latency_ms_median": 0.79,
+  "latency_ms_p95": 0.82,
+  "ABLATION_silent_errors_without_validators": 4,
+  "ABLATION_outcomes_without_validators": {
+   "correct_accept": 28,
+   "false_reject": 2,
+   "correct_reject": 20,
+   "unsafe_accept": 4
+  }
+ },
+ "layout_C": {
+  "documents": 50,
+  "outcomes": {
+   "correct_accept": 27,
+   "false_reject": 1,
+   "correct_reject": 22
+  },
+  "layout_recognition_accuracy": "30/30",
+  "field_extraction_accuracy_on_accepted": "365/365",
+  "critical_field_accuracy_on_accepted": "311/311",
+  "silent_errors": 0,
+  "silent_error_rate_of_accepted": "0/27",
+  "silent_error_95pct_upper_bound_of_accepted": 0.105,
+  "unsafe_accepts_of_invalid_docs": "0/22",
+  "false_rejection_rate_valid_docs": "1/28",
+  "refusal_rate_clean_supported_docs": "1/20",
+  "refusal_rate_all_docs": "23/50",
+  "accepted_without_ai": "27/50",
+  "latency_ms_median": 0.77,
+  "latency_ms_p95": 0.85,
+  "ABLATION_silent_errors_without_validators": 4,
+  "ABLATION_outcomes_without_validators": {
+   "correct_accept": 28,
+   "correct_reject": 18,
+   "unsafe_accept": 4
+  }
+ },
+ "layout_D": {
+  "documents": 54,
+  "outcomes": {
+   "correct_accept": 28,
+   "false_reject": 2,
+   "correct_reject": 24
+  },
+  "layout_recognition_accuracy": "32/32",
+  "field_extraction_accuracy_on_accepted": "299/299",
+  "critical_field_accuracy_on_accepted": "243/243",
+  "silent_errors": 0,
+  "silent_error_rate_of_accepted": "0/28",
+  "silent_error_95pct_upper_bound_of_accepted": 0.1015,
+  "unsafe_accepts_of_invalid_docs": "0/24",
+  "false_rejection_rate_valid_docs": "2/30",
+  "refusal_rate_clean_supported_docs": "0/20",
+  "refusal_rate_all_docs": "26/54",
+  "accepted_without_ai": "28/54",
+  "latency_ms_median": 0.43,
+  "latency_ms_p95": 0.47,
+  "ABLATION_silent_errors_without_validators": 6,
+  "ABLATION_outcomes_without_validators": {
+   "correct_accept": 28,
+   "false_reject": 2,
+   "correct_reject": 18,
+   "unsafe_accept": 6
+  }
+ },
+ "layout_E": {
+  "documents": 50,
+  "outcomes": {
+   "correct_accept": 26,
+   "false_reject": 2,
+   "correct_reject": 22
+  },
+  "layout_recognition_accuracy": "30/30",
+  "field_extraction_accuracy_on_accepted": "325/325",
+  "critical_field_accuracy_on_accepted": "273/273",
+  "silent_errors": 0,
+  "silent_error_rate_of_accepted": "0/26",
+  "silent_error_95pct_upper_bound_of_accepted": 0.1088,
+  "unsafe_accepts_of_invalid_docs": "0/22",
+  "false_rejection_rate_valid_docs": "2/28",
+  "refusal_rate_clean_supported_docs": "0/20",
+  "refusal_rate_all_docs": "24/50",
+  "accepted_without_ai": "26/50",
+  "latency_ms_median": 0.34,
+  "latency_ms_p95": 0.37,
+  "ABLATION_silent_errors_without_validators": 4,
+  "ABLATION_outcomes_without_validators": {
+   "correct_accept": 26,
+   "false_reject": 2,
+   "correct_reject": 18,
+   "unsafe_accept": 4
+  }
+ },
+ "layout_F": {
+  "documents": 54,
+  "outcomes": {
+   "correct_accept": 28,
+   "false_reject": 2,
+   "correct_reject": 24
+  },
+  "layout_recognition_accuracy": "32/32",
+  "field_extraction_accuracy_on_accepted": "395/395",
+  "critical_field_accuracy_on_accepted": "339/339",
+  "silent_errors": 0,
+  "silent_error_rate_of_accepted": "0/28",
+  "silent_error_95pct_upper_bound_of_accepted": 0.1015,
+  "unsafe_accepts_of_invalid_docs": "0/24",
+  "false_rejection_rate_valid_docs": "2/30",
+  "refusal_rate_clean_supported_docs": "0/20",
+  "refusal_rate_all_docs": "26/54",
+  "accepted_without_ai": "28/54",
+  "latency_ms_median": 0.45,
+  "latency_ms_p95": 0.49,
+  "ABLATION_silent_errors_without_validators": 6,
+  "ABLATION_outcomes_without_validators": {
+   "correct_accept": 28,
+   "false_reject": 2,
+   "correct_reject": 18,
+   "unsafe_accept": 6
+  }
+ },
+ "by_perturbation": {
+  "clean": {
+   "correct_accept": 119,
+   "false_reject": 1,
+   "correct_reject": 10
+  },
+  "col_shift": {
+   "correct_accept": 12
+  },
+  "conflicting_patient_id": {
+   "correct_reject": 2
+  },
+  "crlf_trailing": {
+   "correct_accept": 12
+  },
+  "date_invalid": {
+   "correct_reject": 12
+  },
+  "drop_optional": {
+   "correct_accept": 12
+  },
+  "duplicate_conflict": {
+   "correct_reject": 12
+  },
+  "flag_inconsistent": {
+   "correct_reject": 6
+  },
+  "header_changed": {
+   "correct_reject": 12
+  },
+  "layout_drift": {
+   "correct_reject": 12
+  },
+  "long_name": {
+   "correct_accept": 4,
+   "false_reject": 8
+  },
+  "page_break": {
+   "correct_accept": 8
+  },
+  "patient_id_missing": {
+   "correct_reject": 12
+  },
+  "truncated": {
+   "correct_reject": 12
+  },
+  "unit_incompatible": {
+   "correct_reject": 12
+  },
+  "unit_missing": {
+   "correct_reject": 12
+  },
+  "unknown_test": {
+   "correct_reject": 12
+  },
+  "value_corrupt": {
+   "correct_reject": 12
+  },
+  "value_implausible": {
+   "correct_reject": 12
+  }
+ },
+ "reject_reason_codes": {
+  "unknown_layout": 38,
+  "unparsed_content": 28,
+  "missing_field": 18,
+  "unit_not_accepted": 12,
+  "invalid_type": 12,
+  "unknown_label": 10,
+  "table_end_missing": 6,
+  "pattern_mismatch": 2,
+  "conflicting_field": 2,
+  "V5 implausible RBC=554 10*6/uL (limits 0.5-10)": 1,
+  "V5 implausible LYMPH%=4100 % (limits 0-100)": 1,
+  "V5 duplicate test PLT (4.94 vs 6.18)": 1,
+  "V5 duplicate test LYMPH% (23 vs 30)": 1,
+  "V6 flag L but HCT=45.1 not below 40.0": 1,
+  "V6 flag L but PLT=3.61 not below 1.50": 1,
+  "V5 implausible NEUT%=5500 % (limits 0-100)": 1,
+  "V5 implausible MCHC=342 g/dL (limits 20-45)": 1,
+  "V5 duplicate test RBC (4.45 vs 5.56)": 1,
+  "V5 duplicate test WBC (9978 vs 12474)": 1,
+  "V7 TBIL value 0.00 incompatible with reference 0.20-1.20": 1,
+  "V5 implausible TP=62 g/dL (limits 1-15)": 1,
+  "V5 implausible ALP=5600 U/L (limits 0-5000)": 1,
+  "V5 duplicate test TBIL (0.30 vs 0.38)": 1,
+  "V5 duplicate test DBIL (0.15 vs 0.19)": 1,
+  "V5 implausible PLT=24800 10*3/uL (limits 1-2000)": 1,
+  "V5 implausible CREA=105 mg/dL (limits 0.1-30)": 1,
+  "V5 duplicate test GLU (83 vs 105)": 1,
+  "V5 duplicate test HGB (16.9 vs 13.5)": 1,
+  "V6 flag L but UREA=28 not below 15": 1,
+  "V6 flag H but WBC=8678 not above 11000": 1,
+  "V5 implausible HGB=166 g/dL (limits 2-25)": 1,
+  "V5 implausible MCH=295 pg (limits 10-50)": 1,
+  "V5 duplicate test MCV (81.3 vs 65.0)": 1,
+  "V5 duplicate test MCV (77.6 vs 97.0)": 1,
+  "V5 implausible HGB=162 g/dL (limits 2-25)": 1,
+  "V5 implausible WBC=9320 10*3/uL (limits 0.1-500)": 1,
+  "V5 duplicate test GLU (85 vs 69)": 1,
+  "V5 duplicate test CREA (0.69 vs 0.55)": 1,
+  "V6 flag L but ALT=13 not below 7": 1,
+  "V6 flag L but GLU=86 not below 70": 1
+ },
+ "freeze_manifest_time": "2026-11-21 20:11:04",
+ "active_bindings": [
+  "lab-a",
+  "lab-b",
+  "lab-c",
+  "lab-d",
+  "lab-e",
+  "lab-f"
+ ],
+ "llm_calls_during_run": 0
+}

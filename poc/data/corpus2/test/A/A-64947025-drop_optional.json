@@ -1,0 +1,105 @@
+{
+ "doc_id": "A-64947025-drop_optional",
+ "layout": "A",
+ "cls": "drop_optional",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "ICAgICAgICAgICAgICAgICAgICAgICAgICBTVU5SSVNFIFBBVEhPTE9HWSBMQUJPUkFUT1JZCiAgICAgICAgICAgICAgMTIsIFN0YXRpb24gUm9hZCwgTmFzaGlrIC0gNDIyMDAxICBQaDogMDI1My0yMzQ1Njc4Ci0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tClBhdGllbnQgTmFtZSA6IE1SLiBTTkVIQSBTSEFSTUEgICAgICAgICAgICAgICAgIExhYiBOby4gICA6IFNQLzI2LzEwMjY5NApBZ2UgLyBTZXggICAgOiAzNiBZcnMgLyBNICAgICAgICAgICAgICAgICAgICAgICBDb2xsZWN0ZWQgOiAwOS8wMy8yMDI2IDA5OjA1ClJlZi4gQnkgICAgICA6IERSLiBTRUxGICAgICAgICAgICAgICAgICAgICAgICAgIFJlcG9ydGVkICA6IDEwLzAzLzIwMjYgMDA6MTUKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICAgICAgICAgICAgICAgICAgICAgICBIQUVNQVRPTE9HWSAtIENPTVBMRVRFIEJMT09EIENPVU5UCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tClRFU1QgICAgICAgICAgICAgICAgICAgICAgICAgIFJFU1VMVCAgICAgIFVOSVQgICAgICAgICAgUkVGRVJFTkNFIFJBTkdFCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCkhBRU1PR0xPQklOICAgICAgICAgICAgICAgICAgIDEzLjcgICAgICAgIGdtL2RMICAgICAgICAgMTMuMCAtIDE3LjAKUi5CLkMuIENPVU5UICAgICAgICAgICAgICAgICAgNS41NyAgICAgICAgbWlsbC9jdW1tICAgICA0LjUwIC0gNS45MApNLkMuVi4gICAgICAgICAgICAgICAgICAgICAgICA5My45ICAgICAgICBmTCAgICAgICAgICAgIDgzLjAgLSAxMDEuMApNLkMuSC4gICAgICAgICAgICAgICAgICAgICAgICAyNC42IEwgICAgICBwZyAgICAgICAgICAgIDI3LjAgLSAzMi4wCk0uQy5ILkMuICAgICAgICAgICAgICAgICAgICAgIDI2LjIgTCAgICAgIGcvZEwgICAgICAgICAgMzEuNSAtIDM0LjUKVE9UQUwgTEVVQ09DWVRFIENPVU5UICAgICAgICAgOTE4MSAgICAgICAgL2N1bW0gICAgICAgICA0MDAwIC0gMTEwMDAKTkVVVFJPUEhJTFMgICAgICAgICAgICAgICAgICAgNzQgICAgICAgICAgJSAgICAgICAgICAgICA0MCAtIDgwCkxZTVBIT0NZVEVTICAgICAgICAgICAgICAgICAgIDIzICAgICAgICAgICUgICAgICAgICAgICAgMjAgLSA0MApQTEFURUxFVCBDT1VOVCAgICAgICAgICAgICAgICAyLjU4ICAgICAgICBsYWtoL2N1bW0gICAgIDEuNTAgLSA0LjEwCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKioqIEVORCBPRiBSRVBPUlQgKioqCiAgICAgICAgICAgICAgICAgICAgIFNZTlRIRVRJQyBTQU1QTEUgLSBOT1QgQSBSRUFMIFBBVElFTlQK",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "SP/26/102694",
+  "patient_name": "SNEHA SHARMA",
+  "patient_age": 36,
+  "patient_sex": "male",
+  "collected": "2026-03-09",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "13.7",
+    "unit": "gm/dL",
+    "label": "HAEMOGLOBIN",
+    "flag": "",
+    "ref_low": "13.0",
+    "ref_high": "17.0"
+   },
+   {
+    "code": "RBC",
+    "value": "5.57",
+    "unit": "mill/cumm",
+    "label": "R.B.C. COUNT",
+    "flag": "",
+    "ref_low": "4.50",
+    "ref_high": "5.90"
+   },
+   {
+    "code": "MCV",
+    "value": "93.9",
+    "unit": "fL",
+    "label": "M.C.V.",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCH",
+    "value": "24.6",
+    "unit": "pg",
+    "label": "M.C.H.",
+    "flag": "L",
+    "ref_low": "27.0",
+    "ref_high": "32.0"
+   },
+   {
+    "code": "MCHC",
+    "value": "26.2",
+    "unit": "g/dL",
+    "label": "M.C.H.C.",
+    "flag": "L",
+    "ref_low": "31.5",
+    "ref_high": "34.5"
+   },
+   {
+    "code": "WBC",
+    "value": "9181",
+    "unit": "/cumm",
+    "label": "TOTAL LEUCOCYTE COUNT",
+    "flag": "",
+    "ref_low": "4000",
+    "ref_high": "11000"
+   },
+   {
+    "code": "NEUT%",
+    "value": "74",
+    "unit": "%",
+    "label": "NEUTROPHILS",
+    "flag": "",
+    "ref_low": "40",
+    "ref_high": "80"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "23",
+    "unit": "%",
+    "label": "LYMPHOCYTES",
+    "flag": "",
+    "ref_low": "20",
+    "ref_high": "40"
+   },
+   {
+    "code": "PLT",
+    "value": "2.58",
+    "unit": "lakh/cumm",
+    "label": "PLATELET COUNT",
+    "flag": "",
+    "ref_low": "1.50",
+    "ref_high": "4.10"
+   }
+  ],
+  "collected_time": "09:05",
+  "reported": "2026-03-10",
+  "notes": [],
+  "flag_semantics": "direction"
+ },
+ "note": "",
+ "split": "test"
+}

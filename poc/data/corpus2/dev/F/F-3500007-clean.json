@@ -1,0 +1,96 @@
+{
+ "doc_id": "F-3500007-clean",
+ "layout": "F",
+ "cls": "clean",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "TUVESUxJTksgUkVGRVJFTkNFIExBQiAgLSAgQUNDRVNTSU9OIDQ0MjUwNDQKUFQ6IFJFRERZIFBSSVlBICAgICAgICAgICAgTVJOIDUzMzg2NDIxICAgIEFHRTogMTdZICBTRVg6IEYKQ09MTEVDVEVEIDA5LzE0LzIwMjYgMDgyMCAgIFJFQ0VJVkVEIDA5LzE1LzIwMjYgMjEyMAo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KVEVTVCBOQU1FIChVTklUUykgICAgICAgICAgICAgICAgICAgUkVTVUxUICAgIEZMQUcgICBSRUYKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCkhFTU9HTE9CSU4gKGcvZEwpICAgICAgICAgICAgICAgICAgIDEzLjQgICAgICAgICAgICAgMTIuMC0xNS41CkhFTUFUT0NSSVQgKCUpICAgICAgICAgICAgICAgICAgICAgIDQ3LjAgICAgICBIICAgICAgMzYuMC00Ni4wCldCQyAoSy91TCkgICAgICAgICAgICAgICAgICAgICAgICAgIDcuMSAgICAgICAgICAgICAgNC4wLTExLjAKUkJDIChNL3VMKSAgICAgICAgICAgICAgICAgICAgICAgICAgNC42MSAgICAgICAgICAgICA0LjAwLTUuMjAKUExBVEVMRVRTIChLL3VMKSAgICAgICAgICAgICAgICAgICAgMzEwICAgICAgICAgICAgICAxNTAtNDAwCk1DViAoZkwpICAgICAgICAgICAgICAgICAgICAgICAgICAgIDEwMi4wICAgICBIICAgICAgODAuMC0xMDAuMApHTFVDT1NFLCBGQVNUSU5HIChtZy9kTCkgICAgICAgICAgICAyMzkgICAgICAgSCAgICAgIDcwLTk5CkNSRUFUSU5JTkUgKG1nL2RMKSAgICAgICAgICAgICAgICAgIDAuOTkgICAgICAgICAgICAgMC41MC0xLjEwCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpFTkQgT0YgUkVQT1JUClNZTlRIRVRJQyBTQU1QTEUgLSBOT1QgQSBSRUFMIFBBVElFTlQK",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "53386421",
+  "patient_name": "REDDY PRIYA",
+  "patient_age": 17,
+  "patient_sex": "female",
+  "collected": "2026-09-14",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "13.4",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN",
+    "flag": "",
+    "ref_low": "12.0",
+    "ref_high": "15.5"
+   },
+   {
+    "code": "HCT",
+    "value": "47.0",
+    "unit": "%",
+    "label": "HEMATOCRIT",
+    "flag": "H",
+    "ref_low": "36.0",
+    "ref_high": "46.0"
+   },
+   {
+    "code": "WBC",
+    "value": "7.1",
+    "unit": "K/uL",
+    "label": "WBC",
+    "flag": "",
+    "ref_low": "4.0",
+    "ref_high": "11.0"
+   },
+   {
+    "code": "RBC",
+    "value": "4.61",
+    "unit": "M/uL",
+    "label": "RBC",
+    "flag": "",
+    "ref_low": "4.00",
+    "ref_high": "5.20"
+   },
+   {
+    "code": "PLT",
+    "value": "310",
+    "unit": "K/uL",
+    "label": "PLATELETS",
+    "flag": "",
+    "ref_low": "150",
+    "ref_high": "400"
+   },
+   {
+    "code": "MCV",
+    "value": "102.0",
+    "unit": "fL",
+    "label": "MCV",
+    "flag": "H",
+    "ref_low": "80.0",
+    "ref_high": "100.0"
+   },
+   {
+    "code": "GLU",
+    "value": "239",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING",
+    "flag": "H",
+    "ref_low": "70",
+    "ref_high": "99"
+   },
+   {
+    "code": "CREA",
+    "value": "0.99",
+    "unit": "mg/dL",
+    "label": "CREATININE",
+    "flag": "",
+    "ref_low": "0.50",
+    "ref_high": "1.10"
+   }
+  ],
+  "collected_time": "08:20",
+  "reported": null,
+  "notes": [],
+  "flag_semantics": "direction"
+ },
+ "note": "",
+ "split": "dev"
+}

@@ -1,0 +1,105 @@
+{
+ "doc_id": "C-65144034-clean",
+ "layout": "C",
+ "cls": "clean",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "RFIuIE1FSFRBJ1MgQ0xJTklDQUwgTEFCT1JBVE9SWSAgICAgICAgICAgICBSZXBvcnQgRGF0ZTogMjAyNi0wOS0yMQpQYXRpZW50IDogU2hpbmRlLCBSYWh1bCAoTS84OCkKUGF0aWVudCBJRCA6IDk2ODU3MjcgICAgICAgU2FtcGxlIDogUy0yOTY5MApDb2xsZWN0ZWQgIDogMjAyNi0wOS0yMSAxMToxMApDb25zdWx0YW50IDogRHIuIFByYWthc2ggU2hpbmRlCgpCSU9DSEVNSVNUUlkKICBUZXN0IC8gTWV0aG9kCiAgICAgIFJlc3VsdCAgICAgVW5pdHMgICAgIE5vcm1hbCBSYW5nZQogIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICBCSUxJUlVCSU4gVE9UQUwKICAgICAgKERpYXpvIG1ldGhvZCkKICAgICAgMC4zNyAgICAgICBtZy9kbCAgICAgMC4yMCAtIDEuMjAKICBCSUxJUlVCSU4gRElSRUNUCiAgICAgIChEaWF6byBtZXRob2QpCiAgICAgIDAuMTIgICAgICAgbWcvZGwgICAgIDAuMDAgLSAwLjMwCiAgU0dQVCAoQUxUKQogICAgICAoSUZDQykKICAgICAgMTc1ICogICAgICBVL0wgICAgICAgMCAtIDQwCiAgU0dPVCAoQVNUKQogICAgICAoSUZDQykKICAgICAgMjEgICAgICAgICBVL0wgICAgICAgMCAtIDQwCiAgQUxLQUxJTkUgUEhPU1BIQVRBU0UKICAgICAgKFBOUFAtQU1QKQogICAgICAxMDkgICAgICAgIElVL0wgICAgICA0MCAtIDEzMAogIFRPVEFMIFBST1RFSU5TCiAgICAgIChCaXVyZXQpCiAgICAgIDcuMyAgICAgICAgZy9kbCAgICAgIDYuMCAtIDguMwogIEFMQlVNSU4KICAgICAgKEJDRykKICAgICAgMy45ICAgICAgICBnL2RsICAgICAgMy41IC0gNS4yCiAgU0VSVU0gQ1JFQVRJTklORQogICAgICAoSmFmZmUga2luZXRpYykKICAgICAgMC44NCAgICAgICBtZy9kbCAgICAgMC42MCAtIDEuMzAKICBCTE9PRCBVUkVBCiAgICAgIChVcmVhc2UtR0xESCkKICAgICAgMTYgICAgICAgICBtZy9kbCAgICAgMTUgLSA0NQogIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICAqIFZhbHVlIG91dHNpZGUgbm9ybWFsIHJhbmdlCgpDaGVja2VkIGJ5OiBMYWIgVGVjaG5vbG9naXN0CiAgICAgICAgICAgICAgICAgICAgICAgICAgIC0tIEVORCAtLQpTWU5USEVUSUMgU0FNUExFIC0gTk9UIEEgUkVBTCBQQVRJRU5UCg==",
+ "queue_codepage": "cp1252",
+ "truth": {
+  "patient_id": "9685727",
+  "patient_name": "Shinde, Rahul",
+  "patient_age": 88,
+  "patient_sex": "male",
+  "collected": "2026-09-21",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "0.37",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL",
+    "flag": "",
+    "ref_low": "0.20",
+    "ref_high": "1.20"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.12",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT",
+    "flag": "",
+    "ref_low": "0.00",
+    "ref_high": "0.30"
+   },
+   {
+    "code": "ALT",
+    "value": "175",
+    "unit": "U/L",
+    "label": "SGPT (ALT)",
+    "flag": "H",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "AST",
+    "value": "21",
+    "unit": "U/L",
+    "label": "SGOT (AST)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "ALP",
+    "value": "109",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE",
+    "flag": "",
+    "ref_low": "40",
+    "ref_high": "130"
+   },
+   {
+    "code": "TP",
+    "value": "7.3",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS",
+    "flag": "",
+    "ref_low": "6.0",
+    "ref_high": "8.3"
+   },
+   {
+    "code": "ALB",
+    "value": "3.9",
+    "unit": "g/dl",
+    "label": "ALBUMIN",
+    "flag": "",
+    "ref_low": "3.5",
+    "ref_high": "5.2"
+   },
+   {
+    "code": "CREA",
+    "value": "0.84",
+    "unit": "mg/dl",
+    "label": "SERUM CREATININE",
+    "flag": "",
+    "ref_low": "0.60",
+    "ref_high": "1.30"
+   },
+   {
+    "code": "UREA",
+    "value": "16",
+    "unit": "mg/dl",
+    "label": "BLOOD UREA",
+    "flag": "",
+    "ref_low": "15",
+    "ref_high": "45"
+   }
+  ],
+  "collected_time": "11:10",
+  "reported": "2026-09-21",
+  "notes": [],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

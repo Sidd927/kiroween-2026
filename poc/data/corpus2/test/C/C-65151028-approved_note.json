@@ -1,0 +1,98 @@
+{
+ "doc_id": "C-65151028-approved_note",
+ "layout": "C",
+ "cls": "approved_note",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "RFIuIE1FSFRBJ1MgQ0xJTklDQUwgTEFCT1JBVE9SWSAgICAgICAgICAgICBSZXBvcnQgRGF0ZTogMjAyNi0wNy0xNwpQYXRpZW50IDogRmVybmFuZGVzLCBTbmVoYSAoRi83NykKUGF0aWVudCBJRCA6IDUzMzcxMjMgICAgICAgU2FtcGxlIDogUy00MzY2MgpDb2xsZWN0ZWQgIDogMjAyNi0wNy0xNiAwNzowMApDb25zdWx0YW50IDogRHIuIFNFTEYKCkJJT0NIRU1JU1RSWQogIFRlc3QgLyBNZXRob2QKICAgICAgUmVzdWx0ICAgICBVbml0cyAgICAgTm9ybWFsIFJhbmdlCiAgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogIEJJTElSVUJJTiBUT1RBTAogICAgICAoRGlhem8gbWV0aG9kKQogICAgICAwLjM1ICAgICAgIG1nL2RsICAgICAwLjIwIC0gMS4yMAogIEJJTElSVUJJTiBESVJFQ1QKICAgICAgKERpYXpvIG1ldGhvZCkKICAgICAgMC4xMiAgICAgICBtZy9kbCAgICAgMC4wMCAtIDAuMzAKICBTR1BUIChBTFQpCiAgICAgIChJRkNDKQogICAgICAyMiAgICAgICAgIFUvTCAgICAgICAwIC0gNDAKICBTR09UIChBU1QpCiAgICAgIChJRkNDKQogICAgICAxOSAgICAgICAgIFUvTCAgICAgICAwIC0gNDAKICBBTEtBTElORSBQSE9TUEhBVEFTRQogICAgICAoUE5QUC1BTVApCiAgICAgIDc1ICAgICAgICAgSVUvTCAgICAgIDQwIC0gMTMwCiAgVE9UQUwgUFJPVEVJTlMKICAgICAgKEJpdXJldCkKICAgICAgNi45ICAgICAgICBnL2RsICAgICAgNi4wIC0gOC4zCiAgQ29tbWVudDogVmVyaWZpZWQgdHdpY2UuCiAgQUxCVU1JTgogICAgICAoQkNHKQogICAgICAzLjcgICAgICAgIGcvZGwgICAgICAzLjUgLSA1LjIKICBCTE9PRCBVUkVBCiAgICAgIChVcmVhc2UtR0xESCkKICAgICAgMzYgICAgICAgICBtZy9kbCAgICAgMTUgLSA0NQogIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICAqIFZhbHVlIG91dHNpZGUgbm9ybWFsIHJhbmdlCgpDaGVja2VkIGJ5OiBMYWIgVGVjaG5vbG9naXN0CiAgICAgICAgICAgICAgICAgICAgICAgICAgIC0tIEVORCAtLQpTWU5USEVUSUMgU0FNUExFIC0gTk9UIEEgUkVBTCBQQVRJRU5UCg==",
+ "queue_codepage": "cp1252",
+ "truth": {
+  "patient_id": "5337123",
+  "patient_name": "Fernandes, Sneha",
+  "patient_age": 77,
+  "patient_sex": "female",
+  "collected": "2026-07-16",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "0.35",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL",
+    "flag": "",
+    "ref_low": "0.20",
+    "ref_high": "1.20"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.12",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT",
+    "flag": "",
+    "ref_low": "0.00",
+    "ref_high": "0.30"
+   },
+   {
+    "code": "ALT",
+    "value": "22",
+    "unit": "U/L",
+    "label": "SGPT (ALT)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "AST",
+    "value": "19",
+    "unit": "U/L",
+    "label": "SGOT (AST)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "ALP",
+    "value": "75",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE",
+    "flag": "",
+    "ref_low": "40",
+    "ref_high": "130"
+   },
+   {
+    "code": "TP",
+    "value": "6.9",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS",
+    "flag": "",
+    "ref_low": "6.0",
+    "ref_high": "8.3"
+   },
+   {
+    "code": "ALB",
+    "value": "3.7",
+    "unit": "g/dl",
+    "label": "ALBUMIN",
+    "flag": "",
+    "ref_low": "3.5",
+    "ref_high": "5.2"
+   },
+   {
+    "code": "UREA",
+    "value": "36",
+    "unit": "mg/dl",
+    "label": "BLOOD UREA",
+    "flag": "",
+    "ref_low": "15",
+    "ref_high": "45"
+   }
+  ],
+  "collected_time": "07:00",
+  "reported": "2026-07-17",
+  "notes": [
+   "Comment: Verified twice."
+  ],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

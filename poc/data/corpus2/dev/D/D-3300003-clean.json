@@ -1,0 +1,78 @@
+{
+ "doc_id": "D-3300003-clean",
+ "layout": "D",
+ "cls": "clean",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "Ky0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rCnwgICAgICAgICAgICAgICAgICAgICBTSFJFRSBTQUkgRElBR05PU1RJQ1MgICAgICAgICAgICAgICAgICAgICAgfAp8ICAgICAgICAgICAgIE5lYXIgQnVzIFN0YW5kLCBTaGlyZGkgUm9hZCwgS29wYXJnYW9uICAgICAgICAgICAgIHwKKy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rCnwgVUhJRCA6IDI2LTc0NjQzNDcgICAgICAgICAgICB8IENvbGwuIER0IDogMjIuMDcuMjYgICAgICAgICAgICB8CnwgTmFtZSA6IEtVTS4gUE9PSkEgSkFESEFWICAgICB8IEFnZS9TZXggOiA0Mi9GICAgICAgICAgICAgICAgICB8CistLS0tLS0tLS0tLS0tLS0tLS0tLS0rLS0tLS0tLS0tKy0tLS0tLS0tLS0tLSstLS0tLS0tLS0tLS0rLS0tLS0tKwp8IFBBUkFNRVRFUiAgICAgICAgICAgfCBWQUxVRSAgIHwgVU5JVCAgICAgICB8IFJBTkdFICAgICAgfCBGTEFHIHwKKy0tLS0tLS0tLS0tLS0tLS0tLS0tLSstLS0tLS0tLS0rLS0tLS0tLS0tLS0tKy0tLS0tLS0tLS0tLSstLS0tLS0rCnwgR2x1Y29zZSAoRmFzdGluZykgICB8IDIzOSAgICAgfCBtZy9kTCAgICAgIHwgNzAtMTAwICAgICB8IEggICAgfAp8IFNlcnVtIENyZWF0aW5pbmUgICAgfCAxLjk1ICAgIHwgbWcvZEwgICAgICB8IDAuNjAtMS4yMCAgfCBIICAgIHwKfCBCbG9vZCBVcmVhICAgICAgICAgIHwgMjggICAgICB8IG1nL2RMICAgICAgfCAxNS00MCAgICAgIHwgICAgICB8CnwgSGFlbW9nbG9iaW4gICAgICAgICB8IDEzLjYgICAgfCBnL2RsICAgICAgIHwgMTIuMC0xNS41ICB8ICAgICAgfAp8IFRvdGFsIENvdW50IChXQkMpICAgfCA3NDAwICAgIHwgL2N1bW0gICAgICB8IDQwMDAtMTEwMDAgfCAgICAgIHwKfCBQbGF0ZWxldHMgICAgICAgICAgIHwgMi4yNCAgICB8IGxha2hzL2N1bW0gfCAxLjUwLTQuNTAgIHwgICAgICB8CistLS0tLS0tLS0tLS0tLS0tLS0tLS0rLS0tLS0tLS0tKy0tLS0tLS0tLS0tLSstLS0tLS0tLS0tLS0rLS0tLS0tKwp8ICAgICAgICAgICAgICAgICAgICAgICoqIEVuZCBvZiBSZXBvcnQgKiogICAgICAgICAgICAgICAgICAgICAgIHwKKy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rClNZTlRIRVRJQyBTQU1QTEUgLSBOT1QgQSBSRUFMIFBBVElFTlQK",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "26-7464347",
+  "patient_name": "POOJA JADHAV",
+  "patient_age": 42,
+  "patient_sex": "female",
+  "collected": "2026-07-22",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "239",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)",
+    "flag": "H",
+    "ref_low": "70",
+    "ref_high": "100"
+   },
+   {
+    "code": "CREA",
+    "value": "1.95",
+    "unit": "mg/dL",
+    "label": "Serum Creatinine",
+    "flag": "H",
+    "ref_low": "0.60",
+    "ref_high": "1.20"
+   },
+   {
+    "code": "UREA",
+    "value": "28",
+    "unit": "mg/dL",
+    "label": "Blood Urea",
+    "flag": "",
+    "ref_low": "15",
+    "ref_high": "40"
+   },
+   {
+    "code": "HGB",
+    "value": "13.6",
+    "unit": "g/dl",
+    "label": "Haemoglobin",
+    "flag": "",
+    "ref_low": "12.0",
+    "ref_high": "15.5"
+   },
+   {
+    "code": "WBC",
+    "value": "7400",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)",
+    "flag": "",
+    "ref_low": "4000",
+    "ref_high": "11000"
+   },
+   {
+    "code": "PLT",
+    "value": "2.24",
+    "unit": "lakhs/cumm",
+    "label": "Platelets",
+    "flag": "",
+    "ref_low": "1.50",
+    "ref_high": "4.50"
+   }
+  ],
+  "collected_time": null,
+  "reported": null,
+  "notes": [],
+  "flag_semantics": "direction"
+ },
+ "note": "",
+ "split": "dev"
+}

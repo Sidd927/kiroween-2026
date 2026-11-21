@@ -1,0 +1,105 @@
+{
+ "doc_id": "C-65149026-long_name_overflow",
+ "layout": "C",
+ "cls": "long_name_overflow",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "RFIuIE1FSFRBJ1MgQ0xJTklDQUwgTEFCT1JBVE9SWSAgICAgICAgICAgICBSZXBvcnQgRGF0ZTogMjAyNi0wNy0xNApQYXRpZW50IDogS3Jpc2huYXN3YW15LCBBbmFudGhhcmFtYW4gKEYvNDEpClBhdGllbnQgSUQgOiA3MzYyNTU2ICAgICAgIFNhbXBsZSA6IFMtMTAzNDMKQ29sbGVjdGVkICA6IDIwMjYtMDctMTQgMTE6MDAKQ29uc3VsdGFudCA6IERyLiBTRUxGCgpCSU9DSEVNSVNUUlkKICBUZXN0IC8gTWV0aG9kCiAgICAgIFJlc3VsdCAgICAgVW5pdHMgICAgIE5vcm1hbCBSYW5nZQogIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICBCSUxJUlVCSU4gVE9UQUwKICAgICAgKERpYXpvIG1ldGhvZCkKICAgICAgMC41MiAgICAgICBtZy9kbCAgICAgMC4yMCAtIDEuMjAKICBCSUxJUlVCSU4gRElSRUNUCiAgICAgIChEaWF6byBtZXRob2QpCiAgICAgIDAuMDggICAgICAgbWcvZGwgICAgIDAuMDAgLSAwLjMwCiAgU0dQVCAoQUxUKQogICAgICAoSUZDQykKICAgICAgMTggICAgICAgICBVL0wgICAgICAgMCAtIDQwCiAgU0dPVCAoQVNUKQogICAgICAoSUZDQykKICAgICAgMjUgICAgICAgICBVL0wgICAgICAgMCAtIDQwCiAgQUxLQUxJTkUgUEhPU1BIQVRBU0UKICAgICAgKFBOUFAtQU1QKQogICAgICAxMDMgICAgICAgIElVL0wgICAgICA0MCAtIDEzMAogIFRPVEFMIFBST1RFSU5TCiAgICAgIChCaXVyZXQpCiAgICAgIDcuNiAgICAgICAgZy9kbCAgICAgIDYuMCAtIDguMwogIEFMQlVNSU4KICAgICAgKEJDRykKICAgICAgNS4xICAgICAgICBnL2RsICAgICAgMy41IC0gNS4yCiAgU0VSVU0gQ1JFQVRJTklORQogICAgICAoSmFmZmUga2luZXRpYykKICAgICAgMC42MyAgICAgICBtZy9kbCAgICAgMC42MCAtIDEuMzAKICBCTE9PRCBVUkVBCiAgICAgIChVcmVhc2UtR0xESCkKICAgICAgMjUgICAgICAgICBtZy9kbCAgICAgMTUgLSA0NQogIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICAqIFZhbHVlIG91dHNpZGUgbm9ybWFsIHJhbmdlCgpDaGVja2VkIGJ5OiBMYWIgVGVjaG5vbG9naXN0CiAgICAgICAgICAgICAgICAgICAgICAgICAgIC0tIEVORCAtLQpTWU5USEVUSUMgU0FNUExFIC0gTk9UIEEgUkVBTCBQQVRJRU5UCg==",
+ "queue_codepage": "cp1252",
+ "truth": {
+  "patient_id": "7362556",
+  "patient_name": "Krishnaswamy, Anantharaman",
+  "patient_age": 41,
+  "patient_sex": "female",
+  "collected": "2026-07-14",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "0.52",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL",
+    "flag": "",
+    "ref_low": "0.20",
+    "ref_high": "1.20"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.08",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT",
+    "flag": "",
+    "ref_low": "0.00",
+    "ref_high": "0.30"
+   },
+   {
+    "code": "ALT",
+    "value": "18",
+    "unit": "U/L",
+    "label": "SGPT (ALT)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "AST",
+    "value": "25",
+    "unit": "U/L",
+    "label": "SGOT (AST)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "ALP",
+    "value": "103",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE",
+    "flag": "",
+    "ref_low": "40",
+    "ref_high": "130"
+   },
+   {
+    "code": "TP",
+    "value": "7.6",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS",
+    "flag": "",
+    "ref_low": "6.0",
+    "ref_high": "8.3"
+   },
+   {
+    "code": "ALB",
+    "value": "5.1",
+    "unit": "g/dl",
+    "label": "ALBUMIN",
+    "flag": "",
+    "ref_low": "3.5",
+    "ref_high": "5.2"
+   },
+   {
+    "code": "CREA",
+    "value": "0.63",
+    "unit": "mg/dl",
+    "label": "SERUM CREATININE",
+    "flag": "",
+    "ref_low": "0.60",
+    "ref_high": "1.30"
+   },
+   {
+    "code": "UREA",
+    "value": "25",
+    "unit": "mg/dl",
+    "label": "BLOOD UREA",
+    "flag": "",
+    "ref_low": "15",
+    "ref_high": "45"
+   }
+  ],
+  "collected_time": "11:00",
+  "reported": "2026-07-14",
+  "notes": [],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

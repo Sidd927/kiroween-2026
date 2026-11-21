@@ -1,0 +1,78 @@
+{
+ "doc_id": "E-65347027-drop_optional",
+ "layout": "E",
+ "cls": "drop_optional",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "TElGRUxJTkUgUEFUSE9MT0dZICYgSU1BR0lORyAgICAgICAgICAgICAgICAgICAgICAgIExhYiBJRDogTEwtMjAyNi04NzkwMApQYXRpZW50OiBJc2hhIFBhd2FyICAgICAgICAgICAgU2V4L0FnZTogRi81MiAgICAgICAgRHJhd246IE1heSA3LCAyMDI2Cl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXwpIQUVNT0dSQU0KSGIgICAgICAgICAxMy40IGcvZEwgICAgIFsxMi4wLTE1LjVdICAgUkJDICAgICAgICA0LjkyIHgxMF42L3VMIFs0LjAwLTUuMjBdClBMVCAgICAgICAgIDIzMyB4MTBeMy91TCBbMTUwLTQxMF0gICAgIEhDVCAgICAgICAgNDQuOCAlICAgICAgICBbMzYuMC00Ni4wXQpNQ1YgICAgICAgIDkxLjEgZkwgICAgICAgWzgzLjAtMTAxLjBdICBNQ0ggICAgICAgIDI3LjMgcGcgICAgICAgWzI3LjAtMzIuMF0KX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fCiEgPSBvdXRzaWRlIHJlZmVyZW5jZSBpbnRlcnZhbCAgICAgICAgUmVwb3J0IGdlbmVyYXRlZCBieSBMYWJTeXMgMy4xClNZTlRIRVRJQyBTQU1QTEUgLSBOT1QgQSBSRUFMIFBBVElFTlQK",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "LL-2026-87900",
+  "patient_name": "Isha Pawar",
+  "patient_age": 52,
+  "patient_sex": "female",
+  "collected": "2026-05-07",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "13.4",
+    "unit": "g/dL",
+    "label": "Hb",
+    "flag": "",
+    "ref_low": "12.0",
+    "ref_high": "15.5"
+   },
+   {
+    "code": "RBC",
+    "value": "4.92",
+    "unit": "x10^6/uL",
+    "label": "RBC",
+    "flag": "",
+    "ref_low": "4.00",
+    "ref_high": "5.20"
+   },
+   {
+    "code": "PLT",
+    "value": "233",
+    "unit": "x10^3/uL",
+    "label": "PLT",
+    "flag": "",
+    "ref_low": "150",
+    "ref_high": "410"
+   },
+   {
+    "code": "HCT",
+    "value": "44.8",
+    "unit": "%",
+    "label": "HCT",
+    "flag": "",
+    "ref_low": "36.0",
+    "ref_high": "46.0"
+   },
+   {
+    "code": "MCV",
+    "value": "91.1",
+    "unit": "fL",
+    "label": "MCV",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCH",
+    "value": "27.3",
+    "unit": "pg",
+    "label": "MCH",
+    "flag": "",
+    "ref_low": "27.0",
+    "ref_high": "32.0"
+   }
+  ],
+  "collected_time": null,
+  "reported": null,
+  "notes": [],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

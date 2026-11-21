@@ -1,0 +1,617 @@
+{
+ "binding_id": "lab-d",
+ "description": "Shree Sai Diagnostics boxed report: UHID, Coll. Dt dd.mm.yy, Age/Sex, PARAMETER/VALUE/UNIT/RANGE/FLAG table.",
+ "layout": {
+  "anchors": [
+   "^\\|\\s+SHREE SAI DIAGNOSTICS\\s+\\|$",
+   "^\\| PARAMETER\\s+\\| VALUE\\s+\\| UNIT\\s+\\| RANGE\\s+\\| FLAG \\|$",
+   "\\| UHID : "
+  ]
+ },
+ "fields": {
+  "patient_id": {
+   "regex": "^\\| UHID : (?P<v>\\d{2}-\\d+)\\s*\\|",
+   "type": "string",
+   "required": true,
+   "pattern": "\\d{2}-\\d+"
+  },
+  "patient_name": {
+   "regex": "^\\| Name : (?:(?:MR|MRS|MS|SMT|SHRI|KUM|DR|BABY)\\.?\\s+)?(?P<v>[A-Za-z][A-Za-z .'-]*?)\\s*\\| Age/Sex",
+   "type": "string",
+   "required": true
+  },
+  "patient_age": {
+   "regex": "Age/Sex : (?P<v>\\d+)/[MF]\\s+\\|",
+   "type": "integer",
+   "required": true
+  },
+  "patient_sex": {
+   "regex": "Age/Sex : \\d+/(?P<v>[MF])\\s+\\|",
+   "type": "enum",
+   "enum_map": {
+    "M": "male",
+    "F": "female"
+   },
+   "required": true
+  },
+  "collected": {
+   "regex": "Coll\\. Dt : (?P<v>\\d{2}\\.\\d{2}\\.\\d{2})\\s+\\|",
+   "type": "date",
+   "format": "%d.%m.%y",
+   "required": true
+  }
+ },
+ "results": {
+  "start": "^\\| PARAMETER\\s+\\| VALUE\\s+\\| UNIT\\s+\\| RANGE\\s+\\| FLAG \\|$",
+  "end": "\\*\\* End of Report \\*\\*",
+  "skip_lines": [
+   "^\\s*$",
+   "^\\+[-+]+\\+$",
+   "^\\| PARAMETER\\s+\\| VALUE\\s+\\| UNIT\\s+\\| RANGE\\s+\\| FLAG \\|$",
+   "^\\|\\s+SHREE SAI DIAGNOSTICS\\s+\\|$",
+   "^\\|\\s+Near Bus Stand, Shirdi Road, Kopargaon\\s+\\|$",
+   "^\\| UHID : .*\\|$",
+   "^\\| Name : .*\\|$"
+  ],
+  "row": "^\\| (?P<label>[^|]+?)\\s+\\| (?P<value>\\d+(?:\\.\\d+)?)\\s+\\| (?P<unit>[^|\\s]+)\\s+\\| (?P<ref_low>\\d+(?:\\.\\d+)?)-(?P<ref_high>\\d+(?:\\.\\d+)?)\\s+\\|\\s*(?P<flag>[HL]?)\\s*\\|$",
+  "labels": {
+   "Glucose (Fasting)": "GLU",
+   "Serum Creatinine": "CREA",
+   "Blood Urea": "UREA",
+   "Haemoglobin": "HGB",
+   "Total Count (WBC)": "WBC",
+   "Platelets": "PLT"
+  },
+  "flags": {
+   "H": "H",
+   "L": "L"
+  },
+  "min_rows": 1,
+  "max_rows": 12
+ },
+ "version": 11,
+ "compiled": {
+  "compiler": "spoolgeist_h.compile/5",
+  "header": [
+   {
+    "exact": "+----------------------------------------------------------------+"
+   },
+   {
+    "exact": "| SHREE SAI DIAGNOSTICS |"
+   },
+   {
+    "exact": "| Near Bus Stand, Shirdi Road, Kopargaon |"
+   },
+   {
+    "exact": "+----------------------------------------------------------------+"
+   },
+   {
+    "regex": "\\| UHID : ",
+    "source": "anchor"
+   },
+   {
+    "regex": "^\\| Name : .*\\|$",
+    "source": "skip"
+   },
+   {
+    "exact": "+---------------------+---------+------------+------------+------+"
+   }
+  ],
+  "identity_index": 1,
+  "template_lines": [
+   "+---------------------+---------+------------+------------+------+",
+   "+----------------------------------------------------------------+",
+   "SYNTHETIC SAMPLE - NOT A REAL PATIENT",
+   "| ** End of Report ** |",
+   "| Near Bus Stand, Shirdi Road, Kopargaon |",
+   "| PARAMETER | VALUE | UNIT | RANGE | FLAG |",
+   "| SHREE SAI DIAGNOSTICS |"
+  ],
+  "continuation_len": 7,
+  "llm_binding": {
+   "binding_id": "lab-d",
+   "description": "Shree Sai Diagnostics boxed report: UHID, Coll. Dt dd.mm.yy, Age/Sex, PARAMETER/VALUE/UNIT/RANGE/FLAG table.",
+   "layout": {
+    "anchors": [
+     "^\\|\\s+SHREE SAI DIAGNOSTICS\\s+\\|$",
+     "^\\| PARAMETER\\s+\\| VALUE\\s+\\| UNIT\\s+\\| RANGE\\s+\\| FLAG \\|$",
+     "\\| UHID : "
+    ]
+   },
+   "fields": {
+    "patient_id": {
+     "regex": "^\\| UHID : (?P<v>\\d{2}-\\d+)\\s*\\|",
+     "type": "string",
+     "required": true,
+     "pattern": "\\d{2}-\\d+"
+    },
+    "patient_name": {
+     "regex": "^\\| Name : (?:(?:MR|MRS|MS|SMT|SHRI|KUM|DR|BABY)\\.?\\s+)?(?P<v>[A-Za-z][A-Za-z .'-]*?)\\s*\\| Age/Sex",
+     "type": "string",
+     "required": true
+    },
+    "patient_age": {
+     "regex": "Age/Sex : (?P<v>\\d+)/[MF]\\s+\\|",
+     "type": "integer",
+     "required": false
+    },
+    "patient_sex": {
+     "regex": "Age/Sex : \\d+/(?P<v>[MF])\\s+\\|",
+     "type": "enum",
+     "enum_map": {
+      "M": "male",
+      "F": "female"
+     },
+     "required": false
+    },
+    "collected": {
+     "regex": "Coll\\. Dt : (?P<v>\\d{2}\\.\\d{2}\\.\\d{2})\\s+\\|",
+     "type": "date",
+     "format": "%d.%m.%y",
+     "required": true
+    }
+   },
+   "results": {
+    "start": "^\\| PARAMETER\\s+\\| VALUE\\s+\\| UNIT\\s+\\| RANGE\\s+\\| FLAG \\|$",
+    "end": "\\*\\* End of Report \\*\\*",
+    "skip_lines": [
+     "^\\s*$",
+     "^\\+[-+]+\\+$",
+     "^\\| PARAMETER\\s+\\| VALUE\\s+\\| UNIT\\s+\\| RANGE\\s+\\| FLAG \\|$",
+     "^\\|\\s+SHREE SAI DIAGNOSTICS\\s+\\|$",
+     "^\\|\\s+Near Bus Stand, Shirdi Road, Kopargaon\\s+\\|$",
+     "^\\| UHID : .*\\|$",
+     "^\\| Name : .*\\|$"
+    ],
+    "row": "^\\| (?P<label>[^|]+?)\\s+\\| (?P<value>\\d+(?:\\.\\d+)?)\\s+\\| (?P<unit>[^|\\s]+)\\s+\\| (?P<ref_low>\\d+(?:\\.\\d+)?)-(?P<ref_high>\\d+(?:\\.\\d+)?)\\s+\\|\\s*(?P<flag>[HL]?)\\s*\\|$",
+    "labels": {
+     "Glucose (Fasting)": "GLU",
+     "Serum Creatinine": "CREA",
+     "Blood Urea": "UREA",
+     "Haemoglobin": "HGB",
+     "Total Count (WBC)": "WBC",
+     "Platelets": "PLT"
+    },
+    "flags": {
+     "H": "H",
+     "L": "L"
+    },
+    "min_rows": 1,
+    "max_rows": 12
+   }
+  },
+  "sample_refs": [
+   {
+    "path": "data/corpus2/gen/D/D-2300000-clean.json",
+    "sha256": "3841d1bebc4ca3fe40e770c0dad5bb2a0ebd08cb6a363fd2506cba6f006d8cdf"
+   },
+   {
+    "path": "data/corpus2/gen/D/D-2300001-clean.json",
+    "sha256": "eb29fa2702ef94df9069a2527d4ade1e46df83a3a87fb7e24dd22cdd60df9651"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300000-clean.json",
+    "sha256": "efe0a63ddb2e9b1f1cbac17307f104a863c407e2f5c4d737d780cfbbbfb8669e"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300001-clean.json",
+    "sha256": "dc7591880e7ccf4c59228822d2bfbe8d0149ad8381beaa1b70f6da8e9100c39f"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300002-clean.json",
+    "sha256": "9c0bd58834fde482764f1ccd6e44fd75f0f4dbfb93748db5618d58a029677836"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300003-clean.json",
+    "sha256": "be13e94421047873a93defe139dd5fea49ef9134483be269674c48f8e89e7fa7"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300004-clean.json",
+    "sha256": "682687e34ce63506dbe96fea207a410f875faf90b3949ef9e8dedf3e2646b9a7"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300005-clean.json",
+    "sha256": "721077be943f6e76197766efdd035d0c1da97dd9660bb06adacf435425f075bf"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300006-clean.json",
+    "sha256": "3f93c0cb3515303b50b74298f86e2d0c8717ba23415c8c3a8657ecbac5fcb715"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300007-clean.json",
+    "sha256": "0e71c5e4774ef7d795003058de44b5306e7caef8f74e91d8948009398be35d08"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300008-clean.json",
+    "sha256": "41446310894f6832898f7831628cdbe12d9a0b99a5c67510cc3e36cdd183803f"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300009-clean.json",
+    "sha256": "c3792ea96be87d84bbcc1cee9d802cbb2257dfcb2913f06d523ca65b0c27366c"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300010-clean.json",
+    "sha256": "63d299167c56ba1d4f962e40dbf0c6b9fde41dca0defa8fe83145a2e1109a23b"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300011-clean.json",
+    "sha256": "782ae634ca797946e21b8f5b75d094d6e8bf50fd65ff26c9e61e05cacec229f1"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3301000-col_shift.json",
+    "sha256": "54c9878f3d355c0b84755d48f125835c8cae2e06ca74bd7b1f33398185579e2d"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3301001-col_shift.json",
+    "sha256": "df6c0a3ba15d1b1821c963f7d03d784b0773b857f31a537bd1abbbd26e9f6abd"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3302000-crlf_trailing.json",
+    "sha256": "95e8f71f0b87e211bdb28ccc12388f6d4571ada64b12f92d841d968fea49030c"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3302001-crlf_trailing.json",
+    "sha256": "7da968ccde22a45282cd7f99672f1f989b3a373fc1414c10279cde384d0a3075"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3303000-drop_optional.json",
+    "sha256": "1d8e655694a746f5a1c92455b4ffa6fa1c6f31b04cf9d277066ea6af93f9d7bc"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3303001-drop_optional.json",
+    "sha256": "8e17e02ed11474b43cc9677a6f32c3a9fc34551d0a555855781fefdaa856b073"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3304000-page_break.json",
+    "sha256": "5f9a5aab34ef458b130bc5c271a2e04fb778ab78a9456acb2899878e07521ea0"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3304001-page_break.json",
+    "sha256": "be897197429e53ffe7c37679106240d922f292c41c837b7d4873abeef9a7a77c"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3305000-long_name_overflow.json",
+    "sha256": "e8baf44d3d503023bf345a09c6e095954d4071668d2c4ecf410a0c07d2442ec5"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3305001-long_name_overflow.json",
+    "sha256": "dc42c75a41e8db6f163a7c162e7f414c82bbff660f92b417e7aafdd5dc0ab3b8"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3306000-referrer_variation.json",
+    "sha256": "d2e87ce25f36a9c7dc23aca2001ff5b4362f6e740f54854443c79a6ca4fcfd77"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3306001-referrer_variation.json",
+    "sha256": "87a59eb78c8ff585a897db9bffee082018fd845cd52ad2226481914c4efa2889"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3307000-approved_note.json",
+    "sha256": "3da79672e241a7a39c19105b97ec4d1b67facadf091f9d11891f8a03a3b75649"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3307001-approved_note.json",
+    "sha256": "c5357e851f11420fc36826ff5e2231a48b8f710ebd502ccd4e218d73d8ff21cc"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3309000-section_subheading.json",
+    "sha256": "3dc729b4e83894e8724dfd0b813ed253eba8165dfe94381b0d51458c184226fe"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3309001-section_subheading.json",
+    "sha256": "ba907aba631091dbec0954dddf0c883462d03593522d1b9c1a3e35369e9bf421"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3311000-sex_specific_ranges.json",
+    "sha256": "cfc181a667f0f330543b9f75eab1e4e940c73fac5c4673d7f6aeb8f77fec9865"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3311001-sex_specific_ranges.json",
+    "sha256": "8d7841dba4029f320fe0bc41501a184ca237c5078a1ae98af97f950546398ec8"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3312000-abnormal_values.json",
+    "sha256": "c7ce828b137836cafa2c87b47cfd0a7cc7c699d1cf8a4cb59bd0100094eb2c33"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3312001-abnormal_values.json",
+    "sha256": "71e2e8a24d664ccd4487995cffcc3a76f15f8671a11ffba13adbc14c7e3d6268"
+   }
+  ],
+  "regression_refs": [
+   {
+    "path": "data/corpus2/gen/D/D-2300000-clean.json",
+    "sha256": "3841d1bebc4ca3fe40e770c0dad5bb2a0ebd08cb6a363fd2506cba6f006d8cdf"
+   },
+   {
+    "path": "data/corpus2/gen/D/D-2300001-clean.json",
+    "sha256": "eb29fa2702ef94df9069a2527d4ade1e46df83a3a87fb7e24dd22cdd60df9651"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300000-clean.json",
+    "sha256": "efe0a63ddb2e9b1f1cbac17307f104a863c407e2f5c4d737d780cfbbbfb8669e"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300001-clean.json",
+    "sha256": "dc7591880e7ccf4c59228822d2bfbe8d0149ad8381beaa1b70f6da8e9100c39f"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300002-clean.json",
+    "sha256": "9c0bd58834fde482764f1ccd6e44fd75f0f4dbfb93748db5618d58a029677836"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300003-clean.json",
+    "sha256": "be13e94421047873a93defe139dd5fea49ef9134483be269674c48f8e89e7fa7"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300004-clean.json",
+    "sha256": "682687e34ce63506dbe96fea207a410f875faf90b3949ef9e8dedf3e2646b9a7"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300005-clean.json",
+    "sha256": "721077be943f6e76197766efdd035d0c1da97dd9660bb06adacf435425f075bf"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300006-clean.json",
+    "sha256": "3f93c0cb3515303b50b74298f86e2d0c8717ba23415c8c3a8657ecbac5fcb715"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300007-clean.json",
+    "sha256": "0e71c5e4774ef7d795003058de44b5306e7caef8f74e91d8948009398be35d08"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300008-clean.json",
+    "sha256": "41446310894f6832898f7831628cdbe12d9a0b99a5c67510cc3e36cdd183803f"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300009-clean.json",
+    "sha256": "c3792ea96be87d84bbcc1cee9d802cbb2257dfcb2913f06d523ca65b0c27366c"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300010-clean.json",
+    "sha256": "63d299167c56ba1d4f962e40dbf0c6b9fde41dca0defa8fe83145a2e1109a23b"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3300011-clean.json",
+    "sha256": "782ae634ca797946e21b8f5b75d094d6e8bf50fd65ff26c9e61e05cacec229f1"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3301000-col_shift.json",
+    "sha256": "54c9878f3d355c0b84755d48f125835c8cae2e06ca74bd7b1f33398185579e2d"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3301001-col_shift.json",
+    "sha256": "df6c0a3ba15d1b1821c963f7d03d784b0773b857f31a537bd1abbbd26e9f6abd"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3302000-crlf_trailing.json",
+    "sha256": "95e8f71f0b87e211bdb28ccc12388f6d4571ada64b12f92d841d968fea49030c"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3302001-crlf_trailing.json",
+    "sha256": "7da968ccde22a45282cd7f99672f1f989b3a373fc1414c10279cde384d0a3075"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3303000-drop_optional.json",
+    "sha256": "1d8e655694a746f5a1c92455b4ffa6fa1c6f31b04cf9d277066ea6af93f9d7bc"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3303001-drop_optional.json",
+    "sha256": "8e17e02ed11474b43cc9677a6f32c3a9fc34551d0a555855781fefdaa856b073"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3304000-page_break.json",
+    "sha256": "5f9a5aab34ef458b130bc5c271a2e04fb778ab78a9456acb2899878e07521ea0"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3304001-page_break.json",
+    "sha256": "be897197429e53ffe7c37679106240d922f292c41c837b7d4873abeef9a7a77c"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3305000-long_name_overflow.json",
+    "sha256": "e8baf44d3d503023bf345a09c6e095954d4071668d2c4ecf410a0c07d2442ec5"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3305001-long_name_overflow.json",
+    "sha256": "dc42c75a41e8db6f163a7c162e7f414c82bbff660f92b417e7aafdd5dc0ab3b8"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3306000-referrer_variation.json",
+    "sha256": "d2e87ce25f36a9c7dc23aca2001ff5b4362f6e740f54854443c79a6ca4fcfd77"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3306001-referrer_variation.json",
+    "sha256": "87a59eb78c8ff585a897db9bffee082018fd845cd52ad2226481914c4efa2889"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3307000-approved_note.json",
+    "sha256": "3da79672e241a7a39c19105b97ec4d1b67facadf091f9d11891f8a03a3b75649"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3307001-approved_note.json",
+    "sha256": "c5357e851f11420fc36826ff5e2231a48b8f710ebd502ccd4e218d73d8ff21cc"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3309000-section_subheading.json",
+    "sha256": "3dc729b4e83894e8724dfd0b813ed253eba8165dfe94381b0d51458c184226fe"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3309001-section_subheading.json",
+    "sha256": "ba907aba631091dbec0954dddf0c883462d03593522d1b9c1a3e35369e9bf421"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3311000-sex_specific_ranges.json",
+    "sha256": "cfc181a667f0f330543b9f75eab1e4e940c73fac5c4673d7f6aeb8f77fec9865"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3311001-sex_specific_ranges.json",
+    "sha256": "8d7841dba4029f320fe0bc41501a184ca237c5078a1ae98af97f950546398ec8"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3312000-abnormal_values.json",
+    "sha256": "c7ce828b137836cafa2c87b47cfd0a7cc7c699d1cf8a4cb59bd0100094eb2c33"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3312001-abnormal_values.json",
+    "sha256": "71e2e8a24d664ccd4487995cffcc3a76f15f8671a11ffba13adbc14c7e3d6268"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3316000-note_with_number.json",
+    "sha256": "d682b80b9569c9979c583c7537b4cb75d2f9089530ef092983fc00c930f6836e"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3317000-unapproved_note_style.json",
+    "sha256": "6187671a687807794310da844c7922d98a875ce0a386b2e47561b33601baede8"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3318000-static_text_damage.json",
+    "sha256": "3f48042959ab8bf555d8c94c75b978af42dab130cb26f22688e0a91f468a622e"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3320000-long_name_wrapped.json",
+    "sha256": "e94272fcaadfdd4447e3ba7d9b723f2bf76e804ac236cc77c792d55db1d00737"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3321000-unit_incompatible.json",
+    "sha256": "75ee3da946a260ee8e18d14d5c1f372a93676b27968709652b4ca9b6e788ce9b"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3322000-unit_missing.json",
+    "sha256": "487df38bf33f98d7f07d563a08c02f40c929d36392144064c152ac5bee7e6789"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3323000-value_corrupt.json",
+    "sha256": "16d25e2ef88304eb362fde19b6afe3bc9128ddbc8625f7f2968c63cf4f08f894"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3324000-value_implausible.json",
+    "sha256": "f716a469578d8c11233e7d5e8ce0ee55692941b2c9ce2d55b9836210a173fb00"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3325000-patient_id_missing.json",
+    "sha256": "c6ecafc75f6ba370ab5508b6040177bbafd0f0bda473eaa6c1faf79bc297f4f3"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3326000-date_invalid.json",
+    "sha256": "f35c748962fb0327dd71f6b583b64da58bc2ecd9fd7fd9fa817e203ad4f1ae5e"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3327000-duplicate_conflict.json",
+    "sha256": "82de90fe0197f8d3b74b36cfa0867f21af61ba2680ef9edf7223c8635fc7adf9"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3328000-unknown_test.json",
+    "sha256": "137509986df2a09314469c002c059b30d073c170c2dc3d5955bd44178b4d5622"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3329000-truncated.json",
+    "sha256": "1046ef6213cff9d81d980f910952290000d4bd098907403a2f034198d39347e1"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3330000-layout_drift.json",
+    "sha256": "66f3f90173cbe73e041cc173c312079e6f8dceb09e93d174cd861fbbafc69d7f"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3331000-header_changed.json",
+    "sha256": "4060840f87ab86ff2b0b95ee2fa4b8e5982b92341d8425cc2af7c289cb7a7c58"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3332000-flag_inconsistent.json",
+    "sha256": "25d3d9684a35d27c8bb53c075df009fc62bcf04e299cbcd62faa29660d6ee269"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3334000-header_changed_paged.json",
+    "sha256": "3ba5e411e6e222c91a36ad72f4081271812e3f40caef48b8811996c09d7691d0"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3335000-extra_section_unknown_tests.json",
+    "sha256": "f2f21c416c46e9ce747380abb69d1181e54334b1c166851b3550ba06de129839"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3336000-two_patients_one_job.json",
+    "sha256": "2fa0c2096e60e224cda10ab66efd537aaa1b6ac1e5dac8b602f49197eb8d246e"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3338000-text_between_rows_with_number.json",
+    "sha256": "5c85f78d9bd7dbbd38184cd919d109a4e169ef01ca0a8294da511042ecf28586"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3344000-hidden_numeric_result.json",
+    "sha256": "d8ecce7bca52f11bff7eeb38eb8446539cc53a05ef5cac8c804d065657444c55"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3345003-hidden_qualitative_result.json",
+    "sha256": "066771f2126efc9973d7c8a3a7841dcd8fbaa090cdcf8ead3ef423b50a64682b"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3347000-comma_decimal.json",
+    "sha256": "9f50c8279f07ee6d76f1603802f2ca7a5b79b44331cf949f71e6a1574801a9aa"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3900003-foreign_layout_G.json",
+    "sha256": "df8408ebdd5e2ac09284bd48da0f68918b8e176bd4895e2fc77999e4662e28b8"
+   },
+   {
+    "path": "data/corpus2/dev/D/D-3910003-drifted_new_format.json",
+    "sha256": "2f7086c4850651dca6ac601ea4651313b807dc655ce24a4be6d86fcf3b791c25"
+   }
+  ],
+  "promoted_required": [
+   "patient_age",
+   "patient_sex"
+  ],
+  "date_formats": {
+   "collected": {
+    "format": "%d.%m.%y",
+    "day_month_order_ambiguous_format": true,
+    "samples_disambiguate": true,
+    "n_strings": 36
+   }
+  },
+  "note_markers": [
+   "| Note:"
+  ],
+  "note_continuation_indent": null,
+  "table_static_lines": [
+   "| HAEMATOLOGY |"
+  ],
+  "numeric_skeletons": [],
+  "text_skeletons": {
+   "h4||": {
+    "prefix": [
+     "|",
+     "UHID",
+     ":",
+     "<V>",
+     "|",
+     "Coll.",
+     "Dt",
+     ":",
+     "<V>",
+     "|"
+    ],
+    "suffix": [],
+    "min": 0,
+    "max": 0,
+    "n": 36
+   },
+   "h5||": {
+    "prefix": [
+     "|",
+     "Name",
+     ":"
+    ],
+    "suffix": [
+     "Age/Sex",
+     ":",
+     "<V>/<V>",
+     "|"
+    ],
+    "min": 2,
+    "max": 3,
+    "n": 36
+   }
+  },
+  "abnormal_marker": null
+ }
+}

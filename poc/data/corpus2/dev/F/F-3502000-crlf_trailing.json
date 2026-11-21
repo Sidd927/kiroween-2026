@@ -1,0 +1,114 @@
+{
+ "doc_id": "F-3502000-crlf_trailing",
+ "layout": "F",
+ "cls": "crlf_trailing",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "TUVESUxJTksgUkVGRVJFTkNFIExBQiAgLSAgQUNDRVNTSU9OIDQ0Njg0NTIgIA0KUFQ6IEZFUk5BTkRFUyBQUklZQSAgICAgICAgTVJOIDIxOTg4MDk4ICAgIEFHRTogNDJZICBTRVg6IE0NCkNPTExFQ1RFRCAwNC8wOS8yMDI2IDA4MjAgICBSRUNFSVZFRCAwNC8xMS8yMDI2IDAwMzAgDQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0gDQpURVNUIE5BTUUgKFVOSVRTKSAgICAgICAgICAgICAgICAgICBSRVNVTFQgICAgRkxBRyAgIFJFRiAgDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gIA0KSEVNT0dMT0JJTiAoZy9kTCkgICAgICAgICAgICAgICAgICAgMTYuMiAgICAgICAgICAgICAxMy4wLTE3LjAgICANCkhFTUFUT0NSSVQgKCUpICAgICAgICAgICAgICAgICAgICAgIDQ2LjggICAgICAgICAgICAgNDAuMC01MC4wDQpXQkMgKEsvdUwpICAgICAgICAgICAgICAgICAgICAgICAgICA3LjkgICAgICAgICAgICAgIDQuMC0xMS4wDQpSQkMgKE0vdUwpICAgICAgICAgICAgICAgICAgICAgICAgICA1LjMwICAgICAgICAgICAgIDQuNTAtNS45MCAgIA0KUExBVEVMRVRTIChLL3VMKSAgICAgICAgICAgICAgICAgICAgMjUyICAgICAgICAgICAgICAxNTAtNDAwICAgDQpNQ1YgKGZMKSAgICAgICAgICAgICAgICAgICAgICAgICAgICA4OC4zICAgICAgICAgICAgIDgwLjAtMTAwLjANCkdMVUNPU0UsIEZBU1RJTkcgKG1nL2RMKSAgICAgICAgICAgIDc5ICAgICAgICAgICAgICAgNzAtOTkgICANCkNSRUFUSU5JTkUgKG1nL2RMKSAgICAgICAgICAgICAgICAgIDIuNjAgICAgICBIICAgICAgMC41MC0xLjEwICAgDQpBTFQgKFUvTCkgICAgICAgICAgICAgICAgICAgICAgICAgICAzNCAgICAgICAgICAgICAgIDctNTYgICANCkFTVCAoVS9MKSAgICAgICAgICAgICAgICAgICAgICAgICAgIDE5ICAgICAgICAgICAgICAgMTAtNDAgICANCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSAgDQpFTkQgT0YgUkVQT1JUIA0KU1lOVEhFVElDIFNBTVBMRSAtIE5PVCBBIFJFQUwgUEFUSUVOVCAgDQog",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "21988098",
+  "patient_name": "FERNANDES PRIYA",
+  "patient_age": 42,
+  "patient_sex": "male",
+  "collected": "2026-04-09",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "16.2",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN",
+    "flag": "",
+    "ref_low": "13.0",
+    "ref_high": "17.0"
+   },
+   {
+    "code": "HCT",
+    "value": "46.8",
+    "unit": "%",
+    "label": "HEMATOCRIT",
+    "flag": "",
+    "ref_low": "40.0",
+    "ref_high": "50.0"
+   },
+   {
+    "code": "WBC",
+    "value": "7.9",
+    "unit": "K/uL",
+    "label": "WBC",
+    "flag": "",
+    "ref_low": "4.0",
+    "ref_high": "11.0"
+   },
+   {
+    "code": "RBC",
+    "value": "5.30",
+    "unit": "M/uL",
+    "label": "RBC",
+    "flag": "",
+    "ref_low": "4.50",
+    "ref_high": "5.90"
+   },
+   {
+    "code": "PLT",
+    "value": "252",
+    "unit": "K/uL",
+    "label": "PLATELETS",
+    "flag": "",
+    "ref_low": "150",
+    "ref_high": "400"
+   },
+   {
+    "code": "MCV",
+    "value": "88.3",
+    "unit": "fL",
+    "label": "MCV",
+    "flag": "",
+    "ref_low": "80.0",
+    "ref_high": "100.0"
+   },
+   {
+    "code": "GLU",
+    "value": "79",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING",
+    "flag": "",
+    "ref_low": "70",
+    "ref_high": "99"
+   },
+   {
+    "code": "CREA",
+    "value": "2.60",
+    "unit": "mg/dL",
+    "label": "CREATININE",
+    "flag": "H",
+    "ref_low": "0.50",
+    "ref_high": "1.10"
+   },
+   {
+    "code": "ALT",
+    "value": "34",
+    "unit": "U/L",
+    "label": "ALT",
+    "flag": "",
+    "ref_low": "7",
+    "ref_high": "56"
+   },
+   {
+    "code": "AST",
+    "value": "19",
+    "unit": "U/L",
+    "label": "AST",
+    "flag": "",
+    "ref_low": "10",
+    "ref_high": "40"
+   }
+  ],
+  "collected_time": "08:20",
+  "reported": null,
+  "notes": [],
+  "flag_semantics": "direction"
+ },
+ "note": "",
+ "split": "dev"
+}

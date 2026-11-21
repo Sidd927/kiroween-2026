@@ -1,0 +1,18 @@
+{
+ "seed": "99",
+ "n": 1500,
+ "stats": {
+  "correct_accept": 387,
+  "correct_reject": 582,
+  "defect:correct_reject": 541,
+  "false_reject": 4,
+  "foreign:correct_reject": 41,
+  "policy:policy_accept_correct": 2,
+  "policy:policy_refusal": 138,
+  "policy_accept_correct": 2,
+  "policy_refusal": 138,
+  "valid:correct_accept": 387,
+  "valid:false_reject": 4
+ },
+ "failures": []
+}

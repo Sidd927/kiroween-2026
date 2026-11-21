@@ -1,0 +1,98 @@
+{
+ "doc_id": "C-65160027-note_with_number",
+ "layout": "C",
+ "cls": "note_with_number",
+ "group": "policy",
+ "expected": "reject",
+ "raw_b64": "RFIuIE1FSFRBJ1MgQ0xJTklDQUwgTEFCT1JBVE9SWSAgICAgICAgICAgICBSZXBvcnQgRGF0ZTogMjAyNi0wOS0xNwpQYXRpZW50IDogQmhvc2FsZSwgUmFodWwgKE0vNDYpClBhdGllbnQgSUQgOiAxODExMTM5ICAgICAgIFNhbXBsZSA6IFMtODg1NjUKQ29sbGVjdGVkICA6IDIwMjYtMDktMTYgMDc6MTUKQ29uc3VsdGFudCA6IERyLiBTLiBKb3NoaQoKQklPQ0hFTUlTVFJZCiAgVGVzdCAvIE1ldGhvZAogICAgICBSZXN1bHQgICAgIFVuaXRzICAgICBOb3JtYWwgUmFuZ2UKICAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgQklMSVJVQklOIFRPVEFMCiAgICAgIChEaWF6byBtZXRob2QpCiAgICAgIDAuOTEgICAgICAgbWcvZGwgICAgIDAuMjAgLSAxLjIwCiAgQklMSVJVQklOIERJUkVDVAogICAgICAoRGlhem8gbWV0aG9kKQogICAgICAwLjMwICAgICAgIG1nL2RsICAgICAwLjAwIC0gMC4zMAogIFNHUFQgKEFMVCkKICAgICAgKElGQ0MpCiAgICAgIDEwICAgICAgICAgVS9MICAgICAgIDAgLSA0MAogIFNHT1QgKEFTVCkKICAgICAgKElGQ0MpCiAgICAgIDE4ICAgICAgICAgVS9MICAgICAgIDAgLSA0MAogIEFMS0FMSU5FIFBIT1NQSEFUQVNFCiAgICAgIChQTlBQLUFNUCkKICAgICAgMjQ4ICogICAgICBJVS9MICAgICAgNDAgLSAxMzAKICBUT1RBTCBQUk9URUlOUwogICAgICAoQml1cmV0KQogICAgICA3LjAgICAgICAgIGcvZGwgICAgICA2LjAgLSA4LjMKICBBTEJVTUlOCiAgICAgIChCQ0cpCiAgICAgIDMuNyAgICAgICAgZy9kbCAgICAgIDMuNSAtIDUuMgogIFNFUlVNIENSRUFUSU5JTkUKICAgICAgKEphZmZlIGtpbmV0aWMpCiAgICAgIDEuMDIgICAgICAgbWcvZGwgICAgIDAuNjAgLSAxLjMwCiAgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogICogVmFsdWUgb3V0c2lkZSBub3JtYWwgcmFuZ2UKCkNoZWNrZWQgYnk6IExhYiBUZWNobm9sb2dpc3QKICAgICAgICAgICAgICAgICAgICAgICAgICAgLS0gRU5EIC0tCiAgQ29tbWVudDogUmV0ZXN0IGFkdmlzZWQgaW4gMyBtb250aHMuClNZTlRIRVRJQyBTQU1QTEUgLSBOT1QgQSBSRUFMIFBBVElFTlQK",
+ "queue_codepage": "cp1252",
+ "truth": {
+  "patient_id": "1811139",
+  "patient_name": "Bhosale, Rahul",
+  "patient_age": 46,
+  "patient_sex": "male",
+  "collected": "2026-09-16",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "0.91",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL",
+    "flag": "",
+    "ref_low": "0.20",
+    "ref_high": "1.20"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.30",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT",
+    "flag": "",
+    "ref_low": "0.00",
+    "ref_high": "0.30"
+   },
+   {
+    "code": "ALT",
+    "value": "10",
+    "unit": "U/L",
+    "label": "SGPT (ALT)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "AST",
+    "value": "18",
+    "unit": "U/L",
+    "label": "SGOT (AST)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "ALP",
+    "value": "248",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE",
+    "flag": "H",
+    "ref_low": "40",
+    "ref_high": "130"
+   },
+   {
+    "code": "TP",
+    "value": "7.0",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS",
+    "flag": "",
+    "ref_low": "6.0",
+    "ref_high": "8.3"
+   },
+   {
+    "code": "ALB",
+    "value": "3.7",
+    "unit": "g/dl",
+    "label": "ALBUMIN",
+    "flag": "",
+    "ref_low": "3.5",
+    "ref_high": "5.2"
+   },
+   {
+    "code": "CREA",
+    "value": "1.02",
+    "unit": "mg/dl",
+    "label": "SERUM CREATININE",
+    "flag": "",
+    "ref_low": "0.60",
+    "ref_high": "1.30"
+   }
+  ],
+  "collected_time": "07:15",
+  "reported": "2026-09-17",
+  "notes": [
+   "Comment: Retest advised in 3 months."
+  ],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

@@ -1,0 +1,80 @@
+{
+ "doc_id": "E-3407000-approved_note",
+ "layout": "E",
+ "cls": "approved_note",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "TElGRUxJTkUgUEFUSE9MT0dZICYgSU1BR0lORyAgICAgICAgICAgICAgICAgICAgICAgIExhYiBJRDogTEwtMjAyNi0xNzU0MQpQYXRpZW50OiBTbmVoYSBSYW8gICAgICAgICAgICAgU2V4L0FnZTogTS81MyAgICAgICAgRHJhd246IEp1bHkgNiwgMjAyNgpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18KSEFFTU9HUkFNCkhiICAgICAgICAgMTMuNiBnL2RMICAgICBbMTMuMC0xNy4wXSAgIFJCQyAgICAgICAgNC43NCB4MTBeNi91TCBbNC41MC01LjkwXQpXQkMgICAgICAgICA1LjAgeDEwXjMvdUwgWzQuMC0xMS4wXSAgICBQTFQgICAgICAgICAxOTcgeDEwXjMvdUwgWzE1MC00MTBdCk5COiBMaXBhZW1pYyBzYW1wbGUuCkhDVCAgICAgICAgNDIuOCAlICAgICAgICBbNDAuMC01MC4wXSAgIE1DViAgICAgICAgOTAuMyBmTCAgICAgICBbODMuMC0xMDEuMF0KX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fCiEgPSBvdXRzaWRlIHJlZmVyZW5jZSBpbnRlcnZhbCAgICAgICAgUmVwb3J0IGdlbmVyYXRlZCBieSBMYWJTeXMgMy4xClNZTlRIRVRJQyBTQU1QTEUgLSBOT1QgQSBSRUFMIFBBVElFTlQK",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "LL-2026-17541",
+  "patient_name": "Sneha Rao",
+  "patient_age": 53,
+  "patient_sex": "male",
+  "collected": "2026-07-06",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "13.6",
+    "unit": "g/dL",
+    "label": "Hb",
+    "flag": "",
+    "ref_low": "13.0",
+    "ref_high": "17.0"
+   },
+   {
+    "code": "RBC",
+    "value": "4.74",
+    "unit": "x10^6/uL",
+    "label": "RBC",
+    "flag": "",
+    "ref_low": "4.50",
+    "ref_high": "5.90"
+   },
+   {
+    "code": "WBC",
+    "value": "5.0",
+    "unit": "x10^3/uL",
+    "label": "WBC",
+    "flag": "",
+    "ref_low": "4.0",
+    "ref_high": "11.0"
+   },
+   {
+    "code": "PLT",
+    "value": "197",
+    "unit": "x10^3/uL",
+    "label": "PLT",
+    "flag": "",
+    "ref_low": "150",
+    "ref_high": "410"
+   },
+   {
+    "code": "HCT",
+    "value": "42.8",
+    "unit": "%",
+    "label": "HCT",
+    "flag": "",
+    "ref_low": "40.0",
+    "ref_high": "50.0"
+   },
+   {
+    "code": "MCV",
+    "value": "90.3",
+    "unit": "fL",
+    "label": "MCV",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   }
+  ],
+  "collected_time": null,
+  "reported": null,
+  "notes": [
+   "NB: Lipaemic sample."
+  ],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "dev"
+}

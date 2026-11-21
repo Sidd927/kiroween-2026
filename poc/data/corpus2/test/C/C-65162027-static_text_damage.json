@@ -1,0 +1,87 @@
+{
+ "doc_id": "C-65162027-static_text_damage",
+ "layout": "C",
+ "cls": "static_text_damage",
+ "group": "policy",
+ "expected": "reject",
+ "raw_b64": "RFIuIE1FSFRBJ1MgQ0xJTklDQUwgTEFCT1JBVE9SWSAgICAgICAgICAgICBSZXBvcnQgRGF0ZTogMjAyNi0wMS0yMApQYXRpZW50IDogTWVodGEsIE5pa2hpbCAoRi8xNykKUGF0aWVudCBJRCA6IDE3Nzg0NzMgICAgICAgU2FtcGxlIDogUy02MDE5OApDb2xsZWN0ZWQgIDogMjAyNi0wMS0xOSAwOTo0NQpDb25zdWx0YW50IDogRHIuIFIuIFNoYWgKCkJJT0NIRU1JU1RSWQogIFRlc3QgLyBNZXRob2QKICAgICAgUmVzdWx0ICAgICBVbml0cyAgICAgTm9ybWFsIFJhbmdlCiAgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogIEJJTElSVUJJTiBUT1RBTAogICAgICAoRGlhem8gbWV0aG9kKQogICAgICAxLjA4ICAgICAgIG1nL2RsICAgICAwLjIwIC0gMS4yMAogIEJJTElSVUJJTiBESVJFQ1QKICAgICAgKERpYXpvIG1ldGhvZCkKICAgICAgMC4xNSAgICAgICBtZy9kbCAgICAgMC4wMCAtIDAuMzAKICBTR1BUIChBTFQpCiAgICAgIChJRkNDKQogICAgICAxNyAgICAgICAgIFUvTCAgICAgICAwIC0gNDAKICBTR09UIChBU1QpCiAgICAgIChJRkNDKQogICAgICAxNDMgKiAgICAgIFUvTCAgICAgICAwIC0gNDAKICBBTEtBTElORSBQSE9TUEhBVEFTRQogICAgICAoUE5QUC1BTVApCiAgICAgIDgwICAgICAgICAgSVUvTCAgICAgIDQwIC0gMTMwCiAgVE9UQUwgUFJPVEVJTlMKICAgICAgKEJpdXJldCkKICAgICAgNy4zICAgICAgICBnL2RsICAgICAgNi4wIC0gOC4zCiAgQUxCVU1JTgogICAgICAoQkNHKQogICAgICA0LjggICAgICAgIGcvZGwgICAgICAzLjUgLSA1LjIKICAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgKiBWYWx1ZSBvUXRzaWRlIG5vcm1hbCByYW5nZQoKQ2hlY2tlZCBieTogTGFiIFRlY2hub2xvZ2lzdAogICAgICAgICAgICAgICAgICAgICAgICAgICAtLSBFTkQgLS0KU1lOVEhFVElDIFNBTVBMRSAtIE5PVCBBIFJFQUwgUEFUSUVOVAo=",
+ "queue_codepage": "cp1252",
+ "truth": {
+  "patient_id": "1778473",
+  "patient_name": "Mehta, Nikhil",
+  "patient_age": 17,
+  "patient_sex": "female",
+  "collected": "2026-01-19",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "1.08",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL",
+    "flag": "",
+    "ref_low": "0.20",
+    "ref_high": "1.20"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.15",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT",
+    "flag": "",
+    "ref_low": "0.00",
+    "ref_high": "0.30"
+   },
+   {
+    "code": "ALT",
+    "value": "17",
+    "unit": "U/L",
+    "label": "SGPT (ALT)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "AST",
+    "value": "143",
+    "unit": "U/L",
+    "label": "SGOT (AST)",
+    "flag": "H",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "ALP",
+    "value": "80",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE",
+    "flag": "",
+    "ref_low": "40",
+    "ref_high": "130"
+   },
+   {
+    "code": "TP",
+    "value": "7.3",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS",
+    "flag": "",
+    "ref_low": "6.0",
+    "ref_high": "8.3"
+   },
+   {
+    "code": "ALB",
+    "value": "4.8",
+    "unit": "g/dl",
+    "label": "ALBUMIN",
+    "flag": "",
+    "ref_low": "3.5",
+    "ref_high": "5.2"
+   }
+  ],
+  "collected_time": "09:45",
+  "reported": "2026-01-20",
+  "notes": [],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

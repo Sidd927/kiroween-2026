@@ -1,0 +1,18 @@
+{
+ "n": 1000,
+ "stats": {
+  "add_note:both_accepted": 163,
+  "add_note:pairs": 163,
+  "col_shift:both_accepted": 169,
+  "col_shift:pairs": 169,
+  "crlf:both_accepted": 168,
+  "crlf:pairs": 168,
+  "move_break:both_accepted": 117,
+  "move_break:pairs": 117,
+  "referrer:both_accepted": 151,
+  "referrer:pairs": 151,
+  "rename:both_accepted": 177,
+  "rename:pairs": 177
+ },
+ "violations": []
+}

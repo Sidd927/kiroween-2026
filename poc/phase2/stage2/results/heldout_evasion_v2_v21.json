@@ -1,0 +1,1845 @@
+{
+ "system": "v2.1",
+ "n_cases": 330,
+ "summary": {
+  "digits": {
+   "ACCEPT": 179,
+   "REJECT": 19
+  },
+  "digits:P1_field_line": {
+   "ACCEPT": 54,
+   "REJECT": 18
+  },
+  "digits:P2_trusted_line_after_end": {
+   "ACCEPT": 71,
+   "REJECT": 1
+  },
+  "digits:P3_trusted_line_in_table": {
+   "ACCEPT": 54
+  },
+  "qualitative": {
+   "ACCEPT": 60,
+   "REJECT": 6
+  },
+  "qualitative:P1_field_line": {
+   "ACCEPT": 18,
+   "REJECT": 6
+  },
+  "qualitative:P2_trusted_line_after_end": {
+   "ACCEPT": 24
+  },
+  "qualitative:P3_trusted_line_in_table": {
+   "ACCEPT": 18
+  },
+  "spelled": {
+   "ACCEPT": 60,
+   "REJECT": 6
+  },
+  "spelled:P1_field_line": {
+   "ACCEPT": 18,
+   "REJECT": 6
+  },
+  "spelled:P2_trusted_line_after_end": {
+   "ACCEPT": 24
+  },
+  "spelled:P3_trusted_line_in_table": {
+   "ACCEPT": 18
+  }
+ },
+ "leaks": [
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Na138"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Na138"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Na138"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "138mEq/L"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "138mEq/L"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "138mEq/L"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Hb-9.8"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Hb-9.8"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Hb-9.8"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "K:4.1"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "K:4.1"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "K:4.1"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Cr 1.2"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Cr 1.2"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Cr 1.2"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "HbA1c=6.1"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "HbA1c=6.1"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "HbA1c=6.1"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "urea 32"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "urea 32"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "urea 32"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "TLC 11,200"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "TLC 11,200"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "TLC 11,200"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "PLT 1.5L"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "PLT 1.5L"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "PLT 1.5L"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Hb 9.8 (L)"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Hb 9.8 (L)"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Hb 9.8 (L)"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "INR 2.9"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "INR 2.9"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "INR 2.9"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "FBS 182 PPBS 240"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "FBS 182 PPBS 240"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "FBS 182 PPBS 240"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Na/K 138/4.1"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Na/K 138/4.1"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Na/K 138/4.1"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Ca++ 8.1"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Ca++ 8.1"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Ca++ 8.1"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Hb ９.８"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Hb ９.８"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Hb ９.８"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Na ١٣٨"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Na ١٣٨"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Na ١٣٨"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "repeat after 2 days, Hb was 7.9"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "repeat after 2 days, Hb was 7.9"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "repeat after 2 days, Hb was 7.9"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "value 4.1"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "value 4.1"
+  },
+  {
+   "layout": "A",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "value 4.1"
+  },
+  {
+   "layout": "A",
+   "category": "spelled",
+   "placement": "P1_field_line",
+   "phrase": "Hb nine point eight"
+  },
+  {
+   "layout": "A",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Hb nine point eight"
+  },
+  {
+   "layout": "A",
+   "category": "spelled",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Hb nine point eight"
+  },
+  {
+   "layout": "A",
+   "category": "spelled",
+   "placement": "P1_field_line",
+   "phrase": "sodium one hundred thirty eight"
+  },
+  {
+   "layout": "A",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "sodium one hundred thirty eight"
+  },
+  {
+   "layout": "A",
+   "category": "spelled",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "sodium one hundred thirty eight"
+  },
+  {
+   "layout": "A",
+   "category": "spelled",
+   "placement": "P1_field_line",
+   "phrase": "potassium four point one"
+  },
+  {
+   "layout": "A",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "potassium four point one"
+  },
+  {
+   "layout": "A",
+   "category": "spelled",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "potassium four point one"
+  },
+  {
+   "layout": "A",
+   "category": "spelled",
+   "placement": "P1_field_line",
+   "phrase": "Hb: twelve"
+  },
+  {
+   "layout": "A",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Hb: twelve"
+  },
+  {
+   "layout": "A",
+   "category": "spelled",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Hb: twelve"
+  },
+  {
+   "layout": "A",
+   "category": "spelled",
+   "placement": "P1_field_line",
+   "phrase": "creatinine two point four"
+  },
+  {
+   "layout": "A",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "creatinine two point four"
+  },
+  {
+   "layout": "A",
+   "category": "spelled",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "creatinine two point four"
+  },
+  {
+   "layout": "A",
+   "category": "spelled",
+   "placement": "P1_field_line",
+   "phrase": "platelets one lakh fifty thousand"
+  },
+  {
+   "layout": "A",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "platelets one lakh fifty thousand"
+  },
+  {
+   "layout": "A",
+   "category": "spelled",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "platelets one lakh fifty thousand"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "HIV reactive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "HIV reactive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "HIV reactive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "HBsAg: POSITIVE"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "HBsAg: POSITIVE"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "HBsAg: POSITIVE"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Urine sugar ++"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Urine sugar ++"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Urine sugar ++"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Dengue NS1 positive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Dengue NS1 positive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Dengue NS1 positive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Malaria parasite seen"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Malaria parasite seen"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Malaria parasite seen"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Blood group B negative"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Blood group B negative"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Blood group B negative"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Na138"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Na138"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Na138"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "138mEq/L"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "138mEq/L"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "138mEq/L"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Hb-9.8"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Hb-9.8"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Hb-9.8"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "K:4.1"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "K:4.1"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "K:4.1"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Cr 1.2"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Cr 1.2"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Cr 1.2"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "HbA1c=6.1"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "HbA1c=6.1"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "HbA1c=6.1"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "urea 32"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "urea 32"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "urea 32"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "TLC 11,200"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "TLC 11,200"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "TLC 11,200"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "PLT 1.5L"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "PLT 1.5L"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "PLT 1.5L"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Hb 9.8 (L)"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Hb 9.8 (L)"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Hb 9.8 (L)"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "INR 2.9"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "INR 2.9"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "INR 2.9"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "FBS 182 PPBS 240"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "FBS 182 PPBS 240"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "FBS 182 PPBS 240"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Na/K 138/4.1"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Na/K 138/4.1"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Na/K 138/4.1"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Ca++ 8.1"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Ca++ 8.1"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Ca++ 8.1"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Hb ９.８"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Hb ９.８"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Hb ９.８"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Na ١٣٨"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Na ١٣٨"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Na ١٣٨"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "repeat after 2 days, Hb was 7.9"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "repeat after 2 days, Hb was 7.9"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "repeat after 2 days, Hb was 7.9"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "value 4.1"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "value 4.1"
+  },
+  {
+   "layout": "B",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "value 4.1"
+  },
+  {
+   "layout": "B",
+   "category": "spelled",
+   "placement": "P1_field_line",
+   "phrase": "Hb nine point eight"
+  },
+  {
+   "layout": "B",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Hb nine point eight"
+  },
+  {
+   "layout": "B",
+   "category": "spelled",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Hb nine point eight"
+  },
+  {
+   "layout": "B",
+   "category": "spelled",
+   "placement": "P1_field_line",
+   "phrase": "sodium one hundred thirty eight"
+  },
+  {
+   "layout": "B",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "sodium one hundred thirty eight"
+  },
+  {
+   "layout": "B",
+   "category": "spelled",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "sodium one hundred thirty eight"
+  },
+  {
+   "layout": "B",
+   "category": "spelled",
+   "placement": "P1_field_line",
+   "phrase": "potassium four point one"
+  },
+  {
+   "layout": "B",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "potassium four point one"
+  },
+  {
+   "layout": "B",
+   "category": "spelled",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "potassium four point one"
+  },
+  {
+   "layout": "B",
+   "category": "spelled",
+   "placement": "P1_field_line",
+   "phrase": "Hb: twelve"
+  },
+  {
+   "layout": "B",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Hb: twelve"
+  },
+  {
+   "layout": "B",
+   "category": "spelled",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Hb: twelve"
+  },
+  {
+   "layout": "B",
+   "category": "spelled",
+   "placement": "P1_field_line",
+   "phrase": "creatinine two point four"
+  },
+  {
+   "layout": "B",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "creatinine two point four"
+  },
+  {
+   "layout": "B",
+   "category": "spelled",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "creatinine two point four"
+  },
+  {
+   "layout": "B",
+   "category": "spelled",
+   "placement": "P1_field_line",
+   "phrase": "platelets one lakh fifty thousand"
+  },
+  {
+   "layout": "B",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "platelets one lakh fifty thousand"
+  },
+  {
+   "layout": "B",
+   "category": "spelled",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "platelets one lakh fifty thousand"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "HIV reactive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "HIV reactive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "HIV reactive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "HBsAg: POSITIVE"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "HBsAg: POSITIVE"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "HBsAg: POSITIVE"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Urine sugar ++"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Urine sugar ++"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Urine sugar ++"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Dengue NS1 positive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Dengue NS1 positive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Dengue NS1 positive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Malaria parasite seen"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Malaria parasite seen"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Malaria parasite seen"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Blood group B negative"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Blood group B negative"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Blood group B negative"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Na138"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Na138"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Na138"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "138mEq/L"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "138mEq/L"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "138mEq/L"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Hb-9.8"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Hb-9.8"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Hb-9.8"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "K:4.1"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "K:4.1"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "K:4.1"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Cr 1.2"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Cr 1.2"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Cr 1.2"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "HbA1c=6.1"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "HbA1c=6.1"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "HbA1c=6.1"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "urea 32"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "urea 32"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "urea 32"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "TLC 11,200"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "TLC 11,200"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "TLC 11,200"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "PLT 1.5L"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "PLT 1.5L"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "PLT 1.5L"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Hb 9.8 (L)"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Hb 9.8 (L)"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Hb 9.8 (L)"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "INR 2.9"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "INR 2.9"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "INR 2.9"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "FBS 182 PPBS 240"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "FBS 182 PPBS 240"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "FBS 182 PPBS 240"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Na/K 138/4.1"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Na/K 138/4.1"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Na/K 138/4.1"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Ca++ 8.1"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Ca++ 8.1"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Ca++ 8.1"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Hb ９.８"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Hb ９.８"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Hb ９.８"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "Na ١٣٨"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Na ١٣٨"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Na ١٣٨"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "repeat after 2 days, Hb was 7.9"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "repeat after 2 days, Hb was 7.9"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "repeat after 2 days, Hb was 7.9"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P1_field_line",
+   "phrase": "value 4.1"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "value 4.1"
+  },
+  {
+   "layout": "C",
+   "category": "digits",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "value 4.1"
+  },
+  {
+   "layout": "C",
+   "category": "spelled",
+   "placement": "P1_field_line",
+   "phrase": "Hb nine point eight"
+  },
+  {
+   "layout": "C",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Hb nine point eight"
+  },
+  {
+   "layout": "C",
+   "category": "spelled",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Hb nine point eight"
+  },
+  {
+   "layout": "C",
+   "category": "spelled",
+   "placement": "P1_field_line",
+   "phrase": "sodium one hundred thirty eight"
+  },
+  {
+   "layout": "C",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "sodium one hundred thirty eight"
+  },
+  {
+   "layout": "C",
+   "category": "spelled",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "sodium one hundred thirty eight"
+  },
+  {
+   "layout": "C",
+   "category": "spelled",
+   "placement": "P1_field_line",
+   "phrase": "potassium four point one"
+  },
+  {
+   "layout": "C",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "potassium four point one"
+  },
+  {
+   "layout": "C",
+   "category": "spelled",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "potassium four point one"
+  },
+  {
+   "layout": "C",
+   "category": "spelled",
+   "placement": "P1_field_line",
+   "phrase": "Hb: twelve"
+  },
+  {
+   "layout": "C",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Hb: twelve"
+  },
+  {
+   "layout": "C",
+   "category": "spelled",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Hb: twelve"
+  },
+  {
+   "layout": "C",
+   "category": "spelled",
+   "placement": "P1_field_line",
+   "phrase": "creatinine two point four"
+  },
+  {
+   "layout": "C",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "creatinine two point four"
+  },
+  {
+   "layout": "C",
+   "category": "spelled",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "creatinine two point four"
+  },
+  {
+   "layout": "C",
+   "category": "spelled",
+   "placement": "P1_field_line",
+   "phrase": "platelets one lakh fifty thousand"
+  },
+  {
+   "layout": "C",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "platelets one lakh fifty thousand"
+  },
+  {
+   "layout": "C",
+   "category": "spelled",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "platelets one lakh fifty thousand"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "HIV reactive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "HIV reactive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "HIV reactive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "HBsAg: POSITIVE"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "HBsAg: POSITIVE"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "HBsAg: POSITIVE"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Urine sugar ++"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Urine sugar ++"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Urine sugar ++"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Dengue NS1 positive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Dengue NS1 positive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Dengue NS1 positive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Malaria parasite seen"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Malaria parasite seen"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Malaria parasite seen"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Blood group B negative"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Blood group B negative"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Blood group B negative"
+  },
+  {
+   "layout": "E",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Na138"
+  },
+  {
+   "layout": "E",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "138mEq/L"
+  },
+  {
+   "layout": "E",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Hb-9.8"
+  },
+  {
+   "layout": "E",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "K:4.1"
+  },
+  {
+   "layout": "E",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Cr 1.2"
+  },
+  {
+   "layout": "E",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "HbA1c=6.1"
+  },
+  {
+   "layout": "E",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "urea 32"
+  },
+  {
+   "layout": "E",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "TLC 11,200"
+  },
+  {
+   "layout": "E",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Hb 9.8 (L)"
+  },
+  {
+   "layout": "E",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "INR 2.9"
+  },
+  {
+   "layout": "E",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "FBS 182 PPBS 240"
+  },
+  {
+   "layout": "E",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Na/K 138/4.1"
+  },
+  {
+   "layout": "E",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Ca++ 8.1"
+  },
+  {
+   "layout": "E",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Hb ９.８"
+  },
+  {
+   "layout": "E",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Na ١٣٨"
+  },
+  {
+   "layout": "E",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "repeat after 2 days, Hb was 7.9"
+  },
+  {
+   "layout": "E",
+   "category": "digits",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "value 4.1"
+  },
+  {
+   "layout": "E",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Hb nine point eight"
+  },
+  {
+   "layout": "E",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "sodium one hundred thirty eight"
+  },
+  {
+   "layout": "E",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "potassium four point one"
+  },
+  {
+   "layout": "E",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Hb: twelve"
+  },
+  {
+   "layout": "E",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "creatinine two point four"
+  },
+  {
+   "layout": "E",
+   "category": "spelled",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "platelets one lakh fifty thousand"
+  },
+  {
+   "layout": "E",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "HIV reactive"
+  },
+  {
+   "layout": "E",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "HBsAg: POSITIVE"
+  },
+  {
+   "layout": "E",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Urine sugar ++"
+  },
+  {
+   "layout": "E",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Dengue NS1 positive"
+  },
+  {
+   "layout": "E",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Malaria parasite seen"
+  },
+  {
+   "layout": "E",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Blood group B negative"
+  }
+ ]
+}

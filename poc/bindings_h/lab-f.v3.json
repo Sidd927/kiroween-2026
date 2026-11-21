@@ -1,0 +1,118 @@
+{
+ "binding_id": "lab-f",
+ "description": "Medilink Reference Lab report: PT/MRN header, COLLECTED line, TEST NAME (UNITS) RESULT FLAG REF table.",
+ "layout": {
+  "anchors": [
+   "^MEDILINK REFERENCE LAB\\s+-\\s+ACCESSION",
+   "^TEST NAME \\(UNITS\\)\\s+RESULT\\s+FLAG\\s+REF$",
+   "^END OF REPORT$"
+  ]
+ },
+ "fields": {
+  "patient_id": {
+   "regex": "^PT:\\s.*?\\sMRN\\s+(?P<v>\\d{6,10})\\b",
+   "type": "string",
+   "required": true,
+   "pattern": "\\d{6,10}"
+  },
+  "patient_name": {
+   "regex": "^PT:\\s+(?P<v>\\S.*?)\\s{2,}MRN\\s",
+   "type": "string",
+   "required": true
+  },
+  "patient_age": {
+   "regex": "\\bAGE:\\s*(?P<v>\\d{1,3})Y\\b",
+   "type": "integer",
+   "required": true
+  },
+  "patient_sex": {
+   "regex": "\\bSEX:\\s*(?P<v>[MF])$",
+   "type": "enum",
+   "enum_map": {
+    "M": "male",
+    "F": "female"
+   },
+   "required": true
+  },
+  "collected": {
+   "regex": "^COLLECTED\\s+(?P<v>\\d{2}/\\d{2}/\\d{4} \\d{4})\\b",
+   "type": "date",
+   "format": "%m/%d/%Y %H%M",
+   "required": true
+  }
+ },
+ "results": {
+  "start": "^TEST NAME \\(UNITS\\)\\s+RESULT\\s+FLAG\\s+REF$",
+  "end": "^END OF REPORT$",
+  "skip_lines": [
+   "^\\s*$",
+   "^=+$",
+   "^-+$",
+   "^TEST NAME \\(UNITS\\)\\s+RESULT\\s+FLAG\\s+REF$",
+   "^MEDILINK REFERENCE LAB\\s+-\\s+ACCESSION \\d+$",
+   "^PT:\\s.*\\sMRN\\s+\\d+\\s+AGE:.*$",
+   "^COLLECTED\\s+\\d{2}/\\d{2}/\\d{4} \\d{4}\\s+RECEIVED\\s+\\d{2}/\\d{2}/\\d{4} \\d{4}$"
+  ],
+  "row": "^(?P<label>[A-Z][A-Z ,]*?) \\((?P<unit>[^()\\s]+)\\)[ ]+(?P<value>\\d+(?:\\.\\d+)?)(?:[ ]+(?P<flag>[HL])(?=[ ]))?[ ]+(?P<ref_low>\\d+(?:\\.\\d+)?)-(?P<ref_high>\\d+(?:\\.\\d+)?)$",
+  "labels": {
+   "HEMOGLOBIN": "HGB",
+   "HEMATOCRIT": "HCT",
+   "WBC": "WBC",
+   "RBC": "RBC",
+   "PLATELETS": "PLT",
+   "MCV": "MCV",
+   "GLUCOSE, FASTING": "GLU",
+   "CREATININE": "CREA",
+   "ALT": "ALT",
+   "AST": "AST"
+  },
+  "flags": {
+   "H": "H",
+   "L": "L"
+  },
+  "min_rows": 1,
+  "max_rows": 30
+ },
+ "version": 3,
+ "compiled": {
+  "compiler": "spoolgeist_h.compile/1",
+  "header": [
+   {
+    "regex": "^MEDILINK REFERENCE LAB\\s+-\\s+ACCESSION",
+    "source": "anchor"
+   },
+   {
+    "regex": "^PT:\\s.*\\sMRN\\s+\\d+\\s+AGE:.*$",
+    "source": "skip"
+   },
+   {
+    "regex": "^COLLECTED\\s+\\d{2}/\\d{2}/\\d{4} \\d{4}\\s+RECEIVED\\s+\\d{2}/\\d{2}/\\d{4} \\d{4}$",
+    "source": "skip"
+   },
+   {
+    "exact": "========================================================================"
+   }
+  ],
+  "identity_index": 0,
+  "template_lines": [
+   "------------------------------------------------------------------------",
+   "========================================================================",
+   "END OF REPORT",
+   "SYNTHETIC SAMPLE - NOT A REAL PATIENT",
+   "TEST NAME (UNITS) RESULT FLAG REF"
+  ],
+  "continuation_len": 4,
+  "promoted_required": [
+   "patient_age",
+   "patient_sex"
+  ],
+  "date_formats": {
+   "collected": {
+    "format": "%m/%d/%Y %H%M",
+    "day_month_order_ambiguous_format": true,
+    "samples_disambiguate": true,
+    "n_strings": 16
+   }
+  }
+ }
+}

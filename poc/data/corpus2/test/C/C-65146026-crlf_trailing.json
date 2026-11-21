@@ -1,0 +1,105 @@
+{
+ "doc_id": "C-65146026-crlf_trailing",
+ "layout": "C",
+ "cls": "crlf_trailing",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "RFIuIE1FSFRBJ1MgQ0xJTklDQUwgTEFCT1JBVE9SWSAgICAgICAgICAgICBSZXBvcnQgRGF0ZTogMjAyNi0wMy0xOSANClBhdGllbnQgOiBOYWlyLCBBYXJhdiAoTS8xOCkNClBhdGllbnQgSUQgOiAzMjg5MDI2ICAgICAgIFNhbXBsZSA6IFMtOTc1MDIgICANCkNvbGxlY3RlZCAgOiAyMDI2LTAzLTE4IDEwOjE1IA0KQ29uc3VsdGFudCA6IERyLiBNLiBLdWxrYXJuaSANCg0KQklPQ0hFTUlTVFJZDQogIFRlc3QgLyBNZXRob2QgIA0KICAgICAgUmVzdWx0ICAgICBVbml0cyAgICAgTm9ybWFsIFJhbmdlDQogIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCiAgQklMSVJVQklOIFRPVEFMDQogICAgICAoRGlhem8gbWV0aG9kKSANCiAgICAgIDAuMjkgICAgICAgbWcvZGwgICAgIDAuMjAgLSAxLjIwDQogIEJJTElSVUJJTiBESVJFQ1QgDQogICAgICAoRGlhem8gbWV0aG9kKSAgIA0KICAgICAgMC4wOSAgICAgICBtZy9kbCAgICAgMC4wMCAtIDAuMzAgDQogIFNHUFQgKEFMVCkgICANCiAgICAgIChJRkNDKQ0KICAgICAgMjMgICAgICAgICBVL0wgICAgICAgMCAtIDQwICANCiAgU0dPVCAoQVNUKQ0KICAgICAgKElGQ0MpDQogICAgICAyMiAgICAgICAgIFUvTCAgICAgICAwIC0gNDAgIA0KICBBTEtBTElORSBQSE9TUEhBVEFTRSAgIA0KICAgICAgKFBOUFAtQU1QKQ0KICAgICAgNjkgICAgICAgICBJVS9MICAgICAgNDAgLSAxMzAgICANCiAgVE9UQUwgUFJPVEVJTlMgIA0KICAgICAgKEJpdXJldCkgICANCiAgICAgIDcuNCAgICAgICAgZy9kbCAgICAgIDYuMCAtIDguMw0KICBBTEJVTUlOIA0KICAgICAgKEJDRykNCiAgICAgIDQuMiAgICAgICAgZy9kbCAgICAgIDMuNSAtIDUuMg0KICBTRVJVTSBDUkVBVElOSU5FICAgDQogICAgICAoSmFmZmUga2luZXRpYykgIA0KICAgICAgMC44OCAgICAgICBtZy9kbCAgICAgMC42MCAtIDEuMzANCiAgQkxPT0QgVVJFQSAgDQogICAgICAoVXJlYXNlLUdMREgpICAgDQogICAgICAxNiAgICAgICAgIG1nL2RsICAgICAxNSAtIDQ1IA0KICAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tICAgDQogICogVmFsdWUgb3V0c2lkZSBub3JtYWwgcmFuZ2UNCg0KQ2hlY2tlZCBieTogTGFiIFRlY2hub2xvZ2lzdA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgLS0gRU5EIC0tICAgDQpTWU5USEVUSUMgU0FNUExFIC0gTk9UIEEgUkVBTCBQQVRJRU5UIA0K",
+ "queue_codepage": "cp1252",
+ "truth": {
+  "patient_id": "3289026",
+  "patient_name": "Nair, Aarav",
+  "patient_age": 18,
+  "patient_sex": "male",
+  "collected": "2026-03-18",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "0.29",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL",
+    "flag": "",
+    "ref_low": "0.20",
+    "ref_high": "1.20"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.09",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT",
+    "flag": "",
+    "ref_low": "0.00",
+    "ref_high": "0.30"
+   },
+   {
+    "code": "ALT",
+    "value": "23",
+    "unit": "U/L",
+    "label": "SGPT (ALT)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "AST",
+    "value": "22",
+    "unit": "U/L",
+    "label": "SGOT (AST)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "ALP",
+    "value": "69",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE",
+    "flag": "",
+    "ref_low": "40",
+    "ref_high": "130"
+   },
+   {
+    "code": "TP",
+    "value": "7.4",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS",
+    "flag": "",
+    "ref_low": "6.0",
+    "ref_high": "8.3"
+   },
+   {
+    "code": "ALB",
+    "value": "4.2",
+    "unit": "g/dl",
+    "label": "ALBUMIN",
+    "flag": "",
+    "ref_low": "3.5",
+    "ref_high": "5.2"
+   },
+   {
+    "code": "CREA",
+    "value": "0.88",
+    "unit": "mg/dl",
+    "label": "SERUM CREATININE",
+    "flag": "",
+    "ref_low": "0.60",
+    "ref_high": "1.30"
+   },
+   {
+    "code": "UREA",
+    "value": "16",
+    "unit": "mg/dl",
+    "label": "BLOOD UREA",
+    "flag": "",
+    "ref_low": "15",
+    "ref_high": "45"
+   }
+  ],
+  "collected_time": "10:15",
+  "reported": "2026-03-19",
+  "notes": [],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

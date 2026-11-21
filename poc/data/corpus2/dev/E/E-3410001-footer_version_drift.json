@@ -1,0 +1,87 @@
+{
+ "doc_id": "E-3410001-footer_version_drift",
+ "layout": "E",
+ "cls": "footer_version_drift",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "TElGRUxJTkUgUEFUSE9MT0dZICYgSU1BR0lORyAgICAgICAgICAgICAgICAgICAgICAgIExhYiBJRDogTEwtMjAyNi03NjQ2NApQYXRpZW50OiBQb29qYSBOYWlyICAgICAgICAgICAgU2V4L0FnZTogTS84NCAgICAgICAgRHJhd246IEFwcmlsIDI1LCAyMDI2Cl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXwpIQUVNT0dSQU0KSGIgICAgICAgMTEuNCAhIGcvZEwgICAgIFsxMy4wLTE3LjBdICAgUkJDICAgICAgICA0Ljk2IHgxMF42L3VMIFs0LjUwLTUuOTBdCldCQyAgICAgICAgIDguNyB4MTBeMy91TCBbNC4wLTExLjBdICAgIFBMVCAgICAgICAgIDE5MCB4MTBeMy91TCBbMTUwLTQxMF0KSENUICAgICAgMzYuOCAhICUgICAgICAgIFs0MC4wLTUwLjBdICAgTUNWICAgICAgNzQuMSAhIGZMICAgICAgIFs4My4wLTEwMS4wXQpNQ0hDICAgICAzMC45ICEgZy9kTCAgICAgWzMxLjUtMzQuNV0KX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fCiEgPSBvdXRzaWRlIHJlZmVyZW5jZSBpbnRlcnZhbCAgICAgICAgUmVwb3J0IGdlbmVyYXRlZCBieSBMYWJTeXMgMy44ClNZTlRIRVRJQyBTQU1QTEUgLSBOT1QgQSBSRUFMIFBBVElFTlQK",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "LL-2026-76464",
+  "patient_name": "Pooja Nair",
+  "patient_age": 84,
+  "patient_sex": "male",
+  "collected": "2026-04-25",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "11.4",
+    "unit": "g/dL",
+    "label": "Hb",
+    "flag": "L",
+    "ref_low": "13.0",
+    "ref_high": "17.0"
+   },
+   {
+    "code": "RBC",
+    "value": "4.96",
+    "unit": "x10^6/uL",
+    "label": "RBC",
+    "flag": "",
+    "ref_low": "4.50",
+    "ref_high": "5.90"
+   },
+   {
+    "code": "WBC",
+    "value": "8.7",
+    "unit": "x10^3/uL",
+    "label": "WBC",
+    "flag": "",
+    "ref_low": "4.0",
+    "ref_high": "11.0"
+   },
+   {
+    "code": "PLT",
+    "value": "190",
+    "unit": "x10^3/uL",
+    "label": "PLT",
+    "flag": "",
+    "ref_low": "150",
+    "ref_high": "410"
+   },
+   {
+    "code": "HCT",
+    "value": "36.8",
+    "unit": "%",
+    "label": "HCT",
+    "flag": "L",
+    "ref_low": "40.0",
+    "ref_high": "50.0"
+   },
+   {
+    "code": "MCV",
+    "value": "74.1",
+    "unit": "fL",
+    "label": "MCV",
+    "flag": "L",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCHC",
+    "value": "30.9",
+    "unit": "g/dL",
+    "label": "MCHC",
+    "flag": "L",
+    "ref_low": "31.5",
+    "ref_high": "34.5"
+   }
+  ],
+  "collected_time": null,
+  "reported": null,
+  "notes": [],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "dev"
+}

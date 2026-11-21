@@ -1,0 +1,501 @@
+{
+ "stats": {
+  "A:correct_accept": 517,
+  "A:correct_reject": 224,
+  "A:false_reject": 104,
+  "A:unsafe_accept": 4,
+  "B:correct_accept": 343,
+  "B:correct_reject": 196,
+  "B:false_reject": 190,
+  "C:correct_accept": 581,
+  "C:correct_reject": 222,
+  "C:false_reject": 81,
+  "D:correct_accept": 419,
+  "D:correct_reject": 217,
+  "D:false_reject": 206,
+  "E:correct_accept": 412,
+  "E:correct_reject": 205,
+  "E:false_reject": 178,
+  "F:correct_accept": 444,
+  "F:correct_reject": 230,
+  "F:false_reject": 227,
+  "correct_accept": 2716,
+  "correct_reject": 1294,
+  "false_reject": 986,
+  "fuzz:blank_lines:correct_accept": 182,
+  "fuzz:blank_lines:correct_reject": 281,
+  "fuzz:blank_lines:false_reject": 230,
+  "fuzz:blank_lines:unsafe_accept": 1,
+  "fuzz:comment_line:correct_reject": 303,
+  "fuzz:comment_line:false_reject": 443,
+  "fuzz:digit_change:correct_accept": 184,
+  "fuzz:digit_change:correct_reject": 277,
+  "fuzz:digit_change:false_reject": 196,
+  "fuzz:digit_change:unsafe_accept": 1,
+  "fuzz:static_char_damage:correct_accept": 99,
+  "fuzz:static_char_damage:correct_reject": 261,
+  "fuzz:static_char_damage:false_reject": 287,
+  "unsafe_accept": 4,
+  "unsafe_accept:data_correct=True": 4
+ },
+ "failures": [
+  {
+   "doc_id": "pbt-A-100",
+   "cls": "unsafe_accept",
+   "perturbation": "crlf_trailing+page_break+long_name+header_changed",
+   "data_correct": true,
+   "record": {
+    "binding_id": "lab-a",
+    "patient_id": "SP/26/838883",
+    "patient_name": "BHAGYASHREE DESHPANDE-KULKARNI",
+    "patient_age": 27,
+    "patient_sex": "male",
+    "collected": "2026-03-25",
+    "reported": "2026-03-26",
+    "results": [
+     {
+      "label": "HAEMOGLOBIN",
+      "code": "HGB",
+      "value": "13.4",
+      "unit": "gm/dL",
+      "value_canonical": "13.4",
+      "unit_canonical": "g/dL",
+      "flag": "",
+      "ref_low": "13.0",
+      "ref_high": "17.0"
+     },
+     {
+      "label": "R.B.C. COUNT",
+      "code": "RBC",
+      "value": "5.27",
+      "unit": "mill/cumm",
+      "value_canonical": "5.27",
+      "unit_canonical": "10*6/uL",
+      "flag": "",
+      "ref_low": "4.50",
+      "ref_high": "5.50"
+     },
+     {
+      "label": "P.C.V.",
+      "code": "HCT",
+      "value": "47.5",
+      "unit": "%",
+      "value_canonical": "47.5",
+      "unit_canonical": "%",
+      "flag": "",
+      "ref_low": "40.0",
+      "ref_high": "50.0"
+     },
+     {
+      "label": "M.C.V.",
+      "code": "MCV",
+      "value": "83.0",
+      "unit": "fL",
+      "value_canonical": "83.0",
+      "unit_canonical": "fL",
+      "flag": "",
+      "ref_low": "83.0",
+      "ref_high": "101.0"
+     },
+     {
+      "label": "M.C.H.",
+      "code": "MCH",
+      "value": "27.2",
+      "unit": "pg",
+      "value_canonical": "27.2",
+      "unit_canonical": "pg",
+      "flag": "",
+      "ref_low": "27.0",
+      "ref_high": "32.0"
+     },
+     {
+      "label": "M.C.H.C.",
+      "code": "MCHC",
+      "value": "34.7",
+      "unit": "g/dL",
+      "value_canonical": "34.7",
+      "unit_canonical": "g/dL",
+      "flag": "H",
+      "ref_low": "31.5",
+      "ref_high": "34.5"
+     },
+     {
+      "label": "TOTAL LEUCOCYTE COUNT",
+      "code": "WBC",
+      "value": "13299",
+      "unit": "/cumm",
+      "value_canonical": "13.299",
+      "unit_canonical": "10*3/uL",
+      "flag": "H",
+      "ref_low": "4000",
+      "ref_high": "11000"
+     },
+     {
+      "label": "NEUTROPHILS",
+      "code": "NEUT%",
+      "value": "36",
+      "unit": "%",
+      "value_canonical": "36",
+      "unit_canonical": "%",
+      "flag": "L",
+      "ref_low": "40",
+      "ref_high": "80"
+     },
+     {
+      "label": "LYMPHOCYTES",
+      "code": "LYMPH%",
+      "value": "26",
+      "unit": "%",
+      "value_canonical": "26",
+      "unit_canonical": "%",
+      "flag": "",
+      "ref_low": "20",
+      "ref_high": "40"
+     },
+     {
+      "label": "PLATELET COUNT",
+      "code": "PLT",
+      "value": "2.40",
+      "unit": "lakh/cumm",
+      "value_canonical": "240.00",
+      "unit_canonical": "10*3/uL",
+      "flag": "",
+      "ref_low": "1.50",
+      "ref_high": "4.10"
+     }
+    ],
+    "collected_dt": "2026-03-25T10:30:00",
+    "reported_dt": "2026-03-26T17:20:00"
+   },
+   "truth": null,
+   "text": "                   SUNRISE DIAGNOSTICS & PATHOLOGY PVT. LTD.   \r\n                 NABL-style format v2  |  Gangapur Road, Nashik \r\n================================================================================\r\nPatient Name : MR. BHAGYASHREE DESHPANDE-KULKARNI Lab No.   : SP/26/838883 \r\nAge / Sex    : 27 Yrs / M                       Collected : 25/03/2026 10:30\r\nRef. By      : DR. P. NAIR                      Reported  : 26/03/2026 17:20   \r\n-------------------------------------------------------------------------------- \r\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT \r\n-------------------------------------------------------------------------------- \r\nTEST                          RESULT      UNIT          REFERENCE RANGE \r\n--------------------------------------------------------------------------------\r\nHAEMOGLOBIN                   13.4        gm/dL         13.0 - 17.0 \r\nR.B.C. COUNT                  5.27        mill/cumm     4.50 - 5.50   \r\nP.C.V.                        47.5        %             40.0 - 50.0   \r\nM.C.V.                        83.0        fL            83.0 - 101.0 \r\nM.C.H.                        27.2        pg            27.0 - 32.0\r\nM.C.H.C.                      34.7 H      g/dL          31.5 - 34.5 \r\n  \r\n                                                       Continued on next page...  \r\n\f                          SUNRISE PATHOLOGY LABORATORY  \r\nPatient Name : MR. BHAGYASHREE DESHPANDE-KULKARNI Lab No.   : SP/26/838883  \r\n--------------------------------------------------------------------------------   \r\nTEST                          RESULT      UNIT          REFERENCE RANGE   \r\n--------------------------------------------------------------------------------\r\nTOTAL LEUCOCYTE COUNT         13299 H     /cumm         4000 - 11000\r\nNEUTROPHILS                   36 L        %             40 - 80  \r\nLYMPHOCYTES                   26          %             20 - 40   \r\nPLATELET COUNT                2.40        lakh/cumm     1.50 - 4.10  \r\n-------------------------------------------------------------------------------- \r\n                             *** END OF REPORT ***   \r\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT   \r\n  "
+  },
+  {
+   "doc_id": "pbt-A-647704468",
+   "cls": "unsafe_accept",
+   "perturbation": "col_shift+page_break+drop_optional+header_changed",
+   "data_correct": true,
+   "record": {
+    "binding_id": "lab-a",
+    "patient_id": "SP/26/924380",
+    "patient_name": "TANVI SHINDE",
+    "patient_age": 2,
+    "patient_sex": "male",
+    "collected": "2026-05-26",
+    "reported": "2026-05-28",
+    "results": [
+     {
+      "label": "HAEMOGLOBIN",
+      "code": "HGB",
+      "value": "11.8",
+      "unit": "gm/dL",
+      "value_canonical": "11.8",
+      "unit_canonical": "g/dL",
+      "flag": "L",
+      "ref_low": "13.0",
+      "ref_high": "17.0"
+     },
+     {
+      "label": "R.B.C. COUNT",
+      "code": "RBC",
+      "value": "5.33",
+      "unit": "mill/cumm",
+      "value_canonical": "5.33",
+      "unit_canonical": "10*6/uL",
+      "flag": "",
+      "ref_low": "4.50",
+      "ref_high": "5.50"
+     },
+     {
+      "label": "P.C.V.",
+      "code": "HCT",
+      "value": "38.5",
+      "unit": "%",
+      "value_canonical": "38.5",
+      "unit_canonical": "%",
+      "flag": "L",
+      "ref_low": "40.0",
+      "ref_high": "50.0"
+     },
+     {
+      "label": "M.C.H.",
+      "code": "MCH",
+      "value": "33.0",
+      "unit": "pg",
+      "value_canonical": "33.0",
+      "unit_canonical": "pg",
+      "flag": "H",
+      "ref_low": "27.0",
+      "ref_high": "32.0"
+     },
+     {
+      "label": "M.C.H.C.",
+      "code": "MCHC",
+      "value": "35.4",
+      "unit": "g/dL",
+      "value_canonical": "35.4",
+      "unit_canonical": "g/dL",
+      "flag": "H",
+      "ref_low": "31.5",
+      "ref_high": "34.5"
+     },
+     {
+      "label": "TOTAL LEUCOCYTE COUNT",
+      "code": "WBC",
+      "value": "5436",
+      "unit": "/cumm",
+      "value_canonical": "5.436",
+      "unit_canonical": "10*3/uL",
+      "flag": "",
+      "ref_low": "4000",
+      "ref_high": "11000"
+     },
+     {
+      "label": "NEUTROPHILS",
+      "code": "NEUT%",
+      "value": "76",
+      "unit": "%",
+      "value_canonical": "76",
+      "unit_canonical": "%",
+      "flag": "",
+      "ref_low": "40",
+      "ref_high": "80"
+     },
+     {
+      "label": "PLATELET COUNT",
+      "code": "PLT",
+      "value": "4.75",
+      "unit": "lakh/cumm",
+      "value_canonical": "475.00",
+      "unit_canonical": "10*3/uL",
+      "flag": "H",
+      "ref_low": "1.50",
+      "ref_high": "4.10"
+     }
+    ],
+    "collected_dt": "2026-05-26T10:40:00",
+    "reported_dt": "2026-05-28T01:40:00"
+   },
+   "truth": null,
+   "text": "                   SUNRISE DIAGNOSTICS & PATHOLOGY PVT. LTD.\n                 NABL-style format v2  |  Gangapur Road, Nashik\n================================================================================\nPatient Name : MR. TANVI SHINDE                 Lab No.   : SP/26/924380\nAge / Sex    : 2 Yrs / M                        Collected : 26/05/2026 10:40\nRef. By      : DR. V. GUPTA                     Reported  : 28/05/2026 01:40\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                     11.8 L      gm/dL         13.0 - 17.0\nR.B.C. COUNT                  5.33          mill/cumm     4.50 - 5.50\nP.C.V.                         38.5 L      %             40.0 - 50.0\nM.C.H.                        33.0 H      pg           27.0 - 32.0\nM.C.H.C.                      35.4 H     g/dL          31.5 - 34.5\n\n                                                       Continued on next page...\n\f                          SUNRISE PATHOLOGY LABORATORY\nPatient Name : MR. TANVI SHINDE                 Lab No.   : SP/26/924380\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nTOTAL LEUCOCYTE COUNT         5436         /cumm         4000 - 11000\nNEUTROPHILS                   76           %             40 - 80\nPLATELET COUNT                4.75 H       lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n"
+  },
+  {
+   "doc_id": "pbt-A-38501",
+   "cls": "unsafe_accept",
+   "perturbation": "drop_optional+page_break+header_changed+blank_lines+digit_change",
+   "data_correct": true,
+   "record": {
+    "binding_id": "lab-a",
+    "patient_id": "SP/26/449019",
+    "patient_name": "ADITYA REDDY",
+    "patient_age": 24,
+    "patient_sex": "female",
+    "collected": "2026-09-25",
+    "reported": "2026-09-25",
+    "results": [
+     {
+      "label": "HAEMOGLOBIN",
+      "code": "HGB",
+      "value": "11.6",
+      "unit": "gm/dL",
+      "value_canonical": "11.6",
+      "unit_canonical": "g/dL",
+      "flag": "L",
+      "ref_low": "13.0",
+      "ref_high": "17.0"
+     },
+     {
+      "label": "R.B.C. COUNT",
+      "code": "RBC",
+      "value": "5.42",
+      "unit": "mill/cumm",
+      "value_canonical": "5.42",
+      "unit_canonical": "10*6/uL",
+      "flag": "",
+      "ref_low": "4.50",
+      "ref_high": "5.50"
+     },
+     {
+      "label": "M.C.V.",
+      "code": "MCV",
+      "value": "88.2",
+      "unit": "fL",
+      "value_canonical": "88.2",
+      "unit_canonical": "fL",
+      "flag": "",
+      "ref_low": "83.0",
+      "ref_high": "101.0"
+     },
+     {
+      "label": "M.C.H.",
+      "code": "MCH",
+      "value": "33.3",
+      "unit": "pg",
+      "value_canonical": "33.3",
+      "unit_canonical": "pg",
+      "flag": "H",
+      "ref_low": "27.0",
+      "ref_high": "32.0"
+     },
+     {
+      "label": "M.C.H.C.",
+      "code": "MCHC",
+      "value": "34.6",
+      "unit": "g/dL",
+      "value_canonical": "34.6",
+      "unit_canonical": "g/dL",
+      "flag": "H",
+      "ref_low": "31.5",
+      "ref_high": "34.5"
+     },
+     {
+      "label": "TOTAL LEUCOCYTE COUNT",
+      "code": "WBC",
+      "value": "11572",
+      "unit": "/cumm",
+      "value_canonical": "11.572",
+      "unit_canonical": "10*3/uL",
+      "flag": "H",
+      "ref_low": "4000",
+      "ref_high": "11000"
+     },
+     {
+      "label": "NEUTROPHILS",
+      "code": "NEUT%",
+      "value": "76",
+      "unit": "%",
+      "value_canonical": "76",
+      "unit_canonical": "%",
+      "flag": "",
+      "ref_low": "40",
+      "ref_high": "80"
+     },
+     {
+      "label": "PLATELET COUNT",
+      "code": "PLT",
+      "value": "3.66",
+      "unit": "lakh/cumm",
+      "value_canonical": "366.00",
+      "unit_canonical": "10*3/uL",
+      "flag": "",
+      "ref_low": "1.50",
+      "ref_high": "4.10"
+     }
+    ],
+    "collected_dt": "2026-09-25T07:50:00",
+    "reported_dt": "2026-09-25T23:00:00"
+   },
+   "truth": null,
+   "text": "                   SUNRISE DIAGNOSTICS & PATHOLOGY PVT. LTD.\n                 NABL-style format v2  |  Gangapur Road, Nashik\n================================================================================\nPatient Name : MRS. ADITYA REDDY                Lab No.   : SP/26/449019\nAge / Sex    : 24 Yrs / F                       Collected : 25/09/2026 07:50\nRef. By      : DR. A. RAO                       Reported  : 25/09/2026 23:00\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   11.6 L      gm/dL         13.0 - 17.0\nR.B.C. COUNT                  5.42        mill/cumm     4.50 - 5.50\nM.C.V.                        88.2        fL            83.0 - 101.0\nM.C.H.                        33.3 H      pg            27.0 - 32.0\nM.C.H.C.                      34.6 H      g/dL          31.5 - 34.5\n\n                                                       Continued on next page...\n\f                          SUNRISE PATHOLOGY LABORATORY\nPatient Name : MRS. ADITYA REDDY                Lab No.   : SP/26/449019\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nTOTAL LEUCOCYTE COUNT         11572 H     /cumm         4000 - 11000\nNEUTROPHILS                   76          %             40 - 80\n\nPLATELET COUNT                3.66        lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n"
+  },
+  {
+   "doc_id": "pbt-A-38501",
+   "cls": "unsafe_accept",
+   "perturbation": "drop_optional+page_break+header_changed",
+   "data_correct": true,
+   "record": {
+    "binding_id": "lab-a",
+    "patient_id": "SP/26/449019",
+    "patient_name": "ADITYA REDDY",
+    "patient_age": 24,
+    "patient_sex": "female",
+    "collected": "2026-09-25",
+    "reported": "2026-09-25",
+    "results": [
+     {
+      "label": "HAEMOGLOBIN",
+      "code": "HGB",
+      "value": "11.6",
+      "unit": "gm/dL",
+      "value_canonical": "11.6",
+      "unit_canonical": "g/dL",
+      "flag": "L",
+      "ref_low": "13.0",
+      "ref_high": "17.0"
+     },
+     {
+      "label": "R.B.C. COUNT",
+      "code": "RBC",
+      "value": "5.42",
+      "unit": "mill/cumm",
+      "value_canonical": "5.42",
+      "unit_canonical": "10*6/uL",
+      "flag": "",
+      "ref_low": "4.50",
+      "ref_high": "5.50"
+     },
+     {
+      "label": "P.C.V.",
+      "code": "HCT",
+      "value": "45.9",
+      "unit": "%",
+      "value_canonical": "45.9",
+      "unit_canonical": "%",
+      "flag": "",
+      "ref_low": "40.0",
+      "ref_high": "50.0"
+     },
+     {
+      "label": "M.C.H.",
+      "code": "MCH",
+      "value": "33.3",
+      "unit": "pg",
+      "value_canonical": "33.3",
+      "unit_canonical": "pg",
+      "flag": "H",
+      "ref_low": "27.0",
+      "ref_high": "32.0"
+     },
+     {
+      "label": "M.C.H.C.",
+      "code": "MCHC",
+      "value": "34.6",
+      "unit": "g/dL",
+      "value_canonical": "34.6",
+      "unit_canonical": "g/dL",
+      "flag": "H",
+      "ref_low": "31.5",
+      "ref_high": "34.5"
+     },
+     {
+      "label": "TOTAL LEUCOCYTE COUNT",
+      "code": "WBC",
+      "value": "11572",
+      "unit": "/cumm",
+      "value_canonical": "11.572",
+      "unit_canonical": "10*3/uL",
+      "flag": "H",
+      "ref_low": "4000",
+      "ref_high": "11000"
+     },
+     {
+      "label": "NEUTROPHILS",
+      "code": "NEUT%",
+      "value": "76",
+      "unit": "%",
+      "value_canonical": "76",
+      "unit_canonical": "%",
+      "flag": "",
+      "ref_low": "40",
+      "ref_high": "80"
+     },
+     {
+      "label": "PLATELET COUNT",
+      "code": "PLT",
+      "value": "3.66",
+      "unit": "lakh/cumm",
+      "value_canonical": "366.00",
+      "unit_canonical": "10*3/uL",
+      "flag": "",
+      "ref_low": "1.50",
+      "ref_high": "4.10"
+     }
+    ],
+    "collected_dt": "2026-09-25T07:50:00",
+    "reported_dt": "2026-09-25T23:00:00"
+   },
+   "truth": null,
+   "text": "                   SUNRISE DIAGNOSTICS & PATHOLOGY PVT. LTD.\n                 NABL-style format v2  |  Gangapur Road, Nashik\n================================================================================\nPatient Name : MRS. ADITYA REDDY                Lab No.   : SP/26/449019\nAge / Sex    : 24 Yrs / F                       Collected : 25/09/2026 07:50\nRef. By      : DR. A. RAO                       Reported  : 25/09/2026 23:00\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   11.6 L      gm/dL         13.0 - 17.0\nR.B.C. COUNT                  5.42        mill/cumm     4.50 - 5.50\nP.C.V.                        45.9        %             40.0 - 50.0\n\n                                                       Continued on next page...\n\f                          SUNRISE PATHOLOGY LABORATORY\nPatient Name : MRS. ADITYA REDDY                Lab No.   : SP/26/449019\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nM.C.H.                        33.3 H      pg            27.0 - 32.0\nM.C.H.C.                      34.6 H      g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         11572 H     /cumm         4000 - 11000\nNEUTROPHILS                   76          %             40 - 80\nPLATELET COUNT                3.66        lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n"
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "per_class": {
+  "invalid:X_columns_reordered": {
+   "correct_reject": 36,
+   "n": 36
+  },
+  "invalid:X_conflicting_id_later_page": {
+   "correct_reject": 24,
+   "n": 24
+  },
+  "invalid:X_conflicting_name_later_page": {
+   "correct_reject": 24,
+   "n": 24
+  },
+  "invalid:X_extra_section_after_end_known_tests": {
+   "correct_reject": 36,
+   "n": 36
+  },
+  "invalid:X_extra_section_after_end_unknown_tests": {
+   "unsafe_accept": 36,
+   "n": 36
+  },
+  "invalid:X_extra_section_before_table_unknown_tests": {
+   "unsafe_accept": 36,
+   "n": 36
+  },
+  "invalid:X_foreign_page_inserted": {
+   "correct_reject": 24,
+   "n": 24
+  },
+  "invalid:X_foreign_with_old_header_page": {
+   "correct_reject": 36,
+   "n": 36
+  },
+  "invalid:X_missing_table_rows": {
+   "correct_reject": 36,
+   "n": 36
+  },
+  "invalid:X_missing_unit": {
+   "correct_reject": 36,
+   "n": 36
+  },
+  "invalid:X_new_header": {
+   "correct_reject": 36,
+   "n": 36
+  },
+  "invalid:X_new_header_old_continuation": {
+   "unsafe_accept": 24,
+   "n": 24
+  },
+  "invalid:X_new_header_on_continuation_only": {
+   "correct_reject": 24,
+   "n": 24
+  },
+  "invalid:X_old_header_page_appended": {
+   "unsafe_accept": 30,
+   "n": 36,
+   "correct_reject": 6
+  },
+  "invalid:X_orig_pbt_unsafe": {
+   "unsafe_accept": 8,
+   "n": 8
+  },
+  "invalid:X_page_order_swap": {
+   "correct_reject": 24,
+   "n": 24
+  },
+  "invalid:X_repeated_row_identical": {
+   "correct_reject": 36,
+   "n": 36
+  },
+  "invalid:X_repeated_row_on_continuation": {
+   "correct_reject": 24,
+   "n": 24
+  },
+  "invalid:X_same_patient_two_reports": {
+   "correct_reject": 36,
+   "n": 36
+  },
+  "invalid:X_text_between_rows": {
+   "correct_reject": 36,
+   "n": 36
+  },
+  "invalid:X_title_replaced_page1_only": {
+   "unsafe_accept": 24,
+   "n": 36,
+   "correct_reject": 12
+  },
+  "invalid:X_truncated_column_header": {
+   "correct_reject": 36,
+   "n": 36
+  },
+  "invalid:X_two_patients_one_job": {
+   "correct_reject": 36,
+   "n": 36
+  },
+  "invalid:X_unknown_result_between_rows": {
+   "correct_reject": 36,
+   "n": 36
+  },
+  "invalid:X_value_unit_swapped": {
+   "correct_reject": 24,
+   "n": 24
+  },
+  "valid:V_clean": {
+   "correct_accept": 72,
+   "n": 72
+  },
+  "valid:V_col_shift": {
+   "correct_accept": 36,
+   "n": 36
+  },
+  "valid:V_crlf_trailing": {
+   "correct_accept": 36,
+   "n": 36
+  },
+  "valid:V_drop_optional": {
+   "correct_accept": 36,
+   "n": 36
+  },
+  "valid:V_long_name": {
+   "correct_accept": 12,
+   "n": 36,
+   "false_reject": 24
+  },
+  "valid:V_page_break": {
+   "correct_accept": 24,
+   "n": 24
+  }
+ },
+ "totals": {
+  "invalid:correct_reject": 618,
+  "invalid:unsafe_accept": 158,
+  "valid:correct_accept": 216,
+  "valid:false_reject": 24
+ },
+ "system": "v3:anywhere",
+ "cases": 1016
+}

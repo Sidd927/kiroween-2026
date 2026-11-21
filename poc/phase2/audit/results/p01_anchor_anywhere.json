@@ -1,0 +1,42 @@
+{
+ "a_header_changed_with_old_continuation": {
+  "A": {
+   "ACCEPT(data_correct)": 200
+  },
+  "B": {
+   "REJECT": 200
+  },
+  "C": {
+   "not_pageable": 200
+  },
+  "D": {
+   "REJECT": 200
+  },
+  "E": {
+   "not_pageable": 200
+  },
+  "F": {
+   "REJECT": 200
+  }
+ },
+ "b_foreign_doc_with_old_anchor_page": {
+  "A": {
+   "REJECT:lab-a:missing_field": 20
+  },
+  "B": {
+   "REJECT:lab-b:missing_field": 20
+  },
+  "C": {
+   "REJECT:lab-c:missing_field": 20
+  },
+  "D": {
+   "REJECT:lab-d:missing_field": 20
+  },
+  "E": {
+   "REJECT:lab-e:table_start_missing": 20
+  },
+  "F": {
+   "REJECT:lab-f:missing_field": 20
+  }
+ }
+}

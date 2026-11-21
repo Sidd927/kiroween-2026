@@ -1,0 +1,105 @@
+{
+ "doc_id": "A-64964025-long_name_wrapped",
+ "layout": "A",
+ "cls": "long_name_wrapped",
+ "group": "policy",
+ "expected": "reject",
+ "raw_b64": "ICAgICAgICAgICAgICAgICAgICAgICAgICBTVU5SSVNFIFBBVEhPTE9HWSBMQUJPUkFUT1JZCiAgICAgICAgICAgICAgMTIsIFN0YXRpb24gUm9hZCwgTmFzaGlrIC0gNDIyMDAxICBQaDogMDI1My0yMzQ1Njc4Ci0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tClBhdGllbnQgTmFtZSA6IE1TLiBCSEFHWUFTSFJFRSBMYWIgTm8uICAgOiBTUC8yNi8yMjM0OTEKICAgICAgICAgICAgICAgREVTSFBBTkRFLUtVTEtBUk5JCkFnZSAvIFNleCAgICA6IDMzIFlycyAvIEYgICAgICAgICAgICAgICAgICAgICAgIENvbGxlY3RlZCA6IDI4LzA4LzIwMjYgMDg6MjAKUmVmLiBCeSAgICAgIDogRFIuIEEuIFJBTyAgICAgICAgICAgICAgICAgICAgICAgUmVwb3J0ZWQgIDogMjgvMDgvMjAyNiAyMDozMAotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogICAgICAgICAgICAgICAgICAgICAgIEhBRU1BVE9MT0dZIC0gQ09NUExFVEUgQkxPT0QgQ09VTlQKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KVEVTVCAgICAgICAgICAgICAgICAgICAgICAgICAgUkVTVUxUICAgICAgVU5JVCAgICAgICAgICBSRUZFUkVOQ0UgUkFOR0UKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KSEFFTU9HTE9CSU4gICAgICAgICAgICAgICAgICAgMTMuNiAgICAgICAgZ20vZEwgICAgICAgICAxMi4wIC0gMTUuNQpSLkIuQy4gQ09VTlQgICAgICAgICAgICAgICAgICA1LjExICAgICAgICBtaWxsL2N1bW0gICAgIDQuMDAgLSA1LjIwClAuQy5WLiAgICAgICAgICAgICAgICAgICAgICAgIDQ3LjYgSCAgICAgICUgICAgICAgICAgICAgMzYuMCAtIDQ2LjAKTS5DLlYuICAgICAgICAgICAgICAgICAgICAgICAgOTMuMCAgICAgICAgZkwgICAgICAgICAgICA4My4wIC0gMTAxLjAKTS5DLkguICAgICAgICAgICAgICAgICAgICAgICAgMjYuNiBMICAgICAgcGcgICAgICAgICAgICAyNy4wIC0gMzIuMApNLkMuSC5DLiAgICAgICAgICAgICAgICAgICAgICAyOC42IEwgICAgICBnL2RMICAgICAgICAgIDMxLjUgLSAzNC41ClRPVEFMIExFVUNPQ1lURSBDT1VOVCAgICAgICAgIDEwODUyICAgICAgIC9jdW1tICAgICAgICAgNDAwMCAtIDExMDAwCk5FVVRST1BISUxTICAgICAgICAgICAgICAgICAgIDcxICAgICAgICAgICUgICAgICAgICAgICAgNDAgLSA4MApQTEFURUxFVCBDT1VOVCAgICAgICAgICAgICAgICAzLjU0ICAgICAgICBsYWtoL2N1bW0gICAgIDEuNTAgLSA0LjEwCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKioqIEVORCBPRiBSRVBPUlQgKioqCiAgICAgICAgICAgICAgICAgICAgIFNZTlRIRVRJQyBTQU1QTEUgLSBOT1QgQSBSRUFMIFBBVElFTlQK",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "SP/26/223491",
+  "patient_name": "BHAGYASHREE DESHPANDE-KULKARNI",
+  "patient_age": 33,
+  "patient_sex": "female",
+  "collected": "2026-08-28",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "13.6",
+    "unit": "gm/dL",
+    "label": "HAEMOGLOBIN",
+    "flag": "",
+    "ref_low": "12.0",
+    "ref_high": "15.5"
+   },
+   {
+    "code": "RBC",
+    "value": "5.11",
+    "unit": "mill/cumm",
+    "label": "R.B.C. COUNT",
+    "flag": "",
+    "ref_low": "4.00",
+    "ref_high": "5.20"
+   },
+   {
+    "code": "HCT",
+    "value": "47.6",
+    "unit": "%",
+    "label": "P.C.V.",
+    "flag": "H",
+    "ref_low": "36.0",
+    "ref_high": "46.0"
+   },
+   {
+    "code": "MCV",
+    "value": "93.0",
+    "unit": "fL",
+    "label": "M.C.V.",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCH",
+    "value": "26.6",
+    "unit": "pg",
+    "label": "M.C.H.",
+    "flag": "L",
+    "ref_low": "27.0",
+    "ref_high": "32.0"
+   },
+   {
+    "code": "MCHC",
+    "value": "28.6",
+    "unit": "g/dL",
+    "label": "M.C.H.C.",
+    "flag": "L",
+    "ref_low": "31.5",
+    "ref_high": "34.5"
+   },
+   {
+    "code": "WBC",
+    "value": "10852",
+    "unit": "/cumm",
+    "label": "TOTAL LEUCOCYTE COUNT",
+    "flag": "",
+    "ref_low": "4000",
+    "ref_high": "11000"
+   },
+   {
+    "code": "NEUT%",
+    "value": "71",
+    "unit": "%",
+    "label": "NEUTROPHILS",
+    "flag": "",
+    "ref_low": "40",
+    "ref_high": "80"
+   },
+   {
+    "code": "PLT",
+    "value": "3.54",
+    "unit": "lakh/cumm",
+    "label": "PLATELET COUNT",
+    "flag": "",
+    "ref_low": "1.50",
+    "ref_high": "4.10"
+   }
+  ],
+  "collected_time": "08:20",
+  "reported": "2026-08-28",
+  "notes": [],
+  "flag_semantics": "direction"
+ },
+ "note": "",
+ "split": "test"
+}

@@ -1,0 +1,5182 @@
+{
+ "summary": {
+  "mutants": 334,
+  "killed": 215,
+  "survived": 119,
+  "kill_rate": 0.644,
+  "killed_mutants_that_would_create_unsafe_or_silent_accepts": 42,
+  "by_file": {
+   "validators.py": {
+    "n": 130,
+    "killed": 96
+   },
+   "sentinel.py": {
+    "n": 7,
+    "killed": 1
+   },
+   "interpreter.py": {
+    "n": 197,
+    "killed": 118
+   }
+  },
+  "survivors": [
+   {
+    "file": "validators.py",
+    "function": "validate",
+    "op": "bool",
+    "line": 41,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "validate",
+    "op": "cmp",
+    "line": 66,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "validate",
+    "op": "bool",
+    "line": 94,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "validate",
+    "op": "bool",
+    "line": 62,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "validate",
+    "op": "const",
+    "line": 47,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "validate",
+    "op": "bool",
+    "line": 49,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "validate",
+    "op": "const",
+    "line": 66,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "validate",
+    "op": "const",
+    "line": 66,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "validate",
+    "op": "const",
+    "line": 57,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "validate",
+    "op": "const",
+    "line": 57,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "validate",
+    "op": "const",
+    "line": 57,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "validate",
+    "op": "const",
+    "line": 62,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "validate",
+    "op": "cmp",
+    "line": 99,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "validate",
+    "op": "bool",
+    "line": 99,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "validate",
+    "op": "const",
+    "line": 99,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "validate",
+    "op": "const",
+    "line": 57,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "validate",
+    "op": "cmp",
+    "line": 99,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "validate",
+    "op": "const",
+    "line": 99,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "validate",
+    "op": "const",
+    "line": 99,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "validate",
+    "op": "const",
+    "line": 99,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "_interval",
+    "op": "const",
+    "line": 116,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "_interval",
+    "op": "const",
+    "line": 116,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "_interval",
+    "op": "const",
+    "line": 117,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "domain_consistency",
+    "op": "bool",
+    "line": 127,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "domain_consistency",
+    "op": "cmp",
+    "line": 145,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "domain_consistency",
+    "op": "const",
+    "line": 147,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "domain_consistency",
+    "op": "const",
+    "line": 140,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "domain_consistency",
+    "op": "const",
+    "line": 149,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "domain_consistency",
+    "op": "const",
+    "line": 151,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "domain_consistency",
+    "op": "const",
+    "line": 140,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "domain_consistency",
+    "op": "const",
+    "line": 147,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "domain_consistency",
+    "op": "const",
+    "line": 147,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "domain_consistency",
+    "op": "const",
+    "line": 140,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "validators.py",
+    "function": "domain_consistency",
+    "op": "const",
+    "line": 140,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "sentinel.py",
+    "function": "_analyte_re",
+    "op": "cmp",
+    "line": 47,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "sentinel.py",
+    "function": "_analyte_re",
+    "op": "const",
+    "line": 47,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "sentinel.py",
+    "function": "unconsumed_text",
+    "op": "const",
+    "line": 56,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "sentinel.py",
+    "function": "scan",
+    "op": "const",
+    "line": 65,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "sentinel.py",
+    "function": "scan",
+    "op": "const",
+    "line": 69,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "sentinel.py",
+    "function": "scan",
+    "op": "const",
+    "line": 69,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_field",
+    "op": "raise",
+    "line": 154,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_field",
+    "op": "bool",
+    "line": 143,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_field",
+    "op": "raise",
+    "line": 148,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_field",
+    "op": "raise",
+    "line": 159,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_field",
+    "op": "raise",
+    "line": 165,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_field",
+    "op": "const",
+    "line": 140,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "raise",
+    "line": 189,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "raise",
+    "line": 192,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "raise",
+    "line": 253,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "cmp",
+    "line": 202,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "raise",
+    "line": 203,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "raise",
+    "line": 206,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "const",
+    "line": 235,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "const",
+    "line": 239,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "bool",
+    "line": 259,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "raise",
+    "line": 270,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "raise",
+    "line": 273,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "bool",
+    "line": 216,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "raise",
+    "line": 217,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "raise",
+    "line": 230,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "const",
+    "line": 238,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "cmp",
+    "line": 259,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "raise",
+    "line": 281,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "bool",
+    "line": 202,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "const",
+    "line": 259,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "const",
+    "line": 260,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "cmp",
+    "line": 283,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "raise",
+    "line": 290,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "const",
+    "line": 204,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "cmp",
+    "line": 205,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "const",
+    "line": 190,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "const",
+    "line": 203,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "const",
+    "line": 205,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "const",
+    "line": 206,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "cmp",
+    "line": 216,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "cmp",
+    "line": 229,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "const",
+    "line": 251,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "const",
+    "line": 203,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "const",
+    "line": 217,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "const",
+    "line": 230,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "_table",
+    "op": "const",
+    "line": 243,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "header_matches_at",
+    "op": "bool",
+    "line": 346,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "page1_ok",
+    "op": "bool",
+    "line": 353,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "check_pages",
+    "op": "not",
+    "line": 379,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "check_pages",
+    "op": "raise",
+    "line": 382,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "check_pages",
+    "op": "raise",
+    "line": 384,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "check_pages",
+    "op": "const",
+    "line": 375,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "check_pages",
+    "op": "const",
+    "line": 375,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "check_pages",
+    "op": "const",
+    "line": 384,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "check_pages",
+    "op": "const",
+    "line": 384,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "classify_lines",
+    "op": "raise",
+    "line": 489,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "classify_lines",
+    "op": "raise",
+    "line": 496,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "classify_lines",
+    "op": "raise",
+    "line": 502,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "classify_lines",
+    "op": "cmp",
+    "line": 472,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "classify_lines",
+    "op": "bool",
+    "line": 479,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "classify_lines",
+    "op": "cmp",
+    "line": 487,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "classify_lines",
+    "op": "bool",
+    "line": 478,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "classify_lines",
+    "op": "not",
+    "line": 479,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "classify_lines",
+    "op": "const",
+    "line": 489,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "classify_lines",
+    "op": "const",
+    "line": 496,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "classify_lines",
+    "op": "const",
+    "line": 500,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "classify_lines",
+    "op": "const",
+    "line": 502,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "classify_lines",
+    "op": "const",
+    "line": 489,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "classify_lines",
+    "op": "const",
+    "line": 496,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "classify_lines",
+    "op": "const",
+    "line": 500,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "numeric_text_check",
+    "op": "const",
+    "line": 578,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "numeric_text_check",
+    "op": "const",
+    "line": 578,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "recognise_v3",
+    "op": "cmp",
+    "line": 583,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "process",
+    "op": "raise",
+    "line": 592,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "process",
+    "op": "const",
+    "line": 597,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "process",
+    "op": "cmp",
+    "line": 602,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "process",
+    "op": "raise",
+    "line": 620,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "process",
+    "op": "bool",
+    "line": 603,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "process",
+    "op": "raise",
+    "line": 614,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "process",
+    "op": "cmp",
+    "line": 609,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "process",
+    "op": "const",
+    "line": 620,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "process",
+    "op": "const",
+    "line": 609,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "process",
+    "op": "const",
+    "line": 612,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   },
+   {
+    "file": "interpreter.py",
+    "function": "process",
+    "op": "const",
+    "line": 614,
+    "status": "survived",
+    "n_diff": 0,
+    "creates_unsafe_or_silent": 0,
+    "example": []
+   }
+  ]
+ },
+ "all": [
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "bool",
+   "line": 35,
+   "status": "killed",
+   "n_diff": 231,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "not",
+   "line": 39,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "not",
+   "line": 43,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "not",
+   "line": 53,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "bool",
+   "line": 66,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 68,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "bool",
+   "line": 71,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "not",
+   "line": 72,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "bool",
+   "line": 41,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "bool",
+   "line": 45,
+   "status": "killed",
+   "n_diff": 1,
+   "creates_unsafe_or_silent": 1,
+   "example": [
+    "C-3246000-wrong_code_page"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "not",
+   "line": 57,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 66,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "not",
+   "line": 66,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 78,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 81,
+   "status": "killed",
+   "n_diff": 231,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 85,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "not",
+   "line": 91,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "bool",
+   "line": 94,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "not",
+   "line": 41,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "not",
+   "line": 41,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "not",
+   "line": 45,
+   "status": "killed",
+   "n_diff": 205,
+   "creates_unsafe_or_silent": 1,
+   "example": [
+    "C-3246000-wrong_code_page"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 45,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 45,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 47,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 57,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 57,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "bool",
+   "line": 62,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 66,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 66,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 91,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 91,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 94,
+   "status": "killed",
+   "n_diff": 3,
+   "creates_unsafe_or_silent": 3,
+   "example": [
+    "A-3032000-flag_inconsistent",
+    "D-3332000-flag_inconsistent"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 94,
+   "status": "killed",
+   "n_diff": 3,
+   "creates_unsafe_or_silent": 3,
+   "example": [
+    "A-3032000-flag_inconsistent",
+    "D-3332000-flag_inconsistent"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 96,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "bool",
+   "line": 101,
+   "status": "killed",
+   "n_diff": 3,
+   "creates_unsafe_or_silent": 3,
+   "example": [
+    "A-3032000-flag_inconsistent",
+    "D-3332000-flag_inconsistent"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "bool",
+   "line": 102,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "bool",
+   "line": 104,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "bool",
+   "line": 106,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 47,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "bool",
+   "line": 49,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 62,
+   "status": "killed",
+   "n_diff": 106,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 62,
+   "status": "killed",
+   "n_diff": 106,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 66,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 66,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "bool",
+   "line": 99,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 102,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "not",
+   "line": 102,
+   "status": "killed",
+   "n_diff": 57,
+   "creates_unsafe_or_silent": 1,
+   "example": [
+    "F-3532000-flag_inconsistent"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 104,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "not",
+   "line": 104,
+   "status": "killed",
+   "n_diff": 50,
+   "creates_unsafe_or_silent": 1,
+   "example": [
+    "D-3332000-flag_inconsistent"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 106,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 106,
+   "status": "killed",
+   "n_diff": 46,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "B-3100000-clean",
+    "B-3100001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 106,
+   "status": "killed",
+   "n_diff": 48,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "B-3100002-clean",
+    "B-3100003-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 57,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 57,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 57,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 62,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 99,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "bool",
+   "line": 99,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 102,
+   "status": "killed",
+   "n_diff": 57,
+   "creates_unsafe_or_silent": 1,
+   "example": [
+    "F-3532000-flag_inconsistent"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 104,
+   "status": "killed",
+   "n_diff": 50,
+   "creates_unsafe_or_silent": 1,
+   "example": [
+    "D-3332000-flag_inconsistent"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 99,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 99,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "bool",
+   "line": 99,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 57,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 99,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "cmp",
+   "line": 99,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 99,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 99,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "validate",
+   "op": "const",
+   "line": 99,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "_interval",
+   "op": "cmp",
+   "line": 116,
+   "status": "killed",
+   "n_diff": 8,
+   "creates_unsafe_or_silent": 8,
+   "example": [
+    "A-3040000-index_inconsistent",
+    "B-3139000-row_value_swap"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "_interval",
+   "op": "const",
+   "line": 116,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "_interval",
+   "op": "const",
+   "line": 116,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "_interval",
+   "op": "const",
+   "line": 117,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "_interval",
+   "op": "const",
+   "line": 117,
+   "status": "killed",
+   "n_diff": 1,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "E-3400004-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "_interval",
+   "op": "const",
+   "line": 117,
+   "status": "killed",
+   "n_diff": 128,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "bool",
+   "line": 141,
+   "status": "killed",
+   "n_diff": 76,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "C-3200000-clean",
+    "C-3200001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "bool",
+   "line": 143,
+   "status": "killed",
+   "n_diff": 124,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "C-3200000-clean",
+    "C-3200001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "bool",
+   "line": 145,
+   "status": "killed",
+   "n_diff": 123,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "C-3200000-clean",
+    "C-3200001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "bool",
+   "line": 147,
+   "status": "killed",
+   "n_diff": 227,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "bool",
+   "line": 149,
+   "status": "killed",
+   "n_diff": 226,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "bool",
+   "line": 151,
+   "status": "killed",
+   "n_diff": 226,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "bool",
+   "line": 127,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "bool",
+   "line": 137,
+   "status": "killed",
+   "n_diff": 7,
+   "creates_unsafe_or_silent": 7,
+   "example": [
+    "A-3039000-row_value_swap",
+    "A-3040000-index_inconsistent"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "cmp",
+   "line": 141,
+   "status": "killed",
+   "n_diff": 5,
+   "creates_unsafe_or_silent": 5,
+   "example": [
+    "A-3039000-row_value_swap",
+    "B-3139000-row_value_swap"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "cmp",
+   "line": 143,
+   "status": "killed",
+   "n_diff": 2,
+   "creates_unsafe_or_silent": 2,
+   "example": [
+    "A-3040000-index_inconsistent",
+    "B-3140000-index_inconsistent"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "cmp",
+   "line": 145,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "cmp",
+   "line": 147,
+   "status": "killed",
+   "n_diff": 2,
+   "creates_unsafe_or_silent": 2,
+   "example": [
+    "A-3043000-differential_over_100",
+    "B-3143002-differential_over_100"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "cmp",
+   "line": 147,
+   "status": "killed",
+   "n_diff": 34,
+   "creates_unsafe_or_silent": 2,
+   "example": [
+    "A-3043000-differential_over_100",
+    "B-3143002-differential_over_100"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "cmp",
+   "line": 149,
+   "status": "killed",
+   "n_diff": 1,
+   "creates_unsafe_or_silent": 1,
+   "example": [
+    "C-3241000-bilirubin_inverted"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "cmp",
+   "line": 149,
+   "status": "killed",
+   "n_diff": 36,
+   "creates_unsafe_or_silent": 1,
+   "example": [
+    "C-3241000-bilirubin_inverted"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "cmp",
+   "line": 151,
+   "status": "killed",
+   "n_diff": 1,
+   "creates_unsafe_or_silent": 1,
+   "example": [
+    "C-3242000-protein_inverted"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "cmp",
+   "line": 151,
+   "status": "killed",
+   "n_diff": 35,
+   "creates_unsafe_or_silent": 1,
+   "example": [
+    "C-3242000-protein_inverted"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "cmp",
+   "line": 127,
+   "status": "killed",
+   "n_diff": 11,
+   "creates_unsafe_or_silent": 11,
+   "example": [
+    "A-3039000-row_value_swap",
+    "A-3040000-index_inconsistent"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "cmp",
+   "line": 127,
+   "status": "killed",
+   "n_diff": 11,
+   "creates_unsafe_or_silent": 11,
+   "example": [
+    "A-3039000-row_value_swap",
+    "A-3040000-index_inconsistent"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "cmp",
+   "line": 137,
+   "status": "killed",
+   "n_diff": 138,
+   "creates_unsafe_or_silent": 1,
+   "example": [
+    "F-3540000-index_inconsistent"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "cmp",
+   "line": 137,
+   "status": "killed",
+   "n_diff": 137,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "cmp",
+   "line": 140,
+   "status": "killed",
+   "n_diff": 7,
+   "creates_unsafe_or_silent": 7,
+   "example": [
+    "A-3039000-row_value_swap",
+    "A-3040000-index_inconsistent"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 147,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 140,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 142,
+   "status": "killed",
+   "n_diff": 137,
+   "creates_unsafe_or_silent": 1,
+   "example": [
+    "E-3440000-index_inconsistent"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 144,
+   "status": "killed",
+   "n_diff": 92,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 146,
+   "status": "killed",
+   "n_diff": 79,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 149,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 149,
+   "status": "killed",
+   "n_diff": 40,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "C-3200000-clean",
+    "C-3200001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 151,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 151,
+   "status": "killed",
+   "n_diff": 39,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "C-3200000-clean",
+    "C-3200001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 133,
+   "status": "killed",
+   "n_diff": 156,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 133,
+   "status": "killed",
+   "n_diff": 34,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000005-clean",
+    "A-3000011-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 137,
+   "status": "killed",
+   "n_diff": 135,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 137,
+   "status": "killed",
+   "n_diff": 155,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 140,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 147,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 147,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 133,
+   "status": "killed",
+   "n_diff": 95,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 133,
+   "status": "killed",
+   "n_diff": 156,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 138,
+   "status": "killed",
+   "n_diff": 10,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3039000-row_value_swap",
+    "A-3040000-index_inconsistent"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 138,
+   "status": "killed",
+   "n_diff": 10,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3039000-row_value_swap",
+    "A-3040000-index_inconsistent"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 140,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "op": "const",
+   "line": 140,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "validators.py",
+   "function": "div",
+   "op": "const",
+   "line": 133,
+   "status": "killed",
+   "n_diff": 156,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "div",
+   "op": "const",
+   "line": 133,
+   "status": "killed",
+   "n_diff": 34,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000005-clean",
+    "A-3000011-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "div",
+   "op": "const",
+   "line": 133,
+   "status": "killed",
+   "n_diff": 95,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "div",
+   "op": "const",
+   "line": 133,
+   "status": "killed",
+   "n_diff": 156,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "check",
+   "op": "bool",
+   "line": 137,
+   "status": "killed",
+   "n_diff": 7,
+   "creates_unsafe_or_silent": 7,
+   "example": [
+    "A-3039000-row_value_swap",
+    "A-3040000-index_inconsistent"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "check",
+   "op": "cmp",
+   "line": 137,
+   "status": "killed",
+   "n_diff": 138,
+   "creates_unsafe_or_silent": 1,
+   "example": [
+    "F-3540000-index_inconsistent"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "check",
+   "op": "cmp",
+   "line": 137,
+   "status": "killed",
+   "n_diff": 137,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "check",
+   "op": "const",
+   "line": 137,
+   "status": "killed",
+   "n_diff": 135,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "check",
+   "op": "const",
+   "line": 137,
+   "status": "killed",
+   "n_diff": 155,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "check",
+   "op": "const",
+   "line": 138,
+   "status": "killed",
+   "n_diff": 10,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3039000-row_value_swap",
+    "A-3040000-index_inconsistent"
+   ]
+  },
+  {
+   "file": "validators.py",
+   "function": "check",
+   "op": "const",
+   "line": 138,
+   "status": "killed",
+   "n_diff": 10,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3039000-row_value_swap",
+    "A-3040000-index_inconsistent"
+   ]
+  },
+  {
+   "file": "sentinel.py",
+   "function": "_analyte_re",
+   "op": "cmp",
+   "line": 47,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "sentinel.py",
+   "function": "_analyte_re",
+   "op": "const",
+   "line": 47,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "sentinel.py",
+   "function": "unconsumed_text",
+   "op": "cmp",
+   "line": 56,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "sentinel.py",
+   "function": "unconsumed_text",
+   "op": "const",
+   "line": 56,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "sentinel.py",
+   "function": "scan",
+   "op": "const",
+   "line": 65,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "sentinel.py",
+   "function": "scan",
+   "op": "const",
+   "line": 69,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "sentinel.py",
+   "function": "scan",
+   "op": "const",
+   "line": 69,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "cmp",
+   "line": 134,
+   "status": "killed",
+   "n_diff": 258,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "not",
+   "line": 146,
+   "status": "killed",
+   "n_diff": 210,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "cmp",
+   "line": 150,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "raise",
+   "line": 151,
+   "status": "killed",
+   "n_diff": 1,
+   "creates_unsafe_or_silent": 1,
+   "example": [
+    "B-3133000-conflicting_patient_id"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "bool",
+   "line": 153,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "raise",
+   "line": 154,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "cmp",
+   "line": 138,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "bool",
+   "line": 143,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "raise",
+   "line": 148,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "const",
+   "line": 150,
+   "status": "killed",
+   "n_diff": 1,
+   "creates_unsafe_or_silent": 1,
+   "example": [
+    "B-3133000-conflicting_patient_id"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "const",
+   "line": 152,
+   "status": "killed",
+   "n_diff": 306,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "not",
+   "line": 153,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "cmp",
+   "line": 157,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "cmp",
+   "line": 161,
+   "status": "killed",
+   "n_diff": 305,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "cmp",
+   "line": 163,
+   "status": "killed",
+   "n_diff": 305,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "raise",
+   "line": 168,
+   "status": "killed",
+   "n_diff": 6,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3026000-date_invalid",
+    "B-3126000-date_invalid"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "cmp",
+   "line": 140,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "cmp",
+   "line": 143,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "not",
+   "line": 158,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "raise",
+   "line": 159,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "cmp",
+   "line": 164,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "raise",
+   "line": 165,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_field",
+   "op": "const",
+   "line": 140,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 188,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 189,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 191,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 192,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 193,
+   "status": "killed",
+   "n_diff": 260,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "bool",
+   "line": 207,
+   "status": "killed",
+   "n_diff": 15,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3007001-approved_note",
+    "A-3009001-section_subheading"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 251,
+   "status": "killed",
+   "n_diff": 1,
+   "creates_unsafe_or_silent": 1,
+   "example": [
+    "C-3222000-unit_missing"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "not",
+   "line": 252,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 253,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 202,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 203,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 206,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "bool",
+   "line": 215,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "bool",
+   "line": 224,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 235,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 239,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 243,
+   "status": "killed",
+   "n_diff": 10,
+   "creates_unsafe_or_silent": 10,
+   "example": [
+    "A-3038000-text_between_rows_with_number",
+    "B-3123000-value_corrupt"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 244,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 247,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 252,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 252,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "bool",
+   "line": 259,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 265,
+   "status": "killed",
+   "n_diff": 205,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 266,
+   "status": "killed",
+   "n_diff": 5,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3028000-unknown_test",
+    "B-3128000-unknown_test"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "not",
+   "line": 269,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 270,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "not",
+   "line": 272,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 273,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 275,
+   "status": "killed",
+   "n_diff": 205,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 276,
+   "status": "killed",
+   "n_diff": 7,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3021000-unit_incompatible",
+    "A-3022000-unit_missing"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "bool",
+   "line": 216,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 217,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 224,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "bool",
+   "line": 229,
+   "status": "killed",
+   "n_diff": 172,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 230,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 238,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 259,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "bool",
+   "line": 264,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 280,
+   "status": "killed",
+   "n_diff": 124,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000001-clean",
+    "A-3000002-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 281,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "bool",
+   "line": 283,
+   "status": "killed",
+   "n_diff": 37,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "B-3100000-clean",
+    "B-3100001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "bool",
+   "line": 202,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "bool",
+   "line": 205,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 210,
+   "status": "killed",
+   "n_diff": 139,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 259,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 260,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "bool",
+   "line": 268,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "bool",
+   "line": 271,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "bool",
+   "line": 277,
+   "status": "killed",
+   "n_diff": 229,
+   "creates_unsafe_or_silent": 1,
+   "example": [
+    "D-3332000-flag_inconsistent"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 283,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "not",
+   "line": 289,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "raise",
+   "line": 290,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 204,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 205,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 205,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 210,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 248,
+   "status": "killed",
+   "n_diff": 138,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 263,
+   "status": "killed",
+   "n_diff": 37,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "B-3100000-clean",
+    "B-3100001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "bool",
+   "line": 287,
+   "status": "killed",
+   "n_diff": 3,
+   "creates_unsafe_or_silent": 3,
+   "example": [
+    "A-3032000-flag_inconsistent",
+    "D-3332000-flag_inconsistent"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 190,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 203,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 205,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 206,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 216,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "cmp",
+   "line": 229,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 251,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 200,
+   "status": "killed",
+   "n_diff": 32,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "E-3400000-clean",
+    "E-3400001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 203,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 217,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 230,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "_table",
+   "op": "const",
+   "line": 243,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "header_matches_at",
+   "op": "bool",
+   "line": 346,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "header_matches_at",
+   "op": "cmp",
+   "line": 346,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "page1_ok",
+   "op": "cmp",
+   "line": 350,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "page1_ok",
+   "op": "bool",
+   "line": 353,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "page1_ok",
+   "op": "const",
+   "line": 353,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "op": "not",
+   "line": 379,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "op": "cmp",
+   "line": 381,
+   "status": "killed",
+   "n_diff": 43,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3004000-page_break",
+    "A-3004001-page_break"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "op": "raise",
+   "line": 382,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "op": "not",
+   "line": 383,
+   "status": "killed",
+   "n_diff": 43,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3004000-page_break",
+    "A-3004001-page_break"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "op": "raise",
+   "line": 384,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "op": "const",
+   "line": 375,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "op": "cmp",
+   "line": 376,
+   "status": "killed",
+   "n_diff": 71,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3004000-page_break",
+    "A-3004001-page_break"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "op": "const",
+   "line": 375,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "op": "const",
+   "line": 383,
+   "status": "killed",
+   "n_diff": 43,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3004000-page_break",
+    "A-3004001-page_break"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "op": "const",
+   "line": 384,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "op": "const",
+   "line": 384,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "line_key",
+   "op": "cmp",
+   "line": 434,
+   "status": "killed",
+   "n_diff": 172,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "line_key",
+   "op": "cmp",
+   "line": 439,
+   "status": "killed",
+   "n_diff": 170,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "B-3100000-clean",
+    "B-3100001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "line_key",
+   "op": "bool",
+   "line": 444,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "line_key",
+   "op": "cmp",
+   "line": 446,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "line_key",
+   "op": "bool",
+   "line": 431,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "line_key",
+   "op": "cmp",
+   "line": 444,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "line_key",
+   "op": "cmp",
+   "line": 431,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "line_key",
+   "op": "bool",
+   "line": 436,
+   "status": "killed",
+   "n_diff": 2,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3004000-page_break",
+    "A-3004001-page_break"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "line_key",
+   "op": "not",
+   "line": 436,
+   "status": "killed",
+   "n_diff": 2,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3004000-page_break",
+    "A-3004001-page_break"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "line_key",
+   "op": "const",
+   "line": 449,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "cmp",
+   "line": 470,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "cmp",
+   "line": 470,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "bool",
+   "line": 471,
+   "status": "killed",
+   "n_diff": 11,
+   "creates_unsafe_or_silent": 4,
+   "example": [
+    "A-3045000-hidden_qualitative_result",
+    "B-3145000-hidden_qualitative_result"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "bool",
+   "line": 475,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "bool",
+   "line": 478,
+   "status": "killed",
+   "n_diff": 7,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3017000-unapproved_note_style",
+    "B-3117000-unapproved_note_style"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "cmp",
+   "line": 488,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "raise",
+   "line": 489,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "cmp",
+   "line": 491,
+   "status": "killed",
+   "n_diff": 260,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "cmp",
+   "line": 495,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "raise",
+   "line": 496,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "bool",
+   "line": 499,
+   "status": "killed",
+   "n_diff": 1,
+   "creates_unsafe_or_silent": 1,
+   "example": [
+    "A-3045000-hidden_qualitative_result"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "raise",
+   "line": 500,
+   "status": "killed",
+   "n_diff": 1,
+   "creates_unsafe_or_silent": 1,
+   "example": [
+    "A-3045000-hidden_qualitative_result"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "bool",
+   "line": 501,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "raise",
+   "line": 502,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "cmp",
+   "line": 467,
+   "status": "killed",
+   "n_diff": 260,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "bool",
+   "line": 471,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "cmp",
+   "line": 472,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "cmp",
+   "line": 475,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "cmp",
+   "line": 475,
+   "status": "killed",
+   "n_diff": 11,
+   "creates_unsafe_or_silent": 4,
+   "example": [
+    "A-3045000-hidden_qualitative_result",
+    "B-3145000-hidden_qualitative_result"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "not",
+   "line": 478,
+   "status": "killed",
+   "n_diff": 17,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3007000-approved_note",
+    "A-3008000-interpretive_note"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "bool",
+   "line": 478,
+   "status": "killed",
+   "n_diff": 17,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3007000-approved_note",
+    "A-3008000-interpretive_note"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "bool",
+   "line": 479,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "cmp",
+   "line": 487,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "cmp",
+   "line": 498,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "cmp",
+   "line": 499,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "cmp",
+   "line": 499,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "bool",
+   "line": 499,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "not",
+   "line": 499,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "cmp",
+   "line": 471,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "cmp",
+   "line": 471,
+   "status": "killed",
+   "n_diff": 5,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3007001-approved_note",
+    "B-3107001-approved_note"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "bool",
+   "line": 478,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "not",
+   "line": 479,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "cmp",
+   "line": 499,
+   "status": "killed",
+   "n_diff": 135,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "cmp",
+   "line": 499,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "cmp",
+   "line": 499,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "const",
+   "line": 480,
+   "status": "killed",
+   "n_diff": 10,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3008000-interpretive_note",
+    "A-3008001-interpretive_note"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "const",
+   "line": 489,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "const",
+   "line": 496,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "const",
+   "line": 500,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "const",
+   "line": 502,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "const",
+   "line": 480,
+   "status": "killed",
+   "n_diff": 10,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3008000-interpretive_note",
+    "A-3008001-interpretive_note"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "const",
+   "line": 489,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "const",
+   "line": 496,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "op": "const",
+   "line": 500,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "checked_lines",
+   "op": "bool",
+   "line": 541,
+   "status": "killed",
+   "n_diff": 8,
+   "creates_unsafe_or_silent": 2,
+   "example": [
+    "B-3144000-hidden_numeric_result",
+    "F-3544001-hidden_numeric_result"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "checked_lines",
+   "op": "cmp",
+   "line": 541,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "checked_lines",
+   "op": "cmp",
+   "line": 541,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "checked_lines",
+   "op": "cmp",
+   "line": 541,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "numeric_skeleton",
+   "op": "bool",
+   "line": 555,
+   "status": "killed",
+   "n_diff": 8,
+   "creates_unsafe_or_silent": 2,
+   "example": [
+    "B-3144000-hidden_numeric_result",
+    "F-3544001-hidden_numeric_result"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "numeric_skeleton",
+   "op": "not",
+   "line": 555,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "numeric_skeleton",
+   "op": "not",
+   "line": 555,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "numeric_text_check",
+   "op": "bool",
+   "line": 577,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "numeric_text_check",
+   "op": "raise",
+   "line": 578,
+   "status": "killed",
+   "n_diff": 8,
+   "creates_unsafe_or_silent": 2,
+   "example": [
+    "B-3144000-hidden_numeric_result",
+    "F-3544001-hidden_numeric_result"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "numeric_text_check",
+   "op": "cmp",
+   "line": 577,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "numeric_text_check",
+   "op": "cmp",
+   "line": 577,
+   "status": "killed",
+   "n_diff": 173,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "numeric_text_check",
+   "op": "const",
+   "line": 578,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "numeric_text_check",
+   "op": "const",
+   "line": 578,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "recognise_v3",
+   "op": "cmp",
+   "line": 583,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "cmp",
+   "line": 591,
+   "status": "killed",
+   "n_diff": 363,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "raise",
+   "line": 592,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "not",
+   "line": 595,
+   "status": "killed",
+   "n_diff": 245,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "cmp",
+   "line": 597,
+   "status": "killed",
+   "n_diff": 204,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "const",
+   "line": 597,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "const",
+   "line": 599,
+   "status": "killed",
+   "n_diff": 322,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "cmp",
+   "line": 602,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "cmp",
+   "line": 605,
+   "status": "killed",
+   "n_diff": 29,
+   "creates_unsafe_or_silent": 16,
+   "example": [
+    "A-3035000-extra_section_unknown_tests",
+    "A-3044000-hidden_numeric_result"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "cmp",
+   "line": 607,
+   "status": "killed",
+   "n_diff": 11,
+   "creates_unsafe_or_silent": 4,
+   "example": [
+    "A-3045000-hidden_qualitative_result",
+    "B-3145000-hidden_qualitative_result"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "raise",
+   "line": 620,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "bool",
+   "line": 603,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "cmp",
+   "line": 606,
+   "status": "killed",
+   "n_diff": 17,
+   "creates_unsafe_or_silent": 0,
+   "example": [
+    "A-3007000-approved_note",
+    "A-3008000-interpretive_note"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "raise",
+   "line": 612,
+   "status": "killed",
+   "n_diff": 2,
+   "creates_unsafe_or_silent": 2,
+   "example": [
+    "B-3145000-hidden_qualitative_result",
+    "F-3545000-hidden_qualitative_result"
+   ]
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "raise",
+   "line": 614,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "cmp",
+   "line": 609,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "const",
+   "line": 620,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "const",
+   "line": 609,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "const",
+   "line": 612,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  },
+  {
+   "file": "interpreter.py",
+   "function": "process",
+   "op": "const",
+   "line": 614,
+   "status": "survived",
+   "n_diff": 0,
+   "creates_unsafe_or_silent": 0,
+   "example": []
+  }
+ ]
+}

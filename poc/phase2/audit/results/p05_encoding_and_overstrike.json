@@ -1,0 +1,58 @@
+{
+ "utf8_e_acute/utf-8": {
+  "sniff": "text+escp",
+  "status": "REJECT",
+  "reasons": [
+   "V2 implausible patient_name 'Jos\u00e9 Shinde'"
+  ],
+  "extracted_name": "Jos\u00e9 Shinde"
+ },
+ "utf8_e_acute/cp1252": {
+  "sniff": "text+escp",
+  "status": "REJECT",
+  "reasons": [
+   "V2 implausible patient_name 'Jos\u0398 Shinde'"
+  ],
+  "extracted_name": "Jos\u0398 Shinde"
+ },
+ "plain_ascii/utf-8": {
+  "sniff": "text+escp",
+  "status": "ACCEPT",
+  "reasons": [],
+  "extracted_name": "Jose Shinde"
+ },
+ "plain_ascii/cp1252": {
+  "sniff": "text+escp",
+  "status": "ACCEPT",
+  "reasons": [],
+  "extracted_name": "Jose Shinde"
+ },
+ "cp437_box_drawing_layoutD": {
+  "sniff": "binary-unknown",
+  "normalized_ok": false,
+  "notes": [
+   "unsupported format: binary-unknown"
+  ]
+ },
+ "bold_overstrike": {
+  "status": "ACCEPT",
+  "name": "AARAV MEHTA",
+  "reasons": []
+ },
+ "underline_overstrike": {
+  "status": "REJECT",
+  "name": "___________",
+  "reasons": [
+   "V2 implausible patient_name '___________'"
+  ]
+ },
+ "underline_first": {
+  "status": "ACCEPT",
+  "name": "AARAV MEHTA",
+  "reasons": []
+ },
+ "cr_overprint_line": {
+  "status": "ACCEPT",
+  "reasons": []
+ }
+}

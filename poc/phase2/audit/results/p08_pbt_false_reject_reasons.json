@@ -1,0 +1,67 @@
+{
+ "totals": {
+  "correct_reject": 2195,
+  "false_reject": 402,
+  "correct_accept": 399,
+  "unsafe_accept": 4
+ },
+ "false_reject_reasons_by_fuzz": {
+  "(no fuzz)": {
+   "missing_field": 60
+  },
+  "blank_lines": {
+   "missing_field": 9
+  },
+  "blank_lines+comment_line": {
+   "unparsed_content": 44,
+   "missing_field": 5
+  },
+  "blank_lines+digit_change": {
+   "missing_field": 7,
+   "V5 implausible": 2
+  },
+  "blank_lines+static_char_damage": {
+   "unparsed_content": 12,
+   "missing_field": 7,
+   "rows_outside_table": 3,
+   "unknown_layout": 3,
+   "table_end_missing": 2,
+   "table_start_missing": 2
+  },
+  "comment_line": {
+   "unparsed_content": 59,
+   "missing_field": 12
+  },
+  "comment_line+digit_change": {
+   "unparsed_content": 40,
+   "missing_field": 3
+  },
+  "comment_line+static_char_damage": {
+   "unparsed_content": 25,
+   "missing_field": 14,
+   "unknown_layout": 6,
+   "table_end_missing": 4,
+   "rows_outside_table": 2,
+   "table_start_missing": 1
+  },
+  "digit_change": {
+   "missing_field": 12,
+   "V5 implausible": 2
+  },
+  "digit_change+static_char_damage": {
+   "unparsed_content": 12,
+   "missing_field": 6,
+   "table_end_missing": 4,
+   "unknown_layout": 3,
+   "rows_outside_table": 1
+  },
+  "static_char_damage": {
+   "unknown_layout": 12,
+   "missing_field": 12,
+   "unparsed_content": 10,
+   "rows_outside_table": 3,
+   "table_end_missing": 2,
+   "table_start_missing": 1
+  }
+ }
+}

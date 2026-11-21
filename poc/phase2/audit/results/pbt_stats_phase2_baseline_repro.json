@@ -1,0 +1,162 @@
+{
+ "stats": {
+  "A:correct_accept": 308,
+  "A:correct_reject": 127,
+  "A:false_reject": 61,
+  "A:unsafe_accept": 1,
+  "B:correct_accept": 277,
+  "B:correct_reject": 174,
+  "B:false_reject": 176,
+  "C:correct_accept": 301,
+  "C:correct_reject": 118,
+  "C:false_reject": 47,
+  "D:correct_accept": 271,
+  "D:correct_reject": 132,
+  "D:false_reject": 109,
+  "E:correct_accept": 229,
+  "E:correct_reject": 140,
+  "E:false_reject": 98,
+  "F:correct_accept": 211,
+  "F:correct_reject": 118,
+  "F:false_reject": 102,
+  "correct_accept": 1597,
+  "correct_reject": 809,
+  "false_reject": 593,
+  "fuzz:blank_lines:correct_accept": 116,
+  "fuzz:blank_lines:correct_reject": 175,
+  "fuzz:blank_lines:false_reject": 110,
+  "fuzz:comment_line:correct_reject": 173,
+  "fuzz:comment_line:false_reject": 246,
+  "fuzz:digit_change:correct_accept": 112,
+  "fuzz:digit_change:correct_reject": 180,
+  "fuzz:digit_change:false_reject": 133,
+  "fuzz:digit_change:unsafe_accept": 1,
+  "fuzz:static_char_damage:correct_accept": 63,
+  "fuzz:static_char_damage:correct_reject": 185,
+  "fuzz:static_char_damage:false_reject": 163,
+  "unsafe_accept": 1,
+  "unsafe_accept:data_correct=True": 1
+ },
+ "failures": [
+  {
+   "doc_id": "pbt-A-5208",
+   "cls": "unsafe_accept",
+   "perturbation": "page_break+header_changed+digit_change",
+   "data_correct": true,
+   "record": {
+    "binding_id": "lab-a",
+    "patient_id": "SP/26/519802",
+    "patient_name": "KIRAN SHARMA",
+    "patient_age": 7,
+    "patient_sex": "male",
+    "collected": "2026-07-16",
+    "reported": "2026-07-16",
+    "results": [
+     {
+      "label": "HAEMOGLOBIN",
+      "code": "HGB",
+      "value": "15.2",
+      "unit": "gm/dL",
+      "value_canonical": "15.2",
+      "unit_canonical": "g/dL",
+      "flag": "",
+      "ref_low": "13.0",
+      "ref_high": "17.0"
+     },
+     {
+      "label": "R.B.C. COUNT",
+      "code": "RBC",
+      "value": "4.34",
+      "unit": "mill/cumm",
+      "value_canonical": "4.34",
+      "unit_canonical": "10*6/uL",
+      "flag": "L",
+      "ref_low": "4.50",
+      "ref_high": "5.50"
+     },
+     {
+      "label": "P.C.V.",
+      "code": "HCT",
+      "value": "44.5",
+      "unit": "%",
+      "value_canonical": "44.5",
+      "unit_canonical": "%",
+      "flag": "",
+      "ref_low": "40.0",
+      "ref_high": "50.0"
+     },
+     {
+      "label": "M.C.V.",
+      "code": "MCV",
+      "value": "87.4",
+      "unit": "fL",
+      "value_canonical": "87.4",
+      "unit_canonical": "fL",
+      "flag": "",
+      "ref_low": "83.0",
+      "ref_high": "101.0"
+     },
+     {
+      "label": "M.C.H.",
+      "code": "MCH",
+      "value": "32.9",
+      "unit": "pg",
+      "value_canonical": "32.9",
+      "unit_canonical": "pg",
+      "flag": "H",
+      "ref_low": "27.0",
+      "ref_high": "32.0"
+     },
+     {
+      "label": "M.C.H.C.",
+      "code": "MCHC",
+      "value": "34.2",
+      "unit": "g/dL",
+      "value_canonical": "34.2",
+      "unit_canonical": "g/dL",
+      "flag": "",
+      "ref_low": "31.5",
+      "ref_high": "34.5"
+     },
+     {
+      "label": "TOTAL LEUCOCYTE COUNT",
+      "code": "WBC",
+      "value": "8897",
+      "unit": "/cumm",
+      "value_canonical": "8.897",
+      "unit_canonical": "10*3/uL",
+      "flag": "",
+      "ref_low": "4000",
+      "ref_high": "11000"
+     },
+     {
+      "label": "NEUTROPHILS",
+      "code": "NEUT%",
+      "value": "59",
+      "unit": "%",
+      "value_canonical": "59",
+      "unit_canonical": "%",
+      "flag": "",
+      "ref_low": "40",
+      "ref_high": "80"
+     },
+     {
+      "label": "PLATELET COUNT",
+      "code": "PLT",
+      "value": "2.10",
+      "unit": "lakh/cumm",
+      "value_canonical": "210.00",
+      "unit_canonical": "10*3/uL",
+      "flag": "",
+      "ref_low": "1.50",
+      "ref_high": "4.10"
+     }
+    ],
+    "collected_dt": "2026-07-16T07:15:00",
+    "reported_dt": "2026-07-16T20:05:00"
+   },
+   "truth": null,
+   "text": "                   SUNRISE DIAGNOSTICS & PATHOLOGY PVT. LTD.\n                 NABL-style format v2  |  Gangapur Road, Nashik\n================================================================================\nPatient Name : MR. KIRAN SHARMA                 Lab No.   : SP/26/519802\nAge / Sex    : 7 Yrs / M                        Collected : 16/07/2026 07:15\nRef. By      : DR. A. RAO                       Reported  : 16/07/2026 20:05\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   15.2        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  4.34 L      mill/cumm     4.50 - 5.50\n\n                                                       Continued on next page...\n\f                          SUNRISE PATHOLOGY LABORATORY\nPatient Name : MR. KIRAN SHARMA                 Lab No.   : SP/26/519802\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nP.C.V.                        44.5        %             40.0 - 50.0\nM.C.V.                        87.4        fL            83.0 - 101.0\nM.C.H.                        32.9 H      pg            27.0 - 32.0\nM.C.H.C.                      34.2        g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         8897        /cumm         4000 - 11000\nNEUTROPHILS                   59          %             40 - 80\nPLATELET COUNT                2.10        lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n"
+  }
+ ]
+}

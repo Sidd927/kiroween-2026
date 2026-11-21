@@ -1,0 +1,722 @@
+{
+ "binding_id": "lab-a",
+ "description": "Sunrise Pathology Laboratory CBC report with TEST/RESULT/UNIT/REFERENCE RANGE table",
+ "layout": {
+  "anchors": [
+   "^\\s*SUNRISE PATHOLOGY LABORATORY$",
+   "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$",
+   "^\\s*\\*\\*\\* END OF REPORT \\*\\*\\*$"
+  ]
+ },
+ "fields": {
+  "patient_id": {
+   "regex": "Lab No\\.\\s*:\\s*(?P<v>SP/\\d{2}/\\d+)",
+   "type": "string",
+   "required": true,
+   "pattern": "SP/\\d{2}/\\d+"
+  },
+  "patient_name": {
+   "regex": "^Patient Name\\s*:\\s*(?:(?:MR|MRS|MS|SMT|KUM|DR|BABY)\\.\\s+|SHRI\\s+)?(?P<v>\\S.*?)\\s+Lab No\\.",
+   "type": "string",
+   "required": true
+  },
+  "patient_age": {
+   "regex": "^Age / Sex\\s*:\\s*(?P<v>\\d+) Yrs / [MF]\\b",
+   "type": "integer",
+   "required": true
+  },
+  "patient_sex": {
+   "regex": "^Age / Sex\\s*:\\s*\\d+ Yrs / (?P<v>[MF])\\b",
+   "type": "enum",
+   "enum_map": {
+    "M": "male",
+    "F": "female"
+   },
+   "required": true
+  },
+  "collected": {
+   "regex": "Collected\\s*:\\s*(?P<v>\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2})",
+   "type": "date",
+   "format": "%d/%m/%Y %H:%M",
+   "required": true
+  },
+  "reported": {
+   "regex": "Reported\\s*:\\s*(?P<v>\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2})",
+   "type": "date",
+   "format": "%d/%m/%Y %H:%M",
+   "required": true
+  }
+ },
+ "results": {
+  "start": "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$",
+  "end": "^\\s*\\*\\*\\* END OF REPORT \\*\\*\\*$",
+  "skip_lines": [
+   "^\\s*$",
+   "^-+$",
+   "^\\s*SUNRISE PATHOLOGY LABORATORY$",
+   "^\\s*12, Station Road.*Ph:.*$",
+   "^Patient Name\\s*:.*$",
+   "^Age / Sex\\s*:.*$",
+   "^Ref\\. By\\s*:.*$",
+   "^\\s*HAEMATOLOGY - COMPLETE BLOOD COUNT$",
+   "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$",
+   "^\\s*Continued on next page\\.\\.\\.$"
+  ],
+  "row": "^(?P<label>[A-Z][A-Z. ]*?)\\s{2,}(?P<value>\\d+(?:\\.\\d+)?)(?:\\s+(?P<flag>[HL]))?\\s+(?P<unit>\\S+)\\s+(?P<ref_low>\\d+(?:\\.\\d+)?) - (?P<ref_high>\\d+(?:\\.\\d+)?)$",
+  "labels": {
+   "HAEMOGLOBIN": "HGB",
+   "R.B.C. COUNT": "RBC",
+   "P.C.V.": "HCT",
+   "M.C.V.": "MCV",
+   "M.C.H.": "MCH",
+   "M.C.H.C.": "MCHC",
+   "TOTAL LEUCOCYTE COUNT": "WBC",
+   "NEUTROPHILS": "NEUT%",
+   "LYMPHOCYTES": "LYMPH%",
+   "PLATELET COUNT": "PLT"
+  },
+  "flags": {
+   "H": "H",
+   "L": "L"
+  },
+  "min_rows": 1,
+  "max_rows": 18
+ },
+ "version": 6,
+ "compiled": {
+  "compiler": "spoolgeist_h.compile/4",
+  "header": [
+   {
+    "exact": "SUNRISE PATHOLOGY LABORATORY"
+   },
+   {
+    "exact": "12, Station Road, Nashik - 422001 Ph: 0253-2345678"
+   },
+   {
+    "exact": "--------------------------------------------------------------------------------"
+   },
+   {
+    "regex": "^Patient Name\\s*:.*$",
+    "source": "skip"
+   },
+   {
+    "regex": "^Age / Sex\\s*:.*$",
+    "source": "skip"
+   },
+   {
+    "regex": "^Ref\\. By\\s*:.*$",
+    "source": "skip"
+   },
+   {
+    "exact": "--------------------------------------------------------------------------------"
+   },
+   {
+    "exact": "HAEMATOLOGY - COMPLETE BLOOD COUNT"
+   },
+   {
+    "exact": "--------------------------------------------------------------------------------"
+   }
+  ],
+  "identity_index": 0,
+  "template_lines": [
+   "*** END OF REPORT ***",
+   "--------------------------------------------------------------------------------",
+   "12, Station Road, Nashik - 422001 Ph: 0253-2345678",
+   "HAEMATOLOGY - COMPLETE BLOOD COUNT",
+   "SUNRISE PATHOLOGY LABORATORY",
+   "SYNTHETIC SAMPLE - NOT A REAL PATIENT",
+   "TEST RESULT UNIT REFERENCE RANGE"
+  ],
+  "continuation_len": 1,
+  "llm_binding": {
+   "binding_id": "lab-a",
+   "description": "Sunrise Pathology Laboratory CBC report with TEST/RESULT/UNIT/REFERENCE RANGE table",
+   "layout": {
+    "anchors": [
+     "^\\s*SUNRISE PATHOLOGY LABORATORY$",
+     "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$",
+     "^\\s*\\*\\*\\* END OF REPORT \\*\\*\\*$"
+    ]
+   },
+   "fields": {
+    "patient_id": {
+     "regex": "Lab No\\.\\s*:\\s*(?P<v>SP/\\d{2}/\\d+)",
+     "type": "string",
+     "required": true,
+     "pattern": "SP/\\d{2}/\\d+"
+    },
+    "patient_name": {
+     "regex": "^Patient Name\\s*:\\s*(?:(?:MR|MRS|MS|SMT|KUM|DR|BABY)\\.\\s+|SHRI\\s+)?(?P<v>\\S.*?)\\s+Lab No\\.",
+     "type": "string",
+     "required": true
+    },
+    "patient_age": {
+     "regex": "^Age / Sex\\s*:\\s*(?P<v>\\d+) Yrs / [MF]\\b",
+     "type": "integer",
+     "required": false
+    },
+    "patient_sex": {
+     "regex": "^Age / Sex\\s*:\\s*\\d+ Yrs / (?P<v>[MF])\\b",
+     "type": "enum",
+     "enum_map": {
+      "M": "male",
+      "F": "female"
+     },
+     "required": false
+    },
+    "collected": {
+     "regex": "Collected\\s*:\\s*(?P<v>\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2})",
+     "type": "date",
+     "format": "%d/%m/%Y %H:%M",
+     "required": true
+    },
+    "reported": {
+     "regex": "Reported\\s*:\\s*(?P<v>\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2})",
+     "type": "date",
+     "format": "%d/%m/%Y %H:%M",
+     "required": false
+    }
+   },
+   "results": {
+    "start": "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$",
+    "end": "^\\s*\\*\\*\\* END OF REPORT \\*\\*\\*$",
+    "skip_lines": [
+     "^\\s*$",
+     "^-+$",
+     "^\\s*SUNRISE PATHOLOGY LABORATORY$",
+     "^\\s*12, Station Road.*Ph:.*$",
+     "^Patient Name\\s*:.*$",
+     "^Age / Sex\\s*:.*$",
+     "^Ref\\. By\\s*:.*$",
+     "^\\s*HAEMATOLOGY - COMPLETE BLOOD COUNT$",
+     "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$",
+     "^\\s*Continued on next page\\.\\.\\.$"
+    ],
+    "row": "^(?P<label>[A-Z][A-Z. ]*?)\\s{2,}(?P<value>\\d+(?:\\.\\d+)?)(?:\\s+(?P<flag>[HL]))?\\s+(?P<unit>\\S+)\\s+(?P<ref_low>\\d+(?:\\.\\d+)?) - (?P<ref_high>\\d+(?:\\.\\d+)?)$",
+    "labels": {
+     "HAEMOGLOBIN": "HGB",
+     "R.B.C. COUNT": "RBC",
+     "P.C.V.": "HCT",
+     "M.C.V.": "MCV",
+     "M.C.H.": "MCH",
+     "M.C.H.C.": "MCHC",
+     "TOTAL LEUCOCYTE COUNT": "WBC",
+     "NEUTROPHILS": "NEUT%",
+     "LYMPHOCYTES": "LYMPH%",
+     "PLATELET COUNT": "PLT"
+    },
+    "flags": {
+     "H": "H",
+     "L": "L"
+    },
+    "min_rows": 1,
+    "max_rows": 18
+   }
+  },
+  "sample_refs": [
+   {
+    "path": "data/corpus2/gen/A/A-2000000-clean.json",
+    "sha256": "d0d8d36ce000d12fc7fd04a4e6969af46cd14b921922629526a0ada207592cf0"
+   },
+   {
+    "path": "data/corpus2/gen/A/A-2000001-clean.json",
+    "sha256": "8c20a6cb42d3474e38213500420b94ca8a7fa2f38478bb0d67e0bb163420ae5e"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000000-clean.json",
+    "sha256": "4d797f17798494e7aef4bdc5b9fc6141d30315c207577117f4df0b180ecb1b6d"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000001-clean.json",
+    "sha256": "76140bda8ce38a8c499cb37085a2c8cdb961f77b00dfb9499a5194e12b2660fb"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000002-clean.json",
+    "sha256": "8d1dda87ccc93e6ec0e13cb4660001e84e28ca6c2b7fd7af6d9dcf4710997aae"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000003-clean.json",
+    "sha256": "ac4b6094bc610ce7237f40ec79b289ef735098220854ba845fc1ee22df5a89a5"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000004-clean.json",
+    "sha256": "3337a93cfe41b0b481b026d18d54cc17a5fa53f25f716569b04521595835d991"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000005-clean.json",
+    "sha256": "a3acc5f0f7fd09ac846b22ddc4030edf1ce1c0ef217653752baf715b0c290ece"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000006-clean.json",
+    "sha256": "7d23cd72f778217acf19f7e4e0181371545c4fa3a195b61796f031a89bfd154b"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000007-clean.json",
+    "sha256": "ce55d3ed9a1ed9ef885c86dcde726a700c05a4585c1d406d85208f0d23dad0e6"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000008-clean.json",
+    "sha256": "6cc5b19908bdb8104c68d040984fcd04448b987f81ba35df73de60d1943df5b0"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000009-clean.json",
+    "sha256": "a7e3024dfe6a544141c6936889e1ff6cf3062d85ac861a1d9753c3134dedd871"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000010-clean.json",
+    "sha256": "a146582c9415fd7d3c6be678ff4ded8638d834b5f4bad6bc08adac864ff52d17"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000011-clean.json",
+    "sha256": "270da0778a72a7ccd39b990904ffa1477dcda82fa7ef995c7e9ffd24ea0ee081"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3001000-col_shift.json",
+    "sha256": "2d096b4a8f5b62c77facbdf0ea2cf7f5e03ecde0a163983742a55fed031e58f0"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3001001-col_shift.json",
+    "sha256": "e47a4cfba998b6122c9a88d549f1f1bcad3d51e7728341985497f2828fa4760b"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3002000-crlf_trailing.json",
+    "sha256": "3ab18c6b7e0437268abf86a4861aeb5bff903d2e4e5489b0c1d69a26fdeeef25"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3002001-crlf_trailing.json",
+    "sha256": "745d53e7d749cdd355405fc394ff86f1a241f270bbe841449bb7bf946c27b04c"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3003000-drop_optional.json",
+    "sha256": "60c3548bed49a3cd2fd983f792445ac290b9f22860e544600c5e21ea66f103a2"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3003001-drop_optional.json",
+    "sha256": "0023968f0e3cb170cc284237b831b8ab3d1119293801bb1f40ea63afba1db097"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3004000-page_break.json",
+    "sha256": "17446a617a94db50e6da2b92667920dbd7b83dfad1cc6b126f6612f8734ae12d"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3004001-page_break.json",
+    "sha256": "b5278a6a05e17d64f3726888855f4c573d97639fabf8f5ab0578d03ca7865ad5"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3005000-long_name_overflow.json",
+    "sha256": "a983fb170df87ada113826026584590910abe5f7676efaeb5941aa2defd81874"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3005001-long_name_overflow.json",
+    "sha256": "689ebad22e3ef008e1fc3d90bea2c43dd3aed236e6dcb33a7f7d74e9f77b45de"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3006000-referrer_variation.json",
+    "sha256": "bf0cc2ac87cf815714af5336bf0cff356c891e75cfd0b29eb8abd392c60685bd"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3006001-referrer_variation.json",
+    "sha256": "a64fc8b24866dbc9bc17468ec1e5fc6e7930529b4e1c1d9b42b364ed8e665309"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3007000-approved_note.json",
+    "sha256": "42418d99c45352db601094504f041ae7f0dc85a019dcfe257d2e5f02afe1befb"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3007001-approved_note.json",
+    "sha256": "132d5337eb3252af66cd933198af9568c69e44e9584e2c79698b35cd888ab2d7"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3008000-interpretive_note.json",
+    "sha256": "a06e16e2c895d3c8073e409518e9e06c9e0f4550a0fbb614b69e110cfb17a838"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3008001-interpretive_note.json",
+    "sha256": "d176d21c4ac39b55b0ee4c413f1f451c6a26217584f1228fea9feaaedb26c464"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3009001-section_subheading.json",
+    "sha256": "931464c8f606bebbe7944f52556bd4819f4050f4ab8cc38020509e4bd902f35e"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3009002-section_subheading.json",
+    "sha256": "54c88083b4ca23fd416eca63db0daf762e611ce4114e837aaba5f89139fb0575"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3011000-sex_specific_ranges.json",
+    "sha256": "4d94250adfe2d6f45f7620086f3b69003463361cf54fba9e571109862d1d2ab4"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3011001-sex_specific_ranges.json",
+    "sha256": "c0950b3a4fa4429cf23b8efbe5277333f7178cdd235736207da5848d3989ec67"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3012000-abnormal_values.json",
+    "sha256": "f2605e5630f2e81f07ca33bfc93317288423d919f86b52ecdd417947ad0ce34c"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3012001-abnormal_values.json",
+    "sha256": "fa402109948c511c8454274f68d807ace6ae9ef0ac55b36436f39af0a432dd03"
+   }
+  ],
+  "regression_refs": [
+   {
+    "path": "data/corpus2/gen/A/A-2000000-clean.json",
+    "sha256": "d0d8d36ce000d12fc7fd04a4e6969af46cd14b921922629526a0ada207592cf0"
+   },
+   {
+    "path": "data/corpus2/gen/A/A-2000001-clean.json",
+    "sha256": "8c20a6cb42d3474e38213500420b94ca8a7fa2f38478bb0d67e0bb163420ae5e"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000000-clean.json",
+    "sha256": "4d797f17798494e7aef4bdc5b9fc6141d30315c207577117f4df0b180ecb1b6d"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000001-clean.json",
+    "sha256": "76140bda8ce38a8c499cb37085a2c8cdb961f77b00dfb9499a5194e12b2660fb"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000002-clean.json",
+    "sha256": "8d1dda87ccc93e6ec0e13cb4660001e84e28ca6c2b7fd7af6d9dcf4710997aae"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000003-clean.json",
+    "sha256": "ac4b6094bc610ce7237f40ec79b289ef735098220854ba845fc1ee22df5a89a5"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000004-clean.json",
+    "sha256": "3337a93cfe41b0b481b026d18d54cc17a5fa53f25f716569b04521595835d991"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000005-clean.json",
+    "sha256": "a3acc5f0f7fd09ac846b22ddc4030edf1ce1c0ef217653752baf715b0c290ece"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000006-clean.json",
+    "sha256": "7d23cd72f778217acf19f7e4e0181371545c4fa3a195b61796f031a89bfd154b"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000007-clean.json",
+    "sha256": "ce55d3ed9a1ed9ef885c86dcde726a700c05a4585c1d406d85208f0d23dad0e6"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000008-clean.json",
+    "sha256": "6cc5b19908bdb8104c68d040984fcd04448b987f81ba35df73de60d1943df5b0"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000009-clean.json",
+    "sha256": "a7e3024dfe6a544141c6936889e1ff6cf3062d85ac861a1d9753c3134dedd871"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000010-clean.json",
+    "sha256": "a146582c9415fd7d3c6be678ff4ded8638d834b5f4bad6bc08adac864ff52d17"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3000011-clean.json",
+    "sha256": "270da0778a72a7ccd39b990904ffa1477dcda82fa7ef995c7e9ffd24ea0ee081"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3001000-col_shift.json",
+    "sha256": "2d096b4a8f5b62c77facbdf0ea2cf7f5e03ecde0a163983742a55fed031e58f0"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3001001-col_shift.json",
+    "sha256": "e47a4cfba998b6122c9a88d549f1f1bcad3d51e7728341985497f2828fa4760b"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3002000-crlf_trailing.json",
+    "sha256": "3ab18c6b7e0437268abf86a4861aeb5bff903d2e4e5489b0c1d69a26fdeeef25"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3002001-crlf_trailing.json",
+    "sha256": "745d53e7d749cdd355405fc394ff86f1a241f270bbe841449bb7bf946c27b04c"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3003000-drop_optional.json",
+    "sha256": "60c3548bed49a3cd2fd983f792445ac290b9f22860e544600c5e21ea66f103a2"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3003001-drop_optional.json",
+    "sha256": "0023968f0e3cb170cc284237b831b8ab3d1119293801bb1f40ea63afba1db097"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3004000-page_break.json",
+    "sha256": "17446a617a94db50e6da2b92667920dbd7b83dfad1cc6b126f6612f8734ae12d"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3004001-page_break.json",
+    "sha256": "b5278a6a05e17d64f3726888855f4c573d97639fabf8f5ab0578d03ca7865ad5"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3005000-long_name_overflow.json",
+    "sha256": "a983fb170df87ada113826026584590910abe5f7676efaeb5941aa2defd81874"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3005001-long_name_overflow.json",
+    "sha256": "689ebad22e3ef008e1fc3d90bea2c43dd3aed236e6dcb33a7f7d74e9f77b45de"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3006000-referrer_variation.json",
+    "sha256": "bf0cc2ac87cf815714af5336bf0cff356c891e75cfd0b29eb8abd392c60685bd"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3006001-referrer_variation.json",
+    "sha256": "a64fc8b24866dbc9bc17468ec1e5fc6e7930529b4e1c1d9b42b364ed8e665309"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3007000-approved_note.json",
+    "sha256": "42418d99c45352db601094504f041ae7f0dc85a019dcfe257d2e5f02afe1befb"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3007001-approved_note.json",
+    "sha256": "132d5337eb3252af66cd933198af9568c69e44e9584e2c79698b35cd888ab2d7"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3008000-interpretive_note.json",
+    "sha256": "a06e16e2c895d3c8073e409518e9e06c9e0f4550a0fbb614b69e110cfb17a838"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3008001-interpretive_note.json",
+    "sha256": "d176d21c4ac39b55b0ee4c413f1f451c6a26217584f1228fea9feaaedb26c464"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3009001-section_subheading.json",
+    "sha256": "931464c8f606bebbe7944f52556bd4819f4050f4ab8cc38020509e4bd902f35e"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3009002-section_subheading.json",
+    "sha256": "54c88083b4ca23fd416eca63db0daf762e611ce4114e837aaba5f89139fb0575"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3011000-sex_specific_ranges.json",
+    "sha256": "4d94250adfe2d6f45f7620086f3b69003463361cf54fba9e571109862d1d2ab4"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3011001-sex_specific_ranges.json",
+    "sha256": "c0950b3a4fa4429cf23b8efbe5277333f7178cdd235736207da5848d3989ec67"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3012000-abnormal_values.json",
+    "sha256": "f2605e5630f2e81f07ca33bfc93317288423d919f86b52ecdd417947ad0ce34c"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3012001-abnormal_values.json",
+    "sha256": "fa402109948c511c8454274f68d807ace6ae9ef0ac55b36436f39af0a432dd03"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3016000-note_with_number.json",
+    "sha256": "6acec14b9890afcec3c9a55b50bc1009f7ddd999a772a6123c53c80640b3851e"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3017000-unapproved_note_style.json",
+    "sha256": "a3707536414ff1d08729122adb6089ed3aee0b2c5ca413abd7ba6c87219f5940"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3018000-static_text_damage.json",
+    "sha256": "e242f5d4a20753dab7b77ba11ef359b03de05c615bb357715478dda0cbb15764"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3020000-long_name_wrapped.json",
+    "sha256": "11c0061cc4a4df256d1815373eb139c85cc58fc3810ad2cb0310836166ec4e78"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3021000-unit_incompatible.json",
+    "sha256": "0bbb44f7230536f03eff214400f602539cb6a81a77a0fa46358e64f1485dce55"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3022000-unit_missing.json",
+    "sha256": "086075e4abd834960b7e13bd642358ce59a55f0aab44cab4f4c1e0b8dad57717"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3023000-value_corrupt.json",
+    "sha256": "d2c1a56d1d455f4926cd1cc0ce52b5cea7d3b635ec9170988237fd3d5795c3ca"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3024000-value_implausible.json",
+    "sha256": "2b71821ce6d15816515528fec4687e2a9a0f4d748dd01873635deb0870d2a9f1"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3025000-patient_id_missing.json",
+    "sha256": "d19975d9af28483f899804fb609e16fbf0b404852e15fe1cc265537ee0c54adc"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3026000-date_invalid.json",
+    "sha256": "6dc5f86e9bd6f0efb81800fa7b3bb2ddd5cf71140c85ea7bb8f38fa8939221cd"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3027000-duplicate_conflict.json",
+    "sha256": "18fba8dc4f527bbb6d5d1641c8ab3b1b1c3749cd1599174423ed1a3fb324d442"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3028000-unknown_test.json",
+    "sha256": "b2cb8390b55c95f2c7405ce33d6c35605ec9e9a0760e04140a7ab3d175f758d5"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3029000-truncated.json",
+    "sha256": "d92fbbd8aef8eeebd13d545c7b1767ef6cc25f2774f9620543366549f7242c22"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3030000-layout_drift.json",
+    "sha256": "4488cfaf566f28f49759beef2211d2836ad1479e1580ade4570e905e39fb4110"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3031000-header_changed.json",
+    "sha256": "d8beb9661917ccb1b964f91250e5ba087397a2419fa2dd72d58783f9e77f1f50"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3032000-flag_inconsistent.json",
+    "sha256": "8e1ee91df8f9171231939648399755fbcba5abef6ebd62d753c022c47f059b82"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3034000-header_changed_paged.json",
+    "sha256": "8c30c1c62bebd6650f4cbe654b3428c153a93dbb71a86822e5311c9768537ead"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3035000-extra_section_unknown_tests.json",
+    "sha256": "d58351c89a864080222de6982893c44ef905991014cb3661d2b0430616eb9ee7"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3036000-two_patients_one_job.json",
+    "sha256": "1cc481d6123fb186f357bdefb5fd2e86f9da41228e1fb2895d7eb6a579ba8cb4"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3037000-page_order_swap.json",
+    "sha256": "b0003d69c75da60d36af92c46d6001672c3e633c1432a24ef72a3b9c33e16105"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3038000-text_between_rows_with_number.json",
+    "sha256": "b0d772b3c72caf8b99b00d2128a66eb2c54090bfa86a79cc68fa04a9425021b8"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3039000-row_value_swap.json",
+    "sha256": "65601d3b97c615b3f517bd9cabf5bcfbf8b643a73eb3b3941eecc6d980482ca4"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3040000-index_inconsistent.json",
+    "sha256": "90ea340a7f27690c1a8712eb0cb40efa9cbd5a38094405e1cf02381e911dfec0"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3043000-differential_over_100.json",
+    "sha256": "b7825053d04c8d30e4ea967fb30312a9def00a880753dd96e483e9c778dddfe9"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3044000-hidden_numeric_result.json",
+    "sha256": "6f1f4f80be64ac1ffa5ef4804a7b1f49b1712a94ed81fc458aec4e2b8ea2c0fd"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3045000-hidden_qualitative_result.json",
+    "sha256": "d9f89167d3624057e2401e4bb4450f8e0c951cab377391b208c215dfca0bbbf0"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3047000-comma_decimal.json",
+    "sha256": "736dae0e34c064d37a9ffdbe793b0d37857c2ef358a3d66593b45eb74f293381"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3900000-foreign_layout_G.json",
+    "sha256": "93201b904cc4f6ac1440f4adabb0261cd2d5589b49dd9ab593fa572e491b34fc"
+   },
+   {
+    "path": "data/corpus2/dev/A/A-3910000-drifted_new_format.json",
+    "sha256": "361b7b03a0520c6fbe44a6a489ab9fcec1a2dc226f625023bc79922efbf15887"
+   }
+  ],
+  "promoted_required": [
+   "patient_age",
+   "patient_sex",
+   "reported"
+  ],
+  "date_formats": {
+   "collected": {
+    "format": "%d/%m/%Y %H:%M",
+    "day_month_order_ambiguous_format": true,
+    "samples_disambiguate": true,
+    "n_strings": 36
+   },
+   "reported": {
+    "format": "%d/%m/%Y %H:%M",
+    "day_month_order_ambiguous_format": true,
+    "samples_disambiguate": true,
+    "n_strings": 36
+   }
+  },
+  "note_markers": [
+   "Interpretation:",
+   "Note:"
+  ],
+  "note_continuation_indent": 2,
+  "table_static_lines": [
+   "DIFFERENTIAL COUNT"
+  ],
+  "numeric_skeletons": [
+   "#, Station Road, Nashik - # Ph: #-#"
+  ],
+  "text_skeletons": {
+   "h3|Patient": {
+    "prefix": [
+     "Patient",
+     "Name",
+     ":"
+    ],
+    "suffix": [
+     "<V>",
+     "Lab",
+     "No.",
+     ":",
+     "<V>"
+    ],
+    "min": 1,
+    "max": 1,
+    "n": 38
+   },
+   "h4|Age": {
+    "prefix": [
+     "Age",
+     "/",
+     "Sex",
+     ":",
+     "<V>",
+     "Yrs",
+     "/",
+     "<V>",
+     "Collected",
+     ":",
+     "<V>"
+    ],
+    "suffix": [],
+    "min": 0,
+    "max": 0,
+    "n": 36
+   },
+   "h5|Ref.": {
+    "prefix": [
+     "Ref.",
+     "By",
+     ":",
+     "DR."
+    ],
+    "suffix": [
+     "Reported",
+     ":",
+     "<V>"
+    ],
+    "min": 1,
+    "max": 3,
+    "n": 36
+   },
+   "s9|Continued": {
+    "prefix": [
+     "Continued",
+     "on",
+     "next",
+     "page..."
+    ],
+    "suffix": [],
+    "min": 0,
+    "max": 0,
+    "n": 2
+   }
+  },
+  "abnormal_marker": null
+ }
+}

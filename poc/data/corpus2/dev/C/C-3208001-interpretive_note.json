@@ -1,0 +1,99 @@
+{
+ "doc_id": "C-3208001-interpretive_note",
+ "layout": "C",
+ "cls": "interpretive_note",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "RFIuIE1FSFRBJ1MgQ0xJTklDQUwgTEFCT1JBVE9SWSAgICAgICAgICAgICBSZXBvcnQgRGF0ZTogMjAyNi0wOC0xMwpQYXRpZW50IDogQ2hhdmFuLCBWaWtyYW0gKE0vMzEpClBhdGllbnQgSUQgOiA1NzE5ODI4ICAgICAgIFNhbXBsZSA6IFMtMzg4NTMKQ29sbGVjdGVkICA6IDIwMjYtMDgtMTIgMDk6NDUKQ29uc3VsdGFudCA6IERyLiBQcmFrYXNoIFNoaW5kZQoKQklPQ0hFTUlTVFJZCiAgVGVzdCAvIE1ldGhvZAogICAgICBSZXN1bHQgICAgIFVuaXRzICAgICBOb3JtYWwgUmFuZ2UKICAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgQklMSVJVQklOIFRPVEFMCiAgICAgIChEaWF6byBtZXRob2QpCiAgICAgIDAuMjkgICAgICAgbWcvZGwgICAgIDAuMjAgLSAxLjIwCiAgQklMSVJVQklOIERJUkVDVAogICAgICAoRGlhem8gbWV0aG9kKQogICAgICAwLjAxICAgICAgIG1nL2RsICAgICAwLjAwIC0gMC4zMAogIFNHUFQgKEFMVCkKICAgICAgKElGQ0MpCiAgICAgIDggICAgICAgICAgVS9MICAgICAgIDAgLSA0MAogIFNHT1QgKEFTVCkKICAgICAgKElGQ0MpCiAgICAgIDMwICAgICAgICAgVS9MICAgICAgIDAgLSA0MAogIEFMS0FMSU5FIFBIT1NQSEFUQVNFCiAgICAgIChQTlBQLUFNUCkKICAgICAgODEgICAgICAgICBJVS9MICAgICAgNDAgLSAxMzAKICBUT1RBTCBQUk9URUlOUwogICAgICAoQml1cmV0KQogICAgICA3LjEgICAgICAgIGcvZGwgICAgICA2LjAgLSA4LjMKICBBTEJVTUlOCiAgICAgIChCQ0cpCiAgICAgIDMuOSAgICAgICAgZy9kbCAgICAgIDMuNSAtIDUuMgogIEJMT09EIFVSRUEKICAgICAgKFVyZWFzZS1HTERIKQogICAgICAyNiAgICAgICAgIG1nL2RsICAgICAxNSAtIDQ1CiAgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogICogVmFsdWUgb3V0c2lkZSBub3JtYWwgcmFuZ2UKCkNoZWNrZWQgYnk6IExhYiBUZWNobm9sb2dpc3QKICAgICAgICAgICAgICAgICAgICAgICAgICAgLS0gRU5EIC0tCkludGVycHJldGF0aW9uOiB2YWx1ZXMgc2hvdWxkIGJlIGNvcnJlbGF0ZWQgd2l0aCB0aGUgY2xpbmljYWwgcGljdHVyZQogIGFuZCBwcmV2aW91cyByZXBvcnRzLiBLaW5kbHkgY29uc3VsdCB5b3VyIHBoeXNpY2lhbi4KU1lOVEhFVElDIFNBTVBMRSAtIE5PVCBBIFJFQUwgUEFUSUVOVAo=",
+ "queue_codepage": "cp1252",
+ "truth": {
+  "patient_id": "5719828",
+  "patient_name": "Chavan, Vikram",
+  "patient_age": 31,
+  "patient_sex": "male",
+  "collected": "2026-08-12",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "0.29",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL",
+    "flag": "",
+    "ref_low": "0.20",
+    "ref_high": "1.20"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.01",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT",
+    "flag": "",
+    "ref_low": "0.00",
+    "ref_high": "0.30"
+   },
+   {
+    "code": "ALT",
+    "value": "8",
+    "unit": "U/L",
+    "label": "SGPT (ALT)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "AST",
+    "value": "30",
+    "unit": "U/L",
+    "label": "SGOT (AST)",
+    "flag": "",
+    "ref_low": "0",
+    "ref_high": "40"
+   },
+   {
+    "code": "ALP",
+    "value": "81",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE",
+    "flag": "",
+    "ref_low": "40",
+    "ref_high": "130"
+   },
+   {
+    "code": "TP",
+    "value": "7.1",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS",
+    "flag": "",
+    "ref_low": "6.0",
+    "ref_high": "8.3"
+   },
+   {
+    "code": "ALB",
+    "value": "3.9",
+    "unit": "g/dl",
+    "label": "ALBUMIN",
+    "flag": "",
+    "ref_low": "3.5",
+    "ref_high": "5.2"
+   },
+   {
+    "code": "UREA",
+    "value": "26",
+    "unit": "mg/dl",
+    "label": "BLOOD UREA",
+    "flag": "",
+    "ref_low": "15",
+    "ref_high": "45"
+   }
+  ],
+  "collected_time": "09:45",
+  "reported": "2026-08-13",
+  "notes": [
+   "Interpretation: values should be correlated with the clinical picture",
+   "and previous reports. Kindly consult your physician."
+  ],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "dev"
+}

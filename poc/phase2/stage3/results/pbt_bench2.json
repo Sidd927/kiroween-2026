@@ -1,0 +1,18 @@
+{
+ "seed": "derandomized",
+ "n": 2000,
+ "stats": {
+  "correct_accept": 498,
+  "correct_reject": 832,
+  "defect:correct_reject": 765,
+  "false_reject": 1,
+  "foreign:correct_reject": 67,
+  "policy:policy_accept_correct": 3,
+  "policy:policy_refusal": 179,
+  "policy_accept_correct": 3,
+  "policy_refusal": 179,
+  "valid:correct_accept": 498,
+  "valid:false_reject": 1
+ },
+ "failures": []
+}

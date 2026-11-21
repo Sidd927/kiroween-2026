@@ -1,0 +1,209 @@
+{
+ "system": "/Users/siddhant_patil/Projects/kiroween-2026/poc/spoolgeist_h/__init__.py bindings ['lab-a v11', 'lab-b v11', 'lab-c v11', 'lab-d v11', 'lab-e v11', 'lab-f v11']",
+ "n_cases": 240,
+ "summary": {
+  "numeric": {
+   "REJECT": 60
+  },
+  "numeric:P1_field_line": {
+   "REJECT": 12
+  },
+  "numeric:P2_referrer_line_end": {
+   "REJECT": 12
+  },
+  "numeric:P3_approved_note": {
+   "REJECT": 12
+  },
+  "numeric:P4_new_trusted_line": {
+   "REJECT": 12
+  },
+  "numeric:P5_inside_referrer_slot": {
+   "REJECT": 12
+  },
+  "qualitative": {
+   "REJECT": 153,
+   "ACCEPT": 27
+  },
+  "qualitative:P1_field_line": {
+   "REJECT": 36
+  },
+  "qualitative:P2_referrer_line_end": {
+   "REJECT": 36
+  },
+  "qualitative:P3_approved_note": {
+   "ACCEPT": 18,
+   "REJECT": 18
+  },
+  "qualitative:P4_new_trusted_line": {
+   "REJECT": 36
+  },
+  "qualitative:P5_inside_referrer_slot": {
+   "ACCEPT": 9,
+   "REJECT": 27
+  }
+ },
+ "leaks": [
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Smear shows ring forms of P vivax"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Blood culture: no growth"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Gram stain GPC in clusters"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Smear shows ring forms of P vivax"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Blood culture: no growth"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Gram stain GPC in clusters"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Smear shows ring forms of P vivax"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Blood culture: no growth"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Gram stain GPC in clusters"
+  }
+ ]
+}

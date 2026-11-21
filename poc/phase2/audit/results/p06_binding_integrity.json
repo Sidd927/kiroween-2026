@@ -1,0 +1,27 @@
+{
+ "a_tampered_with_recomputed_hash_loads": true,
+ "a_tampered_rule_outcomes_on_clean_A": {
+  "false_reject": 30
+ },
+ "b_bad_hash_load": "AssertionError: /var/folders/5p/lgf0g18d50dfwp3gw5c8kvsw0000gn/T/sg_audit_ccbyz2em/bindings/lab-a.v1.json",
+ "b_bad_hash_load_with_-O": "6",
+ "c_freeze_manifest_covers": [
+  "spoolgeist/grid.py",
+  "spoolgeist/interpreter.py",
+  "spoolgeist/validators.py",
+  "spoolgeist/dictionary.py",
+  "spoolgeist/lab_dictionary.json",
+  "spoolgeist/binding_schema.json",
+  "spoolgeist/rulegen.py",
+  "spoolgeist/llm.py",
+  "bench/score.py",
+  "bench/generator.py",
+  "bench/run_benchmark.py"
+ ],
+ "c_not_covered": [
+  "bindings/*.json",
+  "spoolgeist/fhir_builder.py",
+  "spoolgeist/capture.py",
+  "tests/*"
+ ]
+}

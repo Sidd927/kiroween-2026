@@ -1,0 +1,25 @@
+{
+ "A": {
+  "accept": 60
+ },
+ "B": {
+  "accept": 60,
+  "flag_presence_wrong": 225
+ },
+ "C": {
+  "accept": 60
+ },
+ "D": {
+  "accept": 60,
+  "reported_missing": 60
+ },
+ "E": {
+  "accept": 60,
+  "reported_missing": 60
+ },
+ "F": {
+  "accept": 60,
+  "reported_missing": 60
+ },
+ "note": "score.CRITICAL = patient_id, patient_name, collected + result code/value/unit. Flags, ranges, sex, age, reported are not scored."
+}

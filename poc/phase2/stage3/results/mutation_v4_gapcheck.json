@@ -1,0 +1,134 @@
+[
+ {
+  "id": "M027",
+  "file": "validators.py",
+  "function": "validate",
+  "line": 62,
+  "op": "bool",
+  "stage": "survived-all",
+  "class": "EQ-ROBUST",
+  "reason": "reported-date order or->and: generator never produces reported < collected; date_invalid uses impossible dates. Documented as untested boundary",
+  "killed_by_updated_tests": true
+ },
+ {
+  "id": "M043",
+  "file": "validators.py",
+  "function": "validate",
+  "line": 66,
+  "op": "const",
+  "stage": "survived-all",
+  "class": "EQ-ROBUST",
+  "reason": "age bound constants (0/120): boundary not exercised by any synthetic document (documented)",
+  "killed_by_updated_tests": true
+ },
+ {
+  "id": "M044",
+  "file": "validators.py",
+  "function": "validate",
+  "line": 66,
+  "op": "const",
+  "stage": "survived-all",
+  "class": "EQ-ROBUST",
+  "reason": "age bound constants (0/120): boundary not exercised by any synthetic document (documented)",
+  "killed_by_updated_tests": true
+ },
+ {
+  "id": "M053",
+  "file": "validators.py",
+  "function": "validate",
+  "line": 57,
+  "op": "const",
+  "stage": "survived-all",
+  "class": "EQ-ROBUST",
+  "reason": "date window constants: synthetic dates are 2026, far from the bounds (documented)",
+  "killed_by_updated_tests": true
+ },
+ {
+  "id": "M054",
+  "file": "validators.py",
+  "function": "validate",
+  "line": 57,
+  "op": "const",
+  "stage": "survived-all",
+  "class": "EQ-ROBUST",
+  "reason": "date window constants: synthetic dates are 2026, far from the bounds (documented)",
+  "killed_by_updated_tests": true
+ },
+ {
+  "id": "M055",
+  "file": "validators.py",
+  "function": "validate",
+  "line": 57,
+  "op": "const",
+  "stage": "survived-all",
+  "class": "EQ-ROBUST",
+  "reason": "date window constants: synthetic dates are 2026, far from the bounds (documented)",
+  "killed_by_updated_tests": true
+ },
+ {
+  "id": "M056",
+  "file": "validators.py",
+  "function": "validate",
+  "line": 62,
+  "op": "const",
+  "stage": "survived-all",
+  "class": "EQ-ROBUST",
+  "reason": "30-day window constant: no synthetic doc near the boundary (documented)",
+  "killed_by_updated_tests": true
+ },
+ {
+  "id": "M064",
+  "file": "validators.py",
+  "function": "validate",
+  "line": 57,
+  "op": "const",
+  "stage": "survived-all",
+  "class": "EQ-ROBUST",
+  "reason": "date window constants: synthetic dates are 2026, far from the bounds (documented)",
+  "killed_by_updated_tests": true
+ },
+ {
+  "id": "M175",
+  "file": "interpreter.py",
+  "function": "_table",
+  "line": 235,
+  "op": "const",
+  "stage": "survived-all",
+  "class": "EQ-ROBUST",
+  "reason": "kept_starts offset init 0->1 shifts the bold column map by one; layouts bold whole padded cells. Behaviour now pinned by test_bold_marks_exactly_the_value_characters (killed if it changes the outcome)",
+  "killed_by_updated_tests": false
+ },
+ {
+  "id": "M295",
+  "file": "interpreter.py",
+  "function": "classify_lines",
+  "line": 496,
+  "op": "const",
+  "stage": "survived-all",
+  "class": "EQ-MSG",
+  "reason": "reason text",
+  "killed_by_updated_tests": false
+ },
+ {
+  "id": "M297",
+  "file": "interpreter.py",
+  "function": "classify_lines",
+  "line": 502,
+  "op": "const",
+  "stage": "survived-all",
+  "class": "EQ-MSG",
+  "reason": "reason text",
+  "killed_by_updated_tests": false
+ },
+ {
+  "id": "M300",
+  "file": "interpreter.py",
+  "function": "classify_lines",
+  "line": 496,
+  "op": "const",
+  "stage": "survived-all",
+  "class": "EQ-MSG",
+  "reason": "reason text",
+  "killed_by_updated_tests": false
+ }
+]

@@ -1,0 +1,407 @@
+{
+ "binding_id": "lab-c",
+ "description": "Dr. Mehta's Clinical Laboratory biochemistry report: label line, method line in parentheses, then value/unit/range line; '*' marks abnormal.",
+ "layout": {
+  "anchors": [
+   "^DR\\. MEHTA'S CLINICAL LABORATORY",
+   "^\\s*Result\\s+Units\\s+Normal Range\\s*$",
+   "^Patient ID\\s*:"
+  ]
+ },
+ "fields": {
+  "patient_id": {
+   "regex": "^Patient ID\\s*:\\s*(?P<v>\\d{7})\\b",
+   "type": "string",
+   "required": true,
+   "pattern": "\\d{7}"
+  },
+  "patient_name": {
+   "regex": "^Patient\\s*:\\s*(?P<v>[^()\\n]+?)\\s*\\([MF]/\\d+\\)\\s*$",
+   "type": "string",
+   "required": true
+  },
+  "patient_age": {
+   "regex": "^Patient\\s*:[^\\n]*\\([MF]/(?P<v>\\d+)\\)\\s*$",
+   "type": "integer",
+   "required": true
+  },
+  "patient_sex": {
+   "regex": "^Patient\\s*:[^\\n]*\\((?P<v>[MF])/\\d+\\)\\s*$",
+   "type": "enum",
+   "enum_map": {
+    "M": "male",
+    "F": "female"
+   },
+   "required": true
+  },
+  "collected": {
+   "regex": "^Collected\\s*:\\s*(?P<v>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2})\\s*$",
+   "type": "date",
+   "format": "%Y-%m-%d %H:%M",
+   "required": true
+  },
+  "reported": {
+   "regex": "Report Date:\\s*(?P<v>\\d{4}-\\d{2}-\\d{2})\\s*$",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "required": true
+  }
+ },
+ "results": {
+  "start": "^\\s*-{10,}\\s*$",
+  "end": "^\\s*\\* Value outside normal range\\s*$",
+  "skip_lines": [
+   "^\\s*$",
+   "^\\s*-{10,}\\s*$",
+   "^\\s*BIOCHEMISTRY\\s*$",
+   "^\\s*Test / Method\\s*$",
+   "^\\s*Result\\s+Units\\s+Normal Range\\s*$",
+   "^DR\\. MEHTA'S CLINICAL LABORATORY",
+   "^Patient\\s*:",
+   "^Patient ID\\s*:",
+   "^Collected\\s*:",
+   "^Consultant\\s*:"
+  ],
+  "row": "^[ ]*(?P<label>[A-Z][A-Za-z ()]*?)[ ]*\\n[ ]*\\([^)\\n]*\\)[ ]*\\n[ ]*(?P<value>\\d+(?:\\.\\d+)?)(?:[ ]+(?P<flag>\\*))?[ ]+(?P<unit>[^\\s\\d-][^\\s]*)[ ]+(?P<ref_low>\\d+(?:\\.\\d+)?)[ ]*-[ ]*(?P<ref_high>\\d+(?:\\.\\d+)?)[ ]*$",
+  "labels": {
+   "BILIRUBIN TOTAL": "TBIL",
+   "BILIRUBIN DIRECT": "DBIL",
+   "SGPT (ALT)": "ALT",
+   "SGOT (AST)": "AST",
+   "ALKALINE PHOSPHATASE": "ALP",
+   "TOTAL PROTEINS": "TP",
+   "ALBUMIN": "ALB",
+   "SERUM CREATININE": "CREA",
+   "BLOOD UREA": "UREA"
+  },
+  "flags": {
+   "*": "A"
+  },
+  "min_rows": 1,
+  "max_rows": 18
+ },
+ "version": 5,
+ "compiled": {
+  "compiler": "spoolgeist_h.compile/3",
+  "header": [
+   {
+    "regex": "^DR\\. MEHTA'S CLINICAL LABORATORY",
+    "source": "anchor"
+   },
+   {
+    "regex": "^Patient\\s*:",
+    "source": "skip"
+   },
+   {
+    "regex": "^Patient ID\\s*:",
+    "source": "anchor"
+   },
+   {
+    "regex": "^Collected\\s*:",
+    "source": "skip"
+   },
+   {
+    "regex": "^Consultant\\s*:",
+    "source": "skip"
+   },
+   {
+    "exact": "BIOCHEMISTRY"
+   },
+   {
+    "exact": "Test / Method"
+   },
+   {
+    "exact": "Result Units Normal Range"
+   }
+  ],
+  "identity_index": 0,
+  "template_lines": [
+   "(BCG)",
+   "(Biuret)",
+   "(Diazo method)",
+   "(IFCC)",
+   "(PNPP-AMP)",
+   "* Value outside normal range",
+   "-- END --",
+   "----------------------------------------",
+   "ALBUMIN",
+   "ALKALINE PHOSPHATASE",
+   "BILIRUBIN DIRECT",
+   "BILIRUBIN TOTAL",
+   "BIOCHEMISTRY",
+   "Checked by: Lab Technologist",
+   "Result Units Normal Range",
+   "SGOT (AST)",
+   "SGPT (ALT)",
+   "SYNTHETIC SAMPLE - NOT A REAL PATIENT",
+   "TOTAL PROTEINS",
+   "Test / Method"
+  ],
+  "continuation_len": null,
+  "llm_binding": {
+   "binding_id": "lab-c",
+   "description": "Dr. Mehta's Clinical Laboratory biochemistry report: label line, method line in parentheses, then value/unit/range line; '*' marks abnormal.",
+   "layout": {
+    "anchors": [
+     "^DR\\. MEHTA'S CLINICAL LABORATORY",
+     "^\\s*Result\\s+Units\\s+Normal Range\\s*$",
+     "^Patient ID\\s*:"
+    ]
+   },
+   "fields": {
+    "patient_id": {
+     "regex": "^Patient ID\\s*:\\s*(?P<v>\\d{7})\\b",
+     "type": "string",
+     "required": true,
+     "pattern": "\\d{7}"
+    },
+    "patient_name": {
+     "regex": "^Patient\\s*:\\s*(?P<v>[^()\\n]+?)\\s*\\([MF]/\\d+\\)\\s*$",
+     "type": "string",
+     "required": true
+    },
+    "patient_age": {
+     "regex": "^Patient\\s*:[^\\n]*\\([MF]/(?P<v>\\d+)\\)\\s*$",
+     "type": "integer",
+     "required": false
+    },
+    "patient_sex": {
+     "regex": "^Patient\\s*:[^\\n]*\\((?P<v>[MF])/\\d+\\)\\s*$",
+     "type": "enum",
+     "enum_map": {
+      "M": "male",
+      "F": "female"
+     },
+     "required": false
+    },
+    "collected": {
+     "regex": "^Collected\\s*:\\s*(?P<v>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2})\\s*$",
+     "type": "date",
+     "format": "%Y-%m-%d %H:%M",
+     "required": true
+    },
+    "reported": {
+     "regex": "Report Date:\\s*(?P<v>\\d{4}-\\d{2}-\\d{2})\\s*$",
+     "type": "date",
+     "format": "%Y-%m-%d",
+     "required": false
+    }
+   },
+   "results": {
+    "start": "^\\s*-{10,}\\s*$",
+    "end": "^\\s*\\* Value outside normal range\\s*$",
+    "skip_lines": [
+     "^\\s*$",
+     "^\\s*-{10,}\\s*$",
+     "^\\s*BIOCHEMISTRY\\s*$",
+     "^\\s*Test / Method\\s*$",
+     "^\\s*Result\\s+Units\\s+Normal Range\\s*$",
+     "^DR\\. MEHTA'S CLINICAL LABORATORY",
+     "^Patient\\s*:",
+     "^Patient ID\\s*:",
+     "^Collected\\s*:",
+     "^Consultant\\s*:"
+    ],
+    "row": "^[ ]*(?P<label>[A-Z][A-Za-z ()]*?)[ ]*\\n[ ]*\\([^)\\n]*\\)[ ]*\\n[ ]*(?P<value>\\d+(?:\\.\\d+)?)(?:[ ]+(?P<flag>\\*))?[ ]+(?P<unit>[^\\s\\d-][^\\s]*)[ ]+(?P<ref_low>\\d+(?:\\.\\d+)?)[ ]*-[ ]*(?P<ref_high>\\d+(?:\\.\\d+)?)[ ]*$",
+    "labels": {
+     "BILIRUBIN TOTAL": "TBIL",
+     "BILIRUBIN DIRECT": "DBIL",
+     "SGPT (ALT)": "ALT",
+     "SGOT (AST)": "AST",
+     "ALKALINE PHOSPHATASE": "ALP",
+     "TOTAL PROTEINS": "TP",
+     "ALBUMIN": "ALB",
+     "SERUM CREATININE": "CREA",
+     "BLOOD UREA": "UREA"
+    },
+    "flags": {
+     "*": "A"
+    },
+    "min_rows": 1,
+    "max_rows": 18
+   }
+  },
+  "sample_refs": [
+   {
+    "path": "data/corpus/gen/C/C-30001-clean.json",
+    "sha256": "723eb998356baeb33f034f9f85d91634b153980291800828d4dbca8f2ed409e0"
+   },
+   {
+    "path": "data/corpus/gen/C/C-30002-clean.json",
+    "sha256": "38ce4150df6e5ae39543530133ea306ea57eb2f9402801b683c9a935f61dfb79"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30100-clean.json",
+    "sha256": "0fa742561f9aff7d292517f1abffe9310ae32afe326f0498ec7d0568306c77ff"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30101-clean.json",
+    "sha256": "d7c7441c8e8add24a014d80b75a5642f8770a06363398394c1947fcc2c15bd5c"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30102-clean.json",
+    "sha256": "770a8a6f5e089d42886f76cd946a6d173a981c1ae1ac176b016e0ac9d3f66bf7"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30103-clean.json",
+    "sha256": "2250fb1bbbdf8904c7c71aa03a3f84ee9adccd73f61256a3a9f661c555a57aa4"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30104-clean.json",
+    "sha256": "6d0a9f183e4003cb899170461dfbba72c80191588c3f5eaa94a99bd42e845b23"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30105-clean.json",
+    "sha256": "0ad210c7fabc748e462f46b940c640cc74872fa3feee5642ac7f36823db59944"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30106-clean.json",
+    "sha256": "0209a5ee8854c7c82d31ff7371be42043ddf567589184691e9a8378af13e1885"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30107-clean.json",
+    "sha256": "f4014d2d042d84200d57ecf4ad4a074c7abc9d8c6c215bbf6204ebcd2fc1374c"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30200-col_shift.json",
+    "sha256": "4364306699daa3fc557d0d67141f7d2794272135c94091381f8869940c3d4156"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30201-drop_optional.json",
+    "sha256": "017eef2f408eecff735d0316092c5f6b8c0f3d431764a93fb024ae55994ccefd"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30203-crlf_trailing.json",
+    "sha256": "5cd3b0b313c92f8251eeac2ff5b284586596b2736ade507941cf729caa652ca7"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30204-long_name.json",
+    "sha256": "1bc6b31ed16196544d506c3d2f3004ab660546d6304f9534500e99806a217629"
+   }
+  ],
+  "regression_refs": [
+   {
+    "path": "data/corpus/gen/C/C-30001-clean.json",
+    "sha256": "723eb998356baeb33f034f9f85d91634b153980291800828d4dbca8f2ed409e0"
+   },
+   {
+    "path": "data/corpus/gen/C/C-30002-clean.json",
+    "sha256": "38ce4150df6e5ae39543530133ea306ea57eb2f9402801b683c9a935f61dfb79"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30100-clean.json",
+    "sha256": "0fa742561f9aff7d292517f1abffe9310ae32afe326f0498ec7d0568306c77ff"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30101-clean.json",
+    "sha256": "d7c7441c8e8add24a014d80b75a5642f8770a06363398394c1947fcc2c15bd5c"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30102-clean.json",
+    "sha256": "770a8a6f5e089d42886f76cd946a6d173a981c1ae1ac176b016e0ac9d3f66bf7"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30103-clean.json",
+    "sha256": "2250fb1bbbdf8904c7c71aa03a3f84ee9adccd73f61256a3a9f661c555a57aa4"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30104-clean.json",
+    "sha256": "6d0a9f183e4003cb899170461dfbba72c80191588c3f5eaa94a99bd42e845b23"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30105-clean.json",
+    "sha256": "0ad210c7fabc748e462f46b940c640cc74872fa3feee5642ac7f36823db59944"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30106-clean.json",
+    "sha256": "0209a5ee8854c7c82d31ff7371be42043ddf567589184691e9a8378af13e1885"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30107-clean.json",
+    "sha256": "f4014d2d042d84200d57ecf4ad4a074c7abc9d8c6c215bbf6204ebcd2fc1374c"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30200-col_shift.json",
+    "sha256": "4364306699daa3fc557d0d67141f7d2794272135c94091381f8869940c3d4156"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30201-drop_optional.json",
+    "sha256": "017eef2f408eecff735d0316092c5f6b8c0f3d431764a93fb024ae55994ccefd"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30203-crlf_trailing.json",
+    "sha256": "5cd3b0b313c92f8251eeac2ff5b284586596b2736ade507941cf729caa652ca7"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30204-long_name.json",
+    "sha256": "1bc6b31ed16196544d506c3d2f3004ab660546d6304f9534500e99806a217629"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30205-unit_incompatible.json",
+    "sha256": "6de90a3581d8320e2ca26b1185124a84d0b74d653d37c68b376421ab008e2aaa"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30206-unit_missing.json",
+    "sha256": "13247cd5fd793368870e360f15a6dc4ce7ef88de6f94a8fd73a191c3eba342a2"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30207-value_corrupt.json",
+    "sha256": "b48cea7bf1d7a4988072dec5f4690ba6a5500dbdd3f2baca36dbb0f605297158"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30208-value_implausible.json",
+    "sha256": "0a60570ed8a07455e4e37c8e018cf3ac8ef213c8040cd719f69caa704ec2cece"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30209-patient_id_missing.json",
+    "sha256": "913c9c77865ee0bd4413e570e77ded715746f3080d11e28a353d117ae0a4a075"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30210-date_invalid.json",
+    "sha256": "0793cbbbadc3e86f4903e82240b4da98de90d50aa04c39c242a7c7fc2130dac2"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30211-duplicate_conflict.json",
+    "sha256": "5d34cac5d5540931e45c328595467f03c0eef77acc917bdd0904443ea0bff14f"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30212-unknown_test.json",
+    "sha256": "e1d2ab6ec6886d77ceacf6d8f8e1db19d290c79993b56a0fed9b5275666f9f55"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30213-truncated.json",
+    "sha256": "ae720b052bbc40a060709a598c468b36f8fe29a52d2e75ca210e0697757c54e5"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30214-layout_drift.json",
+    "sha256": "a47180bb38d0ed1e79b3b5625bdef0605e87330a8573735d99d8297ecbeb8d2f"
+   },
+   {
+    "path": "data/corpus/dev/C/C-30215-header_changed.json",
+    "sha256": "25a64f9f9124b70e16c79df7ba50a1e6118e2ff8285efa19dfa1c808586b95ee"
+   }
+  ],
+  "promoted_required": [
+   "patient_age",
+   "patient_sex",
+   "reported"
+  ],
+  "date_formats": {
+   "collected": {
+    "format": "%Y-%m-%d %H:%M",
+    "day_month_order_ambiguous_format": true,
+    "samples_disambiguate": true,
+    "n_strings": 14
+   },
+   "reported": {
+    "format": "%Y-%m-%d",
+    "day_month_order_ambiguous_format": true,
+    "samples_disambiguate": true,
+    "n_strings": 14
+   }
+  },
+  "numeric_skeletons": [
+   "Patient ID : <V> Sample : S-#"
+  ]
+ }
+}

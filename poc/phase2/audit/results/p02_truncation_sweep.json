@@ -1,0 +1,163 @@
+{
+ "A": {
+  "counts": {
+   "reject": 322,
+   "accept_same_record": 15
+  },
+  "examples": [
+   {
+    "seed": 20000,
+    "kept_lines": 23,
+    "lost_nonblank_lines": 1,
+    "lost_text": [
+     "                     SYNTHETIC SAMPLE - NOT A REAL PATIENT"
+    ],
+    "same_record": true
+   },
+   {
+    "seed": 20001,
+    "kept_lines": 22,
+    "lost_nonblank_lines": 1,
+    "lost_text": [
+     "                     SYNTHETIC SAMPLE - NOT A REAL PATIENT"
+    ],
+    "same_record": true
+   }
+  ]
+ },
+ "B": {
+  "counts": {
+   "reject": 517,
+   "accept_same_record": 15
+  },
+  "examples": [
+   {
+    "seed": 20000,
+    "kept_lines": 36,
+    "lost_nonblank_lines": 1,
+    "lost_text": [
+     "SYNTHETIC SAMPLE - NOT A REAL PATIENT"
+    ],
+    "same_record": true
+   },
+   {
+    "seed": 20001,
+    "kept_lines": 35,
+    "lost_nonblank_lines": 1,
+    "lost_text": [
+     "SYNTHETIC SAMPLE - NOT A REAL PATIENT"
+    ],
+    "same_record": true
+   }
+  ]
+ },
+ "C": {
+  "counts": {
+   "reject": 546,
+   "accept_same_record": 60
+  },
+  "examples": [
+   {
+    "seed": 20000,
+    "kept_lines": 39,
+    "lost_nonblank_lines": 3,
+    "lost_text": [
+     "Checked by: Lab Technologist",
+     "                           -- END --",
+     "SYNTHETIC SAMPLE - NOT A REAL PATIENT"
+    ],
+    "same_record": true
+   },
+   {
+    "seed": 20000,
+    "kept_lines": 40,
+    "lost_nonblank_lines": 3,
+    "lost_text": [
+     "Checked by: Lab Technologist",
+     "                           -- END --",
+     "SYNTHETIC SAMPLE - NOT A REAL PATIENT"
+    ],
+    "same_record": true
+   }
+  ]
+ },
+ "D": {
+  "counts": {
+   "reject": 238,
+   "accept_same_record": 30
+  },
+  "examples": [
+   {
+    "seed": 20000,
+    "kept_lines": 17,
+    "lost_nonblank_lines": 2,
+    "lost_text": [
+     "+----------------------------------------------------------------+",
+     "SYNTHETIC SAMPLE - NOT A REAL PATIENT"
+    ],
+    "same_record": true
+   },
+   {
+    "seed": 20000,
+    "kept_lines": 18,
+    "lost_nonblank_lines": 1,
+    "lost_text": [
+     "SYNTHETIC SAMPLE - NOT A REAL PATIENT"
+    ],
+    "same_record": true
+   }
+  ]
+ },
+ "E": {
+  "counts": {
+   "reject": 134,
+   "accept_same_record": 15
+  },
+  "examples": [
+   {
+    "seed": 20000,
+    "kept_lines": 10,
+    "lost_nonblank_lines": 1,
+    "lost_text": [
+     "SYNTHETIC SAMPLE - NOT A REAL PATIENT"
+    ],
+    "same_record": true
+   },
+   {
+    "seed": 20001,
+    "kept_lines": 10,
+    "lost_nonblank_lines": 1,
+    "lost_text": [
+     "SYNTHETIC SAMPLE - NOT A REAL PATIENT"
+    ],
+    "same_record": true
+   }
+  ]
+ },
+ "F": {
+  "counts": {
+   "reject": 250,
+   "accept_same_record": 15
+  },
+  "examples": [
+   {
+    "seed": 20000,
+    "kept_lines": 18,
+    "lost_nonblank_lines": 1,
+    "lost_text": [
+     "SYNTHETIC SAMPLE - NOT A REAL PATIENT"
+    ],
+    "same_record": true
+   },
+   {
+    "seed": 20001,
+    "kept_lines": 18,
+    "lost_nonblank_lines": 1,
+    "lost_text": [
+     "SYNTHETIC SAMPLE - NOT A REAL PATIENT"
+    ],
+    "same_record": true
+   }
+  ]
+ }
+}

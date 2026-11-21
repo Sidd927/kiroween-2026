@@ -1,0 +1,98 @@
+{
+ "doc_id": "E-65351028-approved_note",
+ "layout": "E",
+ "cls": "approved_note",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "TElGRUxJTkUgUEFUSE9MT0dZICYgSU1BR0lORyAgICAgICAgICAgICAgICAgICAgICAgIExhYiBJRDogTEwtMjAyNi0zMzM3MQpQYXRpZW50OiBSb2hhbiBLaGFuICAgICAgICAgICAgU2V4L0FnZTogRi82NiAgICAgICAgRHJhd246IE1hcmNoIDI4LCAyMDI2Cl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXwpIQUVNT0dSQU0KSGIgICAgICAgICAxNS4xIGcvZEwgICAgIFsxMi4wLTE1LjVdICAgUkJDICAgICAgICA0LjYyIHgxMF42L3VMIFs0LjAwLTUuMjBdCk5COiBGYXN0aW5nIHN0YXR1cyBub3Qgc3RhdGVkLgpXQkMgICAgICAgICA0LjkgeDEwXjMvdUwgWzQuMC0xMS4wXSAgICBQTFQgICAgICAgICAzMDkgeDEwXjMvdUwgWzE1MC00MTBdCkhDVCAgICAgICAgNDMuMCAlICAgICAgICBbMzYuMC00Ni4wXSAgIE1DViAgICAgICAgOTMuMCBmTCAgICAgICBbODMuMC0xMDEuMF0KTUNIICAgICAgMzIuOCAhIHBnICAgICAgIFsyNy4wLTMyLjBdICAgTUNIQyAgICAgMzUuMiAhIGcvZEwgICAgIFszMS41LTM0LjVdCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXwohID0gb3V0c2lkZSByZWZlcmVuY2UgaW50ZXJ2YWwgICAgICAgIFJlcG9ydCBnZW5lcmF0ZWQgYnkgTGFiU3lzIDMuMQpTWU5USEVUSUMgU0FNUExFIC0gTk9UIEEgUkVBTCBQQVRJRU5UCg==",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "LL-2026-33371",
+  "patient_name": "Rohan Khan",
+  "patient_age": 66,
+  "patient_sex": "female",
+  "collected": "2026-03-28",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "15.1",
+    "unit": "g/dL",
+    "label": "Hb",
+    "flag": "",
+    "ref_low": "12.0",
+    "ref_high": "15.5"
+   },
+   {
+    "code": "RBC",
+    "value": "4.62",
+    "unit": "x10^6/uL",
+    "label": "RBC",
+    "flag": "",
+    "ref_low": "4.00",
+    "ref_high": "5.20"
+   },
+   {
+    "code": "WBC",
+    "value": "4.9",
+    "unit": "x10^3/uL",
+    "label": "WBC",
+    "flag": "",
+    "ref_low": "4.0",
+    "ref_high": "11.0"
+   },
+   {
+    "code": "PLT",
+    "value": "309",
+    "unit": "x10^3/uL",
+    "label": "PLT",
+    "flag": "",
+    "ref_low": "150",
+    "ref_high": "410"
+   },
+   {
+    "code": "HCT",
+    "value": "43.0",
+    "unit": "%",
+    "label": "HCT",
+    "flag": "",
+    "ref_low": "36.0",
+    "ref_high": "46.0"
+   },
+   {
+    "code": "MCV",
+    "value": "93.0",
+    "unit": "fL",
+    "label": "MCV",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCH",
+    "value": "32.8",
+    "unit": "pg",
+    "label": "MCH",
+    "flag": "H",
+    "ref_low": "27.0",
+    "ref_high": "32.0"
+   },
+   {
+    "code": "MCHC",
+    "value": "35.2",
+    "unit": "g/dL",
+    "label": "MCHC",
+    "flag": "H",
+    "ref_low": "31.5",
+    "ref_high": "34.5"
+   }
+  ],
+  "collected_time": null,
+  "reported": null,
+  "notes": [
+   "NB: Fasting status not stated."
+  ],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

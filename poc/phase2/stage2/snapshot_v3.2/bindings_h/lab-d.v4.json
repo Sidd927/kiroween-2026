@@ -1,0 +1,368 @@
+{
+ "binding_id": "lab-d",
+ "description": "Shree Sai Diagnostics boxed report: UHID, Coll. Dt dd.mm.yy, Age/Sex, PARAMETER/VALUE/UNIT/RANGE/FLAG table.",
+ "layout": {
+  "anchors": [
+   "^\\|\\s+SHREE SAI DIAGNOSTICS\\s+\\|$",
+   "^\\| PARAMETER\\s+\\| VALUE\\s+\\| UNIT\\s+\\| RANGE\\s+\\| FLAG \\|$",
+   "\\| UHID : "
+  ]
+ },
+ "fields": {
+  "patient_id": {
+   "regex": "^\\| UHID : (?P<v>\\d{2}-\\d+)\\s+\\|",
+   "type": "string",
+   "required": true,
+   "pattern": "\\d{2}-\\d+"
+  },
+  "patient_name": {
+   "regex": "^\\| Name : (?:(?:MR|MRS|MS|SMT|SHRI|KUM|DR|BABY)\\.?\\s+)?(?P<v>[A-Za-z][A-Za-z .'-]*?)\\s+\\| Age/Sex",
+   "type": "string",
+   "required": true
+  },
+  "patient_age": {
+   "regex": "Age/Sex : (?P<v>\\d+)/[MF]\\s+\\|",
+   "type": "integer",
+   "required": true
+  },
+  "patient_sex": {
+   "regex": "Age/Sex : \\d+/(?P<v>[MF])\\s+\\|",
+   "type": "enum",
+   "enum_map": {
+    "M": "male",
+    "F": "female"
+   },
+   "required": true
+  },
+  "collected": {
+   "regex": "Coll\\. Dt : (?P<v>\\d{2}\\.\\d{2}\\.\\d{2})\\s+\\|",
+   "type": "date",
+   "format": "%d.%m.%y",
+   "required": true
+  }
+ },
+ "results": {
+  "start": "^\\| PARAMETER\\s+\\| VALUE\\s+\\| UNIT\\s+\\| RANGE\\s+\\| FLAG \\|$",
+  "end": "\\*\\* End of Report \\*\\*",
+  "skip_lines": [
+   "^\\s*$",
+   "^\\+[-+]+\\+$",
+   "^\\| PARAMETER\\s+\\| VALUE\\s+\\| UNIT\\s+\\| RANGE\\s+\\| FLAG \\|$",
+   "^\\|\\s+SHREE SAI DIAGNOSTICS\\s+\\|$",
+   "^\\|\\s+Near Bus Stand, Shirdi Road, Kopargaon\\s+\\|$",
+   "^\\| UHID : .*\\|$",
+   "^\\| Name : .*\\|$"
+  ],
+  "row": "^\\| (?P<label>[^|]+?)\\s+\\| (?P<value>\\d+(?:\\.\\d+)?)\\s+\\| (?P<unit>[^|\\s]+)\\s+\\| (?P<ref_low>\\d+(?:\\.\\d+)?)-(?P<ref_high>\\d+(?:\\.\\d+)?)\\s+\\|\\s*(?P<flag>[HL]?)\\s*\\|$",
+  "labels": {
+   "Glucose (Fasting)": "GLU",
+   "Serum Creatinine": "CREA",
+   "Blood Urea": "UREA",
+   "Haemoglobin": "HGB",
+   "Total Count (WBC)": "WBC",
+   "Platelets": "PLT"
+  },
+  "flags": {
+   "H": "H",
+   "L": "L"
+  },
+  "min_rows": 1,
+  "max_rows": 12
+ },
+ "version": 4,
+ "compiled": {
+  "compiler": "spoolgeist_h.compile/2",
+  "header": [
+   {
+    "exact": "+----------------------------------------------------------------+"
+   },
+   {
+    "exact": "| SHREE SAI DIAGNOSTICS |"
+   },
+   {
+    "exact": "| Near Bus Stand, Shirdi Road, Kopargaon |"
+   },
+   {
+    "exact": "+----------------------------------------------------------------+"
+   },
+   {
+    "regex": "\\| UHID : ",
+    "source": "anchor"
+   },
+   {
+    "regex": "^\\| Name : .*\\|$",
+    "source": "skip"
+   },
+   {
+    "exact": "+---------------------+---------+------------+------------+------+"
+   }
+  ],
+  "identity_index": 1,
+  "template_lines": [
+   "+---------------------+---------+------------+------------+------+",
+   "+----------------------------------------------------------------+",
+   "SYNTHETIC SAMPLE - NOT A REAL PATIENT",
+   "| ** End of Report ** |",
+   "| Near Bus Stand, Shirdi Road, Kopargaon |",
+   "| PARAMETER | VALUE | UNIT | RANGE | FLAG |",
+   "| SHREE SAI DIAGNOSTICS |"
+  ],
+  "continuation_len": 7,
+  "llm_binding": {
+   "binding_id": "lab-d",
+   "description": "Shree Sai Diagnostics boxed report: UHID, Coll. Dt dd.mm.yy, Age/Sex, PARAMETER/VALUE/UNIT/RANGE/FLAG table.",
+   "layout": {
+    "anchors": [
+     "^\\|\\s+SHREE SAI DIAGNOSTICS\\s+\\|$",
+     "^\\| PARAMETER\\s+\\| VALUE\\s+\\| UNIT\\s+\\| RANGE\\s+\\| FLAG \\|$",
+     "\\| UHID : "
+    ]
+   },
+   "fields": {
+    "patient_id": {
+     "regex": "^\\| UHID : (?P<v>\\d{2}-\\d+)\\s+\\|",
+     "type": "string",
+     "required": true,
+     "pattern": "\\d{2}-\\d+"
+    },
+    "patient_name": {
+     "regex": "^\\| Name : (?:(?:MR|MRS|MS|SMT|SHRI|KUM|DR|BABY)\\.?\\s+)?(?P<v>[A-Za-z][A-Za-z .'-]*?)\\s+\\| Age/Sex",
+     "type": "string",
+     "required": true
+    },
+    "patient_age": {
+     "regex": "Age/Sex : (?P<v>\\d+)/[MF]\\s+\\|",
+     "type": "integer",
+     "required": false
+    },
+    "patient_sex": {
+     "regex": "Age/Sex : \\d+/(?P<v>[MF])\\s+\\|",
+     "type": "enum",
+     "enum_map": {
+      "M": "male",
+      "F": "female"
+     },
+     "required": false
+    },
+    "collected": {
+     "regex": "Coll\\. Dt : (?P<v>\\d{2}\\.\\d{2}\\.\\d{2})\\s+\\|",
+     "type": "date",
+     "format": "%d.%m.%y",
+     "required": true
+    }
+   },
+   "results": {
+    "start": "^\\| PARAMETER\\s+\\| VALUE\\s+\\| UNIT\\s+\\| RANGE\\s+\\| FLAG \\|$",
+    "end": "\\*\\* End of Report \\*\\*",
+    "skip_lines": [
+     "^\\s*$",
+     "^\\+[-+]+\\+$",
+     "^\\| PARAMETER\\s+\\| VALUE\\s+\\| UNIT\\s+\\| RANGE\\s+\\| FLAG \\|$",
+     "^\\|\\s+SHREE SAI DIAGNOSTICS\\s+\\|$",
+     "^\\|\\s+Near Bus Stand, Shirdi Road, Kopargaon\\s+\\|$",
+     "^\\| UHID : .*\\|$",
+     "^\\| Name : .*\\|$"
+    ],
+    "row": "^\\| (?P<label>[^|]+?)\\s+\\| (?P<value>\\d+(?:\\.\\d+)?)\\s+\\| (?P<unit>[^|\\s]+)\\s+\\| (?P<ref_low>\\d+(?:\\.\\d+)?)-(?P<ref_high>\\d+(?:\\.\\d+)?)\\s+\\|\\s*(?P<flag>[HL]?)\\s*\\|$",
+    "labels": {
+     "Glucose (Fasting)": "GLU",
+     "Serum Creatinine": "CREA",
+     "Blood Urea": "UREA",
+     "Haemoglobin": "HGB",
+     "Total Count (WBC)": "WBC",
+     "Platelets": "PLT"
+    },
+    "flags": {
+     "H": "H",
+     "L": "L"
+    },
+    "min_rows": 1,
+    "max_rows": 12
+   }
+  },
+  "sample_refs": [
+   {
+    "path": "data/corpus/gen/D/D-40001-clean.json",
+    "sha256": "5637bc687d680ec8cc48bde5ad4f934b8d3a930b316b443a98b02fd6f52aa8c2"
+   },
+   {
+    "path": "data/corpus/gen/D/D-40002-clean.json",
+    "sha256": "c1b19669be3b77f3af6a0cee8cdb705d1f3a7c237f3968c4d6a05cde54af4310"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40100-clean.json",
+    "sha256": "538ad54bde5fb0542f3e2d55d50a2c71a9c69ae66c94be432de71f8ca3d2c999"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40101-clean.json",
+    "sha256": "53166f7799d2468d4439578377d68b52ed237d5b4478cead9034bdabc3a04876"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40102-clean.json",
+    "sha256": "2b250636881c113197a14664335457a85f4e1f804d7a7730d13ddedc6f48552e"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40103-clean.json",
+    "sha256": "1600db98f631d55e70dfa7a9b35424463686f6b5627cecc1e666b45a2afc5953"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40104-clean.json",
+    "sha256": "7edfe63708bcdaa45a2d6014f3565fcc2d5b32b269883870c963b5dc3c672dcf"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40105-clean.json",
+    "sha256": "89199086c0a9dd07964986363fd02469df45beb1a298a1e64751acb94c616e15"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40106-clean.json",
+    "sha256": "3125c10bcb38641f7e0b420eb86441a89c255def1362106b6325de2548796407"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40107-clean.json",
+    "sha256": "76957db5f905fdc7b35692bbe32158afd2f468be6fcb452a22197df9b98d800f"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40200-col_shift.json",
+    "sha256": "f4eeeedd81d21ac1f69bd149cad8d002431ab649bc34b3853b7c93d0c4217502"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40201-drop_optional.json",
+    "sha256": "c48e1600124845e39aa8faa8732466388310b8c3675f9d73a494dd79067c8f6d"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40202-page_break.json",
+    "sha256": "cce57e00cfec7b44893f39842b0cdb0b4997aac8c093984ed292273198c17c58"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40203-crlf_trailing.json",
+    "sha256": "4dfc2ae060cee367ad0a50125a06578c7b3f2135300d98f37bf357f97fabffa7"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40204-long_name.json",
+    "sha256": "12beaf2c136e5cc747def6b1ab4b2616a572594e9fa4a2f3fca8c9aa2c295ef2"
+   }
+  ],
+  "regression_refs": [
+   {
+    "path": "data/corpus/gen/D/D-40001-clean.json",
+    "sha256": "5637bc687d680ec8cc48bde5ad4f934b8d3a930b316b443a98b02fd6f52aa8c2"
+   },
+   {
+    "path": "data/corpus/gen/D/D-40002-clean.json",
+    "sha256": "c1b19669be3b77f3af6a0cee8cdb705d1f3a7c237f3968c4d6a05cde54af4310"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40100-clean.json",
+    "sha256": "538ad54bde5fb0542f3e2d55d50a2c71a9c69ae66c94be432de71f8ca3d2c999"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40101-clean.json",
+    "sha256": "53166f7799d2468d4439578377d68b52ed237d5b4478cead9034bdabc3a04876"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40102-clean.json",
+    "sha256": "2b250636881c113197a14664335457a85f4e1f804d7a7730d13ddedc6f48552e"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40103-clean.json",
+    "sha256": "1600db98f631d55e70dfa7a9b35424463686f6b5627cecc1e666b45a2afc5953"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40104-clean.json",
+    "sha256": "7edfe63708bcdaa45a2d6014f3565fcc2d5b32b269883870c963b5dc3c672dcf"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40105-clean.json",
+    "sha256": "89199086c0a9dd07964986363fd02469df45beb1a298a1e64751acb94c616e15"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40106-clean.json",
+    "sha256": "3125c10bcb38641f7e0b420eb86441a89c255def1362106b6325de2548796407"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40107-clean.json",
+    "sha256": "76957db5f905fdc7b35692bbe32158afd2f468be6fcb452a22197df9b98d800f"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40200-col_shift.json",
+    "sha256": "f4eeeedd81d21ac1f69bd149cad8d002431ab649bc34b3853b7c93d0c4217502"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40201-drop_optional.json",
+    "sha256": "c48e1600124845e39aa8faa8732466388310b8c3675f9d73a494dd79067c8f6d"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40202-page_break.json",
+    "sha256": "cce57e00cfec7b44893f39842b0cdb0b4997aac8c093984ed292273198c17c58"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40203-crlf_trailing.json",
+    "sha256": "4dfc2ae060cee367ad0a50125a06578c7b3f2135300d98f37bf357f97fabffa7"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40204-long_name.json",
+    "sha256": "12beaf2c136e5cc747def6b1ab4b2616a572594e9fa4a2f3fca8c9aa2c295ef2"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40205-unit_incompatible.json",
+    "sha256": "b96fb408571564f9b5f3572f8a9e6fdc734341d9680b2d9de430a2975a651f12"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40206-unit_missing.json",
+    "sha256": "c71b507ea75b6e7ec88dd0812a4d36523505e93ecb5ff55182d84cd484b34684"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40207-value_corrupt.json",
+    "sha256": "f6b102044051eb802ffcd91795aab16afbc16f3be710e8c3e56b9220d8398df1"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40208-value_implausible.json",
+    "sha256": "bf64371219019a05c2a7a924607017fbb2d71214c77e1353a532a1dc611c8472"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40209-patient_id_missing.json",
+    "sha256": "b08cf619a92450b3b0a54afc78e88f1c7e170dfb7c1ebc6a050f41bced824a23"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40210-date_invalid.json",
+    "sha256": "b8356d72300bb38dc4a8a965513ea2334b90cd6ef5b158a75cd800f9c6f73db1"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40211-duplicate_conflict.json",
+    "sha256": "056d4099df63383113be9f1b51dceebbf8cf2cf07a8c4d916e20205f1df244cd"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40212-unknown_test.json",
+    "sha256": "0c5a87565fb284010a98a4ba8855444686e43912f89d8ee1ad94f8c6e71a5426"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40213-truncated.json",
+    "sha256": "87ee5aff6a4ce4de620d579a1d4949752297487c0e5547ee3fc0fdd021f9c79e"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40214-layout_drift.json",
+    "sha256": "36ec4a63a8d197cc0f6f5695d7f3682df1d5c96dec34f5e6113fd7269910455f"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40215-header_changed.json",
+    "sha256": "2a624ed6da298c5bf9e56cbe8776205af6cea9ef5361e239a7b534f1041618ca"
+   },
+   {
+    "path": "data/corpus/dev/D/D-40216-flag_inconsistent.json",
+    "sha256": "afd57c47d89809aaaf04fbfd699a3668c7a9b889f2746fc96c8264d1ca83a00e"
+   }
+  ],
+  "promoted_required": [
+   "patient_age",
+   "patient_sex"
+  ],
+  "date_formats": {
+   "collected": {
+    "format": "%d.%m.%y",
+    "day_month_order_ambiguous_format": true,
+    "samples_disambiguate": true,
+    "n_strings": 16
+   }
+  }
+ }
+}

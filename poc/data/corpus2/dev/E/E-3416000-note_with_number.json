@@ -1,0 +1,98 @@
+{
+ "doc_id": "E-3416000-note_with_number",
+ "layout": "E",
+ "cls": "note_with_number",
+ "group": "policy",
+ "expected": "reject",
+ "raw_b64": "TElGRUxJTkUgUEFUSE9MT0dZICYgSU1BR0lORyAgICAgICAgICAgICAgICAgICAgICAgIExhYiBJRDogTEwtMjAyNi02OTE1OQpQYXRpZW50OiBQb29qYSBGZXJuYW5kZXMgICAgICAgU2V4L0FnZTogTS84MSAgICAgICAgRHJhd246IE1hcmNoIDE1LCAyMDI2Cl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXwpIQUVNT0dSQU0KSGIgICAgICAgICAxNS4xIGcvZEwgICAgIFsxMy4wLTE3LjBdICAgUkJDICAgICAgICA0Ljc2IHgxMF42L3VMIFs0LjUwLTUuOTBdCldCQyAgICAgICAgIDguMCB4MTBeMy91TCBbNC4wLTExLjBdICAgIFBMVCAgICAgICAgIDE2MyB4MTBeMy91TCBbMTUwLTQxMF0KSENUICAgICAgICA0MS43ICUgICAgICAgIFs0MC4wLTUwLjBdICAgTUNWICAgICAgICA4Ny42IGZMICAgICAgIFs4My4wLTEwMS4wXQpNQ0ggICAgICAgIDMxLjggcGcgICAgICAgWzI3LjAtMzIuMF0gICBNQ0hDICAgICAzNi4zICEgZy9kTCAgICAgWzMxLjUtMzQuNV0KX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fCiEgPSBvdXRzaWRlIHJlZmVyZW5jZSBpbnRlcnZhbCAgICAgICAgUmVwb3J0IGdlbmVyYXRlZCBieSBMYWJTeXMgMy4xCk5COiBSZXRlc3QgYWR2aXNlZCBpbiAzIG1vbnRocy4KU1lOVEhFVElDIFNBTVBMRSAtIE5PVCBBIFJFQUwgUEFUSUVOVAo=",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "LL-2026-69159",
+  "patient_name": "Pooja Fernandes",
+  "patient_age": 81,
+  "patient_sex": "male",
+  "collected": "2026-03-15",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "15.1",
+    "unit": "g/dL",
+    "label": "Hb",
+    "flag": "",
+    "ref_low": "13.0",
+    "ref_high": "17.0"
+   },
+   {
+    "code": "RBC",
+    "value": "4.76",
+    "unit": "x10^6/uL",
+    "label": "RBC",
+    "flag": "",
+    "ref_low": "4.50",
+    "ref_high": "5.90"
+   },
+   {
+    "code": "WBC",
+    "value": "8.0",
+    "unit": "x10^3/uL",
+    "label": "WBC",
+    "flag": "",
+    "ref_low": "4.0",
+    "ref_high": "11.0"
+   },
+   {
+    "code": "PLT",
+    "value": "163",
+    "unit": "x10^3/uL",
+    "label": "PLT",
+    "flag": "",
+    "ref_low": "150",
+    "ref_high": "410"
+   },
+   {
+    "code": "HCT",
+    "value": "41.7",
+    "unit": "%",
+    "label": "HCT",
+    "flag": "",
+    "ref_low": "40.0",
+    "ref_high": "50.0"
+   },
+   {
+    "code": "MCV",
+    "value": "87.6",
+    "unit": "fL",
+    "label": "MCV",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCH",
+    "value": "31.8",
+    "unit": "pg",
+    "label": "MCH",
+    "flag": "",
+    "ref_low": "27.0",
+    "ref_high": "32.0"
+   },
+   {
+    "code": "MCHC",
+    "value": "36.3",
+    "unit": "g/dL",
+    "label": "MCHC",
+    "flag": "H",
+    "ref_low": "31.5",
+    "ref_high": "34.5"
+   }
+  ],
+  "collected_time": null,
+  "reported": null,
+  "notes": [
+   "NB: Retest advised in 3 months."
+  ],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "dev"
+}

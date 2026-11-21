@@ -1,0 +1,278 @@
+{
+ "binding_id": "lab-a",
+ "version": 11,
+ "binding_sha256": "f0cb5a2f3349234fddae52f867b4fbf3ec53eddb61a52febd8de6864738a5f2a",
+ "conditions": {
+  "G1_static": {
+   "passed": true,
+   "errors": []
+  },
+  "G2_compiled": {
+   "passed": true,
+   "errors": [],
+   "approved_clean_samples": 14
+  },
+  "G3_regression": {
+   "passed": true,
+   "counts": {
+    "correct_accept": 34,
+    "correct_reject": 29
+   },
+   "failures": [],
+   "n_docs": 63
+  },
+  "G4_clean_acceptance": {
+   "passed": true,
+   "accepted": 12,
+   "of": 12,
+   "required": 11
+  },
+  "G5_variations": {
+   "passed": true,
+   "per_class": {
+    "col_shift": {
+     "ACCEPT": 2
+    },
+    "crlf_trailing": {
+     "ACCEPT": 2
+    },
+    "drop_optional": {
+     "ACCEPT": 2
+    },
+    "page_break": {
+     "ACCEPT": 2
+    },
+    "long_name_overflow": {
+     "ACCEPT": 2
+    },
+    "referrer_variation": {
+     "ACCEPT": 2
+    },
+    "approved_note": {
+     "ACCEPT": 2
+    },
+    "interpretive_note": {
+     "ACCEPT": 2
+    },
+    "section_subheading": {
+     "ACCEPT": 2
+    },
+    "sex_specific_ranges": {
+     "ACCEPT": 2
+    },
+    "abnormal_values": {
+     "ACCEPT": 2
+    }
+   },
+   "unsupported": [],
+   "note": "rejections are safe but must be acknowledged"
+  },
+  "G6_self_adversarial": {
+   "passed": true,
+   "results": {
+    "identity_line_replaced:REJECT": 4,
+    "header_line_dropped:REJECT": 4,
+    "unknown_line_after_end:REJECT": 4,
+    "unknown_text_line_after_end:REJECT": 4,
+    "unknown_text_line_in_table:REJECT": 4,
+    "unknown_line_before_start:REJECT": 4,
+    "unknown_line_in_table:REJECT": 4,
+    "column_header_truncated:REJECT": 4,
+    "unit_deleted:REJECT": 4,
+    "result_on_trusted_line_after_end:0:REJECT": 4,
+    "result_on_trusted_line_in_table:0:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:0:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:0:REJECT": 4,
+    "result_on_trusted_line_after_end:1:REJECT": 4,
+    "result_on_trusted_line_in_table:1:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:1:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:1:REJECT": 4,
+    "result_on_trusted_line_after_end:2:REJECT": 4,
+    "result_on_trusted_line_in_table:2:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:2:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:2:REJECT": 4,
+    "result_on_trusted_line_after_end:3:REJECT": 4,
+    "result_on_trusted_line_in_table:3:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:3:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:3:REJECT": 4,
+    "result_on_trusted_line_after_end:4:REJECT": 4,
+    "result_on_trusted_line_in_table:4:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:4:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:4:REJECT": 4,
+    "result_on_trusted_line_after_end:5:REJECT": 4,
+    "result_on_trusted_line_in_table:5:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:5:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:5:REJECT": 4,
+    "result_on_trusted_line_after_end:6:REJECT": 4,
+    "result_on_trusted_line_in_table:6:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:6:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:6:REJECT": 4,
+    "result_on_trusted_line_after_end:7:REJECT": 4,
+    "result_on_trusted_line_in_table:7:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:7:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:7:REJECT": 4,
+    "result_on_trusted_line_after_end:9:REJECT": 4,
+    "result_on_trusted_line_in_table:9:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:9:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:9:REJECT": 4,
+    "result_on_trusted_line_after_end:10:REJECT": 4,
+    "result_on_trusted_line_in_table:10:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:10:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:10:REJECT": 4,
+    "result_on_trusted_line_after_end:11:REJECT": 4,
+    "result_on_trusted_line_in_table:11:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:11:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:11:REJECT": 4,
+    "result_on_field_line:REJECT": 4,
+    "bare_number_on_field_line:REJECT": 4,
+    "two_reports_one_job:REJECT": 4
+   },
+   "accepted_mutations": []
+  },
+  "G7_collision": {
+   "passed": true,
+   "collisions": []
+  },
+  "G8_dates": {
+   "passed": true,
+   "ambiguous_fields": [],
+   "formats": {
+    "collected": {
+     "format": "%d/%m/%Y %H:%M",
+     "day_month_order_ambiguous_format": true,
+     "samples_disambiguate": true,
+     "n_strings": 36
+    },
+    "reported": {
+     "format": "%d/%m/%Y %H:%M",
+     "day_month_order_ambiguous_format": true,
+     "samples_disambiguate": true,
+     "n_strings": 36
+    }
+   },
+   "note": "approval requires --confirm-date-format when ambiguous_fields is non-empty"
+  },
+  "G9_coverage": {
+   "passed": true,
+   "invalid_docs": 29,
+   "defect_classes": [
+    "comma_decimal",
+    "date_invalid",
+    "differential_over_100",
+    "drifted_new_format",
+    "duplicate_conflict",
+    "extra_section_unknown_tests",
+    "flag_inconsistent",
+    "foreign_layout_G",
+    "header_changed",
+    "header_changed_paged",
+    "hidden_numeric_result",
+    "hidden_qualitative_result",
+    "index_inconsistent",
+    "layout_drift",
+    "long_name_wrapped",
+    "note_with_number",
+    "page_order_swap",
+    "patient_id_missing",
+    "row_value_swap",
+    "static_text_damage",
+    "text_between_rows_with_number",
+    "truncated",
+    "two_patients_one_job",
+    "unapproved_note_style",
+    "unit_incompatible",
+    "unit_missing",
+    "unknown_test",
+    "value_corrupt",
+    "value_implausible"
+   ]
+  }
+ },
+ "warnings_requiring_ack": [],
+ "date_format_confirmation_required": false,
+ "passed": true,
+ "compile_report": {
+  "binding_id": "lab-a",
+  "version": 11,
+  "samples": [
+   "A-2000000-clean",
+   "A-2000001-clean",
+   "A-3000000-clean",
+   "A-3000001-clean",
+   "A-3000002-clean",
+   "A-3000003-clean",
+   "A-3000004-clean",
+   "A-3000005-clean",
+   "A-3000006-clean",
+   "A-3000007-clean",
+   "A-3000008-clean",
+   "A-3000009-clean",
+   "A-3000010-clean",
+   "A-3000011-clean",
+   "A-3001000-col_shift",
+   "A-3001001-col_shift",
+   "A-3002000-crlf_trailing",
+   "A-3002001-crlf_trailing",
+   "A-3003000-drop_optional",
+   "A-3003001-drop_optional",
+   "A-3004000-page_break",
+   "A-3004001-page_break",
+   "A-3005000-long_name_overflow",
+   "A-3005001-long_name_overflow",
+   "A-3006000-referrer_variation",
+   "A-3006001-referrer_variation",
+   "A-3007000-approved_note",
+   "A-3007001-approved_note",
+   "A-3008000-interpretive_note",
+   "A-3008001-interpretive_note",
+   "A-3009001-section_subheading",
+   "A-3009002-section_subheading",
+   "A-3011000-sex_specific_ranges",
+   "A-3011001-sex_specific_ranges",
+   "A-3012000-abnormal_values",
+   "A-3012001-abnormal_values"
+  ],
+  "n_samples": 36,
+  "n_clean": 14,
+  "warnings": [],
+  "errors": [],
+  "n_continuation_pages": 2,
+  "compiled_summary": {
+   "header_patterns": 9,
+   "identity_index": 0,
+   "continuation_len": 1,
+   "template_lines": 7,
+   "promoted_required": [
+    "patient_age",
+    "patient_sex",
+    "reported"
+   ],
+   "date_formats": {
+    "collected": {
+     "format": "%d/%m/%Y %H:%M",
+     "day_month_order_ambiguous_format": true,
+     "samples_disambiguate": true,
+     "n_strings": 36
+    },
+    "reported": {
+     "format": "%d/%m/%Y %H:%M",
+     "day_month_order_ambiguous_format": true,
+     "samples_disambiguate": true,
+     "n_strings": 36
+    }
+   },
+   "numeric_skeletons": [
+    "#, Station Road, Nashik - # Ph: #-#"
+   ],
+   "note_markers": [
+    "Interpretation:",
+    "Note:"
+   ],
+   "table_static_lines": [
+    "DIFFERENTIAL COUNT"
+   ],
+   "text_skeleton_keys": 4,
+   "abnormal_marker": null
+  }
+ }
+}

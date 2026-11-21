@@ -1,0 +1,151 @@
+{
+ "binding_id": "lab-a",
+ "description": "Sunrise Pathology Laboratory CBC report with TEST/RESULT/UNIT/REFERENCE RANGE table",
+ "layout": {
+  "anchors": [
+   "^\\s*SUNRISE PATHOLOGY LABORATORY$",
+   "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$",
+   "^\\s*\\*\\*\\* END OF REPORT \\*\\*\\*$"
+  ]
+ },
+ "fields": {
+  "patient_id": {
+   "regex": "Lab No\\.\\s*:\\s*(?P<v>SP/\\d{2}/\\d+)",
+   "type": "string",
+   "required": true,
+   "pattern": "SP/\\d{2}/\\d+"
+  },
+  "patient_name": {
+   "regex": "^Patient Name\\s*:\\s*(?:(?:MR|MRS|MS|SMT|KUM|DR|BABY)\\.\\s+|SHRI\\s+)?(?P<v>\\S.*?)\\s+Lab No\\.",
+   "type": "string",
+   "required": true
+  },
+  "patient_age": {
+   "regex": "^Age / Sex\\s*:\\s*(?P<v>\\d+) Yrs / [MF]\\b",
+   "type": "integer",
+   "required": true
+  },
+  "patient_sex": {
+   "regex": "^Age / Sex\\s*:\\s*\\d+ Yrs / (?P<v>[MF])\\b",
+   "type": "enum",
+   "enum_map": {
+    "M": "male",
+    "F": "female"
+   },
+   "required": true
+  },
+  "collected": {
+   "regex": "Collected\\s*:\\s*(?P<v>\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2})",
+   "type": "date",
+   "format": "%d/%m/%Y %H:%M",
+   "required": true
+  },
+  "reported": {
+   "regex": "Reported\\s*:\\s*(?P<v>\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2})",
+   "type": "date",
+   "format": "%d/%m/%Y %H:%M",
+   "required": true
+  }
+ },
+ "results": {
+  "start": "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$",
+  "end": "^\\s*\\*\\*\\* END OF REPORT \\*\\*\\*$",
+  "skip_lines": [
+   "^\\s*$",
+   "^-+$",
+   "^\\s*SUNRISE PATHOLOGY LABORATORY$",
+   "^\\s*12, Station Road.*Ph:.*$",
+   "^Patient Name\\s*:.*$",
+   "^Age / Sex\\s*:.*$",
+   "^Ref\\. By\\s*:.*$",
+   "^\\s*HAEMATOLOGY - COMPLETE BLOOD COUNT$",
+   "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$",
+   "^\\s*Continued on next page\\.\\.\\.$"
+  ],
+  "row": "^(?P<label>[A-Z][A-Z. ]*?)\\s{2,}(?P<value>\\d+(?:\\.\\d+)?)(?:\\s+(?P<flag>[HL]))?\\s+(?P<unit>\\S+)\\s+(?P<ref_low>\\d+(?:\\.\\d+)?) - (?P<ref_high>\\d+(?:\\.\\d+)?)$",
+  "labels": {
+   "HAEMOGLOBIN": "HGB",
+   "R.B.C. COUNT": "RBC",
+   "P.C.V.": "HCT",
+   "M.C.V.": "MCV",
+   "M.C.H.": "MCH",
+   "M.C.H.C.": "MCHC",
+   "TOTAL LEUCOCYTE COUNT": "WBC",
+   "NEUTROPHILS": "NEUT%",
+   "LYMPHOCYTES": "LYMPH%",
+   "PLATELET COUNT": "PLT"
+  },
+  "flags": {
+   "H": "H",
+   "L": "L"
+  },
+  "min_rows": 1,
+  "max_rows": 18
+ },
+ "version": 3,
+ "compiled": {
+  "compiler": "spoolgeist_h.compile/1",
+  "header": [
+   {
+    "exact": "SUNRISE PATHOLOGY LABORATORY"
+   },
+   {
+    "exact": "12, Station Road, Nashik - 422001 Ph: 0253-2345678"
+   },
+   {
+    "exact": "--------------------------------------------------------------------------------"
+   },
+   {
+    "regex": "^Patient Name\\s*:.*$",
+    "source": "skip"
+   },
+   {
+    "regex": "^Age / Sex\\s*:.*$",
+    "source": "skip"
+   },
+   {
+    "regex": "^Ref\\. By\\s*:.*$",
+    "source": "skip"
+   },
+   {
+    "exact": "--------------------------------------------------------------------------------"
+   },
+   {
+    "exact": "HAEMATOLOGY - COMPLETE BLOOD COUNT"
+   },
+   {
+    "exact": "--------------------------------------------------------------------------------"
+   }
+  ],
+  "identity_index": 0,
+  "template_lines": [
+   "*** END OF REPORT ***",
+   "--------------------------------------------------------------------------------",
+   "12, Station Road, Nashik - 422001 Ph: 0253-2345678",
+   "HAEMATOLOGY - COMPLETE BLOOD COUNT",
+   "SUNRISE PATHOLOGY LABORATORY",
+   "SYNTHETIC SAMPLE - NOT A REAL PATIENT",
+   "TEST RESULT UNIT REFERENCE RANGE"
+  ],
+  "continuation_len": 1,
+  "promoted_required": [
+   "patient_age",
+   "patient_sex",
+   "reported"
+  ],
+  "date_formats": {
+   "collected": {
+    "format": "%d/%m/%Y %H:%M",
+    "day_month_order_ambiguous_format": true,
+    "samples_disambiguate": true,
+    "n_strings": 15
+   },
+   "reported": {
+    "format": "%d/%m/%Y %H:%M",
+    "day_month_order_ambiguous_format": true,
+    "samples_disambiguate": true,
+    "n_strings": 15
+   }
+  }
+ }
+}

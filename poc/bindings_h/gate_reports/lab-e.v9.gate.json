@@ -1,0 +1,227 @@
+{
+ "binding_id": "lab-e",
+ "version": 9,
+ "binding_sha256": "22f25798ca5eda52cffaf1f16a3431360700cb609646bee1b1f6a5ee9498b760",
+ "conditions": {
+  "G1_static": {
+   "passed": true,
+   "errors": []
+  },
+  "G2_compiled": {
+   "passed": true,
+   "errors": [],
+   "approved_clean_samples": 14
+  },
+  "G3_regression": {
+   "passed": true,
+   "counts": {
+    "correct_accept": 32,
+    "correct_reject": 26
+   },
+   "failures": [],
+   "n_docs": 58
+  },
+  "G4_clean_acceptance": {
+   "passed": true,
+   "accepted": 12,
+   "of": 12,
+   "required": 11
+  },
+  "G5_variations": {
+   "passed": true,
+   "per_class": {
+    "col_shift": {
+     "ACCEPT": 2
+    },
+    "crlf_trailing": {
+     "ACCEPT": 2
+    },
+    "drop_optional": {
+     "ACCEPT": 2
+    },
+    "long_name_overflow": {
+     "ACCEPT": 2
+    },
+    "referrer_variation": {
+     "ACCEPT": 2
+    },
+    "approved_note": {
+     "ACCEPT": 2
+    },
+    "interpretive_note": {
+     "ACCEPT": 2
+    },
+    "footer_version_drift": {
+     "ACCEPT": 2
+    },
+    "sex_specific_ranges": {
+     "ACCEPT": 2
+    },
+    "abnormal_values": {
+     "ACCEPT": 2
+    }
+   },
+   "unsupported": [],
+   "note": "rejections are safe but must be acknowledged"
+  },
+  "G6_self_adversarial": {
+   "passed": true,
+   "results": {
+    "identity_line_replaced:REJECT": 4,
+    "header_line_dropped:REJECT": 4,
+    "unknown_line_after_end:REJECT": 4,
+    "unknown_text_line_after_end:REJECT": 4,
+    "unknown_text_line_in_table:REJECT": 4,
+    "unknown_line_before_start:REJECT": 4,
+    "unknown_line_in_table:REJECT": 4,
+    "column_header_truncated:REJECT": 4,
+    "unit_deleted:REJECT": 4,
+    "result_on_trusted_line_after_end:0:REJECT": 4,
+    "result_on_trusted_line_in_table:0:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:0:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:0:REJECT": 4,
+    "result_on_trusted_line_after_end:1:REJECT": 4,
+    "result_on_trusted_line_in_table:1:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:1:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:1:REJECT": 4,
+    "result_on_trusted_line_after_end:2:REJECT": 4,
+    "result_on_trusted_line_in_table:2:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:2:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:2:REJECT": 4,
+    "result_on_field_line:REJECT": 4,
+    "bare_number_on_field_line:REJECT": 4,
+    "two_reports_one_job:REJECT": 4
+   },
+   "accepted_mutations": []
+  },
+  "G7_collision": {
+   "passed": true,
+   "collisions": []
+  },
+  "G8_dates": {
+   "passed": true,
+   "ambiguous_fields": [],
+   "formats": {
+    "collected": {
+     "format": "%B %d, %Y",
+     "day_month_order_ambiguous_format": false,
+     "samples_disambiguate": null,
+     "n_strings": 34
+    }
+   },
+   "note": "approval requires --confirm-date-format when ambiguous_fields is non-empty"
+  },
+  "G9_coverage": {
+   "passed": true,
+   "invalid_docs": 26,
+   "defect_classes": [
+    "comma_decimal",
+    "date_invalid",
+    "drifted_new_format",
+    "duplicate_conflict",
+    "extra_section_unknown_tests",
+    "foreign_layout_G",
+    "header_changed",
+    "hidden_numeric_result",
+    "hidden_qualitative_result",
+    "index_inconsistent",
+    "layout_drift",
+    "long_name_wrapped",
+    "multipage_unapproved",
+    "note_with_number",
+    "patient_id_missing",
+    "row_value_swap",
+    "static_text_damage",
+    "text_between_rows_with_number",
+    "truncated",
+    "two_patients_one_job",
+    "unapproved_note_style",
+    "unit_incompatible",
+    "unit_missing",
+    "unknown_test",
+    "value_corrupt",
+    "value_implausible"
+   ]
+  }
+ },
+ "warnings_requiring_ack": [
+  "multipage_documents_rejected"
+ ],
+ "date_format_confirmation_required": false,
+ "passed": true,
+ "compile_report": {
+  "binding_id": "lab-e",
+  "version": 9,
+  "samples": [
+   "E-2400000-clean",
+   "E-2400001-clean",
+   "E-3400000-clean",
+   "E-3400001-clean",
+   "E-3400002-clean",
+   "E-3400003-clean",
+   "E-3400004-clean",
+   "E-3400005-clean",
+   "E-3400006-clean",
+   "E-3400007-clean",
+   "E-3400008-clean",
+   "E-3400009-clean",
+   "E-3400010-clean",
+   "E-3400011-clean",
+   "E-3401000-col_shift",
+   "E-3401001-col_shift",
+   "E-3402000-crlf_trailing",
+   "E-3402001-crlf_trailing",
+   "E-3403000-drop_optional",
+   "E-3403001-drop_optional",
+   "E-3405000-long_name_overflow",
+   "E-3405001-long_name_overflow",
+   "E-3406000-referrer_variation",
+   "E-3406001-referrer_variation",
+   "E-3407000-approved_note",
+   "E-3407001-approved_note",
+   "E-3408000-interpretive_note",
+   "E-3408001-interpretive_note",
+   "E-3410000-footer_version_drift",
+   "E-3410001-footer_version_drift",
+   "E-3411000-sex_specific_ranges",
+   "E-3411001-sex_specific_ranges",
+   "E-3412000-abnormal_values",
+   "E-3412001-abnormal_values"
+  ],
+  "n_samples": 34,
+  "n_clean": 14,
+  "warnings": [
+   "no approved multi-page sample: multi-page documents will be rejected"
+  ],
+  "errors": [],
+  "n_continuation_pages": 0,
+  "compiled_summary": {
+   "header_patterns": 3,
+   "identity_index": 0,
+   "continuation_len": null,
+   "template_lines": 4,
+   "promoted_required": [
+    "patient_age",
+    "patient_sex"
+   ],
+   "date_formats": {
+    "collected": {
+     "format": "%B %d, %Y",
+     "day_month_order_ambiguous_format": false,
+     "samples_disambiguate": null,
+     "n_strings": 34
+    }
+   },
+   "numeric_skeletons": [
+    "! = outside reference interval Report generated by LabSys #.#"
+   ],
+   "note_markers": [
+    "Interpretation:",
+    "NB:"
+   ],
+   "table_static_lines": [],
+   "text_skeleton_keys": 3,
+   "abnormal_marker": null
+  }
+ }
+}

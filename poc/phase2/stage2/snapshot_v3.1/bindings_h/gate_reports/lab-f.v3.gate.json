@@ -1,0 +1,153 @@
+{
+ "binding_id": "lab-f",
+ "version": 3,
+ "binding_sha256": "d7c05b11f2d343d1e3e5ba512db4b393548934402cbffbe2f979bd6ca4852aec",
+ "conditions": {
+  "G1_static": {
+   "passed": true,
+   "errors": []
+  },
+  "G2_compiled": {
+   "passed": true,
+   "errors": [],
+   "approved_clean_samples": 10
+  },
+  "G3_regression": {
+   "passed": true,
+   "counts": {
+    "correct_accept": 12,
+    "false_reject": 1,
+    "correct_reject": 12
+   },
+   "failures": [],
+   "n_docs": 25
+  },
+  "G4_clean_acceptance": {
+   "passed": true,
+   "accepted": 8,
+   "of": 8,
+   "required": 8
+  },
+  "G5_variations": {
+   "passed": true,
+   "per_class": {
+    "col_shift": {
+     "ACCEPT": 1
+    },
+    "drop_optional": {
+     "ACCEPT": 1
+    },
+    "page_break": {
+     "ACCEPT": 1
+    },
+    "crlf_trailing": {
+     "ACCEPT": 1
+    },
+    "long_name": {
+     "REJECT": 1
+    }
+   },
+   "unsupported": [
+    "long_name"
+   ],
+   "note": "rejections are safe but must be acknowledged"
+  },
+  "G6_self_adversarial": {
+   "passed": true,
+   "results": {
+    "identity_line_replaced:REJECT": 4,
+    "header_line_dropped:REJECT": 4,
+    "unknown_line_after_end:REJECT": 4,
+    "unknown_line_before_start:REJECT": 4,
+    "unknown_line_in_table:REJECT": 4,
+    "column_header_truncated:REJECT": 4,
+    "two_reports_one_job:REJECT": 4
+   },
+   "accepted_mutations": []
+  },
+  "G7_collision": {
+   "passed": true,
+   "collisions": []
+  },
+  "G8_dates": {
+   "passed": true,
+   "ambiguous_fields": [],
+   "formats": {
+    "collected": {
+     "format": "%m/%d/%Y %H%M",
+     "day_month_order_ambiguous_format": true,
+     "samples_disambiguate": true,
+     "n_strings": 16
+    }
+   },
+   "note": "approval requires --confirm-date-format when ambiguous_fields is non-empty"
+  },
+  "G9_coverage": {
+   "passed": true,
+   "invalid_docs": 12,
+   "defect_classes": [
+    "date_invalid",
+    "duplicate_conflict",
+    "flag_inconsistent",
+    "header_changed",
+    "layout_drift",
+    "patient_id_missing",
+    "truncated",
+    "unit_incompatible",
+    "unit_missing",
+    "unknown_test",
+    "value_corrupt",
+    "value_implausible"
+   ]
+  }
+ },
+ "warnings_requiring_ack": [
+  "unsupported_variation:long_name"
+ ],
+ "date_format_confirmation_required": false,
+ "passed": true,
+ "compile_report": {
+  "binding_id": "lab-f",
+  "version": 3,
+  "samples": [
+   "F-60001-clean",
+   "F-60002-clean",
+   "F-60100-clean",
+   "F-60101-clean",
+   "F-60102-clean",
+   "F-60103-clean",
+   "F-60104-clean",
+   "F-60105-clean",
+   "F-60106-clean",
+   "F-60107-clean",
+   "F-60200-col_shift",
+   "F-60201-drop_optional",
+   "F-60202-page_break",
+   "F-60203-crlf_trailing",
+   "F-60204-long_name"
+  ],
+  "n_samples": 15,
+  "n_clean": 10,
+  "warnings": [],
+  "errors": [],
+  "n_continuation_pages": 1,
+  "compiled_summary": {
+   "header_patterns": 4,
+   "identity_index": 0,
+   "continuation_len": 4,
+   "template_lines": 5,
+   "promoted_required": [
+    "patient_age",
+    "patient_sex"
+   ],
+   "date_formats": {
+    "collected": {
+     "format": "%m/%d/%Y %H%M",
+     "day_month_order_ambiguous_format": true,
+     "samples_disambiguate": true,
+     "n_strings": 16
+    }
+   }
+  }
+ }
+}

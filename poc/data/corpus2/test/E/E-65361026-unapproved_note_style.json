@@ -1,0 +1,89 @@
+{
+ "doc_id": "E-65361026-unapproved_note_style",
+ "layout": "E",
+ "cls": "unapproved_note_style",
+ "group": "policy",
+ "expected": "reject",
+ "raw_b64": "TElGRUxJTkUgUEFUSE9MT0dZICYgSU1BR0lORyAgICAgICAgICAgICAgICAgICAgICAgIExhYiBJRDogTEwtMjAyNi04NTM5MQpQYXRpZW50OiBOaWtoaWwgSXllciAgICAgICAgICAgU2V4L0FnZTogRi84NyAgICAgICAgRHJhd246IEFwcmlsIDE2LCAyMDI2Cl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXwpIQUVNT0dSQU0KSGIgICAgICAgICAxMy4xIGcvZEwgICAgIFsxMi4wLTE1LjVdICAgUkJDICAgICAgICA0LjY0IHgxMF42L3VMIFs0LjAwLTUuMjBdCldCQyAgICAgICAzLjUgISB4MTBeMy91TCBbNC4wLTExLjBdICAgIFBMVCAgICAgICAgIDM2MCB4MTBeMy91TCBbMTUwLTQxMF0KSENUICAgICAgICA0MS44ICUgICAgICAgIFszNi4wLTQ2LjBdICAgTUNWICAgICAgICA5MC4xIGZMICAgICAgIFs4My4wLTEwMS4wXQpNQ0hDICAgICAzMS4zICEgZy9kTCAgICAgWzMxLjUtMzQuNV0KX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fCiEgPSBvdXRzaWRlIHJlZmVyZW5jZSBpbnRlcnZhbCAgICAgICAgUmVwb3J0IGdlbmVyYXRlZCBieSBMYWJTeXMgMy4xCioqKiBMaXBhZW1pYyBzYW1wbGUuICoqKgpTWU5USEVUSUMgU0FNUExFIC0gTk9UIEEgUkVBTCBQQVRJRU5UCg==",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "LL-2026-85391",
+  "patient_name": "Nikhil Iyer",
+  "patient_age": 87,
+  "patient_sex": "female",
+  "collected": "2026-04-16",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "13.1",
+    "unit": "g/dL",
+    "label": "Hb",
+    "flag": "",
+    "ref_low": "12.0",
+    "ref_high": "15.5"
+   },
+   {
+    "code": "RBC",
+    "value": "4.64",
+    "unit": "x10^6/uL",
+    "label": "RBC",
+    "flag": "",
+    "ref_low": "4.00",
+    "ref_high": "5.20"
+   },
+   {
+    "code": "WBC",
+    "value": "3.5",
+    "unit": "x10^3/uL",
+    "label": "WBC",
+    "flag": "L",
+    "ref_low": "4.0",
+    "ref_high": "11.0"
+   },
+   {
+    "code": "PLT",
+    "value": "360",
+    "unit": "x10^3/uL",
+    "label": "PLT",
+    "flag": "",
+    "ref_low": "150",
+    "ref_high": "410"
+   },
+   {
+    "code": "HCT",
+    "value": "41.8",
+    "unit": "%",
+    "label": "HCT",
+    "flag": "",
+    "ref_low": "36.0",
+    "ref_high": "46.0"
+   },
+   {
+    "code": "MCV",
+    "value": "90.1",
+    "unit": "fL",
+    "label": "MCV",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCHC",
+    "value": "31.3",
+    "unit": "g/dL",
+    "label": "MCHC",
+    "flag": "L",
+    "ref_low": "31.5",
+    "ref_high": "34.5"
+   }
+  ],
+  "collected_time": null,
+  "reported": null,
+  "notes": [
+   "*** Lipaemic sample. ***"
+  ],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

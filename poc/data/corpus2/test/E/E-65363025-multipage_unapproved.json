@@ -1,0 +1,96 @@
+{
+ "doc_id": "E-65363025-multipage_unapproved",
+ "layout": "E",
+ "cls": "multipage_unapproved",
+ "group": "policy",
+ "expected": "reject",
+ "raw_b64": "TElGRUxJTkUgUEFUSE9MT0dZICYgSU1BR0lORyAgICAgICAgICAgICAgICAgICAgICAgIExhYiBJRDogTEwtMjAyNi04MDM4OQpQYXRpZW50OiBQb29qYSBQYXRpbCAgICAgICAgICAgU2V4L0FnZTogTS8yMSAgICAgICAgRHJhd246IE1hcmNoIDE0LCAyMDI2Cl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXwpIQUVNT0dSQU0KSGIgICAgICAgICAxNC45IGcvZEwgICAgIFsxMy4wLTE3LjBdICAgUkJDICAgICAgICA1LjgwIHgxMF42L3VMIFs0LjUwLTUuOTBdCldCQyAgICAgICAgIDguMSB4MTBeMy91TCBbNC4wLTExLjBdICAgIFBMVCAgICAgICAgIDI4OCB4MTBeMy91TCBbMTUwLTQxMF0KSENUICAgICAgICA0OS40ICUgICAgICAgIFs0MC4wLTUwLjBdICAgTUNWICAgICAgICA4NS4yIGZMICAgICAgIFs4My4wLTEwMS4wXQpNQ0ggICAgICAyNS43ICEgcGcgICAgICAgWzI3LjAtMzIuMF0gICBNQ0hDICAgICAzMC4yICEgZy9kTCAgICAgWzMxLjUtMzQuNV0KX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fCiEgPSBvdXRzaWRlIHJlZmVyZW5jZSBpbnRlcnZhbCAgICAgICAgUmVwb3J0IGdlbmVyYXRlZCBieSBMYWJTeXMgMy4xClNZTlRIRVRJQyBTQU1QTEUgLSBOT1QgQSBSRUFMIFBBVElFTlQKDExJRkVMSU5FIFBBVEhPTE9HWSAmIElNQUdJTkcgICAgICAgICAgICAgICAgICAgICAgICBMYWIgSUQ6IExMLTIwMjYtODAzODkKUGF0aWVudDogUG9vamEgUGF0aWwgICAgICAgICAgIFNleC9BZ2U6IE0vMjEgICAgICAgIERyYXduOiBNYXJjaCAxNCwgMjAyNgpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18KSEFFTU9HUkFNCkhiICAgICAgICAgMTQuOSBnL2RMICAgICBbMTMuMC0xNy4wXSAgIFJCQyAgICAgICAgNS44MCB4MTBeNi91TCBbNC41MC01LjkwXQpXQkMgICAgICAgICA4LjEgeDEwXjMvdUwgWzQuMC0xMS4wXSAgICBQTFQgICAgICAgICAyODggeDEwXjMvdUwgWzE1MC00MTBdCkhDVCAgICAgICAgNDkuNCAlICAgICAgICBbNDAuMC01MC4wXSAgIE1DViAgICAgICAgODUuMiBmTCAgICAgICBbODMuMC0xMDEuMF0KTUNIICAgICAgMjUuNyAhIHBnICAgICAgIFsyNy4wLTMyLjBdICAgTUNIQyAgICAgMzAuMiAhIGcvZEwgICAgIFszMS41LTM0LjVdCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXwohID0gb3V0c2lkZSByZWZlcmVuY2UgaW50ZXJ2YWwgICAgICAgIFJlcG9ydCBnZW5lcmF0ZWQgYnkgTGFiU3lzIDMuMQpTWU5USEVUSUMgU0FNUExFIC0gTk9UIEEgUkVBTCBQQVRJRU5UCg==",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "LL-2026-80389",
+  "patient_name": "Pooja Patil",
+  "patient_age": 21,
+  "patient_sex": "male",
+  "collected": "2026-03-14",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "14.9",
+    "unit": "g/dL",
+    "label": "Hb",
+    "flag": "",
+    "ref_low": "13.0",
+    "ref_high": "17.0"
+   },
+   {
+    "code": "RBC",
+    "value": "5.80",
+    "unit": "x10^6/uL",
+    "label": "RBC",
+    "flag": "",
+    "ref_low": "4.50",
+    "ref_high": "5.90"
+   },
+   {
+    "code": "WBC",
+    "value": "8.1",
+    "unit": "x10^3/uL",
+    "label": "WBC",
+    "flag": "",
+    "ref_low": "4.0",
+    "ref_high": "11.0"
+   },
+   {
+    "code": "PLT",
+    "value": "288",
+    "unit": "x10^3/uL",
+    "label": "PLT",
+    "flag": "",
+    "ref_low": "150",
+    "ref_high": "410"
+   },
+   {
+    "code": "HCT",
+    "value": "49.4",
+    "unit": "%",
+    "label": "HCT",
+    "flag": "",
+    "ref_low": "40.0",
+    "ref_high": "50.0"
+   },
+   {
+    "code": "MCV",
+    "value": "85.2",
+    "unit": "fL",
+    "label": "MCV",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCH",
+    "value": "25.7",
+    "unit": "pg",
+    "label": "MCH",
+    "flag": "L",
+    "ref_low": "27.0",
+    "ref_high": "32.0"
+   },
+   {
+    "code": "MCHC",
+    "value": "30.2",
+    "unit": "g/dL",
+    "label": "MCHC",
+    "flag": "L",
+    "ref_low": "31.5",
+    "ref_high": "34.5"
+   }
+  ],
+  "collected_time": null,
+  "reported": null,
+  "notes": [],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

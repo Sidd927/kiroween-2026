@@ -1,0 +1,13 @@
+{
+ "bundles": 410,
+ "patient_id_ok": 410,
+ "name_ok": 410,
+ "gender_ok": 410,
+ "date_ok": 410,
+ "precision_ok": 410,
+ "observation_count_ok": 410,
+ "values_converted_ok": 410,
+ "ucum_ok": 410,
+ "interpretation_presence_ok": 410,
+ "notes_preserved_ok": 410
+}

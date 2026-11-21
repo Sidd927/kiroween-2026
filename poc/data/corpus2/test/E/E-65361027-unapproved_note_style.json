@@ -1,0 +1,98 @@
+{
+ "doc_id": "E-65361027-unapproved_note_style",
+ "layout": "E",
+ "cls": "unapproved_note_style",
+ "group": "policy",
+ "expected": "reject",
+ "raw_b64": "TElGRUxJTkUgUEFUSE9MT0dZICYgSU1BR0lORyAgICAgICAgICAgICAgICAgICAgICAgIExhYiBJRDogTEwtMjAyNi00NDA2NwpQYXRpZW50OiBSb2hhbiBHYWlrd2FkICAgICAgICAgU2V4L0FnZTogTS82NSAgICAgICAgRHJhd246IEZlYnJ1YXJ5IDQsIDIwMjYKX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fCkhBRU1PR1JBTQpIYiAgICAgICAgIDE0LjUgZy9kTCAgICAgWzEzLjAtMTcuMF0gICBSQkMgICAgICAgIDUuNDEgeDEwXjYvdUwgWzQuNTAtNS45MF0KV0JDICAgICAgMTcuMCAhIHgxMF4zL3VMIFs0LjAtMTEuMF0gICAgUExUICAgICAgICAgMTg1IHgxMF4zL3VMIFsxNTAtNDEwXQpIQ1QgICAgICAgIDQ3LjEgJSAgICAgICAgWzQwLjAtNTAuMF0gICBNQ1YgICAgICAgIDg3LjIgZkwgICAgICAgWzgzLjAtMTAxLjBdCk1DSCAgICAgIDI2LjggISBwZyAgICAgICBbMjcuMC0zMi4wXSAgIE1DSEMgICAgIDMwLjcgISBnL2RMICAgICBbMzEuNS0zNC41XQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18KISA9IG91dHNpZGUgcmVmZXJlbmNlIGludGVydmFsICAgICAgICBSZXBvcnQgZ2VuZXJhdGVkIGJ5IExhYlN5cyAzLjEKKioqIFNhbXBsZSBzbGlnaHRseSBoYWVtb2x5c2VkLiAqKioKU1lOVEhFVElDIFNBTVBMRSAtIE5PVCBBIFJFQUwgUEFUSUVOVAo=",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "LL-2026-44067",
+  "patient_name": "Rohan Gaikwad",
+  "patient_age": 65,
+  "patient_sex": "male",
+  "collected": "2026-02-04",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "14.5",
+    "unit": "g/dL",
+    "label": "Hb",
+    "flag": "",
+    "ref_low": "13.0",
+    "ref_high": "17.0"
+   },
+   {
+    "code": "RBC",
+    "value": "5.41",
+    "unit": "x10^6/uL",
+    "label": "RBC",
+    "flag": "",
+    "ref_low": "4.50",
+    "ref_high": "5.90"
+   },
+   {
+    "code": "WBC",
+    "value": "17.0",
+    "unit": "x10^3/uL",
+    "label": "WBC",
+    "flag": "H",
+    "ref_low": "4.0",
+    "ref_high": "11.0"
+   },
+   {
+    "code": "PLT",
+    "value": "185",
+    "unit": "x10^3/uL",
+    "label": "PLT",
+    "flag": "",
+    "ref_low": "150",
+    "ref_high": "410"
+   },
+   {
+    "code": "HCT",
+    "value": "47.1",
+    "unit": "%",
+    "label": "HCT",
+    "flag": "",
+    "ref_low": "40.0",
+    "ref_high": "50.0"
+   },
+   {
+    "code": "MCV",
+    "value": "87.2",
+    "unit": "fL",
+    "label": "MCV",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCH",
+    "value": "26.8",
+    "unit": "pg",
+    "label": "MCH",
+    "flag": "L",
+    "ref_low": "27.0",
+    "ref_high": "32.0"
+   },
+   {
+    "code": "MCHC",
+    "value": "30.7",
+    "unit": "g/dL",
+    "label": "MCHC",
+    "flag": "L",
+    "ref_low": "31.5",
+    "ref_high": "34.5"
+   }
+  ],
+  "collected_time": null,
+  "reported": null,
+  "notes": [
+   "*** Sample slightly haemolysed. ***"
+  ],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

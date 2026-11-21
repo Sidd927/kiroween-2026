@@ -1,0 +1,114 @@
+{
+ "doc_id": "A-64946025-crlf_trailing",
+ "layout": "A",
+ "cls": "crlf_trailing",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "ICAgICAgICAgICAgICAgICAgICAgICAgICBTVU5SSVNFIFBBVEhPTE9HWSBMQUJPUkFUT1JZDQogICAgICAgICAgICAgIDEyLCBTdGF0aW9uIFJvYWQsIE5hc2hpayAtIDQyMjAwMSAgUGg6IDAyNTMtMjM0NTY3OCAgDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSANClBhdGllbnQgTmFtZSA6IE1SLiBTTkVIQSBOQUlSICAgICAgICAgICAgICAgICAgIExhYiBOby4gICA6IFNQLzI2LzU0MjE1MiANCkFnZSAvIFNleCAgICA6IDQ5IFlycyAvIE0gICAgICAgICAgICAgICAgICAgICAgIENvbGxlY3RlZCA6IDI1LzA2LzIwMjYgMDk6MDAgDQpSZWYuIEJ5ICAgICAgOiBEUi4gUy4gSk9TSEkgICAgICAgICAgICAgICAgICAgICBSZXBvcnRlZCAgOiAyNi8wNi8yMDI2IDAxOjEwDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSAgDQogICAgICAgICAgICAgICAgICAgICAgIEhBRU1BVE9MT0dZIC0gQ09NUExFVEUgQkxPT0QgQ09VTlQgICANCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tICAgDQpURVNUICAgICAgICAgICAgICAgICAgICAgICAgICBSRVNVTFQgICAgICBVTklUICAgICAgICAgIFJFRkVSRU5DRSBSQU5HRQ0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gIA0KSEFFTU9HTE9CSU4gICAgICAgICAgICAgICAgICAgMTUuMCAgICAgICAgZ20vZEwgICAgICAgICAxMy4wIC0gMTcuMA0KUi5CLkMuIENPVU5UICAgICAgICAgICAgICAgICAgNC43MCAgICAgICAgbWlsbC9jdW1tICAgICA0LjUwIC0gNS45MCANClAuQy5WLiAgICAgICAgICAgICAgICAgICAgICAgIDQyLjQgICAgICAgICUgICAgICAgICAgICAgNDAuMCAtIDUwLjANCk0uQy5WLiAgICAgICAgICAgICAgICAgICAgICAgIDkwLjIgICAgICAgIGZMICAgICAgICAgICAgODMuMCAtIDEwMS4wICANCk0uQy5ILiAgICAgICAgICAgICAgICAgICAgICAgIDMyLjAgICAgICAgIHBnICAgICAgICAgICAgMjcuMCAtIDMyLjANCk0uQy5ILkMuICAgICAgICAgICAgICAgICAgICAgIDM1LjUgSCAgICAgIGcvZEwgICAgICAgICAgMzEuNSAtIDM0LjUgDQpUT1RBTCBMRVVDT0NZVEUgQ09VTlQgICAgICAgICA5NDM0ICAgICAgICAvY3VtbSAgICAgICAgIDQwMDAgLSAxMTAwMCANCk5FVVRST1BISUxTICAgICAgICAgICAgICAgICAgIDYxICAgICAgICAgICUgICAgICAgICAgICAgNDAgLSA4MA0KTFlNUEhPQ1lURVMgICAgICAgICAgICAgICAgICAgMjkgICAgICAgICAgJSAgICAgICAgICAgICAyMCAtIDQwICAgDQpQTEFURUxFVCBDT1VOVCAgICAgICAgICAgICAgICAxLjc1ICAgICAgICBsYWtoL2N1bW0gICAgIDEuNTAgLSA0LjEwDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSAgIA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAqKiogRU5EIE9GIFJFUE9SVCAqKiogIA0KICAgICAgICAgICAgICAgICAgICAgU1lOVEhFVElDIFNBTVBMRSAtIE5PVCBBIFJFQUwgUEFUSUVOVCAgDQogIA==",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "SP/26/542152",
+  "patient_name": "SNEHA NAIR",
+  "patient_age": 49,
+  "patient_sex": "male",
+  "collected": "2026-06-25",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "15.0",
+    "unit": "gm/dL",
+    "label": "HAEMOGLOBIN",
+    "flag": "",
+    "ref_low": "13.0",
+    "ref_high": "17.0"
+   },
+   {
+    "code": "RBC",
+    "value": "4.70",
+    "unit": "mill/cumm",
+    "label": "R.B.C. COUNT",
+    "flag": "",
+    "ref_low": "4.50",
+    "ref_high": "5.90"
+   },
+   {
+    "code": "HCT",
+    "value": "42.4",
+    "unit": "%",
+    "label": "P.C.V.",
+    "flag": "",
+    "ref_low": "40.0",
+    "ref_high": "50.0"
+   },
+   {
+    "code": "MCV",
+    "value": "90.2",
+    "unit": "fL",
+    "label": "M.C.V.",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCH",
+    "value": "32.0",
+    "unit": "pg",
+    "label": "M.C.H.",
+    "flag": "",
+    "ref_low": "27.0",
+    "ref_high": "32.0"
+   },
+   {
+    "code": "MCHC",
+    "value": "35.5",
+    "unit": "g/dL",
+    "label": "M.C.H.C.",
+    "flag": "H",
+    "ref_low": "31.5",
+    "ref_high": "34.5"
+   },
+   {
+    "code": "WBC",
+    "value": "9434",
+    "unit": "/cumm",
+    "label": "TOTAL LEUCOCYTE COUNT",
+    "flag": "",
+    "ref_low": "4000",
+    "ref_high": "11000"
+   },
+   {
+    "code": "NEUT%",
+    "value": "61",
+    "unit": "%",
+    "label": "NEUTROPHILS",
+    "flag": "",
+    "ref_low": "40",
+    "ref_high": "80"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "29",
+    "unit": "%",
+    "label": "LYMPHOCYTES",
+    "flag": "",
+    "ref_low": "20",
+    "ref_high": "40"
+   },
+   {
+    "code": "PLT",
+    "value": "1.75",
+    "unit": "lakh/cumm",
+    "label": "PLATELET COUNT",
+    "flag": "",
+    "ref_low": "1.50",
+    "ref_high": "4.10"
+   }
+  ],
+  "collected_time": "09:00",
+  "reported": "2026-06-26",
+  "notes": [],
+  "flag_semantics": "direction"
+ },
+ "note": "",
+ "split": "test"
+}

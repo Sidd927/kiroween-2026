@@ -1,0 +1,288 @@
+{
+ "per_class": {
+  "defect:bilirubin_inverted": {
+   "unsafe_accept": 3,
+   "n": 3
+  },
+  "defect:comma_decimal": {
+   "correct_reject": 18,
+   "n": 18
+  },
+  "defect:conflicting_patient_id": {
+   "correct_reject": 3,
+   "n": 3
+  },
+  "defect:date_invalid": {
+   "correct_reject": 18,
+   "n": 18
+  },
+  "defect:differential_over_100": {
+   "unsafe_accept": 6,
+   "n": 6
+  },
+  "defect:duplicate_conflict": {
+   "correct_reject": 18,
+   "n": 18
+  },
+  "defect:extra_section_unknown_tests": {
+   "unsafe_accept": 18,
+   "n": 18
+  },
+  "defect:flag_inconsistent": {
+   "correct_reject": 9,
+   "n": 9
+  },
+  "defect:header_changed": {
+   "correct_reject": 18,
+   "n": 18
+  },
+  "defect:header_changed_paged": {
+   "unsafe_accept": 3,
+   "n": 12,
+   "correct_reject": 9
+  },
+  "defect:hidden_numeric_result": {
+   "unsafe_accept": 17,
+   "n": 18,
+   "correct_reject": 1
+  },
+  "defect:hidden_qualitative_result": {
+   "unsafe_accept": 15,
+   "n": 18,
+   "correct_reject": 3
+  },
+  "defect:index_inconsistent": {
+   "unsafe_accept": 12,
+   "n": 12
+  },
+  "defect:layout_drift": {
+   "correct_reject": 18,
+   "n": 18
+  },
+  "defect:page_order_swap": {
+   "correct_reject": 3,
+   "n": 3
+  },
+  "defect:patient_id_missing": {
+   "correct_reject": 18,
+   "n": 18
+  },
+  "defect:protein_inverted": {
+   "unsafe_accept": 3,
+   "n": 3
+  },
+  "defect:row_value_swap": {
+   "unsafe_accept": 7,
+   "n": 9,
+   "correct_reject": 2
+  },
+  "defect:text_between_rows_with_number": {
+   "correct_reject": 18,
+   "n": 18
+  },
+  "defect:truncated": {
+   "correct_reject": 18,
+   "n": 18
+  },
+  "defect:two_patients_one_job": {
+   "correct_reject": 18,
+   "n": 18
+  },
+  "defect:unit_incompatible": {
+   "correct_reject": 18,
+   "n": 18
+  },
+  "defect:unit_missing": {
+   "correct_reject": 18,
+   "n": 18
+  },
+  "defect:unknown_test": {
+   "correct_reject": 18,
+   "n": 18
+  },
+  "defect:value_corrupt": {
+   "correct_reject": 18,
+   "n": 18
+  },
+  "defect:value_implausible": {
+   "correct_reject": 18,
+   "n": 18
+  },
+  "defect:wrong_code_page": {
+   "correct_reject": 3,
+   "n": 3
+  },
+  "foreign:drifted_new_format": {
+   "correct_reject": 15,
+   "n": 15
+  },
+  "foreign:foreign_layout_G": {
+   "correct_reject": 15,
+   "n": 15
+  },
+  "policy:long_name_wrapped": {
+   "policy_accept_WRONG": 6,
+   "n": 18,
+   "policy_refusal": 12
+  },
+  "policy:multipage_unapproved": {
+   "policy_refusal": 6,
+   "n": 6
+  },
+  "policy:note_with_number": {
+   "policy_accept_correct": 18,
+   "n": 18
+  },
+  "policy:static_text_damage": {
+   "policy_accept_correct": 7,
+   "n": 18,
+   "policy_refusal": 11
+  },
+  "policy:unapproved_note_style": {
+   "policy_accept_correct": 18,
+   "n": 18
+  },
+  "valid:abnormal_values": {
+   "correct_accept": 24,
+   "n": 24,
+   "context_error": 12
+  },
+  "valid:accented_name": {
+   "false_reject": 4,
+   "n": 4
+  },
+  "valid:approved_note": {
+   "correct_accept": 15,
+   "n": 24,
+   "context_error": 15,
+   "false_reject": 9
+  },
+  "valid:bold_flag": {
+   "correct_accept": 4,
+   "n": 4,
+   "context_error": 4
+  },
+  "valid:clean": {
+   "correct_accept": 150,
+   "n": 150,
+   "context_error": 71
+  },
+  "valid:col_shift": {
+   "correct_accept": 24,
+   "n": 24,
+   "context_error": 12
+  },
+  "valid:crlf_trailing": {
+   "correct_accept": 24,
+   "n": 24,
+   "context_error": 12
+  },
+  "valid:drop_optional": {
+   "correct_accept": 24,
+   "n": 24,
+   "context_error": 12
+  },
+  "valid:footer_version_drift": {
+   "correct_accept": 4,
+   "n": 4,
+   "context_error": 4
+  },
+  "valid:interpretive_note": {
+   "correct_accept": 20,
+   "n": 20,
+   "context_error": 20
+  },
+  "valid:long_name_overflow": {
+   "correct_accept": 8,
+   "n": 24,
+   "false_reject": 16
+  },
+  "valid:low_direct_bilirubin": {
+   "correct_accept": 4,
+   "n": 4
+  },
+  "valid:page_break": {
+   "correct_accept": 16,
+   "n": 16,
+   "context_error": 8
+  },
+  "valid:referrer_variation": {
+   "correct_accept": 24,
+   "n": 24,
+   "context_error": 12
+  },
+  "valid:section_subheading": {
+   "false_reject": 20,
+   "n": 20
+  },
+  "valid:sex_specific_ranges": {
+   "correct_accept": 20,
+   "n": 20,
+   "context_error": 11
+  }
+ },
+ "group_valid": {
+  "correct_accept": 361,
+  "false_reject": 49,
+  "n": 410
+ },
+ "group_policy": {
+  "policy_accept_correct": 43,
+  "policy_refusal": 29,
+  "policy_accept_WRONG": 6,
+  "n": 78
+ },
+ "group_defect": {
+  "correct_reject": 285,
+  "unsafe_accept": 84,
+  "n": 369
+ },
+ "group_foreign": {
+  "correct_reject": 30,
+  "n": 30
+ },
+ "layouts_ABC": {
+  "valid:correct_accept": 188,
+  "valid:false_reject": 23,
+  "policy:policy_accept_correct": 22,
+  "policy:policy_refusal": 11,
+  "policy:policy_accept_WRONG": 6,
+  "defect:correct_reject": 142,
+  "defect:unsafe_accept": 53
+ },
+ "layouts_DEF": {
+  "valid:correct_accept": 173,
+  "valid:false_reject": 26,
+  "policy:policy_accept_correct": 21,
+  "policy:policy_refusal": 18,
+  "defect:correct_reject": 143,
+  "defect:unsafe_accept": 31
+ },
+ "headline": {
+  "valid_correct_accept": "361/410",
+  "valid_false_reject": "49/410",
+  "silent_errors_of_accepted_valid": "0/361",
+  "silent_upper95": 0.0083,
+  "context_errors_of_correct_accepts": "193/361",
+  "unsafe_accepts_defect_and_foreign": "84/399",
+  "unsafe_upper95": 0.2532,
+  "policy_refusals": "29/78",
+  "policy_accept_WRONG": 6,
+  "failed_fields_on_accepted_valid": {
+   "t3:notes_preserved": 35,
+   "t3:flags": 58,
+   "t3:precision": 114
+  },
+  "recognition_ok_on_accepted": "361/361",
+  "latency_ms_median": 0.456,
+  "latency_ms_p95": 0.835,
+  "llm_calls": 0
+ },
+ "unsupported_valid_classes(>50% FR)": [
+  "valid:accented_name",
+  "valid:long_name_overflow",
+  "valid:section_subheading"
+ ],
+ "system": "v2.1 (bindings v1)",
+ "split": "test"
+}

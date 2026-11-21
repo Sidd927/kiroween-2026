@@ -1,0 +1,277 @@
+{
+ "per_class": {
+  "defect:bilirubin_inverted": {
+   "unsafe_accept": 1,
+   "n": 1
+  },
+  "defect:comma_decimal": {
+   "correct_reject": 6,
+   "n": 6
+  },
+  "defect:conflicting_patient_id": {
+   "correct_reject": 1,
+   "n": 1
+  },
+  "defect:date_invalid": {
+   "correct_reject": 6,
+   "n": 6
+  },
+  "defect:differential_over_100": {
+   "unsafe_accept": 2,
+   "n": 2
+  },
+  "defect:duplicate_conflict": {
+   "correct_reject": 6,
+   "n": 6
+  },
+  "defect:extra_section_unknown_tests": {
+   "correct_reject": 6,
+   "n": 6
+  },
+  "defect:flag_inconsistent": {
+   "correct_reject": 3,
+   "n": 3
+  },
+  "defect:header_changed": {
+   "correct_reject": 6,
+   "n": 6
+  },
+  "defect:header_changed_paged": {
+   "correct_reject": 4,
+   "n": 4
+  },
+  "defect:hidden_numeric_result": {
+   "correct_reject": 6,
+   "n": 6
+  },
+  "defect:hidden_qualitative_result": {
+   "unsafe_accept": 2,
+   "n": 6,
+   "correct_reject": 4
+  },
+  "defect:index_inconsistent": {
+   "unsafe_accept": 4,
+   "n": 4
+  },
+  "defect:layout_drift": {
+   "correct_reject": 6,
+   "n": 6
+  },
+  "defect:page_order_swap": {
+   "correct_reject": 1,
+   "n": 1
+  },
+  "defect:patient_id_missing": {
+   "correct_reject": 6,
+   "n": 6
+  },
+  "defect:protein_inverted": {
+   "unsafe_accept": 1,
+   "n": 1
+  },
+  "defect:row_value_swap": {
+   "unsafe_accept": 3,
+   "n": 3
+  },
+  "defect:text_between_rows_with_number": {
+   "correct_reject": 6,
+   "n": 6
+  },
+  "defect:truncated": {
+   "correct_reject": 6,
+   "n": 6
+  },
+  "defect:two_patients_one_job": {
+   "correct_reject": 6,
+   "n": 6
+  },
+  "defect:unit_incompatible": {
+   "correct_reject": 6,
+   "n": 6
+  },
+  "defect:unit_missing": {
+   "correct_reject": 6,
+   "n": 6
+  },
+  "defect:unknown_test": {
+   "correct_reject": 6,
+   "n": 6
+  },
+  "defect:value_corrupt": {
+   "correct_reject": 6,
+   "n": 6
+  },
+  "defect:value_implausible": {
+   "correct_reject": 6,
+   "n": 6
+  },
+  "defect:wrong_code_page": {
+   "correct_reject": 1,
+   "n": 1
+  },
+  "foreign:drifted_new_format": {
+   "correct_reject": 6,
+   "n": 6
+  },
+  "foreign:foreign_layout_G": {
+   "correct_reject": 6,
+   "n": 6
+  },
+  "policy:long_name_wrapped": {
+   "policy_refusal": 6,
+   "n": 6
+  },
+  "policy:multipage_unapproved": {
+   "policy_refusal": 2,
+   "n": 2
+  },
+  "policy:note_with_number": {
+   "policy_refusal": 6,
+   "n": 6
+  },
+  "policy:static_text_damage": {
+   "policy_refusal": 4,
+   "n": 6,
+   "policy_accept_correct": 2
+  },
+  "policy:unapproved_note_style": {
+   "policy_refusal": 6,
+   "n": 6
+  },
+  "valid:abnormal_values": {
+   "correct_accept": 12,
+   "n": 12,
+   "context_error": 2
+  },
+  "valid:accented_name": {
+   "false_reject": 2,
+   "n": 2
+  },
+  "valid:approved_note": {
+   "false_reject": 12,
+   "n": 12
+  },
+  "valid:bold_flag": {
+   "correct_accept": 2,
+   "n": 2,
+   "context_error": 2
+  },
+  "valid:clean": {
+   "correct_accept": 72,
+   "n": 72,
+   "context_error": 12
+  },
+  "valid:col_shift": {
+   "correct_accept": 12,
+   "n": 12,
+   "context_error": 2
+  },
+  "valid:crlf_trailing": {
+   "correct_accept": 12,
+   "n": 12,
+   "context_error": 2
+  },
+  "valid:drop_optional": {
+   "correct_accept": 12,
+   "n": 12,
+   "context_error": 2
+  },
+  "valid:footer_version_drift": {
+   "correct_accept": 2,
+   "n": 2
+  },
+  "valid:interpretive_note": {
+   "false_reject": 10,
+   "n": 10
+  },
+  "valid:long_name_overflow": {
+   "correct_accept": 4,
+   "n": 12,
+   "false_reject": 8
+  },
+  "valid:low_direct_bilirubin": {
+   "correct_accept": 2,
+   "n": 2
+  },
+  "valid:page_break": {
+   "correct_accept": 8,
+   "n": 8,
+   "context_error": 2
+  },
+  "valid:referrer_variation": {
+   "correct_accept": 12,
+   "n": 12,
+   "context_error": 2
+  },
+  "valid:section_subheading": {
+   "false_reject": 10,
+   "n": 10
+  },
+  "valid:sex_specific_ranges": {
+   "correct_accept": 10,
+   "n": 10,
+   "context_error": 2
+  }
+ },
+ "group_valid": {
+  "correct_accept": 160,
+  "false_reject": 42,
+  "n": 202
+ },
+ "group_policy": {
+  "policy_refusal": 24,
+  "policy_accept_correct": 2,
+  "n": 26
+ },
+ "group_defect": {
+  "correct_reject": 110,
+  "unsafe_accept": 13,
+  "n": 123
+ },
+ "group_foreign": {
+  "correct_reject": 12,
+  "n": 12
+ },
+ "layouts_ABC": {
+  "valid:correct_accept": 82,
+  "valid:false_reject": 22,
+  "policy:policy_refusal": 11,
+  "defect:correct_reject": 56,
+  "defect:unsafe_accept": 9,
+  "policy:policy_accept_correct": 2
+ },
+ "layouts_DEF": {
+  "valid:correct_accept": 78,
+  "valid:false_reject": 20,
+  "policy:policy_refusal": 13,
+  "defect:correct_reject": 54,
+  "defect:unsafe_accept": 4
+ },
+ "headline": {
+  "valid_correct_accept": "160/202",
+  "valid_false_reject": "42/202",
+  "silent_errors_of_accepted_valid": "0/160",
+  "silent_upper95": 0.0185,
+  "context_errors_of_correct_accepts": "28/160",
+  "unsafe_accepts_defect_and_foreign": "13/135",
+  "unsafe_upper95": 0.1578,
+  "policy_refusals": "24/26",
+  "policy_accept_WRONG": 0,
+  "failed_fields_on_accepted_valid": {
+   "t3:flags": 28
+  },
+  "recognition_ok_on_accepted": "160/160",
+  "latency_ms_median": 0.669,
+  "latency_ms_p95": 1.24,
+  "llm_calls": 0
+ },
+ "unsupported_valid_classes(>50% FR)": [
+  "valid:accented_name",
+  "valid:approved_note",
+  "valid:interpretive_note",
+  "valid:long_name_overflow",
+  "valid:section_subheading"
+ ],
+ "system": "/Users/siddhant_patil/Projects/kiroween-2026/poc/spoolgeist_h/__init__.py bindings ['lab-a v5', 'lab-b v5', 'lab-c v5', 'lab-d v5', 'lab-e v5', 'lab-f v5']",
+ "split": "dev"
+}

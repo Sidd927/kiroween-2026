@@ -1,0 +1,173 @@
+{
+ "system": "v3.2 (active bindings: lab-a v5, lab-b v5, lab-c v5, lab-d v5, lab-e v5, lab-f v5)",
+ "text_probes": {
+  "R1_result_on_field_line": {
+   "v2.1": {
+    "A:ACCEPT": 10,
+    "B:ACCEPT": 10,
+    "C:ACCEPT": 10,
+    "D:ACCEPT": 10,
+    "E:REJECT": 10,
+    "F:ACCEPT": 10
+   },
+   "v3": {
+    "A:REJECT": 10,
+    "B:REJECT": 10,
+    "C:REJECT": 10,
+    "D:REJECT": 10,
+    "E:REJECT": 10,
+    "F:REJECT": 10
+   },
+   "examples": [
+    {
+     "layout": "A",
+     "v3_reason": "unapproved_numeric_text: line 4: 'Patient Name : MR. NEHA MEHTA                   La'"
+    },
+    {
+     "layout": "B",
+     "v3_reason": "unapproved_numeric_text: line 3: 'Reg. No : CDC-287065            Date : 07-Oct-2026'"
+    },
+    {
+     "layout": "C",
+     "v3_reason": "unapproved_numeric_text: line 3: 'Patient ID : 6673205       Sample : S-10379   SODI'"
+    },
+    {
+     "layout": "D",
+     "v3_reason": "unapproved_numeric_text: line 5: '| UHID : 26-0519675            | Coll. Dt : 06.10.'"
+    },
+    {
+     "layout": "E",
+     "v3_reason": "missing_field: patient_id"
+    },
+    {
+     "layout": "F",
+     "v3_reason": "missing_field: patient_sex"
+    }
+   ]
+  },
+  "R2_result_on_skip_or_anchor_line_outside_table": {
+   "v2.1": {
+    "A:ACCEPT": 10,
+    "B:ACCEPT": 10,
+    "C:ACCEPT": 10,
+    "E:ACCEPT": 10,
+    "n/a": 20
+   },
+   "v3": {
+    "A:REJECT": 10,
+    "B:REJECT": 10,
+    "C:REJECT": 10,
+    "E:REJECT": 10,
+    "n/a": 20
+   },
+   "examples": [
+    {
+     "layout": "A",
+     "v3_reason": "unapproved_numeric_text: line 23: 'Ref. By      : SODIUM 138 mmol/L'"
+    },
+    {
+     "layout": "B",
+     "v3_reason": "unapproved_numeric_text: line 36: 'Referred by : SODIUM 138 mmol/L'"
+    },
+    {
+     "layout": "C",
+     "v3_reason": "unapproved_numeric_text: line 40: 'Consultant : SODIUM 138 mmol/L'"
+    },
+    {
+     "layout": "E",
+     "v3_reason": "unapproved_numeric_text: line 11: 'SODIUM 138 mmol/L   Sex/Age:'"
+    }
+   ]
+  },
+  "R3_result_on_skip_line_inside_table": {
+   "v2.1": {
+    "A:ACCEPT": 10,
+    "B:ACCEPT": 10,
+    "C:ACCEPT": 10,
+    "n/a": 30
+   },
+   "v3": {
+    "A:REJECT": 10,
+    "B:REJECT": 10,
+    "C:REJECT": 10,
+    "n/a": 30
+   },
+   "examples": [
+    {
+     "layout": "A",
+     "v3_reason": "unapproved_numeric_text: line 13: 'Patient Name : SODIUM 138 mmol/L'"
+    },
+    {
+     "layout": "B",
+     "v3_reason": "unapproved_numeric_text: line 12: 'Name    : SODIUM 138 mmol/L'"
+    },
+    {
+     "layout": "C",
+     "v3_reason": "unapproved_numeric_text: line 14: 'Consultant : SODIUM 138 mmol/L'"
+    }
+   ]
+  },
+  "R4_duplicated_field_line_with_result": {
+   "v2.1": {
+    "A:ACCEPT": 10,
+    "B:ACCEPT": 10,
+    "C:ACCEPT": 10,
+    "D:ACCEPT": 10,
+    "E:ACCEPT": 10,
+    "F:ACCEPT": 10
+   },
+   "v3": {
+    "A:REJECT": 10,
+    "B:REJECT": 10,
+    "C:REJECT": 10,
+    "D:REJECT": 10,
+    "E:REJECT": 10,
+    "F:REJECT": 10
+   },
+   "examples": [
+    {
+     "layout": "A",
+     "v3_reason": "unknown_layout"
+    },
+    {
+     "layout": "B",
+     "v3_reason": "unknown_layout"
+    },
+    {
+     "layout": "C",
+     "v3_reason": "unknown_layout"
+    },
+    {
+     "layout": "D",
+     "v3_reason": "unknown_layout"
+    },
+    {
+     "layout": "E",
+     "v3_reason": "unknown_layout"
+    },
+    {
+     "layout": "F",
+     "v3_reason": "unknown_layout"
+    }
+   ]
+  }
+ },
+ "R5_forgery": {
+  "a_hand_edited_unsafe_binding_approved": false,
+  "a_reason": "re-compilation does not reproduce this binding: the compiled block was edited or the compiler change",
+  "b_compiled_unsafe_binding_approved": false,
+  "b_reason": "gate (re-run at approval) failed: ['G1_static', 'G4_clean_acceptance']",
+  "registry_entries": 0
+ },
+ "R6_revoke_fallback": {
+  "active_after_revoking_v6": []
+ },
+ "R7_processing_exception": {
+  "job_persisted": 1,
+  "review_queue_entries": 1,
+  "review_status": [
+   "PROCESSING_ERROR"
+  ],
+  "event_logged": true
+ }
+}

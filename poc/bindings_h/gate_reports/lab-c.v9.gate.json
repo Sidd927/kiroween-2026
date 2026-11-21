@@ -1,0 +1,284 @@
+{
+ "binding_id": "lab-c",
+ "version": 9,
+ "binding_sha256": "afbb084f36c513b0fe3a81fe5e838fb234949d98236f58ab4cb79c59c9e4f113",
+ "conditions": {
+  "G1_static": {
+   "passed": true,
+   "errors": []
+  },
+  "G2_compiled": {
+   "passed": true,
+   "errors": [],
+   "approved_clean_samples": 14
+  },
+  "G3_regression": {
+   "passed": true,
+   "counts": {
+    "correct_accept": 34,
+    "correct_reject": 27
+   },
+   "failures": [],
+   "n_docs": 61
+  },
+  "G4_clean_acceptance": {
+   "passed": true,
+   "accepted": 12,
+   "of": 12,
+   "required": 11
+  },
+  "G5_variations": {
+   "passed": true,
+   "per_class": {
+    "col_shift": {
+     "ACCEPT": 2
+    },
+    "crlf_trailing": {
+     "ACCEPT": 2
+    },
+    "drop_optional": {
+     "ACCEPT": 2
+    },
+    "long_name_overflow": {
+     "ACCEPT": 2
+    },
+    "referrer_variation": {
+     "ACCEPT": 2
+    },
+    "approved_note": {
+     "ACCEPT": 2
+    },
+    "interpretive_note": {
+     "ACCEPT": 2
+    },
+    "section_subheading": {
+     "ACCEPT": 2
+    },
+    "abnormal_values": {
+     "ACCEPT": 2
+    },
+    "accented_name": {
+     "ACCEPT": 2
+    },
+    "low_direct_bilirubin": {
+     "ACCEPT": 2
+    }
+   },
+   "unsupported": [],
+   "note": "rejections are safe but must be acknowledged"
+  },
+  "G6_self_adversarial": {
+   "passed": true,
+   "results": {
+    "identity_line_replaced:REJECT": 4,
+    "header_line_dropped:REJECT": 4,
+    "unknown_line_after_end:REJECT": 4,
+    "unknown_text_line_after_end:REJECT": 4,
+    "unknown_text_line_in_table:REJECT": 4,
+    "unknown_line_before_start:REJECT": 4,
+    "unknown_line_in_table:REJECT": 4,
+    "column_header_truncated:REJECT": 4,
+    "unit_deleted:REJECT": 4,
+    "result_on_trusted_line_after_end:0:REJECT": 4,
+    "result_on_trusted_line_in_table:0:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:0:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:0:REJECT": 4,
+    "result_on_trusted_line_after_end:1:REJECT": 4,
+    "result_on_trusted_line_in_table:1:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:1:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:1:REJECT": 4,
+    "result_on_trusted_line_after_end:2:REJECT": 4,
+    "result_on_trusted_line_in_table:2:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:2:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:2:REJECT": 4,
+    "result_on_trusted_line_after_end:3:REJECT": 4,
+    "result_on_trusted_line_in_table:3:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:3:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:3:REJECT": 4,
+    "result_on_trusted_line_after_end:4:REJECT": 4,
+    "result_on_trusted_line_in_table:4:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:4:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:4:REJECT": 4,
+    "result_on_trusted_line_after_end:5:REJECT": 4,
+    "result_on_trusted_line_in_table:5:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:5:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:5:REJECT": 4,
+    "result_on_trusted_line_after_end:6:REJECT": 4,
+    "result_on_trusted_line_in_table:6:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:6:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:6:REJECT": 4,
+    "result_on_trusted_line_after_end:7:REJECT": 4,
+    "result_on_trusted_line_in_table:7:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:7:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:7:REJECT": 4,
+    "result_on_trusted_line_after_end:8:REJECT": 4,
+    "result_on_trusted_line_in_table:8:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:8:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:8:REJECT": 4,
+    "result_on_trusted_line_after_end:9:REJECT": 4,
+    "result_on_trusted_line_in_table:9:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:9:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:9:REJECT": 4,
+    "result_on_trusted_line_after_end:10:REJECT": 4,
+    "result_on_trusted_line_in_table:10:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:10:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:10:REJECT": 4,
+    "result_on_trusted_line_after_end:11:REJECT": 4,
+    "result_on_trusted_line_in_table:11:REJECT": 4,
+    "bare_number_on_trusted_line_after_end:11:REJECT": 4,
+    "bare_number_on_trusted_line_in_table:11:REJECT": 4,
+    "result_on_field_line:REJECT": 4,
+    "bare_number_on_field_line:REJECT": 4,
+    "two_reports_one_job:REJECT": 4
+   },
+   "accepted_mutations": []
+  },
+  "G7_collision": {
+   "passed": true,
+   "collisions": []
+  },
+  "G8_dates": {
+   "passed": true,
+   "ambiguous_fields": [],
+   "formats": {
+    "collected": {
+     "format": "%Y-%m-%d %H:%M",
+     "day_month_order_ambiguous_format": true,
+     "samples_disambiguate": true,
+     "n_strings": 36
+    },
+    "reported": {
+     "format": "%Y-%m-%d",
+     "day_month_order_ambiguous_format": true,
+     "samples_disambiguate": true,
+     "n_strings": 36
+    }
+   },
+   "note": "approval requires --confirm-date-format when ambiguous_fields is non-empty"
+  },
+  "G9_coverage": {
+   "passed": true,
+   "invalid_docs": 27,
+   "defect_classes": [
+    "bilirubin_inverted",
+    "comma_decimal",
+    "date_invalid",
+    "drifted_new_format",
+    "duplicate_conflict",
+    "extra_section_unknown_tests",
+    "foreign_layout_G",
+    "header_changed",
+    "hidden_numeric_result",
+    "hidden_qualitative_result",
+    "layout_drift",
+    "long_name_wrapped",
+    "multipage_unapproved",
+    "note_with_number",
+    "patient_id_missing",
+    "protein_inverted",
+    "static_text_damage",
+    "text_between_rows_with_number",
+    "truncated",
+    "two_patients_one_job",
+    "unapproved_note_style",
+    "unit_incompatible",
+    "unit_missing",
+    "unknown_test",
+    "value_corrupt",
+    "value_implausible",
+    "wrong_code_page"
+   ]
+  }
+ },
+ "warnings_requiring_ack": [
+  "multipage_documents_rejected"
+ ],
+ "date_format_confirmation_required": false,
+ "passed": true,
+ "compile_report": {
+  "binding_id": "lab-c",
+  "version": 9,
+  "samples": [
+   "C-2200000-clean",
+   "C-2200001-clean",
+   "C-3200000-clean",
+   "C-3200001-clean",
+   "C-3200002-clean",
+   "C-3200003-clean",
+   "C-3200004-clean",
+   "C-3200005-clean",
+   "C-3200006-clean",
+   "C-3200007-clean",
+   "C-3200008-clean",
+   "C-3200009-clean",
+   "C-3200010-clean",
+   "C-3200011-clean",
+   "C-3201000-col_shift",
+   "C-3201001-col_shift",
+   "C-3202000-crlf_trailing",
+   "C-3202001-crlf_trailing",
+   "C-3203000-drop_optional",
+   "C-3203001-drop_optional",
+   "C-3205000-long_name_overflow",
+   "C-3205001-long_name_overflow",
+   "C-3206000-referrer_variation",
+   "C-3206001-referrer_variation",
+   "C-3207000-approved_note",
+   "C-3207001-approved_note",
+   "C-3208000-interpretive_note",
+   "C-3208001-interpretive_note",
+   "C-3209000-section_subheading",
+   "C-3209001-section_subheading",
+   "C-3212000-abnormal_values",
+   "C-3212001-abnormal_values",
+   "C-3213000-accented_name",
+   "C-3213001-accented_name",
+   "C-3215000-low_direct_bilirubin",
+   "C-3215001-low_direct_bilirubin"
+  ],
+  "n_samples": 36,
+  "n_clean": 14,
+  "warnings": [
+   "no approved multi-page sample: multi-page documents will be rejected"
+  ],
+  "errors": [],
+  "n_continuation_pages": 0,
+  "compiled_summary": {
+   "header_patterns": 8,
+   "identity_index": 0,
+   "continuation_len": null,
+   "template_lines": 20,
+   "promoted_required": [
+    "patient_age",
+    "patient_sex",
+    "reported"
+   ],
+   "date_formats": {
+    "collected": {
+     "format": "%Y-%m-%d %H:%M",
+     "day_month_order_ambiguous_format": true,
+     "samples_disambiguate": true,
+     "n_strings": 36
+    },
+    "reported": {
+     "format": "%Y-%m-%d",
+     "day_month_order_ambiguous_format": true,
+     "samples_disambiguate": true,
+     "n_strings": 36
+    }
+   },
+   "numeric_skeletons": [
+    "Patient ID : <V> Sample : S-#"
+   ],
+   "note_markers": [
+    "Comment:",
+    "Interpretation:"
+   ],
+   "table_static_lines": [
+    "PROTEINS"
+   ],
+   "text_skeleton_keys": 5,
+   "abnormal_marker": null
+  }
+ }
+}

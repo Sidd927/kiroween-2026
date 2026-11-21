@@ -1,0 +1,1484 @@
+{
+ "system": "v2.1 (bindings v1)",
+ "n_cases": 240,
+ "summary": {
+  "numeric": {
+   "ACCEPT": 60
+  },
+  "numeric:P1_field_line": {
+   "ACCEPT": 12
+  },
+  "numeric:P2_referrer_line_end": {
+   "ACCEPT": 12
+  },
+  "numeric:P3_approved_note": {
+   "ACCEPT": 12
+  },
+  "numeric:P4_new_trusted_line": {
+   "ACCEPT": 12
+  },
+  "numeric:P5_inside_referrer_slot": {
+   "ACCEPT": 12
+  },
+  "qualitative": {
+   "ACCEPT": 180
+  },
+  "qualitative:P1_field_line": {
+   "ACCEPT": 36
+  },
+  "qualitative:P2_referrer_line_end": {
+   "ACCEPT": 36
+  },
+  "qualitative:P3_approved_note": {
+   "ACCEPT": 36
+  },
+  "qualitative:P4_new_trusted_line": {
+   "ACCEPT": 36
+  },
+  "qualitative:P5_inside_referrer_slot": {
+   "ACCEPT": 36
+  }
+ },
+ "leaks": [
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Sickling test: positive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Sickling test: positive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Sickling test: positive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Sickling test: positive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Sickling test: positive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Pregnancy test - Detected"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Pregnancy test - Detected"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Pregnancy test - Detected"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Pregnancy test - Detected"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Pregnancy test - Detected"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Smear shows ring forms of P vivax"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Smear shows ring forms of P vivax"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Smear shows ring forms of P vivax"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Smear shows ring forms of P vivax"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Smear shows ring forms of P vivax"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Stool occult blood present"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Stool occult blood present"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Stool occult blood present"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Stool occult blood present"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Stool occult blood present"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "VDRL non reactive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "VDRL non reactive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "VDRL non reactive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "VDRL non reactive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "VDRL non reactive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Blood culture: no growth"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Blood culture: no growth"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Blood culture: no growth"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Blood culture: no growth"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Blood culture: no growth"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Gram stain GPC in clusters"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Gram stain GPC in clusters"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Gram stain GPC in clusters"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Gram stain GPC in clusters"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Gram stain GPC in clusters"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Rh factor D positive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Rh factor D positive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Rh factor D positive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Rh factor D positive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Rh factor D positive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Widal agglutination seen"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Widal agglutination seen"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Widal agglutination seen"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Widal agglutination seen"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Widal agglutination seen"
+  },
+  {
+   "layout": "A",
+   "category": "numeric",
+   "placement": "P1_field_line",
+   "phrase": "Widal O 1:160"
+  },
+  {
+   "layout": "A",
+   "category": "numeric",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Widal O 1:160"
+  },
+  {
+   "layout": "A",
+   "category": "numeric",
+   "placement": "P3_approved_note",
+   "phrase": "Widal O 1:160"
+  },
+  {
+   "layout": "A",
+   "category": "numeric",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Widal O 1:160"
+  },
+  {
+   "layout": "A",
+   "category": "numeric",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Widal O 1:160"
+  },
+  {
+   "layout": "A",
+   "category": "numeric",
+   "placement": "P1_field_line",
+   "phrase": "ESR 1st hr 34"
+  },
+  {
+   "layout": "A",
+   "category": "numeric",
+   "placement": "P2_referrer_line_end",
+   "phrase": "ESR 1st hr 34"
+  },
+  {
+   "layout": "A",
+   "category": "numeric",
+   "placement": "P3_approved_note",
+   "phrase": "ESR 1st hr 34"
+  },
+  {
+   "layout": "A",
+   "category": "numeric",
+   "placement": "P4_new_trusted_line",
+   "phrase": "ESR 1st hr 34"
+  },
+  {
+   "layout": "A",
+   "category": "numeric",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "ESR 1st hr 34"
+  },
+  {
+   "layout": "A",
+   "category": "numeric",
+   "placement": "P1_field_line",
+   "phrase": "Hb A2 3.1%"
+  },
+  {
+   "layout": "A",
+   "category": "numeric",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Hb A2 3.1%"
+  },
+  {
+   "layout": "A",
+   "category": "numeric",
+   "placement": "P3_approved_note",
+   "phrase": "Hb A2 3.1%"
+  },
+  {
+   "layout": "A",
+   "category": "numeric",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Hb A2 3.1%"
+  },
+  {
+   "layout": "A",
+   "category": "numeric",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Hb A2 3.1%"
+  },
+  {
+   "layout": "A",
+   "category": "numeric",
+   "placement": "P1_field_line",
+   "phrase": "Retic 2.5"
+  },
+  {
+   "layout": "A",
+   "category": "numeric",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Retic 2.5"
+  },
+  {
+   "layout": "A",
+   "category": "numeric",
+   "placement": "P3_approved_note",
+   "phrase": "Retic 2.5"
+  },
+  {
+   "layout": "A",
+   "category": "numeric",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Retic 2.5"
+  },
+  {
+   "layout": "A",
+   "category": "numeric",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Retic 2.5"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Sickling test: positive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Sickling test: positive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Sickling test: positive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Sickling test: positive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Sickling test: positive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Pregnancy test - Detected"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Pregnancy test - Detected"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Pregnancy test - Detected"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Pregnancy test - Detected"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Pregnancy test - Detected"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Smear shows ring forms of P vivax"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Smear shows ring forms of P vivax"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Smear shows ring forms of P vivax"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Smear shows ring forms of P vivax"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Smear shows ring forms of P vivax"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Stool occult blood present"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Stool occult blood present"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Stool occult blood present"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Stool occult blood present"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Stool occult blood present"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "VDRL non reactive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "VDRL non reactive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "VDRL non reactive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "VDRL non reactive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "VDRL non reactive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Blood culture: no growth"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Blood culture: no growth"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Blood culture: no growth"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Blood culture: no growth"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Blood culture: no growth"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Gram stain GPC in clusters"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Gram stain GPC in clusters"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Gram stain GPC in clusters"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Gram stain GPC in clusters"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Gram stain GPC in clusters"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Rh factor D positive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Rh factor D positive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Rh factor D positive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Rh factor D positive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Rh factor D positive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Widal agglutination seen"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Widal agglutination seen"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Widal agglutination seen"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Widal agglutination seen"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Widal agglutination seen"
+  },
+  {
+   "layout": "B",
+   "category": "numeric",
+   "placement": "P1_field_line",
+   "phrase": "Widal O 1:160"
+  },
+  {
+   "layout": "B",
+   "category": "numeric",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Widal O 1:160"
+  },
+  {
+   "layout": "B",
+   "category": "numeric",
+   "placement": "P3_approved_note",
+   "phrase": "Widal O 1:160"
+  },
+  {
+   "layout": "B",
+   "category": "numeric",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Widal O 1:160"
+  },
+  {
+   "layout": "B",
+   "category": "numeric",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Widal O 1:160"
+  },
+  {
+   "layout": "B",
+   "category": "numeric",
+   "placement": "P1_field_line",
+   "phrase": "ESR 1st hr 34"
+  },
+  {
+   "layout": "B",
+   "category": "numeric",
+   "placement": "P2_referrer_line_end",
+   "phrase": "ESR 1st hr 34"
+  },
+  {
+   "layout": "B",
+   "category": "numeric",
+   "placement": "P3_approved_note",
+   "phrase": "ESR 1st hr 34"
+  },
+  {
+   "layout": "B",
+   "category": "numeric",
+   "placement": "P4_new_trusted_line",
+   "phrase": "ESR 1st hr 34"
+  },
+  {
+   "layout": "B",
+   "category": "numeric",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "ESR 1st hr 34"
+  },
+  {
+   "layout": "B",
+   "category": "numeric",
+   "placement": "P1_field_line",
+   "phrase": "Hb A2 3.1%"
+  },
+  {
+   "layout": "B",
+   "category": "numeric",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Hb A2 3.1%"
+  },
+  {
+   "layout": "B",
+   "category": "numeric",
+   "placement": "P3_approved_note",
+   "phrase": "Hb A2 3.1%"
+  },
+  {
+   "layout": "B",
+   "category": "numeric",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Hb A2 3.1%"
+  },
+  {
+   "layout": "B",
+   "category": "numeric",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Hb A2 3.1%"
+  },
+  {
+   "layout": "B",
+   "category": "numeric",
+   "placement": "P1_field_line",
+   "phrase": "Retic 2.5"
+  },
+  {
+   "layout": "B",
+   "category": "numeric",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Retic 2.5"
+  },
+  {
+   "layout": "B",
+   "category": "numeric",
+   "placement": "P3_approved_note",
+   "phrase": "Retic 2.5"
+  },
+  {
+   "layout": "B",
+   "category": "numeric",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Retic 2.5"
+  },
+  {
+   "layout": "B",
+   "category": "numeric",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Retic 2.5"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Typhidot IgM: Pos"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Sickling test: positive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Sickling test: positive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Sickling test: positive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Sickling test: positive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Sickling test: positive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Pregnancy test - Detected"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Pregnancy test - Detected"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Pregnancy test - Detected"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Pregnancy test - Detected"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Pregnancy test - Detected"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Crossmatch compatible"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Smear shows ring forms of P vivax"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Smear shows ring forms of P vivax"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Smear shows ring forms of P vivax"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Smear shows ring forms of P vivax"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Smear shows ring forms of P vivax"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Coombs direct: neg"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Stool occult blood present"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Stool occult blood present"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Stool occult blood present"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Stool occult blood present"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Stool occult blood present"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "VDRL non reactive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "VDRL non reactive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "VDRL non reactive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "VDRL non reactive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "VDRL non reactive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Blood culture: no growth"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Blood culture: no growth"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Blood culture: no growth"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Blood culture: no growth"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Blood culture: no growth"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Gram stain GPC in clusters"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Gram stain GPC in clusters"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Gram stain GPC in clusters"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Gram stain GPC in clusters"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Gram stain GPC in clusters"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Rh factor D positive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Rh factor D positive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Rh factor D positive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Rh factor D positive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Rh factor D positive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Widal agglutination seen"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Widal agglutination seen"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_approved_note",
+   "phrase": "Widal agglutination seen"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Widal agglutination seen"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Widal agglutination seen"
+  },
+  {
+   "layout": "C",
+   "category": "numeric",
+   "placement": "P1_field_line",
+   "phrase": "Widal O 1:160"
+  },
+  {
+   "layout": "C",
+   "category": "numeric",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Widal O 1:160"
+  },
+  {
+   "layout": "C",
+   "category": "numeric",
+   "placement": "P3_approved_note",
+   "phrase": "Widal O 1:160"
+  },
+  {
+   "layout": "C",
+   "category": "numeric",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Widal O 1:160"
+  },
+  {
+   "layout": "C",
+   "category": "numeric",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Widal O 1:160"
+  },
+  {
+   "layout": "C",
+   "category": "numeric",
+   "placement": "P1_field_line",
+   "phrase": "ESR 1st hr 34"
+  },
+  {
+   "layout": "C",
+   "category": "numeric",
+   "placement": "P2_referrer_line_end",
+   "phrase": "ESR 1st hr 34"
+  },
+  {
+   "layout": "C",
+   "category": "numeric",
+   "placement": "P3_approved_note",
+   "phrase": "ESR 1st hr 34"
+  },
+  {
+   "layout": "C",
+   "category": "numeric",
+   "placement": "P4_new_trusted_line",
+   "phrase": "ESR 1st hr 34"
+  },
+  {
+   "layout": "C",
+   "category": "numeric",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "ESR 1st hr 34"
+  },
+  {
+   "layout": "C",
+   "category": "numeric",
+   "placement": "P1_field_line",
+   "phrase": "Hb A2 3.1%"
+  },
+  {
+   "layout": "C",
+   "category": "numeric",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Hb A2 3.1%"
+  },
+  {
+   "layout": "C",
+   "category": "numeric",
+   "placement": "P3_approved_note",
+   "phrase": "Hb A2 3.1%"
+  },
+  {
+   "layout": "C",
+   "category": "numeric",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Hb A2 3.1%"
+  },
+  {
+   "layout": "C",
+   "category": "numeric",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Hb A2 3.1%"
+  },
+  {
+   "layout": "C",
+   "category": "numeric",
+   "placement": "P1_field_line",
+   "phrase": "Retic 2.5"
+  },
+  {
+   "layout": "C",
+   "category": "numeric",
+   "placement": "P2_referrer_line_end",
+   "phrase": "Retic 2.5"
+  },
+  {
+   "layout": "C",
+   "category": "numeric",
+   "placement": "P3_approved_note",
+   "phrase": "Retic 2.5"
+  },
+  {
+   "layout": "C",
+   "category": "numeric",
+   "placement": "P4_new_trusted_line",
+   "phrase": "Retic 2.5"
+  },
+  {
+   "layout": "C",
+   "category": "numeric",
+   "placement": "P5_inside_referrer_slot",
+   "phrase": "Retic 2.5"
+  }
+ ]
+}

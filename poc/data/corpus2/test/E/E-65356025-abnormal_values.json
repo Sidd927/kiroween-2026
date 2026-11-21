@@ -1,0 +1,87 @@
+{
+ "doc_id": "E-65356025-abnormal_values",
+ "layout": "E",
+ "cls": "abnormal_values",
+ "group": "valid",
+ "expected": "accept",
+ "raw_b64": "TElGRUxJTkUgUEFUSE9MT0dZICYgSU1BR0lORyAgICAgICAgICAgICAgICAgICAgICAgIExhYiBJRDogTEwtMjAyNi0xODkyOApQYXRpZW50OiBJc2hhIEd1cHRhICAgICAgICAgICAgU2V4L0FnZTogRi8yMiAgICAgICAgRHJhd246IEZlYnJ1YXJ5IDE5LCAyMDI2Cl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXwpIQUVNT0dSQU0KSGIgICAgICAgICAxMi43IGcvZEwgICAgIFsxMi4wLTE1LjVdICAgUkJDICAgICAgICA1LjAyIHgxMF42L3VMIFs0LjAwLTUuMjBdCldCQyAgICAgIDE2LjMgISB4MTBeMy91TCBbNC4wLTExLjBdICAgIFBMVCAgICAgICAgIDI0NCB4MTBeMy91TCBbMTUwLTQxMF0KSENUICAgICAgNDguNyAhICUgICAgICAgIFszNi4wLTQ2LjBdICAgTUNWICAgICAgICA5Ny4wIGZMICAgICAgIFs4My4wLTEwMS4wXQpNQ0ggICAgICAyNS4yICEgcGcgICAgICAgWzI3LjAtMzIuMF0KX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fCiEgPSBvdXRzaWRlIHJlZmVyZW5jZSBpbnRlcnZhbCAgICAgICAgUmVwb3J0IGdlbmVyYXRlZCBieSBMYWJTeXMgMy4xClNZTlRIRVRJQyBTQU1QTEUgLSBOT1QgQSBSRUFMIFBBVElFTlQK",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "LL-2026-18928",
+  "patient_name": "Isha Gupta",
+  "patient_age": 22,
+  "patient_sex": "female",
+  "collected": "2026-02-19",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "12.7",
+    "unit": "g/dL",
+    "label": "Hb",
+    "flag": "",
+    "ref_low": "12.0",
+    "ref_high": "15.5"
+   },
+   {
+    "code": "RBC",
+    "value": "5.02",
+    "unit": "x10^6/uL",
+    "label": "RBC",
+    "flag": "",
+    "ref_low": "4.00",
+    "ref_high": "5.20"
+   },
+   {
+    "code": "WBC",
+    "value": "16.3",
+    "unit": "x10^3/uL",
+    "label": "WBC",
+    "flag": "H",
+    "ref_low": "4.0",
+    "ref_high": "11.0"
+   },
+   {
+    "code": "PLT",
+    "value": "244",
+    "unit": "x10^3/uL",
+    "label": "PLT",
+    "flag": "",
+    "ref_low": "150",
+    "ref_high": "410"
+   },
+   {
+    "code": "HCT",
+    "value": "48.7",
+    "unit": "%",
+    "label": "HCT",
+    "flag": "H",
+    "ref_low": "36.0",
+    "ref_high": "46.0"
+   },
+   {
+    "code": "MCV",
+    "value": "97.0",
+    "unit": "fL",
+    "label": "MCV",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCH",
+    "value": "25.2",
+    "unit": "pg",
+    "label": "MCH",
+    "flag": "L",
+    "ref_low": "27.0",
+    "ref_high": "32.0"
+   }
+  ],
+  "collected_time": null,
+  "reported": null,
+  "notes": [],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "test"
+}

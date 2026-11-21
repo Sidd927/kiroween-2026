@@ -6,3 +6,7 @@ __pycache__/
 # bulky, regenerable: FHIR bundles (rebuild with `python -m bench.run_fhir`)
 runtime/fhir/generic/
 runtime/fhir/abdm/
+runtime_h/fhir/
+runtime_h/capture/
+runtime_h/fhir_v4/
+phase2/stage3/results/*.pkl

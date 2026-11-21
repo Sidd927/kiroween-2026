@@ -1,0 +1,124 @@
+{
+ "binding_id": "lab-d",
+ "description": "Shree Sai Diagnostics boxed report: UHID, Coll. Dt dd.mm.yy, Age/Sex, PARAMETER/VALUE/UNIT/RANGE/FLAG table.",
+ "layout": {
+  "anchors": [
+   "^\\|\\s+SHREE SAI DIAGNOSTICS\\s+\\|$",
+   "^\\| PARAMETER\\s+\\| VALUE\\s+\\| UNIT\\s+\\| RANGE\\s+\\| FLAG \\|$",
+   "\\| UHID : "
+  ]
+ },
+ "fields": {
+  "patient_id": {
+   "regex": "^\\| UHID : (?P<v>\\d{2}-\\d+)\\s+\\|",
+   "type": "string",
+   "required": true,
+   "pattern": "\\d{2}-\\d+"
+  },
+  "patient_name": {
+   "regex": "^\\| Name : (?:(?:MR|MRS|MS|SMT|SHRI|KUM|DR|BABY)\\.?\\s+)?(?P<v>[A-Za-z][A-Za-z .'-]*?)\\s+\\| Age/Sex",
+   "type": "string",
+   "required": true
+  },
+  "patient_age": {
+   "regex": "Age/Sex : (?P<v>\\d+)/[MF]\\s+\\|",
+   "type": "integer",
+   "required": true
+  },
+  "patient_sex": {
+   "regex": "Age/Sex : \\d+/(?P<v>[MF])\\s+\\|",
+   "type": "enum",
+   "enum_map": {
+    "M": "male",
+    "F": "female"
+   },
+   "required": true
+  },
+  "collected": {
+   "regex": "Coll\\. Dt : (?P<v>\\d{2}\\.\\d{2}\\.\\d{2})\\s+\\|",
+   "type": "date",
+   "format": "%d.%m.%y",
+   "required": true
+  }
+ },
+ "results": {
+  "start": "^\\| PARAMETER\\s+\\| VALUE\\s+\\| UNIT\\s+\\| RANGE\\s+\\| FLAG \\|$",
+  "end": "\\*\\* End of Report \\*\\*",
+  "skip_lines": [
+   "^\\s*$",
+   "^\\+[-+]+\\+$",
+   "^\\| PARAMETER\\s+\\| VALUE\\s+\\| UNIT\\s+\\| RANGE\\s+\\| FLAG \\|$",
+   "^\\|\\s+SHREE SAI DIAGNOSTICS\\s+\\|$",
+   "^\\|\\s+Near Bus Stand, Shirdi Road, Kopargaon\\s+\\|$",
+   "^\\| UHID : .*\\|$",
+   "^\\| Name : .*\\|$"
+  ],
+  "row": "^\\| (?P<label>[^|]+?)\\s+\\| (?P<value>\\d+(?:\\.\\d+)?)\\s+\\| (?P<unit>[^|\\s]+)\\s+\\| (?P<ref_low>\\d+(?:\\.\\d+)?)-(?P<ref_high>\\d+(?:\\.\\d+)?)\\s+\\|\\s*(?P<flag>[HL]?)\\s*\\|$",
+  "labels": {
+   "Glucose (Fasting)": "GLU",
+   "Serum Creatinine": "CREA",
+   "Blood Urea": "UREA",
+   "Haemoglobin": "HGB",
+   "Total Count (WBC)": "WBC",
+   "Platelets": "PLT"
+  },
+  "flags": {
+   "H": "H",
+   "L": "L"
+  },
+  "min_rows": 1,
+  "max_rows": 12
+ },
+ "version": 3,
+ "compiled": {
+  "compiler": "spoolgeist_h.compile/1",
+  "header": [
+   {
+    "exact": "+----------------------------------------------------------------+"
+   },
+   {
+    "exact": "| SHREE SAI DIAGNOSTICS |"
+   },
+   {
+    "exact": "| Near Bus Stand, Shirdi Road, Kopargaon |"
+   },
+   {
+    "exact": "+----------------------------------------------------------------+"
+   },
+   {
+    "regex": "\\| UHID : ",
+    "source": "anchor"
+   },
+   {
+    "regex": "^\\| Name : .*\\|$",
+    "source": "skip"
+   },
+   {
+    "exact": "+---------------------+---------+------------+------------+------+"
+   }
+  ],
+  "identity_index": 1,
+  "template_lines": [
+   "+---------------------+---------+------------+------------+------+",
+   "+----------------------------------------------------------------+",
+   "SYNTHETIC SAMPLE - NOT A REAL PATIENT",
+   "| ** End of Report ** |",
+   "| Near Bus Stand, Shirdi Road, Kopargaon |",
+   "| PARAMETER | VALUE | UNIT | RANGE | FLAG |",
+   "| SHREE SAI DIAGNOSTICS |"
+  ],
+  "continuation_len": 7,
+  "promoted_required": [
+   "patient_age",
+   "patient_sex"
+  ],
+  "date_formats": {
+   "collected": {
+    "format": "%d.%m.%y",
+    "day_month_order_ambiguous_format": true,
+    "samples_disambiguate": true,
+    "n_strings": 16
+   }
+  }
+ }
+}

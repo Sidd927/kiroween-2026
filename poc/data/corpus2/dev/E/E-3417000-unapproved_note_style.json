@@ -1,0 +1,98 @@
+{
+ "doc_id": "E-3417000-unapproved_note_style",
+ "layout": "E",
+ "cls": "unapproved_note_style",
+ "group": "policy",
+ "expected": "reject",
+ "raw_b64": "TElGRUxJTkUgUEFUSE9MT0dZICYgSU1BR0lORyAgICAgICAgICAgICAgICAgICAgICAgIExhYiBJRDogTEwtMjAyNi0xNDQ2NwpQYXRpZW50OiBJc2hhIFNoaW5kZSAgICAgICAgICAgU2V4L0FnZTogTS8yNSAgICAgICAgRHJhd246IE1hcmNoIDI1LCAyMDI2Cl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXwpIQUVNT0dSQU0KSGIgICAgICAgICAxNS4wIGcvZEwgICAgIFsxMy4wLTE3LjBdICAgUkJDICAgICAgICA1LjQxIHgxMF42L3VMIFs0LjUwLTUuOTBdCldCQyAgICAgICAgIDguOSB4MTBeMy91TCBbNC4wLTExLjBdICAgIFBMVCAgICAgICAgIDI2MyB4MTBeMy91TCBbMTUwLTQxMF0KSENUICAgICAgICA0NS40ICUgICAgICAgIFs0MC4wLTUwLjBdICAgTUNWICAgICAgICA4My45IGZMICAgICAgIFs4My4wLTEwMS4wXQpNQ0ggICAgICAgIDI3LjcgcGcgICAgICAgWzI3LjAtMzIuMF0gICBNQ0hDICAgICAgIDMzLjAgZy9kTCAgICAgWzMxLjUtMzQuNV0KX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fCiEgPSBvdXRzaWRlIHJlZmVyZW5jZSBpbnRlcnZhbCAgICAgICAgUmVwb3J0IGdlbmVyYXRlZCBieSBMYWJTeXMgMy4xCioqKiBDbGluaWNhbCBjb3JyZWxhdGlvbiBhZHZpc2VkLiAqKioKU1lOVEhFVElDIFNBTVBMRSAtIE5PVCBBIFJFQUwgUEFUSUVOVAo=",
+ "queue_codepage": "ascii",
+ "truth": {
+  "patient_id": "LL-2026-14467",
+  "patient_name": "Isha Shinde",
+  "patient_age": 25,
+  "patient_sex": "male",
+  "collected": "2026-03-25",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "15.0",
+    "unit": "g/dL",
+    "label": "Hb",
+    "flag": "",
+    "ref_low": "13.0",
+    "ref_high": "17.0"
+   },
+   {
+    "code": "RBC",
+    "value": "5.41",
+    "unit": "x10^6/uL",
+    "label": "RBC",
+    "flag": "",
+    "ref_low": "4.50",
+    "ref_high": "5.90"
+   },
+   {
+    "code": "WBC",
+    "value": "8.9",
+    "unit": "x10^3/uL",
+    "label": "WBC",
+    "flag": "",
+    "ref_low": "4.0",
+    "ref_high": "11.0"
+   },
+   {
+    "code": "PLT",
+    "value": "263",
+    "unit": "x10^3/uL",
+    "label": "PLT",
+    "flag": "",
+    "ref_low": "150",
+    "ref_high": "410"
+   },
+   {
+    "code": "HCT",
+    "value": "45.4",
+    "unit": "%",
+    "label": "HCT",
+    "flag": "",
+    "ref_low": "40.0",
+    "ref_high": "50.0"
+   },
+   {
+    "code": "MCV",
+    "value": "83.9",
+    "unit": "fL",
+    "label": "MCV",
+    "flag": "",
+    "ref_low": "83.0",
+    "ref_high": "101.0"
+   },
+   {
+    "code": "MCH",
+    "value": "27.7",
+    "unit": "pg",
+    "label": "MCH",
+    "flag": "",
+    "ref_low": "27.0",
+    "ref_high": "32.0"
+   },
+   {
+    "code": "MCHC",
+    "value": "33.0",
+    "unit": "g/dL",
+    "label": "MCHC",
+    "flag": "",
+    "ref_low": "31.5",
+    "ref_high": "34.5"
+   }
+  ],
+  "collected_time": null,
+  "reported": null,
+  "notes": [
+   "*** Clinical correlation advised. ***"
+  ],
+  "flag_semantics": "presence"
+ },
+ "note": "",
+ "split": "dev"
+}

@@ -1,0 +1,370 @@
+{
+ "binding_id": "lab-f",
+ "description": "Medilink Reference Lab report: PT/MRN header, COLLECTED line, TEST NAME (UNITS) RESULT FLAG REF table.",
+ "layout": {
+  "anchors": [
+   "^MEDILINK REFERENCE LAB\\s+-\\s+ACCESSION",
+   "^TEST NAME \\(UNITS\\)\\s+RESULT\\s+FLAG\\s+REF$",
+   "^END OF REPORT$"
+  ]
+ },
+ "fields": {
+  "patient_id": {
+   "regex": "^PT:\\s.*?\\sMRN\\s+(?P<v>\\d{6,10})\\b",
+   "type": "string",
+   "required": true,
+   "pattern": "\\d{6,10}"
+  },
+  "patient_name": {
+   "regex": "^PT:\\s+(?P<v>\\S.*?)\\s{2,}MRN\\s",
+   "type": "string",
+   "required": true
+  },
+  "patient_age": {
+   "regex": "\\bAGE:\\s*(?P<v>\\d{1,3})Y\\b",
+   "type": "integer",
+   "required": true
+  },
+  "patient_sex": {
+   "regex": "\\bSEX:\\s*(?P<v>[MF])$",
+   "type": "enum",
+   "enum_map": {
+    "M": "male",
+    "F": "female"
+   },
+   "required": true
+  },
+  "collected": {
+   "regex": "^COLLECTED\\s+(?P<v>\\d{2}/\\d{2}/\\d{4} \\d{4})\\b",
+   "type": "date",
+   "format": "%m/%d/%Y %H%M",
+   "required": true
+  }
+ },
+ "results": {
+  "start": "^TEST NAME \\(UNITS\\)\\s+RESULT\\s+FLAG\\s+REF$",
+  "end": "^END OF REPORT$",
+  "skip_lines": [
+   "^\\s*$",
+   "^=+$",
+   "^-+$",
+   "^TEST NAME \\(UNITS\\)\\s+RESULT\\s+FLAG\\s+REF$",
+   "^MEDILINK REFERENCE LAB\\s+-\\s+ACCESSION \\d+$",
+   "^PT:\\s.*\\sMRN\\s+\\d+\\s+AGE:.*$",
+   "^COLLECTED\\s+\\d{2}/\\d{2}/\\d{4} \\d{4}\\s+RECEIVED\\s+\\d{2}/\\d{2}/\\d{4} \\d{4}$"
+  ],
+  "row": "^(?P<label>[A-Z][A-Z ,]*?) \\((?P<unit>[^()\\s]+)\\)[ ]+(?P<value>\\d+(?:\\.\\d+)?)(?:[ ]+(?P<flag>[HL])(?=[ ]))?[ ]+(?P<ref_low>\\d+(?:\\.\\d+)?)-(?P<ref_high>\\d+(?:\\.\\d+)?)$",
+  "labels": {
+   "HEMOGLOBIN": "HGB",
+   "HEMATOCRIT": "HCT",
+   "WBC": "WBC",
+   "RBC": "RBC",
+   "PLATELETS": "PLT",
+   "MCV": "MCV",
+   "GLUCOSE, FASTING": "GLU",
+   "CREATININE": "CREA",
+   "ALT": "ALT",
+   "AST": "AST"
+  },
+  "flags": {
+   "H": "H",
+   "L": "L"
+  },
+  "min_rows": 1,
+  "max_rows": 30
+ },
+ "version": 5,
+ "compiled": {
+  "compiler": "spoolgeist_h.compile/3",
+  "header": [
+   {
+    "regex": "^MEDILINK REFERENCE LAB\\s+-\\s+ACCESSION",
+    "source": "anchor"
+   },
+   {
+    "regex": "^PT:\\s.*\\sMRN\\s+\\d+\\s+AGE:.*$",
+    "source": "skip"
+   },
+   {
+    "regex": "^COLLECTED\\s+\\d{2}/\\d{2}/\\d{4} \\d{4}\\s+RECEIVED\\s+\\d{2}/\\d{2}/\\d{4} \\d{4}$",
+    "source": "skip"
+   },
+   {
+    "exact": "========================================================================"
+   }
+  ],
+  "identity_index": 0,
+  "template_lines": [
+   "------------------------------------------------------------------------",
+   "========================================================================",
+   "END OF REPORT",
+   "SYNTHETIC SAMPLE - NOT A REAL PATIENT",
+   "TEST NAME (UNITS) RESULT FLAG REF"
+  ],
+  "continuation_len": 4,
+  "llm_binding": {
+   "binding_id": "lab-f",
+   "description": "Medilink Reference Lab report: PT/MRN header, COLLECTED line, TEST NAME (UNITS) RESULT FLAG REF table.",
+   "layout": {
+    "anchors": [
+     "^MEDILINK REFERENCE LAB\\s+-\\s+ACCESSION",
+     "^TEST NAME \\(UNITS\\)\\s+RESULT\\s+FLAG\\s+REF$",
+     "^END OF REPORT$"
+    ]
+   },
+   "fields": {
+    "patient_id": {
+     "regex": "^PT:\\s.*?\\sMRN\\s+(?P<v>\\d{6,10})\\b",
+     "type": "string",
+     "required": true,
+     "pattern": "\\d{6,10}"
+    },
+    "patient_name": {
+     "regex": "^PT:\\s+(?P<v>\\S.*?)\\s{2,}MRN\\s",
+     "type": "string",
+     "required": true
+    },
+    "patient_age": {
+     "regex": "\\bAGE:\\s*(?P<v>\\d{1,3})Y\\b",
+     "type": "integer",
+     "required": false
+    },
+    "patient_sex": {
+     "regex": "\\bSEX:\\s*(?P<v>[MF])$",
+     "type": "enum",
+     "enum_map": {
+      "M": "male",
+      "F": "female"
+     },
+     "required": false
+    },
+    "collected": {
+     "regex": "^COLLECTED\\s+(?P<v>\\d{2}/\\d{2}/\\d{4} \\d{4})\\b",
+     "type": "date",
+     "format": "%m/%d/%Y %H%M",
+     "required": true
+    }
+   },
+   "results": {
+    "start": "^TEST NAME \\(UNITS\\)\\s+RESULT\\s+FLAG\\s+REF$",
+    "end": "^END OF REPORT$",
+    "skip_lines": [
+     "^\\s*$",
+     "^=+$",
+     "^-+$",
+     "^TEST NAME \\(UNITS\\)\\s+RESULT\\s+FLAG\\s+REF$",
+     "^MEDILINK REFERENCE LAB\\s+-\\s+ACCESSION \\d+$",
+     "^PT:\\s.*\\sMRN\\s+\\d+\\s+AGE:.*$",
+     "^COLLECTED\\s+\\d{2}/\\d{2}/\\d{4} \\d{4}\\s+RECEIVED\\s+\\d{2}/\\d{2}/\\d{4} \\d{4}$"
+    ],
+    "row": "^(?P<label>[A-Z][A-Z ,]*?) \\((?P<unit>[^()\\s]+)\\)[ ]+(?P<value>\\d+(?:\\.\\d+)?)(?:[ ]+(?P<flag>[HL])(?=[ ]))?[ ]+(?P<ref_low>\\d+(?:\\.\\d+)?)-(?P<ref_high>\\d+(?:\\.\\d+)?)$",
+    "labels": {
+     "HEMOGLOBIN": "HGB",
+     "HEMATOCRIT": "HCT",
+     "WBC": "WBC",
+     "RBC": "RBC",
+     "PLATELETS": "PLT",
+     "MCV": "MCV",
+     "GLUCOSE, FASTING": "GLU",
+     "CREATININE": "CREA",
+     "ALT": "ALT",
+     "AST": "AST"
+    },
+    "flags": {
+     "H": "H",
+     "L": "L"
+    },
+    "min_rows": 1,
+    "max_rows": 30
+   }
+  },
+  "sample_refs": [
+   {
+    "path": "data/corpus/gen/F/F-60001-clean.json",
+    "sha256": "4685717ec00cfaca1fbc12541f19c31a0ecb7fbfb6c418a66320927cf3a3c7f0"
+   },
+   {
+    "path": "data/corpus/gen/F/F-60002-clean.json",
+    "sha256": "297eb3a7f617182d9416feffc11f6501460b1d752852f3ddebb4eeae9c1041e7"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60100-clean.json",
+    "sha256": "fcf42a6cef9aee30d0f0c6666d8488234f6b3c9cb1eeef3b2c5f1590824afbef"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60101-clean.json",
+    "sha256": "08ecf278674edcad40430bbef8a01f1305f80d03cfc33ae16bb898012c4da5e7"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60102-clean.json",
+    "sha256": "73f765d4e982727adaaca517fc5e22e9cfd811175a5569d5a484a1b7f9275583"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60103-clean.json",
+    "sha256": "fd851d3c5851f41d9f0d0b9f652d5838af3454765e2d0a4be880ef1ef553ad4c"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60104-clean.json",
+    "sha256": "5fb600add65948af79623c6bf7bd7e87d5bd5dafb98d8d6c5ef09a73112e270f"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60105-clean.json",
+    "sha256": "ee4fd260759f1f9cf07bf6059634d67d863ed77cf3638538a7d0cd7020e62129"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60106-clean.json",
+    "sha256": "d69e5af4305e53ca412f9a9531a499fdf62725dbb67d7a936e85db6cb6539d66"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60107-clean.json",
+    "sha256": "98b50b045753dfbfb6d351be2d7118991b7a9b1b0d22a4dd2151ddb7a21abb14"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60200-col_shift.json",
+    "sha256": "13f345530303b41ea90c5a77b9224e585284de80846fcf6df3f9bd06d52d0282"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60201-drop_optional.json",
+    "sha256": "f96562aa96a3d8ec8921b608736e27355abfdb7925de2b000e330792ebd0ab98"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60202-page_break.json",
+    "sha256": "30ef575eb0350e432ce7341cc94646cc04552d52ed2d19ee4e7d0cb7342858dd"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60203-crlf_trailing.json",
+    "sha256": "45da943aea7334ad3e61bd30bb43f41b32233f5abb22d26f019993ff5a5be6d4"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60204-long_name.json",
+    "sha256": "65c02f740cf41d17b5ec57d71f732f47b3371a4f791353335a9099a9ce3d7d95"
+   }
+  ],
+  "regression_refs": [
+   {
+    "path": "data/corpus/gen/F/F-60001-clean.json",
+    "sha256": "4685717ec00cfaca1fbc12541f19c31a0ecb7fbfb6c418a66320927cf3a3c7f0"
+   },
+   {
+    "path": "data/corpus/gen/F/F-60002-clean.json",
+    "sha256": "297eb3a7f617182d9416feffc11f6501460b1d752852f3ddebb4eeae9c1041e7"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60100-clean.json",
+    "sha256": "fcf42a6cef9aee30d0f0c6666d8488234f6b3c9cb1eeef3b2c5f1590824afbef"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60101-clean.json",
+    "sha256": "08ecf278674edcad40430bbef8a01f1305f80d03cfc33ae16bb898012c4da5e7"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60102-clean.json",
+    "sha256": "73f765d4e982727adaaca517fc5e22e9cfd811175a5569d5a484a1b7f9275583"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60103-clean.json",
+    "sha256": "fd851d3c5851f41d9f0d0b9f652d5838af3454765e2d0a4be880ef1ef553ad4c"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60104-clean.json",
+    "sha256": "5fb600add65948af79623c6bf7bd7e87d5bd5dafb98d8d6c5ef09a73112e270f"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60105-clean.json",
+    "sha256": "ee4fd260759f1f9cf07bf6059634d67d863ed77cf3638538a7d0cd7020e62129"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60106-clean.json",
+    "sha256": "d69e5af4305e53ca412f9a9531a499fdf62725dbb67d7a936e85db6cb6539d66"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60107-clean.json",
+    "sha256": "98b50b045753dfbfb6d351be2d7118991b7a9b1b0d22a4dd2151ddb7a21abb14"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60200-col_shift.json",
+    "sha256": "13f345530303b41ea90c5a77b9224e585284de80846fcf6df3f9bd06d52d0282"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60201-drop_optional.json",
+    "sha256": "f96562aa96a3d8ec8921b608736e27355abfdb7925de2b000e330792ebd0ab98"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60202-page_break.json",
+    "sha256": "30ef575eb0350e432ce7341cc94646cc04552d52ed2d19ee4e7d0cb7342858dd"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60203-crlf_trailing.json",
+    "sha256": "45da943aea7334ad3e61bd30bb43f41b32233f5abb22d26f019993ff5a5be6d4"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60204-long_name.json",
+    "sha256": "65c02f740cf41d17b5ec57d71f732f47b3371a4f791353335a9099a9ce3d7d95"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60205-unit_incompatible.json",
+    "sha256": "949d4a5b6d8b3c95bc5226a76794ae153abbd0cccc1e6cd869b73fe6ce7d7a4d"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60206-unit_missing.json",
+    "sha256": "402ae01402dfbd8dc67020d59568af1d41d246d89665b6358d5554d57a06b159"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60207-value_corrupt.json",
+    "sha256": "cfa53d213e1a4211dc9a50299732be7f6ad27fe950387d982866b1f2e506251c"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60208-value_implausible.json",
+    "sha256": "bffa9ac35ca218b5b555f024f09c530d230094a72960adda1ec831ceb31511d6"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60209-patient_id_missing.json",
+    "sha256": "4ade1909d1434a4c706c076228398af09857e6fc1e368f5e546ee1217e3f5f6f"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60210-date_invalid.json",
+    "sha256": "7bf273085e3eefc6ae6ff0883b8895be1cec39b6d6ea54bfbb03967117bf3b1c"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60211-duplicate_conflict.json",
+    "sha256": "259925889dd0b08168c723a9fd23e21073308047b6e016dcb9fb005e5a4cf553"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60212-unknown_test.json",
+    "sha256": "4ce37277652d673c1d9e73647ec720032cc58fb3c53c672148b9d56c94e82181"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60213-truncated.json",
+    "sha256": "00c1e3de1120d5f9e148073f9708d63c9aa10772ac98625dd4fc76e1ccfb8a16"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60214-layout_drift.json",
+    "sha256": "f9b21b1f2f3cd3a3538e28918ee75ee8923f800785a2ce6830805fa1339655ce"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60215-header_changed.json",
+    "sha256": "da97c0bee4dcdba52675168cfe514d0f3b83b52f8738d35f130f102b289fa05a"
+   },
+   {
+    "path": "data/corpus/dev/F/F-60216-flag_inconsistent.json",
+    "sha256": "c4c0d39c20538de9e359d162a1d72c891254e4189b940bb007eca59e84a778a1"
+   }
+  ],
+  "promoted_required": [
+   "patient_age",
+   "patient_sex"
+  ],
+  "date_formats": {
+   "collected": {
+    "format": "%m/%d/%Y %H%M",
+    "day_month_order_ambiguous_format": true,
+    "samples_disambiguate": true,
+    "n_strings": 16
+   }
+  },
+  "numeric_skeletons": [
+   "COLLECTED <V> RECEIVED #/#/# #",
+   "MEDILINK REFERENCE LAB - ACCESSION #"
+  ]
+ }
+}

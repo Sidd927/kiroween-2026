@@ -1,0 +1,152 @@
+{
+ "binding_id": "lab-b",
+ "description": "City Diagnostic Centre layout: dotted-leader result rows (Investigation / Value / Units / Biological Ref.), multi-page with repeated headers, ends at '--- End of Report ---'.",
+ "layout": {
+  "anchors": [
+   "^\\s*CITY DIAGNOSTIC CENTRE$",
+   "^Investigation\\s+Value\\s+Units\\s+Biological Ref\\.$",
+   "^Sample collected on :"
+  ]
+ },
+ "fields": {
+  "patient_id": {
+   "regex": "^Reg\\. No\\s*:\\s*(?P<v>\\S+)",
+   "type": "string",
+   "required": true,
+   "pattern": "[A-Z]{2,4}-\\d{5,7}"
+  },
+  "patient_name": {
+   "regex": "^Name\\s*:\\s*(?:(?i:MR|MRS|MS|SMT|SHRI|KUM|DR|BABY)\\.?\\s+)?(?P<v>\\S.*?)\\s+Age\\s*:",
+   "type": "string",
+   "required": true
+  },
+  "patient_age": {
+   "regex": "\\bAge\\s*:\\s*(?P<v>\\d+)\\s*Y\\b",
+   "type": "integer",
+   "required": false
+  },
+  "patient_sex": {
+   "regex": "\\bSex\\s*:\\s*(?P<v>Male|Female)\\b",
+   "type": "enum",
+   "enum_map": {
+    "Male": "male",
+    "Female": "female"
+   },
+   "required": true
+  },
+  "collected": {
+   "regex": "^Sample collected on\\s*:\\s*(?P<v>\\d{2}-[A-Za-z]{3}-\\d{4} \\d{2}:\\d{2} [AP]M)",
+   "type": "date",
+   "format": "%d-%b-%Y %I:%M %p",
+   "required": true
+  },
+  "reported": {
+   "regex": "\\bDate\\s*:\\s*(?P<v>\\d{2}-[A-Za-z]{3}-\\d{4})",
+   "type": "date",
+   "format": "%d-%b-%Y",
+   "required": true
+  }
+ },
+ "results": {
+  "start": "^Investigation\\s+Value\\s+Units\\s+Biological Ref\\.$",
+  "end": "^\\s*--- End of Report ---$",
+  "skip_lines": [
+   "^\\s*$",
+   "^-{10,}$",
+   "^={10,}$",
+   "^\\s*\\(continued\\)$",
+   "^\\s*CITY DIAGNOSTIC CENTRE$",
+   "^\\s*Plot 7, MIDC Area, Aurangabad - 431001$",
+   "^Reg\\. No\\s*:",
+   "^Name\\s*:",
+   "^Sample collected on\\s*:",
+   "^Referred by\\s*:",
+   "^\\s*Page \\d+ of \\d+$",
+   "^Investigation\\s+Value\\s+Units\\s+Biological Ref\\.$",
+   "^Values in bold are outside the biological reference interval\\.$"
+  ],
+  "row": "^(?P<label>[A-Za-z][A-Za-z /]*?) \\.{2,} +(?P<value>\\d+(?:\\.\\d+)?) +(?P<unit>\\S+) +(?P<ref_low>\\d+(?:\\.\\d+)?)-(?P<ref_high>\\d+(?:\\.\\d+)?)$",
+  "labels": {
+   "Haemoglobin": "HGB",
+   "RBC Count": "RBC",
+   "PCV / Haematocrit": "HCT",
+   "MCV": "MCV",
+   "MCH": "MCH",
+   "MCHC": "MCHC",
+   "Total WBC Count": "WBC",
+   "Neutrophils": "NEUT%",
+   "Lymphocytes": "LYMPH%",
+   "Platelet Count": "PLT"
+  },
+  "flags": {},
+  "min_rows": 1,
+  "max_rows": 20
+ },
+ "version": 3,
+ "compiled": {
+  "compiler": "spoolgeist_h.compile/1",
+  "header": [
+   {
+    "exact": "CITY DIAGNOSTIC CENTRE"
+   },
+   {
+    "exact": "Plot 7, MIDC Area, Aurangabad - 431001"
+   },
+   {
+    "regex": "^Reg\\. No\\s*:",
+    "source": "skip"
+   },
+   {
+    "regex": "^Name\\s*:",
+    "source": "skip"
+   },
+   {
+    "regex": "^Sample collected on :",
+    "source": "anchor"
+   },
+   {
+    "regex": "^Referred by\\s*:",
+    "source": "skip"
+   },
+   {
+    "exact": "Page 1 of 2"
+   },
+   {
+    "exact": "================================================================"
+   }
+  ],
+  "identity_index": 0,
+  "template_lines": [
+   "(continued)",
+   "--- End of Report ---",
+   "----------------------------------------------------------------",
+   "================================================================",
+   "CITY DIAGNOSTIC CENTRE",
+   "Investigation Value Units Biological Ref.",
+   "Page 1 of 2",
+   "Page 2 of 2",
+   "Plot 7, MIDC Area, Aurangabad - 431001",
+   "SYNTHETIC SAMPLE - NOT A REAL PATIENT",
+   "Values in bold are outside the biological reference interval."
+  ],
+  "continuation_len": 6,
+  "promoted_required": [
+   "patient_sex",
+   "reported"
+  ],
+  "date_formats": {
+   "collected": {
+    "format": "%d-%b-%Y %I:%M %p",
+    "day_month_order_ambiguous_format": false,
+    "samples_disambiguate": null,
+    "n_strings": 30
+   },
+   "reported": {
+    "format": "%d-%b-%Y",
+    "day_month_order_ambiguous_format": false,
+    "samples_disambiguate": null,
+    "n_strings": 30
+   }
+  }
+ }
+}

@@ -1,0 +1,3979 @@
+{
+ "mutants": 334,
+ "by_class": {
+  "KILLED": 252,
+  "REDUNDANT": 38,
+  "EQ-ROBUST": 19,
+  "EQ-MSG": 24,
+  "UNREACHABLE": 1
+ },
+ "killed_total": 252,
+ "survivors_total": 82,
+ "rows": [
+  {
+   "id": "M001",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 35,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M002",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 39,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M003",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 43,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M004",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 53,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M005",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 66,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M006",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 68,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M007",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 71,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M008",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 72,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M009",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 41,
+   "op": "bool",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "ID sanity or->and: patient_id field regex + pattern already constrain identifiers"
+  },
+  {
+   "id": "M010",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 45,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "C-3246000-wrong_code_page"
+   ]
+  },
+  {
+   "id": "M011",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 57,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M012",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 66,
+   "op": "cmp",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M013",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 66,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M014",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 78,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M015",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 81,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M016",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 85,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M017",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 91,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M018",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 94,
+   "op": "bool",
+   "stage": "survived-all",
+   "class": "EQ-ROBUST",
+   "reason": "both-refs guard and->or: every v4 binding captures both ref groups or neither"
+  },
+  {
+   "id": "M019",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 41,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M020",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 41,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M021",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 45,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "C-3246000-wrong_code_page"
+   ]
+  },
+  {
+   "id": "M022",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 45,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M023",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 45,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M024",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 47,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M025",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 57,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M026",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 57,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M027",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 62,
+   "op": "bool",
+   "stage": "killed:gap-tests",
+   "class": "KILLED",
+   "reason": "Stage-3 gap tests (validator boundaries, two-script names) fail"
+  },
+  {
+   "id": "M028",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 66,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M029",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 66,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M030",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 91,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M031",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 91,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M032",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 94,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3032000-flag_inconsistent",
+    "D-3332000-flag_inconsistent"
+   ]
+  },
+  {
+   "id": "M033",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 94,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3032000-flag_inconsistent",
+    "D-3332000-flag_inconsistent"
+   ]
+  },
+  {
+   "id": "M034",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 96,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M035",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 101,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3032000-flag_inconsistent",
+    "D-3332000-flag_inconsistent"
+   ]
+  },
+  {
+   "id": "M036",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 102,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M037",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 104,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M038",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 106,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M039",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 47,
+   "op": "const",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M040",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 49,
+   "op": "bool",
+   "stage": "survived-all",
+   "class": "EQ-ROBUST",
+   "reason": "honorific check: bindings strip honorifics in the regex"
+  },
+  {
+   "id": "M041",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 62,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M042",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 62,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M043",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 66,
+   "op": "const",
+   "stage": "killed:gap-tests",
+   "class": "KILLED",
+   "reason": "Stage-3 gap tests (validator boundaries, two-script names) fail"
+  },
+  {
+   "id": "M044",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 66,
+   "op": "const",
+   "stage": "killed:gap-tests",
+   "class": "KILLED",
+   "reason": "Stage-3 gap tests (validator boundaries, two-script names) fail"
+  },
+  {
+   "id": "M045",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 99,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M046",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 102,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M047",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 102,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "F-3532000-flag_inconsistent"
+   ]
+  },
+  {
+   "id": "M048",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 104,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M049",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 104,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "D-3332000-flag_inconsistent"
+   ]
+  },
+  {
+   "id": "M050",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 106,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M051",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 106,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "B-3100000-clean",
+    "B-3100001-clean"
+   ]
+  },
+  {
+   "id": "M052",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 106,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "B-3100002-clean",
+    "B-3100003-clean"
+   ]
+  },
+  {
+   "id": "M053",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 57,
+   "op": "const",
+   "stage": "killed:gap-tests",
+   "class": "KILLED",
+   "reason": "Stage-3 gap tests (validator boundaries, two-script names) fail"
+  },
+  {
+   "id": "M054",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 57,
+   "op": "const",
+   "stage": "killed:gap-tests",
+   "class": "KILLED",
+   "reason": "Stage-3 gap tests (validator boundaries, two-script names) fail"
+  },
+  {
+   "id": "M055",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 57,
+   "op": "const",
+   "stage": "killed:gap-tests",
+   "class": "KILLED",
+   "reason": "Stage-3 gap tests (validator boundaries, two-script names) fail"
+  },
+  {
+   "id": "M056",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 62,
+   "op": "const",
+   "stage": "killed:gap-tests",
+   "class": "KILLED",
+   "reason": "Stage-3 gap tests (validator boundaries, two-script names) fail"
+  },
+  {
+   "id": "M057",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 99,
+   "op": "cmp",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M058",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 99,
+   "op": "bool",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M059",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 102,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "F-3532000-flag_inconsistent"
+   ]
+  },
+  {
+   "id": "M060",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 104,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "D-3332000-flag_inconsistent"
+   ]
+  },
+  {
+   "id": "M061",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 99,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "same"
+  },
+  {
+   "id": "M062",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 99,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M063",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 99,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M064",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 57,
+   "op": "const",
+   "stage": "killed:gap-tests",
+   "class": "KILLED",
+   "reason": "Stage-3 gap tests (validator boundaries, two-script names) fail"
+  },
+  {
+   "id": "M065",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 99,
+   "op": "cmp",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M066",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 99,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M067",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 99,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "same"
+  },
+  {
+   "id": "M068",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 99,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "same"
+  },
+  {
+   "id": "M069",
+   "file": "validators.py",
+   "function": "validate",
+   "line": 99,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "same"
+  },
+  {
+   "id": "M070",
+   "file": "validators.py",
+   "function": "_interval",
+   "line": 116,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3040000-index_inconsistent",
+    "B-3139000-row_value_swap"
+   ]
+  },
+  {
+   "id": "M071",
+   "file": "validators.py",
+   "function": "_interval",
+   "line": 116,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-ROBUST",
+   "reason": "decimal-place extraction in V9 intervals: constant change widens/narrows the rounding half-width by one digit; tolerance robust for consistent docs, inconsistent docs off by >=10% (generator) still rejected"
+  },
+  {
+   "id": "M072",
+   "file": "validators.py",
+   "function": "_interval",
+   "line": 116,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-ROBUST",
+   "reason": "decimal-place extraction in V9 intervals: constant change widens/narrows the rounding half-width by one digit; tolerance robust for consistent docs, inconsistent docs off by >=10% (generator) still rejected"
+  },
+  {
+   "id": "M073",
+   "file": "validators.py",
+   "function": "_interval",
+   "line": 117,
+   "op": "const",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M074",
+   "file": "validators.py",
+   "function": "_interval",
+   "line": 117,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "E-3400004-clean"
+   ]
+  },
+  {
+   "id": "M075",
+   "file": "validators.py",
+   "function": "_interval",
+   "line": 117,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M076",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 141,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "C-3200000-clean",
+    "C-3200001-clean"
+   ]
+  },
+  {
+   "id": "M077",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 143,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "C-3200000-clean",
+    "C-3200001-clean"
+   ]
+  },
+  {
+   "id": "M078",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 145,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "C-3200000-clean",
+    "C-3200001-clean"
+   ]
+  },
+  {
+   "id": "M079",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 147,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M080",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 149,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M081",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 151,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M082",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 127,
+   "op": "bool",
+   "stage": "survived-all",
+   "class": "EQ-ROBUST",
+   "reason": "duplicate-code guard in V9: duplicates are rejected earlier by V5"
+  },
+  {
+   "id": "M083",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 137,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3039000-row_value_swap",
+    "A-3040000-index_inconsistent"
+   ]
+  },
+  {
+   "id": "M084",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 141,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3039000-row_value_swap",
+    "B-3139000-row_value_swap"
+   ]
+  },
+  {
+   "id": "M085",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 143,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3040000-index_inconsistent",
+    "B-3140000-index_inconsistent"
+   ]
+  },
+  {
+   "id": "M086",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 145,
+   "op": "cmp",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M087",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 147,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3043000-differential_over_100",
+    "B-3143002-differential_over_100"
+   ]
+  },
+  {
+   "id": "M088",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 147,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3043000-differential_over_100",
+    "B-3143002-differential_over_100"
+   ]
+  },
+  {
+   "id": "M089",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 149,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "C-3241000-bilirubin_inverted"
+   ]
+  },
+  {
+   "id": "M090",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 149,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "C-3241000-bilirubin_inverted"
+   ]
+  },
+  {
+   "id": "M091",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 151,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "C-3242000-protein_inverted"
+   ]
+  },
+  {
+   "id": "M092",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 151,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "C-3242000-protein_inverted"
+   ]
+  },
+  {
+   "id": "M093",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 127,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3039000-row_value_swap",
+    "A-3040000-index_inconsistent"
+   ]
+  },
+  {
+   "id": "M094",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 127,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3039000-row_value_swap",
+    "A-3040000-index_inconsistent"
+   ]
+  },
+  {
+   "id": "M095",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 137,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "F-3540000-index_inconsistent"
+   ]
+  },
+  {
+   "id": "M096",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 137,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M097",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 140,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3039000-row_value_swap",
+    "A-3040000-index_inconsistent"
+   ]
+  },
+  {
+   "id": "M098",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 147,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-ROBUST",
+   "reason": "differential bound 100 -> 101 etc.: generated over-100 cases exceed by >=3"
+  },
+  {
+   "id": "M099",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 140,
+   "op": "const",
+   "stage": "killed:extended-oracle",
+   "class": "KILLED",
+   "reason": "outcome differs on extended development documents"
+  },
+  {
+   "id": "M100",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 142,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "E-3440000-index_inconsistent"
+   ]
+  },
+  {
+   "id": "M101",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 144,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M102",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 146,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M103",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 149,
+   "op": "const",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M104",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 149,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "C-3200000-clean",
+    "C-3200001-clean"
+   ]
+  },
+  {
+   "id": "M105",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 151,
+   "op": "const",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M106",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 151,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "C-3200000-clean",
+    "C-3200001-clean"
+   ]
+  },
+  {
+   "id": "M107",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 133,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M108",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 133,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000005-clean",
+    "A-3000011-clean"
+   ]
+  },
+  {
+   "id": "M109",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 137,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M110",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 137,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M111",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 140,
+   "op": "const",
+   "stage": "killed:extended-oracle",
+   "class": "KILLED",
+   "reason": "outcome differs on extended development documents"
+  },
+  {
+   "id": "M112",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 147,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-ROBUST",
+   "reason": "differential bound 100 -> 101 etc.: generated over-100 cases exceed by >=3"
+  },
+  {
+   "id": "M113",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 147,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-ROBUST",
+   "reason": "differential bound 100 -> 101 etc.: generated over-100 cases exceed by >=3"
+  },
+  {
+   "id": "M114",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 133,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M115",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 133,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M116",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 138,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3039000-row_value_swap",
+    "A-3040000-index_inconsistent"
+   ]
+  },
+  {
+   "id": "M117",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 138,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3039000-row_value_swap",
+    "A-3040000-index_inconsistent"
+   ]
+  },
+  {
+   "id": "M118",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 140,
+   "op": "const",
+   "stage": "killed:extended-oracle",
+   "class": "KILLED",
+   "reason": "outcome differs on extended development documents"
+  },
+  {
+   "id": "M119",
+   "file": "validators.py",
+   "function": "domain_consistency",
+   "line": 140,
+   "op": "const",
+   "stage": "killed:extended-oracle",
+   "class": "KILLED",
+   "reason": "outcome differs on extended development documents"
+  },
+  {
+   "id": "M120",
+   "file": "validators.py",
+   "function": "div",
+   "line": 133,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M121",
+   "file": "validators.py",
+   "function": "div",
+   "line": 133,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000005-clean",
+    "A-3000011-clean"
+   ]
+  },
+  {
+   "id": "M122",
+   "file": "validators.py",
+   "function": "div",
+   "line": 133,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M123",
+   "file": "validators.py",
+   "function": "div",
+   "line": 133,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M124",
+   "file": "validators.py",
+   "function": "check",
+   "line": 137,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3039000-row_value_swap",
+    "A-3040000-index_inconsistent"
+   ]
+  },
+  {
+   "id": "M125",
+   "file": "validators.py",
+   "function": "check",
+   "line": 137,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "F-3540000-index_inconsistent"
+   ]
+  },
+  {
+   "id": "M126",
+   "file": "validators.py",
+   "function": "check",
+   "line": 137,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M127",
+   "file": "validators.py",
+   "function": "check",
+   "line": 137,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M128",
+   "file": "validators.py",
+   "function": "check",
+   "line": 137,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M129",
+   "file": "validators.py",
+   "function": "check",
+   "line": 138,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3039000-row_value_swap",
+    "A-3040000-index_inconsistent"
+   ]
+  },
+  {
+   "id": "M130",
+   "file": "validators.py",
+   "function": "check",
+   "line": 138,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3039000-row_value_swap",
+    "A-3040000-index_inconsistent"
+   ]
+  },
+  {
+   "id": "M131",
+   "file": "sentinel.py",
+   "function": "_analyte_re",
+   "line": 47,
+   "op": "cmp",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "sentinel analyte list filter: sentinel is backed by the numeric rule (see process 620)"
+  },
+  {
+   "id": "M132",
+   "file": "sentinel.py",
+   "function": "_analyte_re",
+   "line": 47,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "same"
+  },
+  {
+   "id": "M133",
+   "file": "sentinel.py",
+   "function": "unconsumed_text",
+   "line": 56,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M134",
+   "file": "sentinel.py",
+   "function": "unconsumed_text",
+   "line": 56,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "same"
+  },
+  {
+   "id": "M135",
+   "file": "sentinel.py",
+   "function": "scan",
+   "line": 65,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "hit text"
+  },
+  {
+   "id": "M136",
+   "file": "sentinel.py",
+   "function": "scan",
+   "line": 69,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "hit text"
+  },
+  {
+   "id": "M137",
+   "file": "sentinel.py",
+   "function": "scan",
+   "line": 69,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "hit text"
+  },
+  {
+   "id": "M138",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 134,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M139",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 146,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M140",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 150,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M141",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 151,
+   "op": "raise",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "B-3133000-conflicting_patient_id"
+   ]
+  },
+  {
+   "id": "M142",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 153,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M143",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 154,
+   "op": "raise",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "pattern_mismatch: field regexes already constrain the value shape (e.g. SP/\\d{2}/\\d+); V3 checks identifiers again"
+  },
+  {
+   "id": "M144",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 138,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M145",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 143,
+   "op": "bool",
+   "stage": "survived-all",
+   "class": "EQ-ROBUST",
+   "reason": "empty captured values are impossible for the v4 field regexes (\\S required)"
+  },
+  {
+   "id": "M146",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 148,
+   "op": "raise",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M147",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 150,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "B-3133000-conflicting_patient_id"
+   ]
+  },
+  {
+   "id": "M148",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 152,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M149",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 153,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M150",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 157,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M151",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 161,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M152",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 163,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M153",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 168,
+   "op": "raise",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3026000-date_invalid",
+    "B-3126000-date_invalid"
+   ]
+  },
+  {
+   "id": "M154",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 140,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M155",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 143,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M156",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 158,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M157",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 159,
+   "op": "raise",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "integer type: age regexes capture digits only"
+  },
+  {
+   "id": "M158",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 164,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M159",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 165,
+   "op": "raise",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "enum type: sex regexes capture only enum keys"
+  },
+  {
+   "id": "M160",
+   "file": "interpreter.py",
+   "function": "_field",
+   "line": 140,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-ROBUST",
+   "reason": "v-span recording guard"
+  },
+  {
+   "id": "M161",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 188,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M162",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 189,
+   "op": "raise",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M163",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 191,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M164",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 192,
+   "op": "raise",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "table end missing: classify_lines then sees result rows / footer lines outside a table region; truncated docs are rejected by unaccounted_line / rows_outside_table / missing required fields (truncated class: 0 unsafe)"
+  },
+  {
+   "id": "M165",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 193,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M166",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 207,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3007001-approved_note",
+    "A-3009001-section_subheading"
+   ]
+  },
+  {
+   "id": "M167",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 251,
+   "op": "raise",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "C-3222000-unit_missing"
+   ]
+  },
+  {
+   "id": "M168",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 252,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M169",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 253,
+   "op": "raise",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "row_count: min_rows=1 for every binding; an empty table is rejected by V1 'no results' (missing_table_rows class)"
+  },
+  {
+   "id": "M170",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 202,
+   "op": "cmp",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "rows_outside_table (known labels): such rows are also unexplained lines -> unaccounted_line / unapproved_numeric_text in classify_lines and numeric rule"
+  },
+  {
+   "id": "M171",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 203,
+   "op": "raise",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "same: numeric-text rule and line accounting reject result rows outside the table"
+  },
+  {
+   "id": "M172",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 206,
+   "op": "raise",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "backed by the numeric-text rule (a label line with digits outside rows has no approved digit skeleton)"
+  },
+  {
+   "id": "M173",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 215,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M174",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 224,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M175",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 235,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-ROBUST",
+   "reason": "kept_starts offset init 0->1 shifts the bold column map by one; layouts bold whole padded cells. Behaviour now pinned by test_bold_marks_exactly_the_value_characters (killed if it changes the outcome)"
+  },
+  {
+   "id": "M176",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 239,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-ROBUST",
+   "reason": "pos init 0->1 skips the first character of the block before the first row; every layout's block starts with whitespace or a row whose first char is matched -> any non-space residue would still be 'unparsed'"
+  },
+  {
+   "id": "M177",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 243,
+   "op": "raise",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3038000-text_between_rows_with_number",
+    "B-3123000-value_corrupt"
+   ]
+  },
+  {
+   "id": "M178",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 244,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M179",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 247,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M180",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 252,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M181",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 252,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M182",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 259,
+   "op": "bool",
+   "stage": "survived-all",
+   "class": "EQ-ROBUST",
+   "reason": "bold and value-start guard: value group always participates in row matches (required group)"
+  },
+  {
+   "id": "M183",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 265,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M184",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 266,
+   "op": "raise",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3028000-unknown_test",
+    "B-3128000-unknown_test"
+   ]
+  },
+  {
+   "id": "M185",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 269,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M186",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 270,
+   "op": "raise",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "invalid_value: the row regexes only admit digit/dot values; a corrupted value fails the row match first -> unparsed_content (value_corrupt class 0 unsafe)"
+  },
+  {
+   "id": "M187",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 272,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M188",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 273,
+   "op": "raise",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "missing_unit: an empty unit then fails unit_factor -> unit_not_accepted on the next line"
+  },
+  {
+   "id": "M189",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 275,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M190",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 276,
+   "op": "raise",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3021000-unit_incompatible",
+    "A-3022000-unit_missing"
+   ]
+  },
+  {
+   "id": "M191",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 216,
+   "op": "bool",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "note_hides_row: a note containing a known label is rejected later by note_contains_result_label"
+  },
+  {
+   "id": "M192",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 217,
+   "op": "raise",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "note_contains_result_label rejects the same notes"
+  },
+  {
+   "id": "M193",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 224,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M194",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 229,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M195",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 230,
+   "op": "raise",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "skip_hides_row: skipped lines go through text-skeleton + numeric checks in v4 (R3 attack 0/30 accepted)"
+  },
+  {
+   "id": "M196",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 238,
+   "op": "const",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M197",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 259,
+   "op": "cmp",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M198",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 264,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M199",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 280,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000001-clean",
+    "A-3000002-clean"
+   ]
+  },
+  {
+   "id": "M200",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 281,
+   "op": "raise",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "unknown_flag: row regex flag groups only admit the binding's flag characters"
+  },
+  {
+   "id": "M201",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 283,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "B-3100000-clean",
+    "B-3100001-clean"
+   ]
+  },
+  {
+   "id": "M202",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 202,
+   "op": "bool",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "same as line 202 cmp"
+  },
+  {
+   "id": "M203",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 205,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M204",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 210,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M205",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 259,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-ROBUST",
+   "reason": "same guard"
+  },
+  {
+   "id": "M206",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 260,
+   "op": "const",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M207",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 268,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M208",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 271,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M209",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 277,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "D-3332000-flag_inconsistent"
+   ]
+  },
+  {
+   "id": "M210",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 283,
+   "op": "cmp",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M211",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 289,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M212",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 290,
+   "op": "raise",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "invalid_ref: ref groups only admit decimals in every binding's row regex"
+  },
+  {
+   "id": "M213",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 204,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "second rows_outside_table loop (slice bound change): backed by the numeric-text rule"
+  },
+  {
+   "id": "M214",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 205,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M215",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 205,
+   "op": "cmp",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M216",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 210,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M217",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 248,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M218",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 263,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "B-3100000-clean",
+    "B-3100001-clean"
+   ]
+  },
+  {
+   "id": "M219",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 287,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3032000-flag_inconsistent",
+    "D-3332000-flag_inconsistent"
+   ]
+  },
+  {
+   "id": "M220",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 190,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-ROBUST",
+   "reason": "end search starts at s+2 instead of s+1: the end marker is never the line right after the start line in any layout; a doc where it is would have zero rows -> V1"
+  },
+  {
+   "id": "M221",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 203,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text slice"
+  },
+  {
+   "id": "M222",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 205,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "label-length threshold of the second loop: backed by the numeric-text rule"
+  },
+  {
+   "id": "M223",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 206,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text slice"
+  },
+  {
+   "id": "M224",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 216,
+   "op": "cmp",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "same as 216 bool"
+  },
+  {
+   "id": "M225",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 229,
+   "op": "cmp",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "skip_hides_row: skipped lines are re-checked by classify_lines (text skeleton) and the numeric rule"
+  },
+  {
+   "id": "M226",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 251,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text slice"
+  },
+  {
+   "id": "M227",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 200,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "E-3400000-clean",
+    "E-3400001-clean"
+   ]
+  },
+  {
+   "id": "M228",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 203,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text slice"
+  },
+  {
+   "id": "M229",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 217,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text slice"
+  },
+  {
+   "id": "M230",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 230,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text slice"
+  },
+  {
+   "id": "M231",
+   "file": "interpreter.py",
+   "function": "_table",
+   "line": 243,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text slice"
+  },
+  {
+   "id": "M232",
+   "file": "interpreter.py",
+   "function": "header_matches_at",
+   "line": 346,
+   "op": "bool",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M233",
+   "file": "interpreter.py",
+   "function": "header_matches_at",
+   "line": 346,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M234",
+   "file": "interpreter.py",
+   "function": "page1_ok",
+   "line": 350,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M235",
+   "file": "interpreter.py",
+   "function": "page1_ok",
+   "line": 353,
+   "op": "bool",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M236",
+   "file": "interpreter.py",
+   "function": "page1_ok",
+   "line": 353,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M237",
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "line": 379,
+   "op": "not",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "same as 602"
+  },
+  {
+   "id": "M238",
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "line": 381,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3004000-page_break",
+    "A-3004001-page_break"
+   ]
+  },
+  {
+   "id": "M239",
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "line": 382,
+   "op": "raise",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "multipage_not_approved: duplicated pages are also rejected by duplicate tests (V5) / conflicting fields (policy class multipage_unapproved: refused)"
+  },
+  {
+   "id": "M240",
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "line": 383,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3004000-page_break",
+    "A-3004001-page_break"
+   ]
+  },
+  {
+   "id": "M241",
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "line": 384,
+   "op": "raise",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "page_header_mismatch: same as 602"
+  },
+  {
+   "id": "M242",
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "line": 375,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "per-page numbering/start: same as 602"
+  },
+  {
+   "id": "M243",
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "line": 376,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3004000-page_break",
+    "A-3004001-page_break"
+   ]
+  },
+  {
+   "id": "M244",
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "line": 375,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "per-page numbering/start: same as 602"
+  },
+  {
+   "id": "M245",
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "line": 383,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3004000-page_break",
+    "A-3004001-page_break"
+   ]
+  },
+  {
+   "id": "M246",
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "line": 384,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text"
+  },
+  {
+   "id": "M247",
+   "file": "interpreter.py",
+   "function": "check_pages",
+   "line": 384,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text"
+  },
+  {
+   "id": "M248",
+   "file": "interpreter.py",
+   "function": "line_key",
+   "line": 434,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M249",
+   "file": "interpreter.py",
+   "function": "line_key",
+   "line": 439,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "B-3100000-clean",
+    "B-3100001-clean"
+   ]
+  },
+  {
+   "id": "M250",
+   "file": "interpreter.py",
+   "function": "line_key",
+   "line": 444,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M251",
+   "file": "interpreter.py",
+   "function": "line_key",
+   "line": 446,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M252",
+   "file": "interpreter.py",
+   "function": "line_key",
+   "line": 431,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M253",
+   "file": "interpreter.py",
+   "function": "line_key",
+   "line": 444,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M254",
+   "file": "interpreter.py",
+   "function": "line_key",
+   "line": 431,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M255",
+   "file": "interpreter.py",
+   "function": "line_key",
+   "line": 436,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3004000-page_break",
+    "A-3004001-page_break"
+   ]
+  },
+  {
+   "id": "M256",
+   "file": "interpreter.py",
+   "function": "line_key",
+   "line": 436,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3004000-page_break",
+    "A-3004001-page_break"
+   ]
+  },
+  {
+   "id": "M257",
+   "file": "interpreter.py",
+   "function": "line_key",
+   "line": 449,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M258",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 470,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M259",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 470,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M260",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 471,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3045000-hidden_qualitative_result",
+    "B-3145000-hidden_qualitative_result"
+   ]
+  },
+  {
+   "id": "M261",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 475,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M262",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 478,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3017000-unapproved_note_style",
+    "B-3117000-unapproved_note_style"
+   ]
+  },
+  {
+   "id": "M263",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 488,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M264",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 489,
+   "op": "raise",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M265",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 491,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M266",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 495,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M267",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 496,
+   "op": "raise",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M268",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 499,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3045000-hidden_qualitative_result"
+   ]
+  },
+  {
+   "id": "M269",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 500,
+   "op": "raise",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3045000-hidden_qualitative_result"
+   ]
+  },
+  {
+   "id": "M270",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 501,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M271",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 502,
+   "op": "raise",
+   "stage": "killed:extended-oracle",
+   "class": "KILLED",
+   "reason": "outcome differs on extended development documents"
+  },
+  {
+   "id": "M272",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 467,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M273",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 471,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M274",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 472,
+   "op": "cmp",
+   "stage": "survived-all",
+   "class": "EQ-ROBUST",
+   "reason": "prev_note bookkeeping inside the table region (in-table continuations are disabled anyway)"
+  },
+  {
+   "id": "M275",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 475,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M276",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 475,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3045000-hidden_qualitative_result",
+    "B-3145000-hidden_qualitative_result"
+   ]
+  },
+  {
+   "id": "M277",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 478,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3007000-approved_note",
+    "A-3008000-interpretive_note"
+   ]
+  },
+  {
+   "id": "M278",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 478,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3007000-approved_note",
+    "A-3008000-interpretive_note"
+   ]
+  },
+  {
+   "id": "M279",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 479,
+   "op": "bool",
+   "stage": "survived-all",
+   "class": "EQ-ROBUST",
+   "reason": "continuation merge vs new note: changes how note text is split, never whether a line is accepted"
+  },
+  {
+   "id": "M280",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 487,
+   "op": "cmp",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "field-coverage flag inverted changes the skeleton key source for field-only lines; such lines then need a header/skip/anchor key, else unapproved_line_shape"
+  },
+  {
+   "id": "M281",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 498,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M282",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 499,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M283",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 499,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M284",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 499,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M285",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 499,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M286",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 471,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M287",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 471,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3007001-approved_note",
+    "B-3107001-approved_note"
+   ]
+  },
+  {
+   "id": "M288",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 478,
+   "op": "bool",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M289",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 479,
+   "op": "not",
+   "stage": "survived-all",
+   "class": "EQ-ROBUST",
+   "reason": "same as 479 bool"
+  },
+  {
+   "id": "M290",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 499,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M291",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 499,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M292",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 499,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M293",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 480,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3008000-interpretive_note",
+    "A-3008001-interpretive_note"
+   ]
+  },
+  {
+   "id": "M294",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 489,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text"
+  },
+  {
+   "id": "M295",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 496,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text"
+  },
+  {
+   "id": "M296",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 500,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text"
+  },
+  {
+   "id": "M297",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 502,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text"
+  },
+  {
+   "id": "M298",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 480,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3008000-interpretive_note",
+    "A-3008001-interpretive_note"
+   ]
+  },
+  {
+   "id": "M299",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 489,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text"
+  },
+  {
+   "id": "M300",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 496,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text"
+  },
+  {
+   "id": "M301",
+   "file": "interpreter.py",
+   "function": "classify_lines",
+   "line": 500,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text"
+  },
+  {
+   "id": "M302",
+   "file": "interpreter.py",
+   "function": "checked_lines",
+   "line": 541,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "B-3144000-hidden_numeric_result",
+    "F-3544001-hidden_numeric_result"
+   ]
+  },
+  {
+   "id": "M303",
+   "file": "interpreter.py",
+   "function": "checked_lines",
+   "line": 541,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M304",
+   "file": "interpreter.py",
+   "function": "checked_lines",
+   "line": 541,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M305",
+   "file": "interpreter.py",
+   "function": "checked_lines",
+   "line": 541,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M306",
+   "file": "interpreter.py",
+   "function": "numeric_skeleton",
+   "line": 555,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "B-3144000-hidden_numeric_result",
+    "F-3544001-hidden_numeric_result"
+   ]
+  },
+  {
+   "id": "M307",
+   "file": "interpreter.py",
+   "function": "numeric_skeleton",
+   "line": 555,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M308",
+   "file": "interpreter.py",
+   "function": "numeric_skeleton",
+   "line": 555,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M309",
+   "file": "interpreter.py",
+   "function": "numeric_text_check",
+   "line": 577,
+   "op": "bool",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M310",
+   "file": "interpreter.py",
+   "function": "numeric_text_check",
+   "line": 578,
+   "op": "raise",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "B-3144000-hidden_numeric_result",
+    "F-3544001-hidden_numeric_result"
+   ]
+  },
+  {
+   "id": "M311",
+   "file": "interpreter.py",
+   "function": "numeric_text_check",
+   "line": 577,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M312",
+   "file": "interpreter.py",
+   "function": "numeric_text_check",
+   "line": 577,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M313",
+   "file": "interpreter.py",
+   "function": "numeric_text_check",
+   "line": 578,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text"
+  },
+  {
+   "id": "M314",
+   "file": "interpreter.py",
+   "function": "numeric_text_check",
+   "line": 578,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text"
+  },
+  {
+   "id": "M315",
+   "file": "interpreter.py",
+   "function": "recognise_v3",
+   "line": 583,
+   "op": "cmp",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M316",
+   "file": "interpreter.py",
+   "function": "process",
+   "line": 591,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M317",
+   "file": "interpreter.py",
+   "function": "process",
+   "line": 592,
+   "op": "raise",
+   "stage": "survived-all",
+   "class": "UNREACHABLE",
+   "reason": "unknown mode: the pipeline only passes validated modes"
+  },
+  {
+   "id": "M318",
+   "file": "interpreter.py",
+   "function": "process",
+   "line": 595,
+   "op": "not",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M319",
+   "file": "interpreter.py",
+   "function": "process",
+   "line": 597,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M320",
+   "file": "interpreter.py",
+   "function": "process",
+   "line": 597,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "ambiguous_layout threshold 1->2: no two v11 bindings recognise the same document (gate G7)"
+  },
+  {
+   "id": "M321",
+   "file": "interpreter.py",
+   "function": "process",
+   "line": 599,
+   "op": "const",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3000000-clean",
+    "A-3000001-clean"
+   ]
+  },
+  {
+   "id": "M322",
+   "file": "interpreter.py",
+   "function": "process",
+   "line": 602,
+   "op": "cmp",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "per-page checks disabled: Stage 2 showed no measurable incremental benefit over coverage + line accounting"
+  },
+  {
+   "id": "M323",
+   "file": "interpreter.py",
+   "function": "process",
+   "line": 605,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3035000-extra_section_unknown_tests",
+    "A-3044000-hidden_numeric_result"
+   ]
+  },
+  {
+   "id": "M324",
+   "file": "interpreter.py",
+   "function": "process",
+   "line": 607,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3045000-hidden_qualitative_result",
+    "B-3145000-hidden_qualitative_result"
+   ]
+  },
+  {
+   "id": "M325",
+   "file": "interpreter.py",
+   "function": "process",
+   "line": 620,
+   "op": "raise",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "vocabulary sentinel: every R1-R4 / evasion-v1 case is now rejected earlier by the vocabulary-free numeric rule or text skeletons (defence in depth, by design)"
+  },
+  {
+   "id": "M326",
+   "file": "interpreter.py",
+   "function": "process",
+   "line": 603,
+   "op": "bool",
+   "stage": "survived-all",
+   "class": "REDUNDANT",
+   "reason": "same as 602"
+  },
+  {
+   "id": "M327",
+   "file": "interpreter.py",
+   "function": "process",
+   "line": 606,
+   "op": "cmp",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "A-3007000-approved_note",
+    "A-3008000-interpretive_note"
+   ]
+  },
+  {
+   "id": "M328",
+   "file": "interpreter.py",
+   "function": "process",
+   "line": 612,
+   "op": "raise",
+   "stage": "killed:dev-oracle",
+   "class": "KILLED",
+   "reason": [
+    "B-3145000-hidden_qualitative_result",
+    "F-3545000-hidden_qualitative_result"
+   ]
+  },
+  {
+   "id": "M329",
+   "file": "interpreter.py",
+   "function": "process",
+   "line": 614,
+   "op": "raise",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M330",
+   "file": "interpreter.py",
+   "function": "process",
+   "line": 609,
+   "op": "cmp",
+   "stage": "killed:unit-tests",
+   "class": "KILLED",
+   "reason": "v4 regression tests fail"
+  },
+  {
+   "id": "M331",
+   "file": "interpreter.py",
+   "function": "process",
+   "line": 620,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text"
+  },
+  {
+   "id": "M332",
+   "file": "interpreter.py",
+   "function": "process",
+   "line": 609,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-ROBUST",
+   "reason": "same"
+  },
+  {
+   "id": "M333",
+   "file": "interpreter.py",
+   "function": "process",
+   "line": 612,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text"
+  },
+  {
+   "id": "M334",
+   "file": "interpreter.py",
+   "function": "process",
+   "line": 614,
+   "op": "const",
+   "stage": "survived-all",
+   "class": "EQ-MSG",
+   "reason": "reason text"
+  }
+ ]
+}

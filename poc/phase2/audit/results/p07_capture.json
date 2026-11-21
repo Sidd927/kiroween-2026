@@ -1,0 +1,30 @@
+{
+ "a_printer_RST_after_full_receipt": {
+  "copies_received_by_printer": 4,
+  "forward_status": [
+   {
+    "target": "127.0.0.1:60597",
+    "status": "retrying",
+    "attempts": 4,
+    "last_error": "[Errno 54] Connection reset by peer"
+   }
+  ]
+ },
+ "b_duplicate_flags_[inst0_job1, inst0_reprint, inst1_after_restart]": [
+  false,
+  false,
+  true
+ ],
+ "b_note": "expected by design: reprint flagged True; after restart the same bytes are NOT flagged (state lost)",
+ "b_flags_raw": [
+  true,
+  false,
+  false
+ ],
+ "c_patient_name_in_events_log": true,
+ "c_patient_id_in_events_log": false,
+ "c_file_modes": {
+  "json": "0o644",
+  "prn": "0o644"
+ }
+}

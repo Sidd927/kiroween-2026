@@ -1,0 +1,293 @@
+{
+ "stats": {
+  "A:correct_accept": 507,
+  "A:correct_reject": 260,
+  "A:false_reject": 99,
+  "A:unsafe_accept": 2,
+  "B:correct_accept": 364,
+  "B:correct_reject": 208,
+  "B:false_reject": 197,
+  "C:correct_accept": 541,
+  "C:correct_reject": 193,
+  "C:false_reject": 77,
+  "D:correct_accept": 362,
+  "D:correct_reject": 211,
+  "D:false_reject": 174,
+  "E:correct_accept": 432,
+  "E:correct_reject": 211,
+  "E:false_reject": 230,
+  "F:correct_accept": 404,
+  "F:correct_reject": 296,
+  "F:false_reject": 232,
+  "correct_accept": 2610,
+  "correct_reject": 1379,
+  "false_reject": 1009,
+  "fuzz:blank_lines:correct_accept": 223,
+  "fuzz:blank_lines:correct_reject": 325,
+  "fuzz:blank_lines:false_reject": 221,
+  "fuzz:comment_line:correct_reject": 342,
+  "fuzz:comment_line:false_reject": 404,
+  "fuzz:digit_change:correct_accept": 203,
+  "fuzz:digit_change:correct_reject": 297,
+  "fuzz:digit_change:false_reject": 221,
+  "fuzz:digit_change:unsafe_accept": 1,
+  "fuzz:static_char_damage:correct_accept": 81,
+  "fuzz:static_char_damage:correct_reject": 267,
+  "fuzz:static_char_damage:false_reject": 299,
+  "unsafe_accept": 2,
+  "unsafe_accept:data_correct=True": 2
+ },
+ "failures": [
+  {
+   "doc_id": "pbt-A-57334",
+   "cls": "unsafe_accept",
+   "perturbation": "page_break+crlf_trailing+long_name+header_changed+digit_change",
+   "data_correct": true,
+   "record": {
+    "binding_id": "lab-a",
+    "patient_id": "SP/26/668409",
+    "patient_name": "VENKATARAMANA SUBRAMANIAN IYER",
+    "patient_age": 48,
+    "patient_sex": "female",
+    "collected": "2026-02-11",
+    "reported": "2026-02-12",
+    "results": [
+     {
+      "label": "HAEMOGLOBIN",
+      "code": "HGB",
+      "value": "17.3",
+      "unit": "gm/dL",
+      "value_canonical": "17.3",
+      "unit_canonical": "g/dL",
+      "flag": "H",
+      "ref_low": "13.0",
+      "ref_high": "17.0"
+     },
+     {
+      "label": "R.B.C. COUNT",
+      "code": "RBC",
+      "value": "5.85",
+      "unit": "mill/cumm",
+      "value_canonical": "5.85",
+      "unit_canonical": "10*6/uL",
+      "flag": "H",
+      "ref_low": "4.50",
+      "ref_high": "5.50"
+     },
+     {
+      "label": "P.C.V.",
+      "code": "HCT",
+      "value": "49.6",
+      "unit": "%",
+      "value_canonical": "49.6",
+      "unit_canonical": "%",
+      "flag": "",
+      "ref_low": "40.0",
+      "ref_high": "50.0"
+     },
+     {
+      "label": "M.C.V.",
+      "code": "MCV",
+      "value": "88.3",
+      "unit": "fL",
+      "value_canonical": "88.3",
+      "unit_canonical": "fL",
+      "flag": "",
+      "ref_low": "83.0",
+      "ref_high": "101.0"
+     },
+     {
+      "label": "M.C.H.",
+      "code": "MCH",
+      "value": "30.2",
+      "unit": "pg",
+      "value_canonical": "30.2",
+      "unit_canonical": "pg",
+      "flag": "",
+      "ref_low": "27.0",
+      "ref_high": "32.0"
+     },
+     {
+      "label": "M.C.H.C.",
+      "code": "MCHC",
+      "value": "34.6",
+      "unit": "g/dL",
+      "value_canonical": "34.6",
+      "unit_canonical": "g/dL",
+      "flag": "H",
+      "ref_low": "31.5",
+      "ref_high": "34.5"
+     },
+     {
+      "label": "TOTAL LEUCOCYTE COUNT",
+      "code": "WBC",
+      "value": "9425",
+      "unit": "/cumm",
+      "value_canonical": "9.425",
+      "unit_canonical": "10*3/uL",
+      "flag": "",
+      "ref_low": "4000",
+      "ref_high": "11000"
+     },
+     {
+      "label": "LYMPHOCYTES",
+      "code": "LYMPH%",
+      "value": "37",
+      "unit": "%",
+      "value_canonical": "37",
+      "unit_canonical": "%",
+      "flag": "",
+      "ref_low": "20",
+      "ref_high": "40"
+     },
+     {
+      "label": "PLATELET COUNT",
+      "code": "PLT",
+      "value": "2.57",
+      "unit": "lakh/cumm",
+      "value_canonical": "257.00",
+      "unit_canonical": "10*3/uL",
+      "flag": "",
+      "ref_low": "1.50",
+      "ref_high": "4.10"
+     }
+    ],
+    "collected_dt": "2026-02-11T11:15:00",
+    "reported_dt": "2026-02-12T04:15:00"
+   },
+   "truth": null,
+   "text": "                   SUNRISE DIAGNOSTICS & PATHOLOGY PVT. LTD.   \r\n                 NABL-style format v2  |  Gangapur Road, Nashik  \r\n================================================================================   \r\nPatient Name : MS. VENKATARAMANA SUBRAMANIAN IYER Lab No.   : SP/26/668409   \r\nAge / Sex    : 48 Yrs / F                       Collected : 11/02/2026 11:15  \r\nRef. By      : DR. M. KULKARNI                  Reported  : 12/02/2026 04:15 \r\n--------------------------------------------------------------------------------  \r\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\r\n--------------------------------------------------------------------------------   \r\nTEST                          RESULT      UNIT          REFERENCE RANGE  \r\n--------------------------------------------------------------------------------  \r\nHAEMOGLOBIN                   17.3 H      gm/dL         13.0 - 17.0 \r\nR.B.C. COUNT                  5.85 H      mill/cumm     4.50 - 5.50   \r\nP.C.V.                        49.6        %             40.0 - 50.0\r\nM.C.V.                        88.3        fL            83.0 - 101.0  \r\nM.C.H.                        30.2        pg            27.0 - 32.0 \r\nM.C.H.C.                      34.6 H      g/dL          31.5 - 34.5 \r\nTOTAL LEUCOCYTE COUNT         9425        /cumm         4000 - 11000 \r\n  \r\n                                                       Continued on next page...  \r\n\f                          SUNRISE PATHOLOGY LABORATORY   \r\nPatient Name : MS. VENKATARAMANA SUBRAMANIAN IYER Lab No.   : SP/26/668409  \r\n--------------------------------------------------------------------------------  \r\nTEST                          RESULT      UNIT          REFERENCE RANGE  \r\n-------------------------------------------------------------------------------- \r\nLYMPHOCYTES                   37          %             20 - 40\r\nPLATELET COUNT                2.57        lakh/cumm     1.50 - 4.10\r\n--------------------------------------------------------------------------------  \r\n                             *** END OF REPORT *** \r\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT   \r\n  "
+  },
+  {
+   "doc_id": "pbt-A-1",
+   "cls": "unsafe_accept",
+   "perturbation": "col_shift+long_name+page_break+header_changed",
+   "data_correct": true,
+   "record": {
+    "binding_id": "lab-a",
+    "patient_id": "SP/26/827037",
+    "patient_name": "VENKATARAMANA SUBRAMANIAN IYER",
+    "patient_age": 88,
+    "patient_sex": "male",
+    "collected": "2026-02-09",
+    "reported": "2026-02-10",
+    "results": [
+     {
+      "label": "HAEMOGLOBIN",
+      "code": "HGB",
+      "value": "15.7",
+      "unit": "gm/dL",
+      "value_canonical": "15.7",
+      "unit_canonical": "g/dL",
+      "flag": "",
+      "ref_low": "13.0",
+      "ref_high": "17.0"
+     },
+     {
+      "label": "R.B.C. COUNT",
+      "code": "RBC",
+      "value": "5.45",
+      "unit": "mill/cumm",
+      "value_canonical": "5.45",
+      "unit_canonical": "10*6/uL",
+      "flag": "",
+      "ref_low": "4.50",
+      "ref_high": "5.50"
+     },
+     {
+      "label": "P.C.V.",
+      "code": "HCT",
+      "value": "48.3",
+      "unit": "%",
+      "value_canonical": "48.3",
+      "unit_canonical": "%",
+      "flag": "",
+      "ref_low": "40.0",
+      "ref_high": "50.0"
+     },
+     {
+      "label": "M.C.V.",
+      "code": "MCV",
+      "value": "84.8",
+      "unit": "fL",
+      "value_canonical": "84.8",
+      "unit_canonical": "fL",
+      "flag": "",
+      "ref_low": "83.0",
+      "ref_high": "101.0"
+     },
+     {
+      "label": "M.C.H.",
+      "code": "MCH",
+      "value": "32.1",
+      "unit": "pg",
+      "value_canonical": "32.1",
+      "unit_canonical": "pg",
+      "flag": "H",
+      "ref_low": "27.0",
+      "ref_high": "32.0"
+     },
+     {
+      "label": "M.C.H.C.",
+      "code": "MCHC",
+      "value": "33.5",
+      "unit": "g/dL",
+      "value_canonical": "33.5",
+      "unit_canonical": "g/dL",
+      "flag": "",
+      "ref_low": "31.5",
+      "ref_high": "34.5"
+     },
+     {
+      "label": "TOTAL LEUCOCYTE COUNT",
+      "code": "WBC",
+      "value": "2767",
+      "unit": "/cumm",
+      "value_canonical": "2.767",
+      "unit_canonical": "10*3/uL",
+      "flag": "L",
+      "ref_low": "4000",
+      "ref_high": "11000"
+     },
+     {
+      "label": "NEUTROPHILS",
+      "code": "NEUT%",
+      "value": "28",
+      "unit": "%",
+      "value_canonical": "28",
+      "unit_canonical": "%",
+      "flag": "L",
+      "ref_low": "40",
+      "ref_high": "80"
+     },
+     {
+      "label": "LYMPHOCYTES",
+      "code": "LYMPH%",
+      "value": "13",
+      "unit": "%",
+      "value_canonical": "13",
+      "unit_canonical": "%",
+      "flag": "L",
+      "ref_low": "20",
+      "ref_high": "40"
+     },
+     {
+      "label": "PLATELET COUNT",
+      "code": "PLT",
+      "value": "4.49",
+      "unit": "lakh/cumm",
+      "value_canonical": "449.00",
+      "unit_canonical": "10*3/uL",
+      "flag": "H",
+      "ref_low": "1.50",
+      "ref_high": "4.10"
+     }
+    ],
+    "collected_dt": "2026-02-09T10:45:00",
+    "reported_dt": "2026-02-10T20:20:00"
+   },
+   "truth": null,
+   "text": "                   SUNRISE DIAGNOSTICS & PATHOLOGY PVT. LTD.\n                 NABL-style format v2  |  Gangapur Road, Nashik\n================================================================================\nPatient Name : MR. VENKATARAMANA SUBRAMANIAN IYER Lab No.   : SP/26/827037\nAge / Sex    : 88 Yrs / M                       Collected : 09/02/2026 10:45\nRef. By      : DR. A. RAO                       Reported  : 10/02/2026 20:20\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                    15.7        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  5.45          mill/cumm     4.50 - 5.50\nP.C.V.                         48.3        %             40.0 - 50.0\nM.C.V.                          84.8        fL            83.0 - 101.0\nM.C.H.                         32.1 H      pg            27.0 - 32.0\nM.C.H.C.                      33.5       g/dL          31.5 - 34.5\n\n                                                       Continued on next page...\n\f                          SUNRISE PATHOLOGY LABORATORY\nPatient Name : MR. VENKATARAMANA SUBRAMANIAN IYER Lab No.   : SP/26/827037\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nTOTAL LEUCOCYTE COUNT         2767 L        /cumm         4000 - 11000\nNEUTROPHILS                   28 L        %            40 - 80\nLYMPHOCYTES                     13 L        %             20 - 40\nPLATELET COUNT                4.49 H      lakh/cumm      1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n"
+  }
+ ]
+}

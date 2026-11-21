@@ -1,0 +1,318 @@
+{
+ "system": "v3 (active: lab-a v5, lab-b v5, lab-c v5, lab-d v5, lab-e v5, lab-f v5)",
+ "n_cases": 330,
+ "summary": {
+  "digits": {
+   "REJECT": 198
+  },
+  "digits:P1_field_line": {
+   "REJECT": 72
+  },
+  "digits:P2_trusted_line_after_end": {
+   "REJECT": 72
+  },
+  "digits:P3_trusted_line_in_table": {
+   "REJECT": 54
+  },
+  "qualitative": {
+   "ACCEPT": 45,
+   "REJECT": 21
+  },
+  "qualitative:P1_field_line": {
+   "ACCEPT": 10,
+   "REJECT": 14
+  },
+  "qualitative:P2_trusted_line_after_end": {
+   "ACCEPT": 20,
+   "REJECT": 4
+  },
+  "qualitative:P3_trusted_line_in_table": {
+   "ACCEPT": 15,
+   "REJECT": 3
+  },
+  "spelled": {
+   "REJECT": 66
+  },
+  "spelled:P1_field_line": {
+   "REJECT": 24
+  },
+  "spelled:P2_trusted_line_after_end": {
+   "REJECT": 24
+  },
+  "spelled:P3_trusted_line_in_table": {
+   "REJECT": 18
+  }
+ },
+ "leaks": [
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "HIV reactive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "HIV reactive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "HIV reactive"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "HBsAg: POSITIVE"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "HBsAg: POSITIVE"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "HBsAg: POSITIVE"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Urine sugar ++"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Urine sugar ++"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Urine sugar ++"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Malaria parasite seen"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Malaria parasite seen"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Malaria parasite seen"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Blood group B negative"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Blood group B negative"
+  },
+  {
+   "layout": "A",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Blood group B negative"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "HIV reactive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "HIV reactive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "HIV reactive"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "HBsAg: POSITIVE"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "HBsAg: POSITIVE"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "HBsAg: POSITIVE"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Urine sugar ++"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Urine sugar ++"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Urine sugar ++"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Malaria parasite seen"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Malaria parasite seen"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Malaria parasite seen"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P1_field_line",
+   "phrase": "Blood group B negative"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Blood group B negative"
+  },
+  {
+   "layout": "B",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Blood group B negative"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "HIV reactive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "HIV reactive"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "HBsAg: POSITIVE"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "HBsAg: POSITIVE"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Urine sugar ++"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Urine sugar ++"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Malaria parasite seen"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Malaria parasite seen"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Blood group B negative"
+  },
+  {
+   "layout": "C",
+   "category": "qualitative",
+   "placement": "P3_trusted_line_in_table",
+   "phrase": "Blood group B negative"
+  },
+  {
+   "layout": "E",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "HIV reactive"
+  },
+  {
+   "layout": "E",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "HBsAg: POSITIVE"
+  },
+  {
+   "layout": "E",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Urine sugar ++"
+  },
+  {
+   "layout": "E",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Malaria parasite seen"
+  },
+  {
+   "layout": "E",
+   "category": "qualitative",
+   "placement": "P2_trusted_line_after_end",
+   "phrase": "Blood group B negative"
+  }
+ ]
+}

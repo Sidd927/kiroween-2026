@@ -1,0 +1,12 @@
+{
+ "doc_id": "B-3900001-foreign_layout_G",
+ "layout": "B",
+ "cls": "foreign_layout_G",
+ "group": "foreign",
+ "expected": "reject",
+ "raw_b64": "R09PRCBIRUFMVEggQ0xJTklDIExBQgpQYXRpZW50IFBvb2phIFNoYXJtYSAgSUQgR0g4MTc3CkRhdGUgMjAyNi8wMy8yMgoKSGVtb2dsb2JpbjogMTEuMyBnL2RMIChyZWYgMTIuMC0xNS41KQpXQkM6IDYuNCBLL3VMIChyZWYgNC4wLTExLjApClBsYXRlbGV0czogMjQ1IEsvdUwgKHJlZiAxNTAtNDAwKQoKU1lOVEhFVElDIFNBTVBMRSAtIE5PVCBBIFJFQUwgUEFUSUVOVAoM",
+ "queue_codepage": "ascii",
+ "truth": null,
+ "note": "",
+ "split": "dev"
+}

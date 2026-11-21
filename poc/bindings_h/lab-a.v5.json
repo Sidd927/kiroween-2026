@@ -1,0 +1,411 @@
+{
+ "binding_id": "lab-a",
+ "description": "Sunrise Pathology Laboratory CBC report with TEST/RESULT/UNIT/REFERENCE RANGE table",
+ "layout": {
+  "anchors": [
+   "^\\s*SUNRISE PATHOLOGY LABORATORY$",
+   "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$",
+   "^\\s*\\*\\*\\* END OF REPORT \\*\\*\\*$"
+  ]
+ },
+ "fields": {
+  "patient_id": {
+   "regex": "Lab No\\.\\s*:\\s*(?P<v>SP/\\d{2}/\\d+)",
+   "type": "string",
+   "required": true,
+   "pattern": "SP/\\d{2}/\\d+"
+  },
+  "patient_name": {
+   "regex": "^Patient Name\\s*:\\s*(?:(?:MR|MRS|MS|SMT|KUM|DR|BABY)\\.\\s+|SHRI\\s+)?(?P<v>\\S.*?)\\s+Lab No\\.",
+   "type": "string",
+   "required": true
+  },
+  "patient_age": {
+   "regex": "^Age / Sex\\s*:\\s*(?P<v>\\d+) Yrs / [MF]\\b",
+   "type": "integer",
+   "required": true
+  },
+  "patient_sex": {
+   "regex": "^Age / Sex\\s*:\\s*\\d+ Yrs / (?P<v>[MF])\\b",
+   "type": "enum",
+   "enum_map": {
+    "M": "male",
+    "F": "female"
+   },
+   "required": true
+  },
+  "collected": {
+   "regex": "Collected\\s*:\\s*(?P<v>\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2})",
+   "type": "date",
+   "format": "%d/%m/%Y %H:%M",
+   "required": true
+  },
+  "reported": {
+   "regex": "Reported\\s*:\\s*(?P<v>\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2})",
+   "type": "date",
+   "format": "%d/%m/%Y %H:%M",
+   "required": true
+  }
+ },
+ "results": {
+  "start": "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$",
+  "end": "^\\s*\\*\\*\\* END OF REPORT \\*\\*\\*$",
+  "skip_lines": [
+   "^\\s*$",
+   "^-+$",
+   "^\\s*SUNRISE PATHOLOGY LABORATORY$",
+   "^\\s*12, Station Road.*Ph:.*$",
+   "^Patient Name\\s*:.*$",
+   "^Age / Sex\\s*:.*$",
+   "^Ref\\. By\\s*:.*$",
+   "^\\s*HAEMATOLOGY - COMPLETE BLOOD COUNT$",
+   "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$",
+   "^\\s*Continued on next page\\.\\.\\.$"
+  ],
+  "row": "^(?P<label>[A-Z][A-Z. ]*?)\\s{2,}(?P<value>\\d+(?:\\.\\d+)?)(?:\\s+(?P<flag>[HL]))?\\s+(?P<unit>\\S+)\\s+(?P<ref_low>\\d+(?:\\.\\d+)?) - (?P<ref_high>\\d+(?:\\.\\d+)?)$",
+  "labels": {
+   "HAEMOGLOBIN": "HGB",
+   "R.B.C. COUNT": "RBC",
+   "P.C.V.": "HCT",
+   "M.C.V.": "MCV",
+   "M.C.H.": "MCH",
+   "M.C.H.C.": "MCHC",
+   "TOTAL LEUCOCYTE COUNT": "WBC",
+   "NEUTROPHILS": "NEUT%",
+   "LYMPHOCYTES": "LYMPH%",
+   "PLATELET COUNT": "PLT"
+  },
+  "flags": {
+   "H": "H",
+   "L": "L"
+  },
+  "min_rows": 1,
+  "max_rows": 18
+ },
+ "version": 5,
+ "compiled": {
+  "compiler": "spoolgeist_h.compile/3",
+  "header": [
+   {
+    "exact": "SUNRISE PATHOLOGY LABORATORY"
+   },
+   {
+    "exact": "12, Station Road, Nashik - 422001 Ph: 0253-2345678"
+   },
+   {
+    "exact": "--------------------------------------------------------------------------------"
+   },
+   {
+    "regex": "^Patient Name\\s*:.*$",
+    "source": "skip"
+   },
+   {
+    "regex": "^Age / Sex\\s*:.*$",
+    "source": "skip"
+   },
+   {
+    "regex": "^Ref\\. By\\s*:.*$",
+    "source": "skip"
+   },
+   {
+    "exact": "--------------------------------------------------------------------------------"
+   },
+   {
+    "exact": "HAEMATOLOGY - COMPLETE BLOOD COUNT"
+   },
+   {
+    "exact": "--------------------------------------------------------------------------------"
+   }
+  ],
+  "identity_index": 0,
+  "template_lines": [
+   "*** END OF REPORT ***",
+   "--------------------------------------------------------------------------------",
+   "12, Station Road, Nashik - 422001 Ph: 0253-2345678",
+   "HAEMATOLOGY - COMPLETE BLOOD COUNT",
+   "SUNRISE PATHOLOGY LABORATORY",
+   "SYNTHETIC SAMPLE - NOT A REAL PATIENT",
+   "TEST RESULT UNIT REFERENCE RANGE"
+  ],
+  "continuation_len": 1,
+  "llm_binding": {
+   "binding_id": "lab-a",
+   "description": "Sunrise Pathology Laboratory CBC report with TEST/RESULT/UNIT/REFERENCE RANGE table",
+   "layout": {
+    "anchors": [
+     "^\\s*SUNRISE PATHOLOGY LABORATORY$",
+     "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$",
+     "^\\s*\\*\\*\\* END OF REPORT \\*\\*\\*$"
+    ]
+   },
+   "fields": {
+    "patient_id": {
+     "regex": "Lab No\\.\\s*:\\s*(?P<v>SP/\\d{2}/\\d+)",
+     "type": "string",
+     "required": true,
+     "pattern": "SP/\\d{2}/\\d+"
+    },
+    "patient_name": {
+     "regex": "^Patient Name\\s*:\\s*(?:(?:MR|MRS|MS|SMT|KUM|DR|BABY)\\.\\s+|SHRI\\s+)?(?P<v>\\S.*?)\\s+Lab No\\.",
+     "type": "string",
+     "required": true
+    },
+    "patient_age": {
+     "regex": "^Age / Sex\\s*:\\s*(?P<v>\\d+) Yrs / [MF]\\b",
+     "type": "integer",
+     "required": false
+    },
+    "patient_sex": {
+     "regex": "^Age / Sex\\s*:\\s*\\d+ Yrs / (?P<v>[MF])\\b",
+     "type": "enum",
+     "enum_map": {
+      "M": "male",
+      "F": "female"
+     },
+     "required": false
+    },
+    "collected": {
+     "regex": "Collected\\s*:\\s*(?P<v>\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2})",
+     "type": "date",
+     "format": "%d/%m/%Y %H:%M",
+     "required": true
+    },
+    "reported": {
+     "regex": "Reported\\s*:\\s*(?P<v>\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2})",
+     "type": "date",
+     "format": "%d/%m/%Y %H:%M",
+     "required": false
+    }
+   },
+   "results": {
+    "start": "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$",
+    "end": "^\\s*\\*\\*\\* END OF REPORT \\*\\*\\*$",
+    "skip_lines": [
+     "^\\s*$",
+     "^-+$",
+     "^\\s*SUNRISE PATHOLOGY LABORATORY$",
+     "^\\s*12, Station Road.*Ph:.*$",
+     "^Patient Name\\s*:.*$",
+     "^Age / Sex\\s*:.*$",
+     "^Ref\\. By\\s*:.*$",
+     "^\\s*HAEMATOLOGY - COMPLETE BLOOD COUNT$",
+     "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$",
+     "^\\s*Continued on next page\\.\\.\\.$"
+    ],
+    "row": "^(?P<label>[A-Z][A-Z. ]*?)\\s{2,}(?P<value>\\d+(?:\\.\\d+)?)(?:\\s+(?P<flag>[HL]))?\\s+(?P<unit>\\S+)\\s+(?P<ref_low>\\d+(?:\\.\\d+)?) - (?P<ref_high>\\d+(?:\\.\\d+)?)$",
+    "labels": {
+     "HAEMOGLOBIN": "HGB",
+     "R.B.C. COUNT": "RBC",
+     "P.C.V.": "HCT",
+     "M.C.V.": "MCV",
+     "M.C.H.": "MCH",
+     "M.C.H.C.": "MCHC",
+     "TOTAL LEUCOCYTE COUNT": "WBC",
+     "NEUTROPHILS": "NEUT%",
+     "LYMPHOCYTES": "LYMPH%",
+     "PLATELET COUNT": "PLT"
+    },
+    "flags": {
+     "H": "H",
+     "L": "L"
+    },
+    "min_rows": 1,
+    "max_rows": 18
+   }
+  },
+  "sample_refs": [
+   {
+    "path": "data/corpus/gen/A/A-10001-clean.json",
+    "sha256": "cc0d14f5896ba8f1112eeea8eb7a244f76ef865533faa5440da739ad44b8cea4"
+   },
+   {
+    "path": "data/corpus/gen/A/A-10002-clean.json",
+    "sha256": "e204d569a8c6745eeacd5c3875fec90eb0f6ab70c9337a5a2f58e98e108c2ca3"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10100-clean.json",
+    "sha256": "c5f17ea6a0ac65071fccddf3a888b9f2a88d7205524d9c26070ffaa46d296d93"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10101-clean.json",
+    "sha256": "e6d98c6582424fdb47a8a5349c17fc57cfe7cbae0992f9f9b2cdf4c3ce3e4c72"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10102-clean.json",
+    "sha256": "cece2163799b29fe7cb44481829ea4e3ece3b80774be3bcd9255456ae4764714"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10103-clean.json",
+    "sha256": "452828b0c5c368738c380a6f49db66f2160965f1735ec3a82329c90fdfa03ead"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10104-clean.json",
+    "sha256": "5b8906e79b13780f0d4e9af549044208923e374ab6cc2c913304e14e1d5bae78"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10105-clean.json",
+    "sha256": "bc8d75b2133ff7d73f9ca24bc9172350f7280da58c0f2c08bf79ec07758e3e2c"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10106-clean.json",
+    "sha256": "e089826e750a909e00c9fddf4c058d63649f6b0c492edef82a7b8be1de0ff691"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10107-clean.json",
+    "sha256": "26493e283a6fd9a3a9f0cdcd3e5fa16c11c7140ac3975cd762e34be9ee918ee4"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10200-col_shift.json",
+    "sha256": "49a359cdbd6364d52d177fc44a3e81ea74511fd3c6d9008355e7b10c190a6515"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10201-drop_optional.json",
+    "sha256": "449654e20a062a1817ae7d4a42cb22a4d66f41a841df51d4917f3a18b3583d0c"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10202-page_break.json",
+    "sha256": "afffb8528670b661cecdb395271a24c4e7f5c0b48f6d8e153fb10d78af57d718"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10203-crlf_trailing.json",
+    "sha256": "205e02e3c64c26588eb1912553950815b02c775395f0e3d951d49bc8e101c568"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10204-long_name.json",
+    "sha256": "332a394bd89c46758c17dab435e82ceb3efdd7a65bfdebe14b1f984e7bf434eb"
+   }
+  ],
+  "regression_refs": [
+   {
+    "path": "data/corpus/gen/A/A-10001-clean.json",
+    "sha256": "cc0d14f5896ba8f1112eeea8eb7a244f76ef865533faa5440da739ad44b8cea4"
+   },
+   {
+    "path": "data/corpus/gen/A/A-10002-clean.json",
+    "sha256": "e204d569a8c6745eeacd5c3875fec90eb0f6ab70c9337a5a2f58e98e108c2ca3"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10100-clean.json",
+    "sha256": "c5f17ea6a0ac65071fccddf3a888b9f2a88d7205524d9c26070ffaa46d296d93"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10101-clean.json",
+    "sha256": "e6d98c6582424fdb47a8a5349c17fc57cfe7cbae0992f9f9b2cdf4c3ce3e4c72"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10102-clean.json",
+    "sha256": "cece2163799b29fe7cb44481829ea4e3ece3b80774be3bcd9255456ae4764714"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10103-clean.json",
+    "sha256": "452828b0c5c368738c380a6f49db66f2160965f1735ec3a82329c90fdfa03ead"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10104-clean.json",
+    "sha256": "5b8906e79b13780f0d4e9af549044208923e374ab6cc2c913304e14e1d5bae78"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10105-clean.json",
+    "sha256": "bc8d75b2133ff7d73f9ca24bc9172350f7280da58c0f2c08bf79ec07758e3e2c"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10106-clean.json",
+    "sha256": "e089826e750a909e00c9fddf4c058d63649f6b0c492edef82a7b8be1de0ff691"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10107-clean.json",
+    "sha256": "26493e283a6fd9a3a9f0cdcd3e5fa16c11c7140ac3975cd762e34be9ee918ee4"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10200-col_shift.json",
+    "sha256": "49a359cdbd6364d52d177fc44a3e81ea74511fd3c6d9008355e7b10c190a6515"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10201-drop_optional.json",
+    "sha256": "449654e20a062a1817ae7d4a42cb22a4d66f41a841df51d4917f3a18b3583d0c"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10202-page_break.json",
+    "sha256": "afffb8528670b661cecdb395271a24c4e7f5c0b48f6d8e153fb10d78af57d718"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10203-crlf_trailing.json",
+    "sha256": "205e02e3c64c26588eb1912553950815b02c775395f0e3d951d49bc8e101c568"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10204-long_name.json",
+    "sha256": "332a394bd89c46758c17dab435e82ceb3efdd7a65bfdebe14b1f984e7bf434eb"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10205-unit_incompatible.json",
+    "sha256": "e4d67ff9094c1460a323cec53bf312dd90bb53acee392a9e2ce989078b62185c"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10206-unit_missing.json",
+    "sha256": "cec92050dadcd6070b2b2f9e87f6572d15429059aba5e5503b0e549f3dcbb8e8"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10207-value_corrupt.json",
+    "sha256": "2e5af11eb7943878ee783eeaf32d6f93a2c66d0c84b59e6949ee27aa7ce3280c"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10208-value_implausible.json",
+    "sha256": "59d19d93cffc779bfe1b067a83b88cc52f63e73f1b33357eb7e7ac51387cdce8"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10209-patient_id_missing.json",
+    "sha256": "d3e504881b28077c258ae12f7aedbe3a027f0f244cd269f23dc1329b71ba540b"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10210-date_invalid.json",
+    "sha256": "01345f671c63266bf23d7b69049f8c04412ba845919275dca469d9c25de13f06"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10211-duplicate_conflict.json",
+    "sha256": "6fae724c16b0d6aaf15c83f09afe31fae5de7772dcde9287e055dba1406d2769"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10212-unknown_test.json",
+    "sha256": "ae35e4da86c32d2c90341412a727c623fbc54f9fce60df66dbc4bc8162d97c12"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10213-truncated.json",
+    "sha256": "06fe1e36443ce336a3e5a9ea0832aee0f99d2aba4fbea1850015b5a4f05ca445"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10214-layout_drift.json",
+    "sha256": "0499cc0ab374819c1d4f64540e1bdb06579c95a0d3284ffd8f850517b6b42fa6"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10215-header_changed.json",
+    "sha256": "3a3a8684fa7f62bdbd8be8fd1760a9dac0f3548b301606d4ebb6396758656d61"
+   },
+   {
+    "path": "data/corpus/dev/A/A-10216-flag_inconsistent.json",
+    "sha256": "70ea14c95d9e12ec846b9f206561f46c1f893dae9b5a1e75210f12b9c9b3c852"
+   }
+  ],
+  "promoted_required": [
+   "patient_age",
+   "patient_sex",
+   "reported"
+  ],
+  "date_formats": {
+   "collected": {
+    "format": "%d/%m/%Y %H:%M",
+    "day_month_order_ambiguous_format": true,
+    "samples_disambiguate": true,
+    "n_strings": 15
+   },
+   "reported": {
+    "format": "%d/%m/%Y %H:%M",
+    "day_month_order_ambiguous_format": true,
+    "samples_disambiguate": true,
+    "n_strings": 15
+   }
+  },
+  "numeric_skeletons": [
+   "#, Station Road, Nashik - # Ph: #-#"
+  ]
+ }
+}
