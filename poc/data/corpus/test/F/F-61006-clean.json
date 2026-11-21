@@ -1,0 +1,66 @@
+{
+ "doc_id": "F-61006-clean",
+ "layout": "F",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "89740439",
+  "patient_name": "FERNANDES ANANYA",
+  "patient_age": 38,
+  "patient_sex": "male",
+  "collected": "2026-07-03",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "12.6",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "41.2",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "5.1",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "5.07",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "PLT",
+    "value": "111",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "83.8",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "77",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "0.52",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4476927\nPT: FERNANDES ANANYA       MRN 89740439    AGE: 38Y  SEX: M\nCOLLECTED 07/03/2026 0930   RECEIVED 07/03/2026 1840\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   12.6             12.0-15.5\nHEMATOCRIT (%)                      41.2             36.0-46.0\nWBC (K/uL)                          5.1              4.0-11.0\nRBC (M/uL)                          5.07             4.00-5.20\nPLATELETS (K/uL)                    111       L      150-400\nMCV (fL)                            83.8             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            77               70-99\nCREATININE (mg/dL)                  0.52             0.50-1.10\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

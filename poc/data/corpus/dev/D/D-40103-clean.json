@@ -1,0 +1,54 @@
+{
+ "doc_id": "D-40103-clean",
+ "layout": "D",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "D",
+ "truth": {
+  "patient_id": "26-9560217",
+  "patient_name": "SNEHA RAO",
+  "patient_age": 63,
+  "patient_sex": "female",
+  "collected": "2026-10-27",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "88",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)"
+   },
+   {
+    "code": "CREA",
+    "value": "1.39",
+    "unit": "mg/dL",
+    "label": "Serum Creatinine"
+   },
+   {
+    "code": "UREA",
+    "value": "42",
+    "unit": "mg/dL",
+    "label": "Blood Urea"
+   },
+   {
+    "code": "HGB",
+    "value": "17.0",
+    "unit": "g/dl",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "WBC",
+    "value": "9008",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)"
+   },
+   {
+    "code": "PLT",
+    "value": "4.90",
+    "unit": "lakhs/cumm",
+    "label": "Platelets"
+   }
+  ]
+ },
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-9560217            | Coll. Dt : 27.10.26            |\n| Name : KUM. SNEHA RAO        | Age/Sex : 63/F                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 88      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 1.39    | mg/dL      | 0.60-1.20  | H    |\n| Blood Urea          | 42      | mg/dL      | 15-40      | H    |\n| Haemoglobin         | 17.0    | g/dl       | 12.0-16.0  | H    |\n| Total Count (WBC)   | 9008    | /cumm      | 4000-11000 |      |\n| Platelets           | 4.90    | lakhs/cumm | 1.50-4.50  | H    |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

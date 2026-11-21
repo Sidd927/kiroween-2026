@@ -1,0 +1,72 @@
+{
+ "doc_id": "F-61002-clean",
+ "layout": "F",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "77968517",
+  "patient_name": "SHARMA VIKRAM",
+  "patient_age": 40,
+  "patient_sex": "female",
+  "collected": "2026-03-09",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "15.5",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "36.5",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "7.0",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "3.72",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "PLT",
+    "value": "286",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "103.6",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "79",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "0.56",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   },
+   {
+    "code": "AST",
+    "value": "43",
+    "unit": "U/L",
+    "label": "AST"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4490669\nPT: SHARMA VIKRAM          MRN 77968517    AGE: 40Y  SEX: F\nCOLLECTED 03/09/2026 0915   RECEIVED 03/09/2026 1540\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   15.5             12.0-15.5\nHEMATOCRIT (%)                      36.5             36.0-46.0\nWBC (K/uL)                          7.0              4.0-11.0\nRBC (M/uL)                          3.72      L      4.00-5.20\nPLATELETS (K/uL)                    286              150-400\nMCV (fL)                            103.6     H      80.0-100.0\nGLUCOSE, FASTING (mg/dL)            79               70-99\nCREATININE (mg/dL)                  0.56             0.50-1.10\nAST (U/L)                           43        H      10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

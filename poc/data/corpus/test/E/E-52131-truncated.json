@@ -1,0 +1,10 @@
+{
+ "doc_id": "E-52131-truncated",
+ "layout": "E",
+ "perturbation": "truncated",
+ "expected": "reject",
+ "expected_layout": "E",
+ "truth": null,
+ "text": "LIFELINE PATHOLOGY & IMAGING                        Lab ID: LL-2026-56402\nPatient: Divya Khan            Sex/Age: M/65        Drawn: June 15, 2026\n______________________________________________________________________________\nHAEMOGRAM\nHb         14.2 g/dL     [13.0-17.0]   RBC      4.43 ! x10^6/uL [4.50-5.50]\nWBC         7.8 x10^3/uL [4.0-11.0]    PLT         270 x10^3/uL [150-410]",
+ "split": "test"
+}

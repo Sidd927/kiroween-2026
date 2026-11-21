@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-42060-unit_missing",
+ "layout": "D",
+ "perturbation": "unit_missing",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-6778467            | Coll. Dt : 09.07.26            |\n| Name : SHRI KAVYA PAWAR      | Age/Sex : 88/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 62      | mg/dL      | 70-100     | L    |\n| Serum Creatinine    | 0.61    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 40      |            | 15-40      |      |\n| Haemoglobin         | 15.9    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 1889    | /cumm      | 4000-11000 | L    |\n| Platelets           | 3.72    | lakhs/cumm | 1.50-4.50  |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

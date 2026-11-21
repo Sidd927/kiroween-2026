@@ -1,0 +1,78 @@
+{
+ "doc_id": "B-21019-clean",
+ "layout": "B",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-197483",
+  "patient_name": "Arjun Jadhav",
+  "patient_age": 37,
+  "patient_sex": "male",
+  "collected": "2026-03-10",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "13.2",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "5.07",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "40.3",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "93.1",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "26.4",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "33.9",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "12331",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "NEUT%",
+    "value": "33",
+    "unit": "%",
+    "label": "Neutrophils"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "24",
+    "unit": "%",
+    "label": "Lymphocytes"
+   },
+   {
+    "code": "PLT",
+    "value": "149",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-197483            Date : 11-Mar-2026\nName    : Arjun Jadhav          Age  : 37 Y   Sex : Male\nSample collected on : 10-Mar-2026 08:40 AM\nReferred by : Dr. A. Rao\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. 13.2     g/dL          13.0-17.0\nRBC Count ............... 5.07     million/cumm  4.50-5.50\nPCV / Haematocrit ....... 40.3     %             40.0-50.0\nMCV ..................... 93.1     fl            83.0-101.0\nMCH ..................... \u001bE26.4     \u001bFpg            27.0-32.0\nMCHC .................... 33.9     g/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-197483            Date : 11-Mar-2026\nName    : Arjun Jadhav          Age  : 37 Y   Sex : Male\nSample collected on : 10-Mar-2026 08:40 AM\nReferred by : Dr. A. Rao\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nTotal WBC Count ......... \u001bE12331    \u001bFcells/cumm    4000-11000\nNeutrophils ............. \u001bE33       \u001bF%             40-80\nLymphocytes ............. 24       %             20-40\nPlatelet Count .......... \u001bE149      \u001bF10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

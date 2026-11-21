@@ -1,0 +1,10 @@
+{
+ "doc_id": "G-90009-clean",
+ "layout": "G",
+ "perturbation": "clean",
+ "expected": "reject",
+ "expected_layout": null,
+ "truth": null,
+ "text": "GOOD HEALTH CLINIC LAB\nPatient Arjun Gaikwad  ID GH5056\nDate 2026/01/13\n\nHemoglobin: 15.5 g/dL (ref 13.0-17.0)\nWBC: 4.9 K/uL (ref 4.0-11.0)\nPlatelets: 114 K/uL (ref 150-400)\n\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n\f",
+ "split": "test"
+}

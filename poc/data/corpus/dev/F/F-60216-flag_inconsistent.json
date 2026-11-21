@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-60216-flag_inconsistent",
+ "layout": "F",
+ "perturbation": "flag_inconsistent",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4495705\nPT: PAWAR MEERA            MRN 59666270    AGE: 69Y  SEX: M\nCOLLECTED 02/01/2026 0800   RECEIVED 02/03/2026 0050\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   14.5             12.0-15.5\nHEMATOCRIT (%)                      33.4      L      36.0-46.0\nWBC (K/uL)                          12.9      H      4.0-11.0\nRBC (M/uL)                          4.35             4.00-5.20\nPLATELETS (K/uL)                    147       L      150-400\nMCV (fL)                            94.3             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            85        L      70-99\nCREATININE (mg/dL)                  0.41      L      0.50-1.10\nALT (U/L)                           71        H      7-56\nAST (U/L)                           7         L      10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

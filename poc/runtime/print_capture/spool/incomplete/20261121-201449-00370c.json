@@ -1,0 +1,10 @@
+{
+ "job_id": "20261121-201449-00370c",
+ "peer": "127.0.0.1",
+ "received_at": 1795272289.751297,
+ "seconds": 0.006,
+ "bytes": 2031616,
+ "sha256": "f18ee60b3734365ce87a29088d3d15fb1650cb828f3d504cc3e0360c7259a87a",
+ "complete": false,
+ "incomplete_reason": "exceeds max_bytes=2000000"
+}

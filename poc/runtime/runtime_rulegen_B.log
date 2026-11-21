@@ -1,0 +1,10 @@
+B activated rounds: 1 calls: 2 30.4s $0.1305
+  round 0 {'passed': False, 'counts': {'clean:correct_accept': 5, 'clean:false_reject': 5, 'perturbed:false_reject': 4, 'perturbed:correct_accept': 1, 'perturbed:correct_reject': 12}}
+     - B-20101-clean false_reject valid document was rejected: ["unknown_label: 'Neutrophils'"]
+     - B-20102-clean false_reject valid document was rejected: ["unknown_label: 'Neutrophils'"]
+     - B-20103-clean false_reject valid document was rejected: ["unknown_label: 'Neutrophils'"]
+     - B-20104-clean false_reject valid document was rejected: ["unknown_label: 'Neutrophils'"]
+     - B-20105-clean false_reject valid document was rejected: ["unknown_label: 'Neutrophils'"]
+     - B-20200-col_shift false_reject valid document was rejected: ["unknown_label: 'Neutrophils'"]
+  round 1 {'passed': True, 'counts': {'clean:correct_accept': 10, 'perturbed:correct_accept': 4, 'perturbed:false_reject': 1, 'perturbed:correct_reject': 12}}
+     - B-20204-long_name false_reject valid document was rejected: ['missing_field: patient_name']

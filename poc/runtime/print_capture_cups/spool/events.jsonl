@@ -1,0 +1,11 @@
+{"t": 1795272769.919, "event": "listening", "host": "127.0.0.1", "port": 9100, "forward": "127.0.0.1:9101"}
+{"t": 1795272771.813, "event": "job_captured", "job_id": "20261121-202251-323525", "peer": "127.0.0.1", "bytes": 1667, "sha256": "8c1ac93b06a28137492f1d878c9a3aba0622c1d6d3fa313def9e99b45717273b", "detected_format": "text", "duplicate_of": null}
+{"t": 1795272771.821, "event": "job_forwarded", "job_id": "20261121-202251-323525", "attempt": 1, "sha256": "8c1ac93b06a28137492f1d878c9a3aba0622c1d6d3fa313def9e99b45717273b"}
+{"t": 1795272771.898, "event": "job_processed", "job_id": "20261121-202251-323525", "status": "ACCEPT", "binding": "lab-a", "reasons": [], "ms": 6.59, "llm_calls": 0}
+{"t": 1795272775.633, "event": "job_captured", "job_id": "20261121-202255-dd1575", "peer": "127.0.0.1", "bytes": 2057, "sha256": "40695bd72669afa2ca9161ce3b41cb8e3baf285bc068c34863567c2b77067358", "detected_format": "text+escp", "duplicate_of": null}
+{"t": 1795272775.644, "event": "job_forwarded", "job_id": "20261121-202255-dd1575", "attempt": 1, "sha256": "40695bd72669afa2ca9161ce3b41cb8e3baf285bc068c34863567c2b77067358"}
+{"t": 1795272775.647, "event": "job_processed", "job_id": "20261121-202255-dd1575", "status": "ACCEPT", "binding": "lab-b", "reasons": [], "ms": 13.34, "llm_calls": 0}
+{"t": 1795272786.763, "event": "listening", "host": "127.0.0.1", "port": 9100, "forward": "127.0.0.1:9101"}
+{"t": 1795272810.712, "event": "job_captured", "job_id": "20261121-202330-714697", "peer": "127.0.0.1", "bytes": 1119, "sha256": "420678e3dc9846972c312582abb49ae2e1c8db913a18b60e877511ea2f9681a7", "detected_format": "text", "duplicate_of": null}
+{"t": 1795272810.721, "event": "job_forwarded", "job_id": "20261121-202330-714697", "attempt": 1, "sha256": "420678e3dc9846972c312582abb49ae2e1c8db913a18b60e877511ea2f9681a7"}
+{"t": 1795272810.781, "event": "job_processed", "job_id": "20261121-202330-714697", "status": "ACCEPT", "binding": "lab-c", "reasons": [], "ms": 6.21, "llm_calls": 0}

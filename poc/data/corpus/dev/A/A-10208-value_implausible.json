@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-10208-value_implausible",
+ "layout": "A",
+ "perturbation": "value_implausible",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MS. NEHA GAIKWAD                 Lab No.   : SP/26/810161\nAge / Sex    : 25 Yrs / F                       Collected : 17/07/2026 11:45\nRef. By      : DR. R. SHAH                      Reported  : 19/07/2026 03:55\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   16.1        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  4.85        mill/cumm     4.50 - 5.50\nP.C.V.                        43.6        %             40.0 - 50.0\nM.C.V.                        85.9        fL            83.0 - 101.0\nM.C.H.                        29.0        pg            27.0 - 32.0\nM.C.H.C.                      30.8 L      g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         1344700 H   /cumm         4000 - 11000\nLYMPHOCYTES                   44 H        %             20 - 40\nPLATELET COUNT                3.18        lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

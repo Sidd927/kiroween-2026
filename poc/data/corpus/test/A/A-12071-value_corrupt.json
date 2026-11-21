@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12071-value_corrupt",
+ "layout": "A",
+ "perturbation": "value_corrupt",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MR. SNEHA MORE                   Lab No.   : SP/26/216840\nAge / Sex    : 12 Yrs / M                       Collected : 03/05/2026 11:00\nRef. By      : DR. M. KULKARNI                  Reported  : 04/05/2026 15:25\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   14.2        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  5.48        mill/cumm     4.50 - 5.50\nP.C.V.                        41.8        %             40.0 - 50.0\nM.C.V.                        102.2 H     fL            83.0 - 101.0\nM.C.H.                        30..5       pg            27.0 - 32.0\nM.C.H.C.                      31.5        g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         9333        /cumm         4000 - 11000\nNEUTROPHILS                   91 H        %             40 - 80\nLYMPHOCYTES                   38          %             20 - 40\nPLATELET COUNT                4.39 H      lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

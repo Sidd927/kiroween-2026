@@ -1,0 +1,10 @@
+{
+ "doc_id": "E-52130-truncated",
+ "layout": "E",
+ "perturbation": "truncated",
+ "expected": "reject",
+ "expected_layout": "E",
+ "truth": null,
+ "text": "LIFELINE PATHOLOGY & IMAGING                        Lab ID: LL-2026-55292\nPatient: Aarav Khan            Sex/Age: F/23        Drawn: May 15, 2026\n______________________________________________________________________________\nHAEMOGRAM\nHb         15.4 g/dL     [13.0-17.0]   RBC      5.72 ! x10^6/uL [4.50-5.50]\nWBC      12.4 ! x10^3/uL [4.0-11.0]    PLT         213 x10^3/uL [150-410]\nHCT        48.2 %        [40.0-50.0]   MCV        87.3 fL       [83.0-101.0]",
+ "split": "test"
+}

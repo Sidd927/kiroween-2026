@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12081-value_implausible",
+ "layout": "A",
+ "perturbation": "value_implausible",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MR. DIVYA IYER                   Lab No.   : SP/26/239127\nAge / Sex    : 62 Yrs / M                       Collected : 20/05/2026 11:20\nRef. By      : DR. R. SHAH                      Reported  : 21/05/2026 08:55\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   17.7 H      gm/dL         13.0 - 17.0\nR.B.C. COUNT                  5.56 H      mill/cumm     4.50 - 5.50\nP.C.V.                        48.8        %             40.0 - 50.0\nM.C.V.                        93.3        fL            83.0 - 101.0\nM.C.H.                        30.3        pg            27.0 - 32.0\nM.C.H.C.                      35.3 H      g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         7312        /cumm         4000 - 11000\nLYMPHOCYTES                   4100 H      %             20 - 40\nPLATELET COUNT                4.68 H      lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

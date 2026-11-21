@@ -1,0 +1,89 @@
+{
+ "_meta": {
+  "status": "active",
+  "sha256": "48638444f7c814fc9f0887e84ec00d5e21484096043e7bf6e73adc6d08fd0360",
+  "approval": "SIMULATED human approval (PoC): gate passed, binding reviewed by no human",
+  "rounds_used": 0
+ },
+ "binding_id": "lab-c",
+ "description": "Dr. Mehta's Clinical Laboratory biochemistry report: label line, method line in parentheses, then value/unit/range line; '*' marks abnormal.",
+ "layout": {
+  "anchors": [
+   "^DR\\. MEHTA'S CLINICAL LABORATORY",
+   "^\\s*Result\\s+Units\\s+Normal Range\\s*$",
+   "^Patient ID\\s*:"
+  ]
+ },
+ "fields": {
+  "patient_id": {
+   "regex": "^Patient ID\\s*:\\s*(?P<v>\\d{7})\\b",
+   "type": "string",
+   "required": true,
+   "pattern": "\\d{7}"
+  },
+  "patient_name": {
+   "regex": "^Patient\\s*:\\s*(?P<v>[^()\\n]+?)\\s*\\([MF]/\\d+\\)\\s*$",
+   "type": "string",
+   "required": true
+  },
+  "patient_age": {
+   "regex": "^Patient\\s*:[^\\n]*\\([MF]/(?P<v>\\d+)\\)\\s*$",
+   "type": "integer",
+   "required": false
+  },
+  "patient_sex": {
+   "regex": "^Patient\\s*:[^\\n]*\\((?P<v>[MF])/\\d+\\)\\s*$",
+   "type": "enum",
+   "enum_map": {
+    "M": "male",
+    "F": "female"
+   },
+   "required": false
+  },
+  "collected": {
+   "regex": "^Collected\\s*:\\s*(?P<v>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2})\\s*$",
+   "type": "date",
+   "format": "%Y-%m-%d %H:%M",
+   "required": true
+  },
+  "reported": {
+   "regex": "Report Date:\\s*(?P<v>\\d{4}-\\d{2}-\\d{2})\\s*$",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "required": false
+  }
+ },
+ "results": {
+  "start": "^\\s*-{10,}\\s*$",
+  "end": "^\\s*\\* Value outside normal range\\s*$",
+  "skip_lines": [
+   "^\\s*$",
+   "^\\s*-{10,}\\s*$",
+   "^\\s*BIOCHEMISTRY\\s*$",
+   "^\\s*Test / Method\\s*$",
+   "^\\s*Result\\s+Units\\s+Normal Range\\s*$",
+   "^DR\\. MEHTA'S CLINICAL LABORATORY",
+   "^Patient\\s*:",
+   "^Patient ID\\s*:",
+   "^Collected\\s*:",
+   "^Consultant\\s*:"
+  ],
+  "row": "^[ ]*(?P<label>[A-Z][A-Za-z ()]*?)[ ]*\\n[ ]*\\([^)\\n]*\\)[ ]*\\n[ ]*(?P<value>\\d+(?:\\.\\d+)?)(?:[ ]+(?P<flag>\\*))?[ ]+(?P<unit>[^\\s\\d-][^\\s]*)[ ]+(?P<ref_low>\\d+(?:\\.\\d+)?)[ ]*-[ ]*(?P<ref_high>\\d+(?:\\.\\d+)?)[ ]*$",
+  "labels": {
+   "BILIRUBIN TOTAL": "TBIL",
+   "BILIRUBIN DIRECT": "DBIL",
+   "SGPT (ALT)": "ALT",
+   "SGOT (AST)": "AST",
+   "ALKALINE PHOSPHATASE": "ALP",
+   "TOTAL PROTEINS": "TP",
+   "ALBUMIN": "ALB",
+   "SERUM CREATININE": "CREA",
+   "BLOOD UREA": "UREA"
+  },
+  "flags": {
+   "*": "A"
+  },
+  "min_rows": 1,
+  "max_rows": 18
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "job_id": "20261121-201441-fba857",
+ "peer": "127.0.0.1",
+ "received_at": 1795272281.728554,
+ "seconds": 0.0,
+ "bytes": 1242,
+ "sha256": "d037f1a4ade3ee36cb5f6187c9d67b36fee3aae6a5d41414310304d15d5cdc60",
+ "complete": true,
+ "incomplete_reason": null,
+ "duplicate_of": null,
+ "detected_format": "text",
+ "forward": {
+  "target": "127.0.0.1:19101",
+  "status": "sent",
+  "attempts": 3,
+  "last_error": "[Errno 61] Connect call failed ('127.0.0.1', 19101)",
+  "sent_at": 1795272284.7419038,
+  "sha256_sent": "d037f1a4ade3ee36cb5f6187c9d67b36fee3aae6a5d41414310304d15d5cdc60"
+ }
+}

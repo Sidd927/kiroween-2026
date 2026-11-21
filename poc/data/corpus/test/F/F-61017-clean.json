@@ -1,0 +1,72 @@
+{
+ "doc_id": "F-61017-clean",
+ "layout": "F",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "95245837",
+  "patient_name": "SHARMA OMKAR",
+  "patient_age": 25,
+  "patient_sex": "male",
+  "collected": "2026-02-15",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "12.7",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "43.5",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "3.4",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "5.52",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "PLT",
+    "value": "394",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "103.0",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "88",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "1.21",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   },
+   {
+    "code": "ALT",
+    "value": "66",
+    "unit": "U/L",
+    "label": "ALT"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4473261\nPT: SHARMA OMKAR           MRN 95245837    AGE: 25Y  SEX: M\nCOLLECTED 02/15/2026 1010   RECEIVED 02/16/2026 0945\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   12.7             12.0-15.5\nHEMATOCRIT (%)                      43.5             36.0-46.0\nWBC (K/uL)                          3.4       L      4.0-11.0\nRBC (M/uL)                          5.52      H      4.00-5.20\nPLATELETS (K/uL)                    394              150-400\nMCV (fL)                            103.0     H      80.0-100.0\nGLUCOSE, FASTING (mg/dL)            88               70-99\nCREATININE (mg/dL)                  1.21      H      0.50-1.10\nALT (U/L)                           66        H      7-56\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

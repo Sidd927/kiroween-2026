@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12150-header_changed",
+ "layout": "A",
+ "perturbation": "header_changed",
+ "expected": "reject",
+ "expected_layout": null,
+ "truth": null,
+ "text": "                   SUNRISE DIAGNOSTICS & PATHOLOGY PVT. LTD.\n                 NABL-style format v2  |  Gangapur Road, Nashik\n================================================================================\nPatient Name : MS. NIKHIL KHAN                  Lab No.   : SP/26/222129\nAge / Sex    : 27 Yrs / F                       Collected : 23/01/2026 09:15\nRef. By      : DR. V. GUPTA                     Reported  : 24/01/2026 16:50\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   14.0        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  5.36        mill/cumm     4.50 - 5.50\nP.C.V.                        46.7        %             40.0 - 50.0\nM.C.V.                        80.2 L      fL            83.0 - 101.0\nM.C.H.                        31.2        pg            27.0 - 32.0\nM.C.H.C.                      33.1        g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         6234        /cumm         4000 - 11000\nNEUTROPHILS                   82 H        %             40 - 80\nPLATELET COUNT                2.62        lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

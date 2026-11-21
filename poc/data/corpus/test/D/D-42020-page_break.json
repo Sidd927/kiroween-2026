@@ -1,0 +1,48 @@
+{
+ "doc_id": "D-42020-page_break",
+ "layout": "D",
+ "perturbation": "page_break",
+ "expected": "accept",
+ "expected_layout": "D",
+ "truth": {
+  "patient_id": "26-3211722",
+  "patient_name": "PRIYA SHARMA",
+  "patient_age": 37,
+  "patient_sex": "male",
+  "collected": "2026-09-28",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "108",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)"
+   },
+   {
+    "code": "CREA",
+    "value": "0.84",
+    "unit": "mg/dL",
+    "label": "Serum Creatinine"
+   },
+   {
+    "code": "UREA",
+    "value": "20",
+    "unit": "mg/dL",
+    "label": "Blood Urea"
+   },
+   {
+    "code": "HGB",
+    "value": "11.4",
+    "unit": "g/dl",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "WBC",
+    "value": "10139",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)"
+   }
+  ]
+ },
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-3211722            | Coll. Dt : 28.09.26            |\n| Name : SHRI PRIYA SHARMA     | Age/Sex : 37/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 108     | mg/dL      | 70-100     | H    |\n| Serum Creatinine    | 0.84    | mg/dL      | 0.60-1.20  |      |\n+---------------------+---------+------------+------------+------+\n\n+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-3211722            | Coll. Dt : 28.09.26            |\n| Name : SHRI PRIYA SHARMA     | Age/Sex : 37/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Blood Urea          | 20      | mg/dL      | 15-40      |      |\n| Haemoglobin         | 11.4    | g/dl       | 12.0-16.0  | L    |\n| Total Count (WBC)   | 10139   | /cumm      | 4000-11000 |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

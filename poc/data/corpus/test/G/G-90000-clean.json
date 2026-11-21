@@ -1,0 +1,10 @@
+{
+ "doc_id": "G-90000-clean",
+ "layout": "G",
+ "perturbation": "clean",
+ "expected": "reject",
+ "expected_layout": null,
+ "truth": null,
+ "text": "GOOD HEALTH CLINIC LAB\nPatient Nikhil Nair  ID GH9039\nDate 2026/01/27\n\nHemoglobin: 14.0 g/dL (ref 13.0-17.0)\nWBC: 10.9 K/uL (ref 4.0-11.0)\nPlatelets: 413 K/uL (ref 150-400)\n\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n\f",
+ "split": "test"
+}

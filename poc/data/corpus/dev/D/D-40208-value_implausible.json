@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-40208-value_implausible",
+ "layout": "D",
+ "perturbation": "value_implausible",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-5814870            | Coll. Dt : 08.05.26            |\n| Name : SHRI TANVI GUPTA      | Age/Sex : 83/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 96      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 0.56    | mg/dL      | 0.60-1.20  | L    |\n| Blood Urea          | 1100    | mg/dL      | 15-40      | L    |\n| Haemoglobin         | 12.2    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 10886   | /cumm      | 4000-11000 |      |\n| Platelets           | 2.20    | lakhs/cumm | 1.50-4.50  |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

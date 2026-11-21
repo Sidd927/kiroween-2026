@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-62061-unit_missing",
+ "layout": "F",
+ "perturbation": "unit_missing",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4443722\nPT: MORE PRIYA             MRN 94642243    AGE: 62Y  SEX: M\nCOLLECTED 10/24/2026 1015   RECEIVED 10/25/2026 1650\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   11.7      L      12.0-15.5\nHEMATOCRIT (%)                      42.2             36.0-46.0\nWBC                                 11.6      H      4.0-11.0\nRBC (M/uL)                          4.98             4.00-5.20\nPLATELETS (K/uL)                    448       H      150-400\nMCV (fL)                            99.0             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            96               70-99\nCREATININE (mg/dL)                  0.41      L      0.50-1.10\nALT (U/L)                           63        H      7-56\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "C-30212-unknown_test",
+ "layout": "C",
+ "perturbation": "unknown_test",
+ "expected": "reject",
+ "expected_layout": "C",
+ "truth": null,
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-01-20\nPatient : Jadhav, Omkar (F/26)\nPatient ID : 7344694       Sample : S-11492\nCollected  : 2026-01-20 11:30\nConsultant : Dr. A. Rao\n\nBIOCHEMISTRY\n  Test / Method\n      Result     Units     Normal Range\n  ----------------------------------------\n  BILIRUBIN TOTAL\n      (Diazo method)\n      0.39       mg/dl     0.20 - 1.20\n  BILIRUBIN DIRECT\n      (Diazo method)\n      0.26       mg/dl     0.00 - 0.30\n  SGPT (ALT)\n      (IFCC)\n      22         U/L       0 - 40\n  SGOT (AST)\n      (IFCC)\n      20         U/L       0 - 40\n  ALKALINE PHOSPHTASE\n      (PNPP-AMP)\n      84         IU/L      40 - 130\n  TOTAL PROTEINS\n      (Biuret)\n      7.5        g/dl      6.0 - 8.3\n  ALBUMIN\n      (BCG)\n      4.4        g/dl      3.5 - 5.2\n  SERUM CREATININE\n      (Jaffe kinetic)\n      1.40 *     mg/dl     0.60 - 1.30\n  ----------------------------------------\n  * Value outside normal range\n\nChecked by: Lab Technologist\n                           -- END --\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

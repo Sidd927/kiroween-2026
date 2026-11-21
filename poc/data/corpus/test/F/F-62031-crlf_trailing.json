@@ -1,0 +1,66 @@
+{
+ "doc_id": "F-62031-crlf_trailing",
+ "layout": "F",
+ "perturbation": "crlf_trailing",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "59441200",
+  "patient_name": "SHARMA SNEHA",
+  "patient_age": 43,
+  "patient_sex": "male",
+  "collected": "2026-03-15",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "14.1",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "42.9",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "2.1",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "4.76",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "PLT",
+    "value": "80",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "83.7",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "61",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "0.73",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4492629  \r\nPT: SHARMA SNEHA           MRN 59441200    AGE: 43Y  SEX: M \r\nCOLLECTED 03/15/2026 0840   RECEIVED 03/15/2026 1640 \r\n========================================================================   \r\nTEST NAME (UNITS)                   RESULT    FLAG   REF \r\n------------------------------------------------------------------------\r\nHEMOGLOBIN (g/dL)                   14.1             12.0-15.5   \r\nHEMATOCRIT (%)                      42.9             36.0-46.0   \r\nWBC (K/uL)                          2.1       L      4.0-11.0\r\nRBC (M/uL)                          4.76             4.00-5.20   \r\nPLATELETS (K/uL)                    80        L      150-400   \r\nMCV (fL)                            83.7             80.0-100.0  \r\nGLUCOSE, FASTING (mg/dL)            61        L      70-99\r\nCREATININE (mg/dL)                  0.73             0.50-1.10  \r\n------------------------------------------------------------------------   \r\nEND OF REPORT\r\nSYNTHETIC SAMPLE - NOT A REAL PATIENT  \r\n   ",
+ "split": "test"
+}

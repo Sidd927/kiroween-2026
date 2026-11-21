@@ -1,0 +1,66 @@
+{
+ "doc_id": "C-31017-clean",
+ "layout": "C",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "C",
+ "truth": {
+  "patient_id": "4343014",
+  "patient_name": "Mehta, Aditya",
+  "patient_age": 24,
+  "patient_sex": "male",
+  "collected": "2026-08-02",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "0.54",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.00",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT"
+   },
+   {
+    "code": "ALT",
+    "value": "18",
+    "unit": "U/L",
+    "label": "SGPT (ALT)"
+   },
+   {
+    "code": "AST",
+    "value": "19",
+    "unit": "U/L",
+    "label": "SGOT (AST)"
+   },
+   {
+    "code": "ALP",
+    "value": "61",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE"
+   },
+   {
+    "code": "TP",
+    "value": "7.0",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS"
+   },
+   {
+    "code": "ALB",
+    "value": "4.0",
+    "unit": "g/dl",
+    "label": "ALBUMIN"
+   },
+   {
+    "code": "CREA",
+    "value": "1.08",
+    "unit": "mg/dl",
+    "label": "SERUM CREATININE"
+   }
+  ]
+ },
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-08-03\nPatient : Mehta, Aditya (M/24)\nPatient ID : 4343014       Sample : S-86276\nCollected  : 2026-08-02 10:00\nConsultant : Dr. M. Kulkarni\n\nBIOCHEMISTRY\n  Test / Method\n      Result     Units     Normal Range\n  ----------------------------------------\n  BILIRUBIN TOTAL\n      (Diazo method)\n      0.54       mg/dl     0.20 - 1.20\n  BILIRUBIN DIRECT\n      (Diazo method)\n      0.00       mg/dl     0.00 - 0.30\n  SGPT (ALT)\n      (IFCC)\n      18         U/L       0 - 40\n  SGOT (AST)\n      (IFCC)\n      19         U/L       0 - 40\n  ALKALINE PHOSPHATASE\n      (PNPP-AMP)\n      61         IU/L      40 - 130\n  TOTAL PROTEINS\n      (Biuret)\n      7.0        g/dl      6.0 - 8.3\n  ALBUMIN\n      (BCG)\n      4.0        g/dl      3.5 - 5.2\n  SERUM CREATININE\n      (Jaffe kinetic)\n      1.08       mg/dl     0.60 - 1.30\n  ----------------------------------------\n  * Value outside normal range\n\nChecked by: Lab Technologist\n                           -- END --\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

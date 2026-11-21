@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12061-unit_missing",
+ "layout": "A",
+ "perturbation": "unit_missing",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MS. MEERA GAIKWAD                Lab No.   : SP/26/801965\nAge / Sex    : 45 Yrs / F                       Collected : 10/03/2026 10:00\nRef. By      : DR. M. KULKARNI                  Reported  : 12/03/2026 02:25\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   16.9        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  4.52                      4.50 - 5.50\nP.C.V.                        37.8 L      %             40.0 - 50.0\nM.C.V.                        95.3        fL            83.0 - 101.0\nM.C.H.                        32.7 H      pg            27.0 - 32.0\nM.C.H.C.                      31.5        g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         3344 L      /cumm         4000 - 11000\nNEUTROPHILS                   93 H        %             40 - 80\nPLATELET COUNT                2.57        lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

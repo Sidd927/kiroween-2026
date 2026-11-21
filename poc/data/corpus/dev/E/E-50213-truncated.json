@@ -1,0 +1,10 @@
+{
+ "doc_id": "E-50213-truncated",
+ "layout": "E",
+ "perturbation": "truncated",
+ "expected": "reject",
+ "expected_layout": "E",
+ "truth": null,
+ "text": "LIFELINE PATHOLOGY & IMAGING                        Lab ID: LL-2026-46440\nPatient: Omkar Patil           Sex/Age: M/62        Drawn: January 7, 2026\n______________________________________________________________________________\nHAEMOGRAM\nHb         13.2 g/dL     [13.0-17.0]   RBC      4.24 ! x10^6/uL [4.50-5.50]\nWBC      11.2 ! x10^3/uL [4.0-11.0]    PLT         184 x10^3/uL [150-410]\nHCT      38.3 ! %        [40.0-50.0]   MCV      81.4 ! fL       [83.0-101.0]",
+ "split": "dev"
+}

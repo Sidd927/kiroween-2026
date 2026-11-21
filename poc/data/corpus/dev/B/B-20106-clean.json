@@ -1,0 +1,72 @@
+{
+ "doc_id": "B-20106-clean",
+ "layout": "B",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-423167",
+  "patient_name": "Isha Rao",
+  "patient_age": 78,
+  "patient_sex": "female",
+  "collected": "2026-04-20",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "16.4",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "4.33",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "38.6",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "80.7",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "26.7",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "31.6",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "5311",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "40",
+    "unit": "%",
+    "label": "Lymphocytes"
+   },
+   {
+    "code": "PLT",
+    "value": "100",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-423167            Date : 20-Apr-2026\nName    : Isha Rao              Age  : 78 Y   Sex : Female\nSample collected on : 20-Apr-2026 08:45 AM\nReferred by : Dr. M. Kulkarni\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. 16.4     g/dL          13.0-17.0\nRBC Count ............... \u001bE4.33     \u001bFmillion/cumm  4.50-5.50\nPCV / Haematocrit ....... \u001bE38.6     \u001bF%             40.0-50.0\nMCV ..................... \u001bE80.7     \u001bFfl            83.0-101.0\nMCH ..................... \u001bE26.7     \u001bFpg            27.0-32.0\nMCHC .................... 31.6     g/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-423167            Date : 20-Apr-2026\nName    : Isha Rao              Age  : 78 Y   Sex : Female\nSample collected on : 20-Apr-2026 08:45 AM\nReferred by : Dr. M. Kulkarni\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nTotal WBC Count ......... 5311     cells/cumm    4000-11000\nLymphocytes ............. 40       %             20-40\nPlatelet Count .......... \u001bE100      \u001bF10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

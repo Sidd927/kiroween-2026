@@ -1,0 +1,72 @@
+{
+ "doc_id": "B-21012-clean",
+ "layout": "B",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-759796",
+  "patient_name": "Aditya Rao",
+  "patient_age": 79,
+  "patient_sex": "male",
+  "collected": "2026-01-06",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "14.1",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "4.31",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "48.0",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "89.6",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "32.3",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "30.6",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "2267",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "47",
+    "unit": "%",
+    "label": "Lymphocytes"
+   },
+   {
+    "code": "PLT",
+    "value": "93",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-759796            Date : 07-Jan-2026\nName    : Aditya Rao            Age  : 79 Y   Sex : Male\nSample collected on : 06-Jan-2026 10:15 AM\nReferred by : Dr. A. Rao\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. 14.1     g/dL          13.0-17.0\nRBC Count ............... \u001bE4.31     \u001bFmillion/cumm  4.50-5.50\nPCV / Haematocrit ....... 48.0     %             40.0-50.0\nMCV ..................... 89.6     fl            83.0-101.0\nMCH ..................... \u001bE32.3     \u001bFpg            27.0-32.0\nMCHC .................... \u001bE30.6     \u001bFg/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-759796            Date : 07-Jan-2026\nName    : Aditya Rao            Age  : 79 Y   Sex : Male\nSample collected on : 06-Jan-2026 10:15 AM\nReferred by : Dr. A. Rao\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nTotal WBC Count ......... \u001bE2267     \u001bFcells/cumm    4000-11000\nLymphocytes ............. \u001bE47       \u001bF%             20-40\nPlatelet Count .......... \u001bE93       \u001bF10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

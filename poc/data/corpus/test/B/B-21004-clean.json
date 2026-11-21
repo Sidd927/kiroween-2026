@@ -1,0 +1,72 @@
+{
+ "doc_id": "B-21004-clean",
+ "layout": "B",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-935511",
+  "patient_name": "Meera Joshi",
+  "patient_age": 86,
+  "patient_sex": "male",
+  "collected": "2026-02-07",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "17.1",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "4.90",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "40.7",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "81.1",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "25.7",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "35.2",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "2895",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "NEUT%",
+    "value": "63",
+    "unit": "%",
+    "label": "Neutrophils"
+   },
+   {
+    "code": "PLT",
+    "value": "280",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-935511            Date : 07-Feb-2026\nName    : Meera Joshi           Age  : 86 Y   Sex : Male\nSample collected on : 07-Feb-2026 11:20 AM\nReferred by : Dr. R. Shah\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. \u001bE17.1     \u001bFg/dL          13.0-17.0\nRBC Count ............... 4.90     million/cumm  4.50-5.50\nPCV / Haematocrit ....... 40.7     %             40.0-50.0\nMCV ..................... \u001bE81.1     \u001bFfl            83.0-101.0\nMCH ..................... \u001bE25.7     \u001bFpg            27.0-32.0\nMCHC .................... \u001bE35.2     \u001bFg/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-935511            Date : 07-Feb-2026\nName    : Meera Joshi           Age  : 86 Y   Sex : Male\nSample collected on : 07-Feb-2026 11:20 AM\nReferred by : Dr. R. Shah\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nTotal WBC Count ......... \u001bE2895     \u001bFcells/cumm    4000-11000\nNeutrophils ............. 63       %             40-80\nPlatelet Count .......... 280      10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

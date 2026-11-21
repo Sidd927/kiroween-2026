@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-10207-value_corrupt",
+ "layout": "A",
+ "perturbation": "value_corrupt",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MS. ROHAN KULKARNI               Lab No.   : SP/26/432165\nAge / Sex    : 57 Yrs / F                       Collected : 25/08/2026 08:40\nRef. By      : DR. R. SHAH                      Reported  : 25/08/2026 22:50\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   #### H      gm/dL         13.0 - 17.0\nR.B.C. COUNT                  5.17        mill/cumm     4.50 - 5.50\nP.C.V.                        53.1 H      %             40.0 - 50.0\nM.C.V.                        77.0 L      fL            83.0 - 101.0\nM.C.H.                        27.8        pg            27.0 - 32.0\nM.C.H.C.                      34.6 H      g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         13296 H     /cumm         4000 - 11000\nNEUTROPHILS                   81 H        %             40 - 80\nLYMPHOCYTES                   35          %             20 - 40\nPLATELET COUNT                3.57        lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12140-layout_drift",
+ "layout": "A",
+ "perturbation": "layout_drift",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MRS. POOJA GAIKWAD               Lab No.   : SP/26/692317\nAge / Sex    : 7 Yrs / F                        Collected : 01/03/2026 08:00\nRef. By      : DR. M. KULKARNI                  Reported  : 02/03/2026 18:50\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          REFERENCE RANGE   RESULT      UNIT\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   13.0 - 17.0       16.4        gm/dL\nR.B.C. COUNT                  4.50 - 5.50       4.63        mill/cumm\nP.C.V.                        40.0 - 50.0       42.8        %\nM.C.V.                        83.0 - 101.0      99.3        fL\nM.C.H.                        27.0 - 32.0       26.6 L      pg\nM.C.H.C.                      31.5 - 34.5       34.2        g/dL\nTOTAL LEUCOCYTE COUNT         4000 - 11000      4714        /cumm\nNEUTROPHILS                   40 - 80           72          %\nLYMPHOCYTES                   20 - 40           18 L        %\nPLATELET COUNT                1.50 - 4.10       2.38        lakh/cumm\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

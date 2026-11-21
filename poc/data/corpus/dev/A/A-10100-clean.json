@@ -1,0 +1,72 @@
+{
+ "doc_id": "A-10100-clean",
+ "layout": "A",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "A",
+ "truth": {
+  "patient_id": "SP/26/536733",
+  "patient_name": "VIKRAM BHOSALE",
+  "patient_age": 7,
+  "patient_sex": "female",
+  "collected": "2026-06-02",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "12.8",
+    "unit": "gm/dL",
+    "label": "HAEMOGLOBIN"
+   },
+   {
+    "code": "RBC",
+    "value": "5.37",
+    "unit": "mill/cumm",
+    "label": "R.B.C. COUNT"
+   },
+   {
+    "code": "HCT",
+    "value": "40.2",
+    "unit": "%",
+    "label": "P.C.V."
+   },
+   {
+    "code": "MCV",
+    "value": "76.8",
+    "unit": "fL",
+    "label": "M.C.V."
+   },
+   {
+    "code": "MCH",
+    "value": "31.4",
+    "unit": "pg",
+    "label": "M.C.H."
+   },
+   {
+    "code": "MCHC",
+    "value": "31.3",
+    "unit": "g/dL",
+    "label": "M.C.H.C."
+   },
+   {
+    "code": "WBC",
+    "value": "2547",
+    "unit": "/cumm",
+    "label": "TOTAL LEUCOCYTE COUNT"
+   },
+   {
+    "code": "NEUT%",
+    "value": "57",
+    "unit": "%",
+    "label": "NEUTROPHILS"
+   },
+   {
+    "code": "PLT",
+    "value": "1.25",
+    "unit": "lakh/cumm",
+    "label": "PLATELET COUNT"
+   }
+  ]
+ },
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MS. VIKRAM BHOSALE               Lab No.   : SP/26/536733\nAge / Sex    : 7 Yrs / F                        Collected : 02/06/2026 11:50\nRef. By      : DR. A. RAO                       Reported  : 02/06/2026 20:40\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   12.8 L      gm/dL         13.0 - 17.0\nR.B.C. COUNT                  5.37        mill/cumm     4.50 - 5.50\nP.C.V.                        40.2        %             40.0 - 50.0\nM.C.V.                        76.8 L      fL            83.0 - 101.0\nM.C.H.                        31.4        pg            27.0 - 32.0\nM.C.H.C.                      31.3 L      g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         2547 L      /cumm         4000 - 11000\nNEUTROPHILS                   57          %             40 - 80\nPLATELET COUNT                1.25 L      lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

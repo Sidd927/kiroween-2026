@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12101-date_invalid",
+ "layout": "A",
+ "perturbation": "date_invalid",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MR. NIKHIL GUPTA                 Lab No.   : SP/26/104582\nAge / Sex    : 76 Yrs / M                       Collected : 31/02/2026 09:10\nRef. By      : DR. S. JOSHI                     Reported  : 26/02/2026 22:40\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   13.2        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  5.73 H      mill/cumm     4.50 - 5.50\nP.C.V.                        37.7 L      %             40.0 - 50.0\nM.C.V.                        87.5        fL            83.0 - 101.0\nM.C.H.                        32.4 H      pg            27.0 - 32.0\nM.C.H.C.                      34.7 H      g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         12891 H     /cumm         4000 - 11000\nLYMPHOCYTES                   30          %             20 - 40\nPLATELET COUNT                1.06 L      lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

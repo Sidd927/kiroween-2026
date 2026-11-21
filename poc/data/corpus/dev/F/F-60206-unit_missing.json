@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-60206-unit_missing",
+ "layout": "F",
+ "perturbation": "unit_missing",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4415677\nPT: NAIR ANANYA            MRN 87453002    AGE: 3Y  SEX: M\nCOLLECTED 02/25/2026 0800   RECEIVED 02/26/2026 1335\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN                          14.0             12.0-15.5\nHEMATOCRIT (%)                      40.1             36.0-46.0\nWBC (K/uL)                          3.0       L      4.0-11.0\nRBC (M/uL)                          4.72             4.00-5.20\nPLATELETS (K/uL)                    198              150-400\nMCV (fL)                            81.6             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            62        L      70-99\nCREATININE (mg/dL)                  0.97             0.50-1.10\nAST (U/L)                           27               10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

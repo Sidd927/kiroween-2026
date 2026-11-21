@@ -1,0 +1,507 @@
+{
+ "stats": {
+  "A:correct_accept": 300,
+  "A:correct_reject": 117,
+  "A:false_reject": 67,
+  "A:silent_error": 1,
+  "A:unsafe_accept": 2,
+  "B:correct_accept": 217,
+  "B:correct_reject": 94,
+  "B:false_reject": 135,
+  "B:silent_error": 1,
+  "C:correct_accept": 336,
+  "C:correct_reject": 136,
+  "C:false_reject": 47,
+  "D:correct_accept": 243,
+  "D:correct_reject": 133,
+  "D:false_reject": 120,
+  "E:correct_accept": 274,
+  "E:correct_reject": 121,
+  "E:false_reject": 128,
+  "F:correct_accept": 244,
+  "F:correct_reject": 127,
+  "F:false_reject": 157,
+  "correct_accept": 1614,
+  "correct_reject": 728,
+  "false_reject": 654,
+  "fuzz:blank_lines:correct_accept": 126,
+  "fuzz:blank_lines:correct_reject": 185,
+  "fuzz:blank_lines:false_reject": 162,
+  "fuzz:blank_lines:silent_error": 2,
+  "fuzz:comment_line:correct_reject": 164,
+  "fuzz:comment_line:false_reject": 262,
+  "fuzz:digit_change:correct_accept": 120,
+  "fuzz:digit_change:correct_reject": 162,
+  "fuzz:digit_change:false_reject": 143,
+  "fuzz:static_char_damage:correct_accept": 66,
+  "fuzz:static_char_damage:correct_reject": 151,
+  "fuzz:static_char_damage:false_reject": 168,
+  "fuzz:static_char_damage:silent_error": 2,
+  "silent_error": 2,
+  "unsafe_accept": 2
+ },
+ "failures": [
+  {
+   "doc_id": "pbt-A-197482258",
+   "cls": "unsafe_accept",
+   "perturbation": "page_break+crlf_trailing+long_name+header_changed",
+   "record": {
+    "binding_id": "lab-a",
+    "patient_id": "SP/26/732690",
+    "patient_name": "VENKATARAMANA SUBRAMANIAN IYER",
+    "patient_age": 23,
+    "patient_sex": "female",
+    "collected": "2026-09-22",
+    "reported": "2026-09-22",
+    "results": [
+     {
+      "label": "HAEMOGLOBIN",
+      "code": "HGB",
+      "value": "15.5",
+      "unit": "gm/dL",
+      "value_canonical": "15.5",
+      "unit_canonical": "g/dL",
+      "flag": "",
+      "ref_low": "13.0",
+      "ref_high": "17.0"
+     },
+     {
+      "label": "R.B.C. COUNT",
+      "code": "RBC",
+      "value": "4.44",
+      "unit": "mill/cumm",
+      "value_canonical": "4.44",
+      "unit_canonical": "10*6/uL",
+      "flag": "L",
+      "ref_low": "4.50",
+      "ref_high": "5.50"
+     },
+     {
+      "label": "P.C.V.",
+      "code": "HCT",
+      "value": "39.2",
+      "unit": "%",
+      "value_canonical": "39.2",
+      "unit_canonical": "%",
+      "flag": "L",
+      "ref_low": "40.0",
+      "ref_high": "50.0"
+     },
+     {
+      "label": "M.C.V.",
+      "code": "MCV",
+      "value": "81.5",
+      "unit": "fL",
+      "value_canonical": "81.5",
+      "unit_canonical": "fL",
+      "flag": "L",
+      "ref_low": "83.0",
+      "ref_high": "101.0"
+     },
+     {
+      "label": "M.C.H.",
+      "code": "MCH",
+      "value": "32.2",
+      "unit": "pg",
+      "value_canonical": "32.2",
+      "unit_canonical": "pg",
+      "flag": "H",
+      "ref_low": "27.0",
+      "ref_high": "32.0"
+     },
+     {
+      "label": "M.C.H.C.",
+      "code": "MCHC",
+      "value": "31.2",
+      "unit": "g/dL",
+      "value_canonical": "31.2",
+      "unit_canonical": "g/dL",
+      "flag": "L",
+      "ref_low": "31.5",
+      "ref_high": "34.5"
+     },
+     {
+      "label": "TOTAL LEUCOCYTE COUNT",
+      "code": "WBC",
+      "value": "7300",
+      "unit": "/cumm",
+      "value_canonical": "7.300",
+      "unit_canonical": "10*3/uL",
+      "flag": "",
+      "ref_low": "4000",
+      "ref_high": "11000"
+     },
+     {
+      "label": "PLATELET COUNT",
+      "code": "PLT",
+      "value": "1.32",
+      "unit": "lakh/cumm",
+      "value_canonical": "132.00",
+      "unit_canonical": "10*3/uL",
+      "flag": "L",
+      "ref_low": "1.50",
+      "ref_high": "4.10"
+     }
+    ],
+    "collected_dt": "2026-09-22T08:20:00",
+    "reported_dt": "2026-09-22T18:55:00"
+   },
+   "truth": null,
+   "text": "                   SUNRISE DIAGNOSTICS & PATHOLOGY PVT. LTD.   \r\n                 NABL-style format v2  |  Gangapur Road, Nashik  \r\n================================================================================  \r\nPatient Name : MS. VENKATARAMANA SUBRAMANIAN IYER Lab No.   : SP/26/732690\r\nAge / Sex    : 23 Yrs / F                       Collected : 22/09/2026 08:20  \r\nRef. By      : DR. R. SHAH                      Reported  : 22/09/2026 18:55 \r\n--------------------------------------------------------------------------------\r\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT  \r\n--------------------------------------------------------------------------------\r\nTEST                          RESULT      UNIT          REFERENCE RANGE \r\n--------------------------------------------------------------------------------   \r\nHAEMOGLOBIN                   15.5        gm/dL         13.0 - 17.0 \r\nR.B.C. COUNT                  4.44 L      mill/cumm     4.50 - 5.50 \r\nP.C.V.                        39.2 L      %             40.0 - 50.0  \r\nM.C.V.                        81.5 L      fL            83.0 - 101.0 \r\nM.C.H.                        32.2 H      pg            27.0 - 32.0  \r\nM.C.H.C.                      31.2 L      g/dL          31.5 - 34.5  \r\n  \r\n                                                       Continued on next page...  \r\n\f                          SUNRISE PATHOLOGY LABORATORY\r\nPatient Name : MS. VENKATARAMANA SUBRAMANIAN IYER Lab No.   : SP/26/732690   \r\n--------------------------------------------------------------------------------   \r\nTEST                          RESULT      UNIT          REFERENCE RANGE   \r\n--------------------------------------------------------------------------------   \r\nTOTAL LEUCOCYTE COUNT         7300        /cumm         4000 - 11000\r\nPLATELET COUNT                1.32 L      lakh/cumm     1.50 - 4.10   \r\n--------------------------------------------------------------------------------\r\n                             *** END OF REPORT ***  \r\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT \r\n   "
+  },
+  {
+   "doc_id": "pbt-A-51798",
+   "cls": "unsafe_accept",
+   "perturbation": "page_break+crlf_trailing+header_changed",
+   "record": {
+    "binding_id": "lab-a",
+    "patient_id": "SP/26/088807",
+    "patient_name": "RAHUL KULKARNI",
+    "patient_age": 1,
+    "patient_sex": "male",
+    "collected": "2026-03-16",
+    "reported": "2026-03-17",
+    "results": [
+     {
+      "label": "HAEMOGLOBIN",
+      "code": "HGB",
+      "value": "12.7",
+      "unit": "gm/dL",
+      "value_canonical": "12.7",
+      "unit_canonical": "g/dL",
+      "flag": "L",
+      "ref_low": "13.0",
+      "ref_high": "17.0"
+     },
+     {
+      "label": "R.B.C. COUNT",
+      "code": "RBC",
+      "value": "4.50",
+      "unit": "mill/cumm",
+      "value_canonical": "4.50",
+      "unit_canonical": "10*6/uL",
+      "flag": "",
+      "ref_low": "4.50",
+      "ref_high": "5.50"
+     },
+     {
+      "label": "P.C.V.",
+      "code": "HCT",
+      "value": "51.9",
+      "unit": "%",
+      "value_canonical": "51.9",
+      "unit_canonical": "%",
+      "flag": "H",
+      "ref_low": "40.0",
+      "ref_high": "50.0"
+     },
+     {
+      "label": "M.C.V.",
+      "code": "MCV",
+      "value": "102.3",
+      "unit": "fL",
+      "value_canonical": "102.3",
+      "unit_canonical": "fL",
+      "flag": "H",
+      "ref_low": "83.0",
+      "ref_high": "101.0"
+     },
+     {
+      "label": "M.C.H.",
+      "code": "MCH",
+      "value": "31.2",
+      "unit": "pg",
+      "value_canonical": "31.2",
+      "unit_canonical": "pg",
+      "flag": "",
+      "ref_low": "27.0",
+      "ref_high": "32.0"
+     },
+     {
+      "label": "M.C.H.C.",
+      "code": "MCHC",
+      "value": "33.7",
+      "unit": "g/dL",
+      "value_canonical": "33.7",
+      "unit_canonical": "g/dL",
+      "flag": "",
+      "ref_low": "31.5",
+      "ref_high": "34.5"
+     },
+     {
+      "label": "TOTAL LEUCOCYTE COUNT",
+      "code": "WBC",
+      "value": "2407",
+      "unit": "/cumm",
+      "value_canonical": "2.407",
+      "unit_canonical": "10*3/uL",
+      "flag": "L",
+      "ref_low": "4000",
+      "ref_high": "11000"
+     },
+     {
+      "label": "NEUTROPHILS",
+      "code": "NEUT%",
+      "value": "49",
+      "unit": "%",
+      "value_canonical": "49",
+      "unit_canonical": "%",
+      "flag": "",
+      "ref_low": "40",
+      "ref_high": "80"
+     },
+     {
+      "label": "LYMPHOCYTES",
+      "code": "LYMPH%",
+      "value": "33",
+      "unit": "%",
+      "value_canonical": "33",
+      "unit_canonical": "%",
+      "flag": "",
+      "ref_low": "20",
+      "ref_high": "40"
+     },
+     {
+      "label": "PLATELET COUNT",
+      "code": "PLT",
+      "value": "1.53",
+      "unit": "lakh/cumm",
+      "value_canonical": "153.00",
+      "unit_canonical": "10*3/uL",
+      "flag": "",
+      "ref_low": "1.50",
+      "ref_high": "4.10"
+     }
+    ],
+    "collected_dt": "2026-03-16T09:30:00",
+    "reported_dt": "2026-03-17T18:55:00"
+   },
+   "truth": null,
+   "text": "                   SUNRISE DIAGNOSTICS & PATHOLOGY PVT. LTD. \r\n                 NABL-style format v2  |  Gangapur Road, Nashik  \r\n================================================================================ \r\nPatient Name : MR. RAHUL KULKARNI               Lab No.   : SP/26/088807 \r\nAge / Sex    : 1 Yrs / M                        Collected : 16/03/2026 09:30   \r\nRef. By      : DR. V. GUPTA                     Reported  : 17/03/2026 18:55   \r\n-------------------------------------------------------------------------------- \r\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT  \r\n--------------------------------------------------------------------------------\r\nTEST                          RESULT      UNIT          REFERENCE RANGE  \r\n-------------------------------------------------------------------------------- \r\nHAEMOGLOBIN                   12.7 L      gm/dL         13.0 - 17.0  \r\nR.B.C. COUNT                  4.50        mill/cumm     4.50 - 5.50  \r\nP.C.V.                        51.9 H      %             40.0 - 50.0   \r\nM.C.V.                        102.3 H     fL            83.0 - 101.0\r\nM.C.H.                        31.2        pg            27.0 - 32.0  \r\nM.C.H.C.                      33.7        g/dL          31.5 - 34.5\r\n\r\n                                                       Continued on next page...\r\n\f                          SUNRISE PATHOLOGY LABORATORY \r\nPatient Name : MR. RAHUL KULKARNI               Lab No.   : SP/26/088807\r\n--------------------------------------------------------------------------------  \r\nTEST                          RESULT      UNIT          REFERENCE RANGE\r\n-------------------------------------------------------------------------------- \r\nTOTAL LEUCOCYTE COUNT         2407 L      /cumm         4000 - 11000   \r\nNEUTROPHILS                   49          %             40 - 80 \r\nLYMPHOCYTES                   33          %             20 - 40\r\nPLATELET COUNT                1.53        lakh/cumm     1.50 - 4.10   \r\n--------------------------------------------------------------------------------  \r\n                             *** END OF REPORT ***\r\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\r\n  "
+  },
+  {
+   "doc_id": "pbt-A-182",
+   "cls": "silent_error",
+   "perturbation": "page_break+drop_optional++blank_lines+static_char_damage",
+   "record": {
+    "binding_id": "lab-a",
+    "patient_id": "SP/26/726690",
+    "patient_name": "DIVYA NAIR",
+    "patient_age": 65,
+    "patient_sex": "female",
+    "collected": "2026-06-08",
+    "reported": "2026-06-08",
+    "results": [
+     {
+      "label": "NEUTROPHILS",
+      "code": "NEUT%",
+      "value": "27",
+      "unit": "%",
+      "value_canonical": "27",
+      "unit_canonical": "%",
+      "flag": "L",
+      "ref_low": "40",
+      "ref_high": "80"
+     },
+     {
+      "label": "LYMPHOCYTES",
+      "code": "LYMPH%",
+      "value": "31",
+      "unit": "%",
+      "value_canonical": "31",
+      "unit_canonical": "%",
+      "flag": "",
+      "ref_low": "20",
+      "ref_high": "40"
+     }
+    ],
+    "collected_dt": "2026-06-08T09:20:00",
+    "reported_dt": "2026-06-08T16:45:00"
+   },
+   "truth": {
+    "patient_id": "SP/26/726690",
+    "patient_name": "DIVYA NAIR",
+    "patient_age": 65,
+    "patient_sex": "female",
+    "collected": "2026-06-08",
+    "results": [
+     {
+      "code": "HGB",
+      "value": "16.6",
+      "unit": "gm/dL",
+      "label": "HAEMOGLOBIN"
+     },
+     {
+      "code": "RBC",
+      "value": "5.27",
+      "unit": "mill/cumm",
+      "label": "R.B.C. COUNT"
+     },
+     {
+      "code": "HCT",
+      "value": "39.2",
+      "unit": "%",
+      "label": "P.C.V."
+     },
+     {
+      "code": "MCV",
+      "value": "104.8",
+      "unit": "fL",
+      "label": "M.C.V."
+     },
+     {
+      "code": "MCH",
+      "value": "31.4",
+      "unit": "pg",
+      "label": "M.C.H."
+     },
+     {
+      "code": "MCHC",
+      "value": "33.2",
+      "unit": "g/dL",
+      "label": "M.C.H.C."
+     },
+     {
+      "code": "WBC",
+      "value": "7917",
+      "unit": "/cumm",
+      "label": "TOTAL LEUCOCYTE COUNT"
+     },
+     {
+      "code": "NEUT%",
+      "value": "27",
+      "unit": "%",
+      "label": "NEUTROPHILS"
+     },
+     {
+      "code": "LYMPH%",
+      "value": "31",
+      "unit": "%",
+      "label": "LYMPHOCYTES"
+     }
+    ]
+   },
+   "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MS. DIVYA NAIR                   Lab No.   : SP/26/726690\nAge / Sex    : 65 Yrs / F                       Collected : 08/06/2026 09:20\nRef. By      : DR. R. SHAH                      Reported  : 08/06/2026 16:45\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNQT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   16.6        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  5.27        mill/cumm     4.50 - 5.50\nP.C.V.                        39.2 L      %             40.0 - 50.0\n\nM.C.V.                        104.8 H     fL            83.0 - 101.0\nM.C.H.                        31.4        pg            27.0 - 32.0\nM.C.H.C.                      33.2        g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         7917        /cumm         4000 - 11000\n\n                                                       Continued on next page...\n\f                          SUNRISE PATHOLOGY LABORATORY\nPatient Name : MS. DIVYA NAIR                   Lab No.   : SP/26/726690\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nNEUTROPHILS                   27 L        %             40 - 80\nLYMPHOCYTES                   31          %             20 - 40\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n"
+  },
+  {
+   "doc_id": "pbt-B-20511",
+   "cls": "silent_error",
+   "perturbation": "drop_optional+page_break++static_char_damage+blank_lines",
+   "record": {
+    "binding_id": "lab-b",
+    "patient_id": "CDC-766527",
+    "patient_name": "Neha Fernandes",
+    "patient_age": 33,
+    "patient_sex": "female",
+    "collected": "2026-03-03",
+    "reported": "2026-03-04",
+    "results": [
+     {
+      "label": "MCHC",
+      "code": "MCHC",
+      "value": "33.8",
+      "unit": "g/dl",
+      "value_canonical": "33.8",
+      "unit_canonical": "g/dL",
+      "flag": "",
+      "ref_low": "31.5",
+      "ref_high": "34.5"
+     },
+     {
+      "label": "Total WBC Count",
+      "code": "WBC",
+      "value": "12300",
+      "unit": "cells/cumm",
+      "value_canonical": "12.300",
+      "unit_canonical": "10*3/uL",
+      "flag": "",
+      "ref_low": "4000",
+      "ref_high": "11000"
+     },
+     {
+      "label": "Neutrophils",
+      "code": "NEUT%",
+      "value": "72",
+      "unit": "%",
+      "value_canonical": "72",
+      "unit_canonical": "%",
+      "flag": "",
+      "ref_low": "40",
+      "ref_high": "80"
+     },
+     {
+      "label": "Platelet Count",
+      "code": "PLT",
+      "value": "316",
+      "unit": "10^3/uL",
+      "value_canonical": "316",
+      "unit_canonical": "10*3/uL",
+      "flag": "",
+      "ref_low": "150",
+      "ref_high": "410"
+     }
+    ],
+    "collected_dt": "2026-03-03T09:45:00",
+    "reported_dt": "2026-03-04T00:00:00"
+   },
+   "truth": {
+    "patient_id": "CDC-766527",
+    "patient_name": "Neha Fernandes",
+    "patient_age": 33,
+    "patient_sex": "female",
+    "collected": "2026-03-03",
+    "results": [
+     {
+      "code": "HGB",
+      "value": "15.2",
+      "unit": "g/dL",
+      "label": "Haemoglobin"
+     },
+     {
+      "code": "HCT",
+      "value": "50.8",
+      "unit": "%",
+      "label": "PCV / Haematocrit"
+     },
+     {
+      "code": "MCV",
+      "value": "87.9",
+      "unit": "fl",
+      "label": "MCV"
+     },
+     {
+      "code": "MCH",
+      "value": "27.5",
+      "unit": "pg",
+      "label": "MCH"
+     },
+     {
+      "code": "MCHC",
+      "value": "33.8",
+      "unit": "g/dl",
+      "label": "MCHC"
+     },
+     {
+      "code": "WBC",
+      "value": "12300",
+      "unit": "cells/cumm",
+      "label": "Total WBC Count"
+     },
+     {
+      "code": "NEUT%",
+      "value": "72",
+      "unit": "%",
+      "label": "Neutrophils"
+     },
+     {
+      "code": "PLT",
+      "value": "316",
+      "unit": "10^3/uL",
+      "label": "Platelet Count"
+     }
+    ]
+   },
+   "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-766527            Date : 04-Mar-2026\nName    : Neha Fernandes        Age  : 33 Y   Sex : Female\nSample collected on : 03-Mar-2026 09:45 AM\nReferred by : Dr. V. Gupta\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological R#f.\n----------------------------------------------------------------\nHaemoglobin ............. 15.2     g/dL          13.0-17.0\nPCV / Haematocrit ....... \u001bE50.8     \u001bF%             40.0-50.0\nMCV ..................... 87.9     fl            83.0-101.0\n\nMCH ..................... 27.5     pg            27.0-32.0\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-766527            Date : 04-Mar-2026\nName    : Neha Fernandes        Age  : 33 Y   Sex : Female\nSample collected on : 03-Mar-2026 09:45 AM\nReferred by : Dr. V. Gupta\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nMCHC .................... 33.8     g/dl          31.5-34.5\nTotal WBC Count ......... \u001bE12300    \u001bFcells/cumm    4000-11000\nNeutrophils ............. 72       %             40-80\nPlatelet Count .......... 316      10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n"
+  }
+ ]
+}

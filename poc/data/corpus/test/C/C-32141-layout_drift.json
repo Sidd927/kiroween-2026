@@ -1,0 +1,10 @@
+{
+ "doc_id": "C-32141-layout_drift",
+ "layout": "C",
+ "perturbation": "layout_drift",
+ "expected": "reject",
+ "expected_layout": "C",
+ "truth": null,
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-07-06\nPatient : More, Isha (M/84)\nPatient ID : 4726757       Sample : S-74733\nCollected  : 2026-07-04 10:15\nConsultant : Dr. M. Kulkarni\n\nBIOCHEMISTRY\n  Test / Method\n      Normal Range      Result     Units\n  ----------------------------------------\n  BILIRUBIN TOTAL\n      (Diazo method)\n      0.20 - 1.20       0.66       mg/dl\n  BILIRUBIN DIRECT\n      (Diazo method)\n      0.00 - 0.30       0.03       mg/dl\n  SGPT (ALT)\n      (IFCC)\n      0 - 40            44 *       U/L\n  SGOT (AST)\n      (IFCC)\n      0 - 40            28         U/L\n  ALKALINE PHOSPHATASE\n      (PNPP-AMP)\n      40 - 130          108        IU/L\n  TOTAL PROTEINS\n      (Biuret)\n      6.0 - 8.3         8.8 *      g/dl\n  ALBUMIN\n      (BCG)\n      3.5 - 5.2         3.0 *      g/dl\n  SERUM CREATININE\n      (Jaffe kinetic)\n      0.60 - 1.30       1.49 *     mg/dl\n  ----------------------------------------\n  * Value outside normal range\n\nChecked by: Lab Technologist\n                           -- END --\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

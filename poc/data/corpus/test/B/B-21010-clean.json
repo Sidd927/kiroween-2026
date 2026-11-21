@@ -1,0 +1,72 @@
+{
+ "doc_id": "B-21010-clean",
+ "layout": "B",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-683617",
+  "patient_name": "Aarav Iyer",
+  "patient_age": 44,
+  "patient_sex": "male",
+  "collected": "2026-01-09",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "13.6",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "4.19",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "45.0",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "87.3",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "28.0",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "34.0",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "10884",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "NEUT%",
+    "value": "60",
+    "unit": "%",
+    "label": "Neutrophils"
+   },
+   {
+    "code": "PLT",
+    "value": "209",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-683617            Date : 09-Jan-2026\nName    : Aarav Iyer            Age  : 44 Y   Sex : Male\nSample collected on : 09-Jan-2026 07:45 AM\nReferred by : Dr. R. Shah\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. 13.6     g/dL          13.0-17.0\nRBC Count ............... \u001bE4.19     \u001bFmillion/cumm  4.50-5.50\nPCV / Haematocrit ....... 45.0     %             40.0-50.0\nMCV ..................... 87.3     fl            83.0-101.0\nMCH ..................... 28.0     pg            27.0-32.0\nMCHC .................... 34.0     g/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-683617            Date : 09-Jan-2026\nName    : Aarav Iyer            Age  : 44 Y   Sex : Male\nSample collected on : 09-Jan-2026 07:45 AM\nReferred by : Dr. R. Shah\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nTotal WBC Count ......... 10884    cells/cumm    4000-11000\nNeutrophils ............. 60       %             40-80\nPlatelet Count .......... 209      10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

@@ -1,0 +1,78 @@
+{
+ "doc_id": "A-11019-clean",
+ "layout": "A",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "A",
+ "truth": {
+  "patient_id": "SP/26/639231",
+  "patient_name": "AARAV JADHAV",
+  "patient_age": 34,
+  "patient_sex": "male",
+  "collected": "2026-02-08",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "13.4",
+    "unit": "gm/dL",
+    "label": "HAEMOGLOBIN"
+   },
+   {
+    "code": "RBC",
+    "value": "4.70",
+    "unit": "mill/cumm",
+    "label": "R.B.C. COUNT"
+   },
+   {
+    "code": "HCT",
+    "value": "42.9",
+    "unit": "%",
+    "label": "P.C.V."
+   },
+   {
+    "code": "MCV",
+    "value": "88.7",
+    "unit": "fL",
+    "label": "M.C.V."
+   },
+   {
+    "code": "MCH",
+    "value": "33.6",
+    "unit": "pg",
+    "label": "M.C.H."
+   },
+   {
+    "code": "MCHC",
+    "value": "31.7",
+    "unit": "g/dL",
+    "label": "M.C.H.C."
+   },
+   {
+    "code": "WBC",
+    "value": "11231",
+    "unit": "/cumm",
+    "label": "TOTAL LEUCOCYTE COUNT"
+   },
+   {
+    "code": "NEUT%",
+    "value": "54",
+    "unit": "%",
+    "label": "NEUTROPHILS"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "27",
+    "unit": "%",
+    "label": "LYMPHOCYTES"
+   },
+   {
+    "code": "PLT",
+    "value": "4.05",
+    "unit": "lakh/cumm",
+    "label": "PLATELET COUNT"
+   }
+  ]
+ },
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MR. AARAV JADHAV                 Lab No.   : SP/26/639231\nAge / Sex    : 34 Yrs / M                       Collected : 08/02/2026 08:40\nRef. By      : DR. A. RAO                       Reported  : 08/02/2026 14:40\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   13.4        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  4.70        mill/cumm     4.50 - 5.50\nP.C.V.                        42.9        %             40.0 - 50.0\nM.C.V.                        88.7        fL            83.0 - 101.0\nM.C.H.                        33.6 H      pg            27.0 - 32.0\nM.C.H.C.                      31.7        g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         11231 H     /cumm         4000 - 11000\nNEUTROPHILS                   54          %             40 - 80\nLYMPHOCYTES                   27          %             20 - 40\nPLATELET COUNT                4.05        lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "G-90001-clean",
+ "layout": "G",
+ "perturbation": "clean",
+ "expected": "reject",
+ "expected_layout": null,
+ "truth": null,
+ "text": "GOOD HEALTH CLINIC LAB\nPatient Aditya Fernandes  ID GH6389\nDate 2026/05/16\n\nHemoglobin: 18.2 g/dL (ref 13.0-17.0)\nWBC: 13.2 K/uL (ref 4.0-11.0)\nPlatelets: 121 K/uL (ref 150-400)\n\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n\f",
+ "split": "test"
+}

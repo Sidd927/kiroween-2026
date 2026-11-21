@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-42080-value_implausible",
+ "layout": "D",
+ "perturbation": "value_implausible",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-2464123            | Coll. Dt : 18.04.26            |\n| Name : SHRI ROHAN MORE       | Age/Sex : 79/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 60      | mg/dL      | 70-100     | L    |\n| Serum Creatinine    | 0.88    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 24      | mg/dL      | 15-40      |      |\n| Haemoglobin         | 16.5    | g/dl       | 12.0-16.0  | H    |\n| Total Count (WBC)   | 1733    | /cumm      | 4000-11000 | L    |\n| Platelets           | 248     | lakhs/cumm | 1.50-4.50  |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

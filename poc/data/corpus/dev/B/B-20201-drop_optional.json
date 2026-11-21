@@ -1,0 +1,66 @@
+{
+ "doc_id": "B-20201-drop_optional",
+ "layout": "B",
+ "perturbation": "drop_optional",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-276606",
+  "patient_name": "Vikram Khan",
+  "patient_age": 63,
+  "patient_sex": "male",
+  "collected": "2026-06-20",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "17.3",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "4.76",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "44.2",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "81.7",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "28.6",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "31.8",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "11271",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "PLT",
+    "value": "122",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-276606            Date : 21-Jun-2026\nName    : Vikram Khan           Age  : 63 Y   Sex : Male\nSample collected on : 20-Jun-2026 07:30 AM\nReferred by : Dr. R. Shah\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. \u001bE17.3     \u001bFg/dL          13.0-17.0\nRBC Count ............... 4.76     million/cumm  4.50-5.50\nPCV / Haematocrit ....... 44.2     %             40.0-50.0\nMCV ..................... \u001bE81.7     \u001bFfl            83.0-101.0\nMCH ..................... 28.6     pg            27.0-32.0\nMCHC .................... 31.8     g/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-276606            Date : 21-Jun-2026\nName    : Vikram Khan           Age  : 63 Y   Sex : Male\nSample collected on : 20-Jun-2026 07:30 AM\nReferred by : Dr. R. Shah\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nTotal WBC Count ......... \u001bE11271    \u001bFcells/cumm    4000-11000\nPlatelet Count .......... \u001bE122      \u001bF10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

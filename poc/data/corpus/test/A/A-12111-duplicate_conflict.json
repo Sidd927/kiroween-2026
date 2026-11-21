@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12111-duplicate_conflict",
+ "layout": "A",
+ "perturbation": "duplicate_conflict",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MRS. OMKAR NAIR                  Lab No.   : SP/26/278405\nAge / Sex    : 10 Yrs / F                       Collected : 15/08/2026 11:30\nRef. By      : DR. R. SHAH                      Reported  : 15/08/2026 17:05\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   17.7 H      gm/dL         13.0 - 17.0\nR.B.C. COUNT                  5.07        mill/cumm     4.50 - 5.50\nP.C.V.                        49.4        %             40.0 - 50.0\nM.C.V.                        97.4        fL            83.0 - 101.0\nM.C.H.                        27.4        pg            27.0 - 32.0\nM.C.H.C.                      33.9        g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         11294 H     /cumm         4000 - 11000\nLYMPHOCYTES                   23          %             20 - 40\nLYMPHOCYTES                   30          %             20 - 40\nPLATELET COUNT                3.35        lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

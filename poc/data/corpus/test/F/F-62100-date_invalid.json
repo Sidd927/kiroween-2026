@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-62100-date_invalid",
+ "layout": "F",
+ "perturbation": "date_invalid",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4452627\nPT: KHAN ARJUN             MRN 39666194    AGE: 72Y  SEX: M\nCOLLECTED 02/31/2026 0910   RECEIVED 04/16/2026 0840\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   13.5             12.0-15.5\nHEMATOCRIT (%)                      34.5      L      36.0-46.0\nWBC (K/uL)                          2.1       L      4.0-11.0\nRBC (M/uL)                          5.31      H      4.00-5.20\nPLATELETS (K/uL)                    126       L      150-400\nMCV (fL)                            96.7             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            93               70-99\nCREATININE (mg/dL)                  0.86             0.50-1.10\nALT (U/L)                           59        H      7-56\nAST (U/L)                           20               10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

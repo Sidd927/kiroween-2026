@@ -1,0 +1,72 @@
+{
+ "doc_id": "F-61009-clean",
+ "layout": "F",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "42821769",
+  "patient_name": "KULKARNI ANANYA",
+  "patient_age": 74,
+  "patient_sex": "male",
+  "collected": "2026-03-16",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "13.7",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "34.3",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "7.9",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "3.94",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "PLT",
+    "value": "224",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "93.1",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "95",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "0.65",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   },
+   {
+    "code": "AST",
+    "value": "4",
+    "unit": "U/L",
+    "label": "AST"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4468895\nPT: KULKARNI ANANYA        MRN 42821769    AGE: 74Y  SEX: M\nCOLLECTED 03/16/2026 0850   RECEIVED 03/18/2026 0115\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   13.7             12.0-15.5\nHEMATOCRIT (%)                      34.3      L      36.0-46.0\nWBC (K/uL)                          7.9              4.0-11.0\nRBC (M/uL)                          3.94      L      4.00-5.20\nPLATELETS (K/uL)                    224              150-400\nMCV (fL)                            93.1             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            95               70-99\nCREATININE (mg/dL)                  0.65             0.50-1.10\nAST (U/L)                           4         L      10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-60213-truncated",
+ "layout": "F",
+ "perturbation": "truncated",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4488541\nPT: JADHAV MEERA           MRN 23981799    AGE: 15Y  SEX: F\nCOLLECTED 10/08/2026 0915   RECEIVED 10/08/2026 2150\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   14.3             12.0-15.5\nHEMATOCRIT (%)                      44.1             36.0-46.0\nWBC (K/uL)                          6.8              4.0-11.0\nRBC (M/uL)                          4.18             4.00-5.20\nPLATELETS (K/uL)                    203              150-400\nMCV (fL)                            90.7             80.0-100.0",
+ "split": "dev"
+}

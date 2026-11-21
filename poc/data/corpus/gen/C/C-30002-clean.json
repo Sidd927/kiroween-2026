@@ -1,0 +1,66 @@
+{
+ "doc_id": "C-30002-clean",
+ "layout": "C",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "C",
+ "truth": {
+  "patient_id": "0688302",
+  "patient_name": "More, Tanvi",
+  "patient_age": 3,
+  "patient_sex": "male",
+  "collected": "2026-05-17",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "1.23",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.35",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT"
+   },
+   {
+    "code": "ALT",
+    "value": "8",
+    "unit": "U/L",
+    "label": "SGPT (ALT)"
+   },
+   {
+    "code": "AST",
+    "value": "3",
+    "unit": "U/L",
+    "label": "SGOT (AST)"
+   },
+   {
+    "code": "ALP",
+    "value": "15",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE"
+   },
+   {
+    "code": "TP",
+    "value": "7.5",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS"
+   },
+   {
+    "code": "ALB",
+    "value": "3.1",
+    "unit": "g/dl",
+    "label": "ALBUMIN"
+   },
+   {
+    "code": "UREA",
+    "value": "15",
+    "unit": "mg/dl",
+    "label": "BLOOD UREA"
+   }
+  ]
+ },
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-05-18\nPatient : More, Tanvi (M/3)\nPatient ID : 0688302       Sample : S-53924\nCollected  : 2026-05-17 08:40\nConsultant : Dr. A. Rao\n\nBIOCHEMISTRY\n  Test / Method\n      Result     Units     Normal Range\n  ----------------------------------------\n  BILIRUBIN TOTAL\n      (Diazo method)\n      1.23 *     mg/dl     0.20 - 1.20\n  BILIRUBIN DIRECT\n      (Diazo method)\n      0.35 *     mg/dl     0.00 - 0.30\n  SGPT (ALT)\n      (IFCC)\n      8          U/L       0 - 40\n  SGOT (AST)\n      (IFCC)\n      3          U/L       0 - 40\n  ALKALINE PHOSPHATASE\n      (PNPP-AMP)\n      15 *       IU/L      40 - 130\n  TOTAL PROTEINS\n      (Biuret)\n      7.5        g/dl      6.0 - 8.3\n  ALBUMIN\n      (BCG)\n      3.1 *      g/dl      3.5 - 5.2\n  BLOOD UREA\n      (Urease-GLDH)\n      15         mg/dl     15 - 45\n  ----------------------------------------\n  * Value outside normal range\n\nChecked by: Lab Technologist\n                           -- END --\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "gen"
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-60208-value_implausible",
+ "layout": "F",
+ "perturbation": "value_implausible",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4414457\nPT: PATIL AARAV            MRN 90483813    AGE: 58Y  SEX: M\nCOLLECTED 06/03/2026 1015   RECEIVED 06/04/2026 0815\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   10.8      L      12.0-15.5\nHEMATOCRIT (%)                      41.8             36.0-46.0\nWBC (K/uL)                          10.1             4.0-11.0\nRBC (M/uL)                          4.37             4.00-5.20\nPLATELETS (K/uL)                    277              150-400\nMCV (fL)                            913              80.0-100.0\nGLUCOSE, FASTING (mg/dL)            99               70-99\nCREATININE (mg/dL)                  0.65             0.50-1.10\nALT (U/L)                           39               7-56\nAST (U/L)                           12               10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

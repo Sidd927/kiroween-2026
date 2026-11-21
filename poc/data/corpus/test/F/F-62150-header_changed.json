@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-62150-header_changed",
+ "layout": "F",
+ "perturbation": "header_changed",
+ "expected": "reject",
+ "expected_layout": null,
+ "truth": null,
+ "text": "MEDILINK LABORATORIES INC  -  ACCESSION 4461322\nPT: IYER DIVYA             MRN 56091563    AGE: 61Y  SEX: F\nCOLLECTED 04/11/2026 0710   RECEIVED 04/12/2026 1010\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   15.9      H      12.0-15.5\nHEMATOCRIT (%)                      42.9             36.0-46.0\nWBC (K/uL)                          10.4             4.0-11.0\nRBC (M/uL)                          5.41      H      4.00-5.20\nPLATELETS (K/uL)                    413       H      150-400\nMCV (fL)                            84.2             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            95               70-99\nCREATININE (mg/dL)                  0.59             0.50-1.10\nALT (U/L)                           44               7-56\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

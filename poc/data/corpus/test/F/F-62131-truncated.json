@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-62131-truncated",
+ "layout": "F",
+ "perturbation": "truncated",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4455927\nPT: PATIL NEHA             MRN 37229059    AGE: 53Y  SEX: F\nCOLLECTED 05/06/2026 0745   RECEIVED 05/06/2026 1735\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   10.9      L      12.0-15.5\nHEMATOCRIT (%)                      39.3             36.0-46.0\nWBC (K/uL)                          11.2      H      4.0-11.0",
+ "split": "test"
+}

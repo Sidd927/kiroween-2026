@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12161-flag_inconsistent",
+ "layout": "A",
+ "perturbation": "flag_inconsistent",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MRS. MEERA MEHTA                 Lab No.   : SP/26/127117\nAge / Sex    : 26 Yrs / F                       Collected : 10/06/2026 10:20\nRef. By      : DR. R. SHAH                      Reported  : 11/06/2026 01:10\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   12.2 L      gm/dL         13.0 - 17.0\nR.B.C. COUNT                  5.63 H      mill/cumm     4.50 - 5.50\nP.C.V.                        37.1 L      %             40.0 - 50.0\nM.C.V.                        100.6       fL            83.0 - 101.0\nM.C.H.                        26.1 L      pg            27.0 - 32.0\nM.C.H.C.                      32.2        g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         5277        /cumm         4000 - 11000\nNEUTROPHILS                   89 H        %             40 - 80\nPLATELET COUNT                3.61 L      lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-62070-value_corrupt",
+ "layout": "F",
+ "perturbation": "value_corrupt",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4434115\nPT: REDDY KAVYA            MRN 72379166    AGE: 35Y  SEX: M\nCOLLECTED 01/25/2026 1030   RECEIVED 01/25/2026 1505\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   12.6             12.0-15.5\nHEMATOCRIT (%)                      41.3             36.0-46.0\nWBC (K/uL)                          4.1              4.0-11.0\nRBC (M/uL)                          4.99             4.00-5.20\nPLATELETS (K/uL)                    --        L      150-400\nMCV (fL)                            100.7     H      80.0-100.0\nGLUCOSE, FASTING (mg/dL)            82               70-99\nCREATININE (mg/dL)                  1.10             0.50-1.10\nALT (U/L)                           3         L      7-56\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

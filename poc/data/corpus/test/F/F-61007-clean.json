@@ -1,0 +1,72 @@
+{
+ "doc_id": "F-61007-clean",
+ "layout": "F",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "35522035",
+  "patient_name": "KHAN ANANYA",
+  "patient_age": 54,
+  "patient_sex": "female",
+  "collected": "2026-08-05",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "15.9",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "40.1",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "1.7",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "4.36",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "PLT",
+    "value": "432",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "73.0",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "79",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "0.88",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   },
+   {
+    "code": "ALT",
+    "value": "21",
+    "unit": "U/L",
+    "label": "ALT"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4499342\nPT: KHAN ANANYA            MRN 35522035    AGE: 54Y  SEX: F\nCOLLECTED 08/05/2026 0750   RECEIVED 08/06/2026 1425\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   15.9      H      12.0-15.5\nHEMATOCRIT (%)                      40.1             36.0-46.0\nWBC (K/uL)                          1.7       L      4.0-11.0\nRBC (M/uL)                          4.36             4.00-5.20\nPLATELETS (K/uL)                    432       H      150-400\nMCV (fL)                            73.0      L      80.0-100.0\nGLUCOSE, FASTING (mg/dL)            79               70-99\nCREATININE (mg/dL)                  0.88             0.50-1.10\nALT (U/L)                           21               7-56\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

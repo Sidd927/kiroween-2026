@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12131-truncated",
+ "layout": "A",
+ "perturbation": "truncated",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MRS. POOJA MEHTA                 Lab No.   : SP/26/737954\nAge / Sex    : 15 Yrs / F                       Collected : 25/01/2026 11:20\nRef. By      : DR. P. NAIR                      Reported  : 25/01/2026 17:20\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   13.8        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  5.66 H      mill/cumm     4.50 - 5.50\nP.C.V.                        51.9 H      %             40.0 - 50.0\nM.C.V.                        79.0 L      fL            83.0 - 101.0",
+ "split": "test"
+}

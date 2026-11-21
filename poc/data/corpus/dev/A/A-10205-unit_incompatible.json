@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-10205-unit_incompatible",
+ "layout": "A",
+ "perturbation": "unit_incompatible",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MR. MEERA SHARMA                 Lab No.   : SP/26/349012\nAge / Sex    : 57 Yrs / M                       Collected : 24/06/2026 09:10\nRef. By      : DR. M. KULKARNI                  Reported  : 24/06/2026 15:45\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   17.9 H      gm/dL         13.0 - 17.0\nR.B.C. COUNT                  4.33 L      U/L           4.50 - 5.50\nP.C.V.                        53.2 H      %             40.0 - 50.0\nM.C.V.                        89.6        fL            83.0 - 101.0\nM.C.H.                        27.8        pg            27.0 - 32.0\nM.C.H.C.                      31.3 L      g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         9143        /cumm         4000 - 11000\nLYMPHOCYTES                   19 L        %             20 - 40\nPLATELET COUNT                2.63        lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

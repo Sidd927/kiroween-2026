@@ -1,0 +1,48 @@
+{
+ "doc_id": "D-41006-clean",
+ "layout": "D",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "D",
+ "truth": {
+  "patient_id": "26-1189589",
+  "patient_name": "NIKHIL RAO",
+  "patient_age": 89,
+  "patient_sex": "male",
+  "collected": "2026-08-04",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "98",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)"
+   },
+   {
+    "code": "CREA",
+    "value": "0.62",
+    "unit": "mg/dL",
+    "label": "Serum Creatinine"
+   },
+   {
+    "code": "UREA",
+    "value": "47",
+    "unit": "mg/dL",
+    "label": "Blood Urea"
+   },
+   {
+    "code": "HGB",
+    "value": "14.9",
+    "unit": "g/dl",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "WBC",
+    "value": "7143",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)"
+   }
+  ]
+ },
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-1189589            | Coll. Dt : 04.08.26            |\n| Name : SHRI NIKHIL RAO       | Age/Sex : 89/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 98      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 0.62    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 47      | mg/dL      | 15-40      | H    |\n| Haemoglobin         | 14.9    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 7143    | /cumm      | 4000-11000 |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

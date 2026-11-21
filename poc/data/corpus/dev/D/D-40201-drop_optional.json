@@ -1,0 +1,48 @@
+{
+ "doc_id": "D-40201-drop_optional",
+ "layout": "D",
+ "perturbation": "drop_optional",
+ "expected": "accept",
+ "expected_layout": "D",
+ "truth": {
+  "patient_id": "26-7313479",
+  "patient_name": "ANANYA MEHTA",
+  "patient_age": 79,
+  "patient_sex": "female",
+  "collected": "2026-08-09",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "103",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)"
+   },
+   {
+    "code": "CREA",
+    "value": "0.70",
+    "unit": "mg/dL",
+    "label": "Serum Creatinine"
+   },
+   {
+    "code": "HGB",
+    "value": "12.7",
+    "unit": "g/dl",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "WBC",
+    "value": "13005",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)"
+   },
+   {
+    "code": "PLT",
+    "value": "3.70",
+    "unit": "lakhs/cumm",
+    "label": "Platelets"
+   }
+  ]
+ },
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-7313479            | Coll. Dt : 09.08.26            |\n| Name : KUM. ANANYA MEHTA     | Age/Sex : 79/F                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 103     | mg/dL      | 70-100     | H    |\n| Serum Creatinine    | 0.70    | mg/dL      | 0.60-1.20  |      |\n| Haemoglobin         | 12.7    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 13005   | /cumm      | 4000-11000 | H    |\n| Platelets           | 3.70    | lakhs/cumm | 1.50-4.50  |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

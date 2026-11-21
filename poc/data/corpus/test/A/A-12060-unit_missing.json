@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12060-unit_missing",
+ "layout": "A",
+ "perturbation": "unit_missing",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MR. DIVYA REDDY                  Lab No.   : SP/26/457198\nAge / Sex    : 84 Yrs / M                       Collected : 02/02/2026 11:40\nRef. By      : DR. S. JOSHI                     Reported  : 03/02/2026 06:50\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   11.9 L      gm/dL         13.0 - 17.0\nR.B.C. COUNT                  4.38 L      mill/cumm     4.50 - 5.50\nP.C.V.                        44.0        %             40.0 - 50.0\nM.C.V.                        83.5        fL            83.0 - 101.0\nM.C.H.                        28.1                      27.0 - 32.0\nM.C.H.C.                      31.4 L      g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         8192        /cumm         4000 - 11000\nLYMPHOCYTES                   18 L        %             20 - 40\nPLATELET COUNT                3.99        lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

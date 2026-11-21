@@ -1,0 +1,72 @@
+{
+ "doc_id": "A-12011-drop_optional",
+ "layout": "A",
+ "perturbation": "drop_optional",
+ "expected": "accept",
+ "expected_layout": "A",
+ "truth": {
+  "patient_id": "SP/26/024462",
+  "patient_name": "MEERA RAO",
+  "patient_age": 64,
+  "patient_sex": "female",
+  "collected": "2026-07-03",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "15.2",
+    "unit": "gm/dL",
+    "label": "HAEMOGLOBIN"
+   },
+   {
+    "code": "RBC",
+    "value": "5.49",
+    "unit": "mill/cumm",
+    "label": "R.B.C. COUNT"
+   },
+   {
+    "code": "HCT",
+    "value": "45.5",
+    "unit": "%",
+    "label": "P.C.V."
+   },
+   {
+    "code": "MCV",
+    "value": "103.8",
+    "unit": "fL",
+    "label": "M.C.V."
+   },
+   {
+    "code": "MCH",
+    "value": "29.3",
+    "unit": "pg",
+    "label": "M.C.H."
+   },
+   {
+    "code": "MCHC",
+    "value": "31.9",
+    "unit": "g/dL",
+    "label": "M.C.H.C."
+   },
+   {
+    "code": "WBC",
+    "value": "5497",
+    "unit": "/cumm",
+    "label": "TOTAL LEUCOCYTE COUNT"
+   },
+   {
+    "code": "NEUT%",
+    "value": "64",
+    "unit": "%",
+    "label": "NEUTROPHILS"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "36",
+    "unit": "%",
+    "label": "LYMPHOCYTES"
+   }
+  ]
+ },
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MRS. MEERA RAO                   Lab No.   : SP/26/024462\nAge / Sex    : 64 Yrs / F                       Collected : 03/07/2026 08:10\nRef. By      : DR. R. SHAH                      Reported  : 04/07/2026 14:20\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   15.2        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  5.49        mill/cumm     4.50 - 5.50\nP.C.V.                        45.5        %             40.0 - 50.0\nM.C.V.                        103.8 H     fL            83.0 - 101.0\nM.C.H.                        29.3        pg            27.0 - 32.0\nM.C.H.C.                      31.9        g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         5497        /cumm         4000 - 11000\nNEUTROPHILS                   64          %             40 - 80\nLYMPHOCYTES                   36          %             20 - 40\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

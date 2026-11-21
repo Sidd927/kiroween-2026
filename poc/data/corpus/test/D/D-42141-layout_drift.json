@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-42141-layout_drift",
+ "layout": "D",
+ "perturbation": "layout_drift",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-8029541            | Coll. Dt : 11.06.26            |\n| Name : SHRI VIKRAM IYER      | Age/Sex : 57/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | RANGE   | UNIT       | VALUE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 70-100  | mg/dL      | 81         |      |\n| Serum Creatinine    | 0.60-1.20 | mg/dL      | 1.16       |      |\n| Blood Urea          | 15-40   | mg/dL      | 45         | H    |\n| Haemoglobin         | 12.0-16.0 | g/dl       | 11.9       | L    |\n| Total Count (WBC)   | 4000-11000 | /cumm      | 6052       |      |\n| Platelets           | 1.50-4.50 | lakhs/cumm | 3.50       |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

@@ -1,0 +1,9 @@
+{
+ "job_id": "20261121-201441-fba857",
+ "sha256": "d037f1a4ade3ee36cb5f6187c9d67b36fee3aae6a5d41414310304d15d5cdc60",
+ "llm_calls": 0,
+ "status": "ACCEPT",
+ "binding": "lab-d",
+ "reasons": [],
+ "ms": 7.01
+}

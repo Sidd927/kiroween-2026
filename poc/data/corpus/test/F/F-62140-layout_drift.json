@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-62140-layout_drift",
+ "layout": "F",
+ "perturbation": "layout_drift",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4450313\nPT: PAWAR ARJUN            MRN 23234519    AGE: 47Y  SEX: M\nCOLLECTED 03/09/2026 1030   RECEIVED 03/10/2026 2355\n========================================================================\nTEST NAME (UNITS)                   REF           RESULT    FLAG\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   12.0-15.5     12.8\nHEMATOCRIT (%)                      36.0-46.0     44.5\nWBC (K/uL)                          4.0-11.0      3.8       L\nRBC (M/uL)                          4.00-5.20     4.59\nPLATELETS (K/uL)                    150-400       332\nMCV (fL)                            80.0-100.0    104.2     H\nGLUCOSE, FASTING (mg/dL)            70-99         89\nCREATININE (mg/dL)                  0.50-1.10     1.29      H\nAST (U/L)                           10-40         19\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

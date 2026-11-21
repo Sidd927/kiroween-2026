@@ -1,0 +1,91 @@
+{
+ "_meta": {
+  "status": "active",
+  "sha256": "cb5392dc3ed4a635f15edd98224ed6000dcc8663774d87304cdbdcde54bd0b39",
+  "approval": "SIMULATED human approval (PoC): gate passed, binding reviewed by no human",
+  "rounds_used": 1
+ },
+ "binding_id": "lab-a",
+ "description": "Sunrise Pathology Laboratory CBC report with TEST/RESULT/UNIT/REFERENCE RANGE table",
+ "layout": {
+  "anchors": [
+   "^\\s*SUNRISE PATHOLOGY LABORATORY$",
+   "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$",
+   "^\\s*\\*\\*\\* END OF REPORT \\*\\*\\*$"
+  ]
+ },
+ "fields": {
+  "patient_id": {
+   "regex": "Lab No\\.\\s*:\\s*(?P<v>SP/\\d{2}/\\d+)",
+   "type": "string",
+   "required": true,
+   "pattern": "SP/\\d{2}/\\d+"
+  },
+  "patient_name": {
+   "regex": "^Patient Name\\s*:\\s*(?:(?:MR|MRS|MS|SMT|KUM|DR|BABY)\\.\\s+|SHRI\\s+)?(?P<v>\\S.*?)\\s+Lab No\\.",
+   "type": "string",
+   "required": true
+  },
+  "patient_age": {
+   "regex": "^Age / Sex\\s*:\\s*(?P<v>\\d+) Yrs / [MF]\\b",
+   "type": "integer",
+   "required": false
+  },
+  "patient_sex": {
+   "regex": "^Age / Sex\\s*:\\s*\\d+ Yrs / (?P<v>[MF])\\b",
+   "type": "enum",
+   "enum_map": {
+    "M": "male",
+    "F": "female"
+   },
+   "required": false
+  },
+  "collected": {
+   "regex": "Collected\\s*:\\s*(?P<v>\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2})",
+   "type": "date",
+   "format": "%d/%m/%Y %H:%M",
+   "required": true
+  },
+  "reported": {
+   "regex": "Reported\\s*:\\s*(?P<v>\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2})",
+   "type": "date",
+   "format": "%d/%m/%Y %H:%M",
+   "required": false
+  }
+ },
+ "results": {
+  "start": "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$",
+  "end": "^\\s*\\*\\*\\* END OF REPORT \\*\\*\\*$",
+  "skip_lines": [
+   "^\\s*$",
+   "^-+$",
+   "^\\s*SUNRISE PATHOLOGY LABORATORY$",
+   "^\\s*12, Station Road.*Ph:.*$",
+   "^Patient Name\\s*:.*$",
+   "^Age / Sex\\s*:.*$",
+   "^Ref\\. By\\s*:.*$",
+   "^\\s*HAEMATOLOGY - COMPLETE BLOOD COUNT$",
+   "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$",
+   "^\\s*Continued on next page\\.\\.\\.$"
+  ],
+  "row": "^(?P<label>[A-Z][A-Z. ]*?)\\s{2,}(?P<value>\\d+(?:\\.\\d+)?)(?:\\s+(?P<flag>[HL]))?\\s+(?P<unit>\\S+)\\s+(?P<ref_low>\\d+(?:\\.\\d+)?) - (?P<ref_high>\\d+(?:\\.\\d+)?)$",
+  "labels": {
+   "HAEMOGLOBIN": "HGB",
+   "R.B.C. COUNT": "RBC",
+   "P.C.V.": "HCT",
+   "M.C.V.": "MCV",
+   "M.C.H.": "MCH",
+   "M.C.H.C.": "MCHC",
+   "TOTAL LEUCOCYTE COUNT": "WBC",
+   "NEUTROPHILS": "NEUT%",
+   "LYMPHOCYTES": "LYMPH%",
+   "PLATELET COUNT": "PLT"
+  },
+  "flags": {
+   "H": "H",
+   "L": "L"
+  },
+  "min_rows": 1,
+  "max_rows": 18
+ }
+}

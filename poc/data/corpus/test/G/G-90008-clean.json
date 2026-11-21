@@ -1,0 +1,10 @@
+{
+ "doc_id": "G-90008-clean",
+ "layout": "G",
+ "perturbation": "clean",
+ "expected": "reject",
+ "expected_layout": null,
+ "truth": null,
+ "text": "GOOD HEALTH CLINIC LAB\nPatient Nikhil Reddy  ID GH3754\nDate 2026/10/20\n\nHemoglobin: 17.3 g/dL (ref 13.0-17.0)\nWBC: 6.6 K/uL (ref 4.0-11.0)\nPlatelets: 116 K/uL (ref 150-400)\n\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n\f",
+ "split": "test"
+}

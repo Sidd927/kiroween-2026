@@ -1,0 +1,66 @@
+{
+ "doc_id": "C-32031-crlf_trailing",
+ "layout": "C",
+ "perturbation": "crlf_trailing",
+ "expected": "accept",
+ "expected_layout": "C",
+ "truth": {
+  "patient_id": "9889424",
+  "patient_name": "Chavan, Nikhil",
+  "patient_age": 26,
+  "patient_sex": "male",
+  "collected": "2026-09-08",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "0.41",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.23",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT"
+   },
+   {
+    "code": "ALT",
+    "value": "25",
+    "unit": "U/L",
+    "label": "SGPT (ALT)"
+   },
+   {
+    "code": "AST",
+    "value": "10",
+    "unit": "U/L",
+    "label": "SGOT (AST)"
+   },
+   {
+    "code": "ALP",
+    "value": "68",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE"
+   },
+   {
+    "code": "TP",
+    "value": "6.3",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS"
+   },
+   {
+    "code": "ALB",
+    "value": "5.7",
+    "unit": "g/dl",
+    "label": "ALBUMIN"
+   },
+   {
+    "code": "UREA",
+    "value": "33",
+    "unit": "mg/dl",
+    "label": "BLOOD UREA"
+   }
+  ]
+ },
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-09-09   \r\nPatient : Chavan, Nikhil (M/26) \r\nPatient ID : 9889424       Sample : S-83092  \r\nCollected  : 2026-09-08 09:40   \r\nConsultant : Dr. A. Rao   \r\n \r\nBIOCHEMISTRY   \r\n  Test / Method\r\n      Result     Units     Normal Range\r\n  ---------------------------------------- \r\n  BILIRUBIN TOTAL\r\n      (Diazo method)   \r\n      0.41       mg/dl     0.20 - 1.20\r\n  BILIRUBIN DIRECT  \r\n      (Diazo method)  \r\n      0.23       mg/dl     0.00 - 0.30 \r\n  SGPT (ALT)   \r\n      (IFCC) \r\n      25         U/L       0 - 40  \r\n  SGOT (AST)  \r\n      (IFCC)  \r\n      10         U/L       0 - 40\r\n  ALKALINE PHOSPHATASE\r\n      (PNPP-AMP)  \r\n      68         IU/L      40 - 130 \r\n  TOTAL PROTEINS\r\n      (Biuret)\r\n      6.3        g/dl      6.0 - 8.3   \r\n  ALBUMIN\r\n      (BCG)  \r\n      5.7 *      g/dl      3.5 - 5.2\r\n  BLOOD UREA   \r\n      (Urease-GLDH)   \r\n      33         mg/dl     15 - 45\r\n  ----------------------------------------\r\n  * Value outside normal range \r\n \r\nChecked by: Lab Technologist \r\n                           -- END --  \r\nSYNTHETIC SAMPLE - NOT A REAL PATIENT   \r\n ",
+ "split": "test"
+}

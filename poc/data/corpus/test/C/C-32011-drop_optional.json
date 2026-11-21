@@ -1,0 +1,60 @@
+{
+ "doc_id": "C-32011-drop_optional",
+ "layout": "C",
+ "perturbation": "drop_optional",
+ "expected": "accept",
+ "expected_layout": "C",
+ "truth": {
+  "patient_id": "1043334",
+  "patient_name": "Shinde, Isha",
+  "patient_age": 50,
+  "patient_sex": "male",
+  "collected": "2026-05-07",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "0.43",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL"
+   },
+   {
+    "code": "ALT",
+    "value": "12",
+    "unit": "U/L",
+    "label": "SGPT (ALT)"
+   },
+   {
+    "code": "AST",
+    "value": "21",
+    "unit": "U/L",
+    "label": "SGOT (AST)"
+   },
+   {
+    "code": "ALP",
+    "value": "60",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE"
+   },
+   {
+    "code": "TP",
+    "value": "7.1",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS"
+   },
+   {
+    "code": "ALB",
+    "value": "4.4",
+    "unit": "g/dl",
+    "label": "ALBUMIN"
+   },
+   {
+    "code": "CREA",
+    "value": "1.44",
+    "unit": "mg/dl",
+    "label": "SERUM CREATININE"
+   }
+  ]
+ },
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-05-08\nPatient : Shinde, Isha (M/50)\nPatient ID : 1043334       Sample : S-42463\nCollected  : 2026-05-07 11:50\nConsultant : Dr. S. Joshi\n\nBIOCHEMISTRY\n  Test / Method\n      Result     Units     Normal Range\n  ----------------------------------------\n  BILIRUBIN TOTAL\n      (Diazo method)\n      0.43       mg/dl     0.20 - 1.20\n  SGPT (ALT)\n      (IFCC)\n      12         U/L       0 - 40\n  SGOT (AST)\n      (IFCC)\n      21         U/L       0 - 40\n  ALKALINE PHOSPHATASE\n      (PNPP-AMP)\n      60         IU/L      40 - 130\n  TOTAL PROTEINS\n      (Biuret)\n      7.1        g/dl      6.0 - 8.3\n  ALBUMIN\n      (BCG)\n      4.4        g/dl      3.5 - 5.2\n  SERUM CREATININE\n      (Jaffe kinetic)\n      1.44 *     mg/dl     0.60 - 1.30\n  ----------------------------------------\n  * Value outside normal range\n\nChecked by: Lab Technologist\n                           -- END --\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

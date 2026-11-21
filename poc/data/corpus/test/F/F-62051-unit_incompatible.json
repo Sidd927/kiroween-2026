@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-62051-unit_incompatible",
+ "layout": "F",
+ "perturbation": "unit_incompatible",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4489402\nPT: KULKARNI KIRAN         MRN 31091017    AGE: 24Y  SEX: M\nCOLLECTED 05/11/2026 0950   RECEIVED 05/12/2026 0850\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   11.6      L      12.0-15.5\nHEMATOCRIT (%)                      49.2      H      36.0-46.0\nWBC (K/uL)                          12.4      H      4.0-11.0\nRBC (M/uL)                          5.03             4.00-5.20\nPLATELETS (K/uL)                    427       H      150-400\nMCV (fL)                            78.5      L      80.0-100.0\nGLUCOSE, FASTING (mg/dL)            89               70-99\nCREATININE (mg/dL)                  0.48      L      0.50-1.10\nAST (mg/dL)                         45        H      10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

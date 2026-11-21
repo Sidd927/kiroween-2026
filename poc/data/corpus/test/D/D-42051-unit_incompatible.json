@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-42051-unit_incompatible",
+ "layout": "D",
+ "perturbation": "unit_incompatible",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-0168798            | Coll. Dt : 01.03.26            |\n| Name : SHRI SNEHA NAIR       | Age/Sex : 29/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 96      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 0.88    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 42      | mg/dL      | 15-40      | H    |\n| Haemoglobin         | 12.4    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 9805    | /cumm      | 4000-11000 |      |\n| Platelets           | 0.84    | U/L        | 1.50-4.50  | L    |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

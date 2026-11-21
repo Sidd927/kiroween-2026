@@ -1,0 +1,78 @@
+{
+ "doc_id": "B-20104-clean",
+ "layout": "B",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-973574",
+  "patient_name": "Ananya Khan",
+  "patient_age": 49,
+  "patient_sex": "female",
+  "collected": "2026-10-15",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "11.7",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "5.46",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "38.9",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "106.1",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "29.9",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "34.7",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "9152",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "NEUT%",
+    "value": "91",
+    "unit": "%",
+    "label": "Neutrophils"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "14",
+    "unit": "%",
+    "label": "Lymphocytes"
+   },
+   {
+    "code": "PLT",
+    "value": "99",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-973574            Date : 15-Oct-2026\nName    : Ananya Khan           Age  : 49 Y   Sex : Female\nSample collected on : 15-Oct-2026 07:40 AM\nReferred by : Dr. P. Nair\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. \u001bE11.7     \u001bFg/dL          13.0-17.0\nRBC Count ............... 5.46     million/cumm  4.50-5.50\nPCV / Haematocrit ....... \u001bE38.9     \u001bF%             40.0-50.0\nMCV ..................... \u001bE106.1    \u001bFfl            83.0-101.0\nMCH ..................... 29.9     pg            27.0-32.0\nMCHC .................... \u001bE34.7     \u001bFg/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-973574            Date : 15-Oct-2026\nName    : Ananya Khan           Age  : 49 Y   Sex : Female\nSample collected on : 15-Oct-2026 07:40 AM\nReferred by : Dr. P. Nair\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nTotal WBC Count ......... 9152     cells/cumm    4000-11000\nNeutrophils ............. \u001bE91       \u001bF%             40-80\nLymphocytes ............. \u001bE14       \u001bF%             20-40\nPlatelet Count .......... \u001bE99       \u001bF10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

@@ -1,0 +1,72 @@
+{
+ "doc_id": "C-30203-crlf_trailing",
+ "layout": "C",
+ "perturbation": "crlf_trailing",
+ "expected": "accept",
+ "expected_layout": "C",
+ "truth": {
+  "patient_id": "9704723",
+  "patient_name": "Reddy, Kiran",
+  "patient_age": 63,
+  "patient_sex": "female",
+  "collected": "2026-03-17",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "0.86",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.08",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT"
+   },
+   {
+    "code": "ALT",
+    "value": "50",
+    "unit": "U/L",
+    "label": "SGPT (ALT)"
+   },
+   {
+    "code": "AST",
+    "value": "20",
+    "unit": "U/L",
+    "label": "SGOT (AST)"
+   },
+   {
+    "code": "ALP",
+    "value": "110",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE"
+   },
+   {
+    "code": "TP",
+    "value": "7.9",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS"
+   },
+   {
+    "code": "ALB",
+    "value": "5.5",
+    "unit": "g/dl",
+    "label": "ALBUMIN"
+   },
+   {
+    "code": "CREA",
+    "value": "1.53",
+    "unit": "mg/dl",
+    "label": "SERUM CREATININE"
+   },
+   {
+    "code": "UREA",
+    "value": "52",
+    "unit": "mg/dl",
+    "label": "BLOOD UREA"
+   }
+  ]
+ },
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-03-18\r\nPatient : Reddy, Kiran (F/63)   \r\nPatient ID : 9704723       Sample : S-93188   \r\nCollected  : 2026-03-17 11:20   \r\nConsultant : Dr. R. Shah   \r\n \r\nBIOCHEMISTRY \r\n  Test / Method\r\n      Result     Units     Normal Range\r\n  ----------------------------------------\r\n  BILIRUBIN TOTAL \r\n      (Diazo method) \r\n      0.86       mg/dl     0.20 - 1.20   \r\n  BILIRUBIN DIRECT  \r\n      (Diazo method)\r\n      0.08       mg/dl     0.00 - 0.30  \r\n  SGPT (ALT)\r\n      (IFCC)  \r\n      50 *       U/L       0 - 40   \r\n  SGOT (AST) \r\n      (IFCC)   \r\n      20         U/L       0 - 40\r\n  ALKALINE PHOSPHATASE\r\n      (PNPP-AMP)  \r\n      110        IU/L      40 - 130\r\n  TOTAL PROTEINS \r\n      (Biuret)  \r\n      7.9        g/dl      6.0 - 8.3  \r\n  ALBUMIN\r\n      (BCG)  \r\n      5.5 *      g/dl      3.5 - 5.2 \r\n  SERUM CREATININE\r\n      (Jaffe kinetic) \r\n      1.53 *     mg/dl     0.60 - 1.30  \r\n  BLOOD UREA  \r\n      (Urease-GLDH)   \r\n      52 *       mg/dl     15 - 45   \r\n  ----------------------------------------   \r\n  * Value outside normal range   \r\n\r\nChecked by: Lab Technologist\r\n                           -- END -- \r\nSYNTHETIC SAMPLE - NOT A REAL PATIENT  \r\n  ",
+ "split": "dev"
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-42111-duplicate_conflict",
+ "layout": "D",
+ "perturbation": "duplicate_conflict",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-1365955            | Coll. Dt : 18.04.26            |\n| Name : SHRI AARAV RAO        | Age/Sex : 10/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 70      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 0.92    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 30      | mg/dL      | 15-40      |      |\n| Haemoglobin         | 16.9    | g/dl       | 12.0-16.0  | H    |\n| Haemoglobin         | 13.5    | g/dl       | 12.0-16.0  | H    |\n| Total Count (WBC)   | 4344    | /cumm      | 4000-11000 |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

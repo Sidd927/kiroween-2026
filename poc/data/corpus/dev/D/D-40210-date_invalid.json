@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-40210-date_invalid",
+ "layout": "D",
+ "perturbation": "date_invalid",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-9275690            | Coll. Dt : 31.02.26            |\n| Name : KUM. OMKAR NAIR       | Age/Sex : 72/F                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 85      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 0.54    | mg/dL      | 0.60-1.20  | L    |\n| Blood Urea          | 19      | mg/dL      | 15-40      |      |\n| Haemoglobin         | 10.6    | g/dl       | 12.0-16.0  | L    |\n| Total Count (WBC)   | 7332    | /cumm      | 4000-11000 |      |\n| Platelets           | 2.31    | lakhs/cumm | 1.50-4.50  |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

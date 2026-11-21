@@ -1,0 +1,72 @@
+{
+ "doc_id": "B-20002-clean",
+ "layout": "B",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-403026",
+  "patient_name": "Omkar Khan",
+  "patient_age": 55,
+  "patient_sex": "female",
+  "collected": "2026-05-03",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "18.3",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "4.90",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "42.0",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "91.1",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "32.8",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "32.4",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "11296",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "43",
+    "unit": "%",
+    "label": "Lymphocytes"
+   },
+   {
+    "code": "PLT",
+    "value": "156",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-403026            Date : 03-May-2026\nName    : Omkar Khan            Age  : 55 Y   Sex : Female\nSample collected on : 03-May-2026 09:45 AM\nReferred by : Dr. S. Joshi\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. \u001bE18.3     \u001bFg/dL          13.0-17.0\nRBC Count ............... 4.90     million/cumm  4.50-5.50\nPCV / Haematocrit ....... 42.0     %             40.0-50.0\nMCV ..................... 91.1     fl            83.0-101.0\nMCH ..................... \u001bE32.8     \u001bFpg            27.0-32.0\nMCHC .................... 32.4     g/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-403026            Date : 03-May-2026\nName    : Omkar Khan            Age  : 55 Y   Sex : Female\nSample collected on : 03-May-2026 09:45 AM\nReferred by : Dr. S. Joshi\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nTotal WBC Count ......... \u001bE11296    \u001bFcells/cumm    4000-11000\nLymphocytes ............. \u001bE43       \u001bF%             20-40\nPlatelet Count .......... 156      10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "gen"
+}

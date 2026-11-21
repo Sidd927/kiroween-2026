@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-62090-patient_id_missing",
+ "layout": "F",
+ "perturbation": "patient_id_missing",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4445684\nPT: MEHTA NEHA             MRN     AGE: 58Y  SEX: F\nCOLLECTED 03/12/2026 0850   RECEIVED 03/13/2026 0715\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   15.4             12.0-15.5\nHEMATOCRIT (%)                      34.3      L      36.0-46.0\nWBC (K/uL)                          1.6       L      4.0-11.0\nRBC (M/uL)                          4.56             4.00-5.20\nPLATELETS (K/uL)                    84        L      150-400\nMCV (fL)                            74.4      L      80.0-100.0\nGLUCOSE, FASTING (mg/dL)            79               70-99\nCREATININE (mg/dL)                  1.29      H      0.50-1.10\nALT (U/L)                           8                7-56\nAST (U/L)                           1         L      10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

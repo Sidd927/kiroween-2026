@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "name": "Validate FHIR output when the builder changes",
+  "description": "When fhir_builder.py is saved, rebuild 3 bundles and run the HL7 validator against base R4 and ndhm.in 6.5.0.",
+  "version": "1",
+  "when": {"type": "fileEdited", "patterns": ["spoolgeist/fhir_builder.py"]},
+  "then": {"type": "runCommand", "command": ".venv/bin/python -m bench.run_fhir 3 && experiments/fhir/validate.sh generic hook_generic runtime/fhir/generic/*.json && experiments/fhir/validate.sh abdm hook_abdm runtime/fhir/abdm/*.json"}
+}

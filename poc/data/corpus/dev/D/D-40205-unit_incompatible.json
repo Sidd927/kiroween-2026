@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-40205-unit_incompatible",
+ "layout": "D",
+ "perturbation": "unit_incompatible",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-7741578            | Coll. Dt : 19.03.26            |\n| Name : SHRI ANANYA GAIKWAD   | Age/Sex : 39/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 92      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 1.22    | mg/dL      | 0.60-1.20  | H    |\n| Blood Urea          | 29      | U/L        | 15-40      |      |\n| Haemoglobin         | 16.8    | g/dl       | 12.0-16.0  | H    |\n| Total Count (WBC)   | 3270    | /cumm      | 4000-11000 | L    |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

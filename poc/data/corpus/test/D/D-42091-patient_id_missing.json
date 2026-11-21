@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-42091-patient_id_missing",
+ "layout": "D",
+ "perturbation": "patient_id_missing",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID :                       | Coll. Dt : 04.01.26            |\n| Name : SHRI AARAV FERNANDES  | Age/Sex : 3/M                  |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 60      | mg/dL      | 70-100     | L    |\n| Serum Creatinine    | 0.99    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 23      | mg/dL      | 15-40      |      |\n| Haemoglobin         | 15.5    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 1741    | /cumm      | 4000-11000 | L    |\n| Platelets           | 4.82    | lakhs/cumm | 1.50-4.50  | H    |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

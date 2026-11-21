@@ -1,0 +1,54 @@
+{
+ "doc_id": "D-42030-crlf_trailing",
+ "layout": "D",
+ "perturbation": "crlf_trailing",
+ "expected": "accept",
+ "expected_layout": "D",
+ "truth": {
+  "patient_id": "26-9473714",
+  "patient_name": "MEERA SHINDE",
+  "patient_age": 33,
+  "patient_sex": "male",
+  "collected": "2026-01-24",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "72",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)"
+   },
+   {
+    "code": "CREA",
+    "value": "0.68",
+    "unit": "mg/dL",
+    "label": "Serum Creatinine"
+   },
+   {
+    "code": "UREA",
+    "value": "12",
+    "unit": "mg/dL",
+    "label": "Blood Urea"
+   },
+   {
+    "code": "HGB",
+    "value": "16.3",
+    "unit": "g/dl",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "WBC",
+    "value": "6173",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)"
+   },
+   {
+    "code": "PLT",
+    "value": "0.46",
+    "unit": "lakhs/cumm",
+    "label": "Platelets"
+   }
+  ]
+ },
+ "text": "+----------------------------------------------------------------+ \r\n|                     SHREE SAI DIAGNOSTICS                      | \r\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\r\n+----------------------------------------------------------------+   \r\n| UHID : 26-9473714            | Coll. Dt : 24.01.26            |\r\n| Name : SHRI MEERA SHINDE     | Age/Sex : 33/M                 |  \r\n+---------------------+---------+------------+------------+------+  \r\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\r\n+---------------------+---------+------------+------------+------+   \r\n| Glucose (Fasting)   | 72      | mg/dL      | 70-100     |      | \r\n| Serum Creatinine    | 0.68    | mg/dL      | 0.60-1.20  |      | \r\n| Blood Urea          | 12      | mg/dL      | 15-40      | L    |\r\n| Haemoglobin         | 16.3    | g/dl       | 12.0-16.0  | H    | \r\n| Total Count (WBC)   | 6173    | /cumm      | 4000-11000 |      |  \r\n| Platelets           | 0.46    | lakhs/cumm | 1.50-4.50  | L    |\r\n+---------------------+---------+------------+------------+------+  \r\n|                      ** End of Report **                       |   \r\n+----------------------------------------------------------------+\r\nSYNTHETIC SAMPLE - NOT A REAL PATIENT \r\n  ",
+ "split": "test"
+}

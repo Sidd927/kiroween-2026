@@ -1,0 +1,10 @@
+{
+ "job_id": "20261121-201448-f60b09",
+ "peer": "127.0.0.1",
+ "received_at": 1795272287.929791,
+ "seconds": 0.205,
+ "bytes": 521,
+ "sha256": "2c08c83d662677e9179fb0f0db4e43c73419644e515b475506fc8d30c761a6cd",
+ "complete": false,
+ "incomplete_reason": "connection reset: ConnectionResetError"
+}

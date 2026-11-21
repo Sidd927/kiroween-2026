@@ -1,0 +1,10 @@
+{
+ "doc_id": "C-32111-duplicate_conflict",
+ "layout": "C",
+ "perturbation": "duplicate_conflict",
+ "expected": "reject",
+ "expected_layout": "C",
+ "truth": null,
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-07-02\nPatient : Bhosale, Aarav (M/70)\nPatient ID : 0003144       Sample : S-10450\nCollected  : 2026-07-01 07:30\nConsultant : Dr. P. Nair\n\nBIOCHEMISTRY\n  Test / Method\n      Result     Units     Normal Range\n  ----------------------------------------\n  BILIRUBIN TOTAL\n      (Diazo method)\n      0.86       mg/dl     0.20 - 1.20\n  BILIRUBIN DIRECT\n      (Diazo method)\n      0.15       mg/dl     0.00 - 0.30\n  BILIRUBIN DIRECT\n      (Diazo method)\n      0.19       mg/dl     0.00 - 0.30\n  SGPT (ALT)\n      (IFCC)\n      46 *       U/L       0 - 40\n  SGOT (AST)\n      (IFCC)\n      51 *       U/L       0 - 40\n  ALKALINE PHOSPHATASE\n      (PNPP-AMP)\n      116        IU/L      40 - 130\n  TOTAL PROTEINS\n      (Biuret)\n      8.8 *      g/dl      6.0 - 8.3\n  ALBUMIN\n      (BCG)\n      4.9        g/dl      3.5 - 5.2\n  SERUM CREATININE\n      (Jaffe kinetic)\n      0.99       mg/dl     0.60 - 1.30\n  BLOOD UREA\n      (Urease-GLDH)\n      5 *        mg/dl     15 - 45\n  ----------------------------------------\n  * Value outside normal range\n\nChecked by: Lab Technologist\n                           -- END --\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

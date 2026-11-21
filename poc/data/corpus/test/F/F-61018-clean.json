@@ -1,0 +1,72 @@
+{
+ "doc_id": "F-61018-clean",
+ "layout": "F",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "13992968",
+  "patient_name": "CHAVAN TANVI",
+  "patient_age": 33,
+  "patient_sex": "male",
+  "collected": "2026-01-04",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "15.6",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "45.4",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "8.7",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "5.54",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "PLT",
+    "value": "297",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "80.4",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "92",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "0.33",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   },
+   {
+    "code": "AST",
+    "value": "40",
+    "unit": "U/L",
+    "label": "AST"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4421879\nPT: CHAVAN TANVI           MRN 13992968    AGE: 33Y  SEX: M\nCOLLECTED 01/04/2026 1115   RECEIVED 01/06/2026 0005\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   15.6      H      12.0-15.5\nHEMATOCRIT (%)                      45.4             36.0-46.0\nWBC (K/uL)                          8.7              4.0-11.0\nRBC (M/uL)                          5.54      H      4.00-5.20\nPLATELETS (K/uL)                    297              150-400\nMCV (fL)                            80.4             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            92               70-99\nCREATININE (mg/dL)                  0.33      L      0.50-1.10\nAST (U/L)                           40               10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-62080-value_implausible",
+ "layout": "F",
+ "perturbation": "value_implausible",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4433263\nPT: JADHAV RAHUL           MRN 55673690    AGE: 18Y  SEX: M\nCOLLECTED 07/17/2026 0740   RECEIVED 07/18/2026 0030\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   162       H      12.0-15.5\nHEMATOCRIT (%)                      41.9             36.0-46.0\nWBC (K/uL)                          10.3             4.0-11.0\nRBC (M/uL)                          4.00             4.00-5.20\nPLATELETS (K/uL)                    170              150-400\nMCV (fL)                            96.5             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            91               70-99\nCREATININE (mg/dL)                  0.61             0.50-1.10\nALT (U/L)                           12               7-56\nAST (U/L)                           33               10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-60215-header_changed",
+ "layout": "F",
+ "perturbation": "header_changed",
+ "expected": "reject",
+ "expected_layout": null,
+ "truth": null,
+ "text": "MEDILINK LABORATORIES INC  -  ACCESSION 4411487\nPT: RAO RAHUL              MRN 14417901    AGE: 70Y  SEX: M\nCOLLECTED 06/20/2026 0730   RECEIVED 06/21/2026 0620\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   13.9             12.0-15.5\nHEMATOCRIT (%)                      44.1             36.0-46.0\nWBC (K/uL)                          8.3              4.0-11.0\nRBC (M/uL)                          4.95             4.00-5.20\nPLATELETS (K/uL)                    300              150-400\nMCV (fL)                            79.6      L      80.0-100.0\nGLUCOSE, FASTING (mg/dL)            75               70-99\nCREATININE (mg/dL)                  0.65             0.50-1.10\nALT (U/L)                           61        H      7-56\nAST (U/L)                           2         L      10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

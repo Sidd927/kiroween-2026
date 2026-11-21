@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-42160-flag_inconsistent",
+ "layout": "D",
+ "perturbation": "flag_inconsistent",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-2753140            | Coll. Dt : 28.04.26            |\n| Name : SHRI VIKRAM KULKARNI  | Age/Sex : 53/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 83      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 0.46    | mg/dL      | 0.60-1.20  | L    |\n| Blood Urea          | 28      | mg/dL      | 15-40      | L    |\n| Haemoglobin         | 17.3    | g/dl       | 12.0-16.0  | H    |\n| Total Count (WBC)   | 5190    | /cumm      | 4000-11000 |      |\n| Platelets           | 4.70    | lakhs/cumm | 1.50-4.50  | H    |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

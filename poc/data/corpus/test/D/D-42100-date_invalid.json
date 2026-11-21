@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-42100-date_invalid",
+ "layout": "D",
+ "perturbation": "date_invalid",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-8054486            | Coll. Dt : 31.02.26            |\n| Name : KUM. POOJA REDDY      | Age/Sex : 63/F                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 87      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 1.26    | mg/dL      | 0.60-1.20  | H    |\n| Blood Urea          | 16      | mg/dL      | 15-40      |      |\n| Haemoglobin         | 10.7    | g/dl       | 12.0-16.0  | L    |\n| Total Count (WBC)   | 3481    | /cumm      | 4000-11000 | L    |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

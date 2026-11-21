@@ -1,0 +1,10 @@
+{
+ "doc_id": "C-32080-value_implausible",
+ "layout": "C",
+ "perturbation": "value_implausible",
+ "expected": "reject",
+ "expected_layout": "C",
+ "truth": null,
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-03-07\nPatient : Kulkarni, Omkar (F/60)\nPatient ID : 9275238       Sample : S-58472\nCollected  : 2026-03-06 11:20\nConsultant : Dr. P. Nair\n\nBIOCHEMISTRY\n  Test / Method\n      Result     Units     Normal Range\n  ----------------------------------------\n  BILIRUBIN TOTAL\n      (Diazo method)\n      1.04       mg/dl     0.20 - 1.20\n  BILIRUBIN DIRECT\n      (Diazo method)\n      0.11       mg/dl     0.00 - 0.30\n  SGPT (ALT)\n      (IFCC)\n      21         U/L       0 - 40\n  SGOT (AST)\n      (IFCC)\n      28         U/L       0 - 40\n  ALKALINE PHOSPHATASE\n      (PNPP-AMP)\n      59         IU/L      40 - 130\n  TOTAL PROTEINS\n      (Biuret)\n      62         g/dl      6.0 - 8.3\n  ALBUMIN\n      (BCG)\n      3.3 *      g/dl      3.5 - 5.2\n  ----------------------------------------\n  * Value outside normal range\n\nChecked by: Lab Technologist\n                           -- END --\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

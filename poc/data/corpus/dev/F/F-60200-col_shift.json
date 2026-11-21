@@ -1,0 +1,72 @@
+{
+ "doc_id": "F-60200-col_shift",
+ "layout": "F",
+ "perturbation": "col_shift",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "78576467",
+  "patient_name": "SHARMA NIKHIL",
+  "patient_age": 31,
+  "patient_sex": "male",
+  "collected": "2026-08-13",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "14.8",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "33.5",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "3.2",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "4.48",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "PLT",
+    "value": "419",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "101.3",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "102",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "0.93",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   },
+   {
+    "code": "AST",
+    "value": "41",
+    "unit": "U/L",
+    "label": "AST"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4412437\nPT: SHARMA NIKHIL          MRN 78576467    AGE: 31Y  SEX: M\nCOLLECTED 08/13/2026 1015   RECEIVED 08/14/2026 1640\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                  14.8             12.0-15.5\nHEMATOCRIT (%)                      33.5      L        36.0-46.0\nWBC (K/uL)                          3.2         L      4.0-11.0\nRBC (M/uL)                          4.48              4.00-5.20\nPLATELETS (K/uL)                      419       H      150-400\nMCV (fL)                            101.3    H      80.0-100.0\nGLUCOSE, FASTING (mg/dL)            102         H      70-99\nCREATININE (mg/dL)                   0.93             0.50-1.10\nAST (U/L)                           41        H     10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

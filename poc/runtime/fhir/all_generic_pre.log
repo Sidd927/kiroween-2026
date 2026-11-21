@@ -1,0 +1,359 @@
+FHIR Validation tool Version 7.0.6 (Git# 86bf796ddc97). Built 2026-11-13T23:28:34.381Z (7 days old)
+  Java:   21.0.13.1 from /Users/siddhant_patil/Projects/kiroween-2026/poc/.tools/jre/Contents/Home on aarch64 (64bit). 4096MB available
+  Paths:  Current = /Users/siddhant_patil/Projects/kiroween-2026/poc, Package Cache = /Users/siddhant_patil/Projects/kiroween-2026/poc/.tools/javahome/.fhir/packages
+  Params: -version 4.0.1 runtime/fhir/generic/A-11000-clean.json runtime/fhir/generic/A-11001-clean.json runtime/fhir/generic/A-11002-clean.json runtime/fhir/generic/A-11003-clean.json runtime/fhir/generic/A-11004-clean.json runtime/fhir/generic/A-11005-clean.json runtime/fhir/generic/A-11006-clean.json runtime/fhir/generic/A-11007-clean.json runtime/fhir/generic/A-11008-clean.json runtime/fhir/generic/A-11009-clean.json runtime/fhir/generic/A-11010-clean.json runtime/fhir/generic/A-11011-clean.json runtime/fhir/generic/A-11012-clean.json runtime/fhir/generic/A-11013-clean.json runtime/fhir/generic/A-11014-clean.json runtime/fhir/generic/A-11015-clean.json runtime/fhir/generic/A-11016-clean.json runtime/fhir/generic/A-11017-clean.json runtime/fhir/generic/A-11018-clean.json runtime/fhir/generic/A-11019-clean.json runtime/fhir/generic/A-12000-col_shift.json runtime/fhir/generic/A-12001-col_shift.json runtime/fhir/generic/A-12010-drop_optional.json runtime/fhir/generic/A-12011-drop_optional.json runtime/fhir/generic/A-12020-page_break.json runtime/fhir/generic/A-12021-page_break.json runtime/fhir/generic/A-12030-crlf_trailing.json runtime/fhir/generic/A-12031-crlf_trailing.json runtime/fhir/generic/A-12040-long_name.json runtime/fhir/generic/A-12041-long_name.json runtime/fhir/generic/B-21000-clean.json runtime/fhir/generic/B-21001-clean.json runtime/fhir/generic/B-21002-clean.json runtime/fhir/generic/B-21003-clean.json runtime/fhir/generic/B-21004-clean.json runtime/fhir/generic/B-21005-clean.json runtime/fhir/generic/B-21006-clean.json runtime/fhir/generic/B-21007-clean.json runtime/fhir/generic/B-21008-clean.json runtime/fhir/generic/B-21009-clean.json runtime/fhir/generic/B-21010-clean.json runtime/fhir/generic/B-21011-clean.json runtime/fhir/generic/B-21012-clean.json runtime/fhir/generic/B-21013-clean.json runtime/fhir/generic/B-21014-clean.json runtime/fhir/generic/B-21015-clean.json runtime/fhir/generic/B-21016-clean.json runtime/fhir/generic/B-21017-clean.json runtime/fhir/generic/B-21018-clean.json runtime/fhir/generic/B-21019-clean.json runtime/fhir/generic/B-22000-col_shift.json runtime/fhir/generic/B-22001-col_shift.json runtime/fhir/generic/B-22010-drop_optional.json runtime/fhir/generic/B-22011-drop_optional.json runtime/fhir/generic/B-22020-page_break.json runtime/fhir/generic/B-22021-page_break.json runtime/fhir/generic/B-22030-crlf_trailing.json runtime/fhir/generic/B-22031-crlf_trailing.json runtime/fhir/generic/C-31000-clean.json runtime/fhir/generic/C-31001-clean.json runtime/fhir/generic/C-31002-clean.json runtime/fhir/generic/C-31004-clean.json runtime/fhir/generic/C-31005-clean.json runtime/fhir/generic/C-31006-clean.json runtime/fhir/generic/C-31007-clean.json runtime/fhir/generic/C-31008-clean.json runtime/fhir/generic/C-31009-clean.json runtime/fhir/generic/C-31010-clean.json runtime/fhir/generic/C-31011-clean.json runtime/fhir/generic/C-31012-clean.json runtime/fhir/generic/C-31013-clean.json runtime/fhir/generic/C-31014-clean.json runtime/fhir/generic/C-31015-clean.json runtime/fhir/generic/C-31016-clean.json runtime/fhir/generic/C-31017-clean.json runtime/fhir/generic/C-31018-clean.json runtime/fhir/generic/C-31019-clean.json runtime/fhir/generic/C-32000-col_shift.json runtime/fhir/generic/C-32001-col_shift.json runtime/fhir/generic/C-32010-drop_optional.json runtime/fhir/generic/C-32011-drop_optional.json runtime/fhir/generic/C-32030-crlf_trailing.json runtime/fhir/generic/C-32031-crlf_trailing.json runtime/fhir/generic/C-32040-long_name.json runtime/fhir/generic/C-32041-long_name.json runtime/fhir/generic/D-41000-clean.json runtime/fhir/generic/D-41001-clean.json runtime/fhir/generic/D-41002-clean.json runtime/fhir/generic/D-41003-clean.json runtime/fhir/generic/D-41004-clean.json runtime/fhir/generic/D-41005-clean.json runtime/fhir/generic/D-41006-clean.json runtime/fhir/generic/D-41007-clean.json runtime/fhir/generic/D-41008-clean.json runtime/fhir/generic/D-41009-clean.json runtime/fhir/generic/D-41010-clean.json runtime/fhir/generic/D-41011-clean.json runtime/fhir/generic/D-41012-clean.json runtime/fhir/generic/D-41013-clean.json runtime/fhir/generic/D-41014-clean.json runtime/fhir/generic/D-41015-clean.json runtime/fhir/generic/D-41016-clean.json runtime/fhir/generic/D-41017-clean.json runtime/fhir/generic/D-41018-clean.json runtime/fhir/generic/D-41019-clean.json runtime/fhir/generic/D-42000-col_shift.json runtime/fhir/generic/D-42001-col_shift.json runtime/fhir/generic/D-42010-drop_optional.json runtime/fhir/generic/D-42011-drop_optional.json runtime/fhir/generic/D-42020-page_break.json runtime/fhir/generic/D-42021-page_break.json runtime/fhir/generic/D-42030-crlf_trailing.json runtime/fhir/generic/D-42031-crlf_trailing.json runtime/fhir/generic/E-51000-clean.json runtime/fhir/generic/E-51001-clean.json runtime/fhir/generic/E-51002-clean.json runtime/fhir/generic/E-51003-clean.json runtime/fhir/generic/E-51004-clean.json runtime/fhir/generic/E-51005-clean.json runtime/fhir/generic/E-51006-clean.json runtime/fhir/generic/E-51007-clean.json runtime/fhir/generic/E-51008-clean.json runtime/fhir/generic/E-51009-clean.json runtime/fhir/generic/E-51010-clean.json runtime/fhir/generic/E-51011-clean.json runtime/fhir/generic/E-51012-clean.json runtime/fhir/generic/E-51013-clean.json runtime/fhir/generic/E-51014-clean.json runtime/fhir/generic/E-51015-clean.json runtime/fhir/generic/E-51016-clean.json runtime/fhir/generic/E-51017-clean.json runtime/fhir/generic/E-51018-clean.json runtime/fhir/generic/E-51019-clean.json runtime/fhir/generic/E-52000-col_shift.json runtime/fhir/generic/E-52001-col_shift.json runtime/fhir/generic/E-52010-drop_optional.json runtime/fhir/generic/E-52011-drop_optional.json runtime/fhir/generic/E-52030-crlf_trailing.json runtime/fhir/generic/E-52031-crlf_trailing.json runtime/fhir/generic/F-61000-clean.json runtime/fhir/generic/F-61001-clean.json runtime/fhir/generic/F-61002-clean.json runtime/fhir/generic/F-61003-clean.json runtime/fhir/generic/F-61004-clean.json runtime/fhir/generic/F-61005-clean.json runtime/fhir/generic/F-61006-clean.json runtime/fhir/generic/F-61007-clean.json runtime/fhir/generic/F-61008-clean.json runtime/fhir/generic/F-61009-clean.json runtime/fhir/generic/F-61010-clean.json runtime/fhir/generic/F-61011-clean.json runtime/fhir/generic/F-61012-clean.json runtime/fhir/generic/F-61013-clean.json runtime/fhir/generic/F-61014-clean.json runtime/fhir/generic/F-61015-clean.json runtime/fhir/generic/F-61016-clean.json runtime/fhir/generic/F-61017-clean.json runtime/fhir/generic/F-61018-clean.json runtime/fhir/generic/F-61019-clean.json runtime/fhir/generic/F-62000-col_shift.json runtime/fhir/generic/F-62001-col_shift.json runtime/fhir/generic/F-62010-drop_optional.json runtime/fhir/generic/F-62011-drop_optional.json runtime/fhir/generic/F-62020-page_break.json runtime/fhir/generic/F-62021-page_break.json runtime/fhir/generic/F-62030-crlf_trailing.json runtime/fhir/generic/F-62031-crlf_trailing.json -output /Users/siddhant_patil/Projects/kiroween-2026/poc/runtime/fhir/all_generic_pre.json
+  Locale: India/IN
+  Jurisdiction: India
+Loading
+  Loading FHIR v4.0.1 from hl7.fhir.r4.core#4.0.1
+  Load hl7.terminology.r4#6.2.0 - 4288 resources (00:01.749)
+  Load hl7.fhir.uv.extensions.r4#5.2.0 - 759 resources (00:00.322)
+  Loaded FHIR - 8265 resources (00:00.000)
+  Terminology Cache at /var/folders/5p/lgf0g18d50dfwp3gw5c8kvsw0000gn/T/default-tx-cache/r4
+  Terminology server https://tx.fhir.org - Version Connected to Terminology Server at https://tx.fhir.org (00:01.847)
+  Load hl7.terminology#7.5.0 - 4190 resources (00:01.410)
+  Load hl7.terminology.r5#7.5.0 - 4190 resources (00:00.387)
+  Load hl7.fhir.uv.extensions#5.4.0 - 885 resources (00:00.230)
+  Package Summary: [hl7.fhir.r4.core#4.0.1, hl7.fhir.xver-extensions#0.1.0, hl7.terminology.r4#6.2.0, hl7.fhir.uv.extensions.r4#5.2.0, hl7.terminology#7.5.0, hl7.terminology.r5#7.5.0, hl7.fhir.uv.extensions#5.4.0]
+  Get set... 
+  ...go! (00:00.337)
+Cached new session. Cache size = 1
+Sources to validate: runtime/fhir/generic/A-11000-clean.jsonruntime/fhir/generic/A-11001-clean.jsonruntime/fhir/generic/A-11002-clean.jsonruntime/fhir/generic/A-11003-clean.jsonruntime/fhir/generic/A-11004-clean.jsonruntime/fhir/generic/A-11005-clean.jsonruntime/fhir/generic/A-11006-clean.jsonruntime/fhir/generic/A-11007-clean.jsonruntime/fhir/generic/A-11008-clean.jsonruntime/fhir/generic/A-11009-clean.jsonruntime/fhir/generic/A-11010-clean.jsonruntime/fhir/generic/A-11011-clean.jsonruntime/fhir/generic/A-11012-clean.jsonruntime/fhir/generic/A-11013-clean.jsonruntime/fhir/generic/A-11014-clean.jsonruntime/fhir/generic/A-11015-clean.jsonruntime/fhir/generic/A-11016-clean.jsonruntime/fhir/generic/A-11017-clean.jsonruntime/fhir/generic/A-11018-clean.jsonruntime/fhir/generic/A-11019-clean.jsonruntime/fhir/generic/A-12000-col_shift.jsonruntime/fhir/generic/A-12001-col_shift.jsonruntime/fhir/generic/A-12010-drop_optional.jsonruntime/fhir/generic/A-12011-drop_optional.jsonruntime/fhir/generic/A-12020-page_break.jsonruntime/fhir/generic/A-12021-page_break.jsonruntime/fhir/generic/A-12030-crlf_trailing.jsonruntime/fhir/generic/A-12031-crlf_trailing.jsonruntime/fhir/generic/A-12040-long_name.jsonruntime/fhir/generic/A-12041-long_name.jsonruntime/fhir/generic/B-21000-clean.jsonruntime/fhir/generic/B-21001-clean.jsonruntime/fhir/generic/B-21002-clean.jsonruntime/fhir/generic/B-21003-clean.jsonruntime/fhir/generic/B-21004-clean.jsonruntime/fhir/generic/B-21005-clean.jsonruntime/fhir/generic/B-21006-clean.jsonruntime/fhir/generic/B-21007-clean.jsonruntime/fhir/generic/B-21008-clean.jsonruntime/fhir/generic/B-21009-clean.jsonruntime/fhir/generic/B-21010-clean.jsonruntime/fhir/generic/B-21011-clean.jsonruntime/fhir/generic/B-21012-clean.jsonruntime/fhir/generic/B-21013-clean.jsonruntime/fhir/generic/B-21014-clean.jsonruntime/fhir/generic/B-21015-clean.jsonruntime/fhir/generic/B-21016-clean.jsonruntime/fhir/generic/B-21017-clean.jsonruntime/fhir/generic/B-21018-clean.jsonruntime/fhir/generic/B-21019-clean.jsonruntime/fhir/generic/B-22000-col_shift.jsonruntime/fhir/generic/B-22001-col_shift.jsonruntime/fhir/generic/B-22010-drop_optional.jsonruntime/fhir/generic/B-22011-drop_optional.jsonruntime/fhir/generic/B-22020-page_break.jsonruntime/fhir/generic/B-22021-page_break.jsonruntime/fhir/generic/B-22030-crlf_trailing.jsonruntime/fhir/generic/B-22031-crlf_trailing.jsonruntime/fhir/generic/C-31000-clean.jsonruntime/fhir/generic/C-31001-clean.jsonruntime/fhir/generic/C-31002-clean.jsonruntime/fhir/generic/C-31004-clean.jsonruntime/fhir/generic/C-31005-clean.jsonruntime/fhir/generic/C-31006-clean.jsonruntime/fhir/generic/C-31007-clean.jsonruntime/fhir/generic/C-31008-clean.jsonruntime/fhir/generic/C-31009-clean.jsonruntime/fhir/generic/C-31010-clean.jsonruntime/fhir/generic/C-31011-clean.jsonruntime/fhir/generic/C-31012-clean.jsonruntime/fhir/generic/C-31013-clean.jsonruntime/fhir/generic/C-31014-clean.jsonruntime/fhir/generic/C-31015-clean.jsonruntime/fhir/generic/C-31016-clean.jsonruntime/fhir/generic/C-31017-clean.jsonruntime/fhir/generic/C-31018-clean.jsonruntime/fhir/generic/C-31019-clean.jsonruntime/fhir/generic/C-32000-col_shift.jsonruntime/fhir/generic/C-32001-col_shift.jsonruntime/fhir/generic/C-32010-drop_optional.jsonruntime/fhir/generic/C-32011-drop_optional.jsonruntime/fhir/generic/C-32030-crlf_trailing.jsonruntime/fhir/generic/C-32031-crlf_trailing.jsonruntime/fhir/generic/C-32040-long_name.jsonruntime/fhir/generic/C-32041-long_name.jsonruntime/fhir/generic/D-41000-clean.jsonruntime/fhir/generic/D-41001-clean.jsonruntime/fhir/generic/D-41002-clean.jsonruntime/fhir/generic/D-41003-clean.jsonruntime/fhir/generic/D-41004-clean.jsonruntime/fhir/generic/D-41005-clean.jsonruntime/fhir/generic/D-41006-clean.jsonruntime/fhir/generic/D-41007-clean.jsonruntime/fhir/generic/D-41008-clean.jsonruntime/fhir/generic/D-41009-clean.jsonruntime/fhir/generic/D-41010-clean.jsonruntime/fhir/generic/D-41011-clean.jsonruntime/fhir/generic/D-41012-clean.jsonruntime/fhir/generic/D-41013-clean.jsonruntime/fhir/generic/D-41014-clean.jsonruntime/fhir/generic/D-41015-clean.jsonruntime/fhir/generic/D-41016-clean.jsonruntime/fhir/generic/D-41017-clean.jsonruntime/fhir/generic/D-41018-clean.jsonruntime/fhir/generic/D-41019-clean.jsonruntime/fhir/generic/D-42000-col_shift.jsonruntime/fhir/generic/D-42001-col_shift.jsonruntime/fhir/generic/D-42010-drop_optional.jsonruntime/fhir/generic/D-42011-drop_optional.jsonruntime/fhir/generic/D-42020-page_break.jsonruntime/fhir/generic/D-42021-page_break.jsonruntime/fhir/generic/D-42030-crlf_trailing.jsonruntime/fhir/generic/D-42031-crlf_trailing.jsonruntime/fhir/generic/E-51000-clean.jsonruntime/fhir/generic/E-51001-clean.jsonruntime/fhir/generic/E-51002-clean.jsonruntime/fhir/generic/E-51003-clean.jsonruntime/fhir/generic/E-51004-clean.jsonruntime/fhir/generic/E-51005-clean.jsonruntime/fhir/generic/E-51006-clean.jsonruntime/fhir/generic/E-51007-clean.jsonruntime/fhir/generic/E-51008-clean.jsonruntime/fhir/generic/E-51009-clean.jsonruntime/fhir/generic/E-51010-clean.jsonruntime/fhir/generic/E-51011-clean.jsonruntime/fhir/generic/E-51012-clean.jsonruntime/fhir/generic/E-51013-clean.jsonruntime/fhir/generic/E-51014-clean.jsonruntime/fhir/generic/E-51015-clean.jsonruntime/fhir/generic/E-51016-clean.jsonruntime/fhir/generic/E-51017-clean.jsonruntime/fhir/generic/E-51018-clean.jsonruntime/fhir/generic/E-51019-clean.jsonruntime/fhir/generic/E-52000-col_shift.jsonruntime/fhir/generic/E-52001-col_shift.jsonruntime/fhir/generic/E-52010-drop_optional.jsonruntime/fhir/generic/E-52011-drop_optional.jsonruntime/fhir/generic/E-52030-crlf_trailing.jsonruntime/fhir/generic/E-52031-crlf_trailing.jsonruntime/fhir/generic/F-61000-clean.jsonruntime/fhir/generic/F-61001-clean.jsonruntime/fhir/generic/F-61002-clean.jsonruntime/fhir/generic/F-61003-clean.jsonruntime/fhir/generic/F-61004-clean.jsonruntime/fhir/generic/F-61005-clean.jsonruntime/fhir/generic/F-61006-clean.jsonruntime/fhir/generic/F-61007-clean.jsonruntime/fhir/generic/F-61008-clean.jsonruntime/fhir/generic/F-61009-clean.jsonruntime/fhir/generic/F-61010-clean.jsonruntime/fhir/generic/F-61011-clean.jsonruntime/fhir/generic/F-61012-clean.jsonruntime/fhir/generic/F-61013-clean.jsonruntime/fhir/generic/F-61014-clean.jsonruntime/fhir/generic/F-61015-clean.jsonruntime/fhir/generic/F-61016-clean.jsonruntime/fhir/generic/F-61017-clean.jsonruntime/fhir/generic/F-61018-clean.jsonruntime/fhir/generic/F-61019-clean.jsonruntime/fhir/generic/F-62000-col_shift.jsonruntime/fhir/generic/F-62001-col_shift.jsonruntime/fhir/generic/F-62010-drop_optional.jsonruntime/fhir/generic/F-62011-drop_optional.jsonruntime/fhir/generic/F-62020-page_break.jsonruntime/fhir/generic/F-62021-page_break.jsonruntime/fhir/generic/F-62030-crlf_trailing.jsonruntime/fhir/generic/F-62031-crlf_trailing.json
+Validating
+  Validate runtime/fhir/generic/A-11000-clean.json
+ 00:00.183
+  Validate runtime/fhir/generic/A-11001-clean.json
+ 00:00.641
+  Validate runtime/fhir/generic/A-11002-clean.json
+ 00:00.048
+  Validate runtime/fhir/generic/A-11003-clean.json
+ 00:00.059
+  Validate runtime/fhir/generic/A-11004-clean.json
+ 00:00.038
+  Validate runtime/fhir/generic/A-11005-clean.json
+ 00:00.031
+  Validate runtime/fhir/generic/A-11006-clean.json
+ 00:00.035
+  Validate runtime/fhir/generic/A-11007-clean.json
+ 00:00.036
+  Validate runtime/fhir/generic/A-11008-clean.json
+ 00:00.031
+  Validate runtime/fhir/generic/A-11009-clean.json
+ 00:00.030
+  Validate runtime/fhir/generic/A-11010-clean.json
+ 00:00.025
+  Validate runtime/fhir/generic/A-11011-clean.json
+ 00:00.028
+  Validate runtime/fhir/generic/A-11012-clean.json
+ 00:00.034
+  Validate runtime/fhir/generic/A-11013-clean.json
+ 00:00.038
+  Validate runtime/fhir/generic/A-11014-clean.json
+ 00:00.030
+  Validate runtime/fhir/generic/A-11015-clean.json
+ 00:00.026
+  Validate runtime/fhir/generic/A-11016-clean.json
+ 00:00.025
+  Validate runtime/fhir/generic/A-11017-clean.json
+ 00:00.024
+  Validate runtime/fhir/generic/A-11018-clean.json
+ 00:00.026
+  Validate runtime/fhir/generic/A-11019-clean.json
+ 00:00.023
+  Validate runtime/fhir/generic/A-12000-col_shift.json
+ 00:00.023
+  Validate runtime/fhir/generic/A-12001-col_shift.json
+ 00:00.030
+  Validate runtime/fhir/generic/A-12010-drop_optional.json
+ 00:00.031
+  Validate runtime/fhir/generic/A-12011-drop_optional.json
+ 00:00.032
+  Validate runtime/fhir/generic/A-12020-page_break.json
+ 00:00.032
+  Validate runtime/fhir/generic/A-12021-page_break.json
+ 00:00.029
+  Validate runtime/fhir/generic/A-12030-crlf_trailing.json
+ 00:00.022
+  Validate runtime/fhir/generic/A-12031-crlf_trailing.json
+ 00:00.026
+  Validate runtime/fhir/generic/A-12040-long_name.json
+ 00:00.028
+  Validate runtime/fhir/generic/A-12041-long_name.json
+ 00:00.029
+  Validate runtime/fhir/generic/B-21000-clean.json
+ 00:04.814
+  Validate runtime/fhir/generic/B-21001-clean.json
+ 00:00.033
+  Validate runtime/fhir/generic/B-21002-clean.json
+ 00:00.022
+  Validate runtime/fhir/generic/B-21003-clean.json
+ 00:00.023
+  Validate runtime/fhir/generic/B-21004-clean.json
+ 00:00.019
+  Validate runtime/fhir/generic/B-21005-clean.json
+ 00:00.019
+  Validate runtime/fhir/generic/B-21006-clean.json
+ 00:00.018
+  Validate runtime/fhir/generic/B-21007-clean.json
+ 00:00.018
+  Validate runtime/fhir/generic/B-21008-clean.json
+ 00:00.021
+  Validate runtime/fhir/generic/B-21009-clean.json
+ 00:00.025
+  Validate runtime/fhir/generic/B-21010-clean.json
+ 00:00.027
+  Validate runtime/fhir/generic/B-21011-clean.json
+ 00:00.033
+  Validate runtime/fhir/generic/B-21012-clean.json
+ 00:00.030
+  Validate runtime/fhir/generic/B-21013-clean.json
+ 00:00.024
+  Validate runtime/fhir/generic/B-21014-clean.json
+ 00:00.024
+  Validate runtime/fhir/generic/B-21015-clean.json
+ 00:00.024
+  Validate runtime/fhir/generic/B-21016-clean.json
+ 00:00.025
+  Validate runtime/fhir/generic/B-21017-clean.json
+ 00:00.022
+  Validate runtime/fhir/generic/B-21018-clean.json
+ 00:00.023
+  Validate runtime/fhir/generic/B-21019-clean.json
+ 00:00.022
+  Validate runtime/fhir/generic/B-22000-col_shift.json
+ 00:00.021
+  Validate runtime/fhir/generic/B-22001-col_shift.json
+ 00:00.022
+  Validate runtime/fhir/generic/B-22010-drop_optional.json
+ 00:00.018
+  Validate runtime/fhir/generic/B-22011-drop_optional.json
+ 00:00.018
+  Validate runtime/fhir/generic/B-22020-page_break.json
+ 00:00.019
+  Validate runtime/fhir/generic/B-22021-page_break.json
+ 00:00.018
+  Validate runtime/fhir/generic/B-22030-crlf_trailing.json
+ 00:00.018
+  Validate runtime/fhir/generic/B-22031-crlf_trailing.json
+ 00:00.023
+  Validate runtime/fhir/generic/C-31000-clean.json
+ 00:07.707
+  Validate runtime/fhir/generic/C-31001-clean.json
+ 00:00.043
+  Validate runtime/fhir/generic/C-31002-clean.json
+ 00:00.033
+  Validate runtime/fhir/generic/C-31004-clean.json
+ 00:00.030
+  Validate runtime/fhir/generic/C-31005-clean.json
+ 00:00.031
+  Validate runtime/fhir/generic/C-31006-clean.json
+ 00:00.030
+  Validate runtime/fhir/generic/C-31007-clean.json
+ 00:00.030
+  Validate runtime/fhir/generic/C-31008-clean.json
+ 00:00.033
+  Validate runtime/fhir/generic/C-31009-clean.json
+ 00:00.034
+  Validate runtime/fhir/generic/C-31010-clean.json
+ 00:00.036
+  Validate runtime/fhir/generic/C-31011-clean.json
+ 00:00.032
+  Validate runtime/fhir/generic/C-31012-clean.json
+ 00:00.030
+  Validate runtime/fhir/generic/C-31013-clean.json
+ 00:00.031
+  Validate runtime/fhir/generic/C-31014-clean.json
+ 00:00.030
+  Validate runtime/fhir/generic/C-31015-clean.json
+ 00:00.029
+  Validate runtime/fhir/generic/C-31016-clean.json
+ 00:00.035
+  Validate runtime/fhir/generic/C-31017-clean.json
+ 00:00.036
+  Validate runtime/fhir/generic/C-31018-clean.json
+ 00:00.033
+  Validate runtime/fhir/generic/C-31019-clean.json
+ 00:00.031
+  Validate runtime/fhir/generic/C-32000-col_shift.json
+ 00:00.030
+  Validate runtime/fhir/generic/C-32001-col_shift.json
+ 00:00.040
+  Validate runtime/fhir/generic/C-32010-drop_optional.json
+ 00:00.036
+  Validate runtime/fhir/generic/C-32011-drop_optional.json
+ 00:00.047
+  Validate runtime/fhir/generic/C-32030-crlf_trailing.json
+ 00:00.046
+  Validate runtime/fhir/generic/C-32031-crlf_trailing.json
+ 00:00.044
+  Validate runtime/fhir/generic/C-32040-long_name.json
+ 00:00.033
+  Validate runtime/fhir/generic/C-32041-long_name.json
+ 00:00.057
+  Validate runtime/fhir/generic/D-41000-clean.json
+ 00:03.152
+  Validate runtime/fhir/generic/D-41001-clean.json
+ 00:00.040
+  Validate runtime/fhir/generic/D-41002-clean.json
+ 00:00.027
+  Validate runtime/fhir/generic/D-41003-clean.json
+ 00:00.024
+  Validate runtime/fhir/generic/D-41004-clean.json
+ 00:00.022
+  Validate runtime/fhir/generic/D-41005-clean.json
+ 00:00.025
+  Validate runtime/fhir/generic/D-41006-clean.json
+ 00:00.022
+  Validate runtime/fhir/generic/D-41007-clean.json
+ 00:00.026
+  Validate runtime/fhir/generic/D-41008-clean.json
+ 00:00.023
+  Validate runtime/fhir/generic/D-41009-clean.json
+ 00:00.015
+  Validate runtime/fhir/generic/D-41010-clean.json
+ 00:00.014
+  Validate runtime/fhir/generic/D-41011-clean.json
+ 00:00.018
+  Validate runtime/fhir/generic/D-41012-clean.json
+ 00:00.025
+  Validate runtime/fhir/generic/D-41013-clean.json
+ 00:00.024
+  Validate runtime/fhir/generic/D-41014-clean.json
+ 00:00.020
+  Validate runtime/fhir/generic/D-41015-clean.json
+ 00:00.031
+  Validate runtime/fhir/generic/D-41016-clean.json
+ 00:00.023
+  Validate runtime/fhir/generic/D-41017-clean.json
+ 00:00.030
+  Validate runtime/fhir/generic/D-41018-clean.json
+ 00:00.022
+  Validate runtime/fhir/generic/D-41019-clean.json
+ 00:00.020
+  Validate runtime/fhir/generic/D-42000-col_shift.json
+ 00:00.024
+  Validate runtime/fhir/generic/D-42001-col_shift.json
+ 00:00.019
+  Validate runtime/fhir/generic/D-42010-drop_optional.json
+ 00:00.017
+  Validate runtime/fhir/generic/D-42011-drop_optional.json
+ 00:00.015
+  Validate runtime/fhir/generic/D-42020-page_break.json
+ 00:00.015
+  Validate runtime/fhir/generic/D-42021-page_break.json
+ 00:00.016
+  Validate runtime/fhir/generic/D-42030-crlf_trailing.json
+ 00:00.014
+  Validate runtime/fhir/generic/D-42031-crlf_trailing.json
+ 00:00.017
+  Validate runtime/fhir/generic/E-51000-clean.json
+ 00:02.270
+  Validate runtime/fhir/generic/E-51001-clean.json
+ 00:00.028
+  Validate runtime/fhir/generic/E-51002-clean.json
+ 00:00.021
+  Validate runtime/fhir/generic/E-51003-clean.json
+ 00:00.018
+  Validate runtime/fhir/generic/E-51004-clean.json
+ 00:00.019
+  Validate runtime/fhir/generic/E-51005-clean.json
+ 00:00.018
+  Validate runtime/fhir/generic/E-51006-clean.json
+ 00:00.017
+  Validate runtime/fhir/generic/E-51007-clean.json
+ 00:00.019
+  Validate runtime/fhir/generic/E-51008-clean.json
+ 00:00.016
+  Validate runtime/fhir/generic/E-51009-clean.json
+ 00:00.016
+  Validate runtime/fhir/generic/E-51010-clean.json
+ 00:00.017
+  Validate runtime/fhir/generic/E-51011-clean.json
+ 00:00.017
+  Validate runtime/fhir/generic/E-51012-clean.json
+ 00:00.017
+  Validate runtime/fhir/generic/E-51013-clean.json
+ 00:00.017
+  Validate runtime/fhir/generic/E-51014-clean.json
+ 00:00.019
+  Validate runtime/fhir/generic/E-51015-clean.json
+ 00:00.016
+  Validate runtime/fhir/generic/E-51016-clean.json
+ 00:00.016
+  Validate runtime/fhir/generic/E-51017-clean.json
+ 00:00.015
+  Validate runtime/fhir/generic/E-51018-clean.json
+ 00:00.016
+  Validate runtime/fhir/generic/E-51019-clean.json
+ 00:00.015
+  Validate runtime/fhir/generic/E-52000-col_shift.json
+ 00:00.016
+  Validate runtime/fhir/generic/E-52001-col_shift.json
+ 00:00.016
+  Validate runtime/fhir/generic/E-52010-drop_optional.json
+ 00:00.020
+  Validate runtime/fhir/generic/E-52011-drop_optional.json
+ 00:00.017
+  Validate runtime/fhir/generic/E-52030-crlf_trailing.json
+ 00:00.017
+  Validate runtime/fhir/generic/E-52031-crlf_trailing.json
+ 00:00.020
+  Validate runtime/fhir/generic/F-61000-clean.json
+ 00:02.956
+  Validate runtime/fhir/generic/F-61001-clean.json
+ 00:01.406
+  Validate runtime/fhir/generic/F-61002-clean.json
+ 00:00.030
+  Validate runtime/fhir/generic/F-61003-clean.json
+ 00:00.028
+  Validate runtime/fhir/generic/F-61004-clean.json
+ 00:00.021
+  Validate runtime/fhir/generic/F-61005-clean.json
+ 00:00.028
+  Validate runtime/fhir/generic/F-61006-clean.json
+ 00:00.016
+  Validate runtime/fhir/generic/F-61007-clean.json
+ 00:00.022
+  Validate runtime/fhir/generic/F-61008-clean.json
+ 00:00.042
+  Validate runtime/fhir/generic/F-61009-clean.json
+ 00:00.028
+  Validate runtime/fhir/generic/F-61010-clean.json
+ 00:00.018
+  Validate runtime/fhir/generic/F-61011-clean.json
+ 00:00.026
+  Validate runtime/fhir/generic/F-61012-clean.json
+ 00:00.031
+  Validate runtime/fhir/generic/F-61013-clean.json
+ 00:00.024
+  Validate runtime/fhir/generic/F-61014-clean.json
+ 00:00.029
+  Validate runtime/fhir/generic/F-61015-clean.json
+ 00:00.022
+  Validate runtime/fhir/generic/F-61016-clean.json
+ 00:00.021
+  Validate runtime/fhir/generic/F-61017-clean.json
+ 00:00.021
+  Validate runtime/fhir/generic/F-61018-clean.json
+ 00:00.021
+  Validate runtime/fhir/generic/F-61019-clean.json
+ 00:00.028
+  Validate runtime/fhir/generic/F-62000-col_shift.json
+ 00:00.021
+  Validate runtime/fhir/generic/F-62001-col_shift.json
+ 00:00.016
+  Validate runtime/fhir/generic/F-62010-drop_optional.json
+ 00:00.025
+  Validate runtime/fhir/generic/F-62011-drop_optional.json
+ 00:00.031
+  Validate runtime/fhir/generic/F-62020-page_break.json
+ 00:00.026
+  Validate runtime/fhir/generic/F-62021-page_break.json
+ 00:00.026
+  Validate runtime/fhir/generic/F-62030-crlf_trailing.json
+ 00:00.030
+  Validate runtime/fhir/generic/F-62031-crlf_trailing.json
+ 00:00.018
+Done. Times: Loading: 00:06.316, validation: 00:27.317 (#167). Memory = 466Mb
+
+Done. Times: Loading: 00:06.316, validation: 00:27.317 (#167). Max Memory = 4Gb

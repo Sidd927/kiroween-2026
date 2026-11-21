@@ -1,0 +1,10 @@
+{
+ "doc_id": "C-30213-truncated",
+ "layout": "C",
+ "perturbation": "truncated",
+ "expected": "reject",
+ "expected_layout": "C",
+ "truth": null,
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-05-24\nPatient : Joshi, Meera (M/35)\nPatient ID : 6403958       Sample : S-94985\nCollected  : 2026-05-23 11:45\nConsultant : Dr. A. Rao\n\nBIOCHEMISTRY\n  Test / Method\n      Result     Units     Normal Range\n  ----------------------------------------\n  BILIRUBIN TOTAL\n      (Diazo method)\n      0.83       mg/dl     0.20 - 1.20\n  BILIRUBIN DIRECT\n      (Diazo method)\n      0.14       mg/dl     0.00 - 0.30\n  SGPT (ALT)\n      (IFCC)\n      18         U/L       0 - 40\n  SGOT (AST)\n      (IFCC)",
+ "split": "dev"
+}

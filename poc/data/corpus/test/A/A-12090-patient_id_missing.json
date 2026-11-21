@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12090-patient_id_missing",
+ "layout": "A",
+ "perturbation": "patient_id_missing",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MR. OMKAR MEHTA                  Lab No.   :\nAge / Sex    : 30 Yrs / M                       Collected : 08/03/2026 11:05\nRef. By      : DR. V. GUPTA                     Reported  : 09/03/2026 15:05\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   11.7 L      gm/dL         13.0 - 17.0\nR.B.C. COUNT                  5.53 H      mill/cumm     4.50 - 5.50\nP.C.V.                        48.3        %             40.0 - 50.0\nM.C.V.                        101.3 H     fL            83.0 - 101.0\nM.C.H.                        30.1        pg            27.0 - 32.0\nM.C.H.C.                      33.1        g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         3564 L      /cumm         4000 - 11000\nNEUTROPHILS                   86 H        %             40 - 80\nPLATELET COUNT                1.51        lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

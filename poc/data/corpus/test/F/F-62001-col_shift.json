@@ -1,0 +1,66 @@
+{
+ "doc_id": "F-62001-col_shift",
+ "layout": "F",
+ "perturbation": "col_shift",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "53749362",
+  "patient_name": "KULKARNI KIRAN",
+  "patient_age": 40,
+  "patient_sex": "female",
+  "collected": "2026-01-01",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "11.5",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "40.2",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "10.8",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "4.21",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "PLT",
+    "value": "100",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "87.2",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "90",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "0.76",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4471691\nPT: KULKARNI KIRAN         MRN 53749362    AGE: 40Y  SEX: F\nCOLLECTED 01/01/2026 0900   RECEIVED 01/01/2026 2035\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   11.5        L      12.0-15.5\nHEMATOCRIT (%)                      40.2              36.0-46.0\nWBC (K/uL)                           10.8             4.0-11.0\nRBC (M/uL)                          4.21              4.00-5.20\nPLATELETS (K/uL)                    100         L      150-400\nMCV (fL)                            87.2              80.0-100.0\nGLUCOSE, FASTING (mg/dL)            90                70-99\nCREATININE (mg/dL)                  0.76            0.50-1.10\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

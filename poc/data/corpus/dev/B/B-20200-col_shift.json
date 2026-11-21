@@ -1,0 +1,78 @@
+{
+ "doc_id": "B-20200-col_shift",
+ "layout": "B",
+ "perturbation": "col_shift",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-286980",
+  "patient_name": "Ananya Nair",
+  "patient_age": 15,
+  "patient_sex": "male",
+  "collected": "2026-01-21",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "15.9",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "5.07",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "53.0",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "88.0",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "27.5",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "30.8",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "4313",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "NEUT%",
+    "value": "67",
+    "unit": "%",
+    "label": "Neutrophils"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "16",
+    "unit": "%",
+    "label": "Lymphocytes"
+   },
+   {
+    "code": "PLT",
+    "value": "82",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-286980            Date : 21-Jan-2026\nName    : Ananya Nair           Age  : 15 Y   Sex : Male\nSample collected on : 21-Jan-2026 10:15 AM\nReferred by : Dr. P. Nair\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. 15.9     g/dL         13.0-17.0\nRBC Count ............... 5.07       million/cumm  4.50-5.50\nPCV / Haematocrit ....... \u001bE53.0     \u001bF%               40.0-50.0\nMCV ..................... 88.0       fl            83.0-101.0\nMCH ..................... 27.5      pg            27.0-32.0\nMCHC .................... \u001bE30.8    \u001bFg/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-286980            Date : 21-Jan-2026\nName    : Ananya Nair           Age  : 15 Y   Sex : Male\nSample collected on : 21-Jan-2026 10:15 AM\nReferred by : Dr. P. Nair\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nTotal WBC Count ......... 4313    cells/cumm    4000-11000\nNeutrophils ............. 67         %             40-80\nLymphocytes ............. \u001bE16      \u001bF%             20-40\nPlatelet Count .......... \u001bE82        \u001bF10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

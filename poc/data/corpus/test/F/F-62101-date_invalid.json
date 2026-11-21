@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-62101-date_invalid",
+ "layout": "F",
+ "perturbation": "date_invalid",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4471611\nPT: FERNANDES DIVYA        MRN 68255744    AGE: 6Y  SEX: F\nCOLLECTED 02/31/2026 0910   RECEIVED 04/08/2026 1630\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   11.9      L      12.0-15.5\nHEMATOCRIT (%)                      41.6             36.0-46.0\nWBC (K/uL)                          5.9              4.0-11.0\nRBC (M/uL)                          3.93      L      4.00-5.20\nPLATELETS (K/uL)                    230              150-400\nMCV (fL)                            97.0             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            95               70-99\nCREATININE (mg/dL)                  0.72             0.50-1.10\nALT (U/L)                           72        H      7-56\nAST (U/L)                           19               10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

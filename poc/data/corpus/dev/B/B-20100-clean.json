@@ -1,0 +1,66 @@
+{
+ "doc_id": "B-20100-clean",
+ "layout": "B",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-255661",
+  "patient_name": "Divya Jadhav",
+  "patient_age": 79,
+  "patient_sex": "male",
+  "collected": "2026-02-10",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "18.3",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "4.92",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "48.0",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "101.2",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "25.3",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "35.1",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "3359",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "PLT",
+    "value": "465",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-255661            Date : 11-Feb-2026\nName    : Divya Jadhav          Age  : 79 Y   Sex : Male\nSample collected on : 10-Feb-2026 10:10 AM\nReferred by : Dr. V. Gupta\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. \u001bE18.3     \u001bFg/dL          13.0-17.0\nRBC Count ............... 4.92     million/cumm  4.50-5.50\nPCV / Haematocrit ....... 48.0     %             40.0-50.0\nMCV ..................... \u001bE101.2    \u001bFfl            83.0-101.0\nMCH ..................... \u001bE25.3     \u001bFpg            27.0-32.0\nMCHC .................... \u001bE35.1     \u001bFg/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-255661            Date : 11-Feb-2026\nName    : Divya Jadhav          Age  : 79 Y   Sex : Male\nSample collected on : 10-Feb-2026 10:10 AM\nReferred by : Dr. V. Gupta\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nTotal WBC Count ......... \u001bE3359     \u001bFcells/cumm    4000-11000\nPlatelet Count .......... \u001bE465      \u001bF10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

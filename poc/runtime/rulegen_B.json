@@ -1,0 +1,91 @@
+{
+ "layout": "B",
+ "binding_id": "lab-b",
+ "activated": true,
+ "rounds_used": 1,
+ "history": [
+  {
+   "round": 0,
+   "seconds": 19.2,
+   "passed": false,
+   "counts": {
+    "clean:correct_accept": 5,
+    "clean:false_reject": 5,
+    "perturbed:false_reject": 4,
+    "perturbed:correct_accept": 1,
+    "perturbed:correct_reject": 12
+   },
+   "failures": [
+    {
+     "doc_id": "B-20101-clean",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: [\"unknown_label: 'Neutrophils'\"]"
+    },
+    {
+     "doc_id": "B-20102-clean",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: [\"unknown_label: 'Neutrophils'\"]"
+    },
+    {
+     "doc_id": "B-20103-clean",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: [\"unknown_label: 'Neutrophils'\"]"
+    },
+    {
+     "doc_id": "B-20104-clean",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: [\"unknown_label: 'Neutrophils'\"]"
+    },
+    {
+     "doc_id": "B-20105-clean",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: [\"unknown_label: 'Neutrophils'\"]"
+    },
+    {
+     "doc_id": "B-20200-col_shift",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: [\"unknown_label: 'Neutrophils'\"]"
+    },
+    {
+     "doc_id": "B-20202-page_break",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: [\"unknown_label: 'Neutrophils'\"]"
+    },
+    {
+     "doc_id": "B-20203-crlf_trailing",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: [\"unknown_label: 'Neutrophils'\"]"
+    },
+    {
+     "doc_id": "B-20204-long_name",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: ['missing_field: patient_name']"
+    }
+   ]
+  },
+  {
+   "round": 1,
+   "seconds": 11.2,
+   "passed": true,
+   "counts": {
+    "clean:correct_accept": 10,
+    "perturbed:correct_accept": 4,
+    "perturbed:false_reject": 1,
+    "perturbed:correct_reject": 12
+   },
+   "failures": [
+    {
+     "doc_id": "B-20204-long_name",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: ['missing_field: patient_name']"
+    }
+   ]
+  }
+ ],
+ "llm_calls": 2,
+ "sha256": "0ff68732f40cdad78e8017f2dc2f7e5d01a69bf6048689f1ea30130683c57678",
+ "status": "active",
+ "approval": "SIMULATED human approval (PoC): gate passed, binding reviewed by no human",
+ "wall_seconds": 30.4,
+ "llm_cost_usd": 0.1305
+}

@@ -1,0 +1,78 @@
+{
+ "doc_id": "F-60204-long_name",
+ "layout": "F",
+ "perturbation": "long_name",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "13715892",
+  "patient_name": "KRISHNASWAMY ANANTHARAMAN",
+  "patient_age": 25,
+  "patient_sex": "female",
+  "collected": "2026-01-09",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "15.0",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "39.7",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "10.7",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "3.64",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "PLT",
+    "value": "467",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "86.2",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "91",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "1.26",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   },
+   {
+    "code": "ALT",
+    "value": "10",
+    "unit": "U/L",
+    "label": "ALT"
+   },
+   {
+    "code": "AST",
+    "value": "17",
+    "unit": "U/L",
+    "label": "AST"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4424664\nPT: KRISHNASWAMY ANANTHARAMAN MRN 13715892    AGE: 25Y  SEX: F\nCOLLECTED 01/09/2026 0710   RECEIVED 01/09/2026 2335\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   15.0             12.0-15.5\nHEMATOCRIT (%)                      39.7             36.0-46.0\nWBC (K/uL)                          10.7             4.0-11.0\nRBC (M/uL)                          3.64      L      4.00-5.20\nPLATELETS (K/uL)                    467       H      150-400\nMCV (fL)                            86.2             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            91               70-99\nCREATININE (mg/dL)                  1.26      H      0.50-1.10\nALT (U/L)                           10               7-56\nAST (U/L)                           17               10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

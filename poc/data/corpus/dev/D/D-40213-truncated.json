@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-40213-truncated",
+ "layout": "D",
+ "perturbation": "truncated",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-9496055            | Coll. Dt : 02.01.26            |\n| Name : KUM. POOJA SHARMA     | Age/Sex : 15/F                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 105     | mg/dL      | 70-100     | H    |",
+ "split": "dev"
+}

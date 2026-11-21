@@ -1,0 +1,420 @@
+{
+ "stats": {
+  "A:correct_accept": 272,
+  "A:correct_reject": 130,
+  "A:false_reject": 66,
+  "A:unsafe_accept": 3,
+  "B:correct_accept": 239,
+  "B:correct_reject": 118,
+  "B:false_reject": 133,
+  "C:correct_accept": 332,
+  "C:correct_reject": 125,
+  "C:false_reject": 49,
+  "D:correct_accept": 252,
+  "D:correct_reject": 139,
+  "D:false_reject": 92,
+  "E:correct_accept": 243,
+  "E:correct_reject": 123,
+  "E:false_reject": 125,
+  "F:correct_accept": 284,
+  "F:correct_reject": 128,
+  "F:false_reject": 147,
+  "correct_accept": 1622,
+  "correct_reject": 763,
+  "false_reject": 612,
+  "fuzz:blank_lines:correct_accept": 114,
+  "fuzz:blank_lines:correct_reject": 176,
+  "fuzz:blank_lines:false_reject": 140,
+  "fuzz:comment_line:correct_reject": 188,
+  "fuzz:comment_line:false_reject": 264,
+  "fuzz:digit_change:correct_accept": 116,
+  "fuzz:digit_change:correct_reject": 167,
+  "fuzz:digit_change:false_reject": 139,
+  "fuzz:digit_change:unsafe_accept": 1,
+  "fuzz:static_char_damage:correct_accept": 62,
+  "fuzz:static_char_damage:correct_reject": 160,
+  "fuzz:static_char_damage:false_reject": 190,
+  "unsafe_accept": 3
+ },
+ "failures": [
+  {
+   "doc_id": "pbt-A-55127",
+   "cls": "unsafe_accept",
+   "perturbation": "page_break+col_shift+header_changed+digit_change",
+   "record": {
+    "binding_id": "lab-a",
+    "patient_id": "SP/26/922445",
+    "patient_name": "OMKAR MORE",
+    "patient_age": 89,
+    "patient_sex": "male",
+    "collected": "2026-02-24",
+    "reported": "2026-02-24",
+    "results": [
+     {
+      "label": "HAEMOGLOBIN",
+      "code": "HGB",
+      "value": "14.1",
+      "unit": "gm/dL",
+      "value_canonical": "14.1",
+      "unit_canonical": "g/dL",
+      "flag": "",
+      "ref_low": "13.0",
+      "ref_high": "17.0"
+     },
+     {
+      "label": "R.B.C. COUNT",
+      "code": "RBC",
+      "value": "5.64",
+      "unit": "mill/cumm",
+      "value_canonical": "5.64",
+      "unit_canonical": "10*6/uL",
+      "flag": "H",
+      "ref_low": "4.50",
+      "ref_high": "5.50"
+     },
+     {
+      "label": "P.C.V.",
+      "code": "HCT",
+      "value": "49.4",
+      "unit": "%",
+      "value_canonical": "49.4",
+      "unit_canonical": "%",
+      "flag": "",
+      "ref_low": "40.0",
+      "ref_high": "50.0"
+     },
+     {
+      "label": "M.C.V.",
+      "code": "MCV",
+      "value": "86.5",
+      "unit": "fL",
+      "value_canonical": "86.5",
+      "unit_canonical": "fL",
+      "flag": "",
+      "ref_low": "83.0",
+      "ref_high": "101.0"
+     },
+     {
+      "label": "M.C.H.",
+      "code": "MCH",
+      "value": "32.9",
+      "unit": "pg",
+      "value_canonical": "32.9",
+      "unit_canonical": "pg",
+      "flag": "H",
+      "ref_low": "27.0",
+      "ref_high": "32.0"
+     },
+     {
+      "label": "M.C.H.C.",
+      "code": "MCHC",
+      "value": "31.9",
+      "unit": "g/dL",
+      "value_canonical": "31.9",
+      "unit_canonical": "g/dL",
+      "flag": "",
+      "ref_low": "31.5",
+      "ref_high": "34.5"
+     },
+     {
+      "label": "TOTAL LEUCOCYTE COUNT",
+      "code": "WBC",
+      "value": "3045",
+      "unit": "/cumm",
+      "value_canonical": "3.045",
+      "unit_canonical": "10*3/uL",
+      "flag": "L",
+      "ref_low": "4000",
+      "ref_high": "11000"
+     },
+     {
+      "label": "NEUTROPHILS",
+      "code": "NEUT%",
+      "value": "81",
+      "unit": "%",
+      "value_canonical": "81",
+      "unit_canonical": "%",
+      "flag": "H",
+      "ref_low": "40",
+      "ref_high": "80"
+     },
+     {
+      "label": "LYMPHOCYTES",
+      "code": "LYMPH%",
+      "value": "42",
+      "unit": "%",
+      "value_canonical": "42",
+      "unit_canonical": "%",
+      "flag": "H",
+      "ref_low": "20",
+      "ref_high": "40"
+     },
+     {
+      "label": "PLATELET COUNT",
+      "code": "PLT",
+      "value": "1.18",
+      "unit": "lakh/cumm",
+      "value_canonical": "118.00",
+      "unit_canonical": "10*3/uL",
+      "flag": "L",
+      "ref_low": "1.50",
+      "ref_high": "4.10"
+     }
+    ],
+    "collected_dt": "2026-02-24T10:15:00",
+    "reported_dt": "2026-02-24T16:40:00"
+   },
+   "truth": null,
+   "text": "                   SUNRISE DIAGNOSTICS & PATHOLOGY PVT. LTD.\n                 NABL-style format v2  |  Gangapur Road, Nashik\n================================================================================\nPatient Name : MR. OMKAR MORE                   Lab No.   : SP/26/922445\nAge / Sex    : 89 Yrs / M                       Collected : 24/02/2026 10:15\nRef. By      : DR. M. KULKARNI                  Reported  : 24/02/2026 16:40\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                  14.1        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  5.64 H      mill/cumm       4.50 - 5.50\nP.C.V.                        49.4          %             40.0 - 50.0\nM.C.V.                        86.5        fL           83.0 - 101.0\n\n                                                       Continued on next page...\n\f                          SUNRISE PATHOLOGY LABORATORY\nPatient Name : MR. OMKAR MORE                   Lab No.   : SP/26/922445\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nM.C.H.                        32.9 H      pg              27.0 - 32.0\nM.C.H.C.                      31.9         g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT           3045 L      /cumm         4000 - 11000\nNEUTROPHILS                   81 H         %             40 - 80\nLYMPHOCYTES                     42 H        %             20 - 40\nPLATELET COUNT                1.18 L        lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n"
+  },
+  {
+   "doc_id": "pbt-A-55127",
+   "cls": "unsafe_accept",
+   "perturbation": "page_break+col_shift+header_changed",
+   "record": {
+    "binding_id": "lab-a",
+    "patient_id": "SP/26/922445",
+    "patient_name": "OMKAR MORE",
+    "patient_age": 89,
+    "patient_sex": "male",
+    "collected": "2026-02-24",
+    "reported": "2026-02-24",
+    "results": [
+     {
+      "label": "HAEMOGLOBIN",
+      "code": "HGB",
+      "value": "14.1",
+      "unit": "gm/dL",
+      "value_canonical": "14.1",
+      "unit_canonical": "g/dL",
+      "flag": "",
+      "ref_low": "13.0",
+      "ref_high": "17.0"
+     },
+     {
+      "label": "R.B.C. COUNT",
+      "code": "RBC",
+      "value": "5.64",
+      "unit": "mill/cumm",
+      "value_canonical": "5.64",
+      "unit_canonical": "10*6/uL",
+      "flag": "H",
+      "ref_low": "4.50",
+      "ref_high": "5.50"
+     },
+     {
+      "label": "P.C.V.",
+      "code": "HCT",
+      "value": "49.4",
+      "unit": "%",
+      "value_canonical": "49.4",
+      "unit_canonical": "%",
+      "flag": "",
+      "ref_low": "40.0",
+      "ref_high": "50.0"
+     },
+     {
+      "label": "M.C.V.",
+      "code": "MCV",
+      "value": "86.5",
+      "unit": "fL",
+      "value_canonical": "86.5",
+      "unit_canonical": "fL",
+      "flag": "",
+      "ref_low": "83.0",
+      "ref_high": "101.0"
+     },
+     {
+      "label": "M.C.H.",
+      "code": "MCH",
+      "value": "32.9",
+      "unit": "pg",
+      "value_canonical": "32.9",
+      "unit_canonical": "pg",
+      "flag": "H",
+      "ref_low": "27.0",
+      "ref_high": "32.0"
+     },
+     {
+      "label": "M.C.H.C.",
+      "code": "MCHC",
+      "value": "31.9",
+      "unit": "g/dL",
+      "value_canonical": "31.9",
+      "unit_canonical": "g/dL",
+      "flag": "",
+      "ref_low": "31.5",
+      "ref_high": "34.5"
+     },
+     {
+      "label": "TOTAL LEUCOCYTE COUNT",
+      "code": "WBC",
+      "value": "3095",
+      "unit": "/cumm",
+      "value_canonical": "3.095",
+      "unit_canonical": "10*3/uL",
+      "flag": "L",
+      "ref_low": "4000",
+      "ref_high": "11000"
+     },
+     {
+      "label": "NEUTROPHILS",
+      "code": "NEUT%",
+      "value": "81",
+      "unit": "%",
+      "value_canonical": "81",
+      "unit_canonical": "%",
+      "flag": "H",
+      "ref_low": "40",
+      "ref_high": "80"
+     },
+     {
+      "label": "LYMPHOCYTES",
+      "code": "LYMPH%",
+      "value": "42",
+      "unit": "%",
+      "value_canonical": "42",
+      "unit_canonical": "%",
+      "flag": "H",
+      "ref_low": "20",
+      "ref_high": "40"
+     },
+     {
+      "label": "PLATELET COUNT",
+      "code": "PLT",
+      "value": "1.18",
+      "unit": "lakh/cumm",
+      "value_canonical": "118.00",
+      "unit_canonical": "10*3/uL",
+      "flag": "L",
+      "ref_low": "1.50",
+      "ref_high": "4.10"
+     }
+    ],
+    "collected_dt": "2026-02-24T10:15:00",
+    "reported_dt": "2026-02-24T16:40:00"
+   },
+   "truth": null,
+   "text": "                   SUNRISE DIAGNOSTICS & PATHOLOGY PVT. LTD.\n                 NABL-style format v2  |  Gangapur Road, Nashik\n================================================================================\nPatient Name : MR. OMKAR MORE                   Lab No.   : SP/26/922445\nAge / Sex    : 89 Yrs / M                       Collected : 24/02/2026 10:15\nRef. By      : DR. M. KULKARNI                  Reported  : 24/02/2026 16:40\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   14.1         gm/dL         13.0 - 17.0\nR.B.C. COUNT                  5.64 H     mill/cumm     4.50 - 5.50\nP.C.V.                          49.4        %             40.0 - 50.0\nM.C.V.                        86.5        fL             83.0 - 101.0\nM.C.H.                        32.9 H      pg              27.0 - 32.0\n\n                                                       Continued on next page...\n\f                          SUNRISE PATHOLOGY LABORATORY\nPatient Name : MR. OMKAR MORE                   Lab No.   : SP/26/922445\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nM.C.H.C.                        31.9        g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         3095 L      /cumm          4000 - 11000\nNEUTROPHILS                   81 H       %             40 - 80\nLYMPHOCYTES                   42 H        %              20 - 40\nPLATELET COUNT                1.18 L     lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n"
+  },
+  {
+   "doc_id": "pbt-A-26133",
+   "cls": "unsafe_accept",
+   "perturbation": "page_break+header_changed",
+   "record": {
+    "binding_id": "lab-a",
+    "patient_id": "SP/26/420732",
+    "patient_name": "ARJUN PATIL",
+    "patient_age": 27,
+    "patient_sex": "female",
+    "collected": "2026-01-18",
+    "reported": "2026-01-19",
+    "results": [
+     {
+      "label": "HAEMOGLOBIN",
+      "code": "HGB",
+      "value": "17.2",
+      "unit": "gm/dL",
+      "value_canonical": "17.2",
+      "unit_canonical": "g/dL",
+      "flag": "H",
+      "ref_low": "13.0",
+      "ref_high": "17.0"
+     },
+     {
+      "label": "R.B.C. COUNT",
+      "code": "RBC",
+      "value": "4.40",
+      "unit": "mill/cumm",
+      "value_canonical": "4.40",
+      "unit_canonical": "10*6/uL",
+      "flag": "L",
+      "ref_low": "4.50",
+      "ref_high": "5.50"
+     },
+     {
+      "label": "P.C.V.",
+      "code": "HCT",
+      "value": "50.3",
+      "unit": "%",
+      "value_canonical": "50.3",
+      "unit_canonical": "%",
+      "flag": "H",
+      "ref_low": "40.0",
+      "ref_high": "50.0"
+     },
+     {
+      "label": "M.C.V.",
+      "code": "MCV",
+      "value": "101.9",
+      "unit": "fL",
+      "value_canonical": "101.9",
+      "unit_canonical": "fL",
+      "flag": "H",
+      "ref_low": "83.0",
+      "ref_high": "101.0"
+     },
+     {
+      "label": "M.C.H.",
+      "code": "MCH",
+      "value": "30.5",
+      "unit": "pg",
+      "value_canonical": "30.5",
+      "unit_canonical": "pg",
+      "flag": "",
+      "ref_low": "27.0",
+      "ref_high": "32.0"
+     },
+     {
+      "label": "M.C.H.C.",
+      "code": "MCHC",
+      "value": "34.7",
+      "unit": "g/dL",
+      "value_canonical": "34.7",
+      "unit_canonical": "g/dL",
+      "flag": "H",
+      "ref_low": "31.5",
+      "ref_high": "34.5"
+     },
+     {
+      "label": "TOTAL LEUCOCYTE COUNT",
+      "code": "WBC",
+      "value": "12777",
+      "unit": "/cumm",
+      "value_canonical": "12.777",
+      "unit_canonical": "10*3/uL",
+      "flag": "H",
+      "ref_low": "4000",
+      "ref_high": "11000"
+     },
+     {
+      "label": "LYMPHOCYTES",
+      "code": "LYMPH%",
+      "value": "45",
+      "unit": "%",
+      "value_canonical": "45",
+      "unit_canonical": "%",
+      "flag": "H",
+      "ref_low": "20",
+      "ref_high": "40"
+     },
+     {
+      "label": "PLATELET COUNT",
+      "code": "PLT",
+      "value": "4.82",
+      "unit": "lakh/cumm",
+      "value_canonical": "482.00",
+      "unit_canonical": "10*3/uL",
+      "flag": "H",
+      "ref_low": "1.50",
+      "ref_high": "4.10"
+     }
+    ],
+    "collected_dt": "2026-01-18T08:30:00",
+    "reported_dt": "2026-01-19T16:30:00"
+   },
+   "truth": null,
+   "text": "                   SUNRISE DIAGNOSTICS & PATHOLOGY PVT. LTD.\n                 NABL-style format v2  |  Gangapur Road, Nashik\n================================================================================\nPatient Name : MRS. ARJUN PATIL                 Lab No.   : SP/26/420732\nAge / Sex    : 27 Yrs / F                       Collected : 18/01/2026 08:30\nRef. By      : DR. P. NAIR                      Reported  : 19/01/2026 16:30\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   17.2 H      gm/dL         13.0 - 17.0\nR.B.C. COUNT                  4.40 L      mill/cumm     4.50 - 5.50\nP.C.V.                        50.3 H      %             40.0 - 50.0\nM.C.V.                        101.9 H     fL            83.0 - 101.0\nM.C.H.                        30.5        pg            27.0 - 32.0\nM.C.H.C.                      34.7 H      g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         12777 H     /cumm         4000 - 11000\n\n                                                       Continued on next page...\n\f                          SUNRISE PATHOLOGY LABORATORY\nPatient Name : MRS. ARJUN PATIL                 Lab No.   : SP/26/420732\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nLYMPHOCYTES                   45 H        %             20 - 40\nPLATELET COUNT                4.82 H      lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n"
+  }
+ ]
+}

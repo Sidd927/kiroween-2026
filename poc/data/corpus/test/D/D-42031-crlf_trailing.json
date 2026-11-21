@@ -1,0 +1,48 @@
+{
+ "doc_id": "D-42031-crlf_trailing",
+ "layout": "D",
+ "perturbation": "crlf_trailing",
+ "expected": "accept",
+ "expected_layout": "D",
+ "truth": {
+  "patient_id": "26-1339715",
+  "patient_name": "NEHA MORE",
+  "patient_age": 81,
+  "patient_sex": "male",
+  "collected": "2026-04-28",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "101",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)"
+   },
+   {
+    "code": "CREA",
+    "value": "1.22",
+    "unit": "mg/dL",
+    "label": "Serum Creatinine"
+   },
+   {
+    "code": "UREA",
+    "value": "33",
+    "unit": "mg/dL",
+    "label": "Blood Urea"
+   },
+   {
+    "code": "HGB",
+    "value": "12.5",
+    "unit": "g/dl",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "WBC",
+    "value": "11154",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)"
+   }
+  ]
+ },
+ "text": "+----------------------------------------------------------------+ \r\n|                     SHREE SAI DIAGNOSTICS                      |\r\n|             Near Bus Stand, Shirdi Road, Kopargaon             |   \r\n+----------------------------------------------------------------+   \r\n| UHID : 26-1339715            | Coll. Dt : 28.04.26            |\r\n| Name : SHRI NEHA MORE        | Age/Sex : 81/M                 | \r\n+---------------------+---------+------------+------------+------+  \r\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |  \r\n+---------------------+---------+------------+------------+------+  \r\n| Glucose (Fasting)   | 101     | mg/dL      | 70-100     | H    |  \r\n| Serum Creatinine    | 1.22    | mg/dL      | 0.60-1.20  | H    | \r\n| Blood Urea          | 33      | mg/dL      | 15-40      |      |\r\n| Haemoglobin         | 12.5    | g/dl       | 12.0-16.0  |      | \r\n| Total Count (WBC)   | 11154   | /cumm      | 4000-11000 | H    |   \r\n+---------------------+---------+------------+------------+------+\r\n|                      ** End of Report **                       |   \r\n+----------------------------------------------------------------+\r\nSYNTHETIC SAMPLE - NOT A REAL PATIENT \r\n   ",
+ "split": "test"
+}

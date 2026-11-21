@@ -1,0 +1,78 @@
+{
+ "doc_id": "F-60001-clean",
+ "layout": "F",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "36100378",
+  "patient_name": "SHARMA POOJA",
+  "patient_age": 72,
+  "patient_sex": "male",
+  "collected": "2026-07-27",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "10.8",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "33.7",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "8.7",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "5.50",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "PLT",
+    "value": "474",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "100.9",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "85",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "1.04",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   },
+   {
+    "code": "ALT",
+    "value": "8",
+    "unit": "U/L",
+    "label": "ALT"
+   },
+   {
+    "code": "AST",
+    "value": "47",
+    "unit": "U/L",
+    "label": "AST"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4494563\nPT: SHARMA POOJA           MRN 36100378    AGE: 72Y  SEX: M\nCOLLECTED 07/27/2026 0840   RECEIVED 07/28/2026 2115\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   10.8      L      12.0-15.5\nHEMATOCRIT (%)                      33.7      L      36.0-46.0\nWBC (K/uL)                          8.7              4.0-11.0\nRBC (M/uL)                          5.50      H      4.00-5.20\nPLATELETS (K/uL)                    474       H      150-400\nMCV (fL)                            100.9     H      80.0-100.0\nGLUCOSE, FASTING (mg/dL)            85               70-99\nCREATININE (mg/dL)                  1.04             0.50-1.10\nALT (U/L)                           8                7-56\nAST (U/L)                           47        H      10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "gen"
+}

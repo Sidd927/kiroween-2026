@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-42110-duplicate_conflict",
+ "layout": "D",
+ "perturbation": "duplicate_conflict",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-2542905            | Coll. Dt : 01.07.26            |\n| Name : SHRI NEHA FERNANDES   | Age/Sex : 39/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 83      | mg/dL      | 70-100     |      |\n| Glucose (Fasting)   | 105     | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 1.04    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 19      | mg/dL      | 15-40      |      |\n| Haemoglobin         | 12.6    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 13073   | /cumm      | 4000-11000 | H    |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

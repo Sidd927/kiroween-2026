@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-40206-unit_missing",
+ "layout": "D",
+ "perturbation": "unit_missing",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-1849521            | Coll. Dt : 03.07.26            |\n| Name : SHRI DIVYA IYER       | Age/Sex : 78/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 74      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 0.98    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 6       | mg/dL      | 15-40      | L    |\n| Haemoglobin         | 14.7    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 10063   | /cumm      | 4000-11000 |      |\n| Platelets           | 1.96    |            | 1.50-4.50  |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

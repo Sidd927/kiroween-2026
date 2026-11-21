@@ -1,0 +1,4 @@
+{"event": "fake_printer_listening", "port": 9101}
+{"t": 1795272771.819, "event": "printed", "bytes": 1667, "sha256": "8c1ac93b06a28137492f1d878c9a3aba0622c1d6d3fa313def9e99b45717273b"}
+{"t": 1795272775.636, "event": "printed", "bytes": 2057, "sha256": "40695bd72669afa2ca9161ce3b41cb8e3baf285bc068c34863567c2b77067358"}
+{"t": 1795272810.719, "event": "printed", "bytes": 1119, "sha256": "420678e3dc9846972c312582abb49ae2e1c8db913a18b60e877511ea2f9681a7"}

@@ -1,0 +1,66 @@
+{
+ "doc_id": "B-22010-drop_optional",
+ "layout": "B",
+ "perturbation": "drop_optional",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-884688",
+  "patient_name": "Aarav Patil",
+  "patient_age": 23,
+  "patient_sex": "male",
+  "collected": "2026-03-12",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "13.1",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "5.62",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "51.4",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "84.5",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "32.4",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "30.7",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "13159",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "PLT",
+    "value": "132",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-884688            Date : 13-Mar-2026\nName    : Aarav Patil           Age  : 23 Y   Sex : Male\nSample collected on : 12-Mar-2026 11:30 AM\nReferred by : Dr. R. Shah\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. 13.1     g/dL          13.0-17.0\nRBC Count ............... \u001bE5.62     \u001bFmillion/cumm  4.50-5.50\nPCV / Haematocrit ....... \u001bE51.4     \u001bF%             40.0-50.0\nMCV ..................... 84.5     fl            83.0-101.0\nMCH ..................... \u001bE32.4     \u001bFpg            27.0-32.0\nMCHC .................... \u001bE30.7     \u001bFg/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-884688            Date : 13-Mar-2026\nName    : Aarav Patil           Age  : 23 Y   Sex : Male\nSample collected on : 12-Mar-2026 11:30 AM\nReferred by : Dr. R. Shah\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nTotal WBC Count ......... \u001bE13159    \u001bFcells/cumm    4000-11000\nPlatelet Count .......... \u001bE132      \u001bF10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

@@ -1,0 +1,35 @@
+== add queue
+lpadmin: Raw queues are no longer supported on macOS.
+device for spoolgeist-poc: socket://127.0.0.1:9100
+8c1ac93b06a28137492f1d878c9a3aba0622c1d6d3fa313def9e99b45717273b  runtime/print_capture_cups/A.txt
+40695bd72669afa2ca9161ce3b41cb8e3baf285bc068c34863567c2b77067358  runtime/print_capture_cups/B.txt
+420678e3dc9846972c312582abb49ae2e1c8db913a18b60e877511ea2f9681a7  runtime/print_capture_cups/C.txt
+== C1 normal print via CUPS (layout A, plain text)
+request id is spoolgeist-poc-1 (1 file(s))
+== C1b ESC/P job via CUPS (layout B)
+request id is spoolgeist-poc-2 (1 file(s))
+spoolgeist-poc-2        siddhant_patil     3072   Sat Nov 21 20:22:55 2026
+spoolgeist-poc-1        siddhant_patil     2048   Sat Nov 21 20:22:51 2026
+== C2 listener OFFLINE, then print (layout C)
+experiments/print_capture/cups_experiment.sh: line 30: 79659 Terminated: 15          $PY -m spoolgeist.capture --port 9100 --forward 127.0.0.1:9101 --spool "$RT/spool" >> "$RT/listener.log" 2>&1
+request id is spoolgeist-poc-3 (1 file(s))
+-- queue state while listener offline:
+printer spoolgeist-poc now printing spoolgeist-poc-3.  enabled since Sat Nov 21 20:23:00 2026
+	The printer is not responding.
+spoolgeist-poc-3        siddhant_patil     2048   Sat Nov 21 20:23:00 2026
+-- restarting listener at 20:23:06
+-- queue drained after ~24s
+== results
+{"t": 1795272771.813, "event": "job_captured", "job_id": "20261121-202251-323525", "peer": "127.0.0.1", "bytes": 1667, "sha256": "8c1ac93b06a28137492f1d878c9a3aba0622c1d6d3fa313def9e99b45717273b", "detected_format": "text", "duplicate_of": null}
+{"t": 1795272775.633, "event": "job_captured", "job_id": "20261121-202255-dd1575", "peer": "127.0.0.1", "bytes": 2057, "sha256": "40695bd72669afa2ca9161ce3b41cb8e3baf285bc068c34863567c2b77067358", "detected_format": "text+escp", "duplicate_of": null}
+{"t": 1795272810.712, "event": "job_captured", "job_id": "20261121-202330-714697", "peer": "127.0.0.1", "bytes": 1119, "sha256": "420678e3dc9846972c312582abb49ae2e1c8db913a18b60e877511ea2f9681a7", "detected_format": "text", "duplicate_of": null}
+{"t": 1795272771.898, "event": "job_processed", "job_id": "20261121-202251-323525", "status": "ACCEPT", "binding": "lab-a", "reasons": [], "ms": 6.59, "llm_calls": 0}
+{"t": 1795272775.647, "event": "job_processed", "job_id": "20261121-202255-dd1575", "status": "ACCEPT", "binding": "lab-b", "reasons": [], "ms": 13.34, "llm_calls": 0}
+{"t": 1795272810.781, "event": "job_processed", "job_id": "20261121-202330-714697", "status": "ACCEPT", "binding": "lab-c", "reasons": [], "ms": 6.21, "llm_calls": 0}
+{"t": 1795272771.819, "event": "printed", "bytes": 1667, "sha256": "8c1ac93b06a28137492f1d878c9a3aba0622c1d6d3fa313def9e99b45717273b"}
+{"t": 1795272775.636, "event": "printed", "bytes": 2057, "sha256": "40695bd72669afa2ca9161ce3b41cb8e3baf285bc068c34863567c2b77067358"}
+{"t": 1795272810.719, "event": "printed", "bytes": 1119, "sha256": "420678e3dc9846972c312582abb49ae2e1c8db913a18b60e877511ea2f9681a7"}
+experiments/print_capture/cups_experiment.sh: line 9: 79658 Terminated: 15          $PY experiments/print_capture/fake_printer.py --port 9101 --out "$RT/fake_printer" >> "$RT/printer.log" 2>&1
+experiments/print_capture/cups_experiment.sh: line 9: 79687 Terminated: 15          $PY -m spoolgeist.capture --port 9100 --forward 127.0.0.1:9101 --spool "$RT/spool" >> "$RT/listener.log" 2>&1
+[cleanup] queue spoolgeist-poc removed
+[cleanup] verified: queue absent

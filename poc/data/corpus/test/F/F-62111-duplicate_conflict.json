@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-62111-duplicate_conflict",
+ "layout": "F",
+ "perturbation": "duplicate_conflict",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4417248\nPT: DESHMUKH NIKHIL        MRN 33069939    AGE: 47Y  SEX: M\nCOLLECTED 03/07/2026 1000   RECEIVED 03/08/2026 0550\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   15.3             12.0-15.5\nHEMATOCRIT (%)                      37.4             36.0-46.0\nWBC (K/uL)                          7.7              4.0-11.0\nRBC (M/uL)                          4.33             4.00-5.20\nPLATELETS (K/uL)                    259              150-400\nMCV (fL)                            104.0     H      80.0-100.0\nGLUCOSE, FASTING (mg/dL)            109       H      70-99\nCREATININE (mg/dL)                  0.69             0.50-1.10\nCREATININE (mg/dL)                  0.55             0.50-1.10\nALT (U/L)                           65        H      7-56\nAST (U/L)                           47        H      10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

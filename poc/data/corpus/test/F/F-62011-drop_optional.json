@@ -1,0 +1,72 @@
+{
+ "doc_id": "F-62011-drop_optional",
+ "layout": "F",
+ "perturbation": "drop_optional",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "50308145",
+  "patient_name": "KHAN ISHA",
+  "patient_age": 1,
+  "patient_sex": "female",
+  "collected": "2026-07-05",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "14.9",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "37.0",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "8.0",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "5.44",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "PLT",
+    "value": "298",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "77.5",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "CREA",
+    "value": "1.13",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   },
+   {
+    "code": "ALT",
+    "value": "26",
+    "unit": "U/L",
+    "label": "ALT"
+   },
+   {
+    "code": "AST",
+    "value": "47",
+    "unit": "U/L",
+    "label": "AST"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4440625\nPT: KHAN ISHA              MRN 50308145    AGE: 1Y  SEX: F\nCOLLECTED 07/05/2026 1040   RECEIVED 07/06/2026 2050\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   14.9             12.0-15.5\nHEMATOCRIT (%)                      37.0             36.0-46.0\nWBC (K/uL)                          8.0              4.0-11.0\nRBC (M/uL)                          5.44      H      4.00-5.20\nPLATELETS (K/uL)                    298              150-400\nMCV (fL)                            77.5      L      80.0-100.0\nCREATININE (mg/dL)                  1.13      H      0.50-1.10\nALT (U/L)                           26               7-56\nAST (U/L)                           47        H      10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

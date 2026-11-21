@@ -1,0 +1,72 @@
+{
+ "doc_id": "B-21005-clean",
+ "layout": "B",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-233424",
+  "patient_name": "Neha More",
+  "patient_age": 81,
+  "patient_sex": "male",
+  "collected": "2026-06-11",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "14.4",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "4.80",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "47.0",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "95.6",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "27.9",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "33.6",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "12473",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "NEUT%",
+    "value": "58",
+    "unit": "%",
+    "label": "Neutrophils"
+   },
+   {
+    "code": "PLT",
+    "value": "233",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-233424            Date : 11-Jun-2026\nName    : Neha More             Age  : 81 Y   Sex : Male\nSample collected on : 11-Jun-2026 11:10 AM\nReferred by : Dr. P. Nair\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. 14.4     g/dL          13.0-17.0\nRBC Count ............... 4.80     million/cumm  4.50-5.50\nPCV / Haematocrit ....... 47.0     %             40.0-50.0\nMCV ..................... 95.6     fl            83.0-101.0\nMCH ..................... 27.9     pg            27.0-32.0\nMCHC .................... 33.6     g/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-233424            Date : 11-Jun-2026\nName    : Neha More             Age  : 81 Y   Sex : Male\nSample collected on : 11-Jun-2026 11:10 AM\nReferred by : Dr. P. Nair\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nTotal WBC Count ......... \u001bE12473    \u001bFcells/cumm    4000-11000\nNeutrophils ............. 58       %             40-80\nPlatelet Count .......... 233      10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

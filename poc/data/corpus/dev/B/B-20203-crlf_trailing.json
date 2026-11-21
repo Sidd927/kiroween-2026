@@ -1,0 +1,78 @@
+{
+ "doc_id": "B-20203-crlf_trailing",
+ "layout": "B",
+ "perturbation": "crlf_trailing",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-494664",
+  "patient_name": "Rahul Khan",
+  "patient_age": 73,
+  "patient_sex": "female",
+  "collected": "2026-06-27",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "12.0",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "4.96",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "44.4",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "87.5",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "33.5",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "31.0",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "9075",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "NEUT%",
+    "value": "68",
+    "unit": "%",
+    "label": "Neutrophils"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "31",
+    "unit": "%",
+    "label": "Lymphocytes"
+   },
+   {
+    "code": "PLT",
+    "value": "129",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF  \r\n             Plot 7, MIDC Area, Aurangabad - 431001\r\nReg. No : CDC-494664            Date : 27-Jun-2026 \r\nName    : Rahul Khan            Age  : 73 Y   Sex : Female\r\nSample collected on : 27-Jun-2026 07:50 AM \r\nReferred by : Dr. A. Rao  \r\n                                                     Page 1 of 2   \r\n================================================================ \r\nInvestigation             Value    Units         Biological Ref.   \r\n----------------------------------------------------------------   \r\nHaemoglobin ............. \u001bE12.0     \u001bFg/dL          13.0-17.0  \r\nRBC Count ............... 4.96     million/cumm  4.50-5.50  \r\nPCV / Haematocrit ....... 44.4     %             40.0-50.0  \r\nMCV ..................... 87.5     fl            83.0-101.0   \r\nMCH ..................... \u001bE33.5     \u001bFpg            27.0-32.0   \r\nMCHC .................... \u001bE31.0     \u001bFg/dl          31.5-34.5 \r\n----------------------------------------------------------------\r\n                                                     (continued)   \r\n   \r\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF   \r\n             Plot 7, MIDC Area, Aurangabad - 431001 \r\nReg. No : CDC-494664            Date : 27-Jun-2026 \r\nName    : Rahul Khan            Age  : 73 Y   Sex : Female\r\nSample collected on : 27-Jun-2026 07:50 AM   \r\nReferred by : Dr. A. Rao \r\n                                                     Page 2 of 2  \r\n================================================================  \r\nInvestigation             Value    Units         Biological Ref.  \r\n---------------------------------------------------------------- \r\nTotal WBC Count ......... 9075     cells/cumm    4000-11000 \r\nNeutrophils ............. 68       %             40-80   \r\nLymphocytes ............. 31       %             20-40 \r\nPlatelet Count .......... \u001bE129      \u001bF10^3/uL       150-410  \r\n----------------------------------------------------------------   \r\nValues in bold are outside the biological reference interval.\r\n                     --- End of Report ---   \r\nSYNTHETIC SAMPLE - NOT A REAL PATIENT \r\n ",
+ "split": "dev"
+}

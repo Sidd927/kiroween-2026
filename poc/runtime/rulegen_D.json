@@ -1,0 +1,32 @@
+{
+ "layout": "D",
+ "binding_id": "lab-d",
+ "activated": true,
+ "rounds_used": 0,
+ "history": [
+  {
+   "round": 0,
+   "seconds": 15.3,
+   "passed": true,
+   "counts": {
+    "clean:correct_accept": 10,
+    "perturbed:correct_accept": 4,
+    "perturbed:false_reject": 1,
+    "perturbed:correct_reject": 12
+   },
+   "failures": [
+    {
+     "doc_id": "D-40204-long_name",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: ['missing_field: patient_name']"
+    }
+   ]
+  }
+ ],
+ "llm_calls": 1,
+ "sha256": "a848bfec7173a59d76ded9b1c4b5b2ca465573faecb6641f6c6d837cdc6f1b13",
+ "status": "active",
+ "approval": "SIMULATED human approval (PoC): gate passed, binding reviewed by no human",
+ "wall_seconds": 15.3,
+ "llm_cost_usd": 0.0501
+}

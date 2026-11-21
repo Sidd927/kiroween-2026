@@ -1,0 +1,48 @@
+{
+ "doc_id": "D-40204-long_name",
+ "layout": "D",
+ "perturbation": "long_name",
+ "expected": "accept",
+ "expected_layout": "D",
+ "truth": {
+  "patient_id": "26-6218111",
+  "patient_name": "VENKATARAMANA SUBRAMANIAN IYER",
+  "patient_age": 66,
+  "patient_sex": "female",
+  "collected": "2026-08-27",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "69",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)"
+   },
+   {
+    "code": "CREA",
+    "value": "1.19",
+    "unit": "mg/dL",
+    "label": "Serum Creatinine"
+   },
+   {
+    "code": "UREA",
+    "value": "8",
+    "unit": "mg/dL",
+    "label": "Blood Urea"
+   },
+   {
+    "code": "HGB",
+    "value": "12.4",
+    "unit": "g/dl",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "WBC",
+    "value": "7852",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)"
+   }
+  ]
+ },
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-6218111            | Coll. Dt : 27.08.26            |\n| Name : SMT. VENKATARAMANA SUBRAMANIAN IYER| Age/Sex : 66/F                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 69      | mg/dL      | 70-100     | L    |\n| Serum Creatinine    | 1.19    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 8       | mg/dL      | 15-40      | L    |\n| Haemoglobin         | 12.4    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 7852    | /cumm      | 4000-11000 |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

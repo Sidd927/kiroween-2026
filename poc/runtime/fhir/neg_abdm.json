@@ -1,0 +1,2199 @@
+{
+  "resourceType" : "OperationOutcome",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>OperationOutcome </b></p><table class=\"grid\"><tr><td><b>Severity</b></td><td><b>Location</b></td><td><b>Code</b></td><td><b>Details</b></td><td><b>Diagnostics</b></td><td><b>Source</b></td></tr><tr><td>Warning</td><td>Bundle.entry[0].resource/*Composition/null*/</td><td>Validation rule failed</td><td>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[0].resource/*Composition/null*/.subject</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[0].resource/*Composition/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[0].resource/*Composition/null*/.section[0].entry[0]</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:672582c2-fdcd-5fc5-b96f-ab7f460e28e2 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/DiagnosticReportImaging, https://nrces.in/ndhm/fhir/r4/StructureDefinition/DiagnosticReportLab</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[0].resource/*Composition/null*/.section[0].entry[0]</td><td>Structural Issue</td><td>Details for urn:uuid:672582c2-fdcd-5fc5-b96f-ab7f460e28e2 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/DiagnosticReportLab|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[0].resource/*Composition/null*/.section[0].entry[0]</td><td>Structural Issue</td><td>Details for urn:uuid:672582c2-fdcd-5fc5-b96f-ab7f460e28e2 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/DiagnosticReportImaging|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Warning</td><td>Bundle.entry[1].resource/*Patient/null*/</td><td>Validation rule failed</td><td>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[1].resource/*Patient/null*/.identifier[0]</td><td>Structural Issue</td><td>Patient.identifier.type: minimum required = 1, but only found 0 (from https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0)</td><td/><td>InstanceValidator</td></tr><tr><td>Warning</td><td>Bundle.entry[2].resource/*Organization/null*/</td><td>Validation rule failed</td><td>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[0]</td><td>Structural Issue</td><td>Details for urn:uuid:54662ce0-f28a-51b8-8040-fed6883ba4b2 matching against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[1]</td><td>Structural Issue</td><td>Details for urn:uuid:7f491b19-fde1-500e-8db1-0d3e9d4b8ca9 matching against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[2]</td><td>Structural Issue</td><td>Details for urn:uuid:9ea83cef-def6-5f28-ac23-c566d48a26cf matching against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[3]</td><td>Structural Issue</td><td>Details for urn:uuid:12fc1693-0b22-50cb-84cc-f9c8e5e25cbf matching against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[4]</td><td>Structural Issue</td><td>Details for urn:uuid:2f2c6f51-a3f6-59c5-8bf3-d15c4bd9f9bb matching against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[5]</td><td>Structural Issue</td><td>Details for urn:uuid:c8297bb0-bf03-542d-8de9-e81828be877f matching against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[6]</td><td>Structural Issue</td><td>Details for urn:uuid:db28d9d1-d4be-5c65-8cbf-fc6445cb1bb3 matching against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[7]</td><td>Structural Issue</td><td>Details for urn:uuid:1804cef5-be54-524b-b7bf-d318327cf313 matching against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[8]</td><td>Structural Issue</td><td>Details for urn:uuid:c4673a5f-869d-5ef0-8627-54a7a902e153 matching against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1</td><td/><td>InstanceValidator</td></tr><tr><td>Warning</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/</td><td>Validation rule failed</td><td>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/</td><td>Structural Issue</td><td>DiagnosticReport.resultsInterpreter: minimum required = 1, but only found 0 (from https://nrces.in/ndhm/fhir/r4/StructureDefinition/DiagnosticReportLab|6.5.0)</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/</td><td>Structural Issue</td><td>DiagnosticReport.conclusion: minimum required = 1, but only found 0 (from https://nrces.in/ndhm/fhir/r4/StructureDefinition/DiagnosticReportLab|6.5.0)</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.subject</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: http://hl7.org/fhir/StructureDefinition/Device, http://hl7.org/fhir/StructureDefinition/Group, http://hl7.org/fhir/StructureDefinition/Location, https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[0]</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:54662ce0-f28a-51b8-8040-fed6883ba4b2 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[0]</td><td>Structural Issue</td><td>Details for urn:uuid:54662ce0-f28a-51b8-8040-fed6883ba4b2 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[1]</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:7f491b19-fde1-500e-8db1-0d3e9d4b8ca9 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[1]</td><td>Structural Issue</td><td>Details for urn:uuid:7f491b19-fde1-500e-8db1-0d3e9d4b8ca9 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[2]</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:9ea83cef-def6-5f28-ac23-c566d48a26cf among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[2]</td><td>Structural Issue</td><td>Details for urn:uuid:9ea83cef-def6-5f28-ac23-c566d48a26cf matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[3]</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:12fc1693-0b22-50cb-84cc-f9c8e5e25cbf among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[3]</td><td>Structural Issue</td><td>Details for urn:uuid:12fc1693-0b22-50cb-84cc-f9c8e5e25cbf matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[4]</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:2f2c6f51-a3f6-59c5-8bf3-d15c4bd9f9bb among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[4]</td><td>Structural Issue</td><td>Details for urn:uuid:2f2c6f51-a3f6-59c5-8bf3-d15c4bd9f9bb matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[5]</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:c8297bb0-bf03-542d-8de9-e81828be877f among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[5]</td><td>Structural Issue</td><td>Details for urn:uuid:c8297bb0-bf03-542d-8de9-e81828be877f matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[6]</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:db28d9d1-d4be-5c65-8cbf-fc6445cb1bb3 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[6]</td><td>Structural Issue</td><td>Details for urn:uuid:db28d9d1-d4be-5c65-8cbf-fc6445cb1bb3 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[7]</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:1804cef5-be54-524b-b7bf-d318327cf313 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[7]</td><td>Structural Issue</td><td>Details for urn:uuid:1804cef5-be54-524b-b7bf-d318327cf313 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[8]</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:c4673a5f-869d-5ef0-8627-54a7a902e153 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[3].resource/*DiagnosticReport/null*/.result[8]</td><td>Structural Issue</td><td>Details for urn:uuid:c4673a5f-869d-5ef0-8627-54a7a902e153 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[4].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1</td><td/><td>InstanceValidator</td></tr><tr><td>Warning</td><td>Bundle.entry[4].resource/*Observation/null*/</td><td>Validation rule failed</td><td>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[4].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[4].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[5].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1</td><td/><td>InstanceValidator</td></tr><tr><td>Warning</td><td>Bundle.entry[5].resource/*Observation/null*/</td><td>Validation rule failed</td><td>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[5].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[5].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[6].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1</td><td/><td>InstanceValidator</td></tr><tr><td>Warning</td><td>Bundle.entry[6].resource/*Observation/null*/</td><td>Validation rule failed</td><td>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[6].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[6].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[7].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1</td><td/><td>InstanceValidator</td></tr><tr><td>Warning</td><td>Bundle.entry[7].resource/*Observation/null*/</td><td>Validation rule failed</td><td>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[7].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[7].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[8].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1</td><td/><td>InstanceValidator</td></tr><tr><td>Warning</td><td>Bundle.entry[8].resource/*Observation/null*/</td><td>Validation rule failed</td><td>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[8].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[8].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[9].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1</td><td/><td>InstanceValidator</td></tr><tr><td>Warning</td><td>Bundle.entry[9].resource/*Observation/null*/</td><td>Validation rule failed</td><td>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[9].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[9].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[10].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1</td><td/><td>InstanceValidator</td></tr><tr><td>Warning</td><td>Bundle.entry[10].resource/*Observation/null*/</td><td>Validation rule failed</td><td>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[10].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[10].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[11].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1</td><td/><td>InstanceValidator</td></tr><tr><td>Warning</td><td>Bundle.entry[11].resource/*Observation/null*/</td><td>Validation rule failed</td><td>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[11].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[11].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[12].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1</td><td/><td>InstanceValidator</td></tr><tr><td>Warning</td><td>Bundle.entry[12].resource/*Observation/null*/</td><td>Validation rule failed</td><td>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</td><td/><td>InstanceValidator</td></tr><tr><td>Error</td><td>Bundle.entry[12].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient</td><td/><td>InstanceValidator</td></tr><tr><td>Information</td><td>Bundle.entry[12].resource/*Observation/null*/.subject</td><td>Structural Issue</td><td>Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0</td><td/><td>InstanceValidator</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/validator-version",
+    "valueString" : "FHIR Validation tool Version 7.0.6 (Git# 86bf796ddc97). Built 2026-11-13T23:28:34.381Z (7 days old)"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-file",
+    "valueString" : "runtime/fhir/negative/abdm_missing_required.json"
+  }],
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 18
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 5
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "warning",
+    "code" : "invariant",
+    "details" : {
+      "text" : "Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)"
+    },
+    "expression" : ["Bundle.entry[0].resource/*Composition/null*/"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 36
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient"
+    },
+    "expression" : ["Bundle.entry[0].resource/*Composition/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 36
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    },
+    "expression" : ["Bundle.entry[0].resource/*Composition/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 62
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 9
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/DiagnosticReportLab|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:672582c2-fdcd-5fc5-b96f-ab7f460e28e2 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/DiagnosticReportImaging, https://nrces.in/ndhm/fhir/r4/StructureDefinition/DiagnosticReportLab"
+    },
+    "expression" : ["Bundle.entry[0].resource/*Composition/null*/.section[0].entry[0]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 62
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 9
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/DiagnosticReportLab|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:672582c2-fdcd-5fc5-b96f-ab7f460e28e2 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/DiagnosticReportLab|6.5.0"
+    },
+    "expression" : ["Bundle.entry[0].resource/*Composition/null*/.section[0].entry[0]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 62
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 9
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/DiagnosticReportLab|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:672582c2-fdcd-5fc5-b96f-ab7f460e28e2 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/DiagnosticReportImaging|6.5.0"
+    },
+    "expression" : ["Bundle.entry[0].resource/*Composition/null*/.section[0].entry[0]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 73
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 5
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "warning",
+    "code" : "invariant",
+    "details" : {
+      "text" : "Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)"
+    },
+    "expression" : ["Bundle.entry[1].resource/*Patient/null*/"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 81
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Validation_VAL_Profile_Minimum"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Patient.identifier.type: minimum required = 1, but only found 0 (from https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0)"
+    },
+    "expression" : ["Bundle.entry[1].resource/*Patient/null*/.identifier[0]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 96
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 5
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"
+    }],
+    "severity" : "warning",
+    "code" : "invariant",
+    "details" : {
+      "text" : "Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)"
+    },
+    "expression" : ["Bundle.entry[2].resource/*Organization/null*/"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 152
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 162
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:54662ce0-f28a-51b8-8040-fed6883ba4b2 matching against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[0]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 165
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:7f491b19-fde1-500e-8db1-0d3e9d4b8ca9 matching against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[1]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 168
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:9ea83cef-def6-5f28-ac23-c566d48a26cf matching against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[2]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 171
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:12fc1693-0b22-50cb-84cc-f9c8e5e25cbf matching against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[3]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 174
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:2f2c6f51-a3f6-59c5-8bf3-d15c4bd9f9bb matching against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[4]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 177
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:c8297bb0-bf03-542d-8de9-e81828be877f matching against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[5]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 180
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:db28d9d1-d4be-5c65-8cbf-fc6445cb1bb3 matching against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[6]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 183
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:1804cef5-be54-524b-b7bf-d318327cf313 matching against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[7]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 186
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:c4673a5f-869d-5ef0-8627-54a7a902e153 matching against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[8]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 123
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 5
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "warning",
+    "code" : "invariant",
+    "details" : {
+      "text" : "Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 123
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 5
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Validation_VAL_Profile_Minimum"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/DiagnosticReportLab|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "DiagnosticReport.resultsInterpreter: minimum required = 1, but only found 0 (from https://nrces.in/ndhm/fhir/r4/StructureDefinition/DiagnosticReportLab|6.5.0)"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 123
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 5
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Validation_VAL_Profile_Minimum"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/DiagnosticReportLab|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "DiagnosticReport.conclusion: minimum required = 1, but only found 0 (from https://nrces.in/ndhm/fhir/r4/StructureDefinition/DiagnosticReportLab|6.5.0)"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 152
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: http://hl7.org/fhir/StructureDefinition/Device, http://hl7.org/fhir/StructureDefinition/Group, http://hl7.org/fhir/StructureDefinition/Location, https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 152
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 162
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:54662ce0-f28a-51b8-8040-fed6883ba4b2 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[0]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 162
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:54662ce0-f28a-51b8-8040-fed6883ba4b2 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[0]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 165
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:7f491b19-fde1-500e-8db1-0d3e9d4b8ca9 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[1]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 165
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:7f491b19-fde1-500e-8db1-0d3e9d4b8ca9 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[1]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 168
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:9ea83cef-def6-5f28-ac23-c566d48a26cf among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[2]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 168
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:9ea83cef-def6-5f28-ac23-c566d48a26cf matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[2]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 171
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:12fc1693-0b22-50cb-84cc-f9c8e5e25cbf among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[3]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 171
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:12fc1693-0b22-50cb-84cc-f9c8e5e25cbf matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[3]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 174
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:2f2c6f51-a3f6-59c5-8bf3-d15c4bd9f9bb among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[4]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 174
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:2f2c6f51-a3f6-59c5-8bf3-d15c4bd9f9bb matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[4]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 177
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:c8297bb0-bf03-542d-8de9-e81828be877f among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[5]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 177
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:c8297bb0-bf03-542d-8de9-e81828be877f matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[5]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 180
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:db28d9d1-d4be-5c65-8cbf-fc6445cb1bb3 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[6]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 180
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:db28d9d1-d4be-5c65-8cbf-fc6445cb1bb3 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[6]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 183
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:1804cef5-be54-524b-b7bf-d318327cf313 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[7]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 183
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:1804cef5-be54-524b-b7bf-d318327cf313 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[7]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 186
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:c4673a5f-869d-5ef0-8627-54a7a902e153 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[8]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 186
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 7
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:c4673a5f-869d-5ef0-8627-54a7a902e153 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation|6.5.0"
+    },
+    "expression" : ["Bundle.entry[3].resource/*DiagnosticReport/null*/.result[8]"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 230
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1"
+    },
+    "expression" : ["Bundle.entry[4].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 201
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 5
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "warning",
+    "code" : "invariant",
+    "details" : {
+      "text" : "Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)"
+    },
+    "expression" : ["Bundle.entry[4].resource/*Observation/null*/"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 230
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient"
+    },
+    "expression" : ["Bundle.entry[4].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 230
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    },
+    "expression" : ["Bundle.entry[4].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 306
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1"
+    },
+    "expression" : ["Bundle.entry[5].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 277
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 5
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "warning",
+    "code" : "invariant",
+    "details" : {
+      "text" : "Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)"
+    },
+    "expression" : ["Bundle.entry[5].resource/*Observation/null*/"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 306
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient"
+    },
+    "expression" : ["Bundle.entry[5].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 306
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    },
+    "expression" : ["Bundle.entry[5].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 382
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1"
+    },
+    "expression" : ["Bundle.entry[6].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 353
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 5
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "warning",
+    "code" : "invariant",
+    "details" : {
+      "text" : "Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)"
+    },
+    "expression" : ["Bundle.entry[6].resource/*Observation/null*/"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 382
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient"
+    },
+    "expression" : ["Bundle.entry[6].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 382
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    },
+    "expression" : ["Bundle.entry[6].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 458
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1"
+    },
+    "expression" : ["Bundle.entry[7].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 429
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 5
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "warning",
+    "code" : "invariant",
+    "details" : {
+      "text" : "Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)"
+    },
+    "expression" : ["Bundle.entry[7].resource/*Observation/null*/"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 458
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient"
+    },
+    "expression" : ["Bundle.entry[7].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 458
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    },
+    "expression" : ["Bundle.entry[7].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 523
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1"
+    },
+    "expression" : ["Bundle.entry[8].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 494
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 5
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "warning",
+    "code" : "invariant",
+    "details" : {
+      "text" : "Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)"
+    },
+    "expression" : ["Bundle.entry[8].resource/*Observation/null*/"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 523
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient"
+    },
+    "expression" : ["Bundle.entry[8].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 523
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    },
+    "expression" : ["Bundle.entry[8].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 588
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1"
+    },
+    "expression" : ["Bundle.entry[9].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 559
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 5
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "warning",
+    "code" : "invariant",
+    "details" : {
+      "text" : "Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)"
+    },
+    "expression" : ["Bundle.entry[9].resource/*Observation/null*/"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 588
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient"
+    },
+    "expression" : ["Bundle.entry[9].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 588
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    },
+    "expression" : ["Bundle.entry[9].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 664
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1"
+    },
+    "expression" : ["Bundle.entry[10].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 635
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 5
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "warning",
+    "code" : "invariant",
+    "details" : {
+      "text" : "Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)"
+    },
+    "expression" : ["Bundle.entry[10].resource/*Observation/null*/"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 664
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient"
+    },
+    "expression" : ["Bundle.entry[10].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 664
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    },
+    "expression" : ["Bundle.entry[10].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 729
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1"
+    },
+    "expression" : ["Bundle.entry[11].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 700
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 5
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "warning",
+    "code" : "invariant",
+    "details" : {
+      "text" : "Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)"
+    },
+    "expression" : ["Bundle.entry[11].resource/*Observation/null*/"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 729
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient"
+    },
+    "expression" : ["Bundle.entry[11].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 729
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    },
+    "expression" : ["Bundle.entry[11].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 794
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1"
+    },
+    "expression" : ["Bundle.entry[12].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 765
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 5
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization|6.5.0"
+    }],
+    "severity" : "warning",
+    "code" : "invariant",
+    "details" : {
+      "text" : "Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)"
+    },
+    "expression" : ["Bundle.entry[12].resource/*Observation/null*/"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 794
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Reference_REF_CantMatchChoice"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "error",
+    "code" : "structure",
+    "details" : {
+      "text" : "Unable to find a profile match for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 among choices: https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient"
+    },
+    "expression" : ["Bundle.entry[12].resource/*Observation/null*/.subject"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+      "valueInteger" : 794
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+      "valueInteger" : 6
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-source",
+      "valueString" : "InstanceValidator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueCode" : "Details_for__matching_against_Profile_"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-context",
+      "valueString" : "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    }],
+    "severity" : "information",
+    "code" : "structure",
+    "details" : {
+      "text" : "Details for urn:uuid:a6ec0f94-fe7e-57bc-93c4-675502aef461 matching against profile https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient|6.5.0"
+    },
+    "expression" : ["Bundle.entry[12].resource/*Observation/null*/.subject"]
+  }]
+}

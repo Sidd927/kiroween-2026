@@ -1,0 +1,72 @@
+{
+ "doc_id": "A-12030-crlf_trailing",
+ "layout": "A",
+ "perturbation": "crlf_trailing",
+ "expected": "accept",
+ "expected_layout": "A",
+ "truth": {
+  "patient_id": "SP/26/141690",
+  "patient_name": "NIKHIL SHINDE",
+  "patient_age": 20,
+  "patient_sex": "male",
+  "collected": "2026-09-19",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "13.2",
+    "unit": "gm/dL",
+    "label": "HAEMOGLOBIN"
+   },
+   {
+    "code": "RBC",
+    "value": "4.85",
+    "unit": "mill/cumm",
+    "label": "R.B.C. COUNT"
+   },
+   {
+    "code": "HCT",
+    "value": "43.7",
+    "unit": "%",
+    "label": "P.C.V."
+   },
+   {
+    "code": "MCV",
+    "value": "91.3",
+    "unit": "fL",
+    "label": "M.C.V."
+   },
+   {
+    "code": "MCH",
+    "value": "32.1",
+    "unit": "pg",
+    "label": "M.C.H."
+   },
+   {
+    "code": "MCHC",
+    "value": "34.2",
+    "unit": "g/dL",
+    "label": "M.C.H.C."
+   },
+   {
+    "code": "WBC",
+    "value": "2045",
+    "unit": "/cumm",
+    "label": "TOTAL LEUCOCYTE COUNT"
+   },
+   {
+    "code": "NEUT%",
+    "value": "26",
+    "unit": "%",
+    "label": "NEUTROPHILS"
+   },
+   {
+    "code": "PLT",
+    "value": "4.44",
+    "unit": "lakh/cumm",
+    "label": "PLATELET COUNT"
+   }
+  ]
+ },
+ "text": "                          SUNRISE PATHOLOGY LABORATORY \r\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678   \r\n-------------------------------------------------------------------------------- \r\nPatient Name : MR. NIKHIL SHINDE                Lab No.   : SP/26/141690   \r\nAge / Sex    : 20 Yrs / M                       Collected : 19/09/2026 07:40\r\nRef. By      : DR. R. SHAH                      Reported  : 20/09/2026 07:05   \r\n--------------------------------------------------------------------------------  \r\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\r\n-------------------------------------------------------------------------------- \r\nTEST                          RESULT      UNIT          REFERENCE RANGE\r\n--------------------------------------------------------------------------------\r\nHAEMOGLOBIN                   13.2        gm/dL         13.0 - 17.0\r\nR.B.C. COUNT                  4.85        mill/cumm     4.50 - 5.50 \r\nP.C.V.                        43.7        %             40.0 - 50.0\r\nM.C.V.                        91.3        fL            83.0 - 101.0 \r\nM.C.H.                        32.1 H      pg            27.0 - 32.0\r\nM.C.H.C.                      34.2        g/dL          31.5 - 34.5   \r\nTOTAL LEUCOCYTE COUNT         2045 L      /cumm         4000 - 11000   \r\nNEUTROPHILS                   26 L        %             40 - 80   \r\nPLATELET COUNT                4.44 H      lakh/cumm     1.50 - 4.10 \r\n-------------------------------------------------------------------------------- \r\n                             *** END OF REPORT ***  \r\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT  \r\n",
+ "split": "test"
+}

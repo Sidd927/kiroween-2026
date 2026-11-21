@@ -1,0 +1,54 @@
+{
+ "doc_id": "D-42041-long_name",
+ "layout": "D",
+ "perturbation": "long_name",
+ "expected": "accept",
+ "expected_layout": "D",
+ "truth": {
+  "patient_id": "26-7545843",
+  "patient_name": "RAJALAKSHMI CHANDRASEKARAN",
+  "patient_age": 84,
+  "patient_sex": "female",
+  "collected": "2026-03-09",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "84",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)"
+   },
+   {
+    "code": "CREA",
+    "value": "0.61",
+    "unit": "mg/dL",
+    "label": "Serum Creatinine"
+   },
+   {
+    "code": "UREA",
+    "value": "10",
+    "unit": "mg/dL",
+    "label": "Blood Urea"
+   },
+   {
+    "code": "HGB",
+    "value": "15.7",
+    "unit": "g/dl",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "WBC",
+    "value": "1766",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)"
+   },
+   {
+    "code": "PLT",
+    "value": "5.26",
+    "unit": "lakhs/cumm",
+    "label": "Platelets"
+   }
+  ]
+ },
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-7545843            | Coll. Dt : 09.03.26            |\n| Name : SMT. RAJALAKSHMI CHANDRASEKARAN| Age/Sex : 84/F                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 84      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 0.61    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 10      | mg/dL      | 15-40      | L    |\n| Haemoglobin         | 15.7    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 1766    | /cumm      | 4000-11000 | L    |\n| Platelets           | 5.26    | lakhs/cumm | 1.50-4.50  | H    |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

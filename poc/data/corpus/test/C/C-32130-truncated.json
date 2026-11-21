@@ -1,0 +1,10 @@
+{
+ "doc_id": "C-32130-truncated",
+ "layout": "C",
+ "perturbation": "truncated",
+ "expected": "reject",
+ "expected_layout": "C",
+ "truth": null,
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-08-13\nPatient : Fernandes, Pooja (F/31)\nPatient ID : 4314569       Sample : S-73934\nCollected  : 2026-08-12 10:40\nConsultant : Dr. A. Rao\n\nBIOCHEMISTRY\n  Test / Method\n      Result     Units     Normal Range\n  ----------------------------------------\n  BILIRUBIN TOTAL\n      (Diazo method)\n      0.42       mg/dl     0.20 - 1.20\n  BILIRUBIN DIRECT\n      (Diazo method)\n      0.02       mg/dl     0.00 - 0.30\n  SGPT (ALT)\n      (IFCC)\n      24         U/L       0 - 40\n  SGOT (AST)\n      (IFCC)\n      36         U/L       0 - 40",
+ "split": "test"
+}

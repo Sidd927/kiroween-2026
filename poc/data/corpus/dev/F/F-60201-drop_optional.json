@@ -1,0 +1,66 @@
+{
+ "doc_id": "F-60201-drop_optional",
+ "layout": "F",
+ "perturbation": "drop_optional",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "98013394",
+  "patient_name": "NAIR TANVI",
+  "patient_age": 63,
+  "patient_sex": "male",
+  "collected": "2026-04-20",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "15.1",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "37.8",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "13.4",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "5.45",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "MCV",
+    "value": "91.9",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "67",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "0.84",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   },
+   {
+    "code": "AST",
+    "value": "12",
+    "unit": "U/L",
+    "label": "AST"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4441557\nPT: NAIR TANVI             MRN 98013394    AGE: 63Y  SEX: M\nCOLLECTED 04/20/2026 0850   RECEIVED 04/20/2026 1825\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   15.1             12.0-15.5\nHEMATOCRIT (%)                      37.8             36.0-46.0\nWBC (K/uL)                          13.4      H      4.0-11.0\nRBC (M/uL)                          5.45      H      4.00-5.20\nMCV (fL)                            91.9             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            67        L      70-99\nCREATININE (mg/dL)                  0.84             0.50-1.10\nAST (U/L)                           12               10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

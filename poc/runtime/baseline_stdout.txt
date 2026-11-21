@@ -1,0 +1,32 @@
+baseline docs: 128
+{
+ "documents": 128,
+ "llm_errors": 8,
+ "direct_llm": {
+  "outcomes": {
+   "false_reject": 29,
+   "correct_accept": 29,
+   "correct_reject": 56,
+   "unsafe_accept": 6
+  },
+  "silent_errors": 6,
+  "silent_error_rate_of_accepted": "6/35",
+  "false_rejects": "29/58",
+  "clean_refusals": "16/30"
+ },
+ "direct_llm_plus_validators": {
+  "outcomes": {
+   "false_reject": 29,
+   "correct_accept": 29,
+   "correct_reject": 56,
+   "unsafe_accept": 6
+  },
+  "silent_errors": 6,
+  "silent_error_rate_of_accepted": "6/35",
+  "false_rejects": "29/58",
+  "clean_refusals": "16/30"
+ },
+ "median_seconds_per_doc": 7.5,
+ "total_cost_usd": 2.989,
+ "llm_calls": 128
+}

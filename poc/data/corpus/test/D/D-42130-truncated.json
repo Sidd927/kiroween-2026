@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-42130-truncated",
+ "layout": "D",
+ "perturbation": "truncated",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-9981900            | Coll. Dt : 22.07.26            |\n| Name : SMT. DIVYA MORE       | Age/Sex : 55/F                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 81      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 1.12    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 44      | mg/dL      | 15-40      | H    |\n| Haemoglobin         | 10.9    | g/dl       | 12.0-16.0  | L    |",
+ "split": "test"
+}

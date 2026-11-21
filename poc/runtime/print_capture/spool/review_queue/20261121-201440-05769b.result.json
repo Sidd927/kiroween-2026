@@ -1,0 +1,10 @@
+{
+ "job_id": "20261121-201440-05769b",
+ "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+ "llm_calls": 0,
+ "status": "REJECT",
+ "reasons": [
+  "unsupported format: binary-unknown"
+ ],
+ "ms": 0.01
+}

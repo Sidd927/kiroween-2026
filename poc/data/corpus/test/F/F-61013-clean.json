@@ -1,0 +1,72 @@
+{
+ "doc_id": "F-61013-clean",
+ "layout": "F",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "72147383",
+  "patient_name": "SHINDE KIRAN",
+  "patient_age": 47,
+  "patient_sex": "female",
+  "collected": "2026-04-07",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "12.8",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "32.6",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "9.4",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "4.64",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "PLT",
+    "value": "451",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "101.9",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "95",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "1.29",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   },
+   {
+    "code": "ALT",
+    "value": "36",
+    "unit": "U/L",
+    "label": "ALT"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4456144\nPT: SHINDE KIRAN           MRN 72147383    AGE: 47Y  SEX: F\nCOLLECTED 04/07/2026 0915   RECEIVED 04/08/2026 2005\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   12.8             12.0-15.5\nHEMATOCRIT (%)                      32.6      L      36.0-46.0\nWBC (K/uL)                          9.4              4.0-11.0\nRBC (M/uL)                          4.64             4.00-5.20\nPLATELETS (K/uL)                    451       H      150-400\nMCV (fL)                            101.9     H      80.0-100.0\nGLUCOSE, FASTING (mg/dL)            95               70-99\nCREATININE (mg/dL)                  1.29      H      0.50-1.10\nALT (U/L)                           36               7-56\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

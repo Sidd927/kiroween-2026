@@ -1,0 +1,99 @@
+[
+ {
+  "experiment": "E1 capture, preserve, forward, process",
+  "pass": true,
+  "sent_sha": "fa4e18be2f79c70eca0407098196c5d8cae6ea5f4e2b5cd890730bea2ebfe933",
+  "stored_sha": "fa4e18be2f79c70eca0407098196c5d8cae6ea5f4e2b5cd890730bea2ebfe933",
+  "printer_sha": "fa4e18be2f79c70eca0407098196c5d8cae6ea5f4e2b5cd890730bea2ebfe933",
+  "processing": {
+   "t": 1795272280.726,
+   "event": "job_processed",
+   "job_id": "20261121-201440-6c2d7a",
+   "status": "ACCEPT",
+   "binding": "lab-a",
+   "reasons": [],
+   "ms": 5.9,
+   "llm_calls": 0
+  }
+ },
+ {
+  "experiment": "E9 ESC/P control codes preserved for printer, stripped for extraction",
+  "pass": true,
+  "esc_bytes_in_job": 16,
+  "printer_sha_matches": true,
+  "processing": {
+   "t": 1795272280.798,
+   "event": "job_processed",
+   "job_id": "20261121-201440-0112a3",
+   "status": "ACCEPT",
+   "binding": "lab-b",
+   "reasons": [],
+   "ms": 7.44,
+   "llm_calls": 0
+  }
+ },
+ {
+  "experiment": "E8 invalid report: printed normally, data refused to review queue",
+  "pass": true,
+  "processing": {
+   "t": 1795272280.901,
+   "event": "job_processed",
+   "job_id": "20261121-201440-a0efd3",
+   "status": "REJECT",
+   "binding": "lab-a",
+   "reasons": [
+    "unit_not_accepted: P.C.V.: 'U/L' for HCT"
+   ],
+   "ms": 3.38,
+   "llm_calls": 0
+  }
+ },
+ {
+  "experiment": "E7 PostScript job: forwarded byte-identical, extraction refused (unsupported)",
+  "pass": true,
+  "processing": {
+   "t": 1795272281.008,
+   "event": "job_processed",
+   "job_id": "20261121-201441-2f1f56",
+   "status": "REJECT",
+   "binding": null,
+   "reasons": [
+    "unsupported format: postscript"
+   ],
+   "ms": 0.02,
+   "llm_calls": 0
+  }
+ },
+ {
+  "experiment": "E5 duplicate job: forwarded twice, data emitted once",
+  "pass": true,
+  "printed_copies": 2,
+  "processing_statuses": [
+   "ACCEPT",
+   "DUPLICATE"
+  ]
+ },
+ {
+  "experiment": "E3 printer offline: job kept, forwarded after recovery exactly once",
+  "pass": true,
+  "failed_attempts_before_success": 2,
+  "copies": 1
+ },
+ {
+  "experiment": "E2 listener offline: client gets connection refused; nothing captured until retry",
+  "pass": true,
+  "client_error": "ConnectionRefusedError: [Errno 61] Connection refused",
+  "captured_after_retry": 1,
+  "note": "Real Windows spooler retry behaviour NOT tested here (needs the Windows VM experiment)."
+ },
+ {
+  "experiment": "E4 interrupted transfer: partial job quarantined (not printed/processed), full resend accepted once",
+  "pass": true,
+  "incomplete_reason": "connection reset: ConnectionResetError",
+  "partial_bytes": 521
+ },
+ {
+  "experiment": "E6 limits: >2 MB job and idle client are cut off and quarantined",
+  "pass": true
+ }
+]

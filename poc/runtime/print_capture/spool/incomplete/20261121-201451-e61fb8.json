@@ -1,0 +1,10 @@
+{
+ "job_id": "20261121-201451-e61fb8",
+ "peer": "127.0.0.1",
+ "received_at": 1795272289.7600372,
+ "seconds": 2.002,
+ "bytes": 7,
+ "sha256": "9834a14ab9bcaa0f6a8da71073617eac8f004e596a3fa11d807b84631b825d9d",
+ "complete": false,
+ "incomplete_reason": "idle timeout 2.0s"
+}

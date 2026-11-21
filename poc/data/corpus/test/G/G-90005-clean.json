@@ -1,0 +1,10 @@
+{
+ "doc_id": "G-90005-clean",
+ "layout": "G",
+ "perturbation": "clean",
+ "expected": "reject",
+ "expected_layout": null,
+ "truth": null,
+ "text": "GOOD HEALTH CLINIC LAB\nPatient Divya Deshmukh  ID GH9399\nDate 2026/06/12\n\nHemoglobin: 12.0 g/dL (ref 13.0-17.0)\nWBC: 9.6 K/uL (ref 4.0-11.0)\nPlatelets: 369 K/uL (ref 150-400)\n\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n\f",
+ "split": "test"
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12110-duplicate_conflict",
+ "layout": "A",
+ "perturbation": "duplicate_conflict",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MRS. KAVYA BHOSALE               Lab No.   : SP/26/346532\nAge / Sex    : 81 Yrs / F                       Collected : 07/08/2026 07:00\nRef. By      : DR. V. GUPTA                     Reported  : 08/08/2026 10:50\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   15.9        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  4.58        mill/cumm     4.50 - 5.50\nP.C.V.                        43.4        %             40.0 - 50.0\nM.C.V.                        101.5 H     fL            83.0 - 101.0\nM.C.H.                        29.9        pg            27.0 - 32.0\nM.C.H.C.                      32.8        g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         11220 H     /cumm         4000 - 11000\nNEUTROPHILS                   81 H        %             40 - 80\nLYMPHOCYTES                   36          %             20 - 40\nPLATELET COUNT                4.94 H      lakh/cumm     1.50 - 4.10\nPLATELET COUNT                6.18 H      lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

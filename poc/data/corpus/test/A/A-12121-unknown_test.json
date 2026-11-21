@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12121-unknown_test",
+ "layout": "A",
+ "perturbation": "unknown_test",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MRS. KIRAN IYER                  Lab No.   : SP/26/723962\nAge / Sex    : 77 Yrs / F                       Collected : 10/05/2026 08:15\nRef. By      : DR. P. NAIR                      Reported  : 11/05/2026 20:15\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   13.8        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  4.60        mill/cumm     4.50 - 5.50\nP.C.V.                        51.3 H      %             40.0 - 50.0\nM.CV.                         103.5 H     fL            83.0 - 101.0\nM.C.H.                        26.2 L      pg            27.0 - 32.0\nM.C.H.C.                      32.8        g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         11649 H     /cumm         4000 - 11000\nNEUTROPHILS                   56          %             40 - 80\nPLATELET COUNT                0.77 L      lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

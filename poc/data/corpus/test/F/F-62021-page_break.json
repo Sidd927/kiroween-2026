@@ -1,0 +1,72 @@
+{
+ "doc_id": "F-62021-page_break",
+ "layout": "F",
+ "perturbation": "page_break",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "40191671",
+  "patient_name": "FERNANDES SNEHA",
+  "patient_age": 32,
+  "patient_sex": "male",
+  "collected": "2026-02-20",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "15.6",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "37.6",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "11.3",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "3.58",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "PLT",
+    "value": "375",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "102.5",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "89",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "0.95",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   },
+   {
+    "code": "ALT",
+    "value": "42",
+    "unit": "U/L",
+    "label": "ALT"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4470482\nPT: FERNANDES SNEHA        MRN 40191671    AGE: 32Y  SEX: M\nCOLLECTED 02/20/2026 1115   RECEIVED 02/21/2026 0050\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   15.6      H      12.0-15.5\nHEMATOCRIT (%)                      37.6             36.0-46.0\nWBC (K/uL)                          11.3      H      4.0-11.0\nRBC (M/uL)                          3.58      L      4.00-5.20\n\nMEDILINK REFERENCE LAB  -  ACCESSION 4470482\nPT: FERNANDES SNEHA        MRN 40191671    AGE: 32Y  SEX: M\nCOLLECTED 02/20/2026 1115   RECEIVED 02/21/2026 0050\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nPLATELETS (K/uL)                    375              150-400\nMCV (fL)                            102.5     H      80.0-100.0\nGLUCOSE, FASTING (mg/dL)            89               70-99\nCREATININE (mg/dL)                  0.95             0.50-1.10\nALT (U/L)                           42               7-56\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

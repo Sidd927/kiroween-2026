@@ -1,0 +1,72 @@
+{
+ "doc_id": "B-20101-clean",
+ "layout": "B",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-376561",
+  "patient_name": "Nikhil Deshmukh",
+  "patient_age": 8,
+  "patient_sex": "female",
+  "collected": "2026-10-01",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "16.6",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "4.69",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "48.8",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "105.1",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "27.1",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "33.2",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "10146",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "NEUT%",
+    "value": "38",
+    "unit": "%",
+    "label": "Neutrophils"
+   },
+   {
+    "code": "PLT",
+    "value": "303",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-376561            Date : 02-Oct-2026\nName    : Nikhil Deshmukh       Age  : 8 Y   Sex : Female\nSample collected on : 01-Oct-2026 09:50 AM\nReferred by : Dr. V. Gupta\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. 16.6     g/dL          13.0-17.0\nRBC Count ............... 4.69     million/cumm  4.50-5.50\nPCV / Haematocrit ....... 48.8     %             40.0-50.0\nMCV ..................... \u001bE105.1    \u001bFfl            83.0-101.0\nMCH ..................... 27.1     pg            27.0-32.0\nMCHC .................... 33.2     g/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-376561            Date : 02-Oct-2026\nName    : Nikhil Deshmukh       Age  : 8 Y   Sex : Female\nSample collected on : 01-Oct-2026 09:50 AM\nReferred by : Dr. V. Gupta\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nTotal WBC Count ......... 10146    cells/cumm    4000-11000\nNeutrophils ............. \u001bE38       \u001bF%             40-80\nPlatelet Count .......... 303      10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

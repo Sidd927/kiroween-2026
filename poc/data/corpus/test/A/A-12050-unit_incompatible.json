@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12050-unit_incompatible",
+ "layout": "A",
+ "perturbation": "unit_incompatible",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MR. ROHAN SHARMA                 Lab No.   : SP/26/519338\nAge / Sex    : 28 Yrs / M                       Collected : 05/09/2026 08:15\nRef. By      : DR. S. JOSHI                     Reported  : 06/09/2026 05:25\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   15.2        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  4.49 L      mill/cumm     4.50 - 5.50\nP.C.V.                        50.8 H      U/L           40.0 - 50.0\nM.C.V.                        96.6        fL            83.0 - 101.0\nM.C.H.                        27.1        pg            27.0 - 32.0\nM.C.H.C.                      34.9 H      g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         3656 L      /cumm         4000 - 11000\nNEUTROPHILS                   61          %             40 - 80\nLYMPHOCYTES                   44 H        %             20 - 40\nPLATELET COUNT                3.23        lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

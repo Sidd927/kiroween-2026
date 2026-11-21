@@ -1,0 +1,54 @@
+{
+ "doc_id": "D-41008-clean",
+ "layout": "D",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "D",
+ "truth": {
+  "patient_id": "26-7568142",
+  "patient_name": "KIRAN SHARMA",
+  "patient_age": 2,
+  "patient_sex": "female",
+  "collected": "2026-09-10",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "107",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)"
+   },
+   {
+    "code": "CREA",
+    "value": "0.86",
+    "unit": "mg/dL",
+    "label": "Serum Creatinine"
+   },
+   {
+    "code": "UREA",
+    "value": "46",
+    "unit": "mg/dL",
+    "label": "Blood Urea"
+   },
+   {
+    "code": "HGB",
+    "value": "14.3",
+    "unit": "g/dl",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "WBC",
+    "value": "10493",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)"
+   },
+   {
+    "code": "PLT",
+    "value": "2.05",
+    "unit": "lakhs/cumm",
+    "label": "Platelets"
+   }
+  ]
+ },
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-7568142            | Coll. Dt : 10.09.26            |\n| Name : KUM. KIRAN SHARMA     | Age/Sex : 2/F                  |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 107     | mg/dL      | 70-100     | H    |\n| Serum Creatinine    | 0.86    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 46      | mg/dL      | 15-40      | H    |\n| Haemoglobin         | 14.3    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 10493   | /cumm      | 4000-11000 |      |\n| Platelets           | 2.05    | lakhs/cumm | 1.50-4.50  |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

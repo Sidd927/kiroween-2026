@@ -1,0 +1,72 @@
+{
+ "doc_id": "B-22031-crlf_trailing",
+ "layout": "B",
+ "perturbation": "crlf_trailing",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-696209",
+  "patient_name": "Isha Gupta",
+  "patient_age": 77,
+  "patient_sex": "male",
+  "collected": "2026-09-02",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "12.0",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "5.05",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "39.1",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "97.6",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "33.0",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "33.2",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "12270",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "15",
+    "unit": "%",
+    "label": "Lymphocytes"
+   },
+   {
+    "code": "PLT",
+    "value": "133",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF \r\n             Plot 7, MIDC Area, Aurangabad - 431001\r\nReg. No : CDC-696209            Date : 03-Sep-2026   \r\nName    : Isha Gupta            Age  : 77 Y   Sex : Male \r\nSample collected on : 02-Sep-2026 08:45 AM\r\nReferred by : Dr. R. Shah \r\n                                                     Page 1 of 2  \r\n================================================================\r\nInvestigation             Value    Units         Biological Ref. \r\n----------------------------------------------------------------   \r\nHaemoglobin ............. \u001bE12.0     \u001bFg/dL          13.0-17.0  \r\nRBC Count ............... 5.05     million/cumm  4.50-5.50 \r\nPCV / Haematocrit ....... \u001bE39.1     \u001bF%             40.0-50.0\r\nMCV ..................... 97.6     fl            83.0-101.0   \r\nMCH ..................... \u001bE33.0     \u001bFpg            27.0-32.0   \r\nMCHC .................... 33.2     g/dl          31.5-34.5   \r\n----------------------------------------------------------------\r\n                                                     (continued)  \r\n   \r\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF \r\n             Plot 7, MIDC Area, Aurangabad - 431001  \r\nReg. No : CDC-696209            Date : 03-Sep-2026  \r\nName    : Isha Gupta            Age  : 77 Y   Sex : Male \r\nSample collected on : 02-Sep-2026 08:45 AM  \r\nReferred by : Dr. R. Shah   \r\n                                                     Page 2 of 2 \r\n================================================================ \r\nInvestigation             Value    Units         Biological Ref. \r\n----------------------------------------------------------------  \r\nTotal WBC Count ......... \u001bE12270    \u001bFcells/cumm    4000-11000   \r\nLymphocytes ............. \u001bE15       \u001bF%             20-40\r\nPlatelet Count .......... \u001bE133      \u001bF10^3/uL       150-410  \r\n----------------------------------------------------------------   \r\nValues in bold are outside the biological reference interval.\r\n                     --- End of Report --- \r\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\r\n ",
+ "split": "test"
+}

@@ -1,0 +1,72 @@
+{
+ "doc_id": "A-10203-crlf_trailing",
+ "layout": "A",
+ "perturbation": "crlf_trailing",
+ "expected": "accept",
+ "expected_layout": "A",
+ "truth": {
+  "patient_id": "SP/26/776384",
+  "patient_name": "ROHAN BHOSALE",
+  "patient_age": 78,
+  "patient_sex": "male",
+  "collected": "2026-05-14",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "13.8",
+    "unit": "gm/dL",
+    "label": "HAEMOGLOBIN"
+   },
+   {
+    "code": "RBC",
+    "value": "5.47",
+    "unit": "mill/cumm",
+    "label": "R.B.C. COUNT"
+   },
+   {
+    "code": "HCT",
+    "value": "42.9",
+    "unit": "%",
+    "label": "P.C.V."
+   },
+   {
+    "code": "MCV",
+    "value": "86.7",
+    "unit": "fL",
+    "label": "M.C.V."
+   },
+   {
+    "code": "MCH",
+    "value": "28.5",
+    "unit": "pg",
+    "label": "M.C.H."
+   },
+   {
+    "code": "MCHC",
+    "value": "33.8",
+    "unit": "g/dL",
+    "label": "M.C.H.C."
+   },
+   {
+    "code": "WBC",
+    "value": "2959",
+    "unit": "/cumm",
+    "label": "TOTAL LEUCOCYTE COUNT"
+   },
+   {
+    "code": "NEUT%",
+    "value": "92",
+    "unit": "%",
+    "label": "NEUTROPHILS"
+   },
+   {
+    "code": "PLT",
+    "value": "3.89",
+    "unit": "lakh/cumm",
+    "label": "PLATELET COUNT"
+   }
+  ]
+ },
+ "text": "                          SUNRISE PATHOLOGY LABORATORY   \r\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678  \r\n-------------------------------------------------------------------------------- \r\nPatient Name : MR. ROHAN BHOSALE                Lab No.   : SP/26/776384   \r\nAge / Sex    : 78 Yrs / M                       Collected : 14/05/2026 08:30   \r\nRef. By      : DR. M. KULKARNI                  Reported  : 15/05/2026 23:55\r\n-------------------------------------------------------------------------------- \r\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT  \r\n--------------------------------------------------------------------------------   \r\nTEST                          RESULT      UNIT          REFERENCE RANGE \r\n-------------------------------------------------------------------------------- \r\nHAEMOGLOBIN                   13.8        gm/dL         13.0 - 17.0\r\nR.B.C. COUNT                  5.47        mill/cumm     4.50 - 5.50\r\nP.C.V.                        42.9        %             40.0 - 50.0  \r\nM.C.V.                        86.7        fL            83.0 - 101.0\r\nM.C.H.                        28.5        pg            27.0 - 32.0\r\nM.C.H.C.                      33.8        g/dL          31.5 - 34.5\r\nTOTAL LEUCOCYTE COUNT         2959 L      /cumm         4000 - 11000   \r\nNEUTROPHILS                   92 H        %             40 - 80   \r\nPLATELET COUNT                3.89        lakh/cumm     1.50 - 4.10\r\n-------------------------------------------------------------------------------- \r\n                             *** END OF REPORT ***\r\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT  \r\n  ",
+ "split": "dev"
+}

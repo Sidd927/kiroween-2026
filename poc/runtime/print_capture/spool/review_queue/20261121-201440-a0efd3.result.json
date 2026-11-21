@@ -1,0 +1,11 @@
+{
+ "job_id": "20261121-201440-a0efd3",
+ "sha256": "47413be400543325a39c67ee15fa66d00afd6bf033b27fe1fb07b8349ed02b57",
+ "llm_calls": 0,
+ "status": "REJECT",
+ "binding": "lab-a",
+ "reasons": [
+  "unit_not_accepted: P.C.V.: 'U/L' for HCT"
+ ],
+ "ms": 3.38
+}

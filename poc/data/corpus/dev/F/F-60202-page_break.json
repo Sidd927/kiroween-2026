@@ -1,0 +1,72 @@
+{
+ "doc_id": "F-60202-page_break",
+ "layout": "F",
+ "perturbation": "page_break",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "50943811",
+  "patient_name": "KHAN OMKAR",
+  "patient_age": 50,
+  "patient_sex": "female",
+  "collected": "2026-02-08",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "11.8",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "34.6",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "8.4",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "4.68",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "PLT",
+    "value": "215",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "84.2",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "85",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "1.00",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   },
+   {
+    "code": "AST",
+    "value": "20",
+    "unit": "U/L",
+    "label": "AST"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4413096\nPT: KHAN OMKAR             MRN 50943811    AGE: 50Y  SEX: F\nCOLLECTED 02/08/2026 0945   RECEIVED 02/10/2026 0055\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   11.8      L      12.0-15.5\nHEMATOCRIT (%)                      34.6      L      36.0-46.0\nWBC (K/uL)                          8.4              4.0-11.0\n\nMEDILINK REFERENCE LAB  -  ACCESSION 4413096\nPT: KHAN OMKAR             MRN 50943811    AGE: 50Y  SEX: F\nCOLLECTED 02/08/2026 0945   RECEIVED 02/10/2026 0055\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nRBC (M/uL)                          4.68             4.00-5.20\nPLATELETS (K/uL)                    215              150-400\nMCV (fL)                            84.2             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            85               70-99\nCREATININE (mg/dL)                  1.00             0.50-1.10\nAST (U/L)                           20               10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

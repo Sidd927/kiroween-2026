@@ -1,0 +1,10 @@
+{
+ "doc_id": "C-30210-date_invalid",
+ "layout": "C",
+ "perturbation": "date_invalid",
+ "expected": "reject",
+ "expected_layout": "C",
+ "truth": null,
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-06-19\nPatient : Reddy, Priya (M/40)\nPatient ID : 7258680       Sample : S-91223\nCollected  : 2026-02-31 09:10\nConsultant : Dr. V. Gupta\n\nBIOCHEMISTRY\n  Test / Method\n      Result     Units     Normal Range\n  ----------------------------------------\n  BILIRUBIN TOTAL\n      (Diazo method)\n      0.68       mg/dl     0.20 - 1.20\n  BILIRUBIN DIRECT\n      (Diazo method)\n      0.32 *     mg/dl     0.00 - 0.30\n  SGPT (ALT)\n      (IFCC)\n      31         U/L       0 - 40\n  SGOT (AST)\n      (IFCC)\n      39         U/L       0 - 40\n  ALKALINE PHOSPHATASE\n      (PNPP-AMP)\n      18 *       IU/L      40 - 130\n  TOTAL PROTEINS\n      (Biuret)\n      7.1        g/dl      6.0 - 8.3\n  ALBUMIN\n      (BCG)\n      4.3        g/dl      3.5 - 5.2\n  SERUM CREATININE\n      (Jaffe kinetic)\n      1.34 *     mg/dl     0.60 - 1.30\n  BLOOD UREA\n      (Urease-GLDH)\n      43         mg/dl     15 - 45\n  ----------------------------------------\n  * Value outside normal range\n\nChecked by: Lab Technologist\n                           -- END --\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

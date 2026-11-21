@@ -1,0 +1,60 @@
+{
+ "doc_id": "C-30104-clean",
+ "layout": "C",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "C",
+ "truth": {
+  "patient_id": "7793734",
+  "patient_name": "Mehta, Ananya",
+  "patient_age": 52,
+  "patient_sex": "male",
+  "collected": "2026-01-15",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "0.93",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.38",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT"
+   },
+   {
+    "code": "ALT",
+    "value": "21",
+    "unit": "U/L",
+    "label": "SGPT (ALT)"
+   },
+   {
+    "code": "AST",
+    "value": "35",
+    "unit": "U/L",
+    "label": "SGOT (AST)"
+   },
+   {
+    "code": "ALP",
+    "value": "158",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE"
+   },
+   {
+    "code": "TP",
+    "value": "8.6",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS"
+   },
+   {
+    "code": "ALB",
+    "value": "3.9",
+    "unit": "g/dl",
+    "label": "ALBUMIN"
+   }
+  ]
+ },
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-01-16\nPatient : Mehta, Ananya (M/52)\nPatient ID : 7793734       Sample : S-13104\nCollected  : 2026-01-15 11:30\nConsultant : Dr. V. Gupta\n\nBIOCHEMISTRY\n  Test / Method\n      Result     Units     Normal Range\n  ----------------------------------------\n  BILIRUBIN TOTAL\n      (Diazo method)\n      0.93       mg/dl     0.20 - 1.20\n  BILIRUBIN DIRECT\n      (Diazo method)\n      0.38 *     mg/dl     0.00 - 0.30\n  SGPT (ALT)\n      (IFCC)\n      21         U/L       0 - 40\n  SGOT (AST)\n      (IFCC)\n      35         U/L       0 - 40\n  ALKALINE PHOSPHATASE\n      (PNPP-AMP)\n      158 *      IU/L      40 - 130\n  TOTAL PROTEINS\n      (Biuret)\n      8.6 *      g/dl      6.0 - 8.3\n  ALBUMIN\n      (BCG)\n      3.9        g/dl      3.5 - 5.2\n  ----------------------------------------\n  * Value outside normal range\n\nChecked by: Lab Technologist\n                           -- END --\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

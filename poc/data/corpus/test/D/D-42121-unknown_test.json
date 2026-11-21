@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-42121-unknown_test",
+ "layout": "D",
+ "perturbation": "unknown_test",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-2016953            | Coll. Dt : 08.02.26            |\n| Name : KUM. TANVI MORE       | Age/Sex : 49/F                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 66      | mg/dL      | 70-100     | L    |\n| Serum Creatinine    | 1.36    | mg/dL      | 0.60-1.20  | H    |\n| BloodUrea           | 32      | mg/dL      | 15-40      |      |\n| Haemoglobin         | 13.9    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 1709    | /cumm      | 4000-11000 | L    |\n| Platelets           | 3.23    | lakhs/cumm | 1.50-4.50  |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

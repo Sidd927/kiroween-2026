@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Spoolgeist Binding (declarative parsing rule for ONE report layout)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["binding_id", "description", "layout", "fields", "results"],
+  "properties": {
+    "binding_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,40}$"},
+    "description": {"type": "string", "maxLength": 300},
+    "layout": {
+      "type": "object", "additionalProperties": false, "required": ["anchors"],
+      "description": "Layout identification. A document belongs to this layout only if EVERY anchor regex matches somewhere in the normalised text (multiline mode). Anchors must be static text that appears in every report of this layout (lab name, fixed labels, column headers), never variable data.",
+      "properties": {
+        "anchors": {"type": "array", "minItems": 2, "maxItems": 8, "items": {"type": "string", "minLength": 4}}
+      }
+    },
+    "fields": {
+      "type": "object", "additionalProperties": false,
+      "required": ["patient_id", "patient_name", "collected"],
+      "properties": {
+        "patient_id":   {"$ref": "#/$defs/field"},
+        "patient_name": {"$ref": "#/$defs/field"},
+        "patient_age":  {"$ref": "#/$defs/field"},
+        "patient_sex":  {"$ref": "#/$defs/field"},
+        "collected":    {"$ref": "#/$defs/field"},
+        "reported":     {"$ref": "#/$defs/field"}
+      }
+    },
+    "results": {
+      "type": "object", "additionalProperties": false,
+      "required": ["start", "end", "skip_lines", "row", "labels", "flags", "min_rows", "max_rows"],
+      "properties": {
+        "start": {"type": "string", "description": "Regex matching the LINE that immediately precedes the first result row (e.g. a column-header or separator line). The first matching line is used."},
+        "end": {"type": "string", "description": "Regex matching the first LINE after the last result row (e.g. the closing separator / end-of-report marker). Searched after the start line. If no line matches, the document is rejected as truncated."},
+        "skip_lines": {"type": "array", "maxItems": 20, "items": {"type": "string"}, "description": "Regexes for non-data lines that can appear BETWEEN start and end (blank lines, separators, section headings, repeated page headers after a page break). A line is dropped if any skip regex matches it. A skip regex must never match a result row."},
+        "row": {"type": "string", "description": "Regex (multiline mode, applied with finditer over the remaining table text) matching ONE result. Must define named groups: label, value, unit; optional named groups: flag, ref_low, ref_high. Matches may span several lines (use \\n explicitly). Every non-whitespace character of the table must be consumed by some row match, otherwise the document is rejected."},
+        "labels": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "string"}, "description": "Map from the printed test label (after trimming and collapsing internal whitespace) to a canonical test code from the dictionary."},
+        "flags": {"type": "object", "additionalProperties": {"enum": ["H", "L", "A"]}, "description": "Map from printed abnormal-flag text to H (high), L (low) or A (abnormal, direction not stated). Empty object if the layout prints no flag letters."},
+        "min_rows": {"type": "integer", "minimum": 1},
+        "max_rows": {"type": "integer", "minimum": 1}
+      }
+    }
+  },
+  "$defs": {
+    "field": {
+      "type": "object", "additionalProperties": false, "required": ["regex", "type", "required"],
+      "properties": {
+        "regex": {"type": "string", "description": "Regex (multiline mode, searched over the whole normalised text) with exactly one named group 'v' capturing the value. If it matches several times with different captured values the document is rejected as ambiguous."},
+        "type": {"enum": ["string", "integer", "date", "enum"]},
+        "format": {"type": "string", "description": "For type=date: Python strptime format of the captured text, e.g. %d/%m/%Y or %d/%m/%Y %H:%M"},
+        "enum_map": {"type": "object", "additionalProperties": {"type": "string"}, "description": "For type=enum: printed value -> normalised value (sex: male/female)"},
+        "required": {"type": "boolean"},
+        "pattern": {"type": "string", "description": "Optional regex the captured value must FULLY match (validation, e.g. the patient-ID format)."}
+      }
+    }
+  }
+}

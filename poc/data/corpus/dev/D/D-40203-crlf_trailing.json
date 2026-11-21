@@ -1,0 +1,54 @@
+{
+ "doc_id": "D-40203-crlf_trailing",
+ "layout": "D",
+ "perturbation": "crlf_trailing",
+ "expected": "accept",
+ "expected_layout": "D",
+ "truth": {
+  "patient_id": "26-5063705",
+  "patient_name": "NEHA NAIR",
+  "patient_age": 8,
+  "patient_sex": "female",
+  "collected": "2026-07-22",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "99",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)"
+   },
+   {
+    "code": "CREA",
+    "value": "0.86",
+    "unit": "mg/dL",
+    "label": "Serum Creatinine"
+   },
+   {
+    "code": "UREA",
+    "value": "40",
+    "unit": "mg/dL",
+    "label": "Blood Urea"
+   },
+   {
+    "code": "HGB",
+    "value": "11.7",
+    "unit": "g/dl",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "WBC",
+    "value": "3083",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)"
+   },
+   {
+    "code": "PLT",
+    "value": "5.48",
+    "unit": "lakhs/cumm",
+    "label": "Platelets"
+   }
+  ]
+ },
+ "text": "+----------------------------------------------------------------+   \r\n|                     SHREE SAI DIAGNOSTICS                      |   \r\n|             Near Bus Stand, Shirdi Road, Kopargaon             |   \r\n+----------------------------------------------------------------+   \r\n| UHID : 26-5063705            | Coll. Dt : 22.07.26            | \r\n| Name : KUM. NEHA NAIR        | Age/Sex : 8/F                  | \r\n+---------------------+---------+------------+------------+------+ \r\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\r\n+---------------------+---------+------------+------------+------+   \r\n| Glucose (Fasting)   | 99      | mg/dL      | 70-100     |      |\r\n| Serum Creatinine    | 0.86    | mg/dL      | 0.60-1.20  |      |  \r\n| Blood Urea          | 40      | mg/dL      | 15-40      |      |   \r\n| Haemoglobin         | 11.7    | g/dl       | 12.0-16.0  | L    | \r\n| Total Count (WBC)   | 3083    | /cumm      | 4000-11000 | L    | \r\n| Platelets           | 5.48    | lakhs/cumm | 1.50-4.50  | H    |  \r\n+---------------------+---------+------------+------------+------+\r\n|                      ** End of Report **                       |\r\n+----------------------------------------------------------------+  \r\nSYNTHETIC SAMPLE - NOT A REAL PATIENT \r\n",
+ "split": "dev"
+}

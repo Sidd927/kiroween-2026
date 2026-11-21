@@ -1,0 +1,8 @@
+.venv/
+.tools/
+__pycache__/
+.pytest_cache/
+.hypothesis/
+# bulky, regenerable: FHIR bundles (rebuild with `python -m bench.run_fhir`)
+runtime/fhir/generic/
+runtime/fhir/abdm/

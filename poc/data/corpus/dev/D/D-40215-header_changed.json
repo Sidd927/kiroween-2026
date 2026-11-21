@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-40215-header_changed",
+ "layout": "D",
+ "perturbation": "header_changed",
+ "expected": "reject",
+ "expected_layout": null,
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|               SHREE SAI HEALTH LABS (NEW FORMAT)               |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-6883804            | Coll. Dt : 06.06.26            |\n| Name : SMT. ISHA RAO         | Age/Sex : 87/F                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 98      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 0.95    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 38      | mg/dL      | 15-40      |      |\n| Haemoglobin         | 15.0    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 3289    | /cumm      | 4000-11000 | L    |\n| Platelets           | 3.04    | lakhs/cumm | 1.50-4.50  |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

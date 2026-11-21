@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-62060-unit_missing",
+ "layout": "F",
+ "perturbation": "unit_missing",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4411281\nPT: PAWAR NIKHIL           MRN 55545248    AGE: 25Y  SEX: F\nCOLLECTED 07/25/2026 0745   RECEIVED 07/26/2026 0235\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   16.1      H      12.0-15.5\nHEMATOCRIT (%)                      45.2             36.0-46.0\nWBC (K/uL)                          9.9              4.0-11.0\nRBC (M/uL)                          4.25             4.00-5.20\nPLATELETS                           338              150-400\nMCV (fL)                            93.5             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            75               70-99\nCREATININE (mg/dL)                  0.77             0.50-1.10\nALT (U/L)                           33               7-56\nAST (U/L)                           30               10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

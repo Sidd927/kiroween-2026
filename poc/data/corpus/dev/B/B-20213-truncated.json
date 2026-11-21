@@ -1,0 +1,10 @@
+{
+ "doc_id": "B-20213-truncated",
+ "layout": "B",
+ "perturbation": "truncated",
+ "expected": "reject",
+ "expected_layout": "B",
+ "truth": null,
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-943063            Date : 05-Sep-2026\nName    : Divya Fernandes       Age  : 6 Y   Sex : Female\nSample collected on : 04-Sep-2026 08:40 AM\nReferred by : Dr. A. Rao\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. \u001bE12.4     \u001bFg/dL          13.0-17.0\nRBC Count ............... 5.29     million/cumm  4.50-5.50\nPCV / Haematocrit ....... \u001bE51.9     \u001bF%             40.0-50.0\nMCV ..................... 92.4     fl            83.0-101.0\nMCH ..................... 31.8     pg            27.0-32.0\nMCHC .................... 34.1     g/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)",
+ "split": "dev"
+}

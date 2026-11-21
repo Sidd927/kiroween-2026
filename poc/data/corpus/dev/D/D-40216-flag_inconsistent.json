@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-40216-flag_inconsistent",
+ "layout": "D",
+ "perturbation": "flag_inconsistent",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-6974229            | Coll. Dt : 13.04.26            |\n| Name : SHRI RAHUL PATIL      | Age/Sex : 20/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 90      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 1.18    | mg/dL      | 0.60-1.20  | L    |\n| Blood Urea          | 6       | mg/dL      | 15-40      | L    |\n| Haemoglobin         | 12.0    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 3054    | /cumm      | 4000-11000 | L    |\n| Platelets           | 2.71    | lakhs/cumm | 1.50-4.50  |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

@@ -1,0 +1,78 @@
+{
+ "doc_id": "B-21000-clean",
+ "layout": "B",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-979486",
+  "patient_name": "Omkar Nair",
+  "patient_age": 30,
+  "patient_sex": "male",
+  "collected": "2026-08-01",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "16.8",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "5.06",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "50.8",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "78.1",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "26.1",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "33.0",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "8381",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "NEUT%",
+    "value": "69",
+    "unit": "%",
+    "label": "Neutrophils"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "16",
+    "unit": "%",
+    "label": "Lymphocytes"
+   },
+   {
+    "code": "PLT",
+    "value": "483",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-979486            Date : 02-Aug-2026\nName    : Omkar Nair            Age  : 30 Y   Sex : Male\nSample collected on : 01-Aug-2026 08:20 AM\nReferred by : Dr. M. Kulkarni\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. 16.8     g/dL          13.0-17.0\nRBC Count ............... 5.06     million/cumm  4.50-5.50\nPCV / Haematocrit ....... \u001bE50.8     \u001bF%             40.0-50.0\nMCV ..................... \u001bE78.1     \u001bFfl            83.0-101.0\nMCH ..................... \u001bE26.1     \u001bFpg            27.0-32.0\nMCHC .................... 33.0     g/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-979486            Date : 02-Aug-2026\nName    : Omkar Nair            Age  : 30 Y   Sex : Male\nSample collected on : 01-Aug-2026 08:20 AM\nReferred by : Dr. M. Kulkarni\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nTotal WBC Count ......... 8381     cells/cumm    4000-11000\nNeutrophils ............. 69       %             40-80\nLymphocytes ............. \u001bE16       \u001bF%             20-40\nPlatelet Count .......... \u001bE483      \u001bF10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

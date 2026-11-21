@@ -1,0 +1,72 @@
+{
+ "doc_id": "A-11011-clean",
+ "layout": "A",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "A",
+ "truth": {
+  "patient_id": "SP/26/499324",
+  "patient_name": "ANANYA PATIL",
+  "patient_age": 16,
+  "patient_sex": "female",
+  "collected": "2026-06-06",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "16.8",
+    "unit": "gm/dL",
+    "label": "HAEMOGLOBIN"
+   },
+   {
+    "code": "RBC",
+    "value": "4.18",
+    "unit": "mill/cumm",
+    "label": "R.B.C. COUNT"
+   },
+   {
+    "code": "HCT",
+    "value": "38.2",
+    "unit": "%",
+    "label": "P.C.V."
+   },
+   {
+    "code": "MCV",
+    "value": "83.8",
+    "unit": "fL",
+    "label": "M.C.V."
+   },
+   {
+    "code": "MCH",
+    "value": "33.3",
+    "unit": "pg",
+    "label": "M.C.H."
+   },
+   {
+    "code": "MCHC",
+    "value": "31.1",
+    "unit": "g/dL",
+    "label": "M.C.H.C."
+   },
+   {
+    "code": "WBC",
+    "value": "12811",
+    "unit": "/cumm",
+    "label": "TOTAL LEUCOCYTE COUNT"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "42",
+    "unit": "%",
+    "label": "LYMPHOCYTES"
+   },
+   {
+    "code": "PLT",
+    "value": "1.65",
+    "unit": "lakh/cumm",
+    "label": "PLATELET COUNT"
+   }
+  ]
+ },
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MRS. ANANYA PATIL                Lab No.   : SP/26/499324\nAge / Sex    : 16 Yrs / F                       Collected : 06/06/2026 11:30\nRef. By      : DR. S. JOSHI                     Reported  : 07/06/2026 17:05\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   16.8        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  4.18 L      mill/cumm     4.50 - 5.50\nP.C.V.                        38.2 L      %             40.0 - 50.0\nM.C.V.                        83.8        fL            83.0 - 101.0\nM.C.H.                        33.3 H      pg            27.0 - 32.0\nM.C.H.C.                      31.1 L      g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         12811 H     /cumm         4000 - 11000\nLYMPHOCYTES                   42 H        %             20 - 40\nPLATELET COUNT                1.65        lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

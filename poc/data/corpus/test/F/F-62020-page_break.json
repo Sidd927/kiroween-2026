@@ -1,0 +1,72 @@
+{
+ "doc_id": "F-62020-page_break",
+ "layout": "F",
+ "perturbation": "page_break",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "69730114",
+  "patient_name": "PATIL SNEHA",
+  "patient_age": 59,
+  "patient_sex": "female",
+  "collected": "2026-04-23",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "13.4",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "39.0",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "11.2",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "3.82",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "PLT",
+    "value": "144",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "93.6",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "86",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "0.78",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   },
+   {
+    "code": "ALT",
+    "value": "31",
+    "unit": "U/L",
+    "label": "ALT"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4483177\nPT: PATIL SNEHA            MRN 69730114    AGE: 59Y  SEX: F\nCOLLECTED 04/23/2026 0730   RECEIVED 04/23/2026 1605\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   13.4             12.0-15.5\nHEMATOCRIT (%)                      39.0             36.0-46.0\nWBC (K/uL)                          11.2      H      4.0-11.0\n\nMEDILINK REFERENCE LAB  -  ACCESSION 4483177\nPT: PATIL SNEHA            MRN 69730114    AGE: 59Y  SEX: F\nCOLLECTED 04/23/2026 0730   RECEIVED 04/23/2026 1605\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nRBC (M/uL)                          3.82      L      4.00-5.20\nPLATELETS (K/uL)                    144       L      150-400\nMCV (fL)                            93.6             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            86               70-99\nCREATININE (mg/dL)                  0.78             0.50-1.10\nALT (U/L)                           31               7-56\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

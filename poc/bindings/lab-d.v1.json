@@ -1,0 +1,78 @@
+{
+ "_meta": {
+  "status": "active",
+  "sha256": "a848bfec7173a59d76ded9b1c4b5b2ca465573faecb6641f6c6d837cdc6f1b13",
+  "approval": "SIMULATED human approval (PoC): gate passed, binding reviewed by no human",
+  "rounds_used": 0
+ },
+ "binding_id": "lab-d",
+ "description": "Shree Sai Diagnostics boxed report: UHID, Coll. Dt dd.mm.yy, Age/Sex, PARAMETER/VALUE/UNIT/RANGE/FLAG table.",
+ "layout": {
+  "anchors": [
+   "^\\|\\s+SHREE SAI DIAGNOSTICS\\s+\\|$",
+   "^\\| PARAMETER\\s+\\| VALUE\\s+\\| UNIT\\s+\\| RANGE\\s+\\| FLAG \\|$",
+   "\\| UHID : "
+  ]
+ },
+ "fields": {
+  "patient_id": {
+   "regex": "^\\| UHID : (?P<v>\\d{2}-\\d+)\\s+\\|",
+   "type": "string",
+   "required": true,
+   "pattern": "\\d{2}-\\d+"
+  },
+  "patient_name": {
+   "regex": "^\\| Name : (?:(?:MR|MRS|MS|SMT|SHRI|KUM|DR|BABY)\\.?\\s+)?(?P<v>[A-Za-z][A-Za-z .'-]*?)\\s+\\| Age/Sex",
+   "type": "string",
+   "required": true
+  },
+  "patient_age": {
+   "regex": "Age/Sex : (?P<v>\\d+)/[MF]\\s+\\|",
+   "type": "integer",
+   "required": false
+  },
+  "patient_sex": {
+   "regex": "Age/Sex : \\d+/(?P<v>[MF])\\s+\\|",
+   "type": "enum",
+   "enum_map": {
+    "M": "male",
+    "F": "female"
+   },
+   "required": false
+  },
+  "collected": {
+   "regex": "Coll\\. Dt : (?P<v>\\d{2}\\.\\d{2}\\.\\d{2})\\s+\\|",
+   "type": "date",
+   "format": "%d.%m.%y",
+   "required": true
+  }
+ },
+ "results": {
+  "start": "^\\| PARAMETER\\s+\\| VALUE\\s+\\| UNIT\\s+\\| RANGE\\s+\\| FLAG \\|$",
+  "end": "\\*\\* End of Report \\*\\*",
+  "skip_lines": [
+   "^\\s*$",
+   "^\\+[-+]+\\+$",
+   "^\\| PARAMETER\\s+\\| VALUE\\s+\\| UNIT\\s+\\| RANGE\\s+\\| FLAG \\|$",
+   "^\\|\\s+SHREE SAI DIAGNOSTICS\\s+\\|$",
+   "^\\|\\s+Near Bus Stand, Shirdi Road, Kopargaon\\s+\\|$",
+   "^\\| UHID : .*\\|$",
+   "^\\| Name : .*\\|$"
+  ],
+  "row": "^\\| (?P<label>[^|]+?)\\s+\\| (?P<value>\\d+(?:\\.\\d+)?)\\s+\\| (?P<unit>[^|\\s]+)\\s+\\| (?P<ref_low>\\d+(?:\\.\\d+)?)-(?P<ref_high>\\d+(?:\\.\\d+)?)\\s+\\|\\s*(?P<flag>[HL]?)\\s*\\|$",
+  "labels": {
+   "Glucose (Fasting)": "GLU",
+   "Serum Creatinine": "CREA",
+   "Blood Urea": "UREA",
+   "Haemoglobin": "HGB",
+   "Total Count (WBC)": "WBC",
+   "Platelets": "PLT"
+  },
+  "flags": {
+   "H": "H",
+   "L": "L"
+  },
+  "min_rows": 1,
+  "max_rows": 12
+ }
+}

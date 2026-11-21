@@ -1,0 +1,10 @@
+{
+ "doc_id": "C-32140-layout_drift",
+ "layout": "C",
+ "perturbation": "layout_drift",
+ "expected": "reject",
+ "expected_layout": "C",
+ "truth": null,
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-10-06\nPatient : Gupta, Neha (F/36)\nPatient ID : 8535349       Sample : S-25008\nCollected  : 2026-10-05 11:15\nConsultant : Dr. V. Gupta\n\nBIOCHEMISTRY\n  Test / Method\n      Normal Range      Result     Units\n  ----------------------------------------\n  BILIRUBIN TOTAL\n      (Diazo method)\n      0.20 - 1.20       0.70       mg/dl\n  BILIRUBIN DIRECT\n      (Diazo method)\n      0.00 - 0.30       0.11       mg/dl\n  SGPT (ALT)\n      (IFCC)\n      0 - 40            4          U/L\n  SGOT (AST)\n      (IFCC)\n      0 - 40            16         U/L\n  ALKALINE PHOSPHATASE\n      (PNPP-AMP)\n      40 - 130          118        IU/L\n  TOTAL PROTEINS\n      (Biuret)\n      6.0 - 8.3         6.2        g/dl\n  ALBUMIN\n      (BCG)\n      3.5 - 5.2         5.5 *      g/dl\n  BLOOD UREA\n      (Urease-GLDH)\n      15 - 45           23         mg/dl\n  ----------------------------------------\n  * Value outside normal range\n\nChecked by: Lab Technologist\n                           -- END --\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

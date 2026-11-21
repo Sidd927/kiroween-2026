@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "name": "Regression benchmark on rule or engine change",
+  "description": "When a binding or engine file is saved, re-run the 3,000-case abstain-or-correct property test over all active layouts (the held-out benchmark is deliberately NOT re-run automatically: it requires a conscious re-freeze) so a change can never silently introduce a wrong extraction.",
+  "version": "1",
+  "when": {"type": "fileEdited", "patterns": ["bindings/*.json", "spoolgeist/interpreter.py", "spoolgeist/validators.py", "spoolgeist/grid.py"]},
+  "then": {"type": "runCommand", "command": ".venv/bin/python -m pytest -q tests"}
+}

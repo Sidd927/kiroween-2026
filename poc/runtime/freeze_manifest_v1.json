@@ -1,0 +1,14 @@
+{
+ "spoolgeist/grid.py": "94e7373fbaa3c6625945310ca68297e388c0b78518937c80fe4c9c200d848f59",
+ "spoolgeist/interpreter.py": "43e6a4e1964a9eeb966c8ba4414c27f03569e51c85fd25c2d45ad5e63a58582d",
+ "spoolgeist/validators.py": "9cdc5be6bc1610d63cf8b932a7b7c54d01f49b0820a12f999d316d3f5b05410f",
+ "spoolgeist/dictionary.py": "6c1b884da12d328eb58d11da284223c26f56595c81707bfc1be07dd9acb956d2",
+ "spoolgeist/lab_dictionary.json": "da1675aaf501709f3571bc9a412ce38da4a2dd6412bc17646e31f838397b9d67",
+ "spoolgeist/binding_schema.json": "3537474f10369302e20acc228692f777f14709f645ff9d354d2428a2d60893f9",
+ "spoolgeist/rulegen.py": "932b0a434fcbf4148eeb09c65dec305ce46790c88883bf8432d67fef025089c8",
+ "spoolgeist/llm.py": "011f7ef4fd293bfb5872d770a7ea9f76d52e24aacb1289eae5c8e4a74cb091b1",
+ "bench/score.py": "fbdc3e4a2198bd8097a8426d21262266a80f8b9b44d497d7b996d2e372a2b04d",
+ "bench/generator.py": "73a5ddf1340c4fd87f842541ae2740446e3e60920f038c525a6ea84d72972eab",
+ "bench/run_benchmark.py": "7649bf4b8677d802f10e0cebeb63db912e4045678328827196ab9458834b5bcb",
+ "_frozen_at": "2026-11-21 20:02:05"
+}

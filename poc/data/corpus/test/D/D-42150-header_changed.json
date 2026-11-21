@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-42150-header_changed",
+ "layout": "D",
+ "perturbation": "header_changed",
+ "expected": "reject",
+ "expected_layout": null,
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|               SHREE SAI HEALTH LABS (NEW FORMAT)               |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-9998318            | Coll. Dt : 22.07.26            |\n| Name : SHRI KAVYA KULKARNI   | Age/Sex : 89/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 96      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 1.16    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 23      | mg/dL      | 15-40      |      |\n| Haemoglobin         | 14.1    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 3817    | /cumm      | 4000-11000 | L    |\n| Platelets           | 5.49    | lakhs/cumm | 1.50-4.50  | H    |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

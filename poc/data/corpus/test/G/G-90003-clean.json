@@ -1,0 +1,10 @@
+{
+ "doc_id": "G-90003-clean",
+ "layout": "G",
+ "perturbation": "clean",
+ "expected": "reject",
+ "expected_layout": null,
+ "truth": null,
+ "text": "GOOD HEALTH CLINIC LAB\nPatient Divya Pawar  ID GH8817\nDate 2026/04/15\n\nHemoglobin: 12.6 g/dL (ref 13.0-17.0)\nWBC: 5.5 K/uL (ref 4.0-11.0)\nPlatelets: 253 K/uL (ref 150-400)\n\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n\f",
+ "split": "test"
+}

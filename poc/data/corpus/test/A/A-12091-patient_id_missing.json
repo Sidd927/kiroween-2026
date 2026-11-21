@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12091-patient_id_missing",
+ "layout": "A",
+ "perturbation": "patient_id_missing",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MR. PRIYA JOSHI                  Lab No.   :\nAge / Sex    : 46 Yrs / M                       Collected : 12/08/2026 08:10\nRef. By      : DR. S. JOSHI                     Reported  : 13/08/2026 14:45\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   12.9 L      gm/dL         13.0 - 17.0\nR.B.C. COUNT                  4.32 L      mill/cumm     4.50 - 5.50\nP.C.V.                        39.1 L      %             40.0 - 50.0\nM.C.V.                        83.9        fL            83.0 - 101.0\nM.C.H.                        33.5 H      pg            27.0 - 32.0\nM.C.H.C.                      33.8        g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         6215        /cumm         4000 - 11000\nNEUTROPHILS                   57          %             40 - 80\nLYMPHOCYTES                   35          %             20 - 40\nPLATELET COUNT                1.56        lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

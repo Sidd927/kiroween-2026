@@ -1,0 +1,72 @@
+{
+ "doc_id": "A-10105-clean",
+ "layout": "A",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "A",
+ "truth": {
+  "patient_id": "SP/26/789951",
+  "patient_name": "MEERA REDDY",
+  "patient_age": 49,
+  "patient_sex": "male",
+  "collected": "2026-09-17",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "14.9",
+    "unit": "gm/dL",
+    "label": "HAEMOGLOBIN"
+   },
+   {
+    "code": "RBC",
+    "value": "4.15",
+    "unit": "mill/cumm",
+    "label": "R.B.C. COUNT"
+   },
+   {
+    "code": "HCT",
+    "value": "43.6",
+    "unit": "%",
+    "label": "P.C.V."
+   },
+   {
+    "code": "MCV",
+    "value": "93.2",
+    "unit": "fL",
+    "label": "M.C.V."
+   },
+   {
+    "code": "MCH",
+    "value": "26.6",
+    "unit": "pg",
+    "label": "M.C.H."
+   },
+   {
+    "code": "MCHC",
+    "value": "31.8",
+    "unit": "g/dL",
+    "label": "M.C.H.C."
+   },
+   {
+    "code": "WBC",
+    "value": "3246",
+    "unit": "/cumm",
+    "label": "TOTAL LEUCOCYTE COUNT"
+   },
+   {
+    "code": "NEUT%",
+    "value": "44",
+    "unit": "%",
+    "label": "NEUTROPHILS"
+   },
+   {
+    "code": "PLT",
+    "value": "2.80",
+    "unit": "lakh/cumm",
+    "label": "PLATELET COUNT"
+   }
+  ]
+ },
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MR. MEERA REDDY                  Lab No.   : SP/26/789951\nAge / Sex    : 49 Yrs / M                       Collected : 17/09/2026 09:30\nRef. By      : DR. M. KULKARNI                  Reported  : 17/09/2026 19:20\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   14.9        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  4.15 L      mill/cumm     4.50 - 5.50\nP.C.V.                        43.6        %             40.0 - 50.0\nM.C.V.                        93.2        fL            83.0 - 101.0\nM.C.H.                        26.6 L      pg            27.0 - 32.0\nM.C.H.C.                      31.8        g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         3246 L      /cumm         4000 - 11000\nNEUTROPHILS                   44          %             40 - 80\nPLATELET COUNT                2.80        lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

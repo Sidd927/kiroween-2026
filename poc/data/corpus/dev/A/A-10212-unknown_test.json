@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-10212-unknown_test",
+ "layout": "A",
+ "perturbation": "unknown_test",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MS. NEHA CHAVAN                  Lab No.   : SP/26/488886\nAge / Sex    : 29 Yrs / F                       Collected : 16/04/2026 08:50\nRef. By      : DR. P. NAIR                      Reported  : 17/04/2026 15:40\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   14.1        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  4.49 L      mill/cumm     4.50 - 5.50\nP.C.V.                        50.0        %             40.0 - 50.0\nM.C.V.                        78.9 L      fL            83.0 - 101.0\nM.C.H.                        29.5        pg            27.0 - 32.0\nM..H.C.                       33.4        g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         1767 L      /cumm         4000 - 11000\nLYMPHOCYTES                   35          %             20 - 40\nPLATELET COUNT                4.04        lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

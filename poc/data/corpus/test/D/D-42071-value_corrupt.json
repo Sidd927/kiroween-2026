@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-42071-value_corrupt",
+ "layout": "D",
+ "perturbation": "value_corrupt",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-6660026            | Coll. Dt : 05.03.26            |\n| Name : SHRI ROHAN REDDY      | Age/Sex : 30/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | ####    | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 0.71    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 26      | mg/dL      | 15-40      |      |\n| Haemoglobin         | 14.5    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 6002    | /cumm      | 4000-11000 |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

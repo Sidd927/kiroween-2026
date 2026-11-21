@@ -1,0 +1,66 @@
+{
+ "doc_id": "C-32030-crlf_trailing",
+ "layout": "C",
+ "perturbation": "crlf_trailing",
+ "expected": "accept",
+ "expected_layout": "C",
+ "truth": {
+  "patient_id": "4605733",
+  "patient_name": "Pawar, Vikram",
+  "patient_age": 36,
+  "patient_sex": "male",
+  "collected": "2026-08-05",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "0.05",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.22",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT"
+   },
+   {
+    "code": "ALT",
+    "value": "27",
+    "unit": "U/L",
+    "label": "SGPT (ALT)"
+   },
+   {
+    "code": "AST",
+    "value": "20",
+    "unit": "U/L",
+    "label": "SGOT (AST)"
+   },
+   {
+    "code": "ALP",
+    "value": "109",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE"
+   },
+   {
+    "code": "TP",
+    "value": "5.9",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS"
+   },
+   {
+    "code": "ALB",
+    "value": "5.3",
+    "unit": "g/dl",
+    "label": "ALBUMIN"
+   },
+   {
+    "code": "CREA",
+    "value": "1.29",
+    "unit": "mg/dl",
+    "label": "SERUM CREATININE"
+   }
+  ]
+ },
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-08-06  \r\nPatient : Pawar, Vikram (M/36) \r\nPatient ID : 4605733       Sample : S-79472\r\nCollected  : 2026-08-05 09:30 \r\nConsultant : Dr. P. Nair  \r\n \r\nBIOCHEMISTRY \r\n  Test / Method   \r\n      Result     Units     Normal Range \r\n  ---------------------------------------- \r\n  BILIRUBIN TOTAL   \r\n      (Diazo method) \r\n      0.05 *     mg/dl     0.20 - 1.20  \r\n  BILIRUBIN DIRECT \r\n      (Diazo method) \r\n      0.22       mg/dl     0.00 - 0.30  \r\n  SGPT (ALT)   \r\n      (IFCC) \r\n      27         U/L       0 - 40 \r\n  SGOT (AST) \r\n      (IFCC)  \r\n      20         U/L       0 - 40  \r\n  ALKALINE PHOSPHATASE   \r\n      (PNPP-AMP) \r\n      109        IU/L      40 - 130   \r\n  TOTAL PROTEINS\r\n      (Biuret)  \r\n      5.9 *      g/dl      6.0 - 8.3  \r\n  ALBUMIN   \r\n      (BCG)\r\n      5.3 *      g/dl      3.5 - 5.2  \r\n  SERUM CREATININE \r\n      (Jaffe kinetic)\r\n      1.29       mg/dl     0.60 - 1.30 \r\n  ----------------------------------------  \r\n  * Value outside normal range  \r\n \r\nChecked by: Lab Technologist   \r\n                           -- END --  \r\nSYNTHETIC SAMPLE - NOT A REAL PATIENT  \r\n ",
+ "split": "test"
+}

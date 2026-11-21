@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-42061-unit_missing",
+ "layout": "D",
+ "perturbation": "unit_missing",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-7609298            | Coll. Dt : 19.10.26            |\n| Name : SMT. POOJA GAIKWAD    | Age/Sex : 18/F                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 84      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 1.08    |            | 0.60-1.20  |      |\n| Blood Urea          | 35      | mg/dL      | 15-40      |      |\n| Haemoglobin         | 11.2    | g/dl       | 12.0-16.0  | L    |\n| Total Count (WBC)   | 3556    | /cumm      | 4000-11000 | L    |\n| Platelets           | 0.53    | lakhs/cumm | 1.50-4.50  | L    |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

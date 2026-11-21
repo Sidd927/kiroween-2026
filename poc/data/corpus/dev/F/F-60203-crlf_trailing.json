@@ -1,0 +1,78 @@
+{
+ "doc_id": "F-60203-crlf_trailing",
+ "layout": "F",
+ "perturbation": "crlf_trailing",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "38269588",
+  "patient_name": "SHARMA NEHA",
+  "patient_age": 6,
+  "patient_sex": "female",
+  "collected": "2026-05-27",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "11.5",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "39.1",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "6.6",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "4.80",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "PLT",
+    "value": "273",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "73.4",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "65",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "0.37",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   },
+   {
+    "code": "ALT",
+    "value": "62",
+    "unit": "U/L",
+    "label": "ALT"
+   },
+   {
+    "code": "AST",
+    "value": "40",
+    "unit": "U/L",
+    "label": "AST"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4433255\r\nPT: SHARMA NEHA            MRN 38269588    AGE: 6Y  SEX: F  \r\nCOLLECTED 05/27/2026 1115   RECEIVED 05/28/2026 0840\r\n======================================================================== \r\nTEST NAME (UNITS)                   RESULT    FLAG   REF\r\n------------------------------------------------------------------------   \r\nHEMOGLOBIN (g/dL)                   11.5      L      12.0-15.5  \r\nHEMATOCRIT (%)                      39.1             36.0-46.0  \r\nWBC (K/uL)                          6.6              4.0-11.0  \r\nRBC (M/uL)                          4.80             4.00-5.20  \r\nPLATELETS (K/uL)                    273              150-400\r\nMCV (fL)                            73.4      L      80.0-100.0   \r\nGLUCOSE, FASTING (mg/dL)            65        L      70-99  \r\nCREATININE (mg/dL)                  0.37      L      0.50-1.10   \r\nALT (U/L)                           62        H      7-56 \r\nAST (U/L)                           40               10-40 \r\n------------------------------------------------------------------------ \r\nEND OF REPORT  \r\nSYNTHETIC SAMPLE - NOT A REAL PATIENT \r\n ",
+ "split": "dev"
+}

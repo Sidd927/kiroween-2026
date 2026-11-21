@@ -1,0 +1,72 @@
+{
+ "doc_id": "F-61004-clean",
+ "layout": "F",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "93261939",
+  "patient_name": "PATIL POOJA",
+  "patient_age": 70,
+  "patient_sex": "male",
+  "collected": "2026-01-01",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "15.9",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "46.9",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "10.4",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "4.22",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "PLT",
+    "value": "241",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "76.3",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "75",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "0.41",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   },
+   {
+    "code": "ALT",
+    "value": "37",
+    "unit": "U/L",
+    "label": "ALT"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4421177\nPT: PATIL POOJA            MRN 93261939    AGE: 70Y  SEX: M\nCOLLECTED 01/01/2026 0720   RECEIVED 01/02/2026 0155\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   15.9      H      12.0-15.5\nHEMATOCRIT (%)                      46.9      H      36.0-46.0\nWBC (K/uL)                          10.4             4.0-11.0\nRBC (M/uL)                          4.22             4.00-5.20\nPLATELETS (K/uL)                    241              150-400\nMCV (fL)                            76.3      L      80.0-100.0\nGLUCOSE, FASTING (mg/dL)            75               70-99\nCREATININE (mg/dL)                  0.41      L      0.50-1.10\nALT (U/L)                           37               7-56\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

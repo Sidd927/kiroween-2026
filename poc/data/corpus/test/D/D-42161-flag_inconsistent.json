@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-42161-flag_inconsistent",
+ "layout": "D",
+ "perturbation": "flag_inconsistent",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-6716532            | Coll. Dt : 09.06.26            |\n| Name : SMT. ISHA MEHTA       | Age/Sex : 81/F                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 92      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 1.28    | mg/dL      | 0.60-1.20  | H    |\n| Blood Urea          | 42      | mg/dL      | 15-40      | H    |\n| Haemoglobin         | 11.9    | g/dl       | 12.0-16.0  | L    |\n| Total Count (WBC)   | 8678    | /cumm      | 4000-11000 | H    |\n| Platelets           | 0.81    | lakhs/cumm | 1.50-4.50  | L    |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

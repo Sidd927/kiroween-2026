@@ -1,0 +1,13 @@
+# Tasks (status as of 21 Nov 2026)
+- [x] 1. Synthetic corpus: 6 layouts + unregistered layout, 19 perturbation types, gen/dev/test splits (R5)
+- [x] 2. Binding JSON Schema + static checks (R2)
+- [x] 3. Deterministic interpreter with full-coverage table parsing (R3.1, R3.2)
+- [x] 4. Independent validators V1-V8 (R3.2)
+- [x] 5. LLM rule generation + gate + repair loop (R2)
+- [x] 6. Freeze manifest; held-out benchmark with LLM calls forbidden (R5)
+- [x] 7. PBT "abstain or exactly correct" (R3.3) -> found 2 silent errors in v1 -> v2 fix -> 0 in 13,000 fresh cases
+- [x] 8. FHIR builder + HL7 validator (generic and ndhm.in 6.5.0) + negative control (R4)
+- [x] 9. RAW/9100 capture, forward, retry, duplicate, quarantine experiments; real CUPS spooler test (R1)
+- [ ] 10. Windows 11 ARM VM experiment (Generic / Text Only driver) - needs the team (see experiments/print_capture/WINDOWS_VM_RUNBOOK.md)
+- [ ] 11. Physical printer forwarding - not tested (no printer used)
+- [ ] 12. Re-run this spec inside Kiro so Kiro usage is real evidence

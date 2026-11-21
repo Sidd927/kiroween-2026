@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-60211-duplicate_conflict",
+ "layout": "F",
+ "perturbation": "duplicate_conflict",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4414423\nPT: PATIL NEHA             MRN 21312491    AGE: 71Y  SEX: F\nCOLLECTED 03/22/2026 0805   RECEIVED 03/23/2026 2055\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   11.8      L      12.0-15.5\nHEMATOCRIT (%)                      39.2             36.0-46.0\nWBC (K/uL)                          4.0              4.0-11.0\nRBC (M/uL)                          3.78      L      4.00-5.20\nPLATELETS (K/uL)                    82        L      150-400\nMCV (fL)                            82.3             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            91               70-99\nCREATININE (mg/dL)                  0.69             0.50-1.10\nALT (U/L)                           37               7-56\nALT (U/L)                           47               7-56\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

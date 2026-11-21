@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-10213-truncated",
+ "layout": "A",
+ "perturbation": "truncated",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MRS. MEERA DESHMUKH              Lab No.   : SP/26/651954\nAge / Sex    : 30 Yrs / F                       Collected : 11/01/2026 07:30\nRef. By      : DR. S. JOSHI                     Reported  : 11/01/2026 14:20\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   17.2 H      gm/dL         13.0 - 17.0",
+ "split": "dev"
+}

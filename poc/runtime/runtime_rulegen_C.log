@@ -1,0 +1,2 @@
+C activated rounds: 0 calls: 1 19.8s $0.0523
+  round 0 {'passed': True, 'counts': {'clean:correct_accept': 10, 'perturbed:correct_accept': 4, 'perturbed:correct_reject': 11}}

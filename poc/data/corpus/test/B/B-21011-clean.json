@@ -1,0 +1,78 @@
+{
+ "doc_id": "B-21011-clean",
+ "layout": "B",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-380562",
+  "patient_name": "Arjun Iyer",
+  "patient_age": 7,
+  "patient_sex": "female",
+  "collected": "2026-06-20",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "16.6",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "5.54",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "52.0",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "89.3",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "25.8",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "32.3",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "11159",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "NEUT%",
+    "value": "48",
+    "unit": "%",
+    "label": "Neutrophils"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "35",
+    "unit": "%",
+    "label": "Lymphocytes"
+   },
+   {
+    "code": "PLT",
+    "value": "359",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-380562            Date : 22-Jun-2026\nName    : Arjun Iyer            Age  : 7 Y   Sex : Female\nSample collected on : 20-Jun-2026 09:15 AM\nReferred by : Dr. P. Nair\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. 16.6     g/dL          13.0-17.0\nRBC Count ............... \u001bE5.54     \u001bFmillion/cumm  4.50-5.50\nPCV / Haematocrit ....... \u001bE52.0     \u001bF%             40.0-50.0\nMCV ..................... 89.3     fl            83.0-101.0\nMCH ..................... \u001bE25.8     \u001bFpg            27.0-32.0\nMCHC .................... 32.3     g/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-380562            Date : 22-Jun-2026\nName    : Arjun Iyer            Age  : 7 Y   Sex : Female\nSample collected on : 20-Jun-2026 09:15 AM\nReferred by : Dr. P. Nair\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nTotal WBC Count ......... \u001bE11159    \u001bFcells/cumm    4000-11000\nNeutrophils ............. 48       %             40-80\nLymphocytes ............. 35       %             20-40\nPlatelet Count .......... 359      10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

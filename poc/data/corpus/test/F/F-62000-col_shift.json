@@ -1,0 +1,72 @@
+{
+ "doc_id": "F-62000-col_shift",
+ "layout": "F",
+ "perturbation": "col_shift",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "81432682",
+  "patient_name": "JOSHI MEERA",
+  "patient_age": 88,
+  "patient_sex": "female",
+  "collected": "2026-05-28",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "12.0",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "32.8",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "10.5",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "4.48",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "PLT",
+    "value": "222",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "88.2",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "71",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "0.39",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   },
+   {
+    "code": "ALT",
+    "value": "55",
+    "unit": "U/L",
+    "label": "ALT"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4437588\nPT: JOSHI MEERA            MRN 81432682    AGE: 88Y  SEX: F\nCOLLECTED 05/28/2026 1130   RECEIVED 05/28/2026 1605\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                    12.0             12.0-15.5\nHEMATOCRIT (%)                      32.8     L      36.0-46.0\nWBC (K/uL)                          10.5              4.0-11.0\nRBC (M/uL)                          4.48               4.00-5.20\nPLATELETS (K/uL)                     222              150-400\nMCV (fL)                            88.2              80.0-100.0\nGLUCOSE, FASTING (mg/dL)            71                 70-99\nCREATININE (mg/dL)                  0.39     L      0.50-1.10\nALT (U/L)                           55                 7-56\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

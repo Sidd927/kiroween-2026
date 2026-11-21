@@ -1,0 +1,54 @@
+{
+ "doc_id": "D-40002-clean",
+ "layout": "D",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "D",
+ "truth": {
+  "patient_id": "26-1992993",
+  "patient_name": "TANVI SHARMA",
+  "patient_age": 36,
+  "patient_sex": "female",
+  "collected": "2026-07-19",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "90",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)"
+   },
+   {
+    "code": "CREA",
+    "value": "0.88",
+    "unit": "mg/dL",
+    "label": "Serum Creatinine"
+   },
+   {
+    "code": "UREA",
+    "value": "27",
+    "unit": "mg/dL",
+    "label": "Blood Urea"
+   },
+   {
+    "code": "HGB",
+    "value": "15.4",
+    "unit": "g/dl",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "WBC",
+    "value": "11370",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)"
+   },
+   {
+    "code": "PLT",
+    "value": "1.21",
+    "unit": "lakhs/cumm",
+    "label": "Platelets"
+   }
+  ]
+ },
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-1992993            | Coll. Dt : 19.07.26            |\n| Name : SMT. TANVI SHARMA     | Age/Sex : 36/F                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 90      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 0.88    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 27      | mg/dL      | 15-40      |      |\n| Haemoglobin         | 15.4    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 11370   | /cumm      | 4000-11000 | H    |\n| Platelets           | 1.21    | lakhs/cumm | 1.50-4.50  | L    |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "gen"
+}

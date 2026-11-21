@@ -1,0 +1,66 @@
+{
+ "doc_id": "A-12010-drop_optional",
+ "layout": "A",
+ "perturbation": "drop_optional",
+ "expected": "accept",
+ "expected_layout": "A",
+ "truth": {
+  "patient_id": "SP/26/317132",
+  "patient_name": "POOJA CHAVAN",
+  "patient_age": 14,
+  "patient_sex": "female",
+  "collected": "2026-02-20",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "17.6",
+    "unit": "gm/dL",
+    "label": "HAEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "47.9",
+    "unit": "%",
+    "label": "P.C.V."
+   },
+   {
+    "code": "MCV",
+    "value": "82.0",
+    "unit": "fL",
+    "label": "M.C.V."
+   },
+   {
+    "code": "MCH",
+    "value": "25.7",
+    "unit": "pg",
+    "label": "M.C.H."
+   },
+   {
+    "code": "MCHC",
+    "value": "31.4",
+    "unit": "g/dL",
+    "label": "M.C.H.C."
+   },
+   {
+    "code": "WBC",
+    "value": "1906",
+    "unit": "/cumm",
+    "label": "TOTAL LEUCOCYTE COUNT"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "14",
+    "unit": "%",
+    "label": "LYMPHOCYTES"
+   },
+   {
+    "code": "PLT",
+    "value": "3.92",
+    "unit": "lakh/cumm",
+    "label": "PLATELET COUNT"
+   }
+  ]
+ },
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MRS. POOJA CHAVAN                Lab No.   : SP/26/317132\nAge / Sex    : 14 Yrs / F                       Collected : 20/02/2026 08:30\nRef. By      : DR. V. GUPTA                     Reported  : 21/02/2026 13:40\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   17.6 H      gm/dL         13.0 - 17.0\nP.C.V.                        47.9        %             40.0 - 50.0\nM.C.V.                        82.0 L      fL            83.0 - 101.0\nM.C.H.                        25.7 L      pg            27.0 - 32.0\nM.C.H.C.                      31.4 L      g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         1906 L      /cumm         4000 - 11000\nLYMPHOCYTES                   14 L        %             20 - 40\nPLATELET COUNT                3.92        lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

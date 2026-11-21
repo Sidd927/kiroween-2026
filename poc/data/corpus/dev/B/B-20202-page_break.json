@@ -1,0 +1,78 @@
+{
+ "doc_id": "B-20202-page_break",
+ "layout": "B",
+ "perturbation": "page_break",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-271183",
+  "patient_name": "Rahul Deshmukh",
+  "patient_age": 34,
+  "patient_sex": "female",
+  "collected": "2026-06-10",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "13.1",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "5.81",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "48.3",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "106.3",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "25.4",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "31.7",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "3508",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "NEUT%",
+    "value": "82",
+    "unit": "%",
+    "label": "Neutrophils"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "14",
+    "unit": "%",
+    "label": "Lymphocytes"
+   },
+   {
+    "code": "PLT",
+    "value": "256",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-271183            Date : 10-Jun-2026\nName    : Rahul Deshmukh        Age  : 34 Y   Sex : Female\nSample collected on : 10-Jun-2026 09:50 AM\nReferred by : Dr. V. Gupta\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. 13.1     g/dL          13.0-17.0\nRBC Count ............... \u001bE5.81     \u001bFmillion/cumm  4.50-5.50\nPCV / Haematocrit ....... 48.3     %             40.0-50.0\nMCV ..................... \u001bE106.3    \u001bFfl            83.0-101.0\nMCH ..................... \u001bE25.4     \u001bFpg            27.0-32.0\nMCHC .................... 31.7     g/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-271183            Date : 10-Jun-2026\nName    : Rahul Deshmukh        Age  : 34 Y   Sex : Female\nSample collected on : 10-Jun-2026 09:50 AM\nReferred by : Dr. V. Gupta\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nTotal WBC Count ......... \u001bE3508     \u001bFcells/cumm    4000-11000\nNeutrophils ............. \u001bE82       \u001bF%             40-80\nLymphocytes ............. \u001bE14       \u001bF%             20-40\nPlatelet Count .......... 256      10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

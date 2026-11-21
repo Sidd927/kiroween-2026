@@ -1,0 +1,66 @@
+{
+ "doc_id": "A-11015-clean",
+ "layout": "A",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "A",
+ "truth": {
+  "patient_id": "SP/26/146102",
+  "patient_name": "ADITYA REDDY",
+  "patient_age": 73,
+  "patient_sex": "female",
+  "collected": "2026-09-15",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "12.5",
+    "unit": "gm/dL",
+    "label": "HAEMOGLOBIN"
+   },
+   {
+    "code": "RBC",
+    "value": "4.77",
+    "unit": "mill/cumm",
+    "label": "R.B.C. COUNT"
+   },
+   {
+    "code": "HCT",
+    "value": "52.5",
+    "unit": "%",
+    "label": "P.C.V."
+   },
+   {
+    "code": "MCV",
+    "value": "92.5",
+    "unit": "fL",
+    "label": "M.C.V."
+   },
+   {
+    "code": "MCH",
+    "value": "27.2",
+    "unit": "pg",
+    "label": "M.C.H."
+   },
+   {
+    "code": "MCHC",
+    "value": "35.3",
+    "unit": "g/dL",
+    "label": "M.C.H.C."
+   },
+   {
+    "code": "WBC",
+    "value": "9371",
+    "unit": "/cumm",
+    "label": "TOTAL LEUCOCYTE COUNT"
+   },
+   {
+    "code": "PLT",
+    "value": "0.69",
+    "unit": "lakh/cumm",
+    "label": "PLATELET COUNT"
+   }
+  ]
+ },
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MS. ADITYA REDDY                 Lab No.   : SP/26/146102\nAge / Sex    : 73 Yrs / F                       Collected : 15/09/2026 10:00\nRef. By      : DR. P. NAIR                      Reported  : 16/09/2026 22:10\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   12.5 L      gm/dL         13.0 - 17.0\nR.B.C. COUNT                  4.77        mill/cumm     4.50 - 5.50\nP.C.V.                        52.5 H      %             40.0 - 50.0\nM.C.V.                        92.5        fL            83.0 - 101.0\nM.C.H.                        27.2        pg            27.0 - 32.0\nM.C.H.C.                      35.3 H      g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         9371        /cumm         4000 - 11000\nPLATELET COUNT                0.69 L      lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

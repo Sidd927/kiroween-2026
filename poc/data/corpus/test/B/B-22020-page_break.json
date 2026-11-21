@@ -1,0 +1,72 @@
+{
+ "doc_id": "B-22020-page_break",
+ "layout": "B",
+ "perturbation": "page_break",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-167714",
+  "patient_name": "Kiran Fernandes",
+  "patient_age": 79,
+  "patient_sex": "female",
+  "collected": "2026-06-24",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "12.5",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "4.96",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "41.9",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "82.5",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "30.5",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "33.4",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "10671",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "42",
+    "unit": "%",
+    "label": "Lymphocytes"
+   },
+   {
+    "code": "PLT",
+    "value": "130",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-167714            Date : 25-Jun-2026\nName    : Kiran Fernandes       Age  : 79 Y   Sex : Female\nSample collected on : 24-Jun-2026 11:50 AM\nReferred by : Dr. S. Joshi\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. \u001bE12.5     \u001bFg/dL          13.0-17.0\nRBC Count ............... 4.96     million/cumm  4.50-5.50\nPCV / Haematocrit ....... 41.9     %             40.0-50.0\nMCV ..................... \u001bE82.5     \u001bFfl            83.0-101.0\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-167714            Date : 25-Jun-2026\nName    : Kiran Fernandes       Age  : 79 Y   Sex : Female\nSample collected on : 24-Jun-2026 11:50 AM\nReferred by : Dr. S. Joshi\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nMCH ..................... 30.5     pg            27.0-32.0\nMCHC .................... 33.4     g/dl          31.5-34.5\nTotal WBC Count ......... 10671    cells/cumm    4000-11000\nLymphocytes ............. \u001bE42       \u001bF%             20-40\nPlatelet Count .......... \u001bE130      \u001bF10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

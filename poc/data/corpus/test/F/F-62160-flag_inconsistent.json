@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-62160-flag_inconsistent",
+ "layout": "F",
+ "perturbation": "flag_inconsistent",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4497131\nPT: FERNANDES ROHAN        MRN 33126532    AGE: 59Y  SEX: F\nCOLLECTED 02/15/2026 1040   RECEIVED 02/16/2026 0630\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   15.8      H      12.0-15.5\nHEMATOCRIT (%)                      46.7      H      36.0-46.0\nWBC (K/uL)                          3.1       L      4.0-11.0\nRBC (M/uL)                          3.92      L      4.00-5.20\nPLATELETS (K/uL)                    147       L      150-400\nMCV (fL)                            76.3      L      80.0-100.0\nGLUCOSE, FASTING (mg/dL)            73               70-99\nCREATININE (mg/dL)                  0.65             0.50-1.10\nALT (U/L)                           13        L      7-56\nAST (U/L)                           4         L      10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

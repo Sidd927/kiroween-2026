@@ -1,0 +1,72 @@
+{
+ "doc_id": "B-22021-page_break",
+ "layout": "B",
+ "perturbation": "page_break",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-763904",
+  "patient_name": "Isha Joshi",
+  "patient_age": 9,
+  "patient_sex": "female",
+  "collected": "2026-06-01",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "18.2",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "4.43",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "38.9",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "100.6",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "31.3",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "33.9",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "10215",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "46",
+    "unit": "%",
+    "label": "Lymphocytes"
+   },
+   {
+    "code": "PLT",
+    "value": "355",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-763904            Date : 01-Jun-2026\nName    : Isha Joshi            Age  : 9 Y   Sex : Female\nSample collected on : 01-Jun-2026 08:40 AM\nReferred by : Dr. A. Rao\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. \u001bE18.2     \u001bFg/dL          13.0-17.0\nRBC Count ............... \u001bE4.43     \u001bFmillion/cumm  4.50-5.50\nPCV / Haematocrit ....... \u001bE38.9     \u001bF%             40.0-50.0\nMCV ..................... 100.6    fl            83.0-101.0\nMCH ..................... 31.3     pg            27.0-32.0\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-763904            Date : 01-Jun-2026\nName    : Isha Joshi            Age  : 9 Y   Sex : Female\nSample collected on : 01-Jun-2026 08:40 AM\nReferred by : Dr. A. Rao\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nMCHC .................... 33.9     g/dl          31.5-34.5\nTotal WBC Count ......... 10215    cells/cumm    4000-11000\nLymphocytes ............. \u001bE46       \u001bF%             20-40\nPlatelet Count .......... 355      10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

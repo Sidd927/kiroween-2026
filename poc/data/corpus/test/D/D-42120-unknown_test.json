@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-42120-unknown_test",
+ "layout": "D",
+ "perturbation": "unknown_test",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-5281406            | Coll. Dt : 19.05.26            |\n| Name : SHRI NIKHIL IYER      | Age/Sex : 24/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 85      | mg/dL      | 70-100     |      |\n| Serum Ceatinine     | 1.20    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 12      | mg/dL      | 15-40      | L    |\n| Haemoglobin         | 16.3    | g/dl       | 12.0-16.0  | H    |\n| Total Count (WBC)   | 4132    | /cumm      | 4000-11000 |      |\n| Platelets           | 4.81    | lakhs/cumm | 1.50-4.50  | H    |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

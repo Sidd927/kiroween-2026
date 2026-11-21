@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12130-truncated",
+ "layout": "A",
+ "perturbation": "truncated",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MRS. POOJA REDDY                 Lab No.   : SP/26/922964\nAge / Sex    : 86 Yrs / F                       Collected : 12/08/2026 07:15\nRef. By      : DR. P. NAIR                      Reported  : 12/08/2026 12:40\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   16.0        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  4.59        mill/cumm     4.50 - 5.50\nP.C.V.                        38.6 L      %             40.0 - 50.0\nM.C.V.                        101.9 H     fL            83.0 - 101.0",
+ "split": "test"
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "C-32071-value_corrupt",
+ "layout": "C",
+ "perturbation": "value_corrupt",
+ "expected": "reject",
+ "expected_layout": "C",
+ "truth": null,
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-01-25\nPatient : Iyer, Priya (M/74)\nPatient ID : 9268817       Sample : S-22169\nCollected  : 2026-01-25 08:45\nConsultant : Dr. A. Rao\n\nBIOCHEMISTRY\n  Test / Method\n      Result     Units     Normal Range\n  ----------------------------------------\n  BILIRUBIN TOTAL\n      (Diazo method)\n      0.96       mg/dl     0.20 - 1.20\n  BILIRUBIN DIRECT\n      (Diazo method)\n      0.37 *     mg/dl     0.00 - 0.30\n  SGPT (ALT)\n      (IFCC)\n      18         U/L       0 - 40\n  SGOT (AST)\n      (IFCC)\n      8          U/L       0 - 40\n  ALKALINE PHOSPHATASE\n      (PNPP-AMP)\n      157 *      IU/L      40 - 130\n  TOTAL PROTEINS\n      (Biuret)\n      8..5 *     g/dl      6.0 - 8.3\n  ALBUMIN\n      (BCG)\n      5.6 *      g/dl      3.5 - 5.2\n  SERUM CREATININE\n      (Jaffe kinetic)\n      0.78       mg/dl     0.60 - 1.30\n  ----------------------------------------\n  * Value outside normal range\n\nChecked by: Lab Technologist\n                           -- END --\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-42090-patient_id_missing",
+ "layout": "D",
+ "perturbation": "patient_id_missing",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID :                       | Coll. Dt : 18.07.26            |\n| Name : KUM. NEHA KHAN        | Age/Sex : 46/F                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 109     | mg/dL      | 70-100     | H    |\n| Serum Creatinine    | 1.36    | mg/dL      | 0.60-1.20  | H    |\n| Blood Urea          | 39      | mg/dL      | 15-40      |      |\n| Haemoglobin         | 13.2    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 5880    | /cumm      | 4000-11000 |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

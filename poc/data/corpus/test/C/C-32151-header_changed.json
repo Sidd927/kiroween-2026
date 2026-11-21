@@ -1,0 +1,10 @@
+{
+ "doc_id": "C-32151-header_changed",
+ "layout": "C",
+ "perturbation": "header_changed",
+ "expected": "reject",
+ "expected_layout": null,
+ "truth": null,
+ "text": "MEHTA PATHCARE DIAGNOSTICS LLP              Report Date: 2026-10-26\nPatient : Iyer, Arjun (F/86)\nPatient ID : 9673233       Sample : S-46719\nCollected  : 2026-10-26 07:40\nConsultant : Dr. R. Shah\n\nBIOCHEMISTRY\n  Test / Method\n      Result     Units     Normal Range\n  ----------------------------------------\n  BILIRUBIN TOTAL\n      (Diazo method)\n      1.21 *     mg/dl     0.20 - 1.20\n  BILIRUBIN DIRECT\n      (Diazo method)\n      0.11       mg/dl     0.00 - 0.30\n  SGPT (ALT)\n      (IFCC)\n      29         U/L       0 - 40\n  SGOT (AST)\n      (IFCC)\n      33         U/L       0 - 40\n  ALKALINE PHOSPHATASE\n      (PNPP-AMP)\n      96         IU/L      40 - 130\n  TOTAL PROTEINS\n      (Biuret)\n      7.1        g/dl      6.0 - 8.3\n  ALBUMIN\n      (BCG)\n      5.8 *      g/dl      3.5 - 5.2\n  SERUM CREATININE\n      (Jaffe kinetic)\n      1.02       mg/dl     0.60 - 1.30\n  ----------------------------------------\n  * Value outside normal range\n\nChecked by: Lab Technologist\n                           -- END --\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

@@ -1,0 +1,19 @@
+{
+ "job_id": "20261121-202255-dd1575",
+ "peer": "127.0.0.1",
+ "received_at": 1795272775.631792,
+ "seconds": 0.0,
+ "bytes": 2057,
+ "sha256": "40695bd72669afa2ca9161ce3b41cb8e3baf285bc068c34863567c2b77067358",
+ "complete": true,
+ "incomplete_reason": null,
+ "duplicate_of": null,
+ "detected_format": "text+escp",
+ "forward": {
+  "target": "127.0.0.1:9101",
+  "status": "sent",
+  "attempts": 1,
+  "sent_at": 1795272775.6384509,
+  "sha256_sent": "40695bd72669afa2ca9161ce3b41cb8e3baf285bc068c34863567c2b77067358"
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-62110-duplicate_conflict",
+ "layout": "F",
+ "perturbation": "duplicate_conflict",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4498667\nPT: SHARMA POOJA           MRN 15250422    AGE: 22Y  SEX: F\nCOLLECTED 02/04/2026 1045   RECEIVED 02/05/2026 1555\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   12.8             12.0-15.5\nHEMATOCRIT (%)                      45.3             36.0-46.0\nWBC (K/uL)                          4.2              4.0-11.0\nRBC (M/uL)                          4.14             4.00-5.20\nPLATELETS (K/uL)                    255              150-400\nMCV (fL)                            76.7      L      80.0-100.0\nGLUCOSE, FASTING (mg/dL)            85               70-99\nGLUCOSE, FASTING (mg/dL)            69               70-99\nCREATININE (mg/dL)                  0.65             0.50-1.10\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

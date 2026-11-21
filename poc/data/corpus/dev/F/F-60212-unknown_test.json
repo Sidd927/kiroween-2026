@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-60212-unknown_test",
+ "layout": "F",
+ "perturbation": "unknown_test",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4420410\nPT: KULKARNI ISHA          MRN 84711969    AGE: 44Y  SEX: M\nCOLLECTED 09/04/2026 0800   RECEIVED 09/05/2026 0300\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   16.5      H      12.0-15.5\nHEMATOCRIT (%)                      49.0      H      36.0-46.0\nWBC (K/uL)                          1.8       L      4.0-11.0\nRBC (M/uL)                          3.70      L      4.00-5.20\nPLAELETS (K/uL)                     104       L      150-400\nMCV (fL)                            89.4             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            76               70-99\nCREATININE (mg/dL)                  0.85             0.50-1.10\nALT (U/L)                           60        H      7-56\nAST (U/L)                           10               10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

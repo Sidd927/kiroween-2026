@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-62151-header_changed",
+ "layout": "F",
+ "perturbation": "header_changed",
+ "expected": "reject",
+ "expected_layout": null,
+ "truth": null,
+ "text": "MEDILINK LABORATORIES INC  -  ACCESSION 4471169\nPT: MORE RAHUL             MRN 41679227    AGE: 54Y  SEX: M\nCOLLECTED 09/02/2026 0745   RECEIVED 09/03/2026 1220\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   12.9             12.0-15.5\nHEMATOCRIT (%)                      35.7      L      36.0-46.0\nWBC (K/uL)                          9.6              4.0-11.0\nRBC (M/uL)                          3.76      L      4.00-5.20\nPLATELETS (K/uL)                    389              150-400\nMCV (fL)                            74.8      L      80.0-100.0\nGLUCOSE, FASTING (mg/dL)            66        L      70-99\nCREATININE (mg/dL)                  1.07             0.50-1.10\nALT (U/L)                           11               7-56\nAST (U/L)                           27               10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

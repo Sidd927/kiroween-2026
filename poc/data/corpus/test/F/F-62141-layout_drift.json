@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-62141-layout_drift",
+ "layout": "F",
+ "perturbation": "layout_drift",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4476619\nPT: SHARMA KIRAN           MRN 81864130    AGE: 31Y  SEX: M\nCOLLECTED 08/04/2026 0730   RECEIVED 08/05/2026 1505\n========================================================================\nTEST NAME (UNITS)                   REF           RESULT    FLAG\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   12.0-15.5     16.4      H\nHEMATOCRIT (%)                      36.0-46.0     48.8      H\nWBC (K/uL)                          4.0-11.0      12.0      H\nRBC (M/uL)                          4.00-5.20     4.33\nPLATELETS (K/uL)                    150-400       125       L\nMCV (fL)                            80.0-100.0    93.0\nGLUCOSE, FASTING (mg/dL)            70-99         69        L\nCREATININE (mg/dL)                  0.50-1.10     0.80\nALT (U/L)                           7-56          6         L\nAST (U/L)                           10-40         22\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

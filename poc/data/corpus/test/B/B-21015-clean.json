@@ -1,0 +1,78 @@
+{
+ "doc_id": "B-21015-clean",
+ "layout": "B",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-405028",
+  "patient_name": "Aarav More",
+  "patient_age": 10,
+  "patient_sex": "female",
+  "collected": "2026-05-06",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "15.4",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "5.07",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "45.8",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "98.2",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "32.9",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "31.3",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "9050",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "NEUT%",
+    "value": "75",
+    "unit": "%",
+    "label": "Neutrophils"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "28",
+    "unit": "%",
+    "label": "Lymphocytes"
+   },
+   {
+    "code": "PLT",
+    "value": "314",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-405028            Date : 07-May-2026\nName    : Aarav More            Age  : 10 Y   Sex : Female\nSample collected on : 06-May-2026 07:20 AM\nReferred by : Dr. R. Shah\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. 15.4     g/dL          13.0-17.0\nRBC Count ............... 5.07     million/cumm  4.50-5.50\nPCV / Haematocrit ....... 45.8     %             40.0-50.0\nMCV ..................... 98.2     fl            83.0-101.0\nMCH ..................... \u001bE32.9     \u001bFpg            27.0-32.0\nMCHC .................... \u001bE31.3     \u001bFg/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-405028            Date : 07-May-2026\nName    : Aarav More            Age  : 10 Y   Sex : Female\nSample collected on : 06-May-2026 07:20 AM\nReferred by : Dr. R. Shah\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nTotal WBC Count ......... 9050     cells/cumm    4000-11000\nNeutrophils ............. 75       %             40-80\nLymphocytes ............. 28       %             20-40\nPlatelet Count .......... 314      10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

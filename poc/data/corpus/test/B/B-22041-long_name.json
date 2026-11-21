@@ -1,0 +1,72 @@
+{
+ "doc_id": "B-22041-long_name",
+ "layout": "B",
+ "perturbation": "long_name",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-395204",
+  "patient_name": "Bhagyashree Deshpande-Kulkarni",
+  "patient_age": 26,
+  "patient_sex": "female",
+  "collected": "2026-04-26",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "17.7",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "4.62",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "47.3",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "85.8",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "27.3",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "33.1",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "2442",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "NEUT%",
+    "value": "92",
+    "unit": "%",
+    "label": "Neutrophils"
+   },
+   {
+    "code": "PLT",
+    "value": "141",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-395204            Date : 26-Apr-2026\nName    : Bhagyashree Deshpande-KulkarniAge  : 26 Y   Sex : Female\nSample collected on : 26-Apr-2026 08:00 AM\nReferred by : Dr. V. Gupta\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. \u001bE17.7     \u001bFg/dL          13.0-17.0\nRBC Count ............... 4.62     million/cumm  4.50-5.50\nPCV / Haematocrit ....... 47.3     %             40.0-50.0\nMCV ..................... 85.8     fl            83.0-101.0\nMCH ..................... 27.3     pg            27.0-32.0\nMCHC .................... 33.1     g/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-395204            Date : 26-Apr-2026\nName    : Bhagyashree Deshpande-KulkarniAge  : 26 Y   Sex : Female\nSample collected on : 26-Apr-2026 08:00 AM\nReferred by : Dr. V. Gupta\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nTotal WBC Count ......... \u001bE2442     \u001bFcells/cumm    4000-11000\nNeutrophils ............. \u001bE92       \u001bF%             40-80\nPlatelet Count .......... \u001bE141      \u001bF10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

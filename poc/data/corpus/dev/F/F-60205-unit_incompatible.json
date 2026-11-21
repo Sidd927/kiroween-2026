@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-60205-unit_incompatible",
+ "layout": "F",
+ "perturbation": "unit_incompatible",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4468552\nPT: MORE VIKRAM            MRN 48134456    AGE: 25Y  SEX: F\nCOLLECTED 10/17/2026 0800   RECEIVED 10/17/2026 1635\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   12.5             12.0-15.5\nHEMATOCRIT (%)                      39.5             36.0-46.0\nWBC (K/uL)                          6.2              4.0-11.0\nRBC (M/uL)                          3.68      L      4.00-5.20\nPLATELETS (K/uL)                    107       L      150-400\nMCV (U/L)                           82.4             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            107       H      70-99\nCREATININE (mg/dL)                  0.35      L      0.50-1.10\nAST (U/L)                           50        H      10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

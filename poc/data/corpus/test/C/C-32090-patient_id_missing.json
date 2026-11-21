@@ -1,0 +1,10 @@
+{
+ "doc_id": "C-32090-patient_id_missing",
+ "layout": "C",
+ "perturbation": "patient_id_missing",
+ "expected": "reject",
+ "expected_layout": "C",
+ "truth": null,
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-09-27\nPatient : Chavan, Arjun (M/63)\nPatient ID :               Sample : S-22408\nCollected  : 2026-09-27 08:05\nConsultant : Dr. A. Rao\n\nBIOCHEMISTRY\n  Test / Method\n      Result     Units     Normal Range\n  ----------------------------------------\n  BILIRUBIN TOTAL\n      (Diazo method)\n      1.16       mg/dl     0.20 - 1.20\n  BILIRUBIN DIRECT\n      (Diazo method)\n      0.30       mg/dl     0.00 - 0.30\n  SGPT (ALT)\n      (IFCC)\n      15         U/L       0 - 40\n  SGOT (AST)\n      (IFCC)\n      54 *       U/L       0 - 40\n  ALKALINE PHOSPHATASE\n      (PNPP-AMP)\n      38 *       IU/L      40 - 130\n  TOTAL PROTEINS\n      (Biuret)\n      8.7 *      g/dl      6.0 - 8.3\n  ALBUMIN\n      (BCG)\n      4.3        g/dl      3.5 - 5.2\n  BLOOD UREA\n      (Urease-GLDH)\n      17         mg/dl     15 - 45\n  ----------------------------------------\n  * Value outside normal range\n\nChecked by: Lab Technologist\n                           -- END --\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

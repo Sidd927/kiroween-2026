@@ -1,0 +1,78 @@
+{
+ "doc_id": "A-12031-crlf_trailing",
+ "layout": "A",
+ "perturbation": "crlf_trailing",
+ "expected": "accept",
+ "expected_layout": "A",
+ "truth": {
+  "patient_id": "SP/26/850746",
+  "patient_name": "ISHA PAWAR",
+  "patient_age": 80,
+  "patient_sex": "female",
+  "collected": "2026-04-26",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "18.1",
+    "unit": "gm/dL",
+    "label": "HAEMOGLOBIN"
+   },
+   {
+    "code": "RBC",
+    "value": "5.23",
+    "unit": "mill/cumm",
+    "label": "R.B.C. COUNT"
+   },
+   {
+    "code": "HCT",
+    "value": "45.5",
+    "unit": "%",
+    "label": "P.C.V."
+   },
+   {
+    "code": "MCV",
+    "value": "79.9",
+    "unit": "fL",
+    "label": "M.C.V."
+   },
+   {
+    "code": "MCH",
+    "value": "32.2",
+    "unit": "pg",
+    "label": "M.C.H."
+   },
+   {
+    "code": "MCHC",
+    "value": "35.0",
+    "unit": "g/dL",
+    "label": "M.C.H.C."
+   },
+   {
+    "code": "WBC",
+    "value": "7705",
+    "unit": "/cumm",
+    "label": "TOTAL LEUCOCYTE COUNT"
+   },
+   {
+    "code": "NEUT%",
+    "value": "67",
+    "unit": "%",
+    "label": "NEUTROPHILS"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "20",
+    "unit": "%",
+    "label": "LYMPHOCYTES"
+   },
+   {
+    "code": "PLT",
+    "value": "4.05",
+    "unit": "lakh/cumm",
+    "label": "PLATELET COUNT"
+   }
+  ]
+ },
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\r\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678  \r\n--------------------------------------------------------------------------------   \r\nPatient Name : MS. ISHA PAWAR                   Lab No.   : SP/26/850746  \r\nAge / Sex    : 80 Yrs / F                       Collected : 26/04/2026 08:00 \r\nRef. By      : DR. V. GUPTA                     Reported  : 26/04/2026 17:50   \r\n-------------------------------------------------------------------------------- \r\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT   \r\n--------------------------------------------------------------------------------   \r\nTEST                          RESULT      UNIT          REFERENCE RANGE\r\n--------------------------------------------------------------------------------  \r\nHAEMOGLOBIN                   18.1 H      gm/dL         13.0 - 17.0\r\nR.B.C. COUNT                  5.23        mill/cumm     4.50 - 5.50   \r\nP.C.V.                        45.5        %             40.0 - 50.0   \r\nM.C.V.                        79.9 L      fL            83.0 - 101.0 \r\nM.C.H.                        32.2 H      pg            27.0 - 32.0  \r\nM.C.H.C.                      35.0 H      g/dL          31.5 - 34.5\r\nTOTAL LEUCOCYTE COUNT         7705        /cumm         4000 - 11000  \r\nNEUTROPHILS                   67          %             40 - 80   \r\nLYMPHOCYTES                   20          %             20 - 40  \r\nPLATELET COUNT                4.05        lakh/cumm     1.50 - 4.10\r\n-------------------------------------------------------------------------------- \r\n                             *** END OF REPORT ***   \r\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\r\n ",
+ "split": "test"
+}

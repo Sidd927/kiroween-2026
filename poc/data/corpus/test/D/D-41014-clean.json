@@ -1,0 +1,48 @@
+{
+ "doc_id": "D-41014-clean",
+ "layout": "D",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "D",
+ "truth": {
+  "patient_id": "26-7089482",
+  "patient_name": "ADITYA JOSHI",
+  "patient_age": 44,
+  "patient_sex": "male",
+  "collected": "2026-09-04",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "108",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)"
+   },
+   {
+    "code": "CREA",
+    "value": "1.24",
+    "unit": "mg/dL",
+    "label": "Serum Creatinine"
+   },
+   {
+    "code": "UREA",
+    "value": "11",
+    "unit": "mg/dL",
+    "label": "Blood Urea"
+   },
+   {
+    "code": "HGB",
+    "value": "12.2",
+    "unit": "g/dl",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "WBC",
+    "value": "6750",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)"
+   }
+  ]
+ },
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-7089482            | Coll. Dt : 04.09.26            |\n| Name : SHRI ADITYA JOSHI     | Age/Sex : 44/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 108     | mg/dL      | 70-100     | H    |\n| Serum Creatinine    | 1.24    | mg/dL      | 0.60-1.20  | H    |\n| Blood Urea          | 11      | mg/dL      | 15-40      | L    |\n| Haemoglobin         | 12.2    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 6750    | /cumm      | 4000-11000 |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

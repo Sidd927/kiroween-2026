@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-60210-date_invalid",
+ "layout": "F",
+ "perturbation": "date_invalid",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4447992\nPT: REDDY ISHA             MRN 00013408    AGE: 46Y  SEX: F\nCOLLECTED 02/31/2026 0910   RECEIVED 05/05/2026 0230\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   13.2             12.0-15.5\nHEMATOCRIT (%)                      49.3      H      36.0-46.0\nWBC (K/uL)                          4.1              4.0-11.0\nRBC (M/uL)                          4.63             4.00-5.20\nPLATELETS (K/uL)                    402       H      150-400\nMCV (fL)                            96.5             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            64        L      70-99\nCREATININE (mg/dL)                  1.27      H      0.50-1.10\nALT (U/L)                           6         L      7-56\nAST (U/L)                           10               10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

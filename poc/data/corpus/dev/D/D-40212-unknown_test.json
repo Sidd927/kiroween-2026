@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-40212-unknown_test",
+ "layout": "D",
+ "perturbation": "unknown_test",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-0293774            | Coll. Dt : 24.02.26            |\n| Name : KUM. NEHA JADHAV      | Age/Sex : 26/F                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 108     | mg/dL      | 70-100     | H    |\n| Serum Creatinine    | 1.37    | mg/dL      | 0.60-1.20  | H    |\n| Blood Urea          | 43      | mg/dL      | 15-40      | H    |\n| Haemoglobin         | 14.6    | g/dl       | 12.0-16.0  |      |\n| Totl Count (WBC)    | 8569    | /cumm      | 4000-11000 |      |\n| Platelets           | 0.75    | lakhs/cumm | 1.50-4.50  | L    |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

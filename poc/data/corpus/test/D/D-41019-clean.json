@@ -1,0 +1,48 @@
+{
+ "doc_id": "D-41019-clean",
+ "layout": "D",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "D",
+ "truth": {
+  "patient_id": "26-3704742",
+  "patient_name": "DIVYA PATIL",
+  "patient_age": 6,
+  "patient_sex": "female",
+  "collected": "2026-07-04",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "90",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)"
+   },
+   {
+    "code": "CREA",
+    "value": "0.93",
+    "unit": "mg/dL",
+    "label": "Serum Creatinine"
+   },
+   {
+    "code": "UREA",
+    "value": "37",
+    "unit": "mg/dL",
+    "label": "Blood Urea"
+   },
+   {
+    "code": "HGB",
+    "value": "13.8",
+    "unit": "g/dl",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "WBC",
+    "value": "11284",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)"
+   }
+  ]
+ },
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-3704742            | Coll. Dt : 04.07.26            |\n| Name : KUM. DIVYA PATIL      | Age/Sex : 6/F                  |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 90      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 0.93    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 37      | mg/dL      | 15-40      |      |\n| Haemoglobin         | 13.8    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 11284   | /cumm      | 4000-11000 | H    |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

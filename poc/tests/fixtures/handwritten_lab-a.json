@@ -1,0 +1,22 @@
+{
+ "binding_id": "lab-a-hand",
+ "description": "Hand-written reference binding for dev layout A (harness sanity check only; NOT AI-generated)",
+ "layout": {"anchors": ["^\\s*SUNRISE PATHOLOGY LABORATORY\\s*$", "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$", "HAEMATOLOGY - COMPLETE BLOOD COUNT"]},
+ "fields": {
+  "patient_id": {"regex": "Lab No\\.\\s+:\\s+(?P<v>\\S+)", "type": "string", "required": true, "pattern": "SP/\\d{2}/\\d{6}"},
+  "patient_name": {"regex": "^Patient Name : (?:(?:MR|MRS|MS)\\.\\s+)?(?P<v>.+?)\\s+Lab No\\.", "type": "string", "required": true},
+  "patient_age": {"regex": "^Age / Sex\\s+:\\s+(?P<v>\\d+) Yrs", "type": "integer", "required": false},
+  "patient_sex": {"regex": "^Age / Sex\\s+:\\s+\\d+ Yrs / (?P<v>[MF])\\b", "type": "enum", "enum_map": {"M": "male", "F": "female"}, "required": false},
+  "collected": {"regex": "Collected : (?P<v>\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2})", "type": "date", "format": "%d/%m/%Y %H:%M", "required": true},
+  "reported": {"regex": "Reported  : (?P<v>\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2})", "type": "date", "format": "%d/%m/%Y %H:%M", "required": false}
+ },
+ "results": {
+  "start": "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$",
+  "end": "^\\s*\\*\\*\\* END OF REPORT \\*\\*\\*\\s*$",
+  "skip_lines": ["^-+$", "^\\s*$", "Continued on next page", "^\\s*SUNRISE PATHOLOGY LABORATORY\\s*$", "^Patient Name :", "^TEST\\s+RESULT\\s+UNIT\\s+REFERENCE RANGE$"],
+  "row": "^(?P<label>[A-Z][A-Z. ]*?[A-Z.])\\s{2,}(?P<value>\\S+)(?: (?P<flag>[HL]))?\\s{2,}(?P<unit>\\S+)\\s{2,}(?P<ref_low>[\\d.]+) - (?P<ref_high>[\\d.]+)$",
+  "labels": {"HAEMOGLOBIN": "HGB", "R.B.C. COUNT": "RBC", "P.C.V.": "HCT", "M.C.V.": "MCV", "M.C.H.": "MCH", "M.C.H.C.": "MCHC", "TOTAL LEUCOCYTE COUNT": "WBC", "NEUTROPHILS": "NEUT%", "LYMPHOCYTES": "LYMPH%", "PLATELET COUNT": "PLT"},
+  "flags": {"H": "H", "L": "L"},
+  "min_rows": 5, "max_rows": 12
+ }
+}

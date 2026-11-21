@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-42070-value_corrupt",
+ "layout": "D",
+ "perturbation": "value_corrupt",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-0812913            | Coll. Dt : 18.02.26            |\n| Name : SHRI KIRAN NAIR       | Age/Sex : 52/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 69      | mg/dL      | 70-100     | L    |\n| Serum Creatinine    | l.18    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 9       | mg/dL      | 15-40      | L    |\n| Haemoglobin         | 15.6    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 12493   | /cumm      | 4000-11000 | H    |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

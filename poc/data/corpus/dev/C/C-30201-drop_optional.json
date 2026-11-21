@@ -1,0 +1,54 @@
+{
+ "doc_id": "C-30201-drop_optional",
+ "layout": "C",
+ "perturbation": "drop_optional",
+ "expected": "accept",
+ "expected_layout": "C",
+ "truth": {
+  "patient_id": "8314351",
+  "patient_name": "Reddy, Nikhil",
+  "patient_age": 21,
+  "patient_sex": "female",
+  "collected": "2026-05-04",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "0.08",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.29",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT"
+   },
+   {
+    "code": "ALT",
+    "value": "53",
+    "unit": "U/L",
+    "label": "SGPT (ALT)"
+   },
+   {
+    "code": "AST",
+    "value": "3",
+    "unit": "U/L",
+    "label": "SGOT (AST)"
+   },
+   {
+    "code": "TP",
+    "value": "6.1",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS"
+   },
+   {
+    "code": "ALB",
+    "value": "4.6",
+    "unit": "g/dl",
+    "label": "ALBUMIN"
+   }
+  ]
+ },
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-05-04\nPatient : Reddy, Nikhil (F/21)\nPatient ID : 8314351       Sample : S-98010\nCollected  : 2026-05-04 09:45\nConsultant : Dr. R. Shah\n\nBIOCHEMISTRY\n  Test / Method\n      Result     Units     Normal Range\n  ----------------------------------------\n  BILIRUBIN TOTAL\n      (Diazo method)\n      0.08 *     mg/dl     0.20 - 1.20\n  BILIRUBIN DIRECT\n      (Diazo method)\n      0.29       mg/dl     0.00 - 0.30\n  SGPT (ALT)\n      (IFCC)\n      53 *       U/L       0 - 40\n  SGOT (AST)\n      (IFCC)\n      3          U/L       0 - 40\n  TOTAL PROTEINS\n      (Biuret)\n      6.1        g/dl      6.0 - 8.3\n  ALBUMIN\n      (BCG)\n      4.6        g/dl      3.5 - 5.2\n  ----------------------------------------\n  * Value outside normal range\n\nChecked by: Lab Technologist\n                           -- END --\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

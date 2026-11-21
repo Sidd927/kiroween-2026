@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12141-layout_drift",
+ "layout": "A",
+ "perturbation": "layout_drift",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MRS. VIKRAM NAIR                 Lab No.   : SP/26/340979\nAge / Sex    : 31 Yrs / F                       Collected : 03/04/2026 11:15\nRef. By      : DR. S. JOSHI                     Reported  : 04/04/2026 18:50\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          REFERENCE RANGE   RESULT      UNIT\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   13.0 - 17.0       13.1        gm/dL\nR.B.C. COUNT                  4.50 - 5.50       5.21        mill/cumm\nP.C.V.                        40.0 - 50.0       41.5        %\nM.C.V.                        83.0 - 101.0      83.4        fL\nM.C.H.                        27.0 - 32.0       32.3 H      pg\nM.C.H.C.                      31.5 - 34.5       32.6        g/dL\nTOTAL LEUCOCYTE COUNT         4000 - 11000      2347 L      /cumm\nPLATELET COUNT                1.50 - 4.10       2.38        lakh/cumm\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-10214-layout_drift",
+ "layout": "A",
+ "perturbation": "layout_drift",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MRS. ROHAN GUPTA                 Lab No.   : SP/26/826494\nAge / Sex    : 46 Yrs / F                       Collected : 25/04/2026 11:05\nRef. By      : DR. M. KULKARNI                  Reported  : 26/04/2026 14:15\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          REFERENCE RANGE   RESULT      UNIT\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   13.0 - 17.0       15.0        gm/dL\nR.B.C. COUNT                  4.50 - 5.50       4.26 L      mill/cumm\nP.C.V.                        40.0 - 50.0       52.9 H      %\nM.C.V.                        83.0 - 101.0      83.2        fL\nM.C.H.                        27.0 - 32.0       29.8        pg\nM.C.H.C.                      31.5 - 34.5       34.0        g/dL\nTOTAL LEUCOCYTE COUNT         4000 - 11000      11848 H     /cumm\nLYMPHOCYTES                   20 - 40           16 L        %\nPLATELET COUNT                1.50 - 4.10       4.76 H      lakh/cumm\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

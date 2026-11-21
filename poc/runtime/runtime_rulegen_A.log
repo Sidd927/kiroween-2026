@@ -1,0 +1,9 @@
+A activated rounds: 1 calls: 2 28.9s $0.1758
+  round 0 {'passed': False, 'counts': {'clean:correct_accept': 5, 'clean:false_reject': 5, 'perturbed:false_reject': 5, 'perturbed:correct_reject': 12}}
+     - A-10100-clean false_reject valid document was rejected: ["unknown_label: 'NEUTROPHILS'"]
+     - A-10101-clean false_reject valid document was rejected: ["unknown_label: 'NEUTROPHILS'"]
+     - A-10102-clean false_reject valid document was rejected: ["unknown_label: 'NEUTROPHILS'"]
+     - A-10103-clean false_reject valid document was rejected: ["unknown_label: 'NEUTROPHILS'"]
+     - A-10105-clean false_reject valid document was rejected: ["unknown_label: 'NEUTROPHILS'"]
+     - A-10200-col_shift false_reject valid document was rejected: ["unknown_label: 'NEUTROPHILS'"]
+  round 1 {'passed': True, 'counts': {'clean:correct_accept': 10, 'perturbed:correct_accept': 5, 'perturbed:correct_reject': 12}}

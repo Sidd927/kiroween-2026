@@ -1,0 +1,10 @@
+{
+ "doc_id": "C-30207-value_corrupt",
+ "layout": "C",
+ "perturbation": "value_corrupt",
+ "expected": "reject",
+ "expected_layout": "C",
+ "truth": null,
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-01-19\nPatient : Kulkarni, Sameer (F/75)\nPatient ID : 9372994       Sample : S-23260\nCollected  : 2026-01-19 09:00\nConsultant : Dr. S. Joshi\n\nBIOCHEMISTRY\n  Test / Method\n      Result     Units     Normal Range\n  ----------------------------------------\n  BILIRUBIN TOTAL\n      (Diazo method)\n      1..27 *    mg/dl     0.20 - 1.20\n  BILIRUBIN DIRECT\n      (Diazo method)\n      0.13       mg/dl     0.00 - 0.30\n  SGPT (ALT)\n      (IFCC)\n      47 *       U/L       0 - 40\n  SGOT (AST)\n      (IFCC)\n      17         U/L       0 - 40\n  ALKALINE PHOSPHATASE\n      (PNPP-AMP)\n      79         IU/L      40 - 130\n  TOTAL PROTEINS\n      (Biuret)\n      8.1        g/dl      6.0 - 8.3\n  ALBUMIN\n      (BCG)\n      4.7        g/dl      3.5 - 5.2\n  BLOOD UREA\n      (Urease-GLDH)\n      48 *       mg/dl     15 - 45\n  ----------------------------------------\n  * Value outside normal range\n\nChecked by: Lab Technologist\n                           -- END --\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

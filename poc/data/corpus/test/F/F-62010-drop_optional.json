@@ -1,0 +1,72 @@
+{
+ "doc_id": "F-62010-drop_optional",
+ "layout": "F",
+ "perturbation": "drop_optional",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "15662949",
+  "patient_name": "JADHAV AARAV",
+  "patient_age": 8,
+  "patient_sex": "male",
+  "collected": "2026-01-04",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "15.2",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "41.4",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "2.2",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "PLT",
+    "value": "446",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "87.0",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "84",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "0.64",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   },
+   {
+    "code": "ALT",
+    "value": "14",
+    "unit": "U/L",
+    "label": "ALT"
+   },
+   {
+    "code": "AST",
+    "value": "25",
+    "unit": "U/L",
+    "label": "AST"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4486158\nPT: JADHAV AARAV           MRN 15662949    AGE: 8Y  SEX: M\nCOLLECTED 01/04/2026 1040   RECEIVED 01/05/2026 2350\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   15.2             12.0-15.5\nHEMATOCRIT (%)                      41.4             36.0-46.0\nWBC (K/uL)                          2.2       L      4.0-11.0\nPLATELETS (K/uL)                    446       H      150-400\nMCV (fL)                            87.0             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            84               70-99\nCREATININE (mg/dL)                  0.64             0.50-1.10\nALT (U/L)                           14               7-56\nAST (U/L)                           25               10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

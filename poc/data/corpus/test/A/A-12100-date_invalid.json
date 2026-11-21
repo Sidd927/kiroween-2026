@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12100-date_invalid",
+ "layout": "A",
+ "perturbation": "date_invalid",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MR. TANVI PATIL                  Lab No.   : SP/26/195744\nAge / Sex    : 70 Yrs / M                       Collected : 31/02/2026 09:10\nRef. By      : DR. A. RAO                       Reported  : 25/02/2026 17:20\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   14.3        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  4.58        mill/cumm     4.50 - 5.50\nP.C.V.                        43.2        %             40.0 - 50.0\nM.C.V.                        98.4        fL            83.0 - 101.0\nM.C.H.                        33.6 H      pg            27.0 - 32.0\nM.C.H.C.                      34.5        g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         2023 L      /cumm         4000 - 11000\nPLATELET COUNT                1.03 L      lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

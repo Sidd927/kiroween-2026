@@ -1,0 +1,48 @@
+{
+ "doc_id": "D-40102-clean",
+ "layout": "D",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "D",
+ "truth": {
+  "patient_id": "26-5848021",
+  "patient_name": "SNEHA GUPTA",
+  "patient_age": 59,
+  "patient_sex": "female",
+  "collected": "2026-01-12",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "92",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)"
+   },
+   {
+    "code": "CREA",
+    "value": "0.46",
+    "unit": "mg/dL",
+    "label": "Serum Creatinine"
+   },
+   {
+    "code": "UREA",
+    "value": "46",
+    "unit": "mg/dL",
+    "label": "Blood Urea"
+   },
+   {
+    "code": "HGB",
+    "value": "11.5",
+    "unit": "g/dl",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "WBC",
+    "value": "9499",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)"
+   }
+  ]
+ },
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-5848021            | Coll. Dt : 12.01.26            |\n| Name : SMT. SNEHA GUPTA      | Age/Sex : 59/F                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 92      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 0.46    | mg/dL      | 0.60-1.20  | L    |\n| Blood Urea          | 46      | mg/dL      | 15-40      | H    |\n| Haemoglobin         | 11.5    | g/dl       | 12.0-16.0  | L    |\n| Total Count (WBC)   | 9499    | /cumm      | 4000-11000 |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

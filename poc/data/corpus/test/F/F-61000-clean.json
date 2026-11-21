@@ -1,0 +1,72 @@
+{
+ "doc_id": "F-61000-clean",
+ "layout": "F",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "F",
+ "truth": {
+  "patient_id": "97021743",
+  "patient_name": "IYER ANANYA",
+  "patient_age": 37,
+  "patient_sex": "female",
+  "collected": "2026-04-07",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "16.0",
+    "unit": "g/dL",
+    "label": "HEMOGLOBIN"
+   },
+   {
+    "code": "HCT",
+    "value": "44.3",
+    "unit": "%",
+    "label": "HEMATOCRIT"
+   },
+   {
+    "code": "WBC",
+    "value": "4.3",
+    "unit": "K/uL",
+    "label": "WBC"
+   },
+   {
+    "code": "RBC",
+    "value": "4.83",
+    "unit": "M/uL",
+    "label": "RBC"
+   },
+   {
+    "code": "PLT",
+    "value": "242",
+    "unit": "K/uL",
+    "label": "PLATELETS"
+   },
+   {
+    "code": "MCV",
+    "value": "81.3",
+    "unit": "fL",
+    "label": "MCV"
+   },
+   {
+    "code": "GLU",
+    "value": "65",
+    "unit": "mg/dL",
+    "label": "GLUCOSE, FASTING"
+   },
+   {
+    "code": "CREA",
+    "value": "1.23",
+    "unit": "mg/dL",
+    "label": "CREATININE"
+   },
+   {
+    "code": "AST",
+    "value": "7",
+    "unit": "U/L",
+    "label": "AST"
+   }
+  ]
+ },
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4450063\nPT: IYER ANANYA            MRN 97021743    AGE: 37Y  SEX: F\nCOLLECTED 04/07/2026 0805   RECEIVED 04/07/2026 1405\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   16.0      H      12.0-15.5\nHEMATOCRIT (%)                      44.3             36.0-46.0\nWBC (K/uL)                          4.3              4.0-11.0\nRBC (M/uL)                          4.83             4.00-5.20\nPLATELETS (K/uL)                    242              150-400\nMCV (fL)                            81.3             80.0-100.0\nGLUCOSE, FASTING (mg/dL)            65        L      70-99\nCREATININE (mg/dL)                  1.23      H      0.50-1.10\nAST (U/L)                           7         L      10-40\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

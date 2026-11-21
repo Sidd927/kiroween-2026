@@ -1,0 +1,10 @@
+{
+ "doc_id": "C-30206-unit_missing",
+ "layout": "C",
+ "perturbation": "unit_missing",
+ "expected": "reject",
+ "expected_layout": "C",
+ "truth": null,
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-05-21\nPatient : Iyer, Omkar (F/13)\nPatient ID : 5990655       Sample : S-66233\nCollected  : 2026-05-20 09:05\nConsultant : Dr. V. Gupta\n\nBIOCHEMISTRY\n  Test / Method\n      Result     Units     Normal Range\n  ----------------------------------------\n  BILIRUBIN TOTAL\n      (Diazo method)\n      1.55 *               0.20 - 1.20\n  BILIRUBIN DIRECT\n      (Diazo method)\n      0.30       mg/dl     0.00 - 0.30\n  SGPT (ALT)\n      (IFCC)\n      24         U/L       0 - 40\n  SGOT (AST)\n      (IFCC)\n      32         U/L       0 - 40\n  ALKALINE PHOSPHATASE\n      (PNPP-AMP)\n      150 *      IU/L      40 - 130\n  TOTAL PROTEINS\n      (Biuret)\n      7.3        g/dl      6.0 - 8.3\n  ALBUMIN\n      (BCG)\n      3.5        g/dl      3.5 - 5.2\n  ----------------------------------------\n  * Value outside normal range\n\nChecked by: Lab Technologist\n                           -- END --\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

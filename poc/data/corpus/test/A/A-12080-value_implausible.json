@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12080-value_implausible",
+ "layout": "A",
+ "perturbation": "value_implausible",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MR. NIKHIL PAWAR                 Lab No.   : SP/26/787901\nAge / Sex    : 17 Yrs / M                       Collected : 20/08/2026 09:05\nRef. By      : DR. P. NAIR                      Reported  : 21/08/2026 18:30\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   17.6 H      gm/dL         13.0 - 17.0\nR.B.C. COUNT                  554 H       mill/cumm     4.50 - 5.50\nP.C.V.                        43.3        %             40.0 - 50.0\nM.C.V.                        104.0 H     fL            83.0 - 101.0\nM.C.H.                        29.8        pg            27.0 - 32.0\nM.C.H.C.                      32.0        g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         5330        /cumm         4000 - 11000\nNEUTROPHILS                   34 L        %             40 - 80\nLYMPHOCYTES                   36          %             20 - 40\nPLATELET COUNT                4.26 H      lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

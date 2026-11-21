@@ -1,0 +1,42 @@
+{
+ "doc_id": "D-42011-drop_optional",
+ "layout": "D",
+ "perturbation": "drop_optional",
+ "expected": "accept",
+ "expected_layout": "D",
+ "truth": {
+  "patient_id": "26-7118387",
+  "patient_name": "NEHA JADHAV",
+  "patient_age": 40,
+  "patient_sex": "male",
+  "collected": "2026-01-01",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "106",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)"
+   },
+   {
+    "code": "UREA",
+    "value": "25",
+    "unit": "mg/dL",
+    "label": "Blood Urea"
+   },
+   {
+    "code": "HGB",
+    "value": "13.4",
+    "unit": "g/dl",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "WBC",
+    "value": "12987",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)"
+   }
+  ]
+ },
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-7118387            | Coll. Dt : 01.01.26            |\n| Name : SHRI NEHA JADHAV      | Age/Sex : 40/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 106     | mg/dL      | 70-100     | H    |\n| Blood Urea          | 25      | mg/dL      | 15-40      |      |\n| Haemoglobin         | 13.4    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 12987   | /cumm      | 4000-11000 | H    |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

@@ -1,0 +1,88 @@
+{
+ "layout": "A",
+ "binding_id": "lab-a",
+ "activated": true,
+ "rounds_used": 1,
+ "history": [
+  {
+   "round": 0,
+   "seconds": 17.1,
+   "passed": false,
+   "counts": {
+    "clean:correct_accept": 5,
+    "clean:false_reject": 5,
+    "perturbed:false_reject": 5,
+    "perturbed:correct_reject": 12
+   },
+   "failures": [
+    {
+     "doc_id": "A-10100-clean",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: [\"unknown_label: 'NEUTROPHILS'\"]"
+    },
+    {
+     "doc_id": "A-10101-clean",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: [\"unknown_label: 'NEUTROPHILS'\"]"
+    },
+    {
+     "doc_id": "A-10102-clean",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: [\"unknown_label: 'NEUTROPHILS'\"]"
+    },
+    {
+     "doc_id": "A-10103-clean",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: [\"unknown_label: 'NEUTROPHILS'\"]"
+    },
+    {
+     "doc_id": "A-10105-clean",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: [\"unknown_label: 'NEUTROPHILS'\"]"
+    },
+    {
+     "doc_id": "A-10200-col_shift",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: [\"unknown_label: 'NEUTROPHILS'\"]"
+    },
+    {
+     "doc_id": "A-10201-drop_optional",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: [\"unknown_label: 'NEUTROPHILS'\"]"
+    },
+    {
+     "doc_id": "A-10202-page_break",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: [\"unparsed_content: 'Continued on next page...'\"]"
+    },
+    {
+     "doc_id": "A-10203-crlf_trailing",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: [\"unknown_label: 'NEUTROPHILS'\"]"
+    },
+    {
+     "doc_id": "A-10204-long_name",
+     "cls": "false_reject",
+     "problem": "valid document was rejected: [\"unknown_label: 'NEUTROPHILS'\"]"
+    }
+   ]
+  },
+  {
+   "round": 1,
+   "seconds": 11.7,
+   "passed": true,
+   "counts": {
+    "clean:correct_accept": 10,
+    "perturbed:correct_accept": 5,
+    "perturbed:correct_reject": 12
+   },
+   "failures": []
+  }
+ ],
+ "llm_calls": 2,
+ "sha256": "cb5392dc3ed4a635f15edd98224ed6000dcc8663774d87304cdbdcde54bd0b39",
+ "status": "active",
+ "approval": "SIMULATED human approval (PoC): gate passed, binding reviewed by no human",
+ "wall_seconds": 28.9,
+ "llm_cost_usd": 0.1758
+}

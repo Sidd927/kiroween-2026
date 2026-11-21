@@ -1,0 +1,72 @@
+{
+ "doc_id": "B-22030-crlf_trailing",
+ "layout": "B",
+ "perturbation": "crlf_trailing",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-399056",
+  "patient_name": "Rahul Pawar",
+  "patient_age": 61,
+  "patient_sex": "female",
+  "collected": "2026-04-11",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "14.7",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "5.24",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "38.1",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "103.5",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "32.0",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "33.8",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "3783",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "14",
+    "unit": "%",
+    "label": "Lymphocytes"
+   },
+   {
+    "code": "PLT",
+    "value": "256",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\r\n             Plot 7, MIDC Area, Aurangabad - 431001\r\nReg. No : CDC-399056            Date : 12-Apr-2026\r\nName    : Rahul Pawar           Age  : 61 Y   Sex : Female\r\nSample collected on : 11-Apr-2026 07:05 AM\r\nReferred by : Dr. S. Joshi  \r\n                                                     Page 1 of 2 \r\n================================================================\r\nInvestigation             Value    Units         Biological Ref.  \r\n----------------------------------------------------------------\r\nHaemoglobin ............. 14.7     g/dL          13.0-17.0 \r\nRBC Count ............... 5.24     million/cumm  4.50-5.50\r\nPCV / Haematocrit ....... \u001bE38.1     \u001bF%             40.0-50.0\r\nMCV ..................... \u001bE103.5    \u001bFfl            83.0-101.0 \r\nMCH ..................... 32.0     pg            27.0-32.0   \r\nMCHC .................... 33.8     g/dl          31.5-34.5  \r\n----------------------------------------------------------------  \r\n                                                     (continued)   \r\n  \r\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF   \r\n             Plot 7, MIDC Area, Aurangabad - 431001  \r\nReg. No : CDC-399056            Date : 12-Apr-2026   \r\nName    : Rahul Pawar           Age  : 61 Y   Sex : Female\r\nSample collected on : 11-Apr-2026 07:05 AM \r\nReferred by : Dr. S. Joshi  \r\n                                                     Page 2 of 2   \r\n================================================================   \r\nInvestigation             Value    Units         Biological Ref.  \r\n----------------------------------------------------------------   \r\nTotal WBC Count ......... \u001bE3783     \u001bFcells/cumm    4000-11000  \r\nLymphocytes ............. \u001bE14       \u001bF%             20-40   \r\nPlatelet Count .......... 256      10^3/uL       150-410   \r\n---------------------------------------------------------------- \r\nValues in bold are outside the biological reference interval.\r\n                     --- End of Report --- \r\nSYNTHETIC SAMPLE - NOT A REAL PATIENT   \r\n  ",
+ "split": "test"
+}

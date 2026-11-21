@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-10216-flag_inconsistent",
+ "layout": "A",
+ "perturbation": "flag_inconsistent",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MS. ADITYA NAIR                  Lab No.   : SP/26/851008\nAge / Sex    : 43 Yrs / F                       Collected : 11/02/2026 08:20\nRef. By      : DR. P. NAIR                      Reported  : 11/02/2026 13:55\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   15.7 L      gm/dL         13.0 - 17.0\nR.B.C. COUNT                  5.64 H      mill/cumm     4.50 - 5.50\nP.C.V.                        53.5 H      %             40.0 - 50.0\nM.C.V.                        100.6       fL            83.0 - 101.0\nM.C.H.                        30.2        pg            27.0 - 32.0\nM.C.H.C.                      30.5 L      g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         3814 L      /cumm         4000 - 11000\nNEUTROPHILS                   52          %             40 - 80\nLYMPHOCYTES                   17 L        %             20 - 40\nPLATELET COUNT                2.97        lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

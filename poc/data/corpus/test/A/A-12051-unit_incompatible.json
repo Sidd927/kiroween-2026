@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12051-unit_incompatible",
+ "layout": "A",
+ "perturbation": "unit_incompatible",
+ "expected": "reject",
+ "expected_layout": "A",
+ "truth": null,
+ "text": "                          SUNRISE PATHOLOGY LABORATORY\n              12, Station Road, Nashik - 422001  Ph: 0253-2345678\n--------------------------------------------------------------------------------\nPatient Name : MS. ISHA MEHTA                   Lab No.   : SP/26/278821\nAge / Sex    : 83 Yrs / F                       Collected : 04/06/2026 07:50\nRef. By      : DR. S. JOSHI                     Reported  : 04/06/2026 19:40\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   13.8        gm/dL         13.0 - 17.0\nR.B.C. COUNT                  5.66 H      U/L           4.50 - 5.50\nP.C.V.                        52.1 H      %             40.0 - 50.0\nM.C.V.                        80.5 L      fL            83.0 - 101.0\nM.C.H.                        32.2 H      pg            27.0 - 32.0\nM.C.H.C.                      33.2        g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         10667       /cumm         4000 - 11000\nNEUTROPHILS                   56          %             40 - 80\nLYMPHOCYTES                   15 L        %             20 - 40\nPLATELET COUNT                0.95 L      lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

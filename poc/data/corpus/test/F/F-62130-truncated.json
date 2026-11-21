@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-62130-truncated",
+ "layout": "F",
+ "perturbation": "truncated",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4474188\nPT: KULKARNI RAHUL         MRN 39368358    AGE: 31Y  SEX: F\nCOLLECTED 06/08/2026 1015   RECEIVED 06/09/2026 2215\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   11.8      L      12.0-15.5\nHEMATOCRIT (%)                      44.1             36.0-46.0\nWBC (K/uL)                          11.5      H      4.0-11.0\nRBC (M/uL)                          4.12             4.00-5.20\nPLATELETS (K/uL)                    216              150-400\nMCV (fL)                            86.3             80.0-100.0",
+ "split": "test"
+}

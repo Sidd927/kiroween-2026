@@ -1,0 +1,54 @@
+{
+ "doc_id": "D-40101-clean",
+ "layout": "D",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "D",
+ "truth": {
+  "patient_id": "26-7623069",
+  "patient_name": "ADITYA BHOSALE",
+  "patient_age": 34,
+  "patient_sex": "male",
+  "collected": "2026-01-12",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "99",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)"
+   },
+   {
+    "code": "CREA",
+    "value": "1.10",
+    "unit": "mg/dL",
+    "label": "Serum Creatinine"
+   },
+   {
+    "code": "UREA",
+    "value": "21",
+    "unit": "mg/dL",
+    "label": "Blood Urea"
+   },
+   {
+    "code": "HGB",
+    "value": "11.6",
+    "unit": "g/dl",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "WBC",
+    "value": "5111",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)"
+   },
+   {
+    "code": "PLT",
+    "value": "2.66",
+    "unit": "lakhs/cumm",
+    "label": "Platelets"
+   }
+  ]
+ },
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-7623069            | Coll. Dt : 12.01.26            |\n| Name : SHRI ADITYA BHOSALE   | Age/Sex : 34/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 99      | mg/dL      | 70-100     |      |\n| Serum Creatinine    | 1.10    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 21      | mg/dL      | 15-40      |      |\n| Haemoglobin         | 11.6    | g/dl       | 12.0-16.0  | L    |\n| Total Count (WBC)   | 5111    | /cumm      | 4000-11000 |      |\n| Platelets           | 2.66    | lakhs/cumm | 1.50-4.50  |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

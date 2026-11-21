@@ -1,0 +1,72 @@
+{
+ "doc_id": "B-21002-clean",
+ "layout": "B",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-975226",
+  "patient_name": "Ananya Chavan",
+  "patient_age": 83,
+  "patient_sex": "female",
+  "collected": "2026-10-04",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "18.2",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "5.82",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "39.9",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "79.1",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "32.9",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "32.1",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "8198",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "NEUT%",
+    "value": "63",
+    "unit": "%",
+    "label": "Neutrophils"
+   },
+   {
+    "code": "PLT",
+    "value": "228",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-975226            Date : 05-Oct-2026\nName    : Ananya Chavan         Age  : 83 Y   Sex : Female\nSample collected on : 04-Oct-2026 08:05 AM\nReferred by : Dr. A. Rao\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. \u001bE18.2     \u001bFg/dL          13.0-17.0\nRBC Count ............... \u001bE5.82     \u001bFmillion/cumm  4.50-5.50\nPCV / Haematocrit ....... \u001bE39.9     \u001bF%             40.0-50.0\nMCV ..................... \u001bE79.1     \u001bFfl            83.0-101.0\nMCH ..................... \u001bE32.9     \u001bFpg            27.0-32.0\nMCHC .................... 32.1     g/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-975226            Date : 05-Oct-2026\nName    : Ananya Chavan         Age  : 83 Y   Sex : Female\nSample collected on : 04-Oct-2026 08:05 AM\nReferred by : Dr. A. Rao\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nTotal WBC Count ......... 8198     cells/cumm    4000-11000\nNeutrophils ............. 63       %             40-80\nPlatelet Count .......... 228      10^3/uL       150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

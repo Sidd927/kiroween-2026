@@ -1,0 +1,54 @@
+{
+ "doc_id": "D-41009-clean",
+ "layout": "D",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "D",
+ "truth": {
+  "patient_id": "26-8309185",
+  "patient_name": "OMKAR PAWAR",
+  "patient_age": 30,
+  "patient_sex": "female",
+  "collected": "2026-02-05",
+  "results": [
+   {
+    "code": "GLU",
+    "value": "63",
+    "unit": "mg/dL",
+    "label": "Glucose (Fasting)"
+   },
+   {
+    "code": "CREA",
+    "value": "0.51",
+    "unit": "mg/dL",
+    "label": "Serum Creatinine"
+   },
+   {
+    "code": "UREA",
+    "value": "21",
+    "unit": "mg/dL",
+    "label": "Blood Urea"
+   },
+   {
+    "code": "HGB",
+    "value": "12.9",
+    "unit": "g/dl",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "WBC",
+    "value": "2912",
+    "unit": "/cumm",
+    "label": "Total Count (WBC)"
+   },
+   {
+    "code": "PLT",
+    "value": "1.99",
+    "unit": "lakhs/cumm",
+    "label": "Platelets"
+   }
+  ]
+ },
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-8309185            | Coll. Dt : 05.02.26            |\n| Name : SMT. OMKAR PAWAR      | Age/Sex : 30/F                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 63      | mg/dL      | 70-100     | L    |\n| Serum Creatinine    | 0.51    | mg/dL      | 0.60-1.20  | L    |\n| Blood Urea          | 21      | mg/dL      | 15-40      |      |\n| Haemoglobin         | 12.9    | g/dl       | 12.0-16.0  |      |\n| Total Count (WBC)   | 2912    | /cumm      | 4000-11000 | L    |\n| Platelets           | 1.99    | lakhs/cumm | 1.50-4.50  |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

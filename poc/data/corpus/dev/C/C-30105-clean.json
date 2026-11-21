@@ -1,0 +1,66 @@
+{
+ "doc_id": "C-30105-clean",
+ "layout": "C",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "C",
+ "truth": {
+  "patient_id": "7345090",
+  "patient_name": "Jadhav, Aditya",
+  "patient_age": 3,
+  "patient_sex": "female",
+  "collected": "2026-07-26",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "0.06",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.18",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT"
+   },
+   {
+    "code": "ALT",
+    "value": "8",
+    "unit": "U/L",
+    "label": "SGPT (ALT)"
+   },
+   {
+    "code": "AST",
+    "value": "6",
+    "unit": "U/L",
+    "label": "SGOT (AST)"
+   },
+   {
+    "code": "ALP",
+    "value": "76",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE"
+   },
+   {
+    "code": "TP",
+    "value": "8.5",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS"
+   },
+   {
+    "code": "ALB",
+    "value": "3.1",
+    "unit": "g/dl",
+    "label": "ALBUMIN"
+   },
+   {
+    "code": "UREA",
+    "value": "38",
+    "unit": "mg/dl",
+    "label": "BLOOD UREA"
+   }
+  ]
+ },
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-07-26\nPatient : Jadhav, Aditya (F/3)\nPatient ID : 7345090       Sample : S-23854\nCollected  : 2026-07-26 07:15\nConsultant : Dr. S. Joshi\n\nBIOCHEMISTRY\n  Test / Method\n      Result     Units     Normal Range\n  ----------------------------------------\n  BILIRUBIN TOTAL\n      (Diazo method)\n      0.06 *     mg/dl     0.20 - 1.20\n  BILIRUBIN DIRECT\n      (Diazo method)\n      0.18       mg/dl     0.00 - 0.30\n  SGPT (ALT)\n      (IFCC)\n      8          U/L       0 - 40\n  SGOT (AST)\n      (IFCC)\n      6          U/L       0 - 40\n  ALKALINE PHOSPHATASE\n      (PNPP-AMP)\n      76         IU/L      40 - 130\n  TOTAL PROTEINS\n      (Biuret)\n      8.5 *      g/dl      6.0 - 8.3\n  ALBUMIN\n      (BCG)\n      3.1 *      g/dl      3.5 - 5.2\n  BLOOD UREA\n      (Urease-GLDH)\n      38         mg/dl     15 - 45\n  ----------------------------------------\n  * Value outside normal range\n\nChecked by: Lab Technologist\n                           -- END --\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-40214-layout_drift",
+ "layout": "D",
+ "perturbation": "layout_drift",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-4953269            | Coll. Dt : 22.06.26            |\n| Name : SHRI DIVYA PAWAR      | Age/Sex : 10/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | RANGE   | UNIT       | VALUE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 70-100  | mg/dL      | 61         | L    |\n| Serum Creatinine    | 0.60-1.20 | mg/dL      | 0.89       |      |\n| Blood Urea          | 15-40   | mg/dL      | 41         | H    |\n| Haemoglobin         | 12.0-16.0 | g/dl       | 16.3       | H    |\n| Total Count (WBC)   | 4000-11000 | /cumm      | 10129      |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-62120-unknown_test",
+ "layout": "F",
+ "perturbation": "unknown_test",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4486600\nPT: PAWAR MEERA            MRN 03684295    AGE: 34Y  SEX: F\nCOLLECTED 05/02/2026 0830   RECEIVED 05/03/2026 1255\n========================================================================\nTEST NAME (UNITS)                   RESULT    FLAG   REF\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   11.9      L      12.0-15.5\nHEMATOCRIT (%)                      46.1      H      36.0-46.0\nWBC (K/uL)                          7.1              4.0-11.0\nRBC (M/uL)                          4.12             4.00-5.20\nPLATELETS (K/uL)                    136       L      150-400\nMCV (fL)                            106.4     H      80.0-100.0\nGLUCOSE, FASTING (mg/dL)            75               70-99\nCRATININE (mg/dL)                   1.10             0.50-1.10\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

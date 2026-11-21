@@ -1,0 +1,72 @@
+{
+ "doc_id": "C-30102-clean",
+ "layout": "C",
+ "perturbation": "clean",
+ "expected": "accept",
+ "expected_layout": "C",
+ "truth": {
+  "patient_id": "5726259",
+  "patient_name": "Gaikwad, Aarav",
+  "patient_age": 31,
+  "patient_sex": "female",
+  "collected": "2026-10-26",
+  "results": [
+   {
+    "code": "TBIL",
+    "value": "0.99",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN TOTAL"
+   },
+   {
+    "code": "DBIL",
+    "value": "0.35",
+    "unit": "mg/dl",
+    "label": "BILIRUBIN DIRECT"
+   },
+   {
+    "code": "ALT",
+    "value": "29",
+    "unit": "U/L",
+    "label": "SGPT (ALT)"
+   },
+   {
+    "code": "AST",
+    "value": "25",
+    "unit": "U/L",
+    "label": "SGOT (AST)"
+   },
+   {
+    "code": "ALP",
+    "value": "142",
+    "unit": "IU/L",
+    "label": "ALKALINE PHOSPHATASE"
+   },
+   {
+    "code": "TP",
+    "value": "6.4",
+    "unit": "g/dl",
+    "label": "TOTAL PROTEINS"
+   },
+   {
+    "code": "ALB",
+    "value": "5.3",
+    "unit": "g/dl",
+    "label": "ALBUMIN"
+   },
+   {
+    "code": "CREA",
+    "value": "0.83",
+    "unit": "mg/dl",
+    "label": "SERUM CREATININE"
+   },
+   {
+    "code": "UREA",
+    "value": "29",
+    "unit": "mg/dl",
+    "label": "BLOOD UREA"
+   }
+  ]
+ },
+ "text": "DR. MEHTA'S CLINICAL LABORATORY             Report Date: 2026-10-27\nPatient : Gaikwad, Aarav (F/31)\nPatient ID : 5726259       Sample : S-48081\nCollected  : 2026-10-26 10:05\nConsultant : Dr. S. Joshi\n\nBIOCHEMISTRY\n  Test / Method\n      Result     Units     Normal Range\n  ----------------------------------------\n  BILIRUBIN TOTAL\n      (Diazo method)\n      0.99       mg/dl     0.20 - 1.20\n  BILIRUBIN DIRECT\n      (Diazo method)\n      0.35 *     mg/dl     0.00 - 0.30\n  SGPT (ALT)\n      (IFCC)\n      29         U/L       0 - 40\n  SGOT (AST)\n      (IFCC)\n      25         U/L       0 - 40\n  ALKALINE PHOSPHATASE\n      (PNPP-AMP)\n      142 *      IU/L      40 - 130\n  TOTAL PROTEINS\n      (Biuret)\n      6.4        g/dl      6.0 - 8.3\n  ALBUMIN\n      (BCG)\n      5.3 *      g/dl      3.5 - 5.2\n  SERUM CREATININE\n      (Jaffe kinetic)\n      0.83       mg/dl     0.60 - 1.30\n  BLOOD UREA\n      (Urease-GLDH)\n      29         mg/dl     15 - 45\n  ----------------------------------------\n  * Value outside normal range\n\nChecked by: Lab Technologist\n                           -- END --\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

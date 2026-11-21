@@ -1,0 +1,10 @@
+{
+ "doc_id": "A-12151-header_changed",
+ "layout": "A",
+ "perturbation": "header_changed",
+ "expected": "reject",
+ "expected_layout": null,
+ "truth": null,
+ "text": "                   SUNRISE DIAGNOSTICS & PATHOLOGY PVT. LTD.\n                 NABL-style format v2  |  Gangapur Road, Nashik\n================================================================================\nPatient Name : MRS. ARJUN JOSHI                 Lab No.   : SP/26/902930\nAge / Sex    : 28 Yrs / F                       Collected : 06/06/2026 09:30\nRef. By      : DR. M. KULKARNI                  Reported  : 07/06/2026 06:40\n--------------------------------------------------------------------------------\n                       HAEMATOLOGY - COMPLETE BLOOD COUNT\n--------------------------------------------------------------------------------\nTEST                          RESULT      UNIT          REFERENCE RANGE\n--------------------------------------------------------------------------------\nHAEMOGLOBIN                   18.3 H      gm/dL         13.0 - 17.0\nR.B.C. COUNT                  4.41 L      mill/cumm     4.50 - 5.50\nP.C.V.                        41.4        %             40.0 - 50.0\nM.C.V.                        82.3 L      fL            83.0 - 101.0\nM.C.H.                        29.5        pg            27.0 - 32.0\nM.C.H.C.                      34.1        g/dL          31.5 - 34.5\nTOTAL LEUCOCYTE COUNT         3481 L      /cumm         4000 - 11000\nLYMPHOCYTES                   15 L        %             20 - 40\nPLATELET COUNT                4.49 H      lakh/cumm     1.50 - 4.10\n--------------------------------------------------------------------------------\n                             *** END OF REPORT ***\n                     SYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}

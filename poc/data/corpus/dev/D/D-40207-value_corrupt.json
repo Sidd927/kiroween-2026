@@ -1,0 +1,10 @@
+{
+ "doc_id": "D-40207-value_corrupt",
+ "layout": "D",
+ "perturbation": "value_corrupt",
+ "expected": "reject",
+ "expected_layout": "D",
+ "truth": null,
+ "text": "+----------------------------------------------------------------+\n|                     SHREE SAI DIAGNOSTICS                      |\n|             Near Bus Stand, Shirdi Road, Kopargaon             |\n+----------------------------------------------------------------+\n| UHID : 26-5969639            | Coll. Dt : 08.03.26            |\n| Name : SHRI RAHUL MEHTA      | Age/Sex : 73/M                 |\n+---------------------+---------+------------+------------+------+\n| PARAMETER           | VALUE   | UNIT       | RANGE      | FLAG |\n+---------------------+---------+------------+------------+------+\n| Glucose (Fasting)   | 60      | mg/dL      | 70-100     | L    |\n| Serum Creatinine    | 1.00    | mg/dL      | 0.60-1.20  |      |\n| Blood Urea          | 45      | mg/dL      | 15-40      | H    |\n| Haemoglobin         | 16.7    | g/dl       | 12.0-16.0  | H    |\n| Total Count (WBC)   | 9684    | /cumm      | 4000-11000 |      |\n| Platelets           | 2..22   | lakhs/cumm | 1.50-4.50  |      |\n+---------------------+---------+------------+------------+------+\n|                      ** End of Report **                       |\n+----------------------------------------------------------------+\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

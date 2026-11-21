@@ -1,0 +1,10 @@
+{
+ "doc_id": "F-60214-layout_drift",
+ "layout": "F",
+ "perturbation": "layout_drift",
+ "expected": "reject",
+ "expected_layout": "F",
+ "truth": null,
+ "text": "MEDILINK REFERENCE LAB  -  ACCESSION 4427353\nPT: FERNANDES KAVYA        MRN 38154013    AGE: 60Y  SEX: M\nCOLLECTED 03/16/2026 1040   RECEIVED 03/17/2026 0250\n========================================================================\nTEST NAME (UNITS)                   REF           RESULT    FLAG\n------------------------------------------------------------------------\nHEMOGLOBIN (g/dL)                   12.0-15.5     14.0\nHEMATOCRIT (%)                      36.0-46.0     36.2\nWBC (K/uL)                          4.0-11.0      1.8       L\nRBC (M/uL)                          4.00-5.20     3.69      L\nPLATELETS (K/uL)                    150-400       261\nMCV (fL)                            80.0-100.0    82.7\nGLUCOSE, FASTING (mg/dL)            70-99         90\nCREATININE (mg/dL)                  0.50-1.10     0.45      L\nALT (U/L)                           7-56          16\nAST (U/L)                           10-40         15\n------------------------------------------------------------------------\nEND OF REPORT\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "dev"
+}

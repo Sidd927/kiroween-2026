@@ -1,0 +1,72 @@
+{
+ "doc_id": "B-22000-col_shift",
+ "layout": "B",
+ "perturbation": "col_shift",
+ "expected": "accept",
+ "expected_layout": "B",
+ "truth": {
+  "patient_id": "CDC-834780",
+  "patient_name": "Nikhil Kulkarni",
+  "patient_age": 25,
+  "patient_sex": "female",
+  "collected": "2026-01-10",
+  "results": [
+   {
+    "code": "HGB",
+    "value": "12.1",
+    "unit": "g/dL",
+    "label": "Haemoglobin"
+   },
+   {
+    "code": "RBC",
+    "value": "4.95",
+    "unit": "million/cumm",
+    "label": "RBC Count"
+   },
+   {
+    "code": "HCT",
+    "value": "41.4",
+    "unit": "%",
+    "label": "PCV / Haematocrit"
+   },
+   {
+    "code": "MCV",
+    "value": "105.9",
+    "unit": "fl",
+    "label": "MCV"
+   },
+   {
+    "code": "MCH",
+    "value": "26.1",
+    "unit": "pg",
+    "label": "MCH"
+   },
+   {
+    "code": "MCHC",
+    "value": "32.0",
+    "unit": "g/dl",
+    "label": "MCHC"
+   },
+   {
+    "code": "WBC",
+    "value": "2689",
+    "unit": "cells/cumm",
+    "label": "Total WBC Count"
+   },
+   {
+    "code": "LYMPH%",
+    "value": "43",
+    "unit": "%",
+    "label": "Lymphocytes"
+   },
+   {
+    "code": "PLT",
+    "value": "154",
+    "unit": "10^3/uL",
+    "label": "Platelet Count"
+   }
+  ]
+ },
+ "text": "\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-834780            Date : 11-Jan-2026\nName    : Nikhil Kulkarni       Age  : 25 Y   Sex : Female\nSample collected on : 10-Jan-2026 10:00 AM\nReferred by : Dr. S. Joshi\n                                                     Page 1 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nHaemoglobin ............. \u001bE12.1     \u001bFg/dL           13.0-17.0\nRBC Count ............... 4.95      million/cumm  4.50-5.50\nPCV / Haematocrit ....... 41.4     %              40.0-50.0\nMCV ..................... \u001bE105.9    \u001bFfl              83.0-101.0\nMCH ..................... \u001bE26.1     \u001bFpg             27.0-32.0\nMCHC .................... 32.0    g/dl          31.5-34.5\n----------------------------------------------------------------\n                                                     (continued)\n\n\u001b@\u001bE                     CITY DIAGNOSTIC CENTRE                     \u001bF\n             Plot 7, MIDC Area, Aurangabad - 431001\nReg. No : CDC-834780            Date : 11-Jan-2026\nName    : Nikhil Kulkarni       Age  : 25 Y   Sex : Female\nSample collected on : 10-Jan-2026 10:00 AM\nReferred by : Dr. S. Joshi\n                                                     Page 2 of 2\n================================================================\nInvestigation             Value    Units         Biological Ref.\n----------------------------------------------------------------\nTotal WBC Count ......... \u001bE2689      \u001bFcells/cumm    4000-11000\nLymphocytes ............. \u001bE43      \u001bF%             20-40\nPlatelet Count .......... 154      10^3/uL        150-410\n----------------------------------------------------------------\nValues in bold are outside the biological reference interval.\n                     --- End of Report ---\nSYNTHETIC SAMPLE - NOT A REAL PATIENT\n",
+ "split": "test"
+}
