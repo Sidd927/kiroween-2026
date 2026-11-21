@@ -20,7 +20,7 @@
 | Market and competition | ReportMiner already has AI templates; print capture exists; small-lab thesis weak | 03, 04 |
 | Decision | **MODIFY** (new thesis, Kiro-built app, free-text confirmation, scope cut) | 22 |
 | Kiro application plan + MVP acceptance criteria | stack B (Python engine + FastAPI + React), new repository, schedule | 24, 25 |
-| GitHub checkpoint | see report 23 | 23 |
+| GitHub checkpoint | pushed `poc/spoolgeist-validation`: `53cd236`, `40696d5`, `650f47f` (remote verified) | 23 |
 
 ## In progress
 None. Everything is committed (see 23).
