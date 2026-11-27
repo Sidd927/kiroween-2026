@@ -25,6 +25,10 @@
 | Application repository | **created**: https://github.com/Sidd927/spoolgeist (public, MIT detected by GitHub, `main` at `257961a`): README stub, PRIOR_WORK.md and `.gitignore` only (Claude Code, disclosed). **No app code and no `/.kiro` yet: both must come from Kiro.** Local clone: `~/Projects/spoolgeist` | — |
 | GitHub checkpoint | pushed `poc/spoolgeist-validation`: `53cd236`, `40696d5`, `650f47f` (remote verified) | 23 |
 
+## Decisions log
+- **27 Nov:** independent strategy audit (report 30) recommends a golden-path scope.
+- **27 Nov:** **stack = TypeScript + RE2** (user decision); Kiro briefs retargeted.
+
 ## In progress
 None. Everything is committed (see 23).
 

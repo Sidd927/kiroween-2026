@@ -8,12 +8,22 @@
 - **Cut list:** accounts and multi-tenancy, dashboards, analytics, ABDM gateway, serial capture, auto-approval, rule editing by hand.
 
 ## tech.md
-- **Stack:** Python 3.11 (engine, FastAPI, SQLite), React + TypeScript + Vite (UI), Docker Compose, pytest + Hypothesis, Playwright for end-to-end tests.
+- **Stack** (decided 27 Nov):
+  - **TypeScript everywhere.** The engine is a pure TS package. The API is Hono on Node 22+, with SQLite via `better-sqlite3`. The UI is React + Vite.
+  - **Libraries:** `decimal.js` for exact arithmetic; `vitest` + `fast-check` for unit and property tests; Playwright for end-to-end tests; Docker for the hosted demo.
+- **Regex safety:** every rule regex is compiled and run with **RE2** (npm `re2`; fallback `re2-wasm`). Never use JavaScript's built-in `RegExp` on a rule pattern. RE2 syntax only: no lookbehind, no backreferences.
+- **Numbers:** never use JavaScript floating point for clinical values or units. Use `decimal.js` end to end.
 - **No network or AI calls** on the processing path (a test blocks sockets during processing). The LLM is used only in rule onboarding, behind a synthetic-only pre-send guard.
 - **Determinism:** the same bytes and the same rule version always give the same output. Rules are pinned by SHA-256 in a hash-chained registry.
 
 ## structure.md
-`engine/` (pure functions, no I/O) · `capture/` · `rules/` (bindings, registry, gate reports) · `api/` · `web/` · `tests/` (unit, property, metamorphic, e2e) · `fixtures/` (synthetic only).
+A monorepo (npm workspaces):
+- `packages/engine` (pure TS, no I/O);
+- `packages/gate` (mutation gate, compiler, registry);
+- `apps/api` (Hono, capture listener, SQLite);
+- `apps/web` (React);
+- `fixtures/` (synthetic print jobs only);
+- `tests/e2e`.
 
 ## safety.md (always included)
 - **Synthetic data only.** Never paste real patient data into prompts, fixtures or logs.
